@@ -8,7 +8,7 @@ $(function(){
         $.getJSON('./graph_attrs/compound_dot_graph.json'),
         $.getJSON('./graph_attrs/mml_classification.json')
     )
-    .done(function(dot_graph, classification){
+    .then((dot_graph, classification) => {
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
             container: document.getElementById('graph'),
@@ -21,7 +21,7 @@ $(function(){
 
         console.log(classification)
         console.log(dot_graph)
-        cy.add(dot_graph["eleObjs"]);
+        cy.add(...dot_graph["eleObjs"]);
         // Set graph style
         cy.style([
             /* 初期状態のスタイル */
@@ -258,7 +258,7 @@ $(function(){
             });
         });
 
-    }).fail(function() {
+    }, () => {
         alert("ERROR: Failed to read JSON file.");
     });
 
