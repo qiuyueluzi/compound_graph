@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hierarchical-emgraph(HITS-authority)</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            let layout = "dot_auth";
+        </script>
+        <script src="./draw_graph_change_node_size.js"></script>
+        <script src="https://unpkg.com/cytoscape@3.19.1/dist/cytoscape.min.js"></script>
+        <script src="https://unpkg.com/bootstrap@4.2.1/dist/js/bootstrap.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style.css"></link>
+    </head>
+    <body>
+        <form class="p-2">
+            <div class="form-row">
+                <div class="col-sm-2">
+                    <label for="article_name">Article</label>
+                    <div class="input-group">
+                        <input type="text" name="article_name" id="article_name" autocomplete="on"
+                            placeholder="Search" list="article_list" spellcheck="false" class="form-control">
+                        <datalist id="article_list"></datalist>
+                        <div class="input-group-append">
+                            <input class="btn btn-outline-success" type="button" id="search" value="search">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-sm-2">
+                    <label for="ancestor_generations">Upper Level</label>
+                    <input type="number" name="ancestor_generations" id="ancestor_generations" value="1" min="0" max="100" class="form-control">
+                </div>
+                <div class="col-xl-1 col-sm-2">
+                    <label for="descendant_generations">Lower Level</label>
+                    <input type="number" name="ancestor_generations" id="descendant_generations" value="1" min="0" max="100" class="form-control">
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="re-highlight">re-highlight</label>
+                    <button type="button" value="re-highlight" id="re-highlight", class="btn btn-outline-secondary form-control">re-highlight</button>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="reset">reset</label>
+                    <button type="button" value="reset" id="reset", class="btn btn-outline-danger form-control">reset</button>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="help">help</label>
+                    <button type="button" class="btn btn-outline-info form-control" data-toggle="modal" data-target="#help_dialog" id="help_btn">
+                        help
+                    </button>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="clustering_graph">Graph Version</label>
+                    <a class="btn btn-link form-control" href="./hierarchical_graph.html" role="button">2020</a>
+                    <a class="btn btn-link form-control" href="./hierarchical_graph_2003.html" role="button">2003</a>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="clustering_graph">Other Graph Style</label>
+                    <a class="btn btn-link form-control" href="./clustering_graph.html" role="button">Clustering Graph</a>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="clustering_graph">HITS Ranking</label>
+                    <a class="btn btn-link form-control" href="./hierarchical_graph_auth.html" role="button">Hits(Authority)</a>
+                    <a class="btn btn-link form-control" href="./hierarchical_graph_hub.html" role="button">Hits(Hub)</a>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="clustering_graph">Pagerank Ranking</label>
+                    <a class="btn btn-link form-control" href="./hierarchical_graph_pagerank.html" role="button">Pagerank</a>
+                </div>
+            </div>
+        </form>
+        <!-- Modal -->
+        <div class="modal fade" id="help_dialog" tabindex="-1" role="dialog" aria-labelledby="graph_usage" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="graph_usage">Usage (1/3)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <img src="./img/description-emgraph.png" alt="description-emgraph" class="rounded help_page" id="help_page1">
+                            <img src="./img/description-highlight-param.png" alt="description-highlight-param" class="rounded help_page" id="help_page2">
+                            <img src="./img/description-highlight-coloring.png" alt="description-highligh-coloring" class="rounded help_page" id="help_page3">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary mr-auto" id="help_page_prev_btn" style="display: none;">Prev</button>
+                        <button type="button" class="btn btn-primary " id="help_page_next_btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="color_index" id="hits_authority_coloring_index">
+            <p><b>Hits Authority</b></p>
+            <table class="color_labels">
+                <tr>
+                    <td class="color_row"><span style="background-color: #ff0000;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row">HIGH</td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #ff7777;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #ff9999;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #ffbbbb;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #ffdddd;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #ddffff;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #bbffff;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #99bbff;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #4477ff;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row"></td>
+                </tr>
+                <tr>
+                    <td class="color_row"><span style="background-color: #0000ff;">&emsp;&emsp;</span></td>
+                    <td class="node_size_param_row">LOW</td>
+                </tr>
+            </table>
+        </div>
+        <div id="name-plate"></div>
+        <div id="graph"></div>
+    </body>
+</html>
