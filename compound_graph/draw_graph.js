@@ -6,7 +6,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 $(function(){
     $.when(
         $.getJSON('./graph_attrs/compound_dot_graph.json'),
-        $.getJSON('./graph_attrs/mml_classification.JSON')
+        $.getJSON('./graph_attrs/mml_classification.json')
     )
     .then((dot_graph, classification) => {
         // cytoscapeグラフの作成(初期化)
