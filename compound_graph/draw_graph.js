@@ -68,6 +68,7 @@ $(function(){
             for(var x=0; x<classification.length; x++){
                 var parents = classification[x]["directory"]
                 var parent = parents.split('/')
+                console.log(parent.slice(-1))
                 dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
             }
             console.log(dot_graph)
@@ -86,6 +87,7 @@ $(function(){
                 {
                     selector: 'node:parent',
                     css: {
+                            'content': 'data(id)',
                             'text-valign': 'top',
                             'text-halign': 'left',
                             'background-color': '#20bd3d',
