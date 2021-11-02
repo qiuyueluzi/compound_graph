@@ -49,7 +49,7 @@ $(function(){
             // cytoscapeグラフの作成(初期化)
             let cy = window.cy = cytoscape({
                 container: document.getElementById('graph'),
-                elements: directory,
+                elements: [],
                 boxSelectionEnabled: true,
                 autounselectify: false,
                 selectionType: "additive",
@@ -63,7 +63,7 @@ $(function(){
                   }
             });
             
-            //cy.add(directory);
+            cy.add(directory);
             console.log(classification)
             for(var x=0; x<classification.length; x++){
                 var parents = classification[x]["directory"]
