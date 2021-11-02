@@ -5,10 +5,10 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 */
 $(function(){
     $.when(
-        $.getJSON('./graph_attrs/compound_dot_graph.json')/*,
-        $.getJSON('./graph_attrs/mml_classification.json')*/
+        $.getJSON('./graph_attrs/compound_dot_graph.json'),
+        $.getJSON('./graph_attrs/mml_classification.json')
     )
-    .then((dot_graph/*, classification*/) => {
+    .then((dot_graph, classification) => {
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
             container: document.getElementById('graph'),
@@ -19,7 +19,7 @@ $(function(){
             wheelSensitivity: 0.1
         });
 
-        //console.log(classification)
+        console.log(classification)
         console.log(dot_graph)
         cy.add(dot_graph["eleObjs"]);
         // Set graph style
