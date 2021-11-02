@@ -71,15 +71,16 @@ $(function(){
                   }
             });
             
+            cy.add(directory);
             console.log(classification)
             for(var x=0; x<classification.length; x++){
                 var parents = classification[x]["directory"]
                 var parent = parents.split('/')
                 dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
+                cy.add(dot_graph.eleObjs[x])
             }
             console.log(dot_graph)
-            cy.add(directory);
-            cy.add(dot_graph["eleObjs"]);
+            //cy.add(dot_graph["eleObjs"]);
             // Set graph style
             cy.style([
                 /* 初期状態のスタイル */
