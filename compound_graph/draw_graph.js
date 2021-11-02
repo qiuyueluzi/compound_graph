@@ -3,6 +3,40 @@
 createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
+var directory = {
+    nodes: [
+        {data: {id:'set'}},
+        {data: {id:'basic', parent: 'set'}},
+        {data: {id:'relation', parent: 'set'}},
+        {data: {id:'function', parent: 'set'}},
+        {data: {id:'ordinal', parent: 'set'}},
+        {data: {id:'choice', parent: 'set'}},
+        {data: {id:'class', parent: 'set'}},
+        {data: {id:'numeral', parent: 'set'}},
+        {data: {id:'cardinal', parent: 'set'}},
+        {data: {id:'semilattice', parent: 'set'}},
+        {data: {id:'computer'}},
+        {data: {id:'circuit', parent: 'computer'}},
+        {data: {id:'number'}},
+        {data: {id:'rational', parent: 'number'}},
+        {data: {id:'real', parent: 'number'}},
+        {data: {id:'complex', parent: 'number'}},
+        {data: {id:'operator', parent: 'number'}},
+        {data: {id:'natural', parent: 'number'}},
+        {data: {id:'integer', parent: 'number'}},
+        {data: {id:'common', parent: 'number'}},
+        {data: {id:'function', parent: 'number'}},
+        {data: {id:'extreal', parent: 'number'}},
+        {data: {id:'graph'}},
+        {data: {id:'tree', parent: 'graph'}},
+        {data: {id:'sequence'}},
+        {data: {id:'finite', parent: 'sequence'}},
+        {data: {id:'infinite', parent: 'sequence'}},
+        {data: {id:'convergence', parent: 'sequence'}},
+        {data: {id:'scheme', parent: 'finite'}}
+    ]
+
+}
 $(function(){
     $.when(
         $.getJSON('./graph_attrs/compound_dot_graph.json')
@@ -12,7 +46,6 @@ $(function(){
             $.getJSON('./graph_attrs/mml_classification.json')
         )
         .then((classification) =>{
-            console.log(classification)
             // cytoscapeグラフの作成(初期化)
             let cy = window.cy = cytoscape({
                 container: document.getElementById('graph'),
@@ -23,7 +56,14 @@ $(function(){
                 wheelSensitivity: 0.1
             });
             
+            console.log(classification)
             console.log(dot_graph)
+            for(var x=0; x<classification.length; x++){
+                var parents = classification[x]["directory"]
+                var parent = parents.split('/')
+                dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
+            }
+            cy.add(directory);
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
             cy.style([
