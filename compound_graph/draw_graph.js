@@ -64,8 +64,8 @@ $(function(){
             });
             
             cy.add(directory);
-            console.log(classification.length)
-            for(var x=0; x<classification.length; x++){
+            console.log(classification)
+            for(var x=0; x<classification.mml_classification.length; x++){
                 var parents = classification[x]["directory"]
                 var parent = parents.split('/')
                 console.log(parent.slice(-1))
