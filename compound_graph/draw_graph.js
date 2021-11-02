@@ -85,6 +85,15 @@ $(function(){
                     "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
                 },
                 {
+                    selector: 'node:parent',
+                    css: {
+                            'text-valign': 'top',
+                            'text-halign': 'left',
+                            'background-color': '#20bd3d',
+                            'background-opacity': 0.25
+                          }
+                    },
+                {
                     selector: "edge",
                     css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
                     "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1}  //0.3
@@ -177,15 +186,7 @@ $(function(){
                 selector: ".faded",
                 css: {"opacity": 0.15, "z-index": 0}
             },
-            {
-                selector: 'node:parent',
-                css: {
-                        'text-valign': 'top',
-                        'text-halign': 'left',
-                        'background-color': '#20bd3d',
-                        'background-opacity': 0.25
-                      }
-                },
+
         ]);
         
         /* 初期状態の設定 */
