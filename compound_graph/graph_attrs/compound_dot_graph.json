@@ -1,0 +1,4509 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI",
+                "name": "TARSKI",
+                "href": "tarski.html"
+            },
+            "position": {
+                "x": 4794.0,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XBOOLE_0",
+                "name": "XBOOLE_0",
+                "href": "xboole_0.html"
+            },
+            "position": {
+                "x": 4146.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BOOLE",
+                "name": "BOOLE",
+                "href": "boole.html"
+            },
+            "position": {
+                "x": 4146.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XBOOLE_1",
+                "name": "XBOOLE_1",
+                "href": "xboole_1.html"
+            },
+            "position": {
+                "x": 4572.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ENUMSET1",
+                "name": "ENUMSET1",
+                "href": "enumset1.html"
+            },
+            "position": {
+                "x": 4530.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XTUPLE_0",
+                "name": "XTUPLE_0",
+                "href": "xtuple_0.html"
+            },
+            "position": {
+                "x": 4482.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XFAMILY",
+                "name": "XFAMILY",
+                "href": "xfamily.html"
+            },
+            "position": {
+                "x": 4392.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XREGULAR",
+                "name": "XREGULAR",
+                "href": "xregular.html"
+            },
+            "position": {
+                "x": 4494.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZFMISC_1",
+                "name": "ZFMISC_1",
+                "href": "zfmisc_1.html"
+            },
+            "position": {
+                "x": 4770.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSET_1",
+                "name": "SUBSET_1",
+                "href": "subset_1.html"
+            },
+            "position": {
+                "x": 4770.0,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSET",
+                "name": "SUBSET",
+                "href": "subset.html"
+            },
+            "position": {
+                "x": 4770.0,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETFAM_1",
+                "name": "SETFAM_1",
+                "href": "setfam_1.html"
+            },
+            "position": {
+                "x": 4374.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELAT_1",
+                "name": "RELAT_1",
+                "href": "relat_1.html"
+            },
+            "position": {
+                "x": 5172.000000000001,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_1",
+                "name": "FUNCT_1",
+                "href": "funct_1.html"
+            },
+            "position": {
+                "x": 4368.0,
+                "y": 5724.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRFUNC_1",
+                "name": "GRFUNC_1",
+                "href": "grfunc_1.html"
+            },
+            "position": {
+                "x": 4008.0,
+                "y": 6156.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELAT_2",
+                "name": "RELAT_2",
+                "href": "relat_2.html"
+            },
+            "position": {
+                "x": 5700.0,
+                "y": 6156.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL1",
+                "name": "ORDINAL1",
+                "href": "ordinal1.html"
+            },
+            "position": {
+                "x": 4860.0,
+                "y": 6588.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLORD1",
+                "name": "WELLORD1",
+                "href": "wellord1.html"
+            },
+            "position": {
+                "x": 5730.0,
+                "y": 6588.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELSET_1",
+                "name": "RELSET_1",
+                "href": "relset_1.html"
+            },
+            "position": {
+                "x": 5172.000000000001,
+                "y": 5724.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTFUN1",
+                "name": "PARTFUN1",
+                "href": "partfun1.html"
+            },
+            "position": {
+                "x": 4002.0,
+                "y": 6588.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MCART_1",
+                "name": "MCART_1",
+                "href": "mcart_1.html"
+            },
+            "position": {
+                "x": 3180.0,
+                "y": 6588.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLORD2",
+                "name": "WELLORD2",
+                "href": "wellord2.html"
+            },
+            "position": {
+                "x": 4980.0,
+                "y": 7020.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_2",
+                "name": "FUNCT_2",
+                "href": "funct_2.html"
+            },
+            "position": {
+                "x": 3060.0000000000005,
+                "y": 7020.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINOP_1",
+                "name": "BINOP_1",
+                "href": "binop_1.html"
+            },
+            "position": {
+                "x": 2508.0,
+                "y": 7452.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DOMAIN_1",
+                "name": "DOMAIN_1",
+                "href": "domain_1.html"
+            },
+            "position": {
+                "x": 3876.0,
+                "y": 7020.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_3",
+                "name": "FUNCT_3",
+                "href": "funct_3.html"
+            },
+            "position": {
+                "x": 4146.0,
+                "y": 7884.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCOP_1",
+                "name": "FUNCOP_1",
+                "href": "funcop_1.html"
+            },
+            "position": {
+                "x": 6396.0,
+                "y": 8316.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REALSET1",
+                "name": "REALSET1",
+                "href": "realset1.html"
+            },
+            "position": {
+                "x": 6396.0,
+                "y": 8748.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_4",
+                "name": "FUNCT_4",
+                "href": "funct_4.html"
+            },
+            "position": {
+                "x": 6384.0,
+                "y": 9180.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NUMERALS",
+                "name": "NUMERALS",
+                "href": "numerals.html"
+            },
+            "position": {
+                "x": 4434.0,
+                "y": 7452.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL2",
+                "name": "ORDINAL2",
+                "href": "ordinal2.html"
+            },
+            "position": {
+                "x": 5550.0,
+                "y": 8748.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL3",
+                "name": "ORDINAL3",
+                "href": "ordinal3.html"
+            },
+            "position": {
+                "x": 5550.0,
+                "y": 9180.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLSET1",
+                "name": "WELLSET1",
+                "href": "wellset1.html"
+            },
+            "position": {
+                "x": 5862.0,
+                "y": 7020.000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MULTOP_1",
+                "name": "MULTOP_1",
+                "href": "multop_1.html"
+            },
+            "position": {
+                "x": 3312.0000000000005,
+                "y": 7452.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCHEMS_1",
+                "name": "SCHEMS_1",
+                "href": "schems_1.html"
+            },
+            "position": {
+                "x": 10434.0,
+                "y": 26028.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SYSREL",
+                "name": "SYSREL",
+                "href": "sysrel.html"
+            },
+            "position": {
+                "x": 11928.0,
+                "y": 18684.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSET_1",
+                "name": "FINSET_1",
+                "href": "finset_1.html"
+            },
+            "position": {
+                "x": 6324.000000000001,
+                "y": 9612.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_1",
+                "name": "CARD_1",
+                "href": "card_1.html"
+            },
+            "position": {
+                "x": 5400.0,
+                "y": 10044.000000000002
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CLASSES1",
+                "name": "CLASSES1",
+                "href": "classes1.html"
+            },
+            "position": {
+                "x": 5280.0,
+                "y": 12204.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PBOOLE",
+                "name": "PBOOLE",
+                "href": "pboole.html"
+            },
+            "position": {
+                "x": 5328.000000000001,
+                "y": 13068.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_1",
+                "name": "GATE_1",
+                "href": "gate_1.html"
+            },
+            "position": {
+                "x": 3138.0000000000005,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_2",
+                "name": "GATE_2",
+                "href": "gate_2.html"
+            },
+            "position": {
+                "x": 3810.0000000000005,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_3",
+                "name": "GATE_3",
+                "href": "gate_3.html"
+            },
+            "position": {
+                "x": 3138.0000000000005,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_4",
+                "name": "GATE_4",
+                "href": "gate_4.html"
+            },
+            "position": {
+                "x": 1794.0000000000002,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_5",
+                "name": "GATE_5",
+                "href": "gate_5.html"
+            },
+            "position": {
+                "x": 2466.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSUB_1",
+                "name": "FINSUB_1",
+                "href": "finsub_1.html"
+            },
+            "position": {
+                "x": 6342.0,
+                "y": 13068.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDERS_1",
+                "name": "ORDERS_1",
+                "href": "orders_1.html"
+            },
+            "position": {
+                "x": 5406.0,
+                "y": 14364.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETWISEO",
+                "name": "SETWISEO",
+                "href": "setwiseo.html"
+            },
+            "position": {
+                "x": 7464.0,
+                "y": 14364.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FRAENKEL",
+                "name": "FRAENKEL",
+                "href": "fraenkel.html"
+            },
+            "position": {
+                "x": 7188.0,
+                "y": 14796.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_5",
+                "name": "FUNCT_5",
+                "href": "funct_5.html"
+            },
+            "position": {
+                "x": 5814.0,
+                "y": 10908.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTFUN2",
+                "name": "PARTFUN2",
+                "href": "partfun2.html"
+            },
+            "position": {
+                "x": 6888.0,
+                "y": 11340.000000000002
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_3",
+                "name": "CARD_3",
+                "href": "card_3.html"
+            },
+            "position": {
+                "x": 5886.0,
+                "y": 13500.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_6",
+                "name": "FUNCT_6",
+                "href": "funct_6.html"
+            },
+            "position": {
+                "x": 5910.0,
+                "y": 13932.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARYTM_3",
+                "name": "ARYTM_3",
+                "href": "arytm_3.html"
+            },
+            "position": {
+                "x": 5526.000000000001,
+                "y": 9612.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARYTM_2",
+                "name": "ARYTM_2",
+                "href": "arytm_2.html"
+            },
+            "position": {
+                "x": 4674.0,
+                "y": 10044.000000000002
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARYTM_1",
+                "name": "ARYTM_1",
+                "href": "arytm_1.html"
+            },
+            "position": {
+                "x": 3960.0000000000005,
+                "y": 10476.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NUMBERS",
+                "name": "NUMBERS",
+                "href": "numbers.html"
+            },
+            "position": {
+                "x": 4770.0,
+                "y": 10476.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARYTM_0",
+                "name": "ARYTM_0",
+                "href": "arytm_0.html"
+            },
+            "position": {
+                "x": 3972.0,
+                "y": 10908.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XCMPLX_0",
+                "name": "XCMPLX_0",
+                "href": "xcmplx_0.html"
+            },
+            "position": {
+                "x": 3390.0,
+                "y": 11340.000000000002
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARITHM",
+                "name": "ARITHM",
+                "href": "arithm.html"
+            },
+            "position": {
+                "x": 3324.0,
+                "y": 11772.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XXREAL_0",
+                "name": "XXREAL_0",
+                "href": "xxreal_0.html"
+            },
+            "position": {
+                "x": 4092.0,
+                "y": 11772.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XREAL_0",
+                "name": "XREAL_0",
+                "href": "xreal_0.html"
+            },
+            "position": {
+                "x": 4092.0,
+                "y": 12204.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL",
+                "name": "REAL",
+                "href": "real.html"
+            },
+            "position": {
+                "x": 4806.0,
+                "y": 12636.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XCMPLX_1",
+                "name": "XCMPLX_1",
+                "href": "xcmplx_1.html"
+            },
+            "position": {
+                "x": 4110.0,
+                "y": 12636.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XREAL_1",
+                "name": "XREAL_1",
+                "href": "xreal_1.html"
+            },
+            "position": {
+                "x": 4320.0,
+                "y": 13068.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AXIOMS",
+                "name": "AXIOMS",
+                "href": "axioms.html"
+            },
+            "position": {
+                "x": 3570.0,
+                "y": 13068.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL_1",
+                "name": "REAL_1",
+                "href": "real_1.html"
+            },
+            "position": {
+                "x": 4956.0,
+                "y": 13500.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SQUARE_1",
+                "name": "SQUARE_1",
+                "href": "square_1.html"
+            },
+            "position": {
+                "x": 3552.0,
+                "y": 14796.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_1",
+                "name": "NAT_1",
+                "href": "nat_1.html"
+            },
+            "position": {
+                "x": 4326.0,
+                "y": 13500.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_1",
+                "name": "INT_1",
+                "href": "int_1.html"
+            },
+            "position": {
+                "x": 4980.0,
+                "y": 13932.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RAT_1",
+                "name": "RAT_1",
+                "href": "rat_1.html"
+            },
+            "position": {
+                "x": 4458.0,
+                "y": 14364.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEMBERED",
+                "name": "MEMBERED",
+                "href": "membered.html"
+            },
+            "position": {
+                "x": 4458.0,
+                "y": 14796.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUED_0",
+                "name": "VALUED_0",
+                "href": "valued_0.html"
+            },
+            "position": {
+                "x": 5934.0,
+                "y": 15228.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLEX1",
+                "name": "COMPLEX1",
+                "href": "complex1.html"
+            },
+            "position": {
+                "x": 4458.0,
+                "y": 15228.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABSVALUE",
+                "name": "ABSVALUE",
+                "href": "absvalue.html"
+            },
+            "position": {
+                "x": 4602.0,
+                "y": 16092.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_2",
+                "name": "INT_2",
+                "href": "int_2.html"
+            },
+            "position": {
+                "x": 4734.0,
+                "y": 16524.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_D",
+                "name": "NAT_D",
+                "href": "nat_d.html"
+            },
+            "position": {
+                "x": 5808.0,
+                "y": 16956.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINOP_2",
+                "name": "BINOP_2",
+                "href": "binop_2.html"
+            },
+            "position": {
+                "x": 7740.0,
+                "y": 17388.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XXREAL_1",
+                "name": "XXREAL_1",
+                "href": "xxreal_1.html"
+            },
+            "position": {
+                "x": 8268.0,
+                "y": 15660.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_2",
+                "name": "CARD_2",
+                "href": "card_2.html"
+            },
+            "position": {
+                "x": 6918.0,
+                "y": 15228.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XXREAL_2",
+                "name": "XXREAL_2",
+                "href": "xxreal_2.html"
+            },
+            "position": {
+                "x": 8796.0,
+                "y": 16956.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XXREAL_3",
+                "name": "XXREAL_3",
+                "href": "xxreal_3.html"
+            },
+            "position": {
+                "x": 8796.0,
+                "y": 18684.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEMBER_1",
+                "name": "MEMBER_1",
+                "href": "member_1.html"
+            },
+            "position": {
+                "x": 8760.0,
+                "y": 19548.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUPINF_1",
+                "name": "SUPINF_1",
+                "href": "supinf_1.html"
+            },
+            "position": {
+                "x": 9480.0,
+                "y": 19116.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUIN_1",
+                "name": "QUIN_1",
+                "href": "quin_1.html"
+            },
+            "position": {
+                "x": 3552.0,
+                "y": 15228.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CLASSES2",
+                "name": "CLASSES2",
+                "href": "classes2.html"
+            },
+            "position": {
+                "x": 5790.0,
+                "y": 19116.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL4",
+                "name": "ORDINAL4",
+                "href": "ordinal4.html"
+            },
+            "position": {
+                "x": 5790.0,
+                "y": 20412.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_1",
+                "name": "FINSEQ_1",
+                "href": "finseq_1.html"
+            },
+            "position": {
+                "x": 5934.0,
+                "y": 15660.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RECDEF_1",
+                "name": "RECDEF_1",
+                "href": "recdef_1.html"
+            },
+            "position": {
+                "x": 6198.0,
+                "y": 16524.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EQREL_1",
+                "name": "EQREL_1",
+                "href": "eqrel_1.html"
+            },
+            "position": {
+                "x": 5412.0,
+                "y": 16092.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_2",
+                "name": "FINSEQ_2",
+                "href": "finseq_2.html"
+            },
+            "position": {
+                "x": 3762.0000000000005,
+                "y": 16092.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQOP",
+                "name": "FINSEQOP",
+                "href": "finseqop.html"
+            },
+            "position": {
+                "x": 4020.0,
+                "y": 16524.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_3",
+                "name": "FINSEQ_3",
+                "href": "finseq_3.html"
+            },
+            "position": {
+                "x": 4260.0,
+                "y": 16956.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUED_1",
+                "name": "VALUED_1",
+                "href": "valued_1.html"
+            },
+            "position": {
+                "x": 6840.0,
+                "y": 17388.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_1",
+                "name": "SEQ_1",
+                "href": "seq_1.html"
+            },
+            "position": {
+                "x": 6732.0,
+                "y": 18252.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_1",
+                "name": "COMSEQ_1",
+                "href": "comseq_1.html"
+            },
+            "position": {
+                "x": 7440.0,
+                "y": 17820.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XBOOLEAN",
+                "name": "XBOOLEAN",
+                "href": "xboolean.html"
+            },
+            "position": {
+                "x": 2988.0000000000005,
+                "y": 12204.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_2",
+                "name": "COMSEQ_2",
+                "href": "comseq_2.html"
+            },
+            "position": {
+                "x": 7482.0,
+                "y": 18252.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_2",
+                "name": "SEQ_2",
+                "href": "seq_2.html"
+            },
+            "position": {
+                "x": 6732.0,
+                "y": 18684.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MARGREL1",
+                "name": "MARGREL1",
+                "href": "margrel1.html"
+            },
+            "position": {
+                "x": 2676.0,
+                "y": 17388.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOLER_1",
+                "name": "TOLER_1",
+                "href": "toler_1.html"
+            },
+            "position": {
+                "x": 5394.0,
+                "y": 16524.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_1",
+                "name": "TREES_1",
+                "href": "trees_1.html"
+            },
+            "position": {
+                "x": 4260.0,
+                "y": 18684.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_4",
+                "name": "FINSEQ_4",
+                "href": "finseq_4.html"
+            },
+            "position": {
+                "x": 5064.0,
+                "y": 17388.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSOP_1",
+                "name": "FINSOP_1",
+                "href": "finsop_1.html"
+            },
+            "position": {
+                "x": 5550.0,
+                "y": 18252.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETWOP_2",
+                "name": "SETWOP_2",
+                "href": "setwop_2.html"
+            },
+            "position": {
+                "x": 7494.0,
+                "y": 19116.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_1",
+                "name": "RFUNCT_1",
+                "href": "rfunct_1.html"
+            },
+            "position": {
+                "x": 6636.0,
+                "y": 19116.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_1",
+                "name": "RVSUM_1",
+                "href": "rvsum_1.html"
+            },
+            "position": {
+                "x": 7860.0,
+                "y": 19548.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON",
+                "name": "NEWTON",
+                "href": "newton.html"
+            },
+            "position": {
+                "x": 7080.0,
+                "y": 19980.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_4",
+                "name": "CARD_4",
+                "href": "card_4.html"
+            },
+            "position": {
+                "x": 7182.0,
+                "y": 20412.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_5",
+                "name": "CARD_5",
+                "href": "card_5.html"
+            },
+            "position": {
+                "x": 5790.0,
+                "y": 20844.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_2",
+                "name": "TREES_2",
+                "href": "trees_2.html"
+            },
+            "position": {
+                "x": 4980.0,
+                "y": 20412.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUED_2",
+                "name": "VALUED_2",
+                "href": "valued_2.html"
+            },
+            "position": {
+                "x": 6330.0,
+                "y": 19548.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQM_3",
+                "name": "SEQM_3",
+                "href": "seqm_3.html"
+            },
+            "position": {
+                "x": 7104.0,
+                "y": 19548.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFINSEQ",
+                "name": "RFINSEQ",
+                "href": "rfinseq.html"
+            },
+            "position": {
+                "x": 7860.0,
+                "y": 19980.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_4",
+                "name": "SEQ_4",
+                "href": "seq_4.html"
+            },
+            "position": {
+                "x": 8550.0,
+                "y": 19980.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RCOMP_1",
+                "name": "RCOMP_1",
+                "href": "rcomp_1.html"
+            },
+            "position": {
+                "x": 8982.0,
+                "y": 20844.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_2",
+                "name": "RFUNCT_2",
+                "href": "rfunct_2.html"
+            },
+            "position": {
+                "x": 8994.0,
+                "y": 21276.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFUNCT_1",
+                "name": "CFUNCT_1",
+                "href": "cfunct_1.html"
+            },
+            "position": {
+                "x": 4194.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FCONT_1",
+                "name": "FCONT_1",
+                "href": "fcont_1.html"
+            },
+            "position": {
+                "x": 10362.0,
+                "y": 21708.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FCONT_2",
+                "name": "FCONT_2",
+                "href": "fcont_2.html"
+            },
+            "position": {
+                "x": 9456.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_1",
+                "name": "FDIFF_1",
+                "href": "fdiff_1.html"
+            },
+            "position": {
+                "x": 11814.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROLLE",
+                "name": "ROLLE",
+                "href": "rolle.html"
+            },
+            "position": {
+                "x": 12708.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PREPOWER",
+                "name": "PREPOWER",
+                "href": "prepower.html"
+            },
+            "position": {
+                "x": 6402.0,
+                "y": 21708.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_5",
+                "name": "FINSEQ_5",
+                "href": "finseq_5.html"
+            },
+            "position": {
+                "x": 7932.0,
+                "y": 20412.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REWRITE1",
+                "name": "REWRITE1",
+                "href": "rewrite1.html"
+            },
+            "position": {
+                "x": 7914.0,
+                "y": 20844.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_7",
+                "name": "FUNCT_7",
+                "href": "funct_7.html"
+            },
+            "position": {
+                "x": 9810.0,
+                "y": 21276.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCHEME1",
+                "name": "SCHEME1",
+                "href": "scheme1.html"
+            },
+            "position": {
+                "x": 7926.000000000001,
+                "y": 21276.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABIAN",
+                "name": "ABIAN",
+                "href": "abian.html"
+            },
+            "position": {
+                "x": 8514.0,
+                "y": 21708.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POWER",
+                "name": "POWER",
+                "href": "power.html"
+            },
+            "position": {
+                "x": 6402.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_1",
+                "name": "POLYEQ_1",
+                "href": "polyeq_1.html"
+            },
+            "position": {
+                "x": 3432.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_1",
+                "name": "SERIES_1",
+                "href": "series_1.html"
+            },
+            "position": {
+                "x": 5922.000000000001,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_3",
+                "name": "COMSEQ_3",
+                "href": "comseq_3.html"
+            },
+            "position": {
+                "x": 5064.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFCONT_1",
+                "name": "CFCONT_1",
+                "href": "cfcont_1.html"
+            },
+            "position": {
+                "x": 5112.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFDIFF_1",
+                "name": "CFDIFF_1",
+                "href": "cfdiff_1.html"
+            },
+            "position": {
+                "x": 5088.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RPR_1",
+                "name": "RPR_1",
+                "href": "rpr_1.html"
+            },
+            "position": {
+                "x": 6324.000000000001,
+                "y": 16092.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUPINF_2",
+                "name": "SUPINF_2",
+                "href": "supinf_2.html"
+            },
+            "position": {
+                "x": 9792.0,
+                "y": 20844.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_A",
+                "name": "TREES_A",
+                "href": "trees_a.html"
+            },
+            "position": {
+                "x": 3864.0000000000005,
+                "y": 21708.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_FF",
+                "name": "PRE_FF",
+                "href": "pre_ff.html"
+            },
+            "position": {
+                "x": 7608.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_3",
+                "name": "TREES_3",
+                "href": "trees_3.html"
+            },
+            "position": {
+                "x": 4224.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTIT1",
+                "name": "PARTIT1",
+                "href": "partit1.html"
+            },
+            "position": {
+                "x": 4836.0,
+                "y": 17820.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_4",
+                "name": "TREES_4",
+                "href": "trees_4.html"
+            },
+            "position": {
+                "x": 4224.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_FIL",
+                "name": "CARD_FIL",
+                "href": "card_fil.html"
+            },
+            "position": {
+                "x": 5622.000000000001,
+                "y": 21276.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINARITH",
+                "name": "BINARITH",
+                "href": "binarith.html"
+            },
+            "position": {
+                "x": 2676.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_CIRC",
+                "name": "PRE_CIRC",
+                "href": "pre_circ.html"
+            },
+            "position": {
+                "x": 3198.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_6",
+                "name": "FINSEQ_6",
+                "href": "finseq_6.html"
+            },
+            "position": {
+                "x": 2154.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MBOOLEAN",
+                "name": "MBOOLEAN",
+                "href": "mboolean.html"
+            },
+            "position": {
+                "x": 3960.0000000000005,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WSIERP_1",
+                "name": "WSIERP_1",
+                "href": "wsierp_1.html"
+            },
+            "position": {
+                "x": 6978.000000000001,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_000",
+                "name": "GLIB_000",
+                "href": "glib_000.html"
+            },
+            "position": {
+                "x": 5808.0,
+                "y": 17820.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PZFMISC1",
+                "name": "PZFMISC1",
+                "href": "pzfmisc1.html"
+            },
+            "position": {
+                "x": 4800.0,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GENEALG1",
+                "name": "GENEALG1",
+                "href": "genealg1.html"
+            },
+            "position": {
+                "x": 2118.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINARI_2",
+                "name": "BINARI_2",
+                "href": "binari_2.html"
+            },
+            "position": {
+                "x": 1356.0000000000002,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_9",
+                "name": "TREES_9",
+                "href": "trees_9.html"
+            },
+            "position": {
+                "x": 1296.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSSUBFAM",
+                "name": "MSSUBFAM",
+                "href": "mssubfam.html"
+            },
+            "position": {
+                "x": 5598.0,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELSET_2",
+                "name": "RELSET_2",
+                "href": "relset_2.html"
+            },
+            "position": {
+                "x": 9534.0,
+                "y": 25164.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RECDEF_2",
+                "name": "RECDEF_2",
+                "href": "recdef_2.html"
+            },
+            "position": {
+                "x": 540.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_1",
+                "name": "PROB_1",
+                "href": "prob_1.html"
+            },
+            "position": {
+                "x": 11088.0,
+                "y": 21708.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_2",
+                "name": "PROB_2",
+                "href": "prob_2.html"
+            },
+            "position": {
+                "x": 12912.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC1",
+                "name": "LIMFUNC1",
+                "href": "limfunc1.html"
+            },
+            "position": {
+                "x": 10278.0,
+                "y": 22140.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC2",
+                "name": "LIMFUNC2",
+                "href": "limfunc2.html"
+            },
+            "position": {
+                "x": 11136.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQFUNC",
+                "name": "SEQFUNC",
+                "href": "seqfunc.html"
+            },
+            "position": {
+                "x": 11982.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC3",
+                "name": "LIMFUNC3",
+                "href": "limfunc3.html"
+            },
+            "position": {
+                "x": 12174.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FCONT_3",
+                "name": "FCONT_3",
+                "href": "fcont_3.html"
+            },
+            "position": {
+                "x": 9456.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC4",
+                "name": "LIMFUNC4",
+                "href": "limfunc4.html"
+            },
+            "position": {
+                "x": 11886.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "L_HOSPIT",
+                "name": "L_HOSPIT",
+                "href": "l_hospit.html"
+            },
+            "position": {
+                "x": 12726.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_2",
+                "name": "FDIFF_2",
+                "href": "fdiff_2.html"
+            },
+            "position": {
+                "x": 10272.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_3",
+                "name": "FDIFF_3",
+                "href": "fdiff_3.html"
+            },
+            "position": {
+                "x": 10686.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE1",
+                "name": "MEASURE1",
+                "href": "measure1.html"
+            },
+            "position": {
+                "x": 14376.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE2",
+                "name": "MEASURE2",
+                "href": "measure2.html"
+            },
+            "position": {
+                "x": 14376.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE3",
+                "name": "MEASURE3",
+                "href": "measure3.html"
+            },
+            "position": {
+                "x": 14376.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE4",
+                "name": "MEASURE4",
+                "href": "measure4.html"
+            },
+            "position": {
+                "x": 14604.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_3",
+                "name": "RFUNCT_3",
+                "href": "rfunct_3.html"
+            },
+            "position": {
+                "x": 10272.0,
+                "y": 22572.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE5",
+                "name": "MEASURE5",
+                "href": "measure5.html"
+            },
+            "position": {
+                "x": 10656.000000000002,
+                "y": 21276.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REARRAN1",
+                "name": "REARRAN1",
+                "href": "rearran1.html"
+            },
+            "position": {
+                "x": 11070.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE6",
+                "name": "MEASURE6",
+                "href": "measure6.html"
+            },
+            "position": {
+                "x": 9456.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EXTREAL1",
+                "name": "EXTREAL1",
+                "href": "extreal1.html"
+            },
+            "position": {
+                "x": 4032.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE7",
+                "name": "MEASURE7",
+                "href": "measure7.html"
+            },
+            "position": {
+                "x": 14886.000000000002,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_4",
+                "name": "RFUNCT_4",
+                "href": "rfunct_4.html"
+            },
+            "position": {
+                "x": 13266.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC1",
+                "name": "MESFUNC1",
+                "href": "mesfunc1.html"
+            },
+            "position": {
+                "x": 9534.0,
+                "y": 25596.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS",
+                "name": "SIN_COS",
+                "href": "sin_cos.html"
+            },
+            "position": {
+                "x": 6738.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC2",
+                "name": "MESFUNC2",
+                "href": "mesfunc2.html"
+            },
+            "position": {
+                "x": 9534.0,
+                "y": 26028.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS2",
+                "name": "SIN_COS2",
+                "href": "sin_cos2.html"
+            },
+            "position": {
+                "x": 5898.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS3",
+                "name": "SIN_COS3",
+                "href": "sin_cos3.html"
+            },
+            "position": {
+                "x": 5640.0,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS4",
+                "name": "SIN_COS4",
+                "href": "sin_cos4.html"
+            },
+            "position": {
+                "x": 6714.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS5",
+                "name": "SIN_COS5",
+                "href": "sin_cos5.html"
+            },
+            "position": {
+                "x": 6462.0,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_0",
+                "name": "ASYMPT_0",
+                "href": "asympt_0.html"
+            },
+            "position": {
+                "x": 8580.0,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPTRIG",
+                "name": "COMPTRIG",
+                "href": "comptrig.html"
+            },
+            "position": {
+                "x": 3924.0,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLEX2",
+                "name": "COMPLEX2",
+                "href": "complex2.html"
+            },
+            "position": {
+                "x": 4692.0,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_2",
+                "name": "POLYEQ_2",
+                "href": "polyeq_2.html"
+            },
+            "position": {
+                "x": 5922.000000000001,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_3",
+                "name": "POLYEQ_3",
+                "href": "polyeq_3.html"
+            },
+            "position": {
+                "x": 3834.0000000000005,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_4",
+                "name": "POLYEQ_4",
+                "href": "polyeq_4.html"
+            },
+            "position": {
+                "x": 5952.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_5",
+                "name": "POLYEQ_5",
+                "href": "polyeq_5.html"
+            },
+            "position": {
+                "x": 3852.0,
+                "y": 25164.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS6",
+                "name": "SIN_COS6",
+                "href": "sin_cos6.html"
+            },
+            "position": {
+                "x": 4692.0,
+                "y": 25164.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EULER_1",
+                "name": "EULER_1",
+                "href": "euler_1.html"
+            },
+            "position": {
+                "x": 7776.000000000001,
+                "y": 23004.000000000004
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EULER_2",
+                "name": "EULER_2",
+                "href": "euler_2.html"
+            },
+            "position": {
+                "x": 7950.0,
+                "y": 23436.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_1",
+                "name": "ASYMPT_1",
+                "href": "asympt_1.html"
+            },
+            "position": {
+                "x": 7860.0,
+                "y": 23868.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_3",
+                "name": "SERIES_3",
+                "href": "series_3.html"
+            },
+            "position": {
+                "x": 7278.000000000001,
+                "y": 24300.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_4",
+                "name": "SERIES_4",
+                "href": "series_4.html"
+            },
+            "position": {
+                "x": 7308.0,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_5",
+                "name": "SERIES_5",
+                "href": "series_5.html"
+            },
+            "position": {
+                "x": 8112.0,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUATERNI",
+                "name": "QUATERNI",
+                "href": "quaterni.html"
+            },
+            "position": {
+                "x": 6480.0,
+                "y": 24732.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "tarski_0.html"
+            },
+            "position": {
+                "x": 4794.0,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "tarski_a.html"
+            },
+            "position": {
+                "x": 5154.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TARSKI",
+                "target": "TARSKI_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XBOOLE_0",
+                "target": "TARSKI"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BOOLE",
+                "target": "XBOOLE_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XBOOLE_1",
+                "target": "BOOLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ENUMSET1",
+                "target": "XBOOLE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XTUPLE_0",
+                "target": "ENUMSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XFAMILY",
+                "target": "XTUPLE_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XREGULAR",
+                "target": "XFAMILY"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZFMISC_1",
+                "target": "XREGULAR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZFMISC_1",
+                "target": "TARSKI_A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBSET_1",
+                "target": "ZFMISC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBSET",
+                "target": "SUBSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SETFAM_1",
+                "target": "SUBSET"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELAT_1",
+                "target": "SUBSET"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_1",
+                "target": "SETFAM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_1",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRFUNC_1",
+                "target": "FUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELAT_2",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL1",
+                "target": "FUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD1",
+                "target": "RELAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD1",
+                "target": "FUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_1",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN1",
+                "target": "RELAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN1",
+                "target": "GRFUNC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN1",
+                "target": "RELSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MCART_1",
+                "target": "FUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD2",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD2",
+                "target": "MCART_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD2",
+                "target": "WELLORD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_2",
+                "target": "PARTFUN1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_2",
+                "target": "MCART_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINOP_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DOMAIN_1",
+                "target": "PARTFUN1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DOMAIN_1",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DOMAIN_1",
+                "target": "MCART_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_3",
+                "target": "NUMERALS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_3",
+                "target": "BINOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_3",
+                "target": "DOMAIN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCOP_1",
+                "target": "WELLORD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCOP_1",
+                "target": "FUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REALSET1",
+                "target": "FUNCOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_4",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NUMERALS",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL2",
+                "target": "FUNCOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL3",
+                "target": "ORDINAL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLSET1",
+                "target": "WELLORD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MULTOP_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MULTOP_1",
+                "target": "DOMAIN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SYSREL",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSET_1",
+                "target": "FUNCT_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSET_1",
+                "target": "ORDINAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_1",
+                "target": "FINSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_1",
+                "target": "WELLORD2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CLASSES1",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PBOOLE",
+                "target": "CLASSES1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_1",
+                "target": "XBOOLE_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_2",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_2",
+                "target": "BOOLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_3",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_4",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_5",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSUB_1",
+                "target": "FINSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDERS_1",
+                "target": "PBOOLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SETWISEO",
+                "target": "FINSUB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FRAENKEL",
+                "target": "SETWISEO"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_5",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN2",
+                "target": "FUNCOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_3",
+                "target": "PBOOLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_3",
+                "target": "FINSUB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_3",
+                "target": "FUNCT_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_6",
+                "target": "CARD_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARYTM_3",
+                "target": "ORDINAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARYTM_2",
+                "target": "ARYTM_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARYTM_1",
+                "target": "ARYTM_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NUMBERS",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NUMBERS",
+                "target": "ARYTM_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARYTM_0",
+                "target": "ARYTM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARYTM_0",
+                "target": "NUMBERS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XCMPLX_0",
+                "target": "ARYTM_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ARITHM",
+                "target": "XCMPLX_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XXREAL_0",
+                "target": "ARYTM_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XREAL_0",
+                "target": "ARITHM"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XREAL_0",
+                "target": "XXREAL_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REAL",
+                "target": "XREAL_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XCMPLX_1",
+                "target": "XREAL_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XREAL_1",
+                "target": "REAL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XREAL_1",
+                "target": "XCMPLX_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AXIOMS",
+                "target": "XREAL_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REAL_1",
+                "target": "REAL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SQUARE_1",
+                "target": "XREAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SQUARE_1",
+                "target": "AXIOMS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NAT_1",
+                "target": "XREAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NAT_1",
+                "target": "AXIOMS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NAT_1",
+                "target": "PBOOLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_1",
+                "target": "REAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_1",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RAT_1",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEMBERED",
+                "target": "RAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_0",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_0",
+                "target": "PARTFUN2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX1",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABSVALUE",
+                "target": "COMPLEX1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_2",
+                "target": "ABSVALUE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NAT_D",
+                "target": "INT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINOP_2",
+                "target": "VALUED_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINOP_2",
+                "target": "SETWISEO"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XXREAL_1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_2",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_2",
+                "target": "FRAENKEL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_2",
+                "target": "FUNCT_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XXREAL_2",
+                "target": "XXREAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XXREAL_2",
+                "target": "SETWISEO"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XXREAL_3",
+                "target": "XXREAL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEMBER_1",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEMBER_1",
+                "target": "XXREAL_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUPINF_1",
+                "target": "XXREAL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QUIN_1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QUIN_1",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CLASSES2",
+                "target": "CARD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL4",
+                "target": "CLASSES2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_1",
+                "target": "VALUED_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_1",
+                "target": "CARD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RECDEF_1",
+                "target": "FINSEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EQREL_1",
+                "target": "FINSEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EQREL_1",
+                "target": "ORDERS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_2",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_2",
+                "target": "FINSEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQOP",
+                "target": "EQREL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQOP",
+                "target": "FINSEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_3",
+                "target": "FINSEQOP"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_1",
+                "target": "NAT_D"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_1",
+                "target": "XXREAL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_1",
+                "target": "RECDEF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_1",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_1",
+                "target": "VALUED_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMSEQ_1",
+                "target": "VALUED_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "XBOOLEAN",
+                "target": "ARITHM"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMSEQ_2",
+                "target": "COMSEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_2",
+                "target": "SEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_2",
+                "target": "COMSEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MARGREL1",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MARGREL1",
+                "target": "XBOOLEAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOLER_1",
+                "target": "EQREL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_1",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_4",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSOP_1",
+                "target": "FINSEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SETWOP_2",
+                "target": "FINSOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_1",
+                "target": "SEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_1",
+                "target": "SETWOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_1",
+                "target": "RFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_1",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NEWTON",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_4",
+                "target": "NEWTON"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_5",
+                "target": "CARD_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_5",
+                "target": "ORDINAL4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_2",
+                "target": "TREES_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_2",
+                "target": "RFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQM_3",
+                "target": "RFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFINSEQ",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFINSEQ",
+                "target": "SEQM_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_4",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_4",
+                "target": "SEQM_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_4",
+                "target": "MEMBER_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RCOMP_1",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_2",
+                "target": "RCOMP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFUNCT_1",
+                "target": "RFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_1",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_2",
+                "target": "FCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_1",
+                "target": "FCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROLLE",
+                "target": "FDIFF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PREPOWER",
+                "target": "NEWTON"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PREPOWER",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_5",
+                "target": "RFINSEQ"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REWRITE1",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REWRITE1",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_7",
+                "target": "REWRITE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCHEME1",
+                "target": "SEQM_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABIAN",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABIAN",
+                "target": "FUNCT_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABIAN",
+                "target": "SCHEME1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POWER",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POWER",
+                "target": "ABIAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_1",
+                "target": "QUIN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_1",
+                "target": "POWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_1",
+                "target": "POWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMSEQ_3",
+                "target": "SERIES_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFCONT_1",
+                "target": "CFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFCONT_1",
+                "target": "COMSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFDIFF_1",
+                "target": "CFCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RPR_1",
+                "target": "FINSEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUPINF_2",
+                "target": "CARD_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUPINF_2",
+                "target": "MEMBER_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUPINF_2",
+                "target": "SUPINF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_A",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRE_FF",
+                "target": "POWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_3",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTIT1",
+                "target": "FINSEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_4",
+                "target": "TREES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIL",
+                "target": "CARD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIL",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINARITH",
+                "target": "MARGREL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINARITH",
+                "target": "SERIES_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINARITH",
+                "target": "TREES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRE_CIRC",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRE_CIRC",
+                "target": "TREES_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_6",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MBOOLEAN",
+                "target": "PRE_CIRC"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WSIERP_1",
+                "target": "CARD_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WSIERP_1",
+                "target": "PRE_FF"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WSIERP_1",
+                "target": "TREES_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_000",
+                "target": "FINSEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_000",
+                "target": "NAT_D"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_000",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PZFMISC1",
+                "target": "MBOOLEAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GENEALG1",
+                "target": "FINSEQ_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINARI_2",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_9",
+                "target": "PRE_CIRC"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_9",
+                "target": "FINSEQ_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_9",
+                "target": "TREES_A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSSUBFAM",
+                "target": "PZFMISC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_2",
+                "target": "MSSUBFAM"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_2",
+                "target": "SYSREL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RECDEF_2",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROB_1",
+                "target": "FUNCT_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROB_2",
+                "target": "PROB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC1",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC1",
+                "target": "PROB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC2",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQFUNC",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQFUNC",
+                "target": "FCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC3",
+                "target": "LIMFUNC2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_3",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_3",
+                "target": "FCONT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC4",
+                "target": "LIMFUNC3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "L_HOSPIT",
+                "target": "LIMFUNC3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "L_HOSPIT",
+                "target": "ROLLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_2",
+                "target": "FCONT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_2",
+                "target": "ROLLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_2",
+                "target": "SCHEME1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_3",
+                "target": "LIMFUNC2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_3",
+                "target": "FDIFF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE1",
+                "target": "PROB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE1",
+                "target": "SUPINF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE2",
+                "target": "MEASURE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE3",
+                "target": "MEASURE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE4",
+                "target": "MEASURE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_3",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE5",
+                "target": "RCOMP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE5",
+                "target": "SUPINF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REARRAN1",
+                "target": "RFUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE6",
+                "target": "FCONT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE6",
+                "target": "MEASURE5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EXTREAL1",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EXTREAL1",
+                "target": "RFUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EXTREAL1",
+                "target": "MEASURE6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE7",
+                "target": "MEASURE4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE7",
+                "target": "MEASURE6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_4",
+                "target": "FCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_4",
+                "target": "RFUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_4",
+                "target": "MEASURE5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC1",
+                "target": "RELSET_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC1",
+                "target": "MEASURE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC1",
+                "target": "EXTREAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS",
+                "target": "FDIFF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS",
+                "target": "COMSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC2",
+                "target": "MESFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS2",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS3",
+                "target": "CFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS3",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS4",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS5",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS5",
+                "target": "SIN_COS4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_0",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_0",
+                "target": "PRE_FF"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPTRIG",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPTRIG",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX2",
+                "target": "COMPTRIG"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_2",
+                "target": "POLYEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_2",
+                "target": "SERIES_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_3",
+                "target": "COMPTRIG"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_3",
+                "target": "POLYEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_4",
+                "target": "POLYEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_5",
+                "target": "COMPLEX2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_5",
+                "target": "POLYEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS6",
+                "target": "COMPLEX2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EULER_1",
+                "target": "PRE_FF"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EULER_2",
+                "target": "WSIERP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EULER_2",
+                "target": "EULER_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_1",
+                "target": "ASYMPT_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_1",
+                "target": "EULER_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_1",
+                "target": "SERIES_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_3",
+                "target": "POLYEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_3",
+                "target": "ASYMPT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_3",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_4",
+                "target": "SERIES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_5",
+                "target": "SERIES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QUATERNI",
+                "target": "SERIES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TARSKI_A",
+                "target": "TARSKI"
+            }
+        }
+    ]
+}

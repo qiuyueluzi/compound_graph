@@ -1,0 +1,62 @@
+#graph{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+button:active{
+    color: white;
+    background-color: black;
+}
+
+#color_index{
+    position: absolute;
+    z-index: 10;
+}
+
+.color_index{
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    right: 20px;
+}
+
+.color_labels .number_row{
+    width: 20px;
+    text-align: center;
+}
+
+.color_labels .color_row{
+    width: 40px;
+}
+
+.color_labels .generation_param_row{
+    width: 140px;
+    font-size: 100%;
+}
+
+.color_labels .node_size_param_row{
+    width: 80px;
+}
+
+#name-plate{
+    position: absolute;
+    z-index: 30;
+    font-size: 25px;
+    background-color: #ffe4c4;
+}
+
+.hidden_show {
+    visibility: hidden;
+}
+
+#help_page2 {
+    display: none;
+}
+
+
+#help_page3 {
+    display: none;
+}
