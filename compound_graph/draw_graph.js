@@ -72,12 +72,12 @@ $(function(){
             });
             
             console.log(classification)
-            console.log(dot_graph)
             for(var x=0; x<classification.length; x++){
                 var parents = classification[x]["directory"]
                 var parent = parents.split('/')
                 dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
             }
+            console.log(dot_graph)
             cy.add(directory);
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
