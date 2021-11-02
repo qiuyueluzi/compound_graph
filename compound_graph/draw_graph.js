@@ -53,7 +53,22 @@ $(function(){
                 boxSelectionEnabled: true,
                 autounselectify: false,
                 selectionType: "additive",
-                wheelSensitivity: 0.1
+                wheelSensitivity: 0.1,
+                autounselectify: true,
+                style: 
+                {
+                    selector: 'node:parent',
+                    css: {
+                            'text-valign': 'top',
+                            'text-halign': 'left',
+                            'background-opacity': 0.25
+                          }
+                    },
+                layout: {
+                    name: 'cola',
+                    directed: true,
+                    animate: false
+                  }
             });
             
             console.log(classification)
