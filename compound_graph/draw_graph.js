@@ -61,6 +61,7 @@ $(function(){
                     css: {
                             'text-valign': 'top',
                             'text-halign': 'left',
+                            'background-color': '#20bd3d',
                             'background-opacity': 0.25
                           }
                     },
