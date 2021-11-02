@@ -63,7 +63,7 @@ $(function(){
                   }
             });
             
-            cy.add(directory);
+            //cy.add(directory);
             console.log(classification)
             for(var x=0; x<classification.length; x++){
                 var parents = classification[x]["directory"]
