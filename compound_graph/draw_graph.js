@@ -21,7 +21,7 @@ $(function(){
 
         console.log(classification)
         console.log(dot_graph)
-        cy.add(...dot_graph["eleObjs"]);
+        cy.add(dot_graph["eleObjs"]);
         // Set graph style
         cy.style([
             /* 初期状態のスタイル */
