@@ -66,7 +66,7 @@ $(function(){
             cy.add(directory);
             console.log(classification["mml_classification"].length)
             for(var x=0; x<classification["mml_classification"].length; x++){
-                var parents = classification[x]["directory"]
+                var parents = classification.mml_classification[x]["directory"]
                 var parent = parents.split('/')
                 console.log(parent.slice(-1))
                 dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
