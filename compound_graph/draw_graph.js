@@ -8,7 +8,7 @@ $(function(){
         $.getJSON('./graph_attrs/compound_dot_graph.json')
     )
     .then((dot_graph) => {
-        var classification
+        var classification = {}
         $.when(
             $.getJSON('./graph_attrs/mml_classification.json')
         )
