@@ -49,7 +49,7 @@ $(function(){
             // cytoscapeグラフの作成(初期化)
             let cy = window.cy = cytoscape({
                 container: document.getElementById('graph'),
-                elements: [],
+                elements: directory,
                 boxSelectionEnabled: true,
                 autounselectify: false,
                 selectionType: "additive",
