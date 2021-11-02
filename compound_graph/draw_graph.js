@@ -55,16 +55,7 @@ $(function(){
                 selectionType: "additive",
                 wheelSensitivity: 0.1,
                 autounselectify: true,
-                style: 
-                {
-                    selector: 'node:parent',
-                    css: {
-                            'text-valign': 'top',
-                            'text-halign': 'left',
-                            'background-color': '#20bd3d',
-                            'background-opacity': 0.25
-                          }
-                    },
+                
                 layout: {
                     name: 'cola',
                     directed: true,
@@ -186,6 +177,15 @@ $(function(){
                 selector: ".faded",
                 css: {"opacity": 0.15, "z-index": 0}
             },
+            {
+                selector: 'node:parent',
+                css: {
+                        'text-valign': 'top',
+                        'text-halign': 'left',
+                        'background-color': '#20bd3d',
+                        'background-opacity': 0.25
+                      }
+                },
         ]);
         
         /* 初期状態の設定 */
