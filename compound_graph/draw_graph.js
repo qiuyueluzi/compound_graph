@@ -8,61 +8,58 @@ $(function(){
         $.getJSON('./graph_attrs/compound_dot_graph.json')
     )
     .then((dot_graph) => {
-        var classification = {}
         $.when(
             $.getJSON('./graph_attrs/mml_classification.json')
         )
-        .then((mml_classification) =>{
-            classification = mml_classification;
-        })
-        // cytoscapeグラフの作成(初期化)
-        let cy = window.cy = cytoscape({
-            container: document.getElementById('graph'),
-            elements: [],
-            boxSelectionEnabled: true,
-            autounselectify: false,
-            selectionType: "additive",
-            wheelSensitivity: 0.1
-        });
-
-        console.log(classification)
-        console.log(dot_graph)
-        cy.add(dot_graph["eleObjs"]);
-        // Set graph style
-        cy.style([
-            /* 初期状態のスタイル */
-            {
-                selector: "node",
-                css: {"background-color": "#000000", "shape": "ellipse", "width": "150", "height": "150",
-                        "content": "data(name)", "font-size": 40, "opacity": 1, "z-index": 1,
-                        "text-halign":"center", "text-valign": "center", "font-style": "normal",
-                        "font-weight": "bold", "color": "#ffffff",
-                        "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
-            },
-            {
-                selector: "edge",
-                css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
-                "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1}  //0.3
-            },
-            /* ノードが左クリックされたときに適応されるスタイル */
-            // 選択されたノード全てのスタイル
-            {
-                selector: "node.highlight",
-                css: {"font-size": 20,  "width": 250, "height": 250, "font-size": 100,
-                "content": "data(name)", "opacity": 1, "z-index": 10}
-            },
-            // 選択(左クリック)されたノードのスタイル
+        .then((classification) =>{
+            console.log(classification)
+            // cytoscapeグラフの作成(初期化)
+            let cy = window.cy = cytoscape({
+                container: document.getElementById('graph'),
+                elements: [],
+                boxSelectionEnabled: true,
+                autounselectify: false,
+                selectionType: "additive",
+                wheelSensitivity: 0.1
+            });
+            
+            console.log(dot_graph)
+            cy.add(dot_graph["eleObjs"]);
+            // Set graph style
+            cy.style([
+                /* 初期状態のスタイル */
+                {
+                    selector: "node",
+                    css: {"background-color": "#000000", "shape": "ellipse", "width": "150", "height": "150",
+                    "content": "data(name)", "font-size": 40, "opacity": 1, "z-index": 1,
+                    "text-halign":"center", "text-valign": "center", "font-style": "normal",
+                    "font-weight": "bold", "color": "#ffffff",
+                    "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
+                },
+                {
+                    selector: "edge",
+                    css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
+                    "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1}  //0.3
+                },
+                /* ノードが左クリックされたときに適応されるスタイル */
+                // 選択されたノード全てのスタイル
+                {
+                    selector: "node.highlight",
+                    css: {"font-size": 20,  "width": 250, "height": 250, "font-size": 100,
+                    "content": "data(name)", "opacity": 1, "z-index": 10}
+                },
+                // 選択(左クリック)されたノードのスタイル
             {
                 selector: "node.selected",
                 css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
                 "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
-                }
-            },
-            // 選択された(強調表示する)祖先のスタイル
-            {
-                selector: "node.selected_ancestors0", 
-                css: {"background-color": "#ff0000", "color": "#ffffff",
-                "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
+            }
+        },
+        // 選択された(強調表示する)祖先のスタイル
+        {
+            selector: "node.selected_ancestors0", 
+            css: {"background-color": "#ff0000", "color": "#ffffff",
+            "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_ancestors1",
@@ -133,15 +130,15 @@ $(function(){
                 css: {"opacity": 0.15, "z-index": 0}
             },
         ]);
-
+        
         /* 初期状態の設定 */
         all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
         cy.fit(cy.nodes().orphans());
-
+        
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
         let descendant_generations = 1;
-
+        
         /* 検索機能の追加 */
         // 全ノード名の取得
         let all_article_names = [];
@@ -188,8 +185,8 @@ $(function(){
                 $(".color_index").removeClass("hidden_show");
             }
         });
-
-
+        
+        
         // 強調表示したい祖先、子孫の世代数を取得
         $("#ancestor_generations").on("change", function(){
             ancestor_generations = $("#ancestor_generations").val();
@@ -197,8 +194,8 @@ $(function(){
         $("#descendant_generations").on("change", function(){
             descendant_generations = $("#descendant_generations").val();
         });
-
-
+        
+        
         // 背景をクリックしたときの処理
         cy.on("tap", function(event){
             let clicked_point = event.target;
@@ -212,7 +209,8 @@ $(function(){
             reset_elements_style(cy);
             $(".color_index").addClass("hidden_show");
         });
-
+        
+        
         // ノードの上にカーソルが来たとき，ノード名を表示する
         $(window).on("mousemove", function(window_event){ 
             cy.nodes().on("mouseover", function(cy_event){
@@ -263,6 +261,7 @@ $(function(){
                 location.reload();
             });
         });
+        })
 
     }, () => {
         alert("ERROR: Failed to read JSON file.");
