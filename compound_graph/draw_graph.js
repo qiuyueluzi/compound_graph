@@ -69,7 +69,7 @@ $(function(){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 for(var y = parents.length - 1; y > 0; y--){
                     console.log(cy.$(parents[y]), cy.$('#' + parents[y]))
-                    if(cy.$(parents[y]).length == 0){
+                    if(cy.$('#' + parents[y]).length == 0){
                         if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], parent: parents[y-1]}})
                         else cy.add({group: 'nodes', data: {id: parents[y]}})
                     }
