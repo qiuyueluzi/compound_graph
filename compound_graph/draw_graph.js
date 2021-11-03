@@ -27,13 +27,26 @@ var directory = {
         {data: {id:'common', parent: 'number'}},
         {data: {id:'function', parent: 'number'}},
         {data: {id:'extreal', parent: 'number'}},
+        {data: {id:'quaternion', parent: 'number'}},
         {data: {id:'graph'}},
         {data: {id:'tree', parent: 'graph'}},
         {data: {id:'sequence'}},
         {data: {id:'finite', parent: 'sequence'}},
+        {data: {id:'sum', parent: 'sequence'}},
         {data: {id:'infinite', parent: 'sequence'}},
         {data: {id:'convergence', parent: 'sequence'}},
-        {data: {id:'scheme', parent: 'finite'}}
+        {data: {id:'scheme', parent: 'finite'}},
+        {data: {id:'analysis'}},
+        {data: {id:'order_of_infinity', parent: 'analysis'}},
+        {data: {id:'trigonometric', parent: 'analysis'}},
+        {data: {id:'complex', parent: 'trigonometric'}},
+        {data: {id:'measure', parent: 'analysis'}},
+        {data: {id:'real', parent: 'measure'}},
+        {data: {id:'basic', parent: 'analysis'}},
+        {data: {id:'real', parent: 'basic'}},
+        {data: {id:'algebta'}},
+        {data: {id:'integer', parent: 'algebta'}},
+        {data: {id:'equation', parent: 'algebta'}}
     ]
 
 }
