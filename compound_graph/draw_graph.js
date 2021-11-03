@@ -3,40 +3,6 @@
 createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
-var directory = {
-    nodes: [
-        {data: {id:'set'}},
-        {data: {id:'basic', parent: 'set'}},
-        {data: {id:'relation', parent: 'set'}},
-        {data: {id:'function', parent: 'set'}},
-        {data: {id:'ordinal', parent: 'set'}},
-        {data: {id:'choice', parent: 'set'}},
-        {data: {id:'class', parent: 'set'}},
-        {data: {id:'numeral', parent: 'set'}},
-        {data: {id:'cardinal', parent: 'set'}},
-        {data: {id:'semilattice', parent: 'set'}},
-        {data: {id:'computer'}},
-        {data: {id:'circuit', parent: 'computer'}},
-        {data: {id:'number'}},
-        {data: {id:'rational', parent: 'number'}},
-        {data: {id:'real', parent: 'number'}},
-        {data: {id:'complex', parent: 'number'}},
-        {data: {id:'operator', parent: 'number'}},
-        {data: {id:'natural', parent: 'number'}},
-        {data: {id:'integer', parent: 'number'}},
-        {data: {id:'common', parent: 'number'}},
-        {data: {id:'function', parent: 'number'}},
-        {data: {id:'extreal', parent: 'number'}},
-        {data: {id:'graph'}},
-        {data: {id:'tree', parent: 'graph'}},
-        {data: {id:'sequence'}},
-        {data: {id:'finite', parent: 'sequence'}},
-        {data: {id:'infinite', parent: 'sequence'}},
-        {data: {id:'convergence', parent: 'sequence'}},
-        {data: {id:'scheme', parent: 'finite'}}
-    ]
-
-}
 $(function(){
     $.when(
         $.getJSON('./graph_attrs/compound_dot_graph.json')
@@ -63,12 +29,10 @@ $(function(){
                   }
             });
             
-            //cy.add(directory);
             console.log(classification["mml_classification"].length)
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 for(var y = parents.length - 1; y > 0; y--){
-                    console.log(cy.$(parents[y]), cy.$('#' + parents[y]))
                     if(cy.$('#' + parents[y]).length == 0){
                         if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], parent: parents[y-1]}})
                         else cy.add({group: 'nodes', data: {id: parents[y]}})
