@@ -78,6 +78,7 @@ $(function(){
                 
                 dot_graph.eleObjs[x].data["parent"] = parents.slice(-1)
             }
+            console.log(parentsData)
             cy.add(parentsData)
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
