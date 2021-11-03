@@ -27,26 +27,13 @@ var directory = {
         {data: {id:'common', parent: 'number'}},
         {data: {id:'function', parent: 'number'}},
         {data: {id:'extreal', parent: 'number'}},
-        {data: {id:'quaternion', parent: 'number'}},
         {data: {id:'graph'}},
         {data: {id:'tree', parent: 'graph'}},
         {data: {id:'sequence'}},
         {data: {id:'finite', parent: 'sequence'}},
-        {data: {id:'sum', parent: 'sequence'}},
         {data: {id:'infinite', parent: 'sequence'}},
         {data: {id:'convergence', parent: 'sequence'}},
-        {data: {id:'scheme', parent: 'finite'}},
-        {data: {id:'analysis'}},
-        {data: {id:'order_of_infinity', parent: 'analysis'}},
-        {data: {id:'trigonometric', parent: 'analysis'}},
-        {data: {id:'complex', parent: 'trigonometric'}},
-        {data: {id:'measure', parent: 'analysis'}},
-        {data: {id:'real', parent: 'measure'}},
-        {data: {id:'basic', parent: 'analysis'}},
-        {data: {id:'real', parent: 'basic'}},
-        {data: {id:'algebta'}},
-        {data: {id:'integer', parent: 'algebta'}},
-        {data: {id:'equation', parent: 'algebta'}}
+        {data: {id:'scheme', parent: 'finite'}}
     ]
 
 }
@@ -76,13 +63,18 @@ $(function(){
                   }
             });
             
-            cy.add(directory);
+            //cy.add(directory);
             console.log(classification["mml_classification"].length)
             for(var x=0; x<classification["mml_classification"].length; x++){
-                var parents = classification.mml_classification[x]["directory"]
-                var parent = parents.split('/')
-                console.log(parent.slice(-1))
-                dot_graph.eleObjs[x].data["parent"] = parent.slice(-1)
+                var parents = classification.mml_classification[x]["directory"].split('/')
+                for(var y = parents.length - 1; y >= 0; y--){
+                    if(cy.$('#' + parents[y]) == undefined){
+                        if(y > 0)cy.add({group: 'nodes', data:{id: parents[y], parent: parents[y-1]}})
+                        else cy.add({group: 'nodes', data: {id: parents[y]}})
+                    }
+                }
+                
+                dot_graph.eleObjs[x].data["parent"] = parents.slice(-1)
             }
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
@@ -104,7 +96,7 @@ $(function(){
                             'text-valign': 'top',
                             'text-halign': 'left',
                             'background-color': '#20bd3d',
-                            'background-opacity': 0.1
+                            'background-opacity': 0.25
                           }
                     },
                 {
