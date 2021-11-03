@@ -29,7 +29,7 @@ $(function(){
                   }
             });
             
-            console.log(classification["mml_classification"].length)
+            console.log(classification["mml_classification"].["directory"])
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 for(var y = parents.length - 1; y > 0; y--){
