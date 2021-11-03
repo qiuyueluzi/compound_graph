@@ -35,7 +35,7 @@ $(function(){
                 for(var y = parents.length - 1; y > 0; y--){
                     if(cy.$('#' + parents[y]).length == 0){
                         if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], name:parents[y], parent: parents[y-1]}})
-                        else cy.add({group: 'nodes', name:parents[y], data: {id: parents[y]}})
+                        else cy.add({group: 'nodes', data: {id: parents[y], name:parents[y]}})
                     }
                 }
                 
