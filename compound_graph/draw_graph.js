@@ -29,14 +29,13 @@ $(function(){
                   }
             });
             
-            console.log(classification["mml_classification"].directory)
-            var directory = {}
+            console.log(classification["mml_classification"].length)
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
-                for(var y = 0; y < parents.length - 1; y++){
+                for(var y = parents.length - 1; y > 0; y--){
                     if(cy.$('#' + parents[y]).length == 0){
                         if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], name:parents[y], parent: parents[y-1]}})
-                        else cy.add({group: 'nodes', name:parents[y], data: {id: parents[y]}})
+                        else cy.add({group: 'nodes', data: {id: parents[y], name:parents[y]}})
                     }
                 }
                 
