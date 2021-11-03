@@ -65,18 +65,20 @@ $(function(){
             
             //cy.add(directory);
             console.log(classification["mml_classification"].length)
+            var parentsData = new Map();
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 for(var y = parents.length - 1; y > 0; y--){
                     console.log(cy.$(parents[y]), cy.$('#' + parents[y]))
                     if(cy.$(parents[y]) == undefined){
-                        if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], parent: parents[y-1]}})
-                        else cy.add({group: 'nodes', data: {id: parents[y]}})
+                        if(y > 1)parentsData.set({group: 'nodes', data:{id: parents[y], parent: parents[y-1]}})
+                        else parentsData.set({group: 'nodes', data: {id: parents[y]}})
                     }
                 }
                 
                 dot_graph.eleObjs[x].data["parent"] = parents.slice(-1)
             }
+            cy.add(parentsData)
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
