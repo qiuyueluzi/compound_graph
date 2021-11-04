@@ -32,10 +32,13 @@ $(function(){
 
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
-                for(var y = parents.length - 1; y > 0; y--){
-                    if(cy.$('#' + parents[y]).length == 0){
-                        if(y > 1)cy.add({group: 'nodes', data:{id: parents[y], name:parents[y], parent: parents[y-1]}})
-                        else cy.add({group: 'nodes', data: {id: parents[y], name:parents[y]}})
+                for(var y = 1; y < parents.length; y--){
+                    var idName = parents[1];
+                    for(var z = 2; z < y + 1; z++){
+                        idName += '/' + parents[z];
+                    }
+                    if(cy.$('#' + idName)){
+                        cy.add({group: 'nodes', data: {id: idName, name: idName}})
                     }
                 }
                 
