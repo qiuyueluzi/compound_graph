@@ -30,7 +30,7 @@ $(function(){
             });
             
 
-            var directory = new Set();
+            const directory = new Set();
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 var parentsName = new String();
