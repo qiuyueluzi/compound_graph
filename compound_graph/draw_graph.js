@@ -41,7 +41,9 @@ $(function(){
                         parentDirectory = idName;
                         idName += '/' + parents[z];
                     }
-                    if(directory.length != directory.add(idName).length){
+                    var isAlready = directory.length;
+                    directory.add(idName)
+                    if(isAlready != directory.length){
                         console.log(idName)
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
                         else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
