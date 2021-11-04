@@ -32,15 +32,15 @@ $(function(){
 
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
-                for(var y = 1; y < parents.length; y--){
+                for(var y = 1; y < parents.length; y++){
                     var idName = parents[1];
                     for(var z = 2; z < y + 1; z++){
                         idName += '/' + parents[z];
                     }
                     
-                    if(cy.$('#' + idName).length == 0){
+                    if(cy.$('#' + idName)){
                         console.log(idName)
-                        //cy.add({group: 'nodes', data: {id: idName, name: idName}})
+                        cy.add({group: 'nodes', data: {id: idName, name: idName}})
                     }
                 }
                 
