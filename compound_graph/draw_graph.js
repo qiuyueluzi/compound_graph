@@ -41,9 +41,7 @@ $(function(){
                     }
                     var isAlready = directory.size;
                     directory.add(idName)
-                    console.log(isAlready, directory.size)
                     if(isAlready != directory.size){
-                        console.log(idName)
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
                         else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
                     }
@@ -314,6 +312,33 @@ $(function(){
             $(".color_index").removeClass("hidden_show");
         });
 
+        var doubleClickDelayMs= 350; //ダブルクリックを認識する関数
+        var previousTapStamp;
+        cy.on('tap', function(e) {
+            var currentTapStamp= e.timeStamp;
+            var msFromLastTap= currentTapStamp -previousTapStamp;
+            if (msFromLastTap < doubleClickDelayMs) {
+                e.target.trigger('doubleTap', e);
+            }
+            previousTapStamp= currentTapStamp;
+        });
+        
+        cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
+            var nodes = this;
+            var id = nodes.data('id')
+            
+            
+            if(childrenData.get(id).removed == true){
+                restoreChildren(id, nodes);
+            } else{
+                recursivelyRemove(id, nodes);
+            }
+            
+            console.log('finish')
+            
+        });
+        
+        
         // re-highlightボタンで再度ハイライトする
         $("#re-highlight").click(function() {
             if(cy.nodes(".selected").data()){
@@ -434,33 +459,6 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 
 
 
-
-
-
-var doubleClickDelayMs= 350; //ダブルクリックを認識する関数
-var previousTapStamp;
-cy.on('tap', function(e) {
-  var currentTapStamp= e.timeStamp;
-  var msFromLastTap= currentTapStamp -previousTapStamp;
-  if (msFromLastTap < doubleClickDelayMs) {
-      e.target.trigger('doubleTap', e);
-  }
-  previousTapStamp= currentTapStamp;
-});
-
-cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
-  var nodes = this;
-  var id = nodes.data('id')
-
-  if(childrenData.get(id).removed == true){
-    restoreChildren(id, nodes);
-  } else{
-    recursivelyRemove(id, nodes);
-  }
-
-  console.log('finish')
-
-});
 
 
 function restoreChildren(id, nodes){ //ノードを開く
