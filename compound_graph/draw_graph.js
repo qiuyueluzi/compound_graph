@@ -53,8 +53,8 @@ $(function(){
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
             var layout = cy.elements().layout({
-                name: 'cola',
-                animate: false
+                name: 'euler',
+                //animate: false
             })
             layout.run()
             cy.style([
