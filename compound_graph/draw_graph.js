@@ -43,6 +43,7 @@ $(function(){
                     }
                     var isAlready = directory.length;
                     directory.add(idName)
+                    console.log(isAlready, directory.length)
                     if(isAlready != directory.length){
                         console.log(idName)
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
