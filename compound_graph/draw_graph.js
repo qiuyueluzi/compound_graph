@@ -54,7 +54,7 @@ $(function(){
             // Set graph style
             var layout = cy.elements().layout({
                 name: 'cola',
-                //animate: false
+                animate: false
             })
             layout.run()
             cy.style([
