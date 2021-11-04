@@ -41,6 +41,7 @@ $(function(){
                         parentDirectory = idName;
                         idName += '/' + parents[z];
                     }
+                    console.log(idName + '//')
                     if(directory.has(idName) == false){
                         directory.set(idName);
                         console.log(idName)
