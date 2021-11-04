@@ -37,8 +37,10 @@ $(function(){
                     for(var z = 2; z < y + 1; z++){
                         idName += '/' + parents[z];
                     }
+                    
                     if(cy.$('#' + idName).length == 0){
-                        cy.add({group: 'nodes', data: {id: idName, name: idName}})
+                        console.log(idName)
+                        //cy.add({group: 'nodes', data: {id: idName, name: idName}})
                     }
                 }
                 
