@@ -42,7 +42,7 @@ $(function(){
                         idName += '/' + parents[z];
                     }
                     var isAlready = directory.length;
-                    directory.add(idName)
+                    directory.prototype.add(idName)
                     console.log(isAlready, directory.length)
                     if(isAlready != directory.length){
                         console.log(idName)
