@@ -31,7 +31,6 @@ $(function(){
             
 
             const directory = new Set();
-            directory.add(0)
             for(var x=0; x<classification["mml_classification"].length; x++){
                 var parents = classification.mml_classification[x]["directory"].split('/')
                 var parentsName = new String();
@@ -42,8 +41,7 @@ $(function(){
                         parentDirectory = idName;
                         idName += '/' + parents[z];
                     }
-                    if(directory.prototype.has(idName) == false){
-                        directory.prototype.add(idName);
+                    if(directory.length != directory.add(idName).length){
                         console.log(idName)
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
                         else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
