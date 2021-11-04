@@ -21,12 +21,7 @@ $(function(){
                 selectionType: "additive",
                 wheelSensitivity: 0.1,
                 autounselectify: true,
-                
-                layout: {
-                    name: 'cola',
-                    directed: true,
-                    animate: false
-                  }
+
             });
             
 
@@ -59,11 +54,9 @@ $(function(){
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
             var layout = cy.elements().layout({
-                name: 'cola',
-                directed: true,
-                animate: false
+                name: 'cola'
             })
-            layout.run();
+            layout.run()
             cy.style([
                 /* 初期状態のスタイル */
                 {
