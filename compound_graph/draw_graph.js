@@ -58,6 +58,12 @@ $(function(){
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
             // Set graph style
+            var layout = cy.elements().layout({
+                name: 'cola',
+                directed: true,
+                animate: false
+            })
+            layout.run();
             cy.style([
                 /* 初期状態のスタイル */
                 {
