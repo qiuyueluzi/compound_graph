@@ -35,14 +35,15 @@ $(function(){
                 var parentsName = new String();
                 for(var y = 1; y < parents.length; y++){
                     var idName = parents[1];
+                    var parentDirectory = new String();
                     for(var z = 2; z < y + 1; z++){
+                        parentDirectory = idName;
                         idName += '/' + parents[z];
                     }
-                    
-                    console.log(cy.$(idName), cy.$('#' + idName))
-                    if(cy.$(idName).length == 0){
+                    if(cy.$('#' + idName).length == 0){
                         console.log(idName)
-                        cy.add({group: 'nodes', data: {id: idName, name: idName}})
+                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
+                        else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
                     }
                     parentsName = idName
                 }
