@@ -39,6 +39,7 @@ $(function(){
                         idName += '/' + parents[z];
                     }
                     
+                    console.log(idName)
                     if(cy.$(idName).length == 0){
                         console.log(idName)
                         cy.add({group: 'nodes', data: {id: idName, name: idName}})
