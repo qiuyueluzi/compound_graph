@@ -52,7 +52,8 @@ $(function(){
                     parentsName = idName
                 }
                 
-                dot_graph.eleObjs[x].data["parent"] = parentsName
+                dot_graph.eleObjs[x].data["parent"] = parentsName;
+                dot_graph.eleObjs[x].data["position"] = {};
             }
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
