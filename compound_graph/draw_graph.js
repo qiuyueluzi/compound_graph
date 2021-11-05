@@ -198,7 +198,7 @@ $(function(){
             },
             {
                 selector: "node:parent.faded",
-                css: {"opacity": 0}
+                css: {"background-color": "00FF00", "opacity": 1}
             }
 
         ]);
