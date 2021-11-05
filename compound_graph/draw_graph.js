@@ -301,7 +301,7 @@ $(function(){
         });
 
         // クリックしたノードの親と子、自身を色変更
-        cy.nodes().on("singleTap", function(e){
+        cy.nodes().on("tap", function(e){
             // 全ノードをクラスから除外
             reset_elements_style(cy);
             // クリックしたノードをselectedクラスに入れる
@@ -315,13 +315,13 @@ $(function(){
         var doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         var previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
+            console.log(e.target.children());
             var currentTapStamp= e.timeStamp;
             var msFromLastTap= currentTapStamp -previousTapStamp;
             if (msFromLastTap < doubleClickDelayMs) {
                 e.target.trigger('doubleTap', e);
                 previousTapStamp = 0;
             }
-            else e.target.trigger('singleTap', e)
             previousTapStamp= currentTapStamp;
         });
         
