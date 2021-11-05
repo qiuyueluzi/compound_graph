@@ -300,29 +300,30 @@ $(function(){
             }
         });
 
-        // クリックしたノードの親と子、自身を色変更
-        cy.nodes().on("tap", function(e){
-            // 全ノードをクラスから除外
-            reset_elements_style(cy);
-            // クリックしたノードをselectedクラスに入れる
-            let clicked_node = e.target;
-            highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
-            let clicked_node_name = clicked_node.data("name");
-            $("#select_article").text("SELECT: " + clicked_node_name);
-            $(".color_index").removeClass("hidden_show");
-        });
 
         var doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         var previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
-            console.log(e.target.children());
-            var currentTapStamp= e.timeStamp;
-            var msFromLastTap= currentTapStamp -previousTapStamp;
-            if (msFromLastTap < doubleClickDelayMs) {
-                e.target.trigger('doubleTap', e);
-                previousTapStamp = 0;
+            if(e.target.children().length > 0){//複合親ノードであればダブルクリックかを判定
+                var currentTapStamp= e.timeStamp;
+                var msFromLastTap= currentTapStamp -previousTapStamp;
+                if (msFromLastTap < doubleClickDelayMs) {
+                    e.target.trigger('doubleTap', e);
+                    previousTapStamp = 0;
+                }
+                previousTapStamp= currentTapStamp;
             }
-            previousTapStamp= currentTapStamp;
+            else{// クリックしたノードの親と子、自身を色変更
+                // 全ノードをクラスから除外
+                reset_elements_style(cy);
+                // クリックしたノードをselectedクラスに入れる
+                let clicked_node = e.target;
+                highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
+                let clicked_node_name = clicked_node.data("name");
+                $("#select_article").text("SELECT: " + clicked_node_name);
+                $(".color_index").removeClass("hidden_show");
+            }
+            
         });
         
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
@@ -461,7 +462,7 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 
 
 
-function restoreChildren(id, nodes){ //ノードを復元する
+function restoreChildren(id, nodes){ //複合ノードを復元する
     childrenData.get(id).removed = false;
     childrenData.get(id).node.restore(); //子ノードを復元
   
@@ -522,7 +523,7 @@ function restoreChildren(id, nodes){ //ノードを復元する
 }
   
 
-function recursivelyRemove(id,nodes){ //ノードを閉じる
+function recursivelyRemove(id,nodes){ //複合ノードを閉じる
     var toRemove = [];
     for(;;){
         nodes.forEach(function(node){ //選択されたノードと子のremoveフラグを全てtrueにする
