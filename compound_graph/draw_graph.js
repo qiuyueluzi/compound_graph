@@ -301,7 +301,7 @@ $(function(){
         });
 
         // クリックしたノードの親と子、自身を色変更
-        cy.nodes().on("tap", function(e){
+        /*cy.nodes().on("tap", function(e){
             // 全ノードをクラスから除外
             reset_elements_style(cy);
             // クリックしたノードをselectedクラスに入れる
@@ -310,7 +310,7 @@ $(function(){
             let clicked_node_name = clicked_node.data("name");
             $("#select_article").text("SELECT: " + clicked_node_name);
             $(".color_index").removeClass("hidden_show");
-        });
+        });*/
 
         var doubleClickDelayMs= 350; //ダブルクリックを認識する関数
         var previousTapStamp;
