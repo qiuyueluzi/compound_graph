@@ -307,6 +307,7 @@ $(function(){
             var currentTapStamp= e.timeStamp;
             var msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
+                console.log(currentTapStamp, msFromLastTap)
                 if (msFromLastTap < doubleClickDelayMs) {
                     e.target.trigger('doubleTap', e);
                 }
