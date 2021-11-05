@@ -196,6 +196,10 @@ $(function(){
                 selector: ".faded",
                 css: {"opacity": 0.15, "z-index": 0}
             },
+            {
+                selector: "node:parent.faded",
+                css: {"opacity": 0}
+            }
 
         ]);
         
