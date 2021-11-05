@@ -480,6 +480,7 @@ function restoreChildren(id, nodes){ //ノードを開く
       }
       else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ //復元エッジの両端どちらかが表示されていない場合、lengthが0になる
         console.log('err2')
+        console.log('try restore:'+restoreEdgeID)
         var newSource = edgesData.get(restoreEdgeID).source.id(); //復元エッジのソース、ターゲットを取得
         var newTarget = edgesData.get(restoreEdgeID).target.id();
         var sFlag = (childrenData.get(childrenData.get(newSource).parent) == undefined ? false : childrenData.get(childrenData.get(newSource).parent).removed); 
