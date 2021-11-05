@@ -493,12 +493,12 @@ function restoreChildren(id, nodes){ //ノードを開く
           if(sFlag){ //親が閉じられているなら復元エッジのソースをその親に置き換え、更にその親のremoveを取得
             //親が表示されているノード(removeがfalseであるサブグラフ)が得られるまで登り続ける
             newSource = childrenData.get(newSource).parent;
-            sFlag = childrenData.get(childrenData.get(newSource).parent).removed;
+            sFlag = childrenData.get(childrenData.get(newSource).parent.id()).removed;
           }
           
           if(tFlag){
             newTarget = childrenData.get(newTarget).parent;
-            tFlag = childrenData.get(childrenData.get(newTarget).parent).removed;
+            tFlag = childrenData.get(childrenData.get(newTarget).parent.id()).removed;
           }
   
         }
