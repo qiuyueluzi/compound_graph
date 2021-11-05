@@ -490,18 +490,24 @@ function restoreChildren(id, nodes){ //ノードを開く
         //ただし、初期状態から最上部のサブグラフを指していたエッジなどは親を読み込めないので三項演算子で弾く
   
         while(sFlag || tFlag){
-          if(sFlag){ //親が閉じられているなら復元エッジのソースをその親に置き換え、更にその親のremoveを取得
-            //親が表示されているノード(removeがfalseであるサブグラフ)が得られるまで登り続ける
-            newSource = childrenData.get(newSource).parent;
-            sFlag = childrenData.get(childrenData.get(newSource).parent.id()).removed;
+            if(sFlag){ //親が閉じられているなら復元エッジのソースをその親に置き換え、更にその親のremoveを取得
+              //親が表示されているノード(removeがfalseであるサブグラフ)が得られるまで登り続ける
+              try{
+                  newSource = childrenData.get(newSource).parent;
+                  sFlag = childrenData.get(childrenData.get(newSource).parent).removed;
+                }
+              catch(error){sFlag = false;}
+            }
+            
+            if(tFlag){
+                try{
+                  newTarget = childrenData.get(newTarget).parent;
+                  tFlag = childrenData.get(childrenData.get(newTarget).parent).removed;
+                }
+              catch(error){tFlag = false;}
+            }
+    
           }
-          
-          if(tFlag){
-            newTarget = childrenData.get(newTarget).parent;
-            tFlag = childrenData.get(childrenData.get(newTarget).parent.id()).removed;
-          }
-  
-        }
         if(newSource!=newTarget){ //自己ループにならないならエッジを追加
           cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
           console.log('create Edge ' + restoreEdgeID)
