@@ -310,7 +310,6 @@ $(function(){
                 if (msFromLastTap < doubleClickDelayMs) {
                     e.target.trigger('doubleTap', e);
                 }
-                previousTapStamp= currentTapStamp;
             }
             else{// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
@@ -322,6 +321,7 @@ $(function(){
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
             }
+            previousTapStamp= currentTapStamp;
             
         });
         
