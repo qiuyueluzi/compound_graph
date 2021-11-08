@@ -82,7 +82,8 @@ $(function(){
             })
             let layout = cy.elements().layout({
                 name: 'cola',
-                animate: false
+                animate: false,
+                padding: 40
             })
             layout.run()
             
