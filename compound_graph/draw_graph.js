@@ -345,6 +345,7 @@ $(function(){
             } else{
                 recursivelyRemove(id, nodes);
                 reset_elements_style(cy);
+                $(".color_index").addClass("hidden_show");
             }
             
             console.log('finish')
