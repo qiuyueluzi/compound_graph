@@ -1,5 +1,5 @@
-var childrenData = new Map(); //サブグラフに含まれるノードを記録する
-var edgesData = new Map();
+const childrenData = new Map(); //サブグラフに含まれるノードを記録する
+const edgesData = new Map();
 
 /*
 createGraph.pyで出力されたファイルとcytoscape.jsを使って
@@ -29,17 +29,17 @@ $(function(){
             
 
             const directory = new Set();
-            for(var x=0; x<classification["mml_classification"].length; x++){
-                var parents = classification.mml_classification[x]["directory"].split('/')
-                var parentsName = new String();
-                for(var y = 1; y < parents.length; y++){
-                    var idName = parents[1];
-                    var parentDirectory = new String();
-                    for(var z = 2; z < y + 1; z++){
+            for(let x=0; x<classification["mml_classification"].length; x++){
+                let parents = classification.mml_classification[x]["directory"].split('/')
+                let parentsName = new String();
+                for(let y = 1; y < parents.length; y++){
+                    let idName = parents[1];
+                    let parentDirectory = new String();
+                    for(let z = 2; z < y + 1; z++){
                         parentDirectory = idName;
                         idName += '/' + parents[z];
                     }
-                    var isAlready = directory.size;
+                    let isAlready = directory.size;
                     directory.add(idName)
                     if(isAlready != directory.size){
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
@@ -52,32 +52,32 @@ $(function(){
             }
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
-            var layout = cy.elements().layout({
+            let layout = cy.elements().layout({
                 name: 'preset',
                 //animate: false
             })
             layout.run()
-            var nodes = cy.nodes();
-            var edges = cy.edges();
-            for(var x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
-                var curNode = cy.$(nodes[x]);
-                var id = curNode.data('id');
+            let nodes = cy.nodes();
+            let edges = cy.edges();
+            for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
+                let curNode = cy.$(nodes[x]);
+                let id = curNode.data('id');
                 
-                var childrenNodes = curNode.children(); //当ノードの子ノード
-                var connectedEdges = curNode.connectedEdges(); //当ノードに接続するエッジ
-                var connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
-                var parentNode = nodes[x].data('parent'); //当ノードの親ノード
+                let childrenNodes = curNode.children(); //当ノードの子ノード
+                let connectedEdges = curNode.connectedEdges(); //当ノードに接続するエッジ
+                let connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
+                let parentNode = nodes[x].data('parent'); //当ノードの親ノード
                 
                 if(childrenNodes.length > 0)curNode.css('shape', 'square'); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
               }
               
-              for(var x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
-                var curEdge = cy.$(edges[x]);
-                var id = curEdge.data('id');
-                var curTarget = curEdge.target();
-                var curSource = curEdge.source();
+              for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
+                let curEdge = cy.$(edges[x]);
+                let id = curEdge.data('id');
+                let curTarget = curEdge.target();
+                let curSource = curEdge.source();
               
                 edgesData.set(id, {source: curSource, target: curTarget});
               }
@@ -305,13 +305,12 @@ $(function(){
         });
 
 
-        var doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
-        var previousTapStamp = 0;
+        let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
+        let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
-            var currentTapStamp= e.timeStamp;
-            var msFromLastTap= currentTapStamp -previousTapStamp;
+            let currentTapStamp= e.timeStamp;
+            let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
-                console.log(currentTapStamp, msFromLastTap)
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
                     e.target.trigger('doubleTap', e);
                 }
@@ -331,14 +330,21 @@ $(function(){
         });
         
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
-            var nodes = this;
-            var id = nodes.data('id')
-            
+            let nodes = this;
+            let id = nodes.data('id')
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes);
+                if(cy.nodes(".selected").data()){
+                    let selected_node = cy.nodes().filter(function(ele){
+                        return ele.data("name") == cy.nodes(".selected").data("name");
+                    });
+                    reset_elements_style(cy);
+                    highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
+                }
             } else{
                 recursivelyRemove(id, nodes);
+                reset_elements_style(cy);
             }
             
             console.log('finish')
@@ -470,14 +476,13 @@ function restoreChildren(id, nodes){ //複合ノードを復元する
     childrenData.get(id).removed = false;
     childrenData.get(id).node.restore(); //子ノードを復元
   
-    for(var x=0; x<childrenData.get(id).edge.length; x++){
-        var restoreEdge = childrenData.get(id).edge[x]; //引数のnodesに関連する全てのエッジを一つずつ復元対象にしていく
-        var restoreEdgeID = childrenData.get(id).edge[x].id(); //復元エッジのID
+    for(let x=0; x<childrenData.get(id).edge.length; x++){
+        let restoreEdge = childrenData.get(id).edge[x]; //引数のnodesに関連する全てのエッジを一つずつ復元対象にしていく
+        let restoreEdgeID = childrenData.get(id).edge[x].id(); //復元エッジのID
         
         if(cy.$('#' + restoreEdgeID).target() != undefined && cy.$('#' + restoreEdgeID).source() != undefined){
             if(edgesData.get(restoreEdgeID).target != cy.$('#' + restoreEdgeID).target().id() || edgesData.get(restoreEdgeID).source != cy.$('#' + restoreEdgeID).source().id()){
                 //idが重複するエッジを生成しようとした場合に、当該エッジが初期状態と異なる状態であれば実行される
-                console.log('err1')
                 
                 cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
                 console.log('remove Edge ' + restoreEdgeID)
@@ -485,12 +490,11 @@ function restoreChildren(id, nodes){ //複合ノードを復元する
             }
         }
         else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ //復元エッジの両端どちらかが表示されていない場合、lengthが0になる
-            console.log('err2')
             console.log('try restore:'+restoreEdgeID)
-            var newSource = edgesData.get(restoreEdgeID).source.id(); //復元エッジのソース、ターゲットを取得
-            var newTarget = edgesData.get(restoreEdgeID).target.id();
-            var sFlag = (childrenData.get(childrenData.get(newSource).parent) == undefined ? false : childrenData.get(childrenData.get(newSource).parent).removed); 
-            var tFlag = (childrenData.get(childrenData.get(newTarget).parent) == undefined ? false : childrenData.get(childrenData.get(newTarget).parent).removed); 
+            let newSource = edgesData.get(restoreEdgeID).source.id(); //復元エッジのソース、ターゲットを取得
+            let newTarget = edgesData.get(restoreEdgeID).target.id();
+            let sFlag = (childrenData.get(childrenData.get(newSource).parent) == undefined ? false : childrenData.get(childrenData.get(newSource).parent).removed); 
+            let tFlag = (childrenData.get(childrenData.get(newTarget).parent) == undefined ? false : childrenData.get(childrenData.get(newTarget).parent).removed); 
             //ソース、ターゲットの親のremoveを取得
             //removeがfalseであればnewソース、ターゲットは表示されている
             //ただし、初期状態から最上部のサブグラフを指していたエッジなどは親を読み込めないので三項演算子で弾く
@@ -528,7 +532,7 @@ function restoreChildren(id, nodes){ //複合ノードを復元する
   
 
 function recursivelyRemove(id,nodes){ //複合ノードを閉じる
-    var toRemove = [];
+    let toRemove = [];
     for(;;){
         nodes.forEach(function(node){ //選択されたノードと子のremoveフラグを全てtrueにする
             childrenData.get(node.data('id')).removed = true;
@@ -538,15 +542,15 @@ function recursivelyRemove(id,nodes){ //複合ノードを閉じる
         if( nodes.empty() ){ break; }
     }
 
-    for( var i = toRemove.length - 1; i >= 0; i-- ){ //当該サブグラフに関連するエッジ全てを一度削除する
-        var remEdge = toRemove[i].connectedEdges();
-        for(var j = 0; j < remEdge.length; j++){
+    for( let i = toRemove.length - 1; i >= 0; i-- ){ //当該サブグラフに関連するエッジ全てを一度削除する
+        let remEdge = toRemove[i].connectedEdges();
+        for(let j = 0; j < remEdge.length; j++){
             if(remEdge[j].target().parent() != remEdge[j].source().parent()){ //他のサブグラフを跨ぐエッジ(ソースとターゲットの親が別のエッジ)は置き換える
-            var replaceEdge = remEdge[j]; //removeを行うエッジ(remEdge[j])はremove後は参照できないので別の変数に記録する
+            let replaceEdge = remEdge[j]; //removeを行うエッジ(remEdge[j])はremove後は参照できないので別の変数に記録する
             remEdge[j].remove();
   
-            var newSource; //ソース、ターゲットのうち削除される方は親に置き換える
-            var newTarget;
+            let newSource; //ソース、ターゲットのうち削除される方は親に置き換える
+            let newTarget;
             if(replaceEdge.target() == toRemove[i]){
                 newSource = replaceEdge.source().id();
                 newTarget = replaceEdge.target().parent().id();
