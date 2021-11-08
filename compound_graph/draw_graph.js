@@ -52,11 +52,7 @@ $(function(){
             }
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
-            let layout = cy.elements().layout({
-                name: 'preset',
-                //animate: false
-            })
-            layout.run()
+
             let nodes = cy.nodes();
             let edges = cy.edges();
             for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
@@ -84,6 +80,10 @@ $(function(){
             nodes.forEach(function(node){
                 if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
+            let layout = cy.elements().layout({
+                name: 'preset',
+            })
+            layout.run()
             
             // Set graph style
             cy.style([
