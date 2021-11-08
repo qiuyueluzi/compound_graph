@@ -71,17 +71,20 @@ $(function(){
                 if(childrenNodes.length > 0)curNode.css('shape', 'square'); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
-              }
-              
-              for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
+            }
+            for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
                 let curEdge = cy.$(edges[x]);
                 let id = curEdge.data('id');
                 let curTarget = curEdge.target();
                 let curSource = curEdge.source();
-              
+                
                 edgesData.set(id, {source: curSource, target: curTarget});
-              }
-              console.log(childrenData)
+            }
+            console.log(childrenData)
+            nodes.forEach(function(node){
+                if(node.isOrphan())recursivelyRemove(node.id(), node)
+            })
+            
             // Set graph style
             cy.style([
                 /* 初期状態のスタイル */
