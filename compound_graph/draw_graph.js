@@ -81,7 +81,8 @@ $(function(){
                 if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
             let layout = cy.elements().layout({
-                name: 'preset',
+                name: 'cola',
+                animate: false
             })
             layout.run()
             
