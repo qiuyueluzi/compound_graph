@@ -78,7 +78,8 @@ $(function(){
                 //if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
             let layout = cy.elements().layout({
-                name: 'preset',
+                name: "dagre",
+                spacingFactor: 12
             })
             layout.run()
             
