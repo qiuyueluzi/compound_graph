@@ -79,7 +79,7 @@ $(function(){
             })
             let layout = cy.elements().layout({
                 name: "dagre",
-                spacingFactor: 2
+                spacingFactor: 4
             })
             layout.run()
             
