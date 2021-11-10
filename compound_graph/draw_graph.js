@@ -79,7 +79,7 @@ $(function(){
             })
             let layout = cy.elements().layout({
                 name: 'cola',
-                padding: 100
+                //padding: 100
             })
             layout.run()
             
