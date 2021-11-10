@@ -23,11 +23,9 @@ $(function(){
                 selectionType: "additive",
                 wheelSensitivity: 0.1,
                 autounselectify: true,
-                
 
             });
             
-
             const directory = new Set();
             for(let x=0; x<classification["mml_classification"].length; x++){
                 let parents = classification.mml_classification[x]["directory"].split('/')
@@ -47,7 +45,6 @@ $(function(){
                     }
                     parentsName = idName
                 }
-                
                 dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
             console.log(dot_graph)
@@ -77,11 +74,12 @@ $(function(){
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
             console.log(childrenData)
-            nodes.forEach(function(node){
-                //if(node.isOrphan())recursivelyRemove(node.id(), node)
+            nodes.forEach(function(node){ //
+                if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
             let layout = cy.elements().layout({
-                name: 'preset',
+                name: 'cola',
+                padding: 100
             })
             layout.run()
             
