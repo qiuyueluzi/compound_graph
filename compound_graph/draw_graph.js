@@ -75,13 +75,10 @@ $(function(){
             }
             console.log(childrenData)
             nodes.forEach(function(node){ //
-                if(node.isOrphan())recursivelyRemove(node.id(), node)
+                //if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
             let layout = cy.elements().layout({
-                name: 'cola',
-                directed: true,
-                animate: false,
-                //padding: 100
+                name: 'preset',
             })
             layout.run()
             
