@@ -98,7 +98,6 @@ $(function(){
                     selector: 'node:parent',
                     css: {
                             'content': 'data(id)',
-                            'min-zoomed-font-size': 30,
                             'text-valign': 'top',
                             'text-halign': 'left',
                             'background-color': '#20bd3d',
