@@ -79,7 +79,7 @@ $(function(){
             })
             let layout = cy.elements().layout({
                 name: "klay",
-                spacingFactor: 10
+                spacingFactor: 2
             })
             layout.run()
             
