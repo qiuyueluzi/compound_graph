@@ -101,7 +101,7 @@ $(function(){
                     selector: 'node:parent',
                     css: {
                             'content': 'data(name)',
-                            'font-size': 350,
+                            'font-size': 800,
                             'text-valign': 'top',
                             'text-halign': 'center',
                             'background-color': '#20bd3d',
@@ -359,7 +359,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            zoomlevel = 20 / cy.zoom()
+            zoomlevel = 25 / cy.zoom()
             cy.style().selector('node:parent').style({
                 'font-size': zoomlevel
             })
