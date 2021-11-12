@@ -40,8 +40,8 @@ $(function(){
                     let isAlready = directory.size;
                     directory.add(idName)
                     if(isAlready != directory.size){
-                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
-                        else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
+                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: parents.slice(-1)}})
+                        else cy.add({group: 'nodes', data: {id: idName, name: parents.slice(-1), parent: parentDirectory}})
                     }
                     parentsName = idName
                 }
@@ -83,7 +83,7 @@ $(function(){
             })
             layout.run()
 
-            let zoomlevel = 300
+            let zoomlevel;
             
             // Set graph style
             cy.style([
@@ -99,8 +99,8 @@ $(function(){
                 {
                     selector: 'node:parent',
                     css: {
-                            'content': 'data(id)',
-                            'font-size': 40,
+                            'content': 'data(name)',
+                            'font-size': 300,
                             'text-valign': 'top',
                             'text-halign': 'left',
                             'background-color': '#20bd3d',
@@ -358,10 +358,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            zoomlevel = 15 / cy.zoom()
-            cy.style().selector('node').style({
-                'font-size': zoomlevel
-            })
+            zoomlevel = 20 / cy.zoom()
             cy.style().selector('node:parent').style({
                 'font-size': zoomlevel
             })
