@@ -40,8 +40,8 @@ $(function(){
                     let isAlready = directory.size;
                     directory.add(idName)
                     if(isAlready != directory.size){
-                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: parents.slice(-1)}})
-                        else cy.add({group: 'nodes', data: {id: idName, name: parents.slice(-1), parent: parentDirectory}})
+                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: idName}})
+                        else cy.add({group: 'nodes', data: {id: idName, name: idName, parent: parentDirectory}})
                     }
                     parentsName = idName
                 }
