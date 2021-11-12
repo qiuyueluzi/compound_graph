@@ -101,9 +101,9 @@ $(function(){
                     selector: 'node:parent',
                     css: {
                             'content': 'data(name)',
-                            'font-size': 300,
+                            'font-size': 350,
                             'text-valign': 'top',
-                            'text-halign': 'left',
+                            'text-halign': 'center',
                             'background-color': '#20bd3d',
                             'background-opacity': 0.25
                           }
