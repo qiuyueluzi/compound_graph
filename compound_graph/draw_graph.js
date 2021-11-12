@@ -74,6 +74,7 @@ $(function(){
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
             console.log(childrenData)
+            console.log(cy.zoom())
             nodes.forEach(function(node){ //
                 //if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
