@@ -48,6 +48,7 @@ $(function(){
                 dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
             console.log(dot_graph)
+            console.log(cy.zoom())
             cy.add(dot_graph["eleObjs"]);
 
             let nodes = cy.nodes();
@@ -74,7 +75,6 @@ $(function(){
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
             console.log(childrenData)
-            console.log(cy.zoom())
             nodes.forEach(function(node){ //
                 //if(node.isOrphan())recursivelyRemove(node.id(), node)
             })
@@ -353,6 +353,11 @@ $(function(){
             console.log('finish')
             
         });
+
+        cy.on('zoom', function(e){
+            console.log(cy.zoom())
+            
+        })
         
         
         // re-highlightボタンで再度ハイライトする
