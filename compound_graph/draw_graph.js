@@ -102,7 +102,7 @@ $(function(){
                     css: {
                             'content': 'data(name)',
                             'font-size': 900,
-                            'color': '#105010',
+                            'color': '#cfe3d4',
                             'text-valign': 'top',
                             'text-halign': 'center',
                             'background-color': '#20bd3d',
