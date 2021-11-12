@@ -83,7 +83,7 @@ $(function(){
             })
             layout.run()
 
-            let zoomlevel = 20
+            let zoomlevel = 300
             
             // Set graph style
             cy.style([
@@ -358,7 +358,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            zoomlevel = 10 / cy.zoom()
+            zoomlevel = 15 / cy.zoom()
             cy.style().selector('node').style({
                 'font-size': zoomlevel
             })
