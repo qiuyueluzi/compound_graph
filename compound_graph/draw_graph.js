@@ -48,7 +48,6 @@ $(function(){
                 dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
             console.log(dot_graph)
-            console.log(cy.zoom())
             cy.add(dot_graph["eleObjs"]);
 
             let nodes = cy.nodes();
@@ -83,6 +82,8 @@ $(function(){
                 spacingFactor: 7
             })
             layout.run()
+
+            let zoomlevel = 20
             
             // Set graph style
             cy.style([
@@ -99,6 +100,7 @@ $(function(){
                     selector: 'node:parent',
                     css: {
                             'content': 'data(id)',
+                            'font-size': 40,
                             'text-valign': 'top',
                             'text-halign': 'left',
                             'background-color': '#20bd3d',
@@ -356,7 +358,15 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            
+            zoomlevel = 10 / cy.zoom()
+            cy.style().selector('node').style({
+                'font-size': zoomlevel
+            })
+            cy.style().selector('node:parent').style({
+                'font-size': zoomlevel
+            })
+            .update()
+        
         })
         
         
