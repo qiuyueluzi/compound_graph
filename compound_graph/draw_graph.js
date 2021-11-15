@@ -45,7 +45,6 @@ $(function(){
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: displayName}})
                         else {
                             cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
-                            cy.$(idName).addClass('orphan')
                         }
                     }
                     parentsName = idName
