@@ -368,19 +368,7 @@ $(function(){
             cy.style().selector('node:parent').style({
                 'font-size': zoomlevel
             })
-            if(cy.zoom() > 0.07){
-                cy.style().selector('node:parent.orphan').style({
-                    'display': element,
-                    'font-size': zoomlevel,
-                })
-                .update()
-            }
-            else {
-                cy.style().selector('node:parent.orphan').style({
-                    'display': none,
-                })
-                .update()
-            }
+            .update()
         
         })
         
