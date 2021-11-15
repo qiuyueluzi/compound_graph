@@ -23,6 +23,7 @@ $(function(){
                 selectionType: "additive",
                 wheelSensitivity: 0.1,
                 autounselectify: true,
+                zoom: 0.025,
 
             });
             
@@ -42,7 +43,10 @@ $(function(){
                     if(isAlready != directory.size){
                         let displayName = idName.split('/').slice(-1)
                         if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: displayName}})
-                        else cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
+                        else {
+                            cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
+                            cy.$(idName).addClass('orphan')
+                        }
                     }
                     parentsName = idName
                 }
@@ -364,7 +368,19 @@ $(function(){
             cy.style().selector('node:parent').style({
                 'font-size': zoomlevel
             })
-            .update()
+            if(cy.zoom() > 0.07){
+                cy.style().selector('node:parent.orphan').style({
+                    'display': element,
+                    'font-size': zoomlevel,
+                })
+                .update()
+            }
+            else {
+                cy.style().selector('node:parent.orphan').style({
+                    'display': none,
+                })
+                .update()
+            }
         
         })
         
