@@ -1,5 +1,3 @@
-const childrenData = new Map(); //サブグラフに含まれるノードを記録する
-const edgesData = new Map();
 
 /*
 createGraph.pyで出力されたファイルとcytoscape.jsを使って
@@ -53,7 +51,10 @@ $(function(){
             }
             console.log(dot_graph)
             cy.add(dot_graph["eleObjs"]);
-
+        
+            
+            const childrenData = new Map(); //サブグラフに含まれるノードを記録する
+            const edgesData = new Map();
             let nodes = cy.nodes();
             let edges = cy.edges();
             for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
@@ -343,7 +344,7 @@ $(function(){
             let id = nodes.data('id')
             
             if(childrenData.get(id).removed == true){
-                restoreChildren(id, nodes);
+                restoreChildren(id, nodes, childrenData, edgesData);
                 if(cy.nodes(".selected").data()){
                     let selected_node = cy.nodes().filter(function(ele){
                         return ele.data("name") == cy.nodes(".selected").data("name");
@@ -352,7 +353,7 @@ $(function(){
                     highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
                 }
             } else{
-                recursivelyRemove(id, nodes);
+                recursivelyRemove(id, nodes, childrenData);
                 reset_elements_style(cy);
                 $(".color_index").addClass("hidden_show");
             }
@@ -492,7 +493,7 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 
 
 
-function restoreChildren(id, nodes){ //複合ノードを復元する
+function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノードを復元する
     childrenData.get(id).removed = false;
     childrenData.get(id).node.restore(); //子ノードを復元
   
@@ -551,7 +552,7 @@ function restoreChildren(id, nodes){ //複合ノードを復元する
 }
   
 
-function recursivelyRemove(id,nodes){ //複合ノードを閉じる
+function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じる
     let toRemove = [];
     for(;;){
         nodes.forEach(function(node){ //選択されたノードと子のremoveフラグを全てtrueにする
