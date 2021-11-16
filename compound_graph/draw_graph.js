@@ -104,7 +104,7 @@ $(function(){
                     css: {
                             'content': 'data(name)',
                             'font-size': 900,
-                            'color': '#cfe3d4',
+                            'color': '#FFFFFF',
                             'text-valign': 'top',
                             'text-halign': 'center',
                             'background-color': '#20bd3d',
@@ -366,9 +366,9 @@ $(function(){
             let fontsizeParent = (cy.zoom() > 0.07 ? 25 / cy.zoom() : 0)
             let fontsizeRoot = 25 / cy.zoom();
             
-            cy.style().selector('node').style({
+            /*cy.style().selector('node').style({
                 'font-size': fontsizeNode
-            })
+            })*/
             cy.style().selector(nodes.ancestors()).style({
                 'font-size': fontsizeParent
             })
