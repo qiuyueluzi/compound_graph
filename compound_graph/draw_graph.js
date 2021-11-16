@@ -40,10 +40,11 @@ $(function(){
                     directory.add(idName)
                     if(isAlready != directory.size){
                         let displayName = idName.split('/').slice(-1)
-                        if(y == 1)cy.add({group: 'nodes', data: {id: idName, name: displayName}})
-                        else {
-                            cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
+                        if(y == 1){
+                            cy.add({group: 'nodes', data: {id: idName, name: displayName}});
+                            cy.$(idName).addClass("orphan");
                         }
+                        else cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
                     }
                     parentsName = idName
                 }
