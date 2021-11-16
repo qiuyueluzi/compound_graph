@@ -363,22 +363,22 @@ $(function(){
         let zoomlevel = 0.025;
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            if((cy.zoom() <= 0.06) && (zoomlevel > 0.06)){
+            if((cy.zoom() <= 0.05) && (zoomlevel > 0.05)){
                 cy.style().selector('node').style({
                     'font-size': 0
                 })
                 cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
+                    'font-size': 450
                 })
                 cy.style().selector(nodes.ancestors()).style({
                     'font-size': 0
                 })
                 cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
+                    'font-size': 600
                 })
                 .update()
             }
-            else if((cy.zoom() > 0.06) && (zoomlevel <= 0.06) && (zoomlevel > 0.07)){
+            else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07) && (zoomlevel <= 0.05) && (zoomlevel > 0.07)){
                 cy.style().selector('node').style({
                     'font-size': 0
                 })
