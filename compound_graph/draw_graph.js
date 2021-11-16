@@ -85,7 +85,7 @@ $(function(){
                 spacingFactor: 12
             })
             layout.run()
-            console.log(cy.zoom())
+            
 
             
 
@@ -216,6 +216,7 @@ $(function(){
         /* 初期状態の設定 */
         all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
         cy.fit(cy.nodes().orphans());
+        changeFontsize();
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -365,67 +366,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            if((cy.zoom() <= 0.05)){
-                cy.style().selector('node').style({
-                    'font-size': 0
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 0
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
-            else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
-                cy.style().selector('node').style({
-                    'font-size': 0
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
-            else if(cy.zoom() > 0.07){
-                cy.style().selector('node').style({
-                    'font-size': 15 / cy.zoom()
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
-
-
-            /*let fontsizeNode = (cy.zoom() > 0.08 ? 15 / cy.zoom() : 0)
-            let fontsizeParent = (cy.zoom() > 0.06 ? 25 / cy.zoom() : 0)
-            let fontsizeRoot = 25 / cy.zoom();
-            
-            cy.style().selector('node').style({
-                'font-size': fontsizeNode
-            })
-            cy.style().selector(nodes.ancestors()).style({
-                'font-size': fontsizeParent
-            })
-            cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                'font-size': fontsizeRoot
-            })
-            .update()*/
+            changeFontsize();
         
         })
         
@@ -641,5 +582,53 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
             } //親しか参照してないけど何故か孫以下のエッジも丸ごと削除しても、ちゃんと表示されてる一番上の親に置き換わる
         }  //最下層から順に消してて、都度1段ずつ上に置き換えられてるのかしら　よくわかんないです
         toRemove[i].remove();
+    }
+}
+
+function changeFontsize(){
+    if((cy.zoom() <= 0.05)){
+        cy.style().selector('node').style({
+            'font-size': 0
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 0
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
+    }
+    else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
+        cy.style().selector('node').style({
+            'font-size': 0
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
+    }
+    else if(cy.zoom() > 0.07){
+        cy.style().selector('node').style({
+            'font-size': 15 / cy.zoom()
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
     }
 }
