@@ -360,22 +360,70 @@ $(function(){
             
         });
 
+        let zoomlevel = 0.025;
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            let fontsizeNode = (cy.zoom() > 0.08 ? 15 / cy.zoom() : 0)
-            let fontsizeParent = (cy.zoom() > 0.07 ? 25 / cy.zoom() : 0)
+            if((cy.zoom() <= 0.06) && (zoomlevel > 0.06)){
+                cy.style().selector('node').style({
+                    'font-size': 0
+                })
+                cy.style().selector('node.highlight').style({
+                    'font-size': 20 / cy.zoom()
+                })
+                cy.style().selector(nodes.ancestors()).style({
+                    'font-size': 0
+                })
+                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+                    'font-size': 25 / cy.zoom()
+                })
+                .update()
+            }
+            else if((cy.zoom() > 0.06) && (zoomlevel <= 0.06) && (zoomlevel > 0.07)){
+                cy.style().selector('node').style({
+                    'font-size': 0
+                })
+                cy.style().selector('node.highlight').style({
+                    'font-size': 400
+                })
+                cy.style().selector(nodes.ancestors()).style({
+                    'font-size': 400
+                })
+                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+                    'font-size': 500
+                })
+                .update()
+            }
+            else if((cy.zoom() > 0.07) && (zoomlevel <= 0.07)){
+                cy.style().selector('node').style({
+                    'font-size': 150
+                })
+                cy.style().selector('node.highlight').style({
+                    'font-size': 200
+                })
+                cy.style().selector(nodes.ancestors()).style({
+                    'font-size': 250
+                })
+                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+                    'font-size': 350
+                })
+                .update()
+            }
+
+            zoomlevel = cy.zoom()
+            /*let fontsizeNode = (cy.zoom() > 0.08 ? 15 / cy.zoom() : 0)
+            let fontsizeParent = (cy.zoom() > 0.06 ? 25 / cy.zoom() : 0)
             let fontsizeRoot = 25 / cy.zoom();
             
-            /*cy.style().selector('node').style({
+            cy.style().selector('node').style({
                 'font-size': fontsizeNode
-            })*/
+            })
             cy.style().selector(nodes.ancestors()).style({
                 'font-size': fontsizeParent
             })
             cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
                 'font-size': fontsizeRoot
             })
-            .update()
+            .update()*/
         
         })
         
