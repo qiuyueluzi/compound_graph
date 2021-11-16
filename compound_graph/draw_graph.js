@@ -40,10 +40,7 @@ $(function(){
                     directory.add(idName)
                     if(isAlready != directory.size){
                         let displayName = idName.split('/').slice(-1)
-                        if(y == 1){
-                            cy.add({group: 'nodes', data: {id: idName, name: displayName}});
-                            cy.$(idName).addClass("orphan");
-                        }
+                        if(y == 1) cy.add({group: 'nodes', data: {id: idName, name: displayName}});
                         else cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
                     }
                     parentsName = idName
@@ -89,8 +86,8 @@ $(function(){
             })
             layout.run()
 
-            let zoomlevel;
             
+
             // Set graph style
             cy.style([
                 /* 初期状態のスタイル */
@@ -112,8 +109,8 @@ $(function(){
                             'text-halign': 'center',
                             'background-color': '#20bd3d',
                             'background-opacity': 0.25
-                          }
-                    },
+                    }
+                },
                 {
                     selector: "edge",
                     css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
@@ -365,9 +362,18 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            zoomlevel = 25 / cy.zoom()
-            cy.style().selector('node:parent').style({
-                'font-size': zoomlevel
+            let fontsizeNode = (cy.zoom() > 0.08 ? 15 / cy.zoom() : 0)
+            let fontsizeParent = (cy.zoom() > 0.07 ? 25 / cy.zoom() : 0)
+            let fontsizeRoot = 25 / cy.zoom();
+            
+            cy.style().selector('node').style({
+                'font-size': fontsizeNode
+            })
+            cy.style().selector(nodes.ancestors()).style({
+                'font-size': fontsizeParent
+            })
+            cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+                'font-size': fontsizeRoot
             })
             .update()
         
