@@ -85,6 +85,7 @@ $(function(){
                 spacingFactor: 12
             })
             layout.run()
+            console.log(cy.zoom())
 
             
 
@@ -104,7 +105,8 @@ $(function(){
                     css: {
                             'content': 'data(name)',
                             'font-size': 900,
-                            'color': '#FFFFFF',
+                            "text-outline-color": '#FFFFFF',
+                            'color': '#000000',
                             'text-valign': 'top',
                             'text-halign': 'center',
                             'background-color': '#20bd3d',
