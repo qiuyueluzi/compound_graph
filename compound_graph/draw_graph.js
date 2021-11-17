@@ -329,7 +329,7 @@ $(function(){
         });
 
 
-        cy.nodes().on('tap', function(e) {// クリックしたノードの親と子、自身を色変更
+        cy.nodes().on('onetap', function(e) {// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
