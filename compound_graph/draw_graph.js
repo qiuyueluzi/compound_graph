@@ -21,6 +21,7 @@ $(function(){
                 selectionType: "additive",
                 wheelSensitivity: 0.1,
                 autounselectify: true,
+                multiClickDebounceTime: 350,
                 zoom: 0.025,
 
             });
@@ -328,17 +329,7 @@ $(function(){
         });
 
 
-        let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
-        let previousTapStamp = 0;
-        cy.nodes().on('tap', function(e) {
-            let currentTapStamp= e.timeStamp;
-            let msFromLastTap= currentTapStamp -previousTapStamp;
-            if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
-                if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
-                    e.target.trigger('doubleTap', e);
-                }
-            }
-            else{// クリックしたノードの親と子、自身を色変更
+        cy.nodes().on('tap', function(e) {// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
@@ -347,12 +338,10 @@ $(function(){
                 let clicked_node_name = clicked_node.data("name");
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
-            }
-            previousTapStamp= currentTapStamp;
             
         });
         
-        cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
+        cy.on('dblclick', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
             
