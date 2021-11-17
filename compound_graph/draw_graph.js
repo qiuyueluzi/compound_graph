@@ -97,8 +97,8 @@ $(function(){
                     css: {"background-color": "#000000", "shape": "ellipse", "width": "150", "height": "150",
                     "content": "data(name)", "font-size": 40, "opacity": 1, "z-index": 1,
                     "text-halign":"center", "text-valign": "center", "font-style": "normal",
-                    "font-weight": "bold", "color": "#ffffff",
-                    "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
+                    "font-weight": "bold", "color": "#006230",
+                    "text-outline-color": "#FFFFFF", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
                 },
                 {
                     selector: 'node:parent',
