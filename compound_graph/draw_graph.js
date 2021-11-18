@@ -64,7 +64,10 @@ $(function(){
                 let connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
                 let parentNode = nodes[x].data('parent'); //当ノードの親ノード
                 
-                if(childrenNodes.length > 0)curNode.css('shape', 'square'); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
+                if(childrenNodes.length > 0)curNode.style({
+                    'shape': 'square',
+                    'color': '#000000'
+                }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
             }
@@ -378,51 +381,8 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            if((cy.zoom() <= 0.05)){
-                cy.style().selector('node').style({
-                    'font-size': 0
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 0
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
-            else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
-                cy.style().selector('node').style({
-                    'font-size': 0
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
-            else if(cy.zoom() > 0.07){
-                cy.style().selector('node').style({
-                    'font-size': 15 / cy.zoom()
-                })
-                cy.style().selector('node.highlight').style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()).style({
-                    'font-size': 20 / cy.zoom()
-                })
-                cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-                    'font-size': 25 / cy.zoom()
-                })
-                .update()
-            }
+            fontsize();
+
 
 
         
@@ -640,5 +600,53 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
             } //親しか参照してないけど何故か孫以下のエッジも丸ごと削除しても、ちゃんと表示されてる一番上の親に置き換わる
         }  //最下層から順に消してて、都度1段ずつ上に置き換えられてるのかしら　よくわかんないです
         toRemove[i].remove();
+    }
+}
+
+function fontsize(){
+    if((cy.zoom() <= 0.05)){
+        cy.style().selector('node').style({
+            'font-size': 0
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 0
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
+    }
+    else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
+        cy.style().selector('node').style({
+            'font-size': 0
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
+    }
+    else if(cy.zoom() > 0.07){
+        cy.style().selector('node').style({
+            'font-size': 15 / cy.zoom()
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()).style({
+            'font-size': 20 / cy.zoom()
+        })
+        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+            'font-size': 25 / cy.zoom()
+        })
+        .update()
     }
 }
