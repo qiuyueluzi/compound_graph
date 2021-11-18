@@ -219,19 +219,7 @@ $(function(){
         /* 初期状態の設定 */
         all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
         cy.fit(cy.nodes().orphans());
-        cy.style().selector('node').style({
-            'font-size': 0
-        })
-        cy.style().selector('node.highlight').style({
-            'font-size': 20 / cy.zoom()
-        })
-        cy.style().selector(nodes.ancestors()).style({
-            'font-size': 0
-        })
-        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
-            'font-size': 25 / cy.zoom()
-        })
-        .update()
+        fontsize(nodes);
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -367,11 +355,13 @@ $(function(){
                     });
                     reset_elements_style(cy);
                     highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
+                    fontsize(nodes);
                 }
             } else{
                 recursivelyRemove(id, nodes, childrenData);
                 reset_elements_style(cy);
                 $(".color_index").addClass("hidden_show");
+                fontsize(nodes);
             }
             
             console.log('finish')
@@ -381,7 +371,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            fontsize(cy);
+            fontsize(nodes);
 
 
 
@@ -603,7 +593,7 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
     }
 }
 
-function fontsize(cy){
+function fontsize(nodes){
     if((cy.zoom() <= 0.05)){
         cy.style().selector('node').style({
             'font-size': 0
