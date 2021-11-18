@@ -589,8 +589,8 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
 }
 
 function fontsize(nodes){
+    console.log(nodes.ancestors(), nodes.orphans())
     if((cy.zoom() <= 0.05)){
-        console.log('L')
         cy.style().selector('node').style({
             'font-size': 0
         })
@@ -606,7 +606,6 @@ function fontsize(nodes){
         .update()
     }
     else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
-        console.log('M')
         cy.style().selector('node').style({
             'font-size': 0
         })
@@ -622,7 +621,6 @@ function fontsize(nodes){
         .update()
     }
     else if(cy.zoom() > 0.07){
-        console.log('S')
         cy.style().selector('node').style({
             'font-size': 15 / cy.zoom()
         })
