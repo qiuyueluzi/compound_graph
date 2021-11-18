@@ -595,14 +595,8 @@ function fontsize(ancestor, orphan){
         cy.style().selector('node').style({
             'font-size': 0
         })
-        cy.style().selector('node.highlight').style({
-            'font-size': 20 / cy.zoom()
-        })
         cy.style().selector(ancestor).style({
             'font-size': 0
-        })
-        cy.style().selector(ancestor&&orphan).style({
-            'font-size': 25 / cy.zoom()
         })
         .update()
     }
@@ -610,14 +604,8 @@ function fontsize(ancestor, orphan){
         cy.style().selector('node').style({
             'font-size': 0
         })
-        cy.style().selector('node.highlight').style({
-            'font-size': 20 / cy.zoom()
-        })
         cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
-        })
-        cy.style().selector(ancestor&&orphan).style({
-            'font-size': 25 / cy.zoom()
         })
         .update()
     }
@@ -625,15 +613,17 @@ function fontsize(ancestor, orphan){
         cy.style().selector('node').style({
             'font-size': 15 / cy.zoom()
         })
-        cy.style().selector('node.highlight').style({
-            'font-size': 20 / cy.zoom()
-        })
         cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(ancestor&&orphan).style({
-            'font-size': 25 / cy.zoom()
-        })
         .update()
     }
+
+    cy.style().selector('node.highlight').style({
+        'font-size': 20 / cy.zoom()
+    })
+    cy.style().selector(ancestor&&orphan).style({
+        'font-size': 25 / cy.zoom()
+    })
+    .update()
 }
