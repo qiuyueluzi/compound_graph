@@ -219,7 +219,9 @@ $(function(){
         /* 初期状態の設定 */
         all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
         cy.fit(cy.nodes().orphans());
-        fontsize(nodes);
+        let ancestor = nodes.ancestors();
+        let orphan = nodes.orphans();
+        fontsize(ancestor, orphan);
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -361,7 +363,7 @@ $(function(){
                 reset_elements_style(cy);
                 $(".color_index").addClass("hidden_show");
             }
-            fontsize(nodes);
+            fontsize(ancestor, orphan);
             
             console.log('finish')
             
@@ -370,7 +372,7 @@ $(function(){
 
         cy.on('zoom', function(e){
             console.log(cy.zoom())
-            fontsize(nodes);
+            fontsize(ancestor, orphan);
         })
         
         
@@ -588,8 +590,7 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
     }
 }
 
-function fontsize(nodes){
-    console.log(nodes.ancestors(), nodes.orphans())
+function fontsize(ancestor, orphan){
     if((cy.zoom() <= 0.05)){
         cy.style().selector('node').style({
             'font-size': 0
@@ -597,10 +598,10 @@ function fontsize(nodes){
         cy.style().selector('node.highlight').style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(nodes.ancestors()).style({
+        cy.style().selector(ancestor).style({
             'font-size': 0
         })
-        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+        cy.style().selector(ancestor&&orphan).style({
             'font-size': 25 / cy.zoom()
         })
         .update()
@@ -612,10 +613,10 @@ function fontsize(nodes){
         cy.style().selector('node.highlight').style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(nodes.ancestors()).style({
+        cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+        cy.style().selector(ancestor&&orphan).style({
             'font-size': 25 / cy.zoom()
         })
         .update()
@@ -627,10 +628,10 @@ function fontsize(nodes){
         cy.style().selector('node.highlight').style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(nodes.ancestors()).style({
+        cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
         })
-        cy.style().selector(nodes.ancestors()&&nodes.orphans()).style({
+        cy.style().selector(ancestor&&orphan).style({
             'font-size': 25 / cy.zoom()
         })
         .update()
