@@ -5,91 +5,93 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 */
 $(function(){
     $.when(
-        $.getJSON('./graph_attrs/compound_dot_graph.json'),
-        $.getJSON('./graph_attrs/mml_classification.json')
+        $.getJSON('./graph_attrs/compound_dot_graph.json')
     )
-    .done(function(dot_graph, classification){
-        // cytoscapeグラフの作成(初期化)
-        let cy = window.cy = cytoscape({
-            container: document.getElementById('graph'),
-            elements: [],
-            boxSelectionEnabled: true,
-            autounselectify: false,
-            selectionType: "additive",
-            wheelSensitivity: 0.1,
-            autounselectify: true,
-            zoom: 0.025,
+    .then((dot_graph) => {
+        $.when(
+            $.getJSON('./graph_attrs/mml_classification.json')
+        )
+        .then((classification) =>{
+            // cytoscapeグラフの作成(初期化)
+            let cy = window.cy = cytoscape({
+                container: document.getElementById('graph'),
+                elements: [],
+                boxSelectionEnabled: true,
+                autounselectify: false,
+                selectionType: "additive",
+                wheelSensitivity: 0.1,
+                autounselectify: true,
+                zoom: 0.025,
+
+            });
             
-        });
-        
-        const directory = new Set();
-        for(let x=0; x<classification["mml_classification"].length; x++){
-            let parents = classification.mml_classification[x]["directory"].split('/')
-            let parentsName = new String();
-            for(let y = 1; y < parents.length; y++){
-                let idName = parents[1];
-                let parentDirectory = new String();
-                for(let z = 2; z < y + 1; z++){
-                    parentDirectory = idName;
-                    idName += '/' + parents[z];
+            const directory = new Set();
+            for(let x=0; x<classification["mml_classification"].length; x++){
+                let parents = classification.mml_classification[x]["directory"].split('/')
+                let parentsName = new String();
+                for(let y = 1; y < parents.length; y++){
+                    let idName = parents[1];
+                    let parentDirectory = new String();
+                    for(let z = 2; z < y + 1; z++){
+                        parentDirectory = idName;
+                        idName += '/' + parents[z];
+                    }
+                    let isAlready = directory.size;
+                    directory.add(idName)
+                    if(isAlready != directory.size){
+                        let displayName = idName.split('/').slice(-1)
+                        if(y == 1) cy.add({group: 'nodes', data: {id: idName, name: displayName}});
+                        else cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
+                    }
+                    parentsName = idName
                 }
-                let isAlready = directory.size;
-                directory.add(idName)
-                if(isAlready != directory.size){
-                    let displayName = idName.split('/').slice(-1)
-                    if(y == 1) cy.add({group: 'nodes', data: {id: idName, name: displayName}});
-                    else cy.add({group: 'nodes', data: {id: idName, name: displayName, parent: parentDirectory}})
-                }
-                parentsName = idName
+                dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
-            dot_graph.eleObjs[x].data["parent"] = parentsName;
-        }
-        console.log(dot_graph)
-        cy.add(dot_graph["eleObjs"]);
+            console.log(dot_graph)
+            cy.add(dot_graph["eleObjs"]);
         
-        
-        const childrenData = new Map(); //サブグラフに含まれるノードを記録する
-        const edgesData = new Map();
-        let nodes = cy.nodes();
-        let edges = cy.edges();
-        for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
-            let curNode = cy.$(nodes[x]);
-            let id = curNode.data('id');
             
-            let childrenNodes = curNode.children(); //当ノードの子ノード
-            let connectedEdges = curNode.connectedEdges(); //当ノードに接続するエッジ
-            let connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
-            let parentNode = nodes[x].data('parent'); //当ノードの親ノード
-            
-            if(childrenNodes.length > 0)curNode.style({
-                'shape': 'square',
-                'color': '#000000'
-            }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
-            childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
-        }
-        
-        for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
-            let curEdge = cy.$(edges[x]);
-            let id = curEdge.data('id');
-            let curTarget = curEdge.target();
-            let curSource = curEdge.source();
-            
-            edgesData.set(id, {source: curSource, target: curTarget});
-        }
-        console.log(childrenData)
-        nodes.forEach(function(node){ //
-            //if(node.isOrphan())recursivelyRemove(node.id(), node)
-        })
-        let layout = cy.elements().layout({
-            name: "klay",
-            spacingFactor: 12
-        })
+            const childrenData = new Map(); //サブグラフに含まれるノードを記録する
+            const edgesData = new Map();
+            let nodes = cy.nodes();
+            let edges = cy.edges();
+            for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
+                let curNode = cy.$(nodes[x]);
+                let id = curNode.data('id');
+                
+                let childrenNodes = curNode.children(); //当ノードの子ノード
+                let connectedEdges = curNode.connectedEdges(); //当ノードに接続するエッジ
+                let connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
+                let parentNode = nodes[x].data('parent'); //当ノードの親ノード
+                
+                if(childrenNodes.length > 0)curNode.style({
+                    'shape': 'square',
+                    'color': '#000000'
+                }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
+                
+                childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
+            }
+            for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
+                let curEdge = cy.$(edges[x]);
+                let id = curEdge.data('id');
+                let curTarget = curEdge.target();
+                let curSource = curEdge.source();
+                
+                edgesData.set(id, {source: curSource, target: curTarget});
+            }
+            console.log(childrenData)
+            nodes.forEach(function(node){ //
+                //if(node.isOrphan())recursivelyRemove(node.id(), node)
+            })
+            let layout = cy.elements().layout({
+                name: "klay",
+                spacingFactor: 12
+            })
             layout.run()
             console.log(cy.zoom())
+
             
-            
-            
-            
+
             // Set graph style
             cy.style([
                 /* 初期状態のスタイル */
@@ -104,14 +106,14 @@ $(function(){
                 {
                     selector: 'node:parent',
                     css: {
-                        'content': 'data(name)',
-                        'font-size': 900,
-                        "text-outline-color": '#FFFFFF',
-                        'color': '#000000',
-                        'text-valign': 'top',
-                        'text-halign': 'center',
-                        'background-color': '#20bd3d',
-                        'background-opacity': 0.25
+                            'content': 'data(name)',
+                            'font-size': 900,
+                            "text-outline-color": '#FFFFFF',
+                            'color': '#000000',
+                            'text-valign': 'top',
+                            'text-halign': 'center',
+                            'background-color': '#20bd3d',
+                            'background-opacity': 0.25
                     }
                 },
                 {
@@ -127,17 +129,17 @@ $(function(){
                     "content": "data(name)", "opacity": 1, "z-index": 10}
                 },
                 // 選択(左クリック)されたノードのスタイル
-                {
-                    selector: "node.selected",
-                    css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
-                    "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
-                }
-            },
-            // 選択された(強調表示する)祖先のスタイル
             {
-                selector: "node.selected_ancestors0", 
-                css: {"background-color": "#ff0000", "color": "#ffffff",
-                "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
+                selector: "node.selected",
+                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
+                "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
+            }
+        },
+        // 選択された(強調表示する)祖先のスタイル
+        {
+            selector: "node.selected_ancestors0", 
+            css: {"background-color": "#ff0000", "color": "#ffffff",
+            "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_ancestors1",
@@ -211,9 +213,8 @@ $(function(){
                 selector: "node:parent.faded",
                 css: {"opacity": 1}
             }
-            
+
         ]);
-        
         
         /* 初期状態の設定 */
         all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
@@ -392,20 +393,11 @@ $(function(){
                 location.reload();
             });
         });
-    })
-    .fail(function(){
-        alert("ERROR: Failed to read JSON file.");
-    })
-    /*.then((dot_graph) => {
-        $.when(
-            $.getJSON('./graph_attrs/mml_classification.json')
-        )
-        .then((classification) =>{
         })
 
     }, () => {
         alert("ERROR: Failed to read JSON file.");
-    });*/
+    });
 
 });
 
