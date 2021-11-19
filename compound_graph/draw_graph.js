@@ -86,7 +86,7 @@ $(function(){
             })
             layout.run()
             nodes.forEach(function(node){ //
-                //if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
+                if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
             })
             console.log(cy.zoom())
 
