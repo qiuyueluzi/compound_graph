@@ -80,14 +80,14 @@ $(function(){
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
             console.log(childrenData)
-            nodes.forEach(function(node){ //
-                //if(node.isOrphan())recursivelyRemove(node.id(), node)
-            })
             let layout = cy.elements().layout({
                 name: "klay",
                 spacingFactor: 12
             })
             layout.run()
+            nodes.forEach(function(node){ //
+                if(node.isOrphan())recursivelyRemove(node.id(), node)
+            })
             console.log(cy.zoom())
 
             
