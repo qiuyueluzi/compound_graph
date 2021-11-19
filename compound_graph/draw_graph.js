@@ -85,10 +85,7 @@ $(function(){
                 spacingFactor: 12
             })
             layout.run()
-            nodes.forEach(function(node){ //
-                if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
-            })
-           
+
 
             // Set graph style
             cy.style([
@@ -220,6 +217,9 @@ $(function(){
         let ancestor = nodes.ancestors();
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
+        nodes.forEach(function(node){ //
+            if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
+        })
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
