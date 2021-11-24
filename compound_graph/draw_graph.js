@@ -217,9 +217,6 @@ $(function(){
         let ancestor = nodes.ancestors();
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
-        nodes.forEach(function(node){ //
-            if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
-        })
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -384,6 +381,12 @@ $(function(){
                 highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
             }
         });
+
+        $("#all-close").click(function(){
+            nodes.forEach(function(node){
+                if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
+            })
+        })
 
         // resetボタンでグラフを初期状態に戻す
         $(document).ready(function(){
