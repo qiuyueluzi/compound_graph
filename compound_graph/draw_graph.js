@@ -383,8 +383,19 @@ $(function(){
         });
 
         $("#all-close").click(function(){
-            nodes.forEach(function(node){
-                if(node.isOrphan())recursivelyRemove(node.id(), node, childrenData)
+            let bottom = -1;
+            let removes = [];
+            nodes.parent().forEach(function(node){
+                if(bottom < node.ancestors().length){
+                    removes = [];
+                    bottom = node.ancestors().length
+                }
+                if(bottom == node.ancestors().length){
+                    removes.push(node)
+                }
+            })
+            removes.forEach(function(remove){
+                recursivelyRemove(remove.id(), remove)
             })
         })
 
