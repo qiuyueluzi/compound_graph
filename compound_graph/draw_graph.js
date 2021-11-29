@@ -395,7 +395,7 @@ $(function(){
                 }
             })
             removes.forEach(function(remove){
-                recursivelyRemove(remove.id(), remove)
+                recursivelyRemove(remove.id(), remove, childrenData)
             })
         })
 
