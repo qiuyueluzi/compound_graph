@@ -370,7 +370,6 @@ $(function(){
 
 
         cy.on('zoom', function(e){
-            console.log(cy.zoom())
             fontsize(ancestor, orphan);
         })
         
@@ -408,12 +407,12 @@ $(function(){
             })
         })
         $("#open").click(function(){
-            cy.nodes().forEach(function(node){
+            cy.nodes("node:parent").forEach(function(node){
                 if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData, edgesData)
             })
         })
         $("#all-open").click(function(){
-            //cy.nodes()
+            
         })
 
         // resetボタンでグラフを初期状態に戻す
