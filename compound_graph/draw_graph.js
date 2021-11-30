@@ -412,11 +412,9 @@ $(function(){
             })
         })
         $("#all-open").click(function(){
-
-                nodes.forEach(function(node){
-                    if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
-                })
-
+            nodes.forEach(function(node){
+                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
+            })
         })
 
         // resetボタンでグラフを初期状態に戻す
@@ -541,12 +539,12 @@ function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノード�
                 //idが重複するエッジを生成しようとした場合に、当該エッジが初期状態と異なる状態であれば実行される
                 
                 cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
-                console.log('remove Edge ' + restoreEdgeID)
+                //console.log('remove Edge ' + restoreEdgeID)
                 x--; //ループ変数を減らしもう一度同じエッジの追加を行う
             }
         }
         else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ //復元エッジの両端どちらかが表示されていない場合、lengthが0になる
-            console.log('try restore:'+restoreEdgeID)
+            //console.log('try restore:'+restoreEdgeID)
             let newSource = edgesData.get(restoreEdgeID).source.id(); //復元エッジのソース、ターゲットを取得
             let newTarget = edgesData.get(restoreEdgeID).target.id();
             let sFlag = (childrenData.get(childrenData.get(newSource).parent) == undefined ? false : childrenData.get(childrenData.get(newSource).parent).removed); 
@@ -576,12 +574,12 @@ function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノード�
             }
             if(newSource!=newTarget){ //自己ループにならないならエッジを追加
                 cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
-                console.log('create Edge ' + restoreEdgeID)
+                //console.log('create Edge ' + restoreEdgeID)
             }
         }
         else{
             cy.add(childrenData.get(id).edge[x]) //ノードに関連するエッジを復元、ただしソースかターゲットが存在しない場合があるのでエラーを捕捉する
-            console.log(childrenData.get(id).edge[x].id() + ' : restore')
+            //console.log(childrenData.get(id).edge[x].id() + ' : restore')
         }
     }
 }
