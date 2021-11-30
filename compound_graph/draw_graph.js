@@ -389,17 +389,17 @@ $(function(){
         $("#close").click(function(){
             let bottom = -1;
             let removes = [];
-            directory.forEach(function(dir){
-                if(bottom < cy.$(dir).ancestors().length){
+            nodes.parent().forEach(function(node){
+                if(bottom < node.ancestors().length){
                     removes = [];
-                    bottom = cy.$(dir).ancestors().length
+                    bottom = node.ancestors().length
                 }
-                if(bottom == cy.$(dir).ancestors().length){
-                    removes.push(cy.$(dir))
+                if(bottom == node.ancestors().length){
+                    removes.push(node)
                 }
             })
             removes.forEach(function(remove){
-                recursivelyRemove(remove.id(), removes, childrenData)
+                recursivelyRemove(remove.id(), remove, childrenData)
             })
         })
         $("#all-close").click(function(){
