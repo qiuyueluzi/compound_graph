@@ -409,7 +409,7 @@ $(function(){
         })
         $("#open").click(function(){
             cy.nodes().forEach(function(node){
-                if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData)
+                if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData, edgesData)
             })
         })
         $("#all-open").click(function(){
