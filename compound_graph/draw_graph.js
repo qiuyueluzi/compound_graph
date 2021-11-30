@@ -51,7 +51,7 @@ $(function(){
                 }
                 dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
-            console.log(dot_graph)
+            console.log(directory)
             cy.add(dot_graph["eleObjs"]);
         
             
