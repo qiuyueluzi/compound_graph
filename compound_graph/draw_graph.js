@@ -408,7 +408,7 @@ $(function(){
         })
         $("#open").click(function(){
             cy.nodes().forEach(function(node){
-                if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData, edgesData)
+                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
         })
         $("#all-open").click(function(){
@@ -416,7 +416,7 @@ $(function(){
             while(!allopen){
                 cy.nodes().forEach(function(node){
                     allopen = true;
-                    if(childrenData.get(node.id()).removed) {
+                    if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) {
                         restoreChildren(node.id(), node, childrenData, edgesData);
                         allopen = false;
                     }
