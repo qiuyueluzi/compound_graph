@@ -407,7 +407,7 @@ $(function(){
             })
         })
         $("#open").click(function(){
-            cy.nodes("node:parent").forEach(function(node){
+            cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData, edgesData)
             })
         })
