@@ -412,7 +412,16 @@ $(function(){
             })
         })
         $("#all-open").click(function(){
-            
+            let allopen = false;
+            while(!allopen){
+                cy.nodes().forEach(function(node){
+                    allopen = true;
+                    if(childrenData.get(node.id()).removed) {
+                        restoreChildren(node.id(), node, childrenData, edgesData);
+                        allopen = false;
+                    }
+                })
+            }
         })
 
         // resetボタンでグラフを初期状態に戻す
