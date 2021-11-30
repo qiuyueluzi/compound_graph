@@ -389,7 +389,7 @@ $(function(){
         $("#close").click(function(){
             let bottom = -1;
             let removes = [];
-            directory.parent().forEach(function(dir){
+            directory.forEach(function(dir){
                 if(bottom < cy.$(dir).ancestors().length){
                     removes = [];
                     bottom = cy.$(dir).ancestors().length
