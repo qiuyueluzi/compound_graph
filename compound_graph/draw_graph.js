@@ -4,6 +4,9 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
+    $(".has-sub").hover(function(){
+        $(this).children(".sub").stop().slideToggle();
+      });
     $.when(
         $.getJSON('./graph_attrs/compound_dot_graph.json')
     )
@@ -12,6 +15,7 @@ $(function(){
             $.getJSON('./graph_attrs/mml_classification.json')
         )
         .then((classification) =>{
+            $(".has-sub").children(".sub").stop().slideToggle();
             // cytoscapeグラフの作成(初期化)
             let cy = window.cy = cytoscape({
                 container: document.getElementById('graph'),
@@ -382,20 +386,25 @@ $(function(){
             }
         });
 
-        $("#all-close").click(function(){
+        $("#close").click(function(){
             let bottom = -1;
             let removes = [];
-            nodes.parent().forEach(function(node){
-                if(bottom < node.ancestors().length){
+            directory.parent().forEach(function(dir){
+                if(bottom < cy.$(dir).ancestors().length){
                     removes = [];
-                    bottom = node.ancestors().length
+                    bottom = cy.$(dir).ancestors().length
                 }
-                if(bottom == node.ancestors().length){
-                    removes.push(node)
+                if(bottom == cy.$(dir).ancestors().length){
+                    removes.push(cy.$(dir))
                 }
             })
             removes.forEach(function(remove){
                 recursivelyRemove(remove.id(), remove, childrenData)
+            })
+        })
+        $("#all-close").click(function(){
+            nodes.forEach(function(node){
+                if(node.isOrphan()) recursivelyRemove(node.id(), node, childrenData)
             })
         })
 
