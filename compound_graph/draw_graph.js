@@ -407,6 +407,14 @@ $(function(){
                 if(node.isOrphan()) recursivelyRemove(node.id(), node, childrenData)
             })
         })
+        $("#open").click(function(){
+            cy.nodes().forEach(function(node){
+                if(childrenData.get(node.id()).removed) restoreChildren(node.id(), node, childrenData)
+            })
+        })
+        $("#all-open").click(function(){
+            //cy.nodes()
+        })
 
         // resetボタンでグラフを初期状態に戻す
         $(document).ready(function(){
