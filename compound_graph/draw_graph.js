@@ -399,7 +399,7 @@ $(function(){
                 }
             })
             removes.forEach(function(remove){
-                recursivelyRemove(remove.id(), remove, childrenData)
+                recursivelyRemove(remove.id(), removes, childrenData)
             })
         })
         $("#all-close").click(function(){
