@@ -373,7 +373,7 @@ $(function(){
                 directory.forEach(function(dir){
                     if(!childrenData.get(dir).removed) allclose = false;
                 })
-                if(allclose == true) $("#open").css('background-color', 'gray')
+                if(allclose == true) $("#close").css('background-color', 'gray')
             }
             fontsize(ancestor, orphan);
             
@@ -418,7 +418,7 @@ $(function(){
             directory.forEach(function(dir){
                 if(!childrenData.get(dir).removed) allclose = false;
             })
-            if(allclose == true) $("#open").css('background-color', 'gray')
+            if(allclose == true) $("#close").css('background-color', 'gray')
         })
         $("#open").click(function(){
             $("#close").css('background-color', '')
