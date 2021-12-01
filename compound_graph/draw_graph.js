@@ -431,7 +431,6 @@ $(function(){
         $(this).children(".sub").stop().slideDown();
     });
     $(".has-sub").mouseout(function(){
-        wait(1500);    
         $(".sub").stop().slideUp();
     });
     
@@ -625,12 +624,6 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
         toRemove[i].remove();
     }
 }
-
-function wait(sec) {
-    var objDef = new $.Deferred;
-    setTimeout(function () {objDef.resolve(sec);}, sec);// secミリ秒後に、resolve()を実行して、Promiseを完了
-    return objDef.promise();
-};
 
 function fontsize(ancestor, orphan){
     if((cy.zoom() <= 0.05)){
