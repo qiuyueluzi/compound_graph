@@ -357,10 +357,22 @@ $(function(){
                     reset_elements_style(cy);
                     highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
                 }
+                $("#close").css('background-color', '')
+                let allopen = true
+                directory.forEach(function(dir){
+                    if(childrenData.get(dir).removed) allopen = false;
+                })
+                if(allopen == true) $("#open").css('background-color', 'gray')
             } else{
                 recursivelyRemove(id, nodes, childrenData);
                 reset_elements_style(cy);
                 $(".color_index").addClass("hidden_show");
+                $("#open").css('background-color', '')
+                let allclose = true
+                directory.forEach(function(dir){
+                    if(!childrenData.get(dir).removed) allclose = false;
+                })
+                if(allclose == true) $("#open").css('background-color', 'gray')
             }
             fontsize(ancestor, orphan);
             
@@ -401,7 +413,11 @@ $(function(){
             removes.forEach(function(remove){
                 recursivelyRemove(remove.id(), remove, childrenData)
             })
-            if(bottom == 0)$("#close").css('background-color', 'gray')
+            let allclose = true
+            directory.forEach(function(dir){
+                if(!childrenData.get(dir).removed) allclose = false;
+            })
+            if(allclose == true) $("#open").css('background-color', 'gray')
         })
         $("#open").click(function(){
             $("#close").css('background-color', '')
