@@ -386,7 +386,7 @@ $(function(){
         });
 
         $("#close").click(function(){
-            $("#open").css('background-color', 'default',)
+            $("#open").css('background-color', '')
             let bottom = -1;
             let removes = [];
             nodes.parent().forEach(function(node){
@@ -408,6 +408,11 @@ $(function(){
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
+            let allopen = true
+            directory.forEach(function(dir){
+                if(childrenData.get(dir).removed) allopen = false;
+            })
+            if(allopen == true) $("#open").css('background-color', 'gray')
         })
         /*$("#all-close").click(function(){
             nodes.forEach(function(node){
