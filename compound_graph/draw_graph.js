@@ -427,12 +427,9 @@ $(function(){
         alert("ERROR: Failed to read JSON file.");
     });
 
-    $(".has-sub").mouseover(function(){
-        $(this).children(".sub").stop().slideDown();
-    });
-    $(".has-sub").mouseout(function(){
-        $(".sub").stop().slideUp();
-    });
+    $(".has-sub").hover(function(){
+        $(this).children(".sub").stop().slideToggle();
+      });
     
 });
 
