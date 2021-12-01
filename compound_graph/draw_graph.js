@@ -404,9 +404,7 @@ $(function(){
             if(bottom == 0)$("#close").css('background-color', 'gray')
         })
         $("#open").click(function(){
-            $("#close").css('background-color', 'white')
-            $("button:active").css('color', 'white')
-            $("button:active").css('background-color', 'black')
+            $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
