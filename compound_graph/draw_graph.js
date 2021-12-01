@@ -427,9 +427,9 @@ $(function(){
         alert("ERROR: Failed to read JSON file.");
     });
 
-    $(".has-sub").hover(function(){
+    /*$(".has-sub").hover(function(){
         $(this).children(".sub").stop().slideToggle();
-      });
+      });*/
     
 });
 
