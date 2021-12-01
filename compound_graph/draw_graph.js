@@ -221,6 +221,7 @@ $(function(){
         let ancestor = nodes.ancestors();
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
+        $("#open").css('background-color', 'gray')
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
