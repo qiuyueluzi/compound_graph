@@ -69,7 +69,8 @@ $(function(){
                     'shape': 'square',
                     "width": "300", "height": "300",
                     'color': '#000000',
-                    "text-outline-color": '#FFFFFF'
+                    "text-outline-color": '#FFFFFF',
+                    "text-outline-opacity": 2
                 }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
