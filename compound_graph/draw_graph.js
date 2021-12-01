@@ -4,9 +4,6 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $(".has-sub").hover(function(){
-        $(this).children(".sub").stop().slideToggle();
-      });
     $.when(
         $.getJSON('./graph_attrs/compound_dot_graph.json')
     )
@@ -430,6 +427,14 @@ $(function(){
         alert("ERROR: Failed to read JSON file.");
     });
 
+    $(".has-sub").mouseover(function(){
+        $(this).children(".sub").stop().slideDown();
+    });
+    $(".has-sub").mouseout(function(){
+        wait(1500);    
+        $(".sub").stop().slideUp();
+    });
+    
 });
 
 
@@ -620,6 +625,12 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
         toRemove[i].remove();
     }
 }
+
+function wait(sec) {
+    var objDef = new $.Deferred;
+    setTimeout(function () {objDef.resolve(sec);}, sec);// secミリ秒後に、resolve()を実行して、Promiseを完了
+    return objDef.promise();
+};
 
 function fontsize(ancestor, orphan){
     if((cy.zoom() <= 0.05)){
