@@ -70,7 +70,6 @@ $(function(){
                     "width": "300", "height": "300",
                     'color': '#000000',
                     "text-outline-color": '#FFFFFF',
-                    "text-outline-opacity": 2
                 }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
@@ -100,7 +99,7 @@ $(function(){
                     "content": "data(name)", "font-size": 40, "opacity": 1, "z-index": 1,
                     "text-halign":"center", "text-valign": "center", "font-style": "normal",
                     "font-weight": "bold", "color": "#FFFFFF",
-                    "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
+                    "text-outline-color": "#000000", "text-outline-opacity": 2, "text-outline-width": 10}  // 0.8 30
                 },
                 {
                     selector: 'node:parent',
