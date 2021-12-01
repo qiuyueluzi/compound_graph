@@ -67,7 +67,7 @@ $(function(){
                 
                 if(childrenNodes.length > 0)curNode.style({
                     'shape': 'square',
-                    "width": "300", "height": "300",
+                    "width": "200", "height": "200",
                     'color': '#000000',
                     "text-outline-color": '#FFFFFF',
                     'text-valign': 'top',
