@@ -400,22 +400,23 @@ $(function(){
             removes.forEach(function(remove){
                 recursivelyRemove(remove.id(), remove, childrenData)
             })
-        })
-        $("#all-close").click(function(){
-            nodes.forEach(function(node){
-                if(node.isOrphan()) recursivelyRemove(node.id(), node, childrenData)
-            })
+            if(bottom == 0)$("#close").css('background-color', 'gray')
         })
         $("#open").click(function(){
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
         })
+        /*$("#all-close").click(function(){
+            nodes.forEach(function(node){
+                if(node.isOrphan()) recursivelyRemove(node.id(), node, childrenData)
+            })
+        })
         $("#all-open").click(function(){
             nodes.forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
-        })
+        })*/
 
         // resetボタンでグラフを初期状態に戻す
         $(document).ready(function(){
