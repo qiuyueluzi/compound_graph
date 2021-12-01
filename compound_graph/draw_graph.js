@@ -386,6 +386,7 @@ $(function(){
         });
 
         $("#close").click(function(){
+            $("#open").css('background-color', rgba(255, 255, 255, 0))
             let bottom = -1;
             let removes = [];
             nodes.parent().forEach(function(node){
@@ -403,6 +404,7 @@ $(function(){
             if(bottom == 0)$("#close").css('background-color', 'gray')
         })
         $("#open").click(function(){
+            $("#close").css('background-color', rgba(255, 255, 255, 0))
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
