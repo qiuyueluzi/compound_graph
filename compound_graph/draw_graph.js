@@ -355,7 +355,10 @@ $(function(){
             let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
-                    if(cy.$(this).hasClass("selected")) reset_elements_style(cy);
+                    if(cy.$(this).hasClass("selected")) {
+                        reset_elements_style(cy);
+                        $(".color_index").addClass("hidden_show");
+                    }
                     e.target.trigger('doubleTap', e);
                 }
             }
