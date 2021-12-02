@@ -351,15 +351,15 @@ $(function(){
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
-            console.log(cy.$(this).children())
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
+                    if(cy.$(this).hasClass("selected")) reset_elements_style(cy);
                     e.target.trigger('doubleTap', e);
                 }
             }
-            else{// クリックしたノードの親と子、自身を色変更
+            if(cy.$(this).children().length == 0){// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
