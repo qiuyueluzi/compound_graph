@@ -247,7 +247,7 @@ $(function(){
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
-                    let searchParent = childrenData.get(childrenData.get(select_node.id()).parent).id;
+                    let searchParent = childrenData.get(childrenData.get(select_node.data("name")).parent).id;
                     console.log(searchParent)
                     let directories = searchParent.split('/')
                     let ancestor = []
