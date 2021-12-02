@@ -279,6 +279,20 @@ $(function(){
             });
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
+                if(childrenData.get(select_node.data("name")).removed){
+                    if(childrenData.get(childrenData.get(select_node.data("name")).parent).removed){
+                        let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
+                        let ancestor = []
+                        for(let i = 0; i < parentDirectories.length; i++){
+                            if(i > 0)ancestor += '/';
+                            ancestor += parentDirectories[i];
+                            if(childrenData.get(ancestor).removed){
+                                restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                            }
+                        }
+                    }
+                }
+
                 reset_elements_style(cy);
                 cy.$(select_node).addClass("selected");
                 highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
@@ -344,7 +358,7 @@ $(function(){
                     e.target.trigger('doubleTap', e);
                 }
             }
-            else{// クリックしたノードの親と子、自身を色変更
+            // クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
@@ -353,7 +367,7 @@ $(function(){
                 let clicked_node_name = clicked_node.data("name");
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
-            }
+            
             previousTapStamp= currentTapStamp;
             
         });
