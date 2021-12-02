@@ -388,6 +388,10 @@ $(function(){
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
+            if(cy.$(this).hasClass("selected")){
+                reset_elements_style(cy);
+                $(".color_index").addClass("hidden_show");
+            }
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes, childrenData, edgesData);
