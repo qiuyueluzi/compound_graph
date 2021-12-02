@@ -340,10 +340,15 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            try {  // your browser may block popups
-                window.open(this.data("href"));
-            } catch(e){  // fall back on url change
-                window.location.href = this.data("href");
+            if(childrenData.get(event).node.length > 0){
+                e.target.trigger('doubleTap', e);
+            }
+            else{
+                try {  // your browser may block popups
+                    window.open(this.data("href"));
+                } catch(e){  // fall back on url change
+                    window.location.href = this.data("href");
+                }
             }
         });
 
@@ -353,7 +358,7 @@ $(function(){
         cy.nodes().on('tap', function(e) {
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
-            if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
+            /*if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
                     if(cy.$(this).hasClass("selected")) {
                         reset_elements_style(cy);
@@ -361,7 +366,7 @@ $(function(){
                     }
                     e.target.trigger('doubleTap', e);
                 }
-            }
+            }*/
             if(cy.$(this).children().length == 0){// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
@@ -379,6 +384,10 @@ $(function(){
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
+            if(cy.$(nodes).hasClass("selected")) {
+                reset_elements_style(cy);
+                $(".color_index").addClass("hidden_show");
+            }
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes, childrenData, edgesData);
