@@ -252,7 +252,9 @@ $(function(){
                     for(let i = 0; i < ancestor.length; i++){
                         if(i > 0)ancestor += '/';
                         ancestor += parentDirectories[i];
+                        console.log(ancestor)
                         if(childrenData.get(ancestor).removed){
+                            console.log(cy.$(ancestor))
                             restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
                         }
                     }
