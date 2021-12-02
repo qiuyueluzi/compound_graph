@@ -221,6 +221,7 @@ $(function(){
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
+        cy.nodes().addClass("hidden");
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -241,11 +242,21 @@ $(function(){
         $("#search").click(function() {
             // dropdownで選択したノード名、または記述したノード名を取得
             let select_node_name = $("#article_name").val();
-            let select_node = cy.nodes().filter(function(ele){
+            let select_node = nodes.filter(function(ele){
                 return ele.data("name") == select_node_name;
             });
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
+                if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
+                    let open = true;
+                    let searchParent = childrenData.get(select_node.id()).parent;
+                    while(open){
+                        restoreChildren(searchParent.id(), searchParent, childrenData, edgesData)
+                        searchParent = childrenData.get(searchParent.id()).parent;
+                        open = childrenData.get(searchParent).removed;
+                    }
+                }
+
                 reset_elements_style(cy);
                 cy.$(select_node).addClass("selected");
                 highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
@@ -424,6 +435,7 @@ $(function(){
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
+            
             let allopen = true
             directory.forEach(function(dir){
                 if(childrenData.get(dir).removed) allopen = false;
