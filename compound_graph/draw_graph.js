@@ -340,7 +340,7 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            if(childrenData.get(this.id()).removed){
+            if(childrenData.get(this.id()).removed && childrenData.get(this.id()).node.length){
                 // クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
