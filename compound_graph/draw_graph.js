@@ -247,9 +247,8 @@ $(function(){
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
-                    let open = true;
                     let searchParent = childrenData.get(select_node.id()).parent;
-                    let directories = searchParent.id().split('/');
+                    let directories = childrenData.get(searchParent).id.split('/')
                     let ancestor = []
                     for(let i = 0; i < ancestor.length; i++){
                         if(i > 0)ancestor += '/';
