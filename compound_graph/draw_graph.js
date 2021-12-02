@@ -249,7 +249,7 @@ $(function(){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
                     let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
                     let ancestor = []
-                    for(let i = 0; i < ancestor.length; i++){
+                    for(let i = 0; i < parentDirectories.length; i++){
                         if(i > 0)ancestor += '/';
                         ancestor += parentDirectories[i];
                         console.log(ancestor)
