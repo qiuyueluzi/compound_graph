@@ -351,6 +351,7 @@ $(function(){
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
+            console.log(cy.$(this).children())
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
@@ -358,7 +359,7 @@ $(function(){
                     e.target.trigger('doubleTap', e);
                 }
             }
-            // クリックしたノードの親と子、自身を色変更
+            else{// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
@@ -367,7 +368,7 @@ $(function(){
                 let clicked_node_name = clicked_node.data("name");
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
-            
+            }
             previousTapStamp= currentTapStamp;
             
         });
