@@ -248,7 +248,7 @@ $(function(){
             if(select_node.data("name")){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
                     let searchParent = childrenData.get(childrenData.get(select_node.data("name")).parent).id;
-                    console.log(select_node.data("name"))
+                    console.log(childrenData.get(select_node.data("name")).parent)
                     let directories = searchParent.split('/')
                     let ancestor = []
                     for(let i = 0; i < ancestor.length; i++){
