@@ -246,7 +246,7 @@ $(function(){
             });
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
-                if(childrenData.get(select_node.data("name").removed)){
+                if(childrenData.get(select_node.data("name")).removed){
                     if(childrenData.get(childrenData.get(select_node.data("name")).parent).removed){
                         let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
                         let ancestor = []
@@ -254,7 +254,7 @@ $(function(){
                             if(i > 0)ancestor += '/';
                             ancestor += parentDirectories[i];
                             if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                                restoreChildren(ancestor, cy.$('#' + ancestor), childrenData, edgesData)
                             }
                         }
                     }
