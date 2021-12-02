@@ -254,7 +254,7 @@ $(function(){
                             if(i > 0)ancestor += '/';
                             ancestor += parentDirectories[i];
                             if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$('#' + ancestor), childrenData, edgesData)
+                                restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
                             }
                         }
                     }
