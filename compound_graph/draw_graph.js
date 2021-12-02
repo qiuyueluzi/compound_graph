@@ -249,10 +249,14 @@ $(function(){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
                     let open = true;
                     let searchParent = childrenData.get(select_node.id()).parent;
-                    while(open){
-                        restoreChildren(searchParent.id(), searchParent, childrenData, edgesData)
-                        searchParent = childrenData.get(searchParent.id()).parent;
-                        open = childrenData.get(searchParent).removed;
+                    let directories = searchParent.id().split('/');
+                    let ancestor = []
+                    for(let i = 0; i < ancestor.length; i++){
+                        if(i > 0)ancestor += '/';
+                        ancestor += directories[i];
+                        if(childrenData.get(ancestor).removed){
+                            restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                        }
                     }
                 }
 
@@ -357,7 +361,6 @@ $(function(){
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
-            cy.$(nodes).addClass("hidden")
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes, childrenData, edgesData);
