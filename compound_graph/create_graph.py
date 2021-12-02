@@ -108,7 +108,7 @@ def create_nodes(node2targets):
 
     # リンクの作成
     for n in nodes:
-        n.href = n.name.lower() + '.html'
+        n.href = "http://mizar.org/version/current/html/" + n.name.lower() + '.html'
 
     # targetsの作成
     # k: ノードの名前(str)、v: ノードkのターゲットノードのset[str]
