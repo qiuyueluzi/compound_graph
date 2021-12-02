@@ -230,7 +230,7 @@ $(function(){
         // 全ノード名の取得
         let all_article_names = [];
         cy.nodes("[!is_dummy]").forEach(function(node){
-            if(childrenData.get(node).node.length == 0) all_article_names.push(node.data("name"));
+            if(childrenData.get(node.id()).node.length == 0) all_article_names.push(node.data("name"));
         });
         all_article_names.sort();
         // datalistに全ノード名を追加
