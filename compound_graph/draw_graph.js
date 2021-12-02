@@ -48,12 +48,11 @@ $(function(){
                 }
                 dot_graph.eleObjs[x].data["parent"] = parentsName;
             }
-            console.log(directory)
             cy.add(dot_graph["eleObjs"]);
         
             
-            const childrenData = new Map(); //サブグラフに含まれるノードを記録する
-            const edgesData = new Map();
+            const childrenData = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
+            const edgesData = new Map(); //初期状態の全エッジの情報を格納
             let nodes = cy.nodes();
             let edges = cy.edges();
             for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
@@ -74,6 +73,7 @@ $(function(){
                 }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
                 childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
+                //childrenData.get(id).node.lengthが0であれば｢子を持たないノード｣として扱っているため現状空のディレクトリは想定していません
             }
             for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
                 let curEdge = cy.$(edges[x]);
@@ -83,7 +83,6 @@ $(function(){
                 
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
-            console.log(childrenData)
             let layout = cy.elements().layout({
                 name: "klay",
                 spacingFactor: 12
@@ -231,7 +230,7 @@ $(function(){
         // 全ノード名の取得
         let all_article_names = [];
         cy.nodes("[!is_dummy]").forEach(function(node){
-            all_article_names.push(node.data("name"));
+            if(childrenData.get(node).node.length == 0) all_article_names.push(node.data("name"));
         });
         all_article_names.sort();
         // datalistに全ノード名を追加
