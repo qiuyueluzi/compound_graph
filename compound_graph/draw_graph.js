@@ -246,16 +246,16 @@ $(function(){
             });
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
-                if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
-                    let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
-                    let ancestor = []
-                    for(let i = 0; i < parentDirectories.length; i++){
-                        if(i > 0)ancestor += '/';
-                        ancestor += parentDirectories[i];
-                        console.log(ancestor)
-                        if(childrenData.get(ancestor).removed){
-                            console.log(cy.$(ancestor))
-                            restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                if(childrenData.get(select_node.data("name").removed)){
+                    if(childrenData.get(childrenData.get(select_node.data("name")).parent).removed){
+                        let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
+                        let ancestor = []
+                        for(let i = 0; i < parentDirectories.length; i++){
+                            if(i > 0)ancestor += '/';
+                            ancestor += parentDirectories[i];
+                            if(childrenData.get(ancestor).removed){
+                                restoreChildren(ancestor, cy.$('#' + ancestor), childrenData, edgesData)
+                            }
                         }
                     }
                 }
