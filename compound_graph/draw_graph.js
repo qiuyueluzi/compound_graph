@@ -340,8 +340,8 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            if(childrenData.get(event).node.length > 0){
-                e.target.trigger('doubleTap', e);
+            if(childrenData.get(this).node.length > 0){
+                event.target.trigger('doubleTap', event);
             }
             else{
                 try {  // your browser may block popups
