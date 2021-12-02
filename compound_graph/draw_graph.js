@@ -340,11 +340,18 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            if(childrenData.get(this.id()).node.length > 0){
-                console.log(this)
-                event.target.trigger('doubleTap', event);
+            if(childrenData.get(this.id()).removed){
+                // クリックしたノードの親と子、自身を色変更
+                // 全ノードをクラスから除外
+                reset_elements_style(cy);
+                // クリックしたノードをselectedクラスに入れる
+                let clicked_node = event.target;
+                highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
+                let clicked_node_name = clicked_node.data("name");
+                $("#select_article").text("SELECT: " + clicked_node_name);
+                $(".color_index").removeClass("hidden_show");
             }
-            else{
+            else if(cy.$(this).children().length == 0){
                 try {  // your browser may block popups
                     window.open(this.data("href"));
                 } catch(e){  // fall back on url change
@@ -359,16 +366,12 @@ $(function(){
         cy.nodes().on('tap', function(e) {
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
-            /*if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
+            if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
-                    if(cy.$(this).hasClass("selected")) {
-                        reset_elements_style(cy);
-                        $(".color_index").addClass("hidden_show");
-                    }
                     e.target.trigger('doubleTap', e);
                 }
-            }*/
-            if(cy.$(this).children().length == 0){// クリックしたノードの親と子、自身を色変更
+            }
+            else{// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
@@ -385,10 +388,6 @@ $(function(){
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
-            if(cy.$(nodes).hasClass("selected")) {
-                reset_elements_style(cy);
-                $(".color_index").addClass("hidden_show");
-            }
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes, childrenData, edgesData);
