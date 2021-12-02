@@ -221,7 +221,6 @@ $(function(){
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
-        cy.nodes().addClass("hidden");
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
@@ -358,6 +357,7 @@ $(function(){
         cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
+            cy.$(nodes).addClass("hidden")
             
             if(childrenData.get(id).removed == true){
                 restoreChildren(id, nodes, childrenData, edgesData);
