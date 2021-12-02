@@ -247,13 +247,11 @@ $(function(){
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
                 if(childrenData.get(childrenData.get(select_node.id()).parent).removed){
-                    let searchParent = childrenData.get(childrenData.get(select_node.data("name")).parent).id;
-                    console.log(childrenData.get(select_node.data("name")).parent)
-                    let directories = searchParent.split('/')
+                    let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
                     let ancestor = []
                     for(let i = 0; i < ancestor.length; i++){
                         if(i > 0)ancestor += '/';
-                        ancestor += directories[i];
+                        ancestor += parentDirectories[i];
                         if(childrenData.get(ancestor).removed){
                             restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
                         }
