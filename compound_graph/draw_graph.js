@@ -332,7 +332,12 @@ $(function(){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
                 if(childrenData.get(cy_event.target.data("id")).node.length > 0){
-
+                    let children = ""
+                    childrenData.get(cy_event.target.id()).node.forEach(function(child){
+                        children += child.id() + `
+                        `;
+                    })
+                    document.getElementById("name-plate").textContent = children;
                 }
                 else document.getElementById("name-plate").textContent = cy_event.target.data("name");
             });
@@ -367,9 +372,6 @@ $(function(){
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
-            childrenData.get(e.target.id()).node.forEach(function(children){
-                console.log(children.id())
-            })
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
