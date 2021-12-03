@@ -443,6 +443,8 @@ $(function(){
         });
 
         $("#close").click(function(){
+            reset_elements_style(cy);
+            $(".color_index").addClass("hidden_show");
             $("#open").css('background-color', '')
             let bottom = -1;
             let removes = [];
@@ -464,11 +466,23 @@ $(function(){
             })
             if(allclose == true) $("#close").css('background-color', 'gray')
         })
+
         $("#open").click(function(){
+            if(cy.$(this).hasClass("selected")){
+                reset_elements_style(cy);
+                $(".color_index").addClass("hidden_show");
+            }
             $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
             })
+            if(cy.nodes(".selected").data()){
+                let selected_node = cy.nodes().filter(function(ele){
+                    return ele.data("name") == cy.nodes(".selected").data("name");
+                });
+                reset_elements_style(cy);
+                highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
+            }
             
             let allopen = true
             directory.forEach(function(dir){
