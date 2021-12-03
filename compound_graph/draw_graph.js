@@ -334,7 +334,7 @@ $(function(){
                 if(childrenData.get(cy_event.target.data("id")).node.length > 0){
                     let children = ""
                     childrenData.get(cy_event.target.id()).node.forEach(function(child){
-                        children += child.id() + "<br>";
+                        children += child.id() + "\n";
                     })
                     document.getElementById("name-plate").innerText = children;
                 }
