@@ -367,7 +367,9 @@ $(function(){
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
-            console.log(childrenData.get(e.target.id()).node)
+            childrenData.get(e.target.id()).node.forEach(function(children){
+                console.log(children.id())
+            })
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
             if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
