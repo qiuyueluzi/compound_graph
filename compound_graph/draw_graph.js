@@ -332,8 +332,8 @@ $(function(){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
                 if(childrenData.get(cy_event.target.data("id")).node.length > 0){
-                    console.log(childrenData.get(cy_event.target.data("id")).node)
-                    document.getElementById("name-plate").textContent = childrenData.get(cy_event.target.data("id")).node
+                    console.log(childrenData.get(cy_event.target.data("id")).node.data("name"))
+                    document.getElementById("name-plate").textContent = childrenData.get(cy_event.target.data("id")).node.data("name")
                 }
                 else document.getElementById("name-plate").textContent = cy_event.target.data("name");
             });
