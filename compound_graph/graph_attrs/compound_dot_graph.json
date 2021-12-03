@@ -5,7 +5,7 @@
             "data": {
                 "id": "TARSKI",
                 "name": "TARSKI",
-                "href": "tarski.html"
+                "href": "http://mizar.org/version/current/html/tarski.html"
             },
             "position": {
                 "x": 4794.0,
@@ -17,7 +17,7 @@
             "data": {
                 "id": "XBOOLE_0",
                 "name": "XBOOLE_0",
-                "href": "xboole_0.html"
+                "href": "http://mizar.org/version/current/html/xboole_0.html"
             },
             "position": {
                 "x": 4146.0,
@@ -29,7 +29,7 @@
             "data": {
                 "id": "BOOLE",
                 "name": "BOOLE",
-                "href": "boole.html"
+                "href": "http://mizar.org/version/current/html/boole.html"
             },
             "position": {
                 "x": 4146.0,
@@ -41,7 +41,7 @@
             "data": {
                 "id": "XBOOLE_1",
                 "name": "XBOOLE_1",
-                "href": "xboole_1.html"
+                "href": "http://mizar.org/version/current/html/xboole_1.html"
             },
             "position": {
                 "x": 4572.0,
@@ -53,7 +53,7 @@
             "data": {
                 "id": "ENUMSET1",
                 "name": "ENUMSET1",
-                "href": "enumset1.html"
+                "href": "http://mizar.org/version/current/html/enumset1.html"
             },
             "position": {
                 "x": 4530.0,
@@ -65,7 +65,7 @@
             "data": {
                 "id": "XTUPLE_0",
                 "name": "XTUPLE_0",
-                "href": "xtuple_0.html"
+                "href": "http://mizar.org/version/current/html/xtuple_0.html"
             },
             "position": {
                 "x": 4482.0,
@@ -77,7 +77,7 @@
             "data": {
                 "id": "XFAMILY",
                 "name": "XFAMILY",
-                "href": "xfamily.html"
+                "href": "http://mizar.org/version/current/html/xfamily.html"
             },
             "position": {
                 "x": 4392.0,
@@ -89,7 +89,7 @@
             "data": {
                 "id": "XREGULAR",
                 "name": "XREGULAR",
-                "href": "xregular.html"
+                "href": "http://mizar.org/version/current/html/xregular.html"
             },
             "position": {
                 "x": 4494.0,
@@ -101,7 +101,7 @@
             "data": {
                 "id": "ZFMISC_1",
                 "name": "ZFMISC_1",
-                "href": "zfmisc_1.html"
+                "href": "http://mizar.org/version/current/html/zfmisc_1.html"
             },
             "position": {
                 "x": 4770.0,
@@ -113,7 +113,7 @@
             "data": {
                 "id": "SUBSET_1",
                 "name": "SUBSET_1",
-                "href": "subset_1.html"
+                "href": "http://mizar.org/version/current/html/subset_1.html"
             },
             "position": {
                 "x": 4770.0,
@@ -125,7 +125,7 @@
             "data": {
                 "id": "SUBSET",
                 "name": "SUBSET",
-                "href": "subset.html"
+                "href": "http://mizar.org/version/current/html/subset.html"
             },
             "position": {
                 "x": 4770.0,
@@ -137,7 +137,7 @@
             "data": {
                 "id": "SETFAM_1",
                 "name": "SETFAM_1",
-                "href": "setfam_1.html"
+                "href": "http://mizar.org/version/current/html/setfam_1.html"
             },
             "position": {
                 "x": 4374.0,
@@ -149,7 +149,7 @@
             "data": {
                 "id": "RELAT_1",
                 "name": "RELAT_1",
-                "href": "relat_1.html"
+                "href": "http://mizar.org/version/current/html/relat_1.html"
             },
             "position": {
                 "x": 5172.000000000001,
@@ -161,7 +161,7 @@
             "data": {
                 "id": "FUNCT_1",
                 "name": "FUNCT_1",
-                "href": "funct_1.html"
+                "href": "http://mizar.org/version/current/html/funct_1.html"
             },
             "position": {
                 "x": 4368.0,
@@ -173,7 +173,7 @@
             "data": {
                 "id": "GRFUNC_1",
                 "name": "GRFUNC_1",
-                "href": "grfunc_1.html"
+                "href": "http://mizar.org/version/current/html/grfunc_1.html"
             },
             "position": {
                 "x": 4008.0,
@@ -185,7 +185,7 @@
             "data": {
                 "id": "RELAT_2",
                 "name": "RELAT_2",
-                "href": "relat_2.html"
+                "href": "http://mizar.org/version/current/html/relat_2.html"
             },
             "position": {
                 "x": 5700.0,
@@ -197,7 +197,7 @@
             "data": {
                 "id": "ORDINAL1",
                 "name": "ORDINAL1",
-                "href": "ordinal1.html"
+                "href": "http://mizar.org/version/current/html/ordinal1.html"
             },
             "position": {
                 "x": 4860.0,
@@ -209,7 +209,7 @@
             "data": {
                 "id": "WELLORD1",
                 "name": "WELLORD1",
-                "href": "wellord1.html"
+                "href": "http://mizar.org/version/current/html/wellord1.html"
             },
             "position": {
                 "x": 5730.0,
@@ -221,7 +221,7 @@
             "data": {
                 "id": "RELSET_1",
                 "name": "RELSET_1",
-                "href": "relset_1.html"
+                "href": "http://mizar.org/version/current/html/relset_1.html"
             },
             "position": {
                 "x": 5172.000000000001,
@@ -233,7 +233,7 @@
             "data": {
                 "id": "PARTFUN1",
                 "name": "PARTFUN1",
-                "href": "partfun1.html"
+                "href": "http://mizar.org/version/current/html/partfun1.html"
             },
             "position": {
                 "x": 4002.0,
@@ -245,7 +245,7 @@
             "data": {
                 "id": "MCART_1",
                 "name": "MCART_1",
-                "href": "mcart_1.html"
+                "href": "http://mizar.org/version/current/html/mcart_1.html"
             },
             "position": {
                 "x": 3180.0,
@@ -257,7 +257,7 @@
             "data": {
                 "id": "WELLORD2",
                 "name": "WELLORD2",
-                "href": "wellord2.html"
+                "href": "http://mizar.org/version/current/html/wellord2.html"
             },
             "position": {
                 "x": 4980.0,
@@ -269,7 +269,7 @@
             "data": {
                 "id": "FUNCT_2",
                 "name": "FUNCT_2",
-                "href": "funct_2.html"
+                "href": "http://mizar.org/version/current/html/funct_2.html"
             },
             "position": {
                 "x": 3060.0000000000005,
@@ -281,7 +281,7 @@
             "data": {
                 "id": "BINOP_1",
                 "name": "BINOP_1",
-                "href": "binop_1.html"
+                "href": "http://mizar.org/version/current/html/binop_1.html"
             },
             "position": {
                 "x": 2508.0,
@@ -293,7 +293,7 @@
             "data": {
                 "id": "DOMAIN_1",
                 "name": "DOMAIN_1",
-                "href": "domain_1.html"
+                "href": "http://mizar.org/version/current/html/domain_1.html"
             },
             "position": {
                 "x": 3876.0,
@@ -305,7 +305,7 @@
             "data": {
                 "id": "FUNCT_3",
                 "name": "FUNCT_3",
-                "href": "funct_3.html"
+                "href": "http://mizar.org/version/current/html/funct_3.html"
             },
             "position": {
                 "x": 4146.0,
@@ -317,7 +317,7 @@
             "data": {
                 "id": "FUNCOP_1",
                 "name": "FUNCOP_1",
-                "href": "funcop_1.html"
+                "href": "http://mizar.org/version/current/html/funcop_1.html"
             },
             "position": {
                 "x": 6396.0,
@@ -329,7 +329,7 @@
             "data": {
                 "id": "REALSET1",
                 "name": "REALSET1",
-                "href": "realset1.html"
+                "href": "http://mizar.org/version/current/html/realset1.html"
             },
             "position": {
                 "x": 6396.0,
@@ -341,7 +341,7 @@
             "data": {
                 "id": "FUNCT_4",
                 "name": "FUNCT_4",
-                "href": "funct_4.html"
+                "href": "http://mizar.org/version/current/html/funct_4.html"
             },
             "position": {
                 "x": 6384.0,
@@ -353,7 +353,7 @@
             "data": {
                 "id": "NUMERALS",
                 "name": "NUMERALS",
-                "href": "numerals.html"
+                "href": "http://mizar.org/version/current/html/numerals.html"
             },
             "position": {
                 "x": 4434.0,
@@ -365,7 +365,7 @@
             "data": {
                 "id": "ORDINAL2",
                 "name": "ORDINAL2",
-                "href": "ordinal2.html"
+                "href": "http://mizar.org/version/current/html/ordinal2.html"
             },
             "position": {
                 "x": 5550.0,
@@ -377,7 +377,7 @@
             "data": {
                 "id": "ORDINAL3",
                 "name": "ORDINAL3",
-                "href": "ordinal3.html"
+                "href": "http://mizar.org/version/current/html/ordinal3.html"
             },
             "position": {
                 "x": 5550.0,
@@ -389,7 +389,7 @@
             "data": {
                 "id": "WELLSET1",
                 "name": "WELLSET1",
-                "href": "wellset1.html"
+                "href": "http://mizar.org/version/current/html/wellset1.html"
             },
             "position": {
                 "x": 5862.0,
@@ -401,7 +401,7 @@
             "data": {
                 "id": "MULTOP_1",
                 "name": "MULTOP_1",
-                "href": "multop_1.html"
+                "href": "http://mizar.org/version/current/html/multop_1.html"
             },
             "position": {
                 "x": 3312.0000000000005,
@@ -413,7 +413,7 @@
             "data": {
                 "id": "SCHEMS_1",
                 "name": "SCHEMS_1",
-                "href": "schems_1.html"
+                "href": "http://mizar.org/version/current/html/schems_1.html"
             },
             "position": {
                 "x": 10434.0,
@@ -425,7 +425,7 @@
             "data": {
                 "id": "SYSREL",
                 "name": "SYSREL",
-                "href": "sysrel.html"
+                "href": "http://mizar.org/version/current/html/sysrel.html"
             },
             "position": {
                 "x": 11928.0,
@@ -437,7 +437,7 @@
             "data": {
                 "id": "FINSET_1",
                 "name": "FINSET_1",
-                "href": "finset_1.html"
+                "href": "http://mizar.org/version/current/html/finset_1.html"
             },
             "position": {
                 "x": 6324.000000000001,
@@ -449,7 +449,7 @@
             "data": {
                 "id": "CARD_1",
                 "name": "CARD_1",
-                "href": "card_1.html"
+                "href": "http://mizar.org/version/current/html/card_1.html"
             },
             "position": {
                 "x": 5400.0,
@@ -461,7 +461,7 @@
             "data": {
                 "id": "CLASSES1",
                 "name": "CLASSES1",
-                "href": "classes1.html"
+                "href": "http://mizar.org/version/current/html/classes1.html"
             },
             "position": {
                 "x": 5280.0,
@@ -473,7 +473,7 @@
             "data": {
                 "id": "PBOOLE",
                 "name": "PBOOLE",
-                "href": "pboole.html"
+                "href": "http://mizar.org/version/current/html/pboole.html"
             },
             "position": {
                 "x": 5328.000000000001,
@@ -485,7 +485,7 @@
             "data": {
                 "id": "GATE_1",
                 "name": "GATE_1",
-                "href": "gate_1.html"
+                "href": "http://mizar.org/version/current/html/gate_1.html"
             },
             "position": {
                 "x": 3138.0000000000005,
@@ -497,7 +497,7 @@
             "data": {
                 "id": "GATE_2",
                 "name": "GATE_2",
-                "href": "gate_2.html"
+                "href": "http://mizar.org/version/current/html/gate_2.html"
             },
             "position": {
                 "x": 3810.0000000000005,
@@ -509,7 +509,7 @@
             "data": {
                 "id": "GATE_3",
                 "name": "GATE_3",
-                "href": "gate_3.html"
+                "href": "http://mizar.org/version/current/html/gate_3.html"
             },
             "position": {
                 "x": 3138.0000000000005,
@@ -521,7 +521,7 @@
             "data": {
                 "id": "GATE_4",
                 "name": "GATE_4",
-                "href": "gate_4.html"
+                "href": "http://mizar.org/version/current/html/gate_4.html"
             },
             "position": {
                 "x": 1794.0000000000002,
@@ -533,7 +533,7 @@
             "data": {
                 "id": "GATE_5",
                 "name": "GATE_5",
-                "href": "gate_5.html"
+                "href": "http://mizar.org/version/current/html/gate_5.html"
             },
             "position": {
                 "x": 2466.0,
@@ -545,7 +545,7 @@
             "data": {
                 "id": "FINSUB_1",
                 "name": "FINSUB_1",
-                "href": "finsub_1.html"
+                "href": "http://mizar.org/version/current/html/finsub_1.html"
             },
             "position": {
                 "x": 6342.0,
@@ -557,7 +557,7 @@
             "data": {
                 "id": "ORDERS_1",
                 "name": "ORDERS_1",
-                "href": "orders_1.html"
+                "href": "http://mizar.org/version/current/html/orders_1.html"
             },
             "position": {
                 "x": 5406.0,
@@ -569,7 +569,7 @@
             "data": {
                 "id": "SETWISEO",
                 "name": "SETWISEO",
-                "href": "setwiseo.html"
+                "href": "http://mizar.org/version/current/html/setwiseo.html"
             },
             "position": {
                 "x": 7464.0,
@@ -581,7 +581,7 @@
             "data": {
                 "id": "FRAENKEL",
                 "name": "FRAENKEL",
-                "href": "fraenkel.html"
+                "href": "http://mizar.org/version/current/html/fraenkel.html"
             },
             "position": {
                 "x": 7188.0,
@@ -593,7 +593,7 @@
             "data": {
                 "id": "FUNCT_5",
                 "name": "FUNCT_5",
-                "href": "funct_5.html"
+                "href": "http://mizar.org/version/current/html/funct_5.html"
             },
             "position": {
                 "x": 5814.0,
@@ -605,7 +605,7 @@
             "data": {
                 "id": "PARTFUN2",
                 "name": "PARTFUN2",
-                "href": "partfun2.html"
+                "href": "http://mizar.org/version/current/html/partfun2.html"
             },
             "position": {
                 "x": 6888.0,
@@ -617,7 +617,7 @@
             "data": {
                 "id": "CARD_3",
                 "name": "CARD_3",
-                "href": "card_3.html"
+                "href": "http://mizar.org/version/current/html/card_3.html"
             },
             "position": {
                 "x": 5886.0,
@@ -629,7 +629,7 @@
             "data": {
                 "id": "FUNCT_6",
                 "name": "FUNCT_6",
-                "href": "funct_6.html"
+                "href": "http://mizar.org/version/current/html/funct_6.html"
             },
             "position": {
                 "x": 5910.0,
@@ -641,7 +641,7 @@
             "data": {
                 "id": "ARYTM_3",
                 "name": "ARYTM_3",
-                "href": "arytm_3.html"
+                "href": "http://mizar.org/version/current/html/arytm_3.html"
             },
             "position": {
                 "x": 5526.000000000001,
@@ -653,7 +653,7 @@
             "data": {
                 "id": "ARYTM_2",
                 "name": "ARYTM_2",
-                "href": "arytm_2.html"
+                "href": "http://mizar.org/version/current/html/arytm_2.html"
             },
             "position": {
                 "x": 4674.0,
@@ -665,7 +665,7 @@
             "data": {
                 "id": "ARYTM_1",
                 "name": "ARYTM_1",
-                "href": "arytm_1.html"
+                "href": "http://mizar.org/version/current/html/arytm_1.html"
             },
             "position": {
                 "x": 3960.0000000000005,
@@ -677,7 +677,7 @@
             "data": {
                 "id": "NUMBERS",
                 "name": "NUMBERS",
-                "href": "numbers.html"
+                "href": "http://mizar.org/version/current/html/numbers.html"
             },
             "position": {
                 "x": 4770.0,
@@ -689,7 +689,7 @@
             "data": {
                 "id": "ARYTM_0",
                 "name": "ARYTM_0",
-                "href": "arytm_0.html"
+                "href": "http://mizar.org/version/current/html/arytm_0.html"
             },
             "position": {
                 "x": 3972.0,
@@ -701,7 +701,7 @@
             "data": {
                 "id": "XCMPLX_0",
                 "name": "XCMPLX_0",
-                "href": "xcmplx_0.html"
+                "href": "http://mizar.org/version/current/html/xcmplx_0.html"
             },
             "position": {
                 "x": 3390.0,
@@ -713,7 +713,7 @@
             "data": {
                 "id": "ARITHM",
                 "name": "ARITHM",
-                "href": "arithm.html"
+                "href": "http://mizar.org/version/current/html/arithm.html"
             },
             "position": {
                 "x": 3324.0,
@@ -725,7 +725,7 @@
             "data": {
                 "id": "XXREAL_0",
                 "name": "XXREAL_0",
-                "href": "xxreal_0.html"
+                "href": "http://mizar.org/version/current/html/xxreal_0.html"
             },
             "position": {
                 "x": 4092.0,
@@ -737,7 +737,7 @@
             "data": {
                 "id": "XREAL_0",
                 "name": "XREAL_0",
-                "href": "xreal_0.html"
+                "href": "http://mizar.org/version/current/html/xreal_0.html"
             },
             "position": {
                 "x": 4092.0,
@@ -749,7 +749,7 @@
             "data": {
                 "id": "REAL",
                 "name": "REAL",
-                "href": "real.html"
+                "href": "http://mizar.org/version/current/html/real.html"
             },
             "position": {
                 "x": 4806.0,
@@ -761,7 +761,7 @@
             "data": {
                 "id": "XCMPLX_1",
                 "name": "XCMPLX_1",
-                "href": "xcmplx_1.html"
+                "href": "http://mizar.org/version/current/html/xcmplx_1.html"
             },
             "position": {
                 "x": 4110.0,
@@ -773,7 +773,7 @@
             "data": {
                 "id": "XREAL_1",
                 "name": "XREAL_1",
-                "href": "xreal_1.html"
+                "href": "http://mizar.org/version/current/html/xreal_1.html"
             },
             "position": {
                 "x": 4320.0,
@@ -785,7 +785,7 @@
             "data": {
                 "id": "AXIOMS",
                 "name": "AXIOMS",
-                "href": "axioms.html"
+                "href": "http://mizar.org/version/current/html/axioms.html"
             },
             "position": {
                 "x": 3570.0,
@@ -797,7 +797,7 @@
             "data": {
                 "id": "REAL_1",
                 "name": "REAL_1",
-                "href": "real_1.html"
+                "href": "http://mizar.org/version/current/html/real_1.html"
             },
             "position": {
                 "x": 4956.0,
@@ -809,7 +809,7 @@
             "data": {
                 "id": "SQUARE_1",
                 "name": "SQUARE_1",
-                "href": "square_1.html"
+                "href": "http://mizar.org/version/current/html/square_1.html"
             },
             "position": {
                 "x": 3552.0,
@@ -821,7 +821,7 @@
             "data": {
                 "id": "NAT_1",
                 "name": "NAT_1",
-                "href": "nat_1.html"
+                "href": "http://mizar.org/version/current/html/nat_1.html"
             },
             "position": {
                 "x": 4326.0,
@@ -833,7 +833,7 @@
             "data": {
                 "id": "INT_1",
                 "name": "INT_1",
-                "href": "int_1.html"
+                "href": "http://mizar.org/version/current/html/int_1.html"
             },
             "position": {
                 "x": 4980.0,
@@ -845,7 +845,7 @@
             "data": {
                 "id": "RAT_1",
                 "name": "RAT_1",
-                "href": "rat_1.html"
+                "href": "http://mizar.org/version/current/html/rat_1.html"
             },
             "position": {
                 "x": 4458.0,
@@ -857,7 +857,7 @@
             "data": {
                 "id": "MEMBERED",
                 "name": "MEMBERED",
-                "href": "membered.html"
+                "href": "http://mizar.org/version/current/html/membered.html"
             },
             "position": {
                 "x": 4458.0,
@@ -869,7 +869,7 @@
             "data": {
                 "id": "VALUED_0",
                 "name": "VALUED_0",
-                "href": "valued_0.html"
+                "href": "http://mizar.org/version/current/html/valued_0.html"
             },
             "position": {
                 "x": 5934.0,
@@ -881,7 +881,7 @@
             "data": {
                 "id": "COMPLEX1",
                 "name": "COMPLEX1",
-                "href": "complex1.html"
+                "href": "http://mizar.org/version/current/html/complex1.html"
             },
             "position": {
                 "x": 4458.0,
@@ -893,7 +893,7 @@
             "data": {
                 "id": "ABSVALUE",
                 "name": "ABSVALUE",
-                "href": "absvalue.html"
+                "href": "http://mizar.org/version/current/html/absvalue.html"
             },
             "position": {
                 "x": 4602.0,
@@ -905,7 +905,7 @@
             "data": {
                 "id": "INT_2",
                 "name": "INT_2",
-                "href": "int_2.html"
+                "href": "http://mizar.org/version/current/html/int_2.html"
             },
             "position": {
                 "x": 4734.0,
@@ -917,7 +917,7 @@
             "data": {
                 "id": "NAT_D",
                 "name": "NAT_D",
-                "href": "nat_d.html"
+                "href": "http://mizar.org/version/current/html/nat_d.html"
             },
             "position": {
                 "x": 5808.0,
@@ -929,7 +929,7 @@
             "data": {
                 "id": "BINOP_2",
                 "name": "BINOP_2",
-                "href": "binop_2.html"
+                "href": "http://mizar.org/version/current/html/binop_2.html"
             },
             "position": {
                 "x": 7740.0,
@@ -941,7 +941,7 @@
             "data": {
                 "id": "XXREAL_1",
                 "name": "XXREAL_1",
-                "href": "xxreal_1.html"
+                "href": "http://mizar.org/version/current/html/xxreal_1.html"
             },
             "position": {
                 "x": 8268.0,
@@ -953,7 +953,7 @@
             "data": {
                 "id": "CARD_2",
                 "name": "CARD_2",
-                "href": "card_2.html"
+                "href": "http://mizar.org/version/current/html/card_2.html"
             },
             "position": {
                 "x": 6918.0,
@@ -965,7 +965,7 @@
             "data": {
                 "id": "XXREAL_2",
                 "name": "XXREAL_2",
-                "href": "xxreal_2.html"
+                "href": "http://mizar.org/version/current/html/xxreal_2.html"
             },
             "position": {
                 "x": 8796.0,
@@ -977,7 +977,7 @@
             "data": {
                 "id": "XXREAL_3",
                 "name": "XXREAL_3",
-                "href": "xxreal_3.html"
+                "href": "http://mizar.org/version/current/html/xxreal_3.html"
             },
             "position": {
                 "x": 8796.0,
@@ -989,7 +989,7 @@
             "data": {
                 "id": "MEMBER_1",
                 "name": "MEMBER_1",
-                "href": "member_1.html"
+                "href": "http://mizar.org/version/current/html/member_1.html"
             },
             "position": {
                 "x": 8760.0,
@@ -1001,7 +1001,7 @@
             "data": {
                 "id": "SUPINF_1",
                 "name": "SUPINF_1",
-                "href": "supinf_1.html"
+                "href": "http://mizar.org/version/current/html/supinf_1.html"
             },
             "position": {
                 "x": 9480.0,
@@ -1013,7 +1013,7 @@
             "data": {
                 "id": "QUIN_1",
                 "name": "QUIN_1",
-                "href": "quin_1.html"
+                "href": "http://mizar.org/version/current/html/quin_1.html"
             },
             "position": {
                 "x": 3552.0,
@@ -1025,7 +1025,7 @@
             "data": {
                 "id": "CLASSES2",
                 "name": "CLASSES2",
-                "href": "classes2.html"
+                "href": "http://mizar.org/version/current/html/classes2.html"
             },
             "position": {
                 "x": 5790.0,
@@ -1037,7 +1037,7 @@
             "data": {
                 "id": "ORDINAL4",
                 "name": "ORDINAL4",
-                "href": "ordinal4.html"
+                "href": "http://mizar.org/version/current/html/ordinal4.html"
             },
             "position": {
                 "x": 5790.0,
@@ -1049,7 +1049,7 @@
             "data": {
                 "id": "FINSEQ_1",
                 "name": "FINSEQ_1",
-                "href": "finseq_1.html"
+                "href": "http://mizar.org/version/current/html/finseq_1.html"
             },
             "position": {
                 "x": 5934.0,
@@ -1061,7 +1061,7 @@
             "data": {
                 "id": "RECDEF_1",
                 "name": "RECDEF_1",
-                "href": "recdef_1.html"
+                "href": "http://mizar.org/version/current/html/recdef_1.html"
             },
             "position": {
                 "x": 6198.0,
@@ -1073,7 +1073,7 @@
             "data": {
                 "id": "EQREL_1",
                 "name": "EQREL_1",
-                "href": "eqrel_1.html"
+                "href": "http://mizar.org/version/current/html/eqrel_1.html"
             },
             "position": {
                 "x": 5412.0,
@@ -1085,7 +1085,7 @@
             "data": {
                 "id": "FINSEQ_2",
                 "name": "FINSEQ_2",
-                "href": "finseq_2.html"
+                "href": "http://mizar.org/version/current/html/finseq_2.html"
             },
             "position": {
                 "x": 3762.0000000000005,
@@ -1097,7 +1097,7 @@
             "data": {
                 "id": "FINSEQOP",
                 "name": "FINSEQOP",
-                "href": "finseqop.html"
+                "href": "http://mizar.org/version/current/html/finseqop.html"
             },
             "position": {
                 "x": 4020.0,
@@ -1109,7 +1109,7 @@
             "data": {
                 "id": "FINSEQ_3",
                 "name": "FINSEQ_3",
-                "href": "finseq_3.html"
+                "href": "http://mizar.org/version/current/html/finseq_3.html"
             },
             "position": {
                 "x": 4260.0,
@@ -1121,7 +1121,7 @@
             "data": {
                 "id": "VALUED_1",
                 "name": "VALUED_1",
-                "href": "valued_1.html"
+                "href": "http://mizar.org/version/current/html/valued_1.html"
             },
             "position": {
                 "x": 6840.0,
@@ -1133,7 +1133,7 @@
             "data": {
                 "id": "SEQ_1",
                 "name": "SEQ_1",
-                "href": "seq_1.html"
+                "href": "http://mizar.org/version/current/html/seq_1.html"
             },
             "position": {
                 "x": 6732.0,
@@ -1145,7 +1145,7 @@
             "data": {
                 "id": "COMSEQ_1",
                 "name": "COMSEQ_1",
-                "href": "comseq_1.html"
+                "href": "http://mizar.org/version/current/html/comseq_1.html"
             },
             "position": {
                 "x": 7440.0,
@@ -1157,7 +1157,7 @@
             "data": {
                 "id": "XBOOLEAN",
                 "name": "XBOOLEAN",
-                "href": "xboolean.html"
+                "href": "http://mizar.org/version/current/html/xboolean.html"
             },
             "position": {
                 "x": 2988.0000000000005,
@@ -1169,7 +1169,7 @@
             "data": {
                 "id": "COMSEQ_2",
                 "name": "COMSEQ_2",
-                "href": "comseq_2.html"
+                "href": "http://mizar.org/version/current/html/comseq_2.html"
             },
             "position": {
                 "x": 7482.0,
@@ -1181,7 +1181,7 @@
             "data": {
                 "id": "SEQ_2",
                 "name": "SEQ_2",
-                "href": "seq_2.html"
+                "href": "http://mizar.org/version/current/html/seq_2.html"
             },
             "position": {
                 "x": 6732.0,
@@ -1193,7 +1193,7 @@
             "data": {
                 "id": "MARGREL1",
                 "name": "MARGREL1",
-                "href": "margrel1.html"
+                "href": "http://mizar.org/version/current/html/margrel1.html"
             },
             "position": {
                 "x": 2676.0,
@@ -1205,7 +1205,7 @@
             "data": {
                 "id": "TOLER_1",
                 "name": "TOLER_1",
-                "href": "toler_1.html"
+                "href": "http://mizar.org/version/current/html/toler_1.html"
             },
             "position": {
                 "x": 5394.0,
@@ -1217,7 +1217,7 @@
             "data": {
                 "id": "TREES_1",
                 "name": "TREES_1",
-                "href": "trees_1.html"
+                "href": "http://mizar.org/version/current/html/trees_1.html"
             },
             "position": {
                 "x": 4260.0,
@@ -1229,7 +1229,7 @@
             "data": {
                 "id": "FINSEQ_4",
                 "name": "FINSEQ_4",
-                "href": "finseq_4.html"
+                "href": "http://mizar.org/version/current/html/finseq_4.html"
             },
             "position": {
                 "x": 5064.0,
@@ -1241,7 +1241,7 @@
             "data": {
                 "id": "FINSOP_1",
                 "name": "FINSOP_1",
-                "href": "finsop_1.html"
+                "href": "http://mizar.org/version/current/html/finsop_1.html"
             },
             "position": {
                 "x": 5550.0,
@@ -1253,7 +1253,7 @@
             "data": {
                 "id": "SETWOP_2",
                 "name": "SETWOP_2",
-                "href": "setwop_2.html"
+                "href": "http://mizar.org/version/current/html/setwop_2.html"
             },
             "position": {
                 "x": 7494.0,
@@ -1265,7 +1265,7 @@
             "data": {
                 "id": "RFUNCT_1",
                 "name": "RFUNCT_1",
-                "href": "rfunct_1.html"
+                "href": "http://mizar.org/version/current/html/rfunct_1.html"
             },
             "position": {
                 "x": 6636.0,
@@ -1277,7 +1277,7 @@
             "data": {
                 "id": "RVSUM_1",
                 "name": "RVSUM_1",
-                "href": "rvsum_1.html"
+                "href": "http://mizar.org/version/current/html/rvsum_1.html"
             },
             "position": {
                 "x": 7860.0,
@@ -1289,7 +1289,7 @@
             "data": {
                 "id": "NEWTON",
                 "name": "NEWTON",
-                "href": "newton.html"
+                "href": "http://mizar.org/version/current/html/newton.html"
             },
             "position": {
                 "x": 7080.0,
@@ -1301,7 +1301,7 @@
             "data": {
                 "id": "CARD_4",
                 "name": "CARD_4",
-                "href": "card_4.html"
+                "href": "http://mizar.org/version/current/html/card_4.html"
             },
             "position": {
                 "x": 7182.0,
@@ -1313,7 +1313,7 @@
             "data": {
                 "id": "CARD_5",
                 "name": "CARD_5",
-                "href": "card_5.html"
+                "href": "http://mizar.org/version/current/html/card_5.html"
             },
             "position": {
                 "x": 5790.0,
@@ -1325,7 +1325,7 @@
             "data": {
                 "id": "TREES_2",
                 "name": "TREES_2",
-                "href": "trees_2.html"
+                "href": "http://mizar.org/version/current/html/trees_2.html"
             },
             "position": {
                 "x": 4980.0,
@@ -1337,7 +1337,7 @@
             "data": {
                 "id": "VALUED_2",
                 "name": "VALUED_2",
-                "href": "valued_2.html"
+                "href": "http://mizar.org/version/current/html/valued_2.html"
             },
             "position": {
                 "x": 6330.0,
@@ -1349,7 +1349,7 @@
             "data": {
                 "id": "SEQM_3",
                 "name": "SEQM_3",
-                "href": "seqm_3.html"
+                "href": "http://mizar.org/version/current/html/seqm_3.html"
             },
             "position": {
                 "x": 7104.0,
@@ -1361,7 +1361,7 @@
             "data": {
                 "id": "RFINSEQ",
                 "name": "RFINSEQ",
-                "href": "rfinseq.html"
+                "href": "http://mizar.org/version/current/html/rfinseq.html"
             },
             "position": {
                 "x": 7860.0,
@@ -1373,7 +1373,7 @@
             "data": {
                 "id": "SEQ_4",
                 "name": "SEQ_4",
-                "href": "seq_4.html"
+                "href": "http://mizar.org/version/current/html/seq_4.html"
             },
             "position": {
                 "x": 8550.0,
@@ -1385,7 +1385,7 @@
             "data": {
                 "id": "RCOMP_1",
                 "name": "RCOMP_1",
-                "href": "rcomp_1.html"
+                "href": "http://mizar.org/version/current/html/rcomp_1.html"
             },
             "position": {
                 "x": 8982.0,
@@ -1397,7 +1397,7 @@
             "data": {
                 "id": "RFUNCT_2",
                 "name": "RFUNCT_2",
-                "href": "rfunct_2.html"
+                "href": "http://mizar.org/version/current/html/rfunct_2.html"
             },
             "position": {
                 "x": 8994.0,
@@ -1409,7 +1409,7 @@
             "data": {
                 "id": "CFUNCT_1",
                 "name": "CFUNCT_1",
-                "href": "cfunct_1.html"
+                "href": "http://mizar.org/version/current/html/cfunct_1.html"
             },
             "position": {
                 "x": 4194.0,
@@ -1421,7 +1421,7 @@
             "data": {
                 "id": "FCONT_1",
                 "name": "FCONT_1",
-                "href": "fcont_1.html"
+                "href": "http://mizar.org/version/current/html/fcont_1.html"
             },
             "position": {
                 "x": 10362.0,
@@ -1433,7 +1433,7 @@
             "data": {
                 "id": "FCONT_2",
                 "name": "FCONT_2",
-                "href": "fcont_2.html"
+                "href": "http://mizar.org/version/current/html/fcont_2.html"
             },
             "position": {
                 "x": 9456.0,
@@ -1445,7 +1445,7 @@
             "data": {
                 "id": "FDIFF_1",
                 "name": "FDIFF_1",
-                "href": "fdiff_1.html"
+                "href": "http://mizar.org/version/current/html/fdiff_1.html"
             },
             "position": {
                 "x": 11814.0,
@@ -1457,7 +1457,7 @@
             "data": {
                 "id": "ROLLE",
                 "name": "ROLLE",
-                "href": "rolle.html"
+                "href": "http://mizar.org/version/current/html/rolle.html"
             },
             "position": {
                 "x": 12708.0,
@@ -1469,7 +1469,7 @@
             "data": {
                 "id": "PREPOWER",
                 "name": "PREPOWER",
-                "href": "prepower.html"
+                "href": "http://mizar.org/version/current/html/prepower.html"
             },
             "position": {
                 "x": 6402.0,
@@ -1481,7 +1481,7 @@
             "data": {
                 "id": "FINSEQ_5",
                 "name": "FINSEQ_5",
-                "href": "finseq_5.html"
+                "href": "http://mizar.org/version/current/html/finseq_5.html"
             },
             "position": {
                 "x": 7932.0,
@@ -1493,7 +1493,7 @@
             "data": {
                 "id": "REWRITE1",
                 "name": "REWRITE1",
-                "href": "rewrite1.html"
+                "href": "http://mizar.org/version/current/html/rewrite1.html"
             },
             "position": {
                 "x": 7914.0,
@@ -1505,7 +1505,7 @@
             "data": {
                 "id": "FUNCT_7",
                 "name": "FUNCT_7",
-                "href": "funct_7.html"
+                "href": "http://mizar.org/version/current/html/funct_7.html"
             },
             "position": {
                 "x": 9810.0,
@@ -1517,7 +1517,7 @@
             "data": {
                 "id": "SCHEME1",
                 "name": "SCHEME1",
-                "href": "scheme1.html"
+                "href": "http://mizar.org/version/current/html/scheme1.html"
             },
             "position": {
                 "x": 7926.000000000001,
@@ -1529,7 +1529,7 @@
             "data": {
                 "id": "ABIAN",
                 "name": "ABIAN",
-                "href": "abian.html"
+                "href": "http://mizar.org/version/current/html/abian.html"
             },
             "position": {
                 "x": 8514.0,
@@ -1541,7 +1541,7 @@
             "data": {
                 "id": "POWER",
                 "name": "POWER",
-                "href": "power.html"
+                "href": "http://mizar.org/version/current/html/power.html"
             },
             "position": {
                 "x": 6402.0,
@@ -1553,7 +1553,7 @@
             "data": {
                 "id": "POLYEQ_1",
                 "name": "POLYEQ_1",
-                "href": "polyeq_1.html"
+                "href": "http://mizar.org/version/current/html/polyeq_1.html"
             },
             "position": {
                 "x": 3432.0,
@@ -1565,7 +1565,7 @@
             "data": {
                 "id": "SERIES_1",
                 "name": "SERIES_1",
-                "href": "series_1.html"
+                "href": "http://mizar.org/version/current/html/series_1.html"
             },
             "position": {
                 "x": 5922.000000000001,
@@ -1577,7 +1577,7 @@
             "data": {
                 "id": "COMSEQ_3",
                 "name": "COMSEQ_3",
-                "href": "comseq_3.html"
+                "href": "http://mizar.org/version/current/html/comseq_3.html"
             },
             "position": {
                 "x": 5064.0,
@@ -1589,7 +1589,7 @@
             "data": {
                 "id": "CFCONT_1",
                 "name": "CFCONT_1",
-                "href": "cfcont_1.html"
+                "href": "http://mizar.org/version/current/html/cfcont_1.html"
             },
             "position": {
                 "x": 5112.0,
@@ -1601,7 +1601,7 @@
             "data": {
                 "id": "CFDIFF_1",
                 "name": "CFDIFF_1",
-                "href": "cfdiff_1.html"
+                "href": "http://mizar.org/version/current/html/cfdiff_1.html"
             },
             "position": {
                 "x": 5088.0,
@@ -1613,7 +1613,7 @@
             "data": {
                 "id": "RPR_1",
                 "name": "RPR_1",
-                "href": "rpr_1.html"
+                "href": "http://mizar.org/version/current/html/rpr_1.html"
             },
             "position": {
                 "x": 6324.000000000001,
@@ -1625,7 +1625,7 @@
             "data": {
                 "id": "SUPINF_2",
                 "name": "SUPINF_2",
-                "href": "supinf_2.html"
+                "href": "http://mizar.org/version/current/html/supinf_2.html"
             },
             "position": {
                 "x": 9792.0,
@@ -1637,7 +1637,7 @@
             "data": {
                 "id": "TREES_A",
                 "name": "TREES_A",
-                "href": "trees_a.html"
+                "href": "http://mizar.org/version/current/html/trees_a.html"
             },
             "position": {
                 "x": 3864.0000000000005,
@@ -1649,7 +1649,7 @@
             "data": {
                 "id": "PRE_FF",
                 "name": "PRE_FF",
-                "href": "pre_ff.html"
+                "href": "http://mizar.org/version/current/html/pre_ff.html"
             },
             "position": {
                 "x": 7608.0,
@@ -1661,7 +1661,7 @@
             "data": {
                 "id": "TREES_3",
                 "name": "TREES_3",
-                "href": "trees_3.html"
+                "href": "http://mizar.org/version/current/html/trees_3.html"
             },
             "position": {
                 "x": 4224.0,
@@ -1673,7 +1673,7 @@
             "data": {
                 "id": "PARTIT1",
                 "name": "PARTIT1",
-                "href": "partit1.html"
+                "href": "http://mizar.org/version/current/html/partit1.html"
             },
             "position": {
                 "x": 4836.0,
@@ -1685,7 +1685,7 @@
             "data": {
                 "id": "TREES_4",
                 "name": "TREES_4",
-                "href": "trees_4.html"
+                "href": "http://mizar.org/version/current/html/trees_4.html"
             },
             "position": {
                 "x": 4224.0,
@@ -1697,7 +1697,7 @@
             "data": {
                 "id": "CARD_FIL",
                 "name": "CARD_FIL",
-                "href": "card_fil.html"
+                "href": "http://mizar.org/version/current/html/card_fil.html"
             },
             "position": {
                 "x": 5622.000000000001,
@@ -1709,7 +1709,7 @@
             "data": {
                 "id": "BINARITH",
                 "name": "BINARITH",
-                "href": "binarith.html"
+                "href": "http://mizar.org/version/current/html/binarith.html"
             },
             "position": {
                 "x": 2676.0,
@@ -1721,7 +1721,7 @@
             "data": {
                 "id": "PRE_CIRC",
                 "name": "PRE_CIRC",
-                "href": "pre_circ.html"
+                "href": "http://mizar.org/version/current/html/pre_circ.html"
             },
             "position": {
                 "x": 3198.0,
@@ -1733,7 +1733,7 @@
             "data": {
                 "id": "FINSEQ_6",
                 "name": "FINSEQ_6",
-                "href": "finseq_6.html"
+                "href": "http://mizar.org/version/current/html/finseq_6.html"
             },
             "position": {
                 "x": 2154.0,
@@ -1745,7 +1745,7 @@
             "data": {
                 "id": "MBOOLEAN",
                 "name": "MBOOLEAN",
-                "href": "mboolean.html"
+                "href": "http://mizar.org/version/current/html/mboolean.html"
             },
             "position": {
                 "x": 3960.0000000000005,
@@ -1757,7 +1757,7 @@
             "data": {
                 "id": "WSIERP_1",
                 "name": "WSIERP_1",
-                "href": "wsierp_1.html"
+                "href": "http://mizar.org/version/current/html/wsierp_1.html"
             },
             "position": {
                 "x": 6978.000000000001,
@@ -1769,7 +1769,7 @@
             "data": {
                 "id": "GLIB_000",
                 "name": "GLIB_000",
-                "href": "glib_000.html"
+                "href": "http://mizar.org/version/current/html/glib_000.html"
             },
             "position": {
                 "x": 5808.0,
@@ -1781,7 +1781,7 @@
             "data": {
                 "id": "PZFMISC1",
                 "name": "PZFMISC1",
-                "href": "pzfmisc1.html"
+                "href": "http://mizar.org/version/current/html/pzfmisc1.html"
             },
             "position": {
                 "x": 4800.0,
@@ -1793,7 +1793,7 @@
             "data": {
                 "id": "GENEALG1",
                 "name": "GENEALG1",
-                "href": "genealg1.html"
+                "href": "http://mizar.org/version/current/html/genealg1.html"
             },
             "position": {
                 "x": 2118.0,
@@ -1805,7 +1805,7 @@
             "data": {
                 "id": "BINARI_2",
                 "name": "BINARI_2",
-                "href": "binari_2.html"
+                "href": "http://mizar.org/version/current/html/binari_2.html"
             },
             "position": {
                 "x": 1356.0000000000002,
@@ -1817,7 +1817,7 @@
             "data": {
                 "id": "TREES_9",
                 "name": "TREES_9",
-                "href": "trees_9.html"
+                "href": "http://mizar.org/version/current/html/trees_9.html"
             },
             "position": {
                 "x": 1296.0,
@@ -1829,7 +1829,7 @@
             "data": {
                 "id": "MSSUBFAM",
                 "name": "MSSUBFAM",
-                "href": "mssubfam.html"
+                "href": "http://mizar.org/version/current/html/mssubfam.html"
             },
             "position": {
                 "x": 5598.0,
@@ -1841,7 +1841,7 @@
             "data": {
                 "id": "RELSET_2",
                 "name": "RELSET_2",
-                "href": "relset_2.html"
+                "href": "http://mizar.org/version/current/html/relset_2.html"
             },
             "position": {
                 "x": 9534.0,
@@ -1853,7 +1853,7 @@
             "data": {
                 "id": "RECDEF_2",
                 "name": "RECDEF_2",
-                "href": "recdef_2.html"
+                "href": "http://mizar.org/version/current/html/recdef_2.html"
             },
             "position": {
                 "x": 540.0,
@@ -1865,7 +1865,7 @@
             "data": {
                 "id": "PROB_1",
                 "name": "PROB_1",
-                "href": "prob_1.html"
+                "href": "http://mizar.org/version/current/html/prob_1.html"
             },
             "position": {
                 "x": 11088.0,
@@ -1877,7 +1877,7 @@
             "data": {
                 "id": "PROB_2",
                 "name": "PROB_2",
-                "href": "prob_2.html"
+                "href": "http://mizar.org/version/current/html/prob_2.html"
             },
             "position": {
                 "x": 12912.0,
@@ -1889,7 +1889,7 @@
             "data": {
                 "id": "LIMFUNC1",
                 "name": "LIMFUNC1",
-                "href": "limfunc1.html"
+                "href": "http://mizar.org/version/current/html/limfunc1.html"
             },
             "position": {
                 "x": 10278.0,
@@ -1901,7 +1901,7 @@
             "data": {
                 "id": "LIMFUNC2",
                 "name": "LIMFUNC2",
-                "href": "limfunc2.html"
+                "href": "http://mizar.org/version/current/html/limfunc2.html"
             },
             "position": {
                 "x": 11136.0,
@@ -1913,7 +1913,7 @@
             "data": {
                 "id": "SEQFUNC",
                 "name": "SEQFUNC",
-                "href": "seqfunc.html"
+                "href": "http://mizar.org/version/current/html/seqfunc.html"
             },
             "position": {
                 "x": 11982.0,
@@ -1925,7 +1925,7 @@
             "data": {
                 "id": "LIMFUNC3",
                 "name": "LIMFUNC3",
-                "href": "limfunc3.html"
+                "href": "http://mizar.org/version/current/html/limfunc3.html"
             },
             "position": {
                 "x": 12174.0,
@@ -1937,7 +1937,7 @@
             "data": {
                 "id": "FCONT_3",
                 "name": "FCONT_3",
-                "href": "fcont_3.html"
+                "href": "http://mizar.org/version/current/html/fcont_3.html"
             },
             "position": {
                 "x": 9456.0,
@@ -1949,7 +1949,7 @@
             "data": {
                 "id": "LIMFUNC4",
                 "name": "LIMFUNC4",
-                "href": "limfunc4.html"
+                "href": "http://mizar.org/version/current/html/limfunc4.html"
             },
             "position": {
                 "x": 11886.0,
@@ -1961,7 +1961,7 @@
             "data": {
                 "id": "L_HOSPIT",
                 "name": "L_HOSPIT",
-                "href": "l_hospit.html"
+                "href": "http://mizar.org/version/current/html/l_hospit.html"
             },
             "position": {
                 "x": 12726.0,
@@ -1973,7 +1973,7 @@
             "data": {
                 "id": "FDIFF_2",
                 "name": "FDIFF_2",
-                "href": "fdiff_2.html"
+                "href": "http://mizar.org/version/current/html/fdiff_2.html"
             },
             "position": {
                 "x": 10272.0,
@@ -1985,7 +1985,7 @@
             "data": {
                 "id": "FDIFF_3",
                 "name": "FDIFF_3",
-                "href": "fdiff_3.html"
+                "href": "http://mizar.org/version/current/html/fdiff_3.html"
             },
             "position": {
                 "x": 10686.0,
@@ -1997,7 +1997,7 @@
             "data": {
                 "id": "MEASURE1",
                 "name": "MEASURE1",
-                "href": "measure1.html"
+                "href": "http://mizar.org/version/current/html/measure1.html"
             },
             "position": {
                 "x": 14376.0,
@@ -2009,7 +2009,7 @@
             "data": {
                 "id": "MEASURE2",
                 "name": "MEASURE2",
-                "href": "measure2.html"
+                "href": "http://mizar.org/version/current/html/measure2.html"
             },
             "position": {
                 "x": 14376.0,
@@ -2021,7 +2021,7 @@
             "data": {
                 "id": "MEASURE3",
                 "name": "MEASURE3",
-                "href": "measure3.html"
+                "href": "http://mizar.org/version/current/html/measure3.html"
             },
             "position": {
                 "x": 14376.0,
@@ -2033,7 +2033,7 @@
             "data": {
                 "id": "MEASURE4",
                 "name": "MEASURE4",
-                "href": "measure4.html"
+                "href": "http://mizar.org/version/current/html/measure4.html"
             },
             "position": {
                 "x": 14604.0,
@@ -2045,7 +2045,7 @@
             "data": {
                 "id": "RFUNCT_3",
                 "name": "RFUNCT_3",
-                "href": "rfunct_3.html"
+                "href": "http://mizar.org/version/current/html/rfunct_3.html"
             },
             "position": {
                 "x": 10272.0,
@@ -2057,7 +2057,7 @@
             "data": {
                 "id": "MEASURE5",
                 "name": "MEASURE5",
-                "href": "measure5.html"
+                "href": "http://mizar.org/version/current/html/measure5.html"
             },
             "position": {
                 "x": 10656.000000000002,
@@ -2069,7 +2069,7 @@
             "data": {
                 "id": "REARRAN1",
                 "name": "REARRAN1",
-                "href": "rearran1.html"
+                "href": "http://mizar.org/version/current/html/rearran1.html"
             },
             "position": {
                 "x": 11070.0,
@@ -2081,7 +2081,7 @@
             "data": {
                 "id": "MEASURE6",
                 "name": "MEASURE6",
-                "href": "measure6.html"
+                "href": "http://mizar.org/version/current/html/measure6.html"
             },
             "position": {
                 "x": 9456.0,
@@ -2093,7 +2093,7 @@
             "data": {
                 "id": "EXTREAL1",
                 "name": "EXTREAL1",
-                "href": "extreal1.html"
+                "href": "http://mizar.org/version/current/html/extreal1.html"
             },
             "position": {
                 "x": 4032.0,
@@ -2105,7 +2105,7 @@
             "data": {
                 "id": "MEASURE7",
                 "name": "MEASURE7",
-                "href": "measure7.html"
+                "href": "http://mizar.org/version/current/html/measure7.html"
             },
             "position": {
                 "x": 14886.000000000002,
@@ -2117,7 +2117,7 @@
             "data": {
                 "id": "RFUNCT_4",
                 "name": "RFUNCT_4",
-                "href": "rfunct_4.html"
+                "href": "http://mizar.org/version/current/html/rfunct_4.html"
             },
             "position": {
                 "x": 13266.0,
@@ -2129,7 +2129,7 @@
             "data": {
                 "id": "MESFUNC1",
                 "name": "MESFUNC1",
-                "href": "mesfunc1.html"
+                "href": "http://mizar.org/version/current/html/mesfunc1.html"
             },
             "position": {
                 "x": 9534.0,
@@ -2141,7 +2141,7 @@
             "data": {
                 "id": "SIN_COS",
                 "name": "SIN_COS",
-                "href": "sin_cos.html"
+                "href": "http://mizar.org/version/current/html/sin_cos.html"
             },
             "position": {
                 "x": 6738.0,
@@ -2153,7 +2153,7 @@
             "data": {
                 "id": "MESFUNC2",
                 "name": "MESFUNC2",
-                "href": "mesfunc2.html"
+                "href": "http://mizar.org/version/current/html/mesfunc2.html"
             },
             "position": {
                 "x": 9534.0,
@@ -2165,7 +2165,7 @@
             "data": {
                 "id": "SIN_COS2",
                 "name": "SIN_COS2",
-                "href": "sin_cos2.html"
+                "href": "http://mizar.org/version/current/html/sin_cos2.html"
             },
             "position": {
                 "x": 5898.0,
@@ -2177,7 +2177,7 @@
             "data": {
                 "id": "SIN_COS3",
                 "name": "SIN_COS3",
-                "href": "sin_cos3.html"
+                "href": "http://mizar.org/version/current/html/sin_cos3.html"
             },
             "position": {
                 "x": 5640.0,
@@ -2189,7 +2189,7 @@
             "data": {
                 "id": "SIN_COS4",
                 "name": "SIN_COS4",
-                "href": "sin_cos4.html"
+                "href": "http://mizar.org/version/current/html/sin_cos4.html"
             },
             "position": {
                 "x": 6714.0,
@@ -2201,7 +2201,7 @@
             "data": {
                 "id": "SIN_COS5",
                 "name": "SIN_COS5",
-                "href": "sin_cos5.html"
+                "href": "http://mizar.org/version/current/html/sin_cos5.html"
             },
             "position": {
                 "x": 6462.0,
@@ -2213,7 +2213,7 @@
             "data": {
                 "id": "ASYMPT_0",
                 "name": "ASYMPT_0",
-                "href": "asympt_0.html"
+                "href": "http://mizar.org/version/current/html/asympt_0.html"
             },
             "position": {
                 "x": 8580.0,
@@ -2225,7 +2225,7 @@
             "data": {
                 "id": "COMPTRIG",
                 "name": "COMPTRIG",
-                "href": "comptrig.html"
+                "href": "http://mizar.org/version/current/html/comptrig.html"
             },
             "position": {
                 "x": 3924.0,
@@ -2237,7 +2237,7 @@
             "data": {
                 "id": "COMPLEX2",
                 "name": "COMPLEX2",
-                "href": "complex2.html"
+                "href": "http://mizar.org/version/current/html/complex2.html"
             },
             "position": {
                 "x": 4692.0,
@@ -2249,7 +2249,7 @@
             "data": {
                 "id": "POLYEQ_2",
                 "name": "POLYEQ_2",
-                "href": "polyeq_2.html"
+                "href": "http://mizar.org/version/current/html/polyeq_2.html"
             },
             "position": {
                 "x": 5922.000000000001,
@@ -2261,7 +2261,7 @@
             "data": {
                 "id": "POLYEQ_3",
                 "name": "POLYEQ_3",
-                "href": "polyeq_3.html"
+                "href": "http://mizar.org/version/current/html/polyeq_3.html"
             },
             "position": {
                 "x": 3834.0000000000005,
@@ -2273,7 +2273,7 @@
             "data": {
                 "id": "POLYEQ_4",
                 "name": "POLYEQ_4",
-                "href": "polyeq_4.html"
+                "href": "http://mizar.org/version/current/html/polyeq_4.html"
             },
             "position": {
                 "x": 5952.0,
@@ -2285,7 +2285,7 @@
             "data": {
                 "id": "POLYEQ_5",
                 "name": "POLYEQ_5",
-                "href": "polyeq_5.html"
+                "href": "http://mizar.org/version/current/html/polyeq_5.html"
             },
             "position": {
                 "x": 3852.0,
@@ -2297,7 +2297,7 @@
             "data": {
                 "id": "SIN_COS6",
                 "name": "SIN_COS6",
-                "href": "sin_cos6.html"
+                "href": "http://mizar.org/version/current/html/sin_cos6.html"
             },
             "position": {
                 "x": 4692.0,
@@ -2309,7 +2309,7 @@
             "data": {
                 "id": "EULER_1",
                 "name": "EULER_1",
-                "href": "euler_1.html"
+                "href": "http://mizar.org/version/current/html/euler_1.html"
             },
             "position": {
                 "x": 7776.000000000001,
@@ -2321,7 +2321,7 @@
             "data": {
                 "id": "EULER_2",
                 "name": "EULER_2",
-                "href": "euler_2.html"
+                "href": "http://mizar.org/version/current/html/euler_2.html"
             },
             "position": {
                 "x": 7950.0,
@@ -2333,7 +2333,7 @@
             "data": {
                 "id": "ASYMPT_1",
                 "name": "ASYMPT_1",
-                "href": "asympt_1.html"
+                "href": "http://mizar.org/version/current/html/asympt_1.html"
             },
             "position": {
                 "x": 7860.0,
@@ -2345,7 +2345,7 @@
             "data": {
                 "id": "SERIES_3",
                 "name": "SERIES_3",
-                "href": "series_3.html"
+                "href": "http://mizar.org/version/current/html/series_3.html"
             },
             "position": {
                 "x": 7278.000000000001,
@@ -2357,7 +2357,7 @@
             "data": {
                 "id": "SERIES_4",
                 "name": "SERIES_4",
-                "href": "series_4.html"
+                "href": "http://mizar.org/version/current/html/series_4.html"
             },
             "position": {
                 "x": 7308.0,
@@ -2369,7 +2369,7 @@
             "data": {
                 "id": "SERIES_5",
                 "name": "SERIES_5",
-                "href": "series_5.html"
+                "href": "http://mizar.org/version/current/html/series_5.html"
             },
             "position": {
                 "x": 8112.0,
@@ -2381,7 +2381,7 @@
             "data": {
                 "id": "QUATERNI",
                 "name": "QUATERNI",
-                "href": "quaterni.html"
+                "href": "http://mizar.org/version/current/html/quaterni.html"
             },
             "position": {
                 "x": 6480.0,
@@ -2393,7 +2393,7 @@
             "data": {
                 "id": "TARSKI_0",
                 "name": "TARSKI_0",
-                "href": "tarski_0.html"
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
                 "x": 4794.0,
@@ -2405,7 +2405,7 @@
             "data": {
                 "id": "TARSKI_A",
                 "name": "TARSKI_A",
-                "href": "tarski_a.html"
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
                 "x": 5154.0,
@@ -2549,14 +2549,14 @@
             "group": "edges",
             "data": {
                 "source": "WELLORD1",
-                "target": "RELAT_2"
+                "target": "FUNCT_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "WELLORD1",
-                "target": "FUNCT_1"
+                "target": "RELAT_2"
             }
         },
         {
@@ -2564,13 +2564,6 @@
             "data": {
                 "source": "RELSET_1",
                 "target": "RELAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PARTFUN1",
-                "target": "RELAT_2"
             }
         },
         {
@@ -2585,6 +2578,13 @@
             "data": {
                 "source": "PARTFUN1",
                 "target": "RELSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN1",
+                "target": "RELAT_2"
             }
         },
         {
@@ -2619,14 +2619,14 @@
             "group": "edges",
             "data": {
                 "source": "FUNCT_2",
-                "target": "PARTFUN1"
+                "target": "MCART_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "FUNCT_2",
-                "target": "MCART_1"
+                "target": "PARTFUN1"
             }
         },
         {
@@ -2634,13 +2634,6 @@
             "data": {
                 "source": "BINOP_1",
                 "target": "FUNCT_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "DOMAIN_1",
-                "target": "PARTFUN1"
             }
         },
         {
@@ -2655,6 +2648,13 @@
             "data": {
                 "source": "DOMAIN_1",
                 "target": "MCART_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DOMAIN_1",
+                "target": "PARTFUN1"
             }
         },
         {
@@ -2773,14 +2773,14 @@
             "group": "edges",
             "data": {
                 "source": "CARD_1",
-                "target": "FINSET_1"
+                "target": "WELLORD2"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "CARD_1",
-                "target": "WELLORD2"
+                "target": "FINSET_1"
             }
         },
         {
@@ -3389,14 +3389,14 @@
             "group": "edges",
             "data": {
                 "source": "SEQ_2",
-                "target": "SEQ_1"
+                "target": "COMSEQ_2"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "SEQ_2",
-                "target": "COMSEQ_2"
+                "target": "SEQ_1"
             }
         },
         {
@@ -3823,13 +3823,6 @@
             "group": "edges",
             "data": {
                 "source": "BINARITH",
-                "target": "MARGREL1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BINARITH",
                 "target": "SERIES_1"
             }
         },
@@ -3838,6 +3831,13 @@
             "data": {
                 "source": "BINARITH",
                 "target": "TREES_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BINARITH",
+                "target": "MARGREL1"
             }
         },
         {
@@ -3998,14 +3998,14 @@
             "group": "edges",
             "data": {
                 "source": "LIMFUNC1",
-                "target": "RFUNCT_2"
+                "target": "PROB_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "LIMFUNC1",
-                "target": "PROB_1"
+                "target": "RFUNCT_2"
             }
         },
         {
