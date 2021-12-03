@@ -468,14 +468,17 @@ $(function(){
         })
 
         $("#open").click(function(){
-            if(cy.$(this).hasClass("selected")){
-                reset_elements_style(cy);
-                $(".color_index").addClass("hidden_show");
-            }
             $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
-                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
+                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) {
+                    restoreChildren(node.id(), node, childrenData, edgesData)
+                    if(cy.$(node).hasClass("selected")){
+                        reset_elements_style(cy);
+                        $(".color_index").addClass("hidden_show");
+                    }
+                }
             })
+            
             if(cy.nodes(".selected").data()){
                 let selected_node = cy.nodes().filter(function(ele){
                     return ele.data("name") == cy.nodes(".selected").data("name");
