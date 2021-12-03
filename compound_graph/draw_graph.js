@@ -331,7 +331,8 @@ $(function(){
             cy.nodes().on("mouseover", function(cy_event){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-                document.getElementById("name-plate").textContent = cy_event.target.data("name");
+                if(childrenData.get(cy_event).node.length > 0)document.getElementById("name-plate").textContent = childrenData.get(cy_event).node
+                else document.getElementById("name-plate").textContent = cy_event.target.data("name");
             });
             cy.nodes().on("mouseout", function(){
                 document.getElementById("name-plate").textContent = "";
