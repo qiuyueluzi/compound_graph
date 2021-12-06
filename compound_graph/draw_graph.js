@@ -344,6 +344,7 @@ $(function(){
                 else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             });
             cy.nodes().on("mouseout", function(){
+                document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
             })
         });
