@@ -352,7 +352,7 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            if(childrenData.get(this.id()).removed && childrenData.get(this.id()).node.length){
+            if(!cy.$(this).hasClass("selected") && cy.$(this).children().length == 0){
                 // クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
@@ -363,7 +363,7 @@ $(function(){
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
             }
-            else if(cy.$(this).children().length == 0){
+            else if(cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight")){
                 try {  // your browser may block popups
                     window.open(this.data("href"));
                 } catch(e){  // fall back on url change
@@ -383,7 +383,7 @@ $(function(){
                     e.target.trigger('doubleTap', e);
                 }
             }
-            else{// クリックしたノードの親と子、自身を色変更
+            /*else{// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
@@ -392,7 +392,7 @@ $(function(){
                 let clicked_node_name = clicked_node.data("name");
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
-            }
+            }*/
             previousTapStamp= currentTapStamp;
             
         });
