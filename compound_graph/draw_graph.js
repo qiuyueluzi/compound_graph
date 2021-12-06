@@ -755,7 +755,7 @@ function fontsize(ancestor, orphan){
         'font-size': 20 / cy.zoom()
     })
     cy.style().selector(ancestor&&orphan).style({
-        'font-size': "24px"
+        'font-size': 25 / cy.zoom()
     })
     .update()
 }
