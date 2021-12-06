@@ -760,7 +760,7 @@ function fontsize(ancestor, orphan){
 function descendant(child, level, childrenData){
     level++;
     let children = [];
-    childrenData.get(child).node.forEach(function(node){
+    childrenData.get(child.id()).node.forEach(function(node){
         for(let i=0; i<level; i++){
             children += " ";
         }
