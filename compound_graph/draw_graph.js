@@ -352,7 +352,7 @@ $(function(){
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
-            if(!cy.$(this).hasClass("selected") && cy.$(this).children().length == 0){
+            if(!cy.$(this).hasClass("selected") && !cy.$(this).hasClass("highlight") && cy.$(this).children().length == 0){
                 // クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
@@ -363,7 +363,7 @@ $(function(){
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
             }
-            else if(cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight")){
+            else if(childrenData.get(this.id()).node.length == 0 && (cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight"))){
                 try {  // your browser may block popups
                     window.open(this.data("href"));
                 } catch(e){  // fall back on url change
