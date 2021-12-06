@@ -337,7 +337,8 @@ $(function(){
                         children += child.id() + "<br>";
                         if(childrenData.get(child.id()).node.length > 0) children += descendant(child, 0, childrenData)
                     })
-                    document.getElementById("name-plate").style.fontSize = "12px";
+                    document.getElementById("name-plate").style.top = window_event.clientY / 2 + "px";
+                    document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
 
                 }
