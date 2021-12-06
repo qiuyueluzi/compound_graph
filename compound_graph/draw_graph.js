@@ -331,10 +331,11 @@ $(function(){
             cy.nodes().on("mouseover", function(cy_event){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-                if(childrenData.get(cy_event.target.data("id")).node.length > 0){
+                if(childrenData.get(cy_event.target.data("id")).node.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
                     childrenData.get(cy_event.target.id()).node.forEach(function(child){
                         children += child.id() + "<br>";
+                        if(childrenData.get(child.id()).node.length > 0) children += descendant(child, 0, childrenData)
                     })
                     document.getElementById("name-plate").innerHTML = children;
                 }
@@ -754,4 +755,17 @@ function fontsize(ancestor, orphan){
         'font-size': 25 / cy.zoom()
     })
     .update()
+}
+
+function descendant(child, level, childrenData){
+    level++;
+    let children = [];
+    childrenData.get(child).node.forEach(function(node){
+        for(let i=0; i<level; i++){
+            children += " ";
+        }
+        children += node.id() + "<br>";
+        if(childrenData.get(node.id()).node.length > 0)  children += descendant(node, level, childrenData)
+    })
+    return children;
 }
