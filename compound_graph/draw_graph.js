@@ -337,7 +337,7 @@ $(function(){
                         children += child.id() + "<br>";
                         if(childrenData.get(child.id()).node.length > 0) children += descendant(child, 0, childrenData)
                     })
-                    document.getElementById("name-plate").style.fontSize = "18px";
+                    document.getElementById("name-plate").style.fontSize = "12px";
                     document.getElementById("name-plate").innerHTML = children;
 
                 }
@@ -755,7 +755,7 @@ function fontsize(ancestor, orphan){
         'font-size': 20 / cy.zoom()
     })
     cy.style().selector(ancestor&&orphan).style({
-        'font-size': 25 / cy.zoom()
+        'font-size': "24px"
     })
     .update()
 }
