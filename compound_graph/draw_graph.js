@@ -762,7 +762,7 @@ function descendant(child, level, childrenData){
     let children = [];
     childrenData.get(child.id()).node.forEach(function(node){
         for(let i=0; i<level; i++){
-            children += " ";
+            children += "　";
         }
         children += node.id() + "<br>";
         if(childrenData.get(node.id()).node.length > 0)  children += descendant(node, level, childrenData)
