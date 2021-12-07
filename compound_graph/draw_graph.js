@@ -738,7 +738,7 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 0
+            'font-size': 12 / cy.zoom()
         })
         .update()
     }
