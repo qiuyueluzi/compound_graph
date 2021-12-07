@@ -85,7 +85,7 @@ $(function(){
             }
             let layout = cy.elements().layout({
                 name: "klay",
-                spacingFactor: 18
+                spacingFactor: 10
             })
             layout.run()
 
@@ -744,7 +744,7 @@ function fontsize(ancestor, orphan){
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 15 / cy.zoom()
+            'font-size': 8 / cy.zoom()
         })
         cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
