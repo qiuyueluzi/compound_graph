@@ -96,16 +96,16 @@ $(function(){
                 {
                     selector: "node",
                     css: {"background-color": "#000000", "shape": "ellipse", "width": "150", "height": "150",
-                    "content": "data(name)", "font-size": 40, "opacity": 1, "z-index": 1,
+                    "content": "data(name)", 'font-size': 80, "opacity": 1, "z-index": 1,
                     "text-halign":"center", "text-valign": "center", "font-style": "normal",
                     "font-weight": "bold", "color": "#FFFFFF",
-                    "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30
+                    "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}  // 0.8 30 オリジナルのフォントサイズ:40
                 },
                 {
                     selector: 'node:parent',
                     css: {
                             'content': 'data(name)',
-                            'font-size': 900,
+                            'font-size': 200,
                             "text-outline-color": '#FFFFFF',
                             'color': '#000000',
                             'text-valign': 'top',
@@ -123,7 +123,7 @@ $(function(){
                 // 選択されたノード全てのスタイル
                 {
                     selector: "node.highlight",
-                    css: {"font-size": 20,  "width": 250, "height": 250, "font-size": 100,
+                    css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100,
                     "content": "data(name)", "opacity": 1, "z-index": 10}
                 },
                 // 選択(左クリック)されたノードのスタイル
@@ -219,15 +219,6 @@ $(function(){
         cy.fit(cy.nodes().orphans());
         let ancestor = nodes.ancestors();
         let orphan = nodes.orphans();
-        cy.style().selector('node').style({
-            'font-size': 80
-        })
-        cy.style().selector(ancestor).style({
-            'font-size': 200
-        })
-        cy.style().selector('node.highlight').style({
-            'font-size': 120
-        })
         cy.style().selector(ancestor&&orphan).style({
             'font-size': 350
         })
