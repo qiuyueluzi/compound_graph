@@ -77,7 +77,6 @@ $(function(){
             }
             for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
                 let curEdge = cy.$(edges[x]);
-                curEdge.addClass("unselectable");
                 let id = curEdge.data('id');
                 let curTarget = curEdge.target();
                 let curSource = curEdge.source();
@@ -118,7 +117,7 @@ $(function(){
                 {
                     selector: "edge",
                     css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
-                    "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1}  //0.3
+                    "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1, "selectable": false,}  //0.3
                 },
                 /* ノードが左クリックされたときに適応されるスタイル */
                 // 選択されたノード全てのスタイル
