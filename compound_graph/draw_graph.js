@@ -344,7 +344,7 @@ $(function(){
                 }
                 else if(childrenData.get(cy_event.target.data("id")).node.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
-                    cy_event.target.descendants().forEach(function(child){
+                    cy_event.target.children().forEach(function(child){
                         children += child.id() + "<br>";
                     })
                     document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
