@@ -738,16 +738,16 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
+            'font-size': 280
         })
         .update()
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 8 / cy.zoom()
+            'font-size': 100
         })
         cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
+            'font-size': 280
         })
         .update()
     }
