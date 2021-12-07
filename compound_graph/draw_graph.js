@@ -753,7 +753,7 @@ function fontsize(ancestor, orphan){
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 40
+            'font-size': 15 / cy.zoom()
         })
         cy.style().selector(ancestor).style({
             'font-size': 20 / cy.zoom()
