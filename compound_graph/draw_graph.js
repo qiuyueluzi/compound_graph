@@ -77,6 +77,7 @@ $(function(){
             }
             for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
                 let curEdge = cy.$(edges[x]);
+                curEdge.autounselectify(false)
                 let id = curEdge.data('id');
                 let curTarget = curEdge.target();
                 let curSource = curEdge.source();
@@ -221,7 +222,6 @@ $(function(){
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
-        cy.edges().autounselectify( false );
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
