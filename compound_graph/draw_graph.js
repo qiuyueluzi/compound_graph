@@ -733,6 +733,7 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
 }
 
 function fontsize(ancestor, orphan){
+    console.log(cy.zoom())
     if((cy.zoom() <= 0.05)){
         cy.style().selector('node').style({
             'font-size': 0
