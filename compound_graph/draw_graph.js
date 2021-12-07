@@ -229,7 +229,7 @@ $(function(){
             'font-size': 120
         })
         cy.style().selector(ancestor&&orphan).style({
-            'font-size': 300
+            'font-size': 350
         })
         .update()
         /*fontsize(ancestor, orphan);*/
