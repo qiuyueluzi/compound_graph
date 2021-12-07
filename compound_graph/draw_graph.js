@@ -739,7 +739,7 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 12 / cy.zoom()
+            'font-size': 200
         })
         .update()
     }
@@ -748,16 +748,16 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
+            'font-size': 200
         })
         .update()
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 15 / cy.zoom()
+            'font-size': 80
         })
         cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
+            'font-size': 100
         })
         .update()
     }
@@ -766,7 +766,7 @@ function fontsize(ancestor, orphan){
         'font-size': 20 / cy.zoom()
     })
     cy.style().selector(ancestor&&orphan).style({
-        'font-size': 25 / cy.zoom()
+        'font-size': 300
     })
     .update()
 }
