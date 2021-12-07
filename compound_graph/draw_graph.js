@@ -117,7 +117,7 @@ $(function(){
                 {
                     selector: "edge",
                     css: {"line-color": "black", "target-arrow-shape": "triangle", "curve-style": "straight",
-                    "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1, "selectable": false,}  //0.3
+                    "target-arrow-color": "black", "arrow-scale": 3, "width": 5, "opacity": 0.3, "z-index": 1,}  //0.3
                 },
                 /* ノードが左クリックされたときに適応されるスタイル */
                 // 選択されたノード全てのスタイル
@@ -221,6 +221,7 @@ $(function(){
         let orphan = nodes.orphans();
         fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
+        cy.edges().autounselectify( false );
         
         // 強調表示する祖先、子孫の世代数の初期化
         let ancestor_generations = 1;
