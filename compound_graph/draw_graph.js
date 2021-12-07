@@ -342,6 +342,15 @@ $(function(){
                     document.getElementById("name-plate").innerHTML = children;
 
                 }
+                else if(childrenData.get(cy_event.target.data("id")).node.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
+                    let children = ""
+                    cy_event.target.descendants().forEach(function(child){
+                        children += child.id() + "<br>";
+                    })
+                    document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
+                    document.getElementById("name-plate").style.fontSize = "16px";
+                    document.getElementById("name-plate").innerHTML = children;
+                }
                 else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             });
             cy.nodes().on("mouseout", function(){
@@ -738,16 +747,16 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 280
+            'font-size': 20 / cy.zoom()
         })
         .update()
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 100
+            'font-size': 40
         })
         cy.style().selector(ancestor).style({
-            'font-size': 280
+            'font-size': 20 / cy.zoom()
         })
         .update()
     }
