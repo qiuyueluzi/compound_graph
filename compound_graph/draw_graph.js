@@ -219,7 +219,20 @@ $(function(){
         cy.fit(cy.nodes().orphans());
         let ancestor = nodes.ancestors();
         let orphan = nodes.orphans();
-        fontsize(ancestor, orphan);
+        cy.style().selector('node').style({
+            'font-size': 80
+        })
+        cy.style().selector(ancestor).style({
+            'font-size': 200
+        })
+        cy.style().selector('node.highlight').style({
+            'font-size': 120
+        })
+        cy.style().selector(ancestor&&orphan).style({
+            'font-size': 300
+        })
+        .update()
+        /*fontsize(ancestor, orphan);*/
         $("#open").css('background-color', 'gray')
         
         // 強調表示する祖先、子孫の世代数の初期化
@@ -447,9 +460,9 @@ $(function(){
         });
 
 
-        cy.on('zoom', function(e){
+        /*cy.on('zoom', function(e){
             fontsize(ancestor, orphan);
-        })
+        })*/
         
         
         // re-highlightボタンで再度ハイライトする
@@ -739,7 +752,7 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 200
+            'font-size': 12 / cy.zoom()
         })
         .update()
     }
@@ -748,16 +761,16 @@ function fontsize(ancestor, orphan){
             'font-size': 0
         })
         cy.style().selector(ancestor).style({
-            'font-size': 200
+            'font-size': 20 / cy.zoom()
         })
         .update()
     }
     else if(cy.zoom() > 0.07){
         cy.style().selector('node').style({
-            'font-size': 80
+            'font-size': 15 / cy.zoom()
         })
         cy.style().selector(ancestor).style({
-            'font-size': 100
+            'font-size': 20 / cy.zoom()
         })
         .update()
     }
@@ -766,7 +779,7 @@ function fontsize(ancestor, orphan){
         'font-size': 20 / cy.zoom()
     })
     cy.style().selector(ancestor&&orphan).style({
-        'font-size': 300
+        'font-size': 25 / cy.zoom()
     })
     .update()
 }
