@@ -359,10 +359,12 @@ $(function(){
             })
         });
         
-            cy.nodes().on("mouseout", function(){
+        cy.nodes().on("mouseout", function(){
+            $(window).on("mousemove", function(window_event){ 
                 document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
             })
+        })
         
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
