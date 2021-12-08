@@ -355,7 +355,7 @@ $(function(){
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
                 }
-                else*/ document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
+                else*/ //document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             });
             cy.nodes().on("mouseout", function(){
                 document.getElementById("name-plate").style.fontSize = ""
