@@ -185,6 +185,11 @@ $(function(){
                 css: {"background-color": "#00ffff", "color": "#000000",
                 "text-outline-color": "#00ffff", "text-outline-opacity": 1, "text-outline-width": 10}
             },
+            {
+                selector: "node.interaction",
+                css: {"background-color": "#ff00ff", "color": "#ffffff",
+                "text-outline-color": "#ff00ff", "text-outline-opacity": 1, "text-outline-width": 10}
+            },
             // 強調表示されたノードをつなぐエッジのスタイル
             {
                 selector: "edge.highlight",
