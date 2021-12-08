@@ -126,10 +126,6 @@ $(function(){
                     css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100,
                     "content": "data(name)", "opacity": 1, "z-index": 10}
                 },
-                {
-                    selector: "node:parent.highlight",
-                    css: { "text-halign":"center", "text-valign": "center",}
-                },
                 // 選択(左クリック)されたノードのスタイル
             {
                 selector: "node.selected",
