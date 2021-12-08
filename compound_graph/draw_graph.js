@@ -123,13 +123,17 @@ $(function(){
                 // 選択されたノード全てのスタイル
                 {
                     selector: "node.highlight",
-                    css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100, "text-halign":"center", "text-valign": "center",
+                    css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100,
                     "content": "data(name)", "opacity": 1, "z-index": 10}
+                },
+                {
+                    selector: "node:parent.highlight",
+                    css: { "text-halign":"center", "text-valign": "center",}
                 },
                 // 選択(左クリック)されたノードのスタイル
             {
                 selector: "node.selected",
-                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300, "text-halign":"center", "text-valign": "center",
+                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
                 "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
             }
         },
