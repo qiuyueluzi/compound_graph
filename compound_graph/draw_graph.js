@@ -223,7 +223,7 @@ $(function(){
             'font-size': 350
         })
         .update()
-        /*fontsize(ancestor, orphan);*/
+        fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
         
         // 強調表示する祖先、子孫の世代数の初期化
@@ -451,9 +451,9 @@ $(function(){
         });
 
 
-        /*cy.on('zoom', function(e){
+        cy.on('zoom', function(e){
             fontsize(ancestor, orphan);
-        })*/
+        })
         
         
         // re-highlightボタンで再度ハイライトする
