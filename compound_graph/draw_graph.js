@@ -545,7 +545,7 @@ $(function(){
  * @return
 **/
 function reset_elements_style(cy) {
-    let all_class_names = ["highlight",  "faded",  "selected"];
+    let all_class_names = ["highlight",  "faded",  "selected", "interaction"];
     for(let i=0; i<10; i++){
         all_class_names.push("selected_ancestors" + i);
         all_class_names.push("selected_descendants" + i);
@@ -615,6 +615,14 @@ function highlight_connected_elements(cy, generation, select_node, is_ancestor){
             break;
         }
     }
+    cy.$(select_node).incomers().forEach(function(comer){
+        for(let i=0; i<10; i++){
+            if(comer.hasClass("selected_ancestors" + i)){
+                comer.removeClass("selected_ancestors" + i)
+                comer.addClass("interaction")
+            }
+        }
+    })
 }
 
 
