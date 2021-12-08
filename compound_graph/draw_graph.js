@@ -123,7 +123,7 @@ $(function(){
                 // 選択されたノード全てのスタイル
                 {
                     selector: "node.highlight",
-                    css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100,
+                    css: {'font-size': 120,  "width": 250, "height": 250, "font-size": 100, "text-halign":"center", "text-valign": "center",
                     "content": "data(name)", "opacity": 1, "z-index": 10}
                 },
                 // 選択(左クリック)されたノードのスタイル
