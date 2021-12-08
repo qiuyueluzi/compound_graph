@@ -767,7 +767,7 @@ function fontsize(ancestor, orphan){
     }
 
     cy.style().selector('node.highlight').style({
-        'font-size': 20 / cy.zoom()
+        'font-size': 15 / cy.zoom()
     })
     cy.style().selector(ancestor&&orphan).style({
         'font-size': 25 / cy.zoom()
