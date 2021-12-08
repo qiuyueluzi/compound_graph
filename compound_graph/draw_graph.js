@@ -331,7 +331,7 @@ $(function(){
         
         
         // ノードの上にカーソルが来たとき，ノード名を表示する
-        //$(window).on("mousemove", function(window_event){ 
+        /*$(window).on("mousemove", function(window_event){ 
             cy.nodes().on("mouseover", function(cy_event){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
@@ -361,7 +361,7 @@ $(function(){
                 document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
             })
-        //});
+        });*/
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
