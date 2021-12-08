@@ -331,8 +331,8 @@ $(function(){
         
         
         // ノードの上にカーソルが来たとき，ノード名を表示する
-        $(window).on("mousemove", function(window_event){ 
-            cy.on("mouseover", "node", function(cy_event){
+        cy.nodes().on("mouseover", function(cy_event){
+            $(window).on("mousemove", function(window_event){ 
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
                 if(childrenData.get(cy_event.target.data("id")).node.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
@@ -344,7 +344,7 @@ $(function(){
                     document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
-
+                    
                 }
                 else if(childrenData.get(cy_event.target.data("id")).node.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
@@ -356,12 +356,14 @@ $(function(){
                     document.getElementById("name-plate").innerHTML = children;
                 }
                 else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
-            });
-            cy.on("mouseout", "node", function(){
+            })
+        });
+        
+            cy.nodes().on("mouseout", function(){
                 document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
             })
-        });
+        
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
         cy.nodes().on("cxttap", function(event){
@@ -518,16 +520,6 @@ $(function(){
             })
             if(allopen == true) $("#open").css('background-color', 'gray')
         })
-        /*$("#all-close").click(function(){
-            nodes.forEach(function(node){
-                if(node.isOrphan()) recursivelyRemove(node.id(), node, childrenData)
-            })
-        })
-        $("#all-open").click(function(){
-            nodes.forEach(function(node){
-                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) restoreChildren(node.id(), node, childrenData, edgesData)
-            })
-        })*/
 
         // resetボタンでグラフを初期状態に戻す
         $(document).ready(function(){
@@ -541,10 +533,6 @@ $(function(){
         alert("ERROR: Failed to read JSON file.");
     });
 
-    /*$(".has-sub").hover(function(){
-        $(this).children(".sub").stop().slideToggle();
-      });*/
-    
 });
 
 
@@ -690,12 +678,10 @@ function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノード�
             }
             if(newSource!=newTarget){ //自己ループにならないならエッジを追加
                 cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
-                //console.log('create Edge ' + restoreEdgeID)
             }
         }
         else{
             cy.add(childrenData.get(id).edge[x]) //ノードに関連するエッジを復元、ただしソースかターゲットが存在しない場合があるのでエラーを捕捉する
-            //console.log(childrenData.get(id).edge[x].id() + ' : restore')
         }
     }
 }
