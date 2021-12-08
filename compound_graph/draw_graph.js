@@ -129,7 +129,7 @@ $(function(){
                 // 選択(左クリック)されたノードのスタイル
             {
                 selector: "node.selected",
-                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
+                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300, "text-halign":"center", "text-valign": "center",
                 "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
             }
         },
