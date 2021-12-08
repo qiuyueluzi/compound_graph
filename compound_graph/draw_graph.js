@@ -335,7 +335,7 @@ $(function(){
             cy.nodes().on("mouseover", function(cy_event){
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-                if(childrenData.get(cy_event.target.data("id")).node.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
+                /*if(childrenData.get(cy_event.target.data("id")).node.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
                     childrenData.get(cy_event.target.id()).node.forEach(function(child){
                         children += child.id() + "<br>";
@@ -355,12 +355,12 @@ $(function(){
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
                 }
-                else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
+                else*/ document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             });
-            /*cy.nodes().on("mouseout", function(){
+            cy.nodes().on("mouseout", function(){
                 document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
-            })*/
+            })
         });
 
         // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
