@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/azsgws/demo-emgraph#readme",
   "dependencies": {
+    "cytoscape-context-menus": "^4.1.0",
     "http-server": "^14.0.0"
   }
 }

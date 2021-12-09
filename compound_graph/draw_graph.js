@@ -25,35 +25,7 @@ $(function(){
                 zoom: 0.025,
 
             });
-            cy.contextMenus({
-                evtType: ['cxttap'],
-                menuItems: [
-                  {
-                    id: 'select',
-                    content: 'select',
-                    tooltipText: 'select',
-                    selector: 'node',
-                    onClickFunction: (event) => {
-                      this.clickElement(event.target.data('name'));
-                    },
-                    hasTrailingDivider: true,
-                  },
-                  {
-                    id: 'open',
-                    content: 'open',
-                    tooltipText: 'open',
-                    selector: 'node',
-                    hasTrailingDivider: true,
-                    onClickFunction: (event) => {
-                      window.open(
-                          context.article_base_uri +
-                            event.target.data('name').toLowerCase(),
-                          '_blank');
-                    },
-                  },
-                ],
-              }),
-              resolve(cy);
+
             
             const directory = new Set();
             for(let x=0; x<classification["mml_classification"].length; x++){
@@ -119,6 +91,48 @@ $(function(){
             })
             layout.run()
 
+            let contextMenus = cy.contextMenus({
+                evtType: ['cxttap'],
+                menuItems: [
+                  {
+                    id: 'select',
+                    content: 'select',
+                    tooltipText: 'select',
+                    selector: 'node',
+                    onClickFunction: (event) => {
+                      event.target.trigger("clickElement", event);
+                    },
+                    hasTrailingDivider: true,
+                  },
+                  {
+                    id: 'link',
+                    content: 'link',
+                    tooltipText: 'link',
+                    selector: 'node',
+                    hasTrailingDivider: true,
+                    onClickFunction: (event) => {
+                        try {  // your browser may block popups
+                            window.open(event.target.data("href"));
+                        } catch(e){  // fall back on url change
+                            window.location.href = event.data("href");
+                        }
+                    },
+                  },
+                ],
+              });
+
+            cy.on("clickElement", "node", function(event){
+                if(!cy.$(this).hasClass("selected") && !cy.$(this).hasClass("highlight") && cy.$(this).children().length == 0){// クリックしたノードの親と子、自身を色変更
+                    // 全ノードをクラスから除外
+                    reset_elements_style(cy);
+                    // クリックしたノードをselectedクラスに入れる
+                    let clicked_node = event.target;
+                    highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
+                    let clicked_node_name = clicked_node.data("name");
+                    $("#select_article").text("SELECT: " + clicked_node_name);
+                    $(".color_index").removeClass("hidden_show");
+                }
+            });
 
             // Set graph style
             cy.style([
@@ -402,29 +416,6 @@ $(function(){
         })
         
 
-        // ノードをクリックした場合、リンクに飛ぶ(htmlリンクの設定)
-        cy.nodes().on("cxttap", function(event){
-            if(!cy.$(this).hasClass("selected") && !cy.$(this).hasClass("highlight") && cy.$(this).children().length == 0){
-                // クリックしたノードの親と子、自身を色変更
-                // 全ノードをクラスから除外
-                reset_elements_style(cy);
-                // クリックしたノードをselectedクラスに入れる
-                let clicked_node = event.target;
-                highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
-                let clicked_node_name = clicked_node.data("name");
-                $("#select_article").text("SELECT: " + clicked_node_name);
-                $(".color_index").removeClass("hidden_show");
-            }
-            else if(childrenData.get(this.id()).children.length == 0 && (cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight"))){
-                try {  // your browser may block popups
-                    window.open(this.data("href"));
-                } catch(e){  // fall back on url change
-                    window.location.href = this.data("href");
-                }
-            }
-        });
-
-
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
@@ -435,21 +426,11 @@ $(function(){
                     e.target.trigger('doubleTap', e);
                 }
             }
-            /*else{// クリックしたノードの親と子、自身を色変更
-                // 全ノードをクラスから除外
-                reset_elements_style(cy);
-                // クリックしたノードをselectedクラスに入れる
-                let clicked_node = e.target;
-                highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
-                let clicked_node_name = clicked_node.data("name");
-                $("#select_article").text("SELECT: " + clicked_node_name);
-                $(".color_index").removeClass("hidden_show");
-            }*/
             previousTapStamp= currentTapStamp;
             
         });
         
-        cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
+        cy.nodes().on('dbltap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
             if(cy.$(this).hasClass("selected")){
