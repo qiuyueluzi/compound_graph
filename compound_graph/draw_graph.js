@@ -479,8 +479,12 @@ $(function(){
         cy.on('cxttap', 'node', function(e){
             if(childrenData.get(e.target.id()).children.length > 0){
                 contextMenu.showMenuItem('open/close')
+                contextMenu.hideMenuItem('link')
             }
-            else contextMenu.hideMenuItem('open/close')
+            else {
+                contextMenu.hideMenuItem('open/close')
+                contextMenu.showMenuItem('link')
+            }
         })
 
 
