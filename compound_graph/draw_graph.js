@@ -91,7 +91,7 @@ $(function(){
             })
             layout.run()
 
-            let contextMenus = cy.contextMenus({
+            let contextMenu = cy.contextMenus({
                 evtType: ['cxttap'],
                 menuItems: [
                   {
@@ -118,6 +118,16 @@ $(function(){
                         }
                     },
                   },
+                  {
+                      id: 'open/close',
+                      content: 'open/close',
+                      tooltipText: 'open/close',
+                      selector: 'node',
+                      hasTrailingDivider: true,
+                      onClickFunction: (event) => {
+                          event.target.trigger("doubleTap", event);
+                      }
+                  }
                 ],
               });
 
@@ -180,13 +190,13 @@ $(function(){
         // 選択された(強調表示する)祖先のスタイル
         {
             selector: "node.selected_ancestors0", 
-            css: {"background-color": "#ff0000", "color": "#ffffff",
-            "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
+            css: {"background-color": "#ffbb00", "color": "#ffffff",
+            "text-outline-color": "#ffbb00", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_ancestors1",
-                css: {"background-color": "#ff4400", "color": "#ffffff",
-                "text-outline-color": "#ff4400", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#ff9900", "color": "#ffffff",
+                "text-outline-color": "#ff9900", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_ancestors2",
@@ -195,24 +205,24 @@ $(function(){
             },
             {
                 selector: "node.selected_ancestors3",
-                css: {"background-color": "#ff9900",  "color": "#ffffff",
-                "text-outline-color": "#ff9900", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#ff4400",  "color": "#ffffff",
+                "text-outline-color": "#ff4400", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_ancestors4",
-                css: {"background-color": "#ffbb00",  "color": "#ffffff",
-                "text-outline-color": "#ffbb00", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#ff0000",  "color": "#ffffff",
+                "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             // 選択された(強調表示する)子孫のスタイル
             {
                 selector: "node.selected_descendants0",
-                css: {"background-color": "#0000ff", "color": "#ffffff",
-                "text-outline-color": "#0000ff", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#00ffff", "color": "#ffffff",
+                "text-outline-color": "#00ffff", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_descendants1",
-                css: {"background-color": "#0077ff", "color": "#ffffff",
-                "text-outline-color": "#0077ff", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#00ddff", "color": "#ffffff",
+                "text-outline-color": "#00ddff", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_descendants2",
@@ -221,13 +231,13 @@ $(function(){
             },
             {
                 selector: "node.selected_descendants3",
-                css: {"background-color": "#00ddff", "color": "#000000",
-                "text-outline-color": "#00ddff", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#0077ff", "color": "#000000",
+                "text-outline-color": "#0077ff", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.selected_descendants4",
-                css: {"background-color": "#00ffff", "color": "#000000",
-                "text-outline-color": "#00ffff", "text-outline-opacity": 1, "text-outline-width": 10}
+                css: {"background-color": "#0000ff", "color": "#000000",
+                "text-outline-color": "#0000ff", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: "node.interaction",
@@ -415,7 +425,6 @@ $(function(){
             })
         })
         
-
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
         cy.nodes().on('tap', function(e) {
@@ -430,7 +439,7 @@ $(function(){
             
         });
         
-        cy.nodes().on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
+        cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
             let nodes = this;
             let id = nodes.data('id')
             if(cy.$(this).hasClass("selected")){
@@ -465,10 +474,14 @@ $(function(){
                 if(allclose == true) $("#close").css('background-color', 'gray')
             }
             fontsize(ancestor, orphan);
-            
-            console.log('finish')
-            
         });
+
+        cy.on('cxttap', 'node', function(e){
+            if(childrenData.get(e.target.id()).children.length > 0){
+                contextMenu.showMenuItem('open/close')
+            }
+            else contextMenu.hideMenuItem('open/close')
+        })
 
 
         cy.on('zoom', function(e){
