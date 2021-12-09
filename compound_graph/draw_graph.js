@@ -25,6 +25,35 @@ $(function(){
                 zoom: 0.025,
 
             });
+            cy.contextMenus({
+                evtType: ['cxttap'],
+                menuItems: [
+                  {
+                    id: 'select',
+                    content: 'select',
+                    tooltipText: 'select',
+                    selector: 'node',
+                    onClickFunction: (event) => {
+                      this.clickElement(event.target.data('name'));
+                    },
+                    hasTrailingDivider: true,
+                  },
+                  {
+                    id: 'open',
+                    content: 'open',
+                    tooltipText: 'open',
+                    selector: 'node',
+                    hasTrailingDivider: true,
+                    onClickFunction: (event) => {
+                      window.open(
+                          context.article_base_uri +
+                            event.target.data('name').toLowerCase(),
+                          '_blank');
+                    },
+                  },
+                ],
+              }),
+              resolve(cy);
             
             const directory = new Set();
             for(let x=0; x<classification["mml_classification"].length; x++){
@@ -59,10 +88,10 @@ $(function(){
                 let curNode = cy.$(nodes[x]);
                 let id = curNode.data('id');
                 
-                let childrenNodes = curNode.children(); //当ノードの子ノード
-                let connectedEdges = curNode.connectedEdges(); //当ノードに接続するエッジ
-                let connectedChildEdges = curNode.descendants().connectedEdges(); //当ノードの子ノードに接続するエッジ
-                let parentNode = nodes[x].data('parent'); //当ノードの親ノード
+                let childrenNodes = curNode.children();
+                let connectedEdges = curNode.connectedEdges();
+                let connectedChildEdges = curNode.descendants().connectedEdges();
+                let parentNode = nodes[x].data('parent');
                 
                 if(childrenNodes.length > 0)curNode.style({
                     'shape': 'square',
@@ -72,8 +101,8 @@ $(function(){
                     'text-valign': 'top',
                 }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
                 
-                childrenData.set(id, {node :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
-                //childrenData.get(id).node.lengthが0であれば｢子を持たないノード｣として扱っているため現状空のディレクトリは想定していません
+                childrenData.set(id, {children :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
+                //childrenData.get(id).children.lengthが0であれば｢子を持たないノード｣として扱っているため現状空のディレクトリは想定していません
             }
             for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
                 let curEdge = cy.$(edges[x]);
@@ -83,6 +112,7 @@ $(function(){
                 
                 edgesData.set(id, {source: curSource, target: curTarget});
             }
+
             let layout = cy.elements().layout({
                 name: "klay",
                 spacingFactor: 10
@@ -239,7 +269,7 @@ $(function(){
         // 全ノード名の取得
         let all_article_names = [];
         cy.nodes("[!is_dummy]").forEach(function(node){
-            if(childrenData.get(node.id()).node.length == 0) all_article_names.push(node.data("name"));
+            if(childrenData.get(node.id()).children.length == 0) all_article_names.push(node.data("name"));
         });
         all_article_names.sort();
         // datalistに全ノード名を追加
@@ -340,18 +370,18 @@ $(function(){
             $(window).on("mousemove", function(window_event){ 
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-                if(childrenData.get(cy_event.target.data("id")).node.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
+                if(childrenData.get(cy_event.target.data("id")).children.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
-                    childrenData.get(cy_event.target.id()).node.forEach(function(child){
+                    childrenData.get(cy_event.target.id()).children.forEach(function(child){
                         children += child.id() + "<br>";
-                        if(childrenData.get(child.id()).node.length > 0) children += descendant(child, 0, childrenData)
+                        if(childrenData.get(child.id()).children.length > 0) children += descendant(child, 0, childrenData)
                     })
                     document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
                     
                 }
-                else if(childrenData.get(cy_event.target.data("id")).node.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
+                else if(childrenData.get(cy_event.target.data("id")).children.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
                     let children = ""
                     cy_event.target.children().forEach(function(child){
                         children += child.id() + "<br>";
@@ -385,7 +415,7 @@ $(function(){
                 $("#select_article").text("SELECT: " + clicked_node_name);
                 $(".color_index").removeClass("hidden_show");
             }
-            else if(childrenData.get(this.id()).node.length == 0 && (cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight"))){
+            else if(childrenData.get(this.id()).children.length == 0 && (cy.$(this).hasClass("selected") || cy.$(this).hasClass("highlight"))){
                 try {  // your browser may block popups
                     window.open(this.data("href"));
                 } catch(e){  // fall back on url change
@@ -400,7 +430,7 @@ $(function(){
         cy.nodes().on('tap', function(e) {
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
-            if(childrenData.get(e.target.id()).node.length > 0){//複合親ノードであればダブルクリックかを判定
+            if(childrenData.get(e.target.id()).children.length > 0){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
                     e.target.trigger('doubleTap', e);
                 }
@@ -504,7 +534,7 @@ $(function(){
         $("#open").click(function(){
             $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
-                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).node.length) {
+                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).children.length) {
                     restoreChildren(node.id(), node, childrenData, edgesData)
                     if(cy.$(node).hasClass("selected")){
                         reset_elements_style(cy);
@@ -647,7 +677,7 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 
 function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノードを復元する
     childrenData.get(id).removed = false;
-    childrenData.get(id).node.restore(); //子ノードを復元
+    childrenData.get(id).children.restore(); //子ノードを復元
   
     for(let x=0; x<childrenData.get(id).edge.length; x++){
         let restoreEdge = childrenData.get(id).edge[x]; //引数のnodesに関連する全てのエッジを一つずつ復元対象にしていく
@@ -696,7 +726,7 @@ function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノード�
             }
         }
         else{
-            cy.add(childrenData.get(id).edge[x]) //ノードに関連するエッジを復元、ただしソースかターゲットが存在しない場合があるのでエラーを捕捉する
+            cy.add(childrenData.get(id).edge[x])
         }
     }
 }
@@ -738,7 +768,6 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
 }
 
 function fontsize(ancestor, orphan){
-    console.log(cy.zoom())
     if((cy.zoom() <= 0.05)){
         cy.style().selector('node').style({
             'font-size': 0
@@ -779,12 +808,12 @@ function fontsize(ancestor, orphan){
 function descendant(child, level, childrenData){
     level++;
     let children = [];
-    childrenData.get(child.id()).node.forEach(function(node){
+    childrenData.get(child.id()).children.forEach(function(node){
         for(let i=0; i<level; i++){
             children += "　";
         }
         children += node.id() + "<br>";
-        if(childrenData.get(node.id()).node.length > 0)  children += descendant(node, level, childrenData)
+        if(childrenData.get(node.id()).children.length > 0)  children += descendant(node, level, childrenData)
     })
     return children;
 }
