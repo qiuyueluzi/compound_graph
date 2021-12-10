@@ -132,7 +132,8 @@ $(function(){
               });
 
             cy.on("clickElement", "node", function(event){
-                if(!cy.$(this).hasClass("selected") && !cy.$(this).hasClass("highlight") && cy.$(this).children().length == 0){// クリックしたノードの親と子、自身を色変更
+                if(!cy.$(this).hasClass("selected")){// クリックしたノードの親と子、自身を色変更
+                    if(!childrenData.get(this.id()).removed) recursivelyRemove(this.id(), this, childrenData)
                     // 全ノードをクラスから除外
                     reset_elements_style(cy);
                     // クリックしたノードをselectedクラスに入れる
