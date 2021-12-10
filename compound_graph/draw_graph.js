@@ -53,7 +53,6 @@ $(function(){
         
             
             const childrenData = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
-            const edgesData = new Map(); //初期状態の全エッジの情報を格納
             let nodes = cy.nodes();
             let edges = cy.edges();
             for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
@@ -63,27 +62,31 @@ $(function(){
                 let childrenNodes = curNode.children();
                 let connectedEdges = curNode.connectedEdges();
                 let connectedChildEdges = curNode.descendants().connectedEdges();
-                let parentNode = nodes[x].data('parent');
+                let parentNode = curNode.data('parent');
+
+                let ancestorNode = []
+                curNode.ancestors().forEach(function(ancestor){
+                    ancestorNode.push(ancestor.id())  
+                });
+                ancestorNode.sort();
+                ancestorNode.reverse(); //祖先を近い順に並べる
                 
-                if(childrenNodes.length > 0)curNode.style({
-                    'shape': 'square',
-                    "width": "200", "height": "200",
-                    'color': '#000000',
-                    "text-outline-color": '#FFFFFF',
-                    'text-valign': 'top',
-                }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
+                let isParent = false;
+                if(childrenNodes.length > 0){
+                    isParent = true;
+                    curNode.style({
+                        'shape': 'square',
+                        "width": "200", "height": "200",
+                        'color': '#000000',
+                        "text-outline-color": '#FFFFFF',
+                        'text-valign': 'top',
+                    }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
+                }
                 
-                childrenData.set(id, {children :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, removed: false});
-                //childrenData.get(id).children.lengthが0であれば｢子を持たないノード｣として扱っているため現状空のディレクトリは想定していません
+                childrenData.set(id, {children :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, ancestors: ancestorNode, isParent: isParent, removed: false});
+                //子の数が0であれば通常のノードとして扱っているため現状空のディレクトリは想定していません
             }
-            for(let x = 0; x < edges.length; x++){ //初期状態での全エッジのソースとターゲットを記録
-                let curEdge = cy.$(edges[x]);
-                let id = curEdge.data('id');
-                let curTarget = curEdge.target();
-                let curSource = curEdge.source();
-                
-                edgesData.set(id, {source: curSource, target: curTarget});
-            }
+            console.log(childrenData)
 
             let layout = cy.elements().layout({
                 name: "klay",
@@ -294,7 +297,7 @@ $(function(){
         // 全ノード名の取得
         let all_article_names = [];
         cy.nodes("[!is_dummy]").forEach(function(node){
-            if(childrenData.get(node.id()).children.length == 0) all_article_names.push(node.data("name"));
+            if(!childrenData.get(node.id()).isParent) all_article_names.push(node.data("name"));
         });
         all_article_names.sort();
         // datalistに全ノード名を追加
@@ -318,7 +321,7 @@ $(function(){
                             if(i > 0)ancestor += '/';
                             ancestor += parentDirectories[i];
                             if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                                restoreChildren(ancestor, cy.$(ancestor), childrenData)
                             }
                         }
                     }
@@ -351,7 +354,7 @@ $(function(){
                             if(i > 0)ancestor += '/';
                             ancestor += parentDirectories[i];
                             if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$(ancestor), childrenData, edgesData)
+                                restoreChildren(ancestor, cy.$(ancestor), childrenData)
                             }
                         }
                     }
@@ -395,25 +398,20 @@ $(function(){
             $(window).on("mousemove", function(window_event){ 
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-                if(childrenData.get(cy_event.target.data("id")).children.length > 0 && childrenData.get(cy_event.target.data("id")).removed){
+                if(childrenData.get(cy_event.target.data("id")).isParent){
                     let children = ""
-                    childrenData.get(cy_event.target.id()).children.forEach(function(child){
-                        children += child.id() + "<br>";
-                        if(childrenData.get(child.id()).children.length > 0) children += descendant(child, 0, childrenData)
-                    })
+                    if(childrenData.get(cy_event.target.data("id")).removed){
+                        childrenData.get(cy_event.target.id()).children.forEach(function(child){
+                            children += child.id() + "<br>";
+                            if(childrenData.get(child.id()).isParent) children += descendant(child, 0, childrenData)
+                        })
+                    }
+                    else cy_event.target.children().forEach(function(child){ children += child.id() + "<br>"; })
+                    
                     document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
                     
-                }
-                else if(childrenData.get(cy_event.target.data("id")).children.length > 0 && !childrenData.get(cy_event.target.data("id")).removed){
-                    let children = ""
-                    cy_event.target.children().forEach(function(child){
-                        children += child.id() + "<br>";
-                    })
-                    document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
-                    document.getElementById("name-plate").style.fontSize = "16px";
-                    document.getElementById("name-plate").innerHTML = children;
                 }
                 else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             })
@@ -431,7 +429,7 @@ $(function(){
         cy.nodes().on('tap', function(e) {
             let currentTapStamp= e.timeStamp;
             let msFromLastTap= currentTapStamp -previousTapStamp;
-            if(childrenData.get(e.target.id()).children.length > 0){//複合親ノードであればダブルクリックかを判定
+            if(childrenData.get(e.target.id()).isParent){//複合親ノードであればダブルクリックかを判定
                 if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
                     e.target.trigger('doubleTap', e);
                 }
@@ -449,7 +447,7 @@ $(function(){
             }
             
             if(childrenData.get(id).removed == true){
-                restoreChildren(id, nodes, childrenData, edgesData);
+                restoreChildren(id, nodes, childrenData);
                 if(cy.nodes(".selected").data()){
                     let selected_node = cy.nodes().filter(function(ele){
                         return ele.data("name") == cy.nodes(".selected").data("name");
@@ -478,7 +476,7 @@ $(function(){
         });
 
         cy.on('cxttap', 'node', function(e){
-            if(childrenData.get(e.target.id()).children.length > 0){
+            if(childrenData.get(e.target.id()).isParent){
                 contextMenu.showMenuItem('open/close')
                 contextMenu.hideMenuItem('link')
             }
@@ -533,8 +531,8 @@ $(function(){
         $("#open").click(function(){
             $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
-                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).children.length) {
-                    restoreChildren(node.id(), node, childrenData, edgesData)
+                if(childrenData.get(node.id()).removed && childrenData.get(node.id()).isParent) {
+                    restoreChildren(node.id(), node, childrenData)
                     if(cy.$(node).hasClass("selected")){
                         reset_elements_style(cy);
                         $(".color_index").addClass("hidden_show");
@@ -674,52 +672,40 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 
 
 
-function restoreChildren(id, nodes, childrenData, edgesData){ //複合ノードを復元する
+function restoreChildren(id, nodes, childrenData){ //複合ノードを復元する
     childrenData.get(id).removed = false;
     childrenData.get(id).children.restore(); //子ノードを復元
   
     for(let x=0; x<childrenData.get(id).edge.length; x++){
         let restoreEdge = childrenData.get(id).edge[x]; //引数のnodesに関連する全てのエッジを一つずつ復元対象にしていく
-        let restoreEdgeID = childrenData.get(id).edge[x].id(); //復元エッジのID
+        let restoreEdgeID = restoreEdge.id();
         
-        if(cy.$('#' + restoreEdgeID).target() != undefined && cy.$('#' + restoreEdgeID).source() != undefined){
-            if(edgesData.get(restoreEdgeID).target != cy.$('#' + restoreEdgeID).target().id() || edgesData.get(restoreEdgeID).source != cy.$('#' + restoreEdgeID).source().id()){
-                //idが重複するエッジを生成しようとした場合に、当該エッジが初期状態と異なる状態であれば実行される
-                
+        //復元するエッジと同idのエッジが既に描画されているが、ソースやターゲットが本来と異なる場合
+        if(cy.$('#' + restoreEdgeID).target() != undefined && cy.$('#' + restoreEdgeID).source() != undefined){ 
+            if(restoreEdge.data('target') != cy.$('#' + restoreEdgeID).target().id() || restoreEdge.data('source') != cy.$('#' + restoreEdgeID).source().id()){
                 cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
-                //console.log('remove Edge ' + restoreEdgeID)
                 x--; //ループ変数を減らしもう一度同じエッジの追加を行う
             }
         }
-        else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ //復元エッジの両端どちらかが表示されていない場合、lengthが0になる
-            //console.log('try restore:'+restoreEdgeID)
-            let newSource = edgesData.get(restoreEdgeID).source.id(); //復元エッジのソース、ターゲットを取得
-            let newTarget = edgesData.get(restoreEdgeID).target.id();
-            let sFlag = (childrenData.get(childrenData.get(newSource).parent) == undefined ? false : childrenData.get(childrenData.get(newSource).parent).removed); 
-            let tFlag = (childrenData.get(childrenData.get(newTarget).parent) == undefined ? false : childrenData.get(childrenData.get(newTarget).parent).removed); 
-            //ソース、ターゲットの親のremoveを取得
-            //removeがfalseであればnewソース、ターゲットは表示されている
-            //ただし、初期状態から最上部のサブグラフを指していたエッジなどは親を読み込めないので三項演算子で弾く
-            
-            while(sFlag || tFlag){
-                if(sFlag){ //親が閉じられているなら復元エッジのソースをその親に置き換え、更にその親のremoveを取得
-                    //親が表示されているノード(removeがfalseであるサブグラフ)が得られるまで登り続ける
-                    try{
-                        newSource = childrenData.get(newSource).parent;
-                        sFlag = childrenData.get(childrenData.get(newSource).parent).removed;
+        //復元するエッジの両端どちらかが表示されていない場合、lengthが0になる
+        else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ 
+            let newEnds = [];
+            for(let i = 0; i < 2; i++){
+                let origin = (i==0 ? restoreEdge.source().id() : restoreEdge.target().id()) //本来のソース・ターゲットを取得
+                let ancestor = childrenData.get(origin).ancestors
+                for(let y = 0; y < ancestor.length; y++){ //一番近い、表示されている親ディレクトリを新たなソース・ターゲットに変更
+                    if(!childrenData.get(ancestor[y]).removed){
+                        if(y == 0)newEnds[i] = origin
+                        else newEnds[i] = ancestor[y-1];
+                        break;
                     }
-                    catch(error){sFlag = false;} //親がそれ以上居ない場合.parentを読み込めないためフラグを書き換える
                 }
-                
-                if(tFlag){
-                    try{
-                        newTarget = childrenData.get(newTarget).parent;
-                        tFlag = childrenData.get(childrenData.get(newTarget).parent).removed;
-                    }
-                    catch(error){tFlag = false;}
-                }
+                if(ancestor.length == 0)newEnds[i] = origin;
+                if(!newEnds[i])newEnds[i] = ancestor[ancestor.length-1]
                 
             }
+            let newSource = newEnds[0], newTarget = newEnds[1];
+
             if(newSource!=newTarget){ //自己ループにならないならエッジを追加
                 cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
             }
@@ -742,59 +728,52 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
         if( nodes.empty() ){ break; }
     }
 
-    for( let i = toRemove.length - 1; i >= 0; i-- ){ //当該サブグラフに関連するエッジ全てを一度削除する
-        let remEdge = toRemove[i].connectedEdges();
-        for(let j = 0; j < remEdge.length; j++){
-            if(remEdge[j].target().parent() != remEdge[j].source().parent()){ //他のサブグラフを跨ぐエッジ(ソースとターゲットの親が別のエッジ)は置き換える
-            let replaceEdge = remEdge[j]; //removeを行うエッジ(remEdge[j])はremove後は参照できないので別の変数に記録する
-            remEdge[j].remove();
+    //当該サブグラフに関連するエッジ全てを一度削除する
+    for( let x = toRemove.length - 1; x >= 0; x-- ){ //処理の終わったノードやディレクトリを順次消去するため、最下層のノードから処理する
+        let remEdge = toRemove[x].connectedEdges();
+        for(let y = 0; y < remEdge.length; y++){
+            if(remEdge[y].target().parent() != remEdge[y].source().parent()){ //他のサブグラフを跨ぐエッジ(ソースとターゲットの親が別のエッジ)は置き換える
+            let replaceEdge = remEdge[y]; //removeを行うエッジ(remEdge[y])はremove後は参照できないので別の変数に記録する
+            remEdge[y].remove();
   
             let newSource; //ソース、ターゲットのうち削除される方は親に置き換える
             let newTarget;
-            if(replaceEdge.target() == toRemove[i]){
+            if(replaceEdge.target() == toRemove[x]){
                 newSource = replaceEdge.source().id();
                 newTarget = replaceEdge.target().parent().id();
             }
-            else if(replaceEdge.source() == toRemove[i]){
+            else if(replaceEdge.source() == toRemove[x]){
                 newSource = replaceEdge.source().parent().id();
                 newTarget = replaceEdge.target().id();
             }
             if(newSource != newTarget)cy.add({group: 'edges', data:{id: replaceEdge.id(), source: newSource, target: newTarget}})
-            } //親しか参照してないけど何故か孫以下のエッジも丸ごと削除しても、ちゃんと表示されてる一番上の親に置き換わる
-        }  //最下層から順に消してて、都度1段ずつ上に置き換えられてるのかしら　よくわかんないです
-        toRemove[i].remove();
+            }
+        }
+        toRemove[x].remove();
     }
 }
 
 function fontsize(ancestor, orphan){
+    let n, a;
     if((cy.zoom() <= 0.05)){
-        cy.style().selector('node').style({
-            'font-size': 0
-        })
-        cy.style().selector(ancestor).style({
-            'font-size': 12 / cy.zoom()
-        })
-        .update()
+        n = 0;
+        a = 12 / cy.zoom();
     }
     else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
-        cy.style().selector('node').style({
-            'font-size': 10 / cy.zoom()
-        })
-        cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
-        })
-        .update()
+        n = 10 / cy.zoom();
+        a = 20 / cy.zoom();
     }
     else if(cy.zoom() > 0.07){
-        cy.style().selector('node').style({
-            'font-size': 12 / cy.zoom()
-        })
-        cy.style().selector(ancestor).style({
-            'font-size': 20 / cy.zoom()
-        })
-        .update()
+        n = 12 / cy.zoom();
+        a = 20 / cy.zoom();
     }
 
+    cy.style().selector('node').style({
+        'font-size': n
+    })
+    cy.style().selector(ancestor).style({
+        'font-size': a
+    })
     cy.style().selector('node.highlight').style({
         'font-size': 15 / cy.zoom()
     })
@@ -812,7 +791,7 @@ function descendant(child, level, childrenData){
             children += "　";
         }
         children += node.id() + "<br>";
-        if(childrenData.get(node.id()).children.length > 0)  children += descendant(node, level, childrenData)
+        if(childrenData.get(node.id()).isParent)  children += descendant(node, level, childrenData)
     })
     return children;
 }
