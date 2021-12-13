@@ -80,7 +80,7 @@ $(function(){
                         'color': '#000000',
                         "text-outline-color": '#FFFFFF',
                         'text-valign': 'top',
-                    }); //子ノードを持つノード(サブグラフ)は形を変更(閉じた際に反映されている)
+                    }); //ディレクトリは形を変更(閉じた際に反映されている)
                 }
                 
                 childrenData.set(id, {children :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, ancestors: ancestorNode, isParent: isParent, removed: false});
@@ -462,9 +462,9 @@ $(function(){
                 })
                 if(allopen == true) $("#open").css('background-color', 'gray')
             } else{
-                recursivelyRemove(id, nodes, childrenData);
                 reset_elements_style(cy);
                 $(".color_index").addClass("hidden_show");
+                recursivelyRemove(id, nodes, childrenData);
                 $("#open").css('background-color', '')
                 let allclose = true
                 directory.forEach(function(dir){
