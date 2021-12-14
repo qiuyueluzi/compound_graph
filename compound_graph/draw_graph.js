@@ -86,7 +86,6 @@ $(function(){
                 childrenData.set(id, {children :childrenNodes, edge: connectedEdges.union(connectedChildEdges), parent: parentNode, ancestors: ancestorNode, isParent: isParent, removed: false});
                 //子の数が0であれば通常のノードとして扱っているため現状空のディレクトリは想定していません
             }
-            console.log(childrenData)
 
             let layout = cy.elements().layout({
                 name: "klay",
@@ -681,7 +680,7 @@ function restoreChildren(id, nodes, childrenData){ //複合ノードを復元す
         let restoreEdgeID = restoreEdge.id();
         
         //復元するエッジと同idのエッジが既に描画されているが、ソースやターゲットが本来と異なる場合
-        if(cy.$('#' + restoreEdgeID).target() != undefined && cy.$('#' + restoreEdgeID).source() != undefined){ 
+        if(cy.$('#' + restoreEdgeID).length){
             if(restoreEdge.data('target') != cy.$('#' + restoreEdgeID).target().id() || restoreEdge.data('source') != cy.$('#' + restoreEdgeID).source().id()){
                 cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
                 x--; //ループ変数を減らしもう一度同じエッジの追加を行う
