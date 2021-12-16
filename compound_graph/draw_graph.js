@@ -313,16 +313,9 @@ $(function(){
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
                 if(childrenData.get(select_node.data("name")).removed){
-                    if(childrenData.get(childrenData.get(select_node.data("name")).parent).removed){
-                        let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
-                        let ancestor = []
-                        for(let i = 0; i < parentDirectories.length; i++){
-                            if(i > 0)ancestor += '/';
-                            ancestor += parentDirectories[i];
-                            if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$(ancestor), childrenData)
-                            }
-                        }
+                    let ancestors = childrenData.get(select_node.data("name")).ancestors
+                    for(let i = ancestors.length -1; i > -1; i--){
+                        if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
                     }
                 }
 
@@ -346,16 +339,9 @@ $(function(){
             // ノードが存在するか確認し、処理
             if(select_node.data("name")){
                 if(childrenData.get(select_node.data("name")).removed){
-                    if(childrenData.get(childrenData.get(select_node.data("name")).parent).removed){
-                        let parentDirectories = childrenData.get(select_node.data("name")).parent.split('/')
-                        let ancestor = []
-                        for(let i = 0; i < parentDirectories.length; i++){
-                            if(i > 0)ancestor += '/';
-                            ancestor += parentDirectories[i];
-                            if(childrenData.get(ancestor).removed){
-                                restoreChildren(ancestor, cy.$(ancestor), childrenData)
-                            }
-                        }
+                    let ancestors = childrenData.get(select_node.data("name")).ancestors
+                    for(let i = ancestors.length -1; i > -1; i--){
+                        if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
                     }
                 }
 
