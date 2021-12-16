@@ -285,7 +285,7 @@ $(function(){
             'font-size': 350
         })
         .update()
-        fontsize(ancestor, orphan);
+        //fontsize(ancestor, orphan);
         $("#open").css('background-color', 'gray')
         
         // 強調表示する祖先、子孫の世代数の初期化
@@ -486,9 +486,9 @@ $(function(){
         })
 
 
-        cy.on('zoom', function(e){
+        /*cy.on('zoom', function(e){
             fontsize(ancestor, orphan);
-        })
+        })*/
         
         
         // re-highlightボタンで再度ハイライトする
@@ -753,23 +753,17 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
 }
 
 function fontsize(ancestor, orphan){
-    let n, a;
+    let a;
     if((cy.zoom() <= 0.05)){
-        n = 0;
         a = 12 / cy.zoom();
     }
     else if((cy.zoom() > 0.05) && (cy.zoom() <= 0.07)){
-        n = 10 / cy.zoom();
         a = 20 / cy.zoom();
     }
     else if(cy.zoom() > 0.07){
-        n = 12 / cy.zoom();
         a = 20 / cy.zoom();
     }
 
-    cy.style().selector('node').style({
-        'font-size': n
-    })
     cy.style().selector(ancestor).style({
         'font-size': a
     })
