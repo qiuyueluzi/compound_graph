@@ -317,6 +317,12 @@ $(function(){
                     for(let i = ancestors.length -1; i > -1; i--){
                         if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
                     }
+                    $("#close").css('background-color', '')
+                    let allopen = true
+                    directory.forEach(function(dir){
+                        if(childrenData.get(dir).removed) allopen = false;
+                    })
+                    if(allopen == true) $("#open").css('background-color', 'gray')
                 }
 
                 reset_elements_style(cy);
@@ -343,6 +349,12 @@ $(function(){
                     for(let i = ancestors.length -1; i > -1; i--){
                         if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
                     }
+                    $("#close").css('background-color', '')
+                    let allopen = true
+                    directory.forEach(function(dir){
+                        if(childrenData.get(dir).removed) allopen = false;
+                    })
+                    if(allopen == true) $("#open").css('background-color', 'gray')
                 }
 
                 reset_elements_style(cy);
