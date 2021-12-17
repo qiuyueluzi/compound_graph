@@ -457,7 +457,6 @@ $(function(){
                 })
                 if(allclose == true) $("#close").css('background-color', 'gray')
             }
-            fontsize(ancestor, orphan);
         });
 
         cy.on('cxttap', 'node', function(e){
