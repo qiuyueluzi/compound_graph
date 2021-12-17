@@ -419,12 +419,11 @@ $(function(){
                     e.target.trigger('doubleTap', e);
                 }
             }
-            else if(!cy.$(this).hasClass("selected")){// クリックしたノードの親と子、自身を色変更
-                if(!childrenData.get(this.id()).removed) recursivelyRemove(this.id(), this, childrenData)
+            else if(!cy.$(e.target.id()).hasClass("selected")){// クリックしたノードの親と子、自身を色変更
                 // 全ノードをクラスから除外
                 reset_elements_style(cy);
                 // クリックしたノードをselectedクラスに入れる
-                let clicked_node = event.target;
+                let clicked_node = e.target;
                 highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
                 let clicked_node_name = clicked_node.data("name");
                 $("#select_article").text("SELECT: " + clicked_node_name);
