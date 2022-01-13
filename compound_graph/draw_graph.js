@@ -391,12 +391,12 @@ $(function(){
         
         
         // ノードの上にカーソルが来たとき，ノード名を表示する
-        /*cy.nodes().on("mouseover", function(cy_event){
+        cy.nodes().on("mouseover", function(cy_event){
             $(window).on("mousemove", function(window_event){ 
                 document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
                 document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
                 if(childrenData.get(cy_event.target.data("id")).isParent){
-                    let children = ""
+                    /*let children = ""
                     if(childrenData.get(cy_event.target.data("id")).removed){
                         childrenData.get(cy_event.target.id()).children.forEach(function(child){
                             children += child.id() + "<br>";
@@ -408,7 +408,7 @@ $(function(){
                     document.getElementById("name-plate").style.top = window_event.clientY - (children.match(/br/g) || []).length * 10 + "px";
                     document.getElementById("name-plate").style.fontSize = "16px";
                     document.getElementById("name-plate").innerHTML = children;
-                    
+                    */
                 }
                 else document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
             })
@@ -419,7 +419,7 @@ $(function(){
                 document.getElementById("name-plate").style.fontSize = ""
                 document.getElementById("name-plate").innerHTML = "";
             })
-        })*/
+        })
         
         let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
         let previousTapStamp = 0;
