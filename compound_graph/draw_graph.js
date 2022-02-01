@@ -510,7 +510,6 @@ $(function(){
         });
 
         $("#close").click(function(){
-            const startTime = performance.now();
             reset_elements_style(cy);
             $(".color_index").addClass("hidden_show");
             $("#open").css('background-color', '')
@@ -533,12 +532,9 @@ $(function(){
                 if(!childrenData.get(dir).removed) allclose = false;
             })
             if(allclose == true) $("#close").css('background-color', 'gray')
-            const endTime = performance.now();
-            console.log(endTime - startTime);
         })
 
         $("#open").click(function(){
-            const startTime = performance.now();
             $("#close").css('background-color', '')
             cy.nodes().forEach(function(node){
                 if(childrenData.get(node.id()).removed && childrenData.get(node.id()).isParent) {
@@ -563,8 +559,6 @@ $(function(){
                 if(childrenData.get(dir).removed) allopen = false;
             })
             if(allopen == true) $("#open").css('background-color', 'gray')
-            const endTime = performance.now();
-            console.log(endTime - startTime);
         })
 
         // resetボタンでグラフを初期状態に戻す
