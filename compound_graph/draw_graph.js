@@ -690,11 +690,10 @@ function restoreChildren(id, nodes, childrenData){ //複合ノードを復元す
         if(cy.$('#' + restoreEdgeID).length){
             if(restoreEdge.data('target') != cy.$('#' + restoreEdgeID).target().id() || restoreEdge.data('source') != cy.$('#' + restoreEdgeID).source().id()){
                 cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
-                x--; //ループ変数を減らしもう一度同じエッジの追加を行う
             }
         }
         //復元するエッジの両端どちらかが表示されていない場合、lengthが0になる
-        else if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ 
+        if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ 
             let newEnds = [];
             for(let i = 0; i < 2; i++){
                 let origin = (i==0 ? restoreEdge.source().id() : restoreEdge.target().id()) //本来のソース・ターゲットを取得
