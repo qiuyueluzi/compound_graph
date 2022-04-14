@@ -295,13 +295,24 @@ $(function(){
         /* 検索機能の追加 */
         // 全ノード名の取得
         let all_article_names = [];
+        let all_parent_nodes = [];
+        nodes.orphans().forEach(function(parent){
+            all_parent_nodes.push(parent.data("name"));
+            parent.children().forEach(function(child){
+                all_parent_nodes.push(child.data("name"));
+            })
+        })
         cy.nodes("[!is_dummy]").forEach(function(node){
             if(!childrenData.get(node.id()).isParent) all_article_names.push(node.data("name"));
+            //else all_parent_nodes.push(node.data("name"));
         });
         all_article_names.sort();
         // datalistに全ノード名を追加
         for (let article_name of all_article_names){
             $("#article_list").append($("<option/>").val(article_name).html(article_name));
+        }
+        for (let parent_name of all_parent_nodes){
+            $("#parent_list").append($("<option/>").val(parent_name).html(parent_name));
         }
         // searchボタンをクリックしたら検索開始
         $("#search").click(function() {
