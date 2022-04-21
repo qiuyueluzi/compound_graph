@@ -1,19 +1,18 @@
 #graph{
     position: absolute;
-    left: 150px;
+    left: 220px;
     top: 100px;
     bottom: 0;
     right: 0;
 }
 
 #side{
-    direction: rtl;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 100px;
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: 220px;
     height: 800px;
     overflow: auto;
 }

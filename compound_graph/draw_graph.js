@@ -298,9 +298,15 @@ $(function(){
         let all_parent_nodes = [];
         nodes.orphans().forEach(function(parent){
             all_parent_nodes.push(parent.data("name"));
-            parent.children().forEach(function(child){
-                all_parent_nodes.push(child.data("name"));
-            })
+            function childrenPush(parent, level){
+                parent.children().forEach(function(child){
+                    if(child.isParent())all_parent_nodes.push("-"+child.data("name"));
+                    if(child.children())childrenPush(child, level++);
+                })
+            }
+            childrenPush(parent, 1)
+
+            all_parent_nodes.push("")
         })
         cy.nodes("[!is_dummy]").forEach(function(node){
             if(!childrenData.get(node.id()).isParent) all_article_names.push(node.data("name"));
