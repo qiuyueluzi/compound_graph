@@ -297,7 +297,7 @@ $(function(){
         let all_article_names = [];
         let all_parent_nodes = [];
         nodes.orphans().forEach(function(parent){
-            all_parent_nodes.push(parent.data("name"));
+            if(parent.isParent())all_parent_nodes.push(parent.data("name"));
             function childrenPush(parent, level){
                 parent.children().forEach(function(child){
                     if(child.isParent())all_parent_nodes.push("-"+child.data("name"));
