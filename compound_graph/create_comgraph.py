@@ -13,7 +13,7 @@ def searchVal(name):
             return index
 
 def nums(first_number, last_number, step=1):
-    return range(first_number, last_number+1, step)
+    return range(first_number, last_number, step)
 
 pNum = 0
 graph_objects.update({'parents':[]})
