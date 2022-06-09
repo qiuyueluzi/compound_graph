@@ -1,6 +1,5 @@
 import json
 import copy
-import numbers
 
 graph_json = open('graph_attrs/compound_dot_graph.json', 'r')
 class_json = open('graph_attrs/mml_classification.json', 'r')
@@ -15,7 +14,6 @@ def searchVal(name):
 def nums(first_number, last_number, step=1):
     return range(first_number, last_number, step)
 
-pNum = 0
 graph_objects.update({'parents':[]})
 nodeData = {"group": "nodes",
             "data": {
@@ -23,7 +21,6 @@ nodeData = {"group": "nodes",
                 "name": None,
                 "parent": None
             },}
-
 
 parents = []
 
@@ -40,9 +37,6 @@ for index in range(334):
             if not parentName in parents:
                 parents.append(parentName)
 
-
-
-
 parentIds = list(set(parents))
 for index in range(len(parentIds)):
     graph_objects['parents'].append(copy.deepcopy(nodeData))
@@ -53,10 +47,6 @@ for index in range(len(parentIds)):
     graph_objects['parents'][index]['data']['name'] = displayName
     graph_objects['parents'][index]['data']['parent'] = parentId[0:parentNameIndex]
 
-
-
-
-        
 
 with open('graph_attrs/graph_class.json', 'w') as f :
     json.dump(graph_objects, f, indent=4)
