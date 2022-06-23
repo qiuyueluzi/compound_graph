@@ -33,7 +33,7 @@ $(function(){
         const childrenData = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
         let nodes = cy.nodes();
         let edges = cy.edges();
-        for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、子ノードと関連するエッジの情報を記録
+        for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、関連するエッジの情報を記録
             let currentNode = cy.$(nodes[x]);
             let id = currentNode.data('id');
             
@@ -71,13 +71,13 @@ $(function(){
             });
         }
 
-        let layout = cy.elements().layout({
+        let layout = cy.elements().layout({ //klayレイアウトを適用
             name: "klay",
             spacingFactor: 10
         })
         layout.run()
 
-        let contextMenu = cy.contextMenus({
+        let contextMenu = cy.contextMenus({ //右クリック時のコンテキストメニュー
             evtType: ['cxttap'],
             menuItems: [
               {
@@ -283,6 +283,7 @@ $(function(){
         //else all_parent_nodes.push(node.data("name"));
     });
     all_article_names.sort();
+
     // datalistに全ノード名を追加
     for (let article_name of all_article_names){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
@@ -290,6 +291,7 @@ $(function(){
     for (let parent_name of all_parent_nodes){
         $("#parent_list").append($("<option/>").val(parent_name).html(parent_name));
     }
+
     // searchボタンをクリックしたら検索開始
     $("#search").click(function() {
         // dropdownで選択したノード名、または記述したノード名を取得
@@ -405,6 +407,7 @@ $(function(){
         })
     })
     
+    /*ノードのタップ時の挙動*/
     let doubleClickDelayMs= 350; //ダブルクリックと認識するクリック間隔
     let previousTapStamp = 0;
     cy.nodes().on('tap', function(e) {
@@ -429,6 +432,7 @@ $(function(){
         
     });
     
+    //ダブルタップ
     cy.on('doubleTap', 'node', function(){ //フラグに応じて削除・復元
         let nodes = this;
         let id = nodes.data('id')
@@ -465,6 +469,7 @@ $(function(){
         }
     });
 
+    //右クリック時の挙動
     cy.on('cxttap', 'node', function(e){
         if(childrenData.get(e.target.id()).isParent){
             contextMenu.showMenuItem('open/close')
@@ -488,6 +493,7 @@ $(function(){
         }
     });
 
+    //closeボタン押下時
     $("#close").click(function(){
         reset_elements_style(cy);
         $(".color_index").addClass("hidden_show");
@@ -513,6 +519,7 @@ $(function(){
         if(allclose == true) $("#close").css('background-color', 'gray')
     })
 
+    //openボタン押下時
     $("#open").click(function(){
         $("#close").css('background-color', '')
         cy.nodes().forEach(function(node){
@@ -653,83 +660,32 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
     cy.$(other).addClass("faded");
 }
 
-
-/**
- * 非表示となっている子ノード群を表示させる．
- * 内部的にはノードは削除されていたため，childrenDataから子を取得し，再配置する．
- * @param {string} id クリックされたノードのid
- * @param {cytoscape object} nodes クリックされたノードそのもの
- * @param {Map} childrenData 全ノードのデータ
-**/
-function restoreChildren(id, nodes, childrenData){ //複合ノードを復元する
-    childrenData.get(id).removed = false;
-    childrenData.get(id).children.restore(); //子ノードを復元
-  
-    for(let x=0; x<childrenData.get(id).edge.length; x++){
-        let restoreEdge = childrenData.get(id).edge[x]; //引数のnodesに関連する全てのエッジを一つずつ復元対象にしていく
-        let restoreEdgeID = restoreEdge.id();
-        
-        //復元するエッジと同idのエッジが既に描画されているが、ソースやターゲットが本来と異なる場合
-        if(cy.$('#' + restoreEdgeID).length){
-            if(restoreEdge.data('target') != cy.$('#' + restoreEdgeID).target().id() || restoreEdge.data('source') != cy.$('#' + restoreEdgeID).source().id()){
-                cy.remove('#' + restoreEdgeID); //重複している現存エッジを消去する
-            }
-        }
-        //復元するエッジの両端どちらかが表示されていない場合、lengthが0になる
-        if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ 
-            let newEnds = [];
-            for(let i = 0; i < 2; i++){
-                let origin = (i==0 ? restoreEdge.source().id() : restoreEdge.target().id()) //本来のソース・ターゲットを取得
-                let ancestor = childrenData.get(origin).ancestors
-                for(let y = 0; y < ancestor.length; y++){ //一番近い、表示されている親ディレクトリを新たなソース・ターゲットに変更
-                    if(!childrenData.get(ancestor[y]).removed){
-                        if(y == 0)newEnds[i] = origin
-                        else newEnds[i] = ancestor[y-1];
-                        break;
-                    }
-                }
-                if(ancestor.length == 0)newEnds[i] = origin;
-                if(!newEnds[i])newEnds[i] = ancestor[ancestor.length-1]
-                
-            }
-            let newSource = newEnds[0], newTarget = newEnds[1];
-
-            if(newSource!=newTarget){ //自己ループにならないならエッジを追加
-                cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
-            }
-        }
-        else{
-            cy.add(childrenData.get(id).edge[x])
-        }
-    }
-}
-  
 /**
  * 子ノード群を非表示(処理上は削除)にする．
  * @param {string} id クリックされたノードのid
  * @param {cytoscape object} nodes クリックされたノードそのもの
  * @param {Map} childrenData 全ノードのデータ
 **/
-function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じる
+function recursivelyRemove(id,nodes, childrenData){
     let toRemove = [];
-    for(;;){
-        nodes.forEach(function(node){ //選択されたノードと子のremoveフラグを全てtrueにする
+    for(;;){ //選択されたノードと子をリストに入れ、削除フラグを付ける
+        nodes.forEach(function(node){
             childrenData.get(node.data('id')).removed = true;
         });
-        Array.prototype.push.apply(toRemove, nodes.children()); //削除する全ての子ノードをプッシュ
+        Array.prototype.push.apply(toRemove, nodes.children());
         nodes = nodes.children();
         if( nodes.empty() ){ break; }
     }
 
     //当該サブグラフに関連するエッジ全てを一度削除する
-    for( let x = toRemove.length - 1; x >= 0; x-- ){ //処理の終わったノードやディレクトリを順次消去するため、最下層のノードから処理する
+    for( let x = toRemove.length - 1; x >= 0; x-- ){ //最下層のノードから処理し、順次削除
         let removeEdges = toRemove[x].connectedEdges();
-        for(let y = 0; y < removeEdges.length; y++){
-            if(removeEdges[y].target().parent() != removeEdges[y].source().parent()){ //他のサブグラフを跨ぐエッジ(ソースとターゲットの親が別のエッジ)は置き換える
-            let replaceEdge = removeEdges[y]; //removeを行うエッジ(removeEdges[y])はremove後は参照できないので別の変数に記録する
+        for(let y = 0; y < removeEdges.length; y++){ //エッジの削除・置き換え
+            if(removeEdges[y].target().parent() != removeEdges[y].source().parent()){
+            let replaceEdge = removeEdges[y];
             removeEdges[y].remove();
   
-            let newSource; //自己ループにならないエッジは再配置する
+            let newSource;
             let newTarget;
             if(replaceEdge.target() == toRemove[x]){
                 newSource = replaceEdge.source().id();
@@ -745,3 +701,55 @@ function recursivelyRemove(id,nodes, childrenData){ //複合ノードを閉じ�
         toRemove[x].remove();
     }
 }
+
+
+/**
+ * 非表示となっている子ノード群を表示させる．
+ * 内部的にはノードは削除されていたため，childrenDataから子を取得し，再配置する．
+ * @param {string} id クリックされたノードのid
+ * @param {cytoscape object} nodes クリックされたノードそのもの
+ * @param {Map} childrenData 全ノードのデータ
+**/
+function restoreChildren(id, nodes, childrenData){
+    childrenData.get(id).removed = false;
+    childrenData.get(id).children.restore(); //ノードを復元
+  
+    for(let x=0; x<childrenData.get(id).edge.length; x++){ //エッジを順次復元
+        let restoreEdge = childrenData.get(id).edge[x];
+        let restoreEdgeID = restoreEdge.id();
+        
+        //エッジを置き換える場合
+        if(cy.$('#' + restoreEdgeID).length){
+            if(restoreEdge.data('target') != cy.$('#' + restoreEdgeID).target().id() || restoreEdge.data('source') != cy.$('#' + restoreEdgeID).source().id()){
+                cy.remove('#' + restoreEdgeID);
+            }
+        }
+        
+        if(cy.$(restoreEdge.source()).length * cy.$(restoreEdge.target()).length == 0 ){ //エッジの完全な復元ができない場合
+            let newEnds = [];
+            for(let i = 0; i < 2; i++){
+                let origin = (i==0 ? restoreEdge.source().id() : restoreEdge.target().id()) //本来のソース・ターゲットを取得
+                let ancestor = childrenData.get(origin).ancestors
+                for(let y = 0; y < ancestor.length; y++){
+                    if(!childrenData.get(ancestor[y]).removed){
+                        if(y == 0)newEnds[i] = origin
+                        else newEnds[i] = ancestor[y-1];
+                        break;
+                    }
+                }
+                if(ancestor.length == 0)newEnds[i] = origin;
+                if(!newEnds[i])newEnds[i] = ancestor[ancestor.length-1]
+                
+            }
+            let newSource = newEnds[0], newTarget = newEnds[1];
+
+            if(newSource!=newTarget){ //自己ループでなければエッジを追加
+                cy.add({group: 'edges', data:{id: restoreEdgeID, source: newSource, target: newTarget}})
+            }
+        }
+        else{
+            cy.add(childrenData.get(id).edge[x])
+        }
+    }
+}
+  

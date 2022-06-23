@@ -8109,24 +8109,64 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/analysis/limit",
-                "name": "limit",
+                "id": "/sequence/sum",
+                "name": "sum",
+                "parent": "/sequence"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/economics",
+                "name": "economics",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/logic/first_order",
+                "name": "first_order",
+                "parent": "/logic"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/partition",
+                "name": "partition",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/ordered",
+                "name": "ordered",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/geometry/topology",
+                "name": "topology",
+                "parent": "/geometry"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/sequence",
+                "name": "sequence",
                 "parent": "/analysis"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/analysis/integral/riemann",
-                "name": "riemann",
-                "parent": "/analysis/integral"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/combinatorics",
-                "name": "combinatorics",
+                "id": "/logic",
+                "name": "logic",
                 "parent": ""
             }
         },
@@ -8141,158 +8181,6 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/sequence/fibonacci",
-                "name": "fibonacci",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/geometry",
-                "name": "geometry",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set",
-                "name": "set",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/probability/basic",
-                "name": "basic",
-                "parent": "/probability"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/set",
-                "name": "set",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/graph/basic",
-                "name": "basic",
-                "parent": "/graph"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence",
-                "name": "sequence",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/combinatorics/stirling",
-                "name": "stirling",
-                "parent": "/combinatorics"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/equation",
-                "name": "equation",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/computer/distributed",
-                "name": "distributed",
-                "parent": "/computer"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/trigonometric",
-                "name": "trigonometric",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/fuzzy",
-                "name": "fuzzy",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/class",
-                "name": "class",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/function",
-                "name": "function",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/probability",
-                "name": "probability",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/logic/modal",
-                "name": "modal",
-                "parent": "/logic"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/semilattice",
-                "name": "semilattice",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/graph",
-                "name": "graph",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/choice",
-                "name": "choice",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
                 "id": "/cryptography",
                 "name": "cryptography",
                 "parent": ""
@@ -8301,248 +8189,16 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/graph/tree",
-                "name": "tree",
-                "parent": "/graph"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/computer",
-                "name": "computer",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/binary",
-                "name": "binary",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/finite",
-                "name": "finite",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/probability/limit",
-                "name": "limit",
-                "parent": "/probability"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/computer/program/integer",
-                "name": "integer",
-                "parent": "/computer/program"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/taylor",
-                "name": "taylor",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/integral/lebesgue",
-                "name": "lebesgue",
-                "parent": "/analysis/integral"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/numerical",
-                "name": "numerical",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/cryptography/des",
-                "name": "des",
-                "parent": "/cryptography"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/infinite",
-                "name": "infinite",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/economics/vote",
-                "name": "vote",
-                "parent": "/economics"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/basic",
-                "name": "basic",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/basic",
-                "name": "basic",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis",
-                "name": "analysis",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/numerical/analysis/fdiff",
-                "name": "fdiff",
-                "parent": "/numerical/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/polynomial",
-                "name": "polynomial",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/numerical/analysis",
-                "name": "analysis",
-                "parent": "/numerical"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/operator",
-                "name": "operator",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/ordered",
-                "name": "ordered",
+                "id": "/set/function",
+                "name": "function",
                 "parent": "/set"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/combinatorics/binomial",
-                "name": "binomial",
-                "parent": "/combinatorics"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/logic/first_order",
-                "name": "first_order",
-                "parent": "/logic"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/continued_fraction",
-                "name": "continued_fraction",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/finite/scheme",
-                "name": "scheme",
-                "parent": "/sequence/finite"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/sequence",
-                "name": "sequence",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/geometry/incidence",
-                "name": "incidence",
-                "parent": "/geometry"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/basic",
-                "name": "basic",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/exponent",
-                "name": "exponent",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/convergence",
-                "name": "convergence",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/quaternion",
-                "name": "quaternion",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/topology",
-                "name": "topology",
+                "id": "/set/relation",
+                "name": "relation",
                 "parent": "/set"
             }
         },
@@ -8565,105 +8221,41 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/number/integer",
-                "name": "integer",
+                "id": "/graph/tree",
+                "name": "tree",
+                "parent": "/graph"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra",
+                "name": "algebra",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/function",
+                "name": "function",
                 "parent": "/number"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/set/function",
-                "name": "function",
-                "parent": "/set"
+                "id": "/logic/rewrite",
+                "name": "rewrite",
+                "parent": "/logic"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/category",
-                "name": "category",
+                "id": "/set",
+                "name": "set",
                 "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/differential/calculus",
-                "name": "calculus",
-                "parent": "/analysis/differential"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/logic",
-                "name": "logic",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/function",
-                "name": "function",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/economics",
-                "name": "economics",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/orders_of_infinity",
-                "name": "orders_of_infinity",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/computer/circuit",
-                "name": "circuit",
-                "parent": "/computer"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/geometry/topology",
-                "name": "topology",
-                "parent": "/geometry"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/sequence/sum",
-                "name": "sum",
-                "parent": "/sequence"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/basic/scheme",
-                "name": "scheme",
-                "parent": "/set/basic"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/relation",
-                "name": "relation",
-                "parent": "/set"
             }
         },
         {
@@ -8685,65 +8277,41 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/number/extreal",
-                "name": "extreal",
-                "parent": "/number"
+                "id": "/set/basic/scheme",
+                "name": "scheme",
+                "parent": "/set/basic"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/geometry/lattice_point",
-                "name": "lattice_point",
-                "parent": "/geometry"
+                "id": "/sequence/finite",
+                "name": "finite",
+                "parent": "/sequence"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/logic/rewrite",
-                "name": "rewrite",
-                "parent": "/logic"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/partition",
-                "name": "partition",
+                "id": "/set/zf",
+                "name": "zf",
                 "parent": "/set"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/algebra/boolean",
-                "name": "boolean",
-                "parent": "/algebra"
+                "id": "/set/semilattice",
+                "name": "semilattice",
+                "parent": "/set"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/algebra",
-                "name": "algebra",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/real",
-                "name": "real",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/inequality",
-                "name": "inequality",
-                "parent": "/algebra"
+                "id": "/set/fuzzy",
+                "name": "fuzzy",
+                "parent": "/set"
             }
         },
         {
@@ -8757,8 +8325,400 @@
         {
             "group": "nodes",
             "data": {
+                "id": "/algebra/equation",
+                "name": "equation",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/graph",
+                "name": "graph",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/exponent",
+                "name": "exponent",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/choice",
+                "name": "choice",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/basic",
+                "name": "basic",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/numerical",
+                "name": "numerical",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/combinatorics/binomial",
+                "name": "binomial",
+                "parent": "/combinatorics"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/computer/program/integer",
+                "name": "integer",
+                "parent": "/computer/program"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/geometry/lattice_point",
+                "name": "lattice_point",
+                "parent": "/geometry"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/orders_of_infinity",
+                "name": "orders_of_infinity",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/continued_fraction",
+                "name": "continued_fraction",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/logic/modal",
+                "name": "modal",
+                "parent": "/logic"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/boolean",
+                "name": "boolean",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/numerical/analysis/fdiff",
+                "name": "fdiff",
+                "parent": "/numerical/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/integer",
+                "name": "integer",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/probability/limit",
+                "name": "limit",
+                "parent": "/probability"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence",
+                "name": "sequence",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/function",
+                "name": "function",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence/fibonacci",
+                "name": "fibonacci",
+                "parent": "/sequence"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/computer/algorithm",
+                "name": "algorithm",
+                "parent": "/computer"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/irrationality",
+                "name": "irrationality",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/inequality",
+                "name": "inequality",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/economics/vote",
+                "name": "vote",
+                "parent": "/economics"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/taylor",
+                "name": "taylor",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/combinatorics/stirling",
+                "name": "stirling",
+                "parent": "/combinatorics"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/operator",
+                "name": "operator",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/basic",
+                "name": "basic",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/matrix",
+                "name": "matrix",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/geometry",
+                "name": "geometry",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/integral/lebesgue",
+                "name": "lebesgue",
+                "parent": "/analysis/integral"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/numerical/analysis",
+                "name": "analysis",
+                "parent": "/numerical"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence/set",
+                "name": "set",
+                "parent": "/sequence"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/polynomial",
+                "name": "polynomial",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence/finite/scheme",
+                "name": "scheme",
+                "parent": "/sequence/finite"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/quaternion",
+                "name": "quaternion",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/extreal",
+                "name": "extreal",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/class",
+                "name": "class",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence/infinite",
+                "name": "infinite",
+                "parent": "/sequence"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/integer",
+                "name": "integer",
+                "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/trigonometric",
+                "name": "trigonometric",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/computer",
+                "name": "computer",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/combinatorics",
+                "name": "combinatorics",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
                 "id": "/analysis/measure",
                 "name": "measure",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis",
+                "name": "analysis",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/category",
+                "name": "category",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/numeral",
+                "name": "numeral",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/cryptography/des",
+                "name": "des",
+                "parent": "/cryptography"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/integral",
+                "name": "integral",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/complex",
+                "name": "complex",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/differential",
+                "name": "differential",
                 "parent": "/analysis"
             }
         },
@@ -8773,81 +8733,17 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/number/complex",
-                "name": "complex",
-                "parent": "/number"
+                "id": "/graph/basic",
+                "name": "basic",
+                "parent": "/graph"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/algebra/integer",
-                "name": "integer",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/algebra/matrix",
-                "name": "matrix",
-                "parent": "/algebra"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/computer/algorithm",
-                "name": "algorithm",
-                "parent": "/computer"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/numeral",
-                "name": "numeral",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/differential",
-                "name": "differential",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/set/zf",
-                "name": "zf",
-                "parent": "/set"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/continuity",
-                "name": "continuity",
-                "parent": "/analysis"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/number/common",
-                "name": "common",
-                "parent": "/number"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/analysis/integral",
-                "name": "integral",
-                "parent": "/analysis"
+                "id": "/probability/basic",
+                "name": "basic",
+                "parent": "/probability"
             }
         },
         {
@@ -8861,9 +8757,113 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/algebra/irrationality",
-                "name": "irrationality",
+                "id": "/analysis/integral/riemann",
+                "name": "riemann",
+                "parent": "/analysis/integral"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/binary",
+                "name": "binary",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/computer/circuit",
+                "name": "circuit",
+                "parent": "/computer"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/real",
+                "name": "real",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/sequence/convergence",
+                "name": "convergence",
+                "parent": "/sequence"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/differential/calculus",
+                "name": "calculus",
+                "parent": "/analysis/differential"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/algebra/basic",
+                "name": "basic",
                 "parent": "/algebra"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/probability",
+                "name": "probability",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/number/common",
+                "name": "common",
+                "parent": "/number"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/limit",
+                "name": "limit",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/analysis/continuity",
+                "name": "continuity",
+                "parent": "/analysis"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/set/topology",
+                "name": "topology",
+                "parent": "/set"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/geometry/incidence",
+                "name": "incidence",
+                "parent": "/geometry"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/computer/distributed",
+                "name": "distributed",
+                "parent": "/computer"
             }
         }
     ]
