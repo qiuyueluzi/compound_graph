@@ -2,6 +2,7 @@ import sys
 import json
 import networkx as nx
 import retrieve_dependency
+#実行時にretrieve_dependency.pyのarticleNumberとmmlDirectoryを適当な形に書き換えて下さい
 
 class Node:
     """

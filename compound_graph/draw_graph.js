@@ -22,17 +22,21 @@ $(function(){
 
         });
         
-        cy.add(dot_graph["parents"]);
+        cy.add(dot_graph["parents"]); //先にparentsを描画しなければ正しくレイアウトされないため、parentsから描画する
         cy.add(dot_graph["eleObjs"]);
     
-        let directory = [];
+        let directories = [];
         for(let x = 0; x < dot_graph["parents"].length; x++){ //ディレクトリ一覧を作成
-            directory[x] = dot_graph.parents[x].data["id"];
+            directories[x] = dot_graph.parents[x].data["id"];
         }
         
         const childrenData = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
+        /**childrenDataには全ノードのid・親子(複合)・接続エッジなどを格納
+         * Conpound graphsを使用しているとcytoscapeのノード非表示関数ele.hidden()が機能しなかったため、当コードでは削除/復元によって代用している。
+         * childrenDataは復元時などに
+         * 
+         */
         let nodes = cy.nodes();
-        let edges = cy.edges();
         for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、関連するエッジの情報を記録
             let currentNode = cy.$(nodes[x]);
             let id = currentNode.data('id');
@@ -308,7 +312,7 @@ $(function(){
                 }
                 $("#close").css('background-color', '')
                 let allopen = true
-                directory.forEach(function(dir){
+                directories.forEach(function(dir){
                     if(childrenData.get(dir).removed) allopen = false;
                 })
                 if(allopen == true) $("#open").css('background-color', 'gray')
@@ -340,7 +344,7 @@ $(function(){
                 }
                 $("#close").css('background-color', '')
                 let allopen = true
-                directory.forEach(function(dir){
+                directories.forEach(function(dir){
                     if(childrenData.get(dir).removed) allopen = false;
                 })
                 if(allopen == true) $("#open").css('background-color', 'gray')
@@ -452,7 +456,7 @@ $(function(){
             }
             $("#close").css('background-color', '')
             let allopen = true
-            directory.forEach(function(dir){
+            directories.forEach(function(dir){
                 if(childrenData.get(dir).removed) allopen = false;
             })
             if(allopen == true) $("#open").css('background-color', 'gray')
@@ -462,7 +466,7 @@ $(function(){
             recursivelyRemove(id, nodes, childrenData);
             $("#open").css('background-color', '')
             let allclose = true
-            directory.forEach(function(dir){
+            directories.forEach(function(dir){
                 if(!childrenData.get(dir).removed) allclose = false;
             })
             if(allclose == true) $("#close").css('background-color', 'gray')
@@ -513,7 +517,7 @@ $(function(){
             recursivelyRemove(remove.id(), remove, childrenData)
         })
         let allclose = true
-        directory.forEach(function(dir){
+        directories.forEach(function(dir){
             if(!childrenData.get(dir).removed) allclose = false;
         })
         if(allclose == true) $("#close").css('background-color', 'gray')
@@ -541,7 +545,7 @@ $(function(){
         }
         
         let allopen = true
-        directory.forEach(function(dir){
+        directories.forEach(function(dir){
             if(childrenData.get(dir).removed) allopen = false;
         })
         if(allopen == true) $("#open").css('background-color', 'gray')

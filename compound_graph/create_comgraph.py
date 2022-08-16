@@ -11,9 +11,6 @@ def searchVal(name):
         if graph_objects['parents'][index]['data']['id'] == name:
             return index
 
-def nums(first_number, last_number, step=1):
-    return range(first_number, last_number, step)
-
 graph_objects.update({'parents':[]})
 nodeData = {"group": "nodes",
             "data": {
@@ -22,30 +19,33 @@ nodeData = {"group": "nodes",
                 "parent": None
             },}
 
-parents = []
+parents_set = set()
 
-for index in range(334):
-    if graph_objects['eleObjs'][index]['data']['id'].lower() == class_objects['mml_classification'][index]['mml-name']:
-        graph_objects['eleObjs'][index]['data']['parent'] = class_objects['mml_classification'][index]['directory']
+for index in range(len(class_objects['mml_classification'])):
+    elementData = graph_objects['eleObjs'][index]['data']
+    classData = class_objects['mml_classification'][index]
+    directoryData = classData['directory']
+    if elementData['id'].lower() == classData['mml-name'] and directoryData:
+        elementData['parent'] = directoryData
 
-        parent = class_objects['mml_classification'][index]['directory']
-        parents.append(parent)
-        ance = parent.split('/')
+        parent = directoryData
+        parents_set.add(parent)
+        ancestors = parent.split('/')
         parentName = ""
-        for gene in nums(1, len(ance)):
-            parentName += "/" + ance[gene]
-            if not parentName in parents:
-                parents.append(parentName)
+        for generation in range(1, len(ancestors)):
+            parentName += "/" + ancestors[generation]
+            parents_set.add(parentName)
 
-parentIds = list(set(parents))
+parentIds = list(parents_set)
 for index in range(len(parentIds)):
     graph_objects['parents'].append(copy.deepcopy(nodeData))
     parentId = parentIds[index]
     parentNameIndex = parentId.rfind('/')
     displayName = parentId[parentNameIndex+1:]
-    graph_objects['parents'][index]['data']['id'] = parentId
-    graph_objects['parents'][index]['data']['name'] = displayName
-    graph_objects['parents'][index]['data']['parent'] = parentId[0:parentNameIndex]
+    parentsData = graph_objects['parents'][index]['data']
+    parentsData['id'] = parentId
+    parentsData['name'] = displayName
+    parentsData['parent'] = parentId[0:parentNameIndex]
 
 
 with open('graph_attrs/graph_class.json', 'w') as f :

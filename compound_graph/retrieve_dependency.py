@@ -3,6 +3,10 @@ import os
 import re
 from collections import defaultdict
 
+#描画する(クラスタリングを行った)article数を代入
+articleNumber = 334
+#mmlフォルダを格納したフォルダ名
+mmlDirectory = "2020-06-18"
 
 DIRECTIVES_2020 = ['vocabularies', 'constructors', 'notations', 'registrations',
               'theorems', 'schemes', 'definitions', 'requirements',
@@ -24,7 +28,7 @@ def make_miz_dependency():
     cwd = os.getcwd()
 
     mml_lar = list()
-    with open(os.path.join("mml/", "mml-lar-top199.txt"), 'rt', encoding='utf-8', errors="ignore") as f:
+    with open(os.path.join("mml/", "mml-lar-top"+ str(articleNumber) +".txt"), 'rt', encoding='utf-8', errors="ignore") as f:
         mml_lar = f.readlines()
     
     new_mml_lar = list()
@@ -44,7 +48,7 @@ def make_miz_dependency():
         os.chdir(cwd)
 
     for miz_file in new_mml_lar:
-        with open(os.path.join("mml/2020-06-18/", miz_file), 'rt',
+        with open(os.path.join("mml/"+ str(mmlDirectory) +"/", miz_file), 'rt',
                   encoding='utf-8', errors="ignore") as f:
             miz_file_contents = f.read()
         directive2articles = extract_articles(miz_file_contents)
@@ -146,5 +150,3 @@ def format_mizfile_name_to_import_style(mizfile_name):
 
     return new_miz_name
 
-
-make_miz_dependency()
