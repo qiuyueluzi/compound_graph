@@ -30,10 +30,10 @@ $(function(){
             directories[x] = dot_graph.parents[x].data["id"];
         }
         
-        const childrenData = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
-        /**childrenDataには全ノードのid・親子(複合)・接続エッジなどを格納
+        const id2relatedElements = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
+        /**id2relatedElementsには全ノードのid・親子(複合)・接続エッジなどを格納
          * Conpound graphsを使用しているとcytoscapeのノード非表示関数ele.hidden()が機能しなかったため、当コードでは削除/復元によって代用している。
-         * childrenDataは復元時などに
+         * id2relatedElementsは復元時のデータ読み込みに使用
          * 
          */
         let nodes = cy.nodes();
@@ -46,12 +46,12 @@ $(function(){
             let childConnectedEdges = currentNode.descendants().connectedEdges();
             let parentNode = currentNode.data('parent');
 
-            let ancestorNode = []
+            let ancestorNodes = []
             currentNode.ancestors().forEach(function(ancestor){
-                ancestorNode.push(ancestor.id())  //各ノードの祖先を記録
+                ancestorNodes.push(ancestor.id())  //各ノードの祖先を記録
             });
-            ancestorNode.sort();
-            ancestorNode.reverse(); 
+            ancestorNodes.sort();
+            ancestorNodes.reverse(); 
             
             let isParent = false;
             if(childrenNodes.length > 0){
@@ -62,14 +62,14 @@ $(function(){
                     'color': '#000000',
                     "text-outline-color": '#FFFFFF',
                     'text-valign': 'top',
-                }); //ディレクトリ用のスタイルを適用
+                }); //selectorによる一括指定では変更できなかったため，個別に親ディレクトリのスタイル指定を行う
             }
             
-            childrenData.set(id, {
+            id2relatedElements.set(id, {
                 children :childrenNodes, 
-                edge: connectedEdges.union(childConnectedEdges), 
+                edges: connectedEdges.union(childConnectedEdges), 
                 parent: parentNode, 
-                ancestors: ancestorNode, 
+                ancestors: ancestorNodes, 
                 isParent: isParent, 
                 removed: false
             });
@@ -254,13 +254,13 @@ $(function(){
     /* 初期状態の設定 */
     all_nodes_positions = cy.nodes().positions();  //ノードの位置を記録　今のところ使ってない
     cy.fit(cy.nodes().orphans());
-    let ancestor = nodes.ancestors();
-    let orphan = nodes.orphans();
-    cy.style().selector(ancestor&&orphan).style({
+    let allAncestors = nodes.ancestors();
+    let allOrphans = nodes.orphans();
+    cy.style().selector(allAncestors&&allOrphans).style({
         'font-size': 350
     })
     .update()
-    $("#open").css('background-color', 'gray')
+    $("#open").prop("disabled", true);
     
     // 強調表示する祖先、子孫の世代数の初期化
     let ancestor_generations = 1;
@@ -269,138 +269,134 @@ $(function(){
     /* 検索機能の追加 */
     // 全ノード名の取得
     let all_article_names = [];
-    let all_parent_nodes = [];
+    let all_parent_names = [];
     nodes.orphans().forEach(function(parent){
-        if(parent.isParent())all_parent_nodes.push(parent.data("name"));
+        if(parent.isParent())all_parent_names.push(parent.data("name"));
         function childrenPush(parent, level){
             parent.children().forEach(function(child){
-                if(child.isParent())all_parent_nodes.push("-"+child.data("name"));
+                if(child.isParent())all_parent_names.push("-"+child.data("name"));
                 if(child.children())childrenPush(child, level++);
             })
         }
         childrenPush(parent, 1)
 
-        all_parent_nodes.push("")
+        all_parent_names.push("")
     })
     cy.nodes("[!is_dummy]").forEach(function(node){
-        if(!childrenData.get(node.id()).isParent) all_article_names.push(node.data("name"));
-        //else all_parent_nodes.push(node.data("name"));
+        if(!id2relatedElements.get(node.id()).isParent) all_article_names.push(node.data("name"));
+        //else all_parent_names.push(node.data("name"));
     });
     all_article_names.sort();
 
-    // datalistに全ノード名を追加
+    // 検索時のサジェスト・ディレクトリ一覧表示に使用するdatalistに全ノード名を追加
     for (let article_name of all_article_names){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
     }
-    for (let parent_name of all_parent_nodes){
+    for (let parent_name of all_parent_names){
         $("#parent_list").append($("<option/>").val(parent_name).html(parent_name));
     }
 
     // searchボタンをクリックしたら検索開始
     $("#search").click(function() {
-        // dropdownで選択したノード名、または記述したノード名を取得
-        let select_node_name = $("#article_name").val();
-        let select_node = nodes.filter(function(ele){
-            return ele.data("name") == select_node_name;
-        });
-        // ノードが存在するか確認し、処理
-        if(select_node.data("name")){
-            if(childrenData.get(select_node.data("name")).removed){
-                let ancestors = childrenData.get(select_node.data("name")).ancestors
-                for(let i = ancestors.length -1; i > -1; i--){
-                    if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
-                }
-                $("#close").css('background-color', '')
-                let allopen = true
-                directories.forEach(function(dir){
-                    if(childrenData.get(dir).removed) allopen = false;
-                })
-                if(allopen == true) $("#open").css('background-color', 'gray')
-            }
-
-            reset_elements_style(cy);
-            cy.$(select_node).addClass("selected");
-            highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
-            $("#select_article").text("SELECT: " + select_node_name);
-            $(".color_index").removeClass("hidden_show");
-        }
-        else{
-            alert("ERROR: Don't have '" + select_node_name + "' node. Please select existed nodes.");
-        }
+        searchNode($("#article_name").val(), nodes, id2relatedElements)
     });
     // 入力が終わった時も検索を開始する
     $("#article_name").change(function() {
-        // dropdownで選択したノード名、または記述したノード名を取得
-        let select_node_name = $("#article_name").val();
-        let select_node = nodes.filter(function(ele){
-            return ele.data("name") == select_node_name;
-        });
-        // ノードが存在するか確認し、処理
-        if(select_node.data("name")){
-            if(childrenData.get(select_node.data("name")).removed){
-                let ancestors = childrenData.get(select_node.data("name")).ancestors
-                for(let i = ancestors.length -1; i > -1; i--){
-                    if(childrenData.get(ancestors[i]).removed) restoreChildren(ancestors[i], cy.$(ancestors[i]), childrenData)
-                }
-                $("#close").css('background-color', '')
-                let allopen = true
-                directories.forEach(function(dir){
-                    if(childrenData.get(dir).removed) allopen = false;
-                })
-                if(allopen == true) $("#open").css('background-color', 'gray')
-            }
-
-            reset_elements_style(cy);
-            cy.$(select_node).addClass("selected");
-            highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
-            $("#select_article").text("SELECT: " + select_node_name);
-            $(".color_index").removeClass("hidden_show");
-        }
+        searchNode($("#article_name").val(), nodes, id2relatedElements)
     });
+
+    function searchNode(nodeName, nodes, id2relatedElements){
+                // dropdownで選択したノード名、または記述したノード名を取得
+                let select_node_name = nodeName;
+                let select_node = nodes.filter(function(ele){
+                    return ele.data("name") == select_node_name;
+                });
+                // ノードが存在するか確認し、処理
+                if(select_node.data("name")){
+                    if(id2relatedElements.get(select_node.data("name")).removed){
+                        let ancestorsOfSelectnode = id2relatedElements.get(select_node.data("name")).ancestors
+                        for(let i = ancestorsOfSelectnode.length -1; i > -1; i--){// ノードが格納されている場合，格納したディレクトリを上層から順に開くためデクリメントで処理
+                            if(id2relatedElements.get(ancestorsOfSelectnode[i]).removed) restoreChildren(ancestorsOfSelectnode[i], cy.$(ancestorsOfSelectnode[i]), id2relatedElements)
+                        }
+                        $("#close").prop("disabled", false);
+                        let allopen = true
+                        directories.forEach(function(dir){
+                            if(id2relatedElements.get(dir).removed) allopen = false;
+                        })
+                        if(allopen == true) $("#open").prop("disabled", true);
+                    }
+        
+                    reset_elements_style(cy);
+                    cy.$(select_node).addClass("selected");
+                    highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
+                    $("#select_article").text("SELECT: " + select_node_name);
+                    $(".color_index").removeClass("hidden_");
+                }
+                else{
+                    alert("ERROR: Don't have '" + select_node_name + "' node. Please select existed nodes.");
+                }
+    }
     
     
     // 強調表示したい祖先、子孫の世代数を取得
     $("#ancestor_generations").on("change", function(){
         ancestor_generations = $("#ancestor_generations").val();
+        generation();
     });
     $("#descendant_generations").on("change", function(){
         descendant_generations = $("#descendant_generations").val();
+        generation();
     });
+
+    function generation(){
+        if(cy.nodes(".selected").data()){
+            let selected_node = cy.nodes().filter(function(ele){
+                return ele.data("name") == cy.nodes(".selected").data("name");
+            });
+            reset_elements_style(cy);
+            highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
+        }
+    }
     
     cy.on("clickElement", "node", function(event){
         if(!cy.$(this).hasClass("selected")){// クリックしたノードと，エッジで繋がるノードの色を変更
-            if(!childrenData.get(this.id()).removed) recursivelyRemove(this.id(), this, childrenData)
-            // 全ノードをクラスから除外
-            reset_elements_style(cy);
-            // クリックしたノードをselectedクラスに入れる
-            let clicked_node = event.target;
-            highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
-            let clicked_node_name = clicked_node.data("name");
-            $("#select_article").text("SELECT: " + clicked_node_name);
-            $(".color_index").removeClass("hidden_show");
+            if(!id2relatedElements.get(this.id()).removed) recursivelyRemove(this.id(), this, id2relatedElements)
+            selection(event);
         }
     });
+
+    function selection(event){
+        // 全ノードをクラスから除外
+        reset_elements_style(cy);
+        // クリックしたノードをselectedクラスに入れる
+        let clicked_node = event.target;
+        highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
+        let clicked_node_name = clicked_node.data("name");
+        $("#select_article").text("SELECT: " + clicked_node_name);
+        $(".color_index").removeClass("hidden_");
+    }
 
     // 背景をクリックしたときの処理
     cy.on("tap", function(event){
         let clicked_point = event.target;
         if (clicked_point === cy){
             reset_elements_style(cy);
-            $(".color_index").addClass("hidden_show");
+            $(".color_index").addClass("hidden_");
         }
     });
     // エッジをクリックしたとき，グラフを初期状態のスタイルにする
     cy.edges().on("tap", function(event){
         reset_elements_style(cy);
-        $(".color_index").addClass("hidden_show");
+        $(".color_index").addClass("hidden_");
     });
     
     // ノードの上にカーソルが来たとき，ノード名を表示する
+    // jQuery.hoverを使うと動作が重くなるためmouseover/outを使用している
     cy.nodes().on("mouseover", function(cy_event){
         $(window).on("mousemove", function(window_event){ 
             document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
             document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-            if(!childrenData.get(cy_event.target.data("id")).isParent)document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
+            if(!id2relatedElements.get(cy_event.target.data("id")).isParent)document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
         })
     });
     
@@ -417,20 +413,13 @@ $(function(){
     cy.nodes().on('tap', function(e) {
         let currentTapStamp= e.timeStamp;
         let msFromLastTap= currentTapStamp -previousTapStamp;
-        if(childrenData.get(e.target.id()).isParent){//複合親ノードであればダブルクリックかを判定
+        if(id2relatedElements.get(e.target.id()).isParent){//複合親ノードであればダブルクリックかを判定
             if (msFromLastTap < doubleClickDelayMs && msFromLastTap > 0) {
                 e.target.trigger('doubleTap', e);
             }
         }
         else if(!cy.$(e.target.id()).hasClass("selected")){// クリックしたノードの親と子、自身を色変更
-            // 全ノードをクラスから除外
-            reset_elements_style(cy);
-            // クリックしたノードをselectedクラスに入れる
-            let clicked_node = e.target;
-            highlight_select_elements(cy, clicked_node, ancestor_generations, descendant_generations);
-            let clicked_node_name = clicked_node.data("name");
-            $("#select_article").text("SELECT: " + clicked_node_name);
-            $(".color_index").removeClass("hidden_show");
+            selection(e);
         }
         previousTapStamp= currentTapStamp;
         
@@ -442,40 +431,19 @@ $(function(){
         let id = nodes.data('id')
         if(cy.$(this).hasClass("selected")){
             reset_elements_style(cy);
-            $(".color_index").addClass("hidden_show");
+            $(".color_index").addClass("hidden_");
         }
         
-        if(childrenData.get(id).removed == true){
-            restoreChildren(id, nodes, childrenData);
-            if(cy.nodes(".selected").data()){
-                let selected_node = cy.nodes().filter(function(ele){
-                    return ele.data("name") == cy.nodes(".selected").data("name");
-                });
-                reset_elements_style(cy);
-                highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
-            }
-            $("#close").css('background-color', '')
-            let allopen = true
-            directories.forEach(function(dir){
-                if(childrenData.get(dir).removed) allopen = false;
-            })
-            if(allopen == true) $("#open").css('background-color', 'gray')
+        if(id2relatedElements.get(id).removed == true){
+            restoreNodes(isOpen = false, id, nodes)
         } else{
-            reset_elements_style(cy);
-            $(".color_index").addClass("hidden_show");
-            recursivelyRemove(id, nodes, childrenData);
-            $("#open").css('background-color', '')
-            let allclose = true
-            directories.forEach(function(dir){
-                if(!childrenData.get(dir).removed) allclose = false;
-            })
-            if(allclose == true) $("#close").css('background-color', 'gray')
+            removeNodes(isClose = false, id, nodes)
         }
     });
 
     //右クリック時の挙動
     cy.on('cxttap', 'node', function(e){
-        if(childrenData.get(e.target.id()).isParent){
+        if(id2relatedElements.get(e.target.id()).isParent){
             contextMenu.showMenuItem('open/close')
             contextMenu.hideMenuItem('link')
         }
@@ -485,56 +453,55 @@ $(function(){
         }
     })
 
-            
-    // re-highlightボタンで再度ハイライトする
-    $("#re-highlight").click(function() {
-        if(cy.nodes(".selected").data()){
-            let selected_node = cy.nodes().filter(function(ele){
-                return ele.data("name") == cy.nodes(".selected").data("name");
-            });
-            reset_elements_style(cy);
-            highlight_select_elements(cy, selected_node, ancestor_generations, descendant_generations);
-        }
-    });
-
     //closeボタン押下時
     $("#close").click(function(){
+        removeNodes(isClose = true);
+    })
+
+    function removeNodes(isClose, id, selectedNode){
         reset_elements_style(cy);
-        $(".color_index").addClass("hidden_show");
-        $("#open").css('background-color', '')
-        let bottom = -1;
-        let removes = [];
-        nodes.parent().forEach(function(node){
-            if(bottom < node.ancestors().length){
-                removes = [];
-                bottom = node.ancestors().length
-            }
-            if(bottom == node.ancestors().length){
-                removes.push(node)
-            }
-        })
-        removes.forEach(function(remove){
-            recursivelyRemove(remove.id(), remove, childrenData)
-        })
+        $(".color_index").addClass("hidden_");
+        $("#open").prop("disabled", false);
+        if(isClose){
+            let bottom = -1;
+            let removes = [];
+            nodes.parent().forEach(function(node){// 表示されているディレクトリの内，最下層のものを探し全て非表示にする
+                if(bottom < node.ancestors().length){
+                    removes = [];
+                    bottom = node.ancestors().length
+                }
+                if(bottom == node.ancestors().length){
+                    removes.push(node)
+                }
+            })
+            removes.forEach(function(remove){
+                recursivelyRemove(remove.id(), remove, id2relatedElements)
+            })
+        }
+        else recursivelyRemove(id, selectedNode, id2relatedElements);
         let allclose = true
         directories.forEach(function(dir){
-            if(!childrenData.get(dir).removed) allclose = false;
+            if(!id2relatedElements.get(dir).removed) allclose = false;
         })
-        if(allclose == true) $("#close").css('background-color', 'gray')
-    })
+        if(allclose == true) $("#close").prop("disabled", true);// 非表示にできるディレクトリがなければボタンを非アクティブ化する
+    }
 
     //openボタン押下時
     $("#open").click(function(){
-        $("#close").css('background-color', '')
-        cy.nodes().forEach(function(node){
-            if(childrenData.get(node.id()).removed && childrenData.get(node.id()).isParent) {
-                restoreChildren(node.id(), node, childrenData)
-                if(cy.$(node).hasClass("selected")){
-                    reset_elements_style(cy);
-                    $(".color_index").addClass("hidden_show");
+        restoreNodes(isOpen = true)
+    })
+
+    function restoreNodes(isOpen, id, selectedNode){
+        $("#close").prop("disabled", false);
+        if(isOpen){
+            $(".color_index").addClass("hidden_");
+            cy.nodes().forEach(function(node){
+                if(id2relatedElements.get(node.id()).removed && id2relatedElements.get(node.id()).isParent) {
+                    restoreChildren(node.id(), node, id2relatedElements)
                 }
-            }
-        })
+            })
+        }
+        else restoreChildren(id, selectedNode, id2relatedElements)
         
         if(cy.nodes(".selected").data()){
             let selected_node = cy.nodes().filter(function(ele){
@@ -546,10 +513,10 @@ $(function(){
         
         let allopen = true
         directories.forEach(function(dir){
-            if(childrenData.get(dir).removed) allopen = false;
+            if(id2relatedElements.get(dir).removed) allopen = false;
         })
-        if(allopen == true) $("#open").css('background-color', 'gray')
-    })
+        if(allopen == true) $("#open").prop("disabled", true);// 全てのディレクトリが表示されていればボタンを非アクティブ化
+    }
 
     // resetボタンでグラフを初期状態に戻す
     $(document).ready(function(){
@@ -667,59 +634,61 @@ function fade_out_faded_elements(cy){  // change_style_to_fade_for_not_selected_
 /**
  * 子ノード群を非表示(処理上は削除)にする．
  * @param {string} id クリックされたノードのid
- * @param {cytoscape object} nodes クリックされたノードそのもの
- * @param {Map} childrenData 全ノードのデータ
+ * @param {cytoscape object} nodes 非表示にするノード群
+ * @param {Map} id2relatedElements 全ノードのデータ
 **/
-function recursivelyRemove(id,nodes, childrenData){
-    let toRemove = [];
+function recursivelyRemove(id,nodes, id2relatedElements){
+    let removingNodesList = [];
     for(;;){ //選択されたノードと子をリストに入れ、削除フラグを付ける
         nodes.forEach(function(node){
-            childrenData.get(node.data('id')).removed = true;
+            id2relatedElements.get(node.data('id')).removed = true;
         });
-        Array.prototype.push.apply(toRemove, nodes.children());
+        Array.prototype.push.apply(removingNodesList, nodes.children());
+        // list.push()の場合，削除対象のノード群の配列が正しく生成できなかったためArrayを使用
         nodes = nodes.children();
         if( nodes.empty() ){ break; }
     }
 
     //当該サブグラフに関連するエッジ全てを一度削除する
-    for( let x = toRemove.length - 1; x >= 0; x-- ){ //最下層のノードから処理し、順次削除
-        let removeEdges = toRemove[x].connectedEdges();
+    for( let x = removingNodesList.length - 1; x >= 0; x-- ){ //最下層のノードから処理し、順次削除
+        let removeEdges = removingNodesList[x].connectedEdges();
         for(let y = 0; y < removeEdges.length; y++){ //エッジの削除・置き換え
             if(removeEdges[y].target().parent() != removeEdges[y].source().parent()){
-            let replaceEdge = removeEdges[y];
-            removeEdges[y].remove();
-  
-            let newSource;
-            let newTarget;
-            if(replaceEdge.target() == toRemove[x]){
-                newSource = replaceEdge.source().id();
-                newTarget = replaceEdge.target().parent().id();
-            }
-            else if(replaceEdge.source() == toRemove[x]){
-                newSource = replaceEdge.source().parent().id();
-                newTarget = replaceEdge.target().id();
-            }
-            if(newSource != newTarget)cy.add({group: 'edges', data:{id: replaceEdge.id(), source: newSource, target: newTarget}})
+                let replaceEdge = removeEdges[y];
+                removeEdges[y].remove();
+                
+                let newSource;
+                let newTarget;
+                if(replaceEdge.target() == removingNodesList[x]){
+                    newSource = replaceEdge.source().id();
+                    newTarget = replaceEdge.target().parent().id();
+                }
+                else if(replaceEdge.source() == removingNodesList[x]){
+                    newSource = replaceEdge.source().parent().id();
+                    newTarget = replaceEdge.target().id();
+                }
+                if(newSource != newTarget)cy.add({group: 'edges', data:{id: replaceEdge.id(), source: newSource, target: newTarget}})
+                // 最下層から処理するため，上の層の処理により将来的に削除されるエッジを作成する場合がある
             }
         }
-        toRemove[x].remove();
+        removingNodesList[x].remove();
     }
 }
 
 
 /**
  * 非表示となっている子ノード群を表示させる．
- * 内部的にはノードは削除されていたため，childrenDataから子を取得し，再配置する．
+ * 内部的にはノードは削除されていたため，id2relatedElementsから子を取得し，再配置する．
  * @param {string} id クリックされたノードのid
  * @param {cytoscape object} nodes クリックされたノードそのもの
- * @param {Map} childrenData 全ノードのデータ
+ * @param {Map} id2relatedElements 全ノードのデータ
 **/
-function restoreChildren(id, nodes, childrenData){
-    childrenData.get(id).removed = false;
-    childrenData.get(id).children.restore(); //ノードを復元
+function restoreChildren(id, nodes, id2relatedElements){
+    id2relatedElements.get(id).removed = false;
+    id2relatedElements.get(id).children.restore(); //ノードを復元
   
-    for(let x=0; x<childrenData.get(id).edge.length; x++){ //エッジを順次復元
-        let restoreEdge = childrenData.get(id).edge[x];
+    for(let x=0; x<id2relatedElements.get(id).edges.length; x++){ //エッジを順次復元
+        let restoreEdge = id2relatedElements.get(id).edges[x];
         let restoreEdgeID = restoreEdge.id();
         
         //エッジを置き換える場合
@@ -733,16 +702,16 @@ function restoreChildren(id, nodes, childrenData){
             let newEnds = [];
             for(let i = 0; i < 2; i++){
                 let origin = (i==0 ? restoreEdge.source().id() : restoreEdge.target().id()) //本来のソース・ターゲットを取得
-                let ancestor = childrenData.get(origin).ancestors
-                for(let y = 0; y < ancestor.length; y++){
-                    if(!childrenData.get(ancestor[y]).removed){
+                let ancestors = id2relatedElements.get(origin).ancestors
+                for(let y = 0; y < ancestors.length; y++){
+                    if(!id2relatedElements.get(ancestors[y]).removed){
                         if(y == 0)newEnds[i] = origin
-                        else newEnds[i] = ancestor[y-1];
+                        else newEnds[i] = ancestors[y-1];
                         break;
                     }
                 }
-                if(ancestor.length == 0)newEnds[i] = origin;
-                if(!newEnds[i])newEnds[i] = ancestor[ancestor.length-1]
+                if(ancestors.length == 0)newEnds[i] = origin;
+                if(!newEnds[i])newEnds[i] = ancestors[ancestors.length-1]
                 
             }
             let newSource = newEnds[0], newTarget = newEnds[1];
@@ -752,7 +721,7 @@ function restoreChildren(id, nodes, childrenData){
             }
         }
         else{
-            cy.add(childrenData.get(id).edge[x])
+            cy.add(id2relatedElements.get(id).edges[x])
         }
     }
 }
