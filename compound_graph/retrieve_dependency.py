@@ -3,8 +3,8 @@ import os
 import re
 from collections import defaultdict
 
-#描画する(クラスタリングを行った)article数を代入
-articleNumber = 334
+#描画する(クラスタリングを行った)articleを記入したファイル名
+articleList = "mml-lar-top334.txt"
 #mmlフォルダを格納したフォルダ名
 mmlDirectory = "2020-06-18"
 
@@ -28,7 +28,7 @@ def make_miz_dependency():
     cwd = os.getcwd()
 
     mml_lar = list()
-    with open(os.path.join("mml/", "mml-lar-top"+ str(articleNumber) +".txt"), 'rt', encoding='utf-8', errors="ignore") as f:
+    with open(os.path.join("mml/", str(articleList)), 'rt', encoding='utf-8', errors="ignore") as f:
         mml_lar = f.readlines()
     
     new_mml_lar = list()

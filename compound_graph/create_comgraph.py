@@ -22,19 +22,20 @@ nodeData = {"group": "nodes",
 parents_set = set()
 
 for index in range(len(class_objects['mml_classification'])):
-    elementData = graph_objects['eleObjs'][index]['data']
-    classData = class_objects['mml_classification'][index]
-    directoryData = classData['directory']
-    if elementData['id'].lower() == classData['mml-name'] and directoryData:
-        elementData['parent'] = directoryData
+    if len(class_objects['mml_classification'][index]['directory']) > 0:
+        elementData = graph_objects['eleObjs'][index]['data']
+        classData = class_objects['mml_classification'][index]
+        directoryData = classData['directory']
+        if elementData['id'].lower() == classData['mml-name'] and directoryData:
+            elementData['parent'] = directoryData
 
-        parent = directoryData
-        parents_set.add(parent)
-        ancestors = parent.split('/')
-        parentName = ""
-        for generation in range(1, len(ancestors)):
-            parentName += "/" + ancestors[generation]
-            parents_set.add(parentName)
+            parent = directoryData
+            parents_set.add(parent)
+            ancestors = parent.split('/')
+            parentName = ""
+            for generation in range(1, len(ancestors)):
+                parentName += "/" + ancestors[generation]
+                parents_set.add(parentName)
 
 parentIds = list(parents_set)
 for index in range(len(parentIds)):

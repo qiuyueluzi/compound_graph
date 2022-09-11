@@ -31,7 +31,14 @@ $(function(){
         }
         
         const id2relatedElements = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
-        /**id2relatedElementsには全ノードのid・親子(複合)・接続エッジなどを格納
+        /**id       :ノードのid
+         * children :ノードのクラスタリング上の子ノード情報
+         * edges    :ノード，子ノードと接続している全てのエッジ情報
+         * parent   :ノードのクラスタリング上の親ノード情報
+         * ancestors:ノードの親ノードを含む祖先ノード情報
+         * isParent :ノードが子ノードを持つかどうか
+         * removed  :ノードが非表示となっているかどうか
+         * 
          * Conpound graphsを使用しているとcytoscapeのノード非表示関数ele.hidden()が機能しなかったため、当コードでは削除/復元によって代用している。
          * id2relatedElementsは復元時のデータ読み込みに使用
          * 
@@ -435,9 +442,9 @@ $(function(){
         }
         
         if(id2relatedElements.get(id).removed == true){
-            restoreNodes(isOpen = false, id, nodes)
+            restoreNodes(openButton = false, id, nodes)
         } else{
-            removeNodes(isClose = false, id, nodes)
+            removeNodes(closeButton = false, id, nodes)
         }
     });
 
@@ -455,17 +462,17 @@ $(function(){
 
     //closeボタン押下時
     $("#close").click(function(){
-        removeNodes(isClose = true);
+        removeNodes(closeButton = true);
     })
 
-    function removeNodes(isClose, id, selectedNode){
+    function removeNodes(closeButton, id, selectedNode){
         reset_elements_style(cy);
         $(".color_index").addClass("hidden_");
         $("#open").prop("disabled", false);
-        if(isClose){
+        if(closeButton){
             let bottom = -1;
             let removes = [];
-            nodes.parent().forEach(function(node){// 表示されているディレクトリの内，最下層のものを探し全て非表示にする
+            nodes.parent().forEach(function(node){// 表示されているディレクトリの内，最も深い層のものを探し全て非表示にする
                 if(bottom < node.ancestors().length){
                     removes = [];
                     bottom = node.ancestors().length
@@ -488,12 +495,12 @@ $(function(){
 
     //openボタン押下時
     $("#open").click(function(){
-        restoreNodes(isOpen = true)
+        restoreNodes(openButton = true)
     })
 
-    function restoreNodes(isOpen, id, selectedNode){
+    function restoreNodes(openButton, id, selectedNode){
         $("#close").prop("disabled", false);
-        if(isOpen){
+        if(openButton){
             $(".color_index").addClass("hidden_");
             cy.nodes().forEach(function(node){
                 if(id2relatedElements.get(node.id()).removed && id2relatedElements.get(node.id()).isParent) {
