@@ -345,14 +345,14 @@ $(function(){
     let all_article_names = [];
     let all_parent_names = [];
     nodes.orphans().forEach(function(parent){
-        if(parent.isParent())all_parent_names.push(parent.data("name"));
-        function childrenPush(parent, level){
+        if(parent.isParent())all_parent_names.push([parent.data("name"), "/"+parent.data("name")]);
+        function childrenPush(parent, parentFullname){
             parent.children().forEach(function(child){
-                if(child.isParent())all_parent_names.push("-"+child.data("name"));
-                if(child.children())childrenPush(child, level++);
+                if(child.isParent())all_parent_names.push([child.data("name"), parentFullname+"/"+child.data("name")]);
+                if(child.children())childrenPush(child, parentFullname+"/"+child.data("name"));
             })
         }
-        childrenPush(parent, 1)
+        childrenPush(parent, "/"+parent.data("name"))
 
         all_parent_names.push("")
     })
@@ -369,6 +369,34 @@ $(function(){
     for (let parent_name of all_parent_names){
         $("#parent_list").append($("<option/>").val(parent_name).html(parent_name));
     }
+    console.log(all_parent_names)
+    for (let parent_name of all_parent_names){
+        //if(id2relatedElements.get(parent_name[1]).isParent)
+
+        let liTag = document.createElement("li");
+        liTag.textContent = parent_name[0];
+        liTag.id = parent_name[1];
+        document.getElementById("parent_list").appendChild(liTag);
+    }
+    $("li").click(function(){
+        reset_elements_style(cy);
+        console.log($(this).attr("id"));
+        clickText = $(this).attr("id")
+        if(id2relatedElements.get(clickText).removed){
+            let ancestorsOfSelectnode = id2relatedElements.get(clickText).ancestors
+            for(let i = ancestorsOfSelectnode.length -1; i > -1; i--){// ノードが非表示である場合，格納したディレクトリを上層から順に開くためデクリメントで処理
+                if(id2relatedElements.get(ancestorsOfSelectnode[i]).removed) restoreChildren(ancestorsOfSelectnode[i], cy.$(ancestorsOfSelectnode[i]), id2relatedElements)
+            }
+            restoreChildren(clickText, cy.$(clickText), id2relatedElements)
+        }
+        let select_node = nodes.filter(function(ele){
+            return ele.data("id") == clickText;
+        });
+        console.log(select_node);
+        cy.$(select_node).addClass("highlight");
+        cy.center(cy.$(select_node));
+
+    })
 
     // searchボタンをクリックしたら検索開始
     $("#search").click(function() {
