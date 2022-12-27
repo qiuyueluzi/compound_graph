@@ -24,22 +24,14 @@ $(function(){
         
         cy.add(dot_graph["parents"]); //先にparentsを描画しなければ正しくレイアウトされないため、parentsから描画する
         cy.add(dot_graph["eleObjs"]);
-        const nodeData = (dot_graph["eleObjs"]);
     
         let directories = [];
         for(let x = 0; x < dot_graph["parents"].length; x++){ //ディレクトリ一覧を作成
             directories[x] = dot_graph.parents[x].data["id"];
         }
-
+        
         const id2relatedElements = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
-        /**id       :ノードのid
-         * children :ノードのクラスタリング上の子ノード情報
-         * edges    :ノード，子ノードと接続している全てのエッジ情報
-         * parent   :ノードのクラスタリング上の親ノード情報
-         * ancestors:ノードの親ノードを含む祖先ノード情報
-         * isParent :ノードが子ノードを持つかどうか
-         * removed  :ノードが非表示となっているかどうか
-         * 
+        /**id2relatedElementsには全ノードのid・親子(複合)・接続エッジなどを格納
          * Conpound graphsを使用しているとcytoscapeのノード非表示関数ele.hidden()が機能しなかったため、当コードでは削除/復元によって代用している。
          * id2relatedElementsは復元時のデータ読み込みに使用
          * 
@@ -72,15 +64,6 @@ $(function(){
                     'text-valign': 'top',
                 }); //selectorによる一括指定では変更できなかったため，個別に親ディレクトリのスタイル指定を行う
             }
-            if(parentNode){
-
-                if(parentNode=="/number/function"){
-                    currentNode.style({
-                        "background-color": "#FF0000",
-                        "color": "#FF0000"
-                    })
-                }
-            }
             
             id2relatedElements.set(id, {
                 children :childrenNodes, 
@@ -96,7 +79,7 @@ $(function(){
             name: "klay",
             spacingFactor: 10
         })
-        //layout.run()
+        layout.run()
 
         let contextMenu = cy.contextMenus({ //右クリック時のコンテキストメニュー
             evtType: ['cxttap'],
@@ -144,23 +127,23 @@ $(function(){
             /* 初期状態のスタイル */
             {
                 selector: "node",
-                css: {"background-color": "#000000", "shape": "ellipse", "width": "80", "height": "80",
-                "content": "data(name)", 'font-size': 60, "opacity": 1, "z-index": 1,
-                "text-halign":"right", "text-valign": "center", "font-style": "normal",
-                "font-weight": "bold", "color": "#000000",
-                "text-outline-color": "#FFFFFF", "text-outline-opacity": 1, "text-outline-width": 6}
+                css: {"background-color": "#000000", "shape": "ellipse", "width": "150", "height": "150",
+                "content": "data(name)", 'font-size': 80, "opacity": 1, "z-index": 1,
+                "text-halign":"center", "text-valign": "center", "font-style": "normal",
+                "font-weight": "bold", "color": "#FFFFFF",
+                "text-outline-color": "#000000", "text-outline-opacity": 1, "text-outline-width": 10}
             },
             {
                 selector: 'node:parent',
                 css: {
                         'content': 'data(name)',
-                        'font-size': 0,
+                        'font-size': 200,
                         "text-outline-color": '#FFFFFF',
                         'color': '#000000',
                         'text-valign': 'top',
                         'text-halign': 'center',
                         'background-color': '#20bd3d',
-                        'background-opacity': 0
+                        'background-opacity': 0.25
                 }
             },
             {
@@ -264,6 +247,10 @@ $(function(){
         {
             selector: "node:parent.faded",
             css: {"opacity": 1}
+        },
+        {
+            selector: "node:parent.highlight",
+            css: {"background-color": "#bd20a0"}
         }
 
     ]);
@@ -274,83 +261,10 @@ $(function(){
     let allAncestors = nodes.ancestors();
     let allOrphans = nodes.orphans();
     cy.style().selector(allAncestors&&allOrphans).style({
-        'content': 'data(name)',
-        'font-size': 200,
-        "text-outline-color": '#FFFFFF',
-        'color': '#000000',
-        'text-valign': 'top',
-        'text-halign': 'center',
-        'background-color': '#20bd3d',
-        'background-opacity': 0.25
+        'font-size': 350
     })
-    
     .update()
     $("#open").prop("disabled", true);
-    let parent_nodes_positions = new Map();
-    (allAncestors&&allOrphans).forEach(parent => {
-        let position = parent.position();
-        parent_nodes_positions.set(parent._private.data.id, {x:position.x, y:position.y});
-    })
-
-    $("#hierarchical").click(function(){
-        console.log(nodeData)
-        for(let i = 0; i < nodeData.length; i++){
-            let moveNode = nodeData[i];
-            if((moveNode.data.id.match( /\//g ) || []).length != 1 && moveNode.group == "nodes" && (moveNode.data.id.match( /TARSKI_/g ) || []).length == 0){
-                let ancestors = id2relatedElements.get(moveNode.data.id).ancestors;
-                let rootNodeID = ancestors[ancestors.length - 1];
-                const rootNodePositionX = parent_nodes_positions.get(rootNodeID).x
-                const rootNodePositionY = parent_nodes_positions.get(rootNodeID).y
-                const currentPositionX = moveNode.position.x;
-                const currentPositionY = moveNode.position.y;
-                
-                let positionX = rootNodePositionX + (currentPositionX - rootNodePositionX)*0.18
-                let positionY = rootNodePositionY + (currentPositionY - rootNodePositionY)*0.18
-
-                cy.$("#"+moveNode.data.id).position("x", positionX);
-                cy.$("#"+moveNode.data.id).position("y", positionY);
-            }
-        }
-        /*let root = allAncestors&&allOrphans;
-        for(let i = 0; i < root.length; i++){
-            if((root[i]._private.data.id.match( /TARSKI_/g ) || []).length == 0){
-                let rootNodePositionX = parseInt(JSON.parse(JSON.stringify(root[i]._private.position.x)));
-                let rootNodePositionY = parseInt(JSON.parse(JSON.stringify(root[i]._private.position.y)));
-
-                let positionX = rootNodePositionX
-                let positionY = rootNodePositionY
-                let x = 0;
-                console.log(root[i].descendants().length)
-                for(let j = 0; j < root[i].descendants().length; j++){
-                    let child = root[i].descendants()[j]
-                    if(x > 3150){
-                        x = 0;
-                        positionY += 400;
-                    }
-
-                    if(!id2relatedElements.get(child._private.data.id).isParent){
-                        positionX = rootNodePositionX + x;
-                        cy.$(child).position("x", positionX)
-                        cy.$(child).position("y", positionY)
-                        x += 450;
-                        
-                    }
-                    else{
-                        if((child.children().length * 450 + x) > 3600){
-                            x = 0;
-                            positionY += 400;
-                        }
-                    }
-                    
-                }
-
-                
-
-                //console.log(root[i]._private.data.id, root[i].descendants())
-            }
-        }*/
-
-    })
     
     // 強調表示する祖先、子孫の世代数の初期化
     let ancestor_generations = 1;
@@ -383,21 +297,12 @@ $(function(){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
     }
     console.log(id2relatedElements)
-    let detail;
     for (let parent_name of all_parent_names){
-        if(/*id2relatedElements.get(parent_name[1]).isParent*/false){
-            let detailTag = document.createElement("details");
-            let summaryTag = document.createElement("summary");
-            summaryTag.textContent = parent_name[0];
-            summaryTag.id = parent_name[1];
-            detailTag.appendChild(summaryTag);
-            detail = detailTag;
-        }
+        //if(id2relatedElements.get(parent_name[1]).isParent)
+
         let liTag = document.createElement("li");
         liTag.textContent = parent_name[0];
         liTag.id = parent_name[1];
-        //detail.appendChild(liTag);
-
         document.getElementById("parent_list").appendChild(liTag);
     }
     $("li").click(function(){
@@ -559,9 +464,9 @@ $(function(){
         }
         
         if(id2relatedElements.get(id).removed == true){
-            restoreNodes(openButton = false, id, nodes)
+            restoreNodes(isOpen = false, id, nodes)
         } else{
-            removeNodes(closeButton = false, id, nodes)
+            removeNodes(isClose = false, id, nodes)
         }
     });
 
@@ -579,17 +484,17 @@ $(function(){
 
     //closeボタン押下時
     $("#close").click(function(){
-        removeNodes(closeButton = true);
+        removeNodes(isClose = true);
     })
 
-    function removeNodes(closeButton, id, selectedNode){
+    function removeNodes(isClose, id, selectedNode){
         reset_elements_style(cy);
         $(".color_index").addClass("hidden_");
         $("#open").prop("disabled", false);
-        if(closeButton){
+        if(isClose){
             let bottom = -1;
             let removes = [];
-            nodes.parent().forEach(function(node){// 表示されているディレクトリの内，最も深い層のものを探し全て非表示にする
+            nodes.parent().forEach(function(node){// 表示されているディレクトリの内，最下層のものを探し全て非表示にする
                 if(bottom < node.ancestors().length){
                     removes = [];
                     bottom = node.ancestors().length
@@ -612,12 +517,12 @@ $(function(){
 
     //openボタン押下時
     $("#open").click(function(){
-        restoreNodes(openButton = true)
+        restoreNodes(isOpen = true)
     })
 
-    function restoreNodes(openButton, id, selectedNode){
+    function restoreNodes(isOpen, id, selectedNode){
         $("#close").prop("disabled", false);
-        if(openButton){
+        if(isOpen){
             $(".color_index").addClass("hidden_");
             cy.nodes().forEach(function(node){
                 if(id2relatedElements.get(node.id()).removed && id2relatedElements.get(node.id()).isParent) {
