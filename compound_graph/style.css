@@ -71,3 +71,13 @@ button:active{
 #help_page3 {
     display: none;
 }
+
+.indent1 {
+    text-indent: 1rem;
+}
+.indent2 {
+    text-indent: 2rem;
+}
+ul {
+    list-style: none;
+  }

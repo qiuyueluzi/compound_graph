@@ -311,6 +311,19 @@ $(function(){
                 cy.$("#"+moveNode.data.id).position("y", positionY);
             }
         }
+        
+        console.log(cy.$(allAncestors&&allOrphans))
+        const allposition = new Map();
+        for(let dire of cy.$(allAncestors&&allOrphans)){
+            //allposition.set()
+        }
+        const blob = new Blob([cy.nodes().positions()],{type:"text/plain"});
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'allPositions.txt';
+        //link.click();
+        
+
         /*let root = allAncestors&&allOrphans;
         for(let i = 0; i < root.length; i++){
             if((root[i]._private.data.id.match( /TARSKI_/g ) || []).length == 0){
@@ -382,25 +395,64 @@ $(function(){
     for (let article_name of all_article_names){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
     }
-    console.log(id2relatedElements)
-    let detail;
+    console.log(all_parent_names)
+    let generation1, generation2, generation3;
     for (let parent_name of all_parent_names){
-        if(/*id2relatedElements.get(parent_name[1]).isParent*/false){
-            let detailTag = document.createElement("details");
-            let summaryTag = document.createElement("summary");
-            summaryTag.textContent = parent_name[0];
-            summaryTag.id = parent_name[1];
-            detailTag.appendChild(summaryTag);
-            detail = detailTag;
-        }
-        let liTag = document.createElement("li");
-        liTag.textContent = parent_name[0];
-        liTag.id = parent_name[1];
-        //detail.appendChild(liTag);
+        if(parent_name){
+            let parentsDisplayName = parent_name[0];
+            let parentsFullName = parent_name[1];
+            switch ((parentsFullName.match( /\//g)||[]).length) {
+                case 1:
+                    $("#parent_list").prepend("<details id="+parentsFullName+"><summary>"+parentsDisplayName+"</summary></details>")
+                    generation1 = "#\\" + parentsFullName;
+                    if(id2relatedElements.get(parentsFullName).isParent){
+                        for(let child of id2relatedElements.get(parentsFullName).children){
+                            if(!id2relatedElements.get(child._private.data.id).isParent){
+                                $(generation1).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                            }
+                        }
+                    }
+                    break;
+                      
+                case 2:
+                    $(generation1).prepend("<details id="+parentsFullName+" class=indent1><summary>"+parentsDisplayName+"</summary></details>")
+                    let indexOfSlash = parentsFullName.lastIndexOf("/")
+                    generation2 = "#\\" + parentsFullName.slice(0, indexOfSlash) + "\\" + parentsFullName.slice(indexOfSlash)
+                    if(id2relatedElements.get(parentsFullName).isParent){
+                        for(let child of id2relatedElements.get(parentsFullName).children){
+                            if(!id2relatedElements.get(child._private.data.id).isParent){
+                                $(generation2).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                            }
+                        }
+                    }
+                    break;
+                    
+                case 3:
+                    $(generation2).prepend("<details id="+parentsFullName+" class=indent2><summary>"+parentsDisplayName+"</summary></details>")
+                    let indexOfSlash2 = parentsFullName.indexOf("/",1)
+                    let indexOfSlash3 = parentsFullName.lastIndexOf("/")
+                    generation3 = "#\\" + parentsFullName.slice(0, indexOfSlash2) + "\\" + parentsFullName.slice(indexOfSlash2, indexOfSlash3) + "\\" + parentsFullName.slice(indexOfSlash3)
+                    if(id2relatedElements.get(parentsFullName).isParent){
+                        for(let child of id2relatedElements.get(parentsFullName).children){
+                            if(!id2relatedElements.get(child._private.data.id).isParent){
+                                $(generation3).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                            }
+                        }
+                    }
+                    break;
+                default:
+                    break;
+            }
 
-        document.getElementById("parent_list").appendChild(liTag);
+        }
+        else {
+            generation1="";
+            generation2="";
+            generation3="";
+        }
     }
-    $("li").click(function(){
+
+    /*$("details").click(function(){
         reset_elements_style(cy);
         console.log($(this).attr("id"));
         clickText = $(this).attr("id")
@@ -418,6 +470,10 @@ $(function(){
         cy.$(select_node).addClass("highlight");
         cy.center(cy.$(select_node));
 
+    })*/
+    $("li").click(function(){
+        let nodeID = $(this).attr("id")
+        searchNode(nodeID, nodes, id2relatedElements)
     })
 
     // searchボタンをクリックしたら検索開始
