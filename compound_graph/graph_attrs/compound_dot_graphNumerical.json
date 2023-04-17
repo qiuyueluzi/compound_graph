@@ -1,0 +1,52 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_1",
+                "name": "DIFF_1",
+                "href": "http://mizar.org/version/current/html/diff_1.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_2",
+                "name": "DIFF_2",
+                "href": "http://mizar.org/version/current/html/diff_2.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_3",
+                "name": "DIFF_3",
+                "href": "http://mizar.org/version/current/html/diff_3.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_4",
+                "name": "DIFF_4",
+                "href": "http://mizar.org/version/current/html/diff_4.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 1404.0
+            }
+        }
+    ]
+}

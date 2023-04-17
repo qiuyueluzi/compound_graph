@@ -5,7 +5,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 */
 $(function(){
     $.when(
-        $.getJSON('./graph_attrs/graph_class.json')
+        $.getJSON('./graph_attrs/graph_classHierar.json')
     )
     .then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
@@ -71,15 +71,6 @@ $(function(){
                     "text-outline-color": '#FFFFFF',
                     'text-valign': 'top',
                 }); //selectorによる一括指定では変更できなかったため，個別に親ディレクトリのスタイル指定を行う
-            }
-            if(parentNode){
-
-                if(parentNode=="/number/function"){
-                    currentNode.style({
-                        "background-color": "#FF0000",
-                        "color": "#FF0000"
-                    })
-                }
             }
             
             id2relatedElements.set(id, {
@@ -185,58 +176,58 @@ $(function(){
     // 選択された(強調表示する)祖先のスタイル
     {
         selector: "node.selected_ancestors0", 
-        css: {"background-color": "#ffbb00", "color": "#ffffff",
+        css: {"background-color": "#ffbb00", "color": "#660033",
         "text-outline-color": "#ffbb00", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_ancestors1",
-            css: {"background-color": "#ff9900", "color": "#ffffff",
+            css: {"background-color": "#ff9900", "color": "#660033",
             "text-outline-color": "#ff9900", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_ancestors2",
-            css: {"background-color": "#ff7700", "color": "#ffffff",
+            css: {"background-color": "#ff7700", "color": "#660033",
             "text-outline-color": "#ff7700", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_ancestors3",
-            css: {"background-color": "#ff4400",  "color": "#ffffff",
+            css: {"background-color": "#ff4400",  "color": "#660033",
             "text-outline-color": "#ff4400", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_ancestors4",
-            css: {"background-color": "#ff0000",  "color": "#ffffff",
+            css: {"background-color": "#ff0000",  "color": "#660033",
             "text-outline-color": "#ff0000", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         // 選択された(強調表示する)子孫のスタイル
         {
             selector: "node.selected_descendants0",
-            css: {"background-color": "#00ffff", "color": "#ffffff",
+            css: {"background-color": "#00ffff", "color": "#330066",
             "text-outline-color": "#00ffff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_descendants1",
-            css: {"background-color": "#00ddff", "color": "#ffffff",
+            css: {"background-color": "#00ddff", "color": "#330066",
             "text-outline-color": "#00ddff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_descendants2",
-            css: {"background-color": "#00bbff", "color": "#ffffff",
+            css: {"background-color": "#00bbff", "color": "#330066",
             "text-outline-color": "#00bbff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_descendants3",
-            css: {"background-color": "#0077ff", "color": "#000000",
+            css: {"background-color": "#0077ff", "color": "#330066",
             "text-outline-color": "#0077ff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_descendants4",
-            css: {"background-color": "#0000ff", "color": "#000000",
+            css: {"background-color": "#0000ff", "color": "#330066",
             "text-outline-color": "#0000ff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.interaction",
-            css: {"background-color": "#ff00ff", "color": "#ffffff",
+            css: {"background-color": "#ff00ff", "color": "#330066",
             "text-outline-color": "#ff00ff", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         // 強調表示されたノードをつなぐエッジのスタイル
@@ -264,6 +255,40 @@ $(function(){
         {
             selector: "node:parent.faded",
             css: {"opacity": 1}
+        },
+        {
+            selector: "node.select",
+            css: {"background-color": "#FF0000"}
+        },
+        {
+            selector: "node.cluster_red",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#FF4B00"}
+        },
+        {
+            selector: "node.cluster_blue",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#005AFF"}
+        },
+        {
+            selector: "node.cluster_green",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#03AF7A"}
+        },
+        {
+            selector: "node.cluster_cyan",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#4DC4FF"}
+        },
+        {
+            selector: "node.cluster_orange",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#F6AA00"}
+        },
+        {
+            selector: "node.cluster_yellow",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#FFF100"}
         }
 
     ]);
@@ -273,18 +298,24 @@ $(function(){
     cy.fit(cy.nodes().orphans());
     let allAncestors = nodes.ancestors();
     let allOrphans = nodes.orphans();
-    cy.style().selector(allAncestors&&allOrphans).style({
+    let common = allAncestors&&allOrphans;
+    for(let i=common.length-1; i>=0; i--){//TARSKIを配列から削除
+        if(!common[i]._private.data.id.match(/^[\/]/)){
+            common.splice(i, 1);
+        }
+    }
+    cy.style().selector(common).style({
         'content': 'data(name)',
-        'font-size': 200,
+        'font-size': 500,
         "text-outline-color": '#FFFFFF',
         'color': '#000000',
         'text-valign': 'top',
         'text-halign': 'center',
         'background-color': '#20bd3d',
         'background-opacity': 0.25
-    })
-    
+    })  
     .update()
+    let cluster = [];
     $("#open").prop("disabled", true);
     let parent_nodes_positions = new Map();
     (allAncestors&&allOrphans).forEach(parent => {
@@ -292,7 +323,7 @@ $(function(){
         parent_nodes_positions.set(parent._private.data.id, {x:position.x, y:position.y});
     })
 
-    $("#hierarchical").click(function(){
+    /*$("#hierarchical").click(function(){
         console.log(nodeData)
         for(let i = 0; i < nodeData.length; i++){
             let moveNode = nodeData[i];
@@ -312,58 +343,7 @@ $(function(){
             }
         }
         
-        console.log(cy.$(allAncestors&&allOrphans))
-        const allposition = new Map();
-        for(let dire of cy.$(allAncestors&&allOrphans)){
-            //allposition.set()
-        }
-        const blob = new Blob([cy.nodes().positions()],{type:"text/plain"});
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
-        link.download = 'allPositions.txt';
-        //link.click();
-        
-
-        /*let root = allAncestors&&allOrphans;
-        for(let i = 0; i < root.length; i++){
-            if((root[i]._private.data.id.match( /TARSKI_/g ) || []).length == 0){
-                let rootNodePositionX = parseInt(JSON.parse(JSON.stringify(root[i]._private.position.x)));
-                let rootNodePositionY = parseInt(JSON.parse(JSON.stringify(root[i]._private.position.y)));
-
-                let positionX = rootNodePositionX
-                let positionY = rootNodePositionY
-                let x = 0;
-                console.log(root[i].descendants().length)
-                for(let j = 0; j < root[i].descendants().length; j++){
-                    let child = root[i].descendants()[j]
-                    if(x > 3150){
-                        x = 0;
-                        positionY += 400;
-                    }
-
-                    if(!id2relatedElements.get(child._private.data.id).isParent){
-                        positionX = rootNodePositionX + x;
-                        cy.$(child).position("x", positionX)
-                        cy.$(child).position("y", positionY)
-                        x += 450;
-                        
-                    }
-                    else{
-                        if((child.children().length * 450 + x) > 3600){
-                            x = 0;
-                            positionY += 400;
-                        }
-                    }
-                    
-                }
-
-                
-
-                //console.log(root[i]._private.data.id, root[i].descendants())
-            }
-        }*/
-
-    })
+    })*/
     
     // 強調表示する祖先、子孫の世代数の初期化
     let ancestor_generations = 1;
@@ -395,40 +375,45 @@ $(function(){
     for (let article_name of all_article_names){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
     }
-    console.log(all_parent_names)
     let generation1, generation2, generation3;
+    
     for (let parent_name of all_parent_names){
         if(parent_name){
             let parentsDisplayName = parent_name[0];
             let parentsFullName = parent_name[1];
             switch ((parentsFullName.match( /\//g)||[]).length) {
                 case 1:
-                    $("#parent_list").prepend("<details id="+parentsFullName+"><summary>"+parentsDisplayName+"</summary></details>")
+                    cluster.push("\r\n")//?
+                    $("#parent_list").prepend("<details id="+parentsFullName+" class=sideMenu><summary>"+parentsDisplayName+"</summary></details>")
                     generation1 = "#\\" + parentsFullName;
                     if(id2relatedElements.get(parentsFullName).isParent){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
-                                $(generation1).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                                $(generation1).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>");
+                                cluster.push(child._private.data.id+"\r\n");
                             }
                         }
                     }
+                    //$(generation1).append("<input type=\"button\" class=\"btn btn-primary btn-sm btnGen1\" value=\"sea\" id="+generation1+" >");
                     break;
                       
                 case 2:
-                    $(generation1).prepend("<details id="+parentsFullName+" class=indent1><summary>"+parentsDisplayName+"</summary></details>")
+                    $(generation1).prepend("<details id="+parentsFullName+" class=\"indent1 sideMenu\"><summary>"+parentsDisplayName+"</summary></details>")
                     let indexOfSlash = parentsFullName.lastIndexOf("/")
                     generation2 = "#\\" + parentsFullName.slice(0, indexOfSlash) + "\\" + parentsFullName.slice(indexOfSlash)
                     if(id2relatedElements.get(parentsFullName).isParent){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
                                 $(generation2).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                                cluster.push(child._private.data.id+"\r\n");
                             }
                         }
                     }
+                    $(generation2).append("<li class=\"btnGen1\" id="+generation2+">highlight</li>");
                     break;
                     
                 case 3:
-                    $(generation2).prepend("<details id="+parentsFullName+" class=indent2><summary>"+parentsDisplayName+"</summary></details>")
+                    $(generation2).prepend("<details id="+parentsFullName+" class=\"indent2 sideMenu\"><summary>"+parentsDisplayName+"</summary></details>")
                     let indexOfSlash2 = parentsFullName.indexOf("/",1)
                     let indexOfSlash3 = parentsFullName.lastIndexOf("/")
                     generation3 = "#\\" + parentsFullName.slice(0, indexOfSlash2) + "\\" + parentsFullName.slice(indexOfSlash2, indexOfSlash3) + "\\" + parentsFullName.slice(indexOfSlash3)
@@ -436,9 +421,11 @@ $(function(){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
                                 $(generation3).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                                cluster.push(child._private.data.id+"\r\n");
                             }
                         }
                     }
+                    $(generation3).append("<li class=\"btnGen1\" id="+generation3+">highlight</li>");
                     break;
                 default:
                     break;
@@ -451,11 +438,13 @@ $(function(){
             generation3="";
         }
     }
+    //$(".btnGen1").click(function(){
+        
+    //})
 
-    /*$("details").click(function(){
-        reset_elements_style(cy);
-        console.log($(this).attr("id"));
-        clickText = $(this).attr("id")
+
+    /*$(".sideMenu").contextMenu(function(){
+        let parentId = $(this).attr("id")
         if(id2relatedElements.get(clickText).removed){
             let ancestorsOfSelectnode = id2relatedElements.get(clickText).ancestors
             for(let i = ancestorsOfSelectnode.length -1; i > -1; i--){// ノードが非表示である場合，格納したディレクトリを上層から順に開くためデクリメントで処理
@@ -463,18 +452,28 @@ $(function(){
             }
             restoreChildren(clickText, cy.$(clickText), id2relatedElements)
         }
-        let select_node = nodes.filter(function(ele){
-            return ele.data("id") == clickText;
-        });
-        console.log(select_node);
-        cy.$(select_node).addClass("highlight");
-        cy.center(cy.$(select_node));
 
-    })*/
+    });*/
+
+    let all_cluster_color = ["cluster_red", "cluster_blue", "cluster_green", "cluster_cyan", "cluster_orange", "cluster_yellow"];
+    let color_number = 0;
     $("li").click(function(){
-        let nodeID = $(this).attr("id")
-        searchNode(nodeID, nodes, id2relatedElements)
-    })
+        if($(this).hasClass("btnGen1")){
+            let cluster = cy.$(this.id).descendants();
+            cluster.forEach(child => {
+                if(!child.isParent()){
+                    child.addClass(all_cluster_color[color_number]);
+                }
+            });
+            document.getElementById(all_cluster_color[color_number]).innerHTML = cy.$(this.id).id()
+            color_number++;
+            if(color_number > 5)color_number = 0;
+        }
+        else{
+            let nodeID = $(this).attr("id")
+            searchNode(nodeID, nodes, id2relatedElements)
+        }
+    });
 
     // searchボタンをクリックしたら検索開始
     $("#search").click(function() {
@@ -511,6 +510,8 @@ $(function(){
                     highlight_select_elements(cy, select_node, ancestor_generations, descendant_generations);
                     $("#select_article").text("SELECT: " + select_node_name);
                     $(".color_index").removeClass("hidden_");
+                    cy.center(select_node)
+                    console.log(select_node)
                 }
                 else{
                     alert("ERROR: Don't have '" + select_node_name + "' node. Please select existed nodes.");

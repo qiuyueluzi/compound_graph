@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON",
+                "name": "NEWTON",
+                "href": "http://mizar.org/version/current/html/newton.html"
+            },
+            "position": {
+                "x": 768.5400000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CATALAN1",
+                "name": "CATALAN1",
+                "href": "http://mizar.org/version/current/html/catalan1.html"
+            },
+            "position": {
+                "x": 366.57,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "STIRL2_1",
+                "name": "STIRL2_1",
+                "href": "http://mizar.org/version/current/html/stirl2_1.html"
+            },
+            "position": {
+                "x": 1170.54,
+                "y": 540.0
+            }
+        }
+    ]
+}

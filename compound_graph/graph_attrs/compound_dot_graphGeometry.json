@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD10",
+                "name": "GOBRD10",
+                "href": "http://mizar.org/version/current/html/gobrd10.html"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_TOPC",
+                "name": "PRE_TOPC",
+                "href": "http://mizar.org/version/current/html/pre_topc.html"
+            },
+            "position": {
+                "x": 1175.0400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INCSP_1",
+                "name": "INCSP_1",
+                "href": "http://mizar.org/version/current/html/incsp_1.html"
+            },
+            "position": {
+                "x": 1967.04,
+                "y": 108.0
+            }
+        }
+    ]
+}

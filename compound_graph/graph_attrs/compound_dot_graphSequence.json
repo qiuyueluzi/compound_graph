@@ -1,0 +1,448 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_NUM",
+                "name": "FIB_NUM",
+                "href": "http://mizar.org/version/current/html/fib_num.html"
+            },
+            "position": {
+                "x": 3522.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_NUM2",
+                "name": "FIB_NUM2",
+                "href": "http://mizar.org/version/current/html/fib_num2.html"
+            },
+            "position": {
+                "x": 3060.84,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_NUM3",
+                "name": "FIB_NUM3",
+                "href": "http://mizar.org/version/current/html/fib_num3.html"
+            },
+            "position": {
+                "x": 3060.84,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_1",
+                "name": "FINSEQ_1",
+                "href": "http://mizar.org/version/current/html/finseq_1.html"
+            },
+            "position": {
+                "x": 1956.8400000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_2",
+                "name": "FINSEQ_2",
+                "href": "http://mizar.org/version/current/html/finseq_2.html"
+            },
+            "position": {
+                "x": 2304.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQOP",
+                "name": "FINSEQOP",
+                "href": "http://mizar.org/version/current/html/finseqop.html"
+            },
+            "position": {
+                "x": 2604.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_3",
+                "name": "FINSEQ_3",
+                "href": "http://mizar.org/version/current/html/finseq_3.html"
+            },
+            "position": {
+                "x": 2970.8399999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_4",
+                "name": "FINSEQ_4",
+                "href": "http://mizar.org/version/current/html/finseq_4.html"
+            },
+            "position": {
+                "x": 3348.84,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSOP_1",
+                "name": "FINSOP_1",
+                "href": "http://mizar.org/version/current/html/finsop_1.html"
+            },
+            "position": {
+                "x": 3348.84,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_1",
+                "name": "RVSUM_1",
+                "href": "http://mizar.org/version/current/html/rvsum_1.html"
+            },
+            "position": {
+                "x": 2784.84,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFINSEQ",
+                "name": "RFINSEQ",
+                "href": "http://mizar.org/version/current/html/rfinseq.html"
+            },
+            "position": {
+                "x": 2028.84,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_5",
+                "name": "FINSEQ_5",
+                "href": "http://mizar.org/version/current/html/finseq_5.html"
+            },
+            "position": {
+                "x": 762.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_6",
+                "name": "FINSEQ_6",
+                "href": "http://mizar.org/version/current/html/finseq_6.html"
+            },
+            "position": {
+                "x": 762.84,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REARRAN1",
+                "name": "REARRAN1",
+                "href": "http://mizar.org/version/current/html/rearran1.html"
+            },
+            "position": {
+                "x": 2460.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AFINSQ_1",
+                "name": "AFINSQ_1",
+                "href": "http://mizar.org/version/current/html/afinsq_1.html"
+            },
+            "position": {
+                "x": 3588.8399999999997,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_7",
+                "name": "FINSEQ_7",
+                "href": "http://mizar.org/version/current/html/finseq_7.html"
+            },
+            "position": {
+                "x": 1170.84,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_2",
+                "name": "RVSUM_2",
+                "href": "http://mizar.org/version/current/html/rvsum_2.html"
+            },
+            "position": {
+                "x": 5112.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_8",
+                "name": "FINSEQ_8",
+                "href": "http://mizar.org/version/current/html/finseq_8.html"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFINSEQ2",
+                "name": "RFINSEQ2",
+                "href": "http://mizar.org/version/current/html/rfinseq2.html"
+            },
+            "position": {
+                "x": 1596.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AFINSQ_2",
+                "name": "AFINSQ_2",
+                "href": "http://mizar.org/version/current/html/afinsq_2.html"
+            },
+            "position": {
+                "x": 2226.8399999999997,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RECDEF_1",
+                "name": "RECDEF_1",
+                "href": "http://mizar.org/version/current/html/recdef_1.html"
+            },
+            "position": {
+                "x": 1536.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_2",
+                "name": "COMSEQ_2",
+                "href": "http://mizar.org/version/current/html/comseq_2.html"
+            },
+            "position": {
+                "x": 2268.84,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_2",
+                "name": "SEQ_2",
+                "href": "http://mizar.org/version/current/html/seq_2.html"
+            },
+            "position": {
+                "x": 2028.84,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_4",
+                "name": "SEQ_4",
+                "href": "http://mizar.org/version/current/html/seq_4.html"
+            },
+            "position": {
+                "x": 3918.8399999999997,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_1",
+                "name": "SERIES_1",
+                "href": "http://mizar.org/version/current/html/series_1.html"
+            },
+            "position": {
+                "x": 4314.84,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_3",
+                "name": "COMSEQ_3",
+                "href": "http://mizar.org/version/current/html/comseq_3.html"
+            },
+            "position": {
+                "x": 4734.84,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINFSUP1",
+                "name": "RINFSUP1",
+                "href": "http://mizar.org/version/current/html/rinfsup1.html"
+            },
+            "position": {
+                "x": 6174.599999999999,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINFSUP2",
+                "name": "RINFSUP2",
+                "href": "http://mizar.org/version/current/html/rinfsup2.html"
+            },
+            "position": {
+                "x": 6408.599999999999,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETLIM_1",
+                "name": "SETLIM_1",
+                "href": "http://mizar.org/version/current/html/setlim_1.html"
+            },
+            "position": {
+                "x": 6588.6,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETLIM_2",
+                "name": "SETLIM_2",
+                "href": "http://mizar.org/version/current/html/setlim_2.html"
+            },
+            "position": {
+                "x": 7002.599999999999,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_1",
+                "name": "SEQ_1",
+                "href": "http://mizar.org/version/current/html/seq_1.html"
+            },
+            "position": {
+                "x": 1518.8400000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_1",
+                "name": "COMSEQ_1",
+                "href": "http://mizar.org/version/current/html/comseq_1.html"
+            },
+            "position": {
+                "x": 2118.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQM_3",
+                "name": "SEQM_3",
+                "href": "http://mizar.org/version/current/html/seqm_3.html"
+            },
+            "position": {
+                "x": 2028.84,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_3",
+                "name": "SERIES_3",
+                "href": "http://mizar.org/version/current/html/series_3.html"
+            },
+            "position": {
+                "x": 5580.839999999999,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_4",
+                "name": "SERIES_4",
+                "href": "http://mizar.org/version/current/html/series_4.html"
+            },
+            "position": {
+                "x": 5178.839999999999,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_5",
+                "name": "SERIES_5",
+                "href": "http://mizar.org/version/current/html/series_5.html"
+            },
+            "position": {
+                "x": 5982.84,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_2",
+                "name": "SERIES_2",
+                "href": "http://mizar.org/version/current/html/series_2.html"
+            },
+            "position": {
+                "x": 3888.8399999999997,
+                "y": 3996.0
+            }
+        }
+    ]
+}

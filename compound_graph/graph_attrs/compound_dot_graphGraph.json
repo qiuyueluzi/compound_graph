@@ -1,0 +1,100 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_1",
+                "name": "TREES_1",
+                "href": "http://mizar.org/version/current/html/trees_1.html"
+            },
+            "position": {
+                "x": 701.7,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_2",
+                "name": "TREES_2",
+                "href": "http://mizar.org/version/current/html/trees_2.html"
+            },
+            "position": {
+                "x": 701.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_A",
+                "name": "TREES_A",
+                "href": "http://mizar.org/version/current/html/trees_a.html"
+            },
+            "position": {
+                "x": 323.67,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_3",
+                "name": "TREES_3",
+                "href": "http://mizar.org/version/current/html/trees_3.html"
+            },
+            "position": {
+                "x": 1079.6999999999998,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_4",
+                "name": "TREES_4",
+                "href": "http://mizar.org/version/current/html/trees_4.html"
+            },
+            "position": {
+                "x": 1013.7,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_9",
+                "name": "TREES_9",
+                "href": "http://mizar.org/version/current/html/trees_9.html"
+            },
+            "position": {
+                "x": 701.7,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_000",
+                "name": "GLIB_000",
+                "href": "http://mizar.org/version/current/html/glib_000.html"
+            },
+            "position": {
+                "x": 1469.7,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_1",
+                "name": "GRAPH_1",
+                "href": "http://mizar.org/version/current/html/graph_1.html"
+            },
+            "position": {
+                "x": 2249.7,
+                "y": 1836.0
+            }
+        }
+    ]
+}

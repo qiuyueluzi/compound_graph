@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARROW",
+                "name": "ARROW",
+                "href": "http://mizar.org/version/current/html/arrow.html"
+            },
+            "position": {
+                "x": 284.676,
+                "y": 108.0
+            }
+        }
+    ]
+}

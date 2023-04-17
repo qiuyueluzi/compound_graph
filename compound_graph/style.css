@@ -34,6 +34,13 @@ button:active{
     right: 20px;
 }
 
+.cluster_color_index{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    right: 20px;
+}
+
 .color_labels .number_row{
     width: 20px;
     text-align: center;
@@ -81,3 +88,7 @@ button:active{
 ul {
     list-style: none;
   }
+
+.btnGen1{
+    color: #a10000;
+}

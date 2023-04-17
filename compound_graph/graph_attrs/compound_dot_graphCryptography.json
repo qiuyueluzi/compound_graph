@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DESCIP_1",
+                "name": "DESCIP_1",
+                "href": "http://mizar.org/version/current/html/descip_1.html"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        }
+    ]
+}

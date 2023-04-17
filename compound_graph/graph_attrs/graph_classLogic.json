@@ -1,0 +1,464 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODAL_1",
+                "name": "MODAL_1",
+                "href": "http://mizar.org/version/current/html/modal_1.html"
+            },
+            "position": {
+                "x": 446.36400000000003,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG1",
+                "name": "QC_LANG1",
+                "href": "http://mizar.org/version/current/html/qc_lang1.html"
+            },
+            "position": {
+                "x": 1346.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG2",
+                "name": "QC_LANG2",
+                "href": "http://mizar.org/version/current/html/qc_lang2.html"
+            },
+            "position": {
+                "x": 1346.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG3",
+                "name": "QC_LANG3",
+                "href": "http://mizar.org/version/current/html/qc_lang3.html"
+            },
+            "position": {
+                "x": 920.3399999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_LANG",
+                "name": "CQC_LANG",
+                "href": "http://mizar.org/version/current/html/cqc_lang.html"
+            },
+            "position": {
+                "x": 920.3399999999999,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_THE1",
+                "name": "CQC_THE1",
+                "href": "http://mizar.org/version/current/html/cqc_the1.html"
+            },
+            "position": {
+                "x": 404.36400000000003,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUAT_1",
+                "name": "VALUAT_1",
+                "href": "http://mizar.org/version/current/html/valuat_1.html"
+            },
+            "position": {
+                "x": 920.3399999999999,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LUKASI_1",
+                "name": "LUKASI_1",
+                "href": "http://mizar.org/version/current/html/lukasi_1.html"
+            },
+            "position": {
+                "x": 386.36400000000003,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROCAL_1",
+                "name": "PROCAL_1",
+                "href": "http://mizar.org/version/current/html/procal_1.html"
+            },
+            "position": {
+                "x": 380.364,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTPRO_1",
+                "name": "INTPRO_1",
+                "href": "http://mizar.org/version/current/html/intpro_1.html"
+            },
+            "position": {
+                "x": 2108.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_THE2",
+                "name": "CQC_THE2",
+                "href": "http://mizar.org/version/current/html/cqc_the2.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILBERT1",
+                "name": "HILBERT1",
+                "href": "http://mizar.org/version/current/html/hilbert1.html"
+            },
+            "position": {
+                "x": 2924.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_SIM1",
+                "name": "CQC_SIM1",
+                "href": "http://mizar.org/version/current/html/cqc_sim1.html"
+            },
+            "position": {
+                "x": 1742.34,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_THE3",
+                "name": "CQC_THE3",
+                "href": "http://mizar.org/version/current/html/cqc_the3.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG4",
+                "name": "QC_LANG4",
+                "href": "http://mizar.org/version/current/html/qc_lang4.html"
+            },
+            "position": {
+                "x": 1778.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSTUT1",
+                "name": "SUBSTUT1",
+                "href": "http://mizar.org/version/current/html/substut1.html"
+            },
+            "position": {
+                "x": 1670.34,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBLEMMA",
+                "name": "SUBLEMMA",
+                "href": "http://mizar.org/version/current/html/sublemma.html"
+            },
+            "position": {
+                "x": 1268.3400000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSTUT2",
+                "name": "SUBSTUT2",
+                "href": "http://mizar.org/version/current/html/substut2.html"
+            },
+            "position": {
+                "x": 1268.3400000000001,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CALCUL_1",
+                "name": "CALCUL_1",
+                "href": "http://mizar.org/version/current/html/calcul_1.html"
+            },
+            "position": {
+                "x": 1268.3400000000001,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CALCUL_2",
+                "name": "CALCUL_2",
+                "href": "http://mizar.org/version/current/html/calcul_2.html"
+            },
+            "position": {
+                "x": 1268.3400000000001,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HENMODEL",
+                "name": "HENMODEL",
+                "href": "http://mizar.org/version/current/html/henmodel.html"
+            },
+            "position": {
+                "x": 1274.34,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOEDELCP",
+                "name": "GOEDELCP",
+                "href": "http://mizar.org/version/current/html/goedelcp.html"
+            },
+            "position": {
+                "x": 1274.34,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_TRANS",
+                "name": "QC_TRANS",
+                "href": "http://mizar.org/version/current/html/qc_trans.html"
+            },
+            "position": {
+                "x": 1274.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REWRITE1",
+                "name": "REWRITE1",
+                "href": "http://mizar.org/version/current/html/rewrite1.html"
+            },
+            "position": {
+                "x": 3764.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 4580.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 5360.34,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG2",
+                "target": "QC_LANG1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG3",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_LANG",
+                "target": "QC_LANG3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_THE1",
+                "target": "CQC_LANG"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUAT_1",
+                "target": "CQC_LANG"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LUKASI_1",
+                "target": "CQC_THE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROCAL_1",
+                "target": "LUKASI_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_THE2",
+                "target": "PROCAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_SIM1",
+                "target": "CQC_LANG"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_THE3",
+                "target": "CQC_THE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG4",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBSTUT1",
+                "target": "CQC_SIM1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBLEMMA",
+                "target": "VALUAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBLEMMA",
+                "target": "SUBSTUT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SUBSTUT2",
+                "target": "SUBLEMMA"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CALCUL_1",
+                "target": "CQC_THE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CALCUL_1",
+                "target": "SUBSTUT2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CALCUL_2",
+                "target": "CALCUL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HENMODEL",
+                "target": "CALCUL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDELCP",
+                "target": "HENMODEL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_TRANS",
+                "target": "GOEDELCP"
+            }
+        }
+    ],
+    "parents": []
+}

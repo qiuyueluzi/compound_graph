@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_1",
+                "name": "CAT_1",
+                "href": "http://mizar.org/version/current/html/cat_1.html"
+            },
+            "position": {
+                "x": 237.87600000000003,
+                "y": 108.0
+            }
+        }
+    ]
+}

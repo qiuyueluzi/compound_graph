@@ -4,9 +4,9 @@ import re
 from collections import defaultdict
 
 #描画する(クラスタリングを行った)articleを記入したファイル名
-articleList = "mml-lar-top334.txt"
+articleList = "mml-lar-top.txt"
 #mmlフォルダを格納したフォルダ名
-mmlDirectory = "2020-06-18"
+mmlDirectory = "2023-1-10"
 
 DIRECTIVES_2020 = ['vocabularies', 'constructors', 'notations', 'registrations',
               'theorems', 'schemes', 'definitions', 'requirements',
@@ -41,14 +41,14 @@ def make_miz_dependency():
 
     try:
         article2dependency_articles = dict()
-        os.chdir("mml/2020-06-18/")
+        os.chdir("mml/"+str(mmlDirectory)+"/")
         miz_files = glob.glob("*.miz")  # mmlディレクトリの.mizファイルを取り出す
 
     finally:
         os.chdir(cwd)
 
     for miz_file in new_mml_lar:
-        with open(os.path.join("mml/"+ str(mmlDirectory) +"/", miz_file), 'rt',
+        with open(os.path.join("mml/"+ str(mmlDirectory) +"/", miz_file.lower()), 'rt',
                   encoding='utf-8', errors="ignore") as f:
             miz_file_contents = f.read()
         directive2articles = extract_articles(miz_file_contents)

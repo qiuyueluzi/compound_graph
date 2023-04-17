@@ -115,7 +115,10 @@ def create_nodes(node2targets):
     # k: ノードの名前(str)、v: ノードkのターゲットノードのset[str]
     for k, v in node2targets.items():
         for target in v:
-            name2node[k].targets.add(name2node[target])
+            try:
+                name2node[k].targets.add(name2node[target])
+            except:
+                print(target+" is None")
 
     # sourcesの作成
     # k: ノードの名前、v: ノードkのNodeオブジェクト
@@ -357,4 +360,4 @@ def create_graph(node2targets, output_json_file):
 
 if __name__ == '__main__':
     article2ref_articles = retrieve_dependency.make_miz_dependency()
-    create_graph(article2ref_articles, "compound_dot_graph.json")
+    create_graph(article2ref_articles, "compound_dot_graphEconomics.json")
