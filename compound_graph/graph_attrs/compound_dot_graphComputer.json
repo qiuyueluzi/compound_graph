@@ -1,0 +1,160 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PNPROC_1",
+                "name": "PNPROC_1",
+                "href": "http://mizar.org/version/current/html/pnproc_1.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PETRI",
+                "name": "PETRI",
+                "href": "http://mizar.org/version/current/html/petri.html"
+            },
+            "position": {
+                "x": 1106.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NET_1",
+                "name": "NET_1",
+                "href": "http://mizar.org/version/current/html/net_1.html"
+            },
+            "position": {
+                "x": 1106.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_1",
+                "name": "GATE_1",
+                "href": "http://mizar.org/version/current/html/gate_1.html"
+            },
+            "position": {
+                "x": 2750.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_2",
+                "name": "GATE_2",
+                "href": "http://mizar.org/version/current/html/gate_2.html"
+            },
+            "position": {
+                "x": 1742.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_3",
+                "name": "GATE_3",
+                "href": "http://mizar.org/version/current/html/gate_3.html"
+            },
+            "position": {
+                "x": 2414.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_4",
+                "name": "GATE_4",
+                "href": "http://mizar.org/version/current/html/gate_4.html"
+            },
+            "position": {
+                "x": 3086.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_5",
+                "name": "GATE_5",
+                "href": "http://mizar.org/version/current/html/gate_5.html"
+            },
+            "position": {
+                "x": 3758.3399999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_CIRC",
+                "name": "PRE_CIRC",
+                "href": "http://mizar.org/version/current/html/pre_circ.html"
+            },
+            "position": {
+                "x": 4502.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GENEALG1",
+                "name": "GENEALG1",
+                "href": "http://mizar.org/version/current/html/genealg1.html"
+            },
+            "position": {
+                "x": 5354.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRGCOR_1",
+                "name": "PRGCOR_1",
+                "href": "http://mizar.org/version/current/html/prgcor_1.html"
+            },
+            "position": {
+                "x": 6224.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRGCOR_2",
+                "name": "PRGCOR_2",
+                "href": "http://mizar.org/version/current/html/prgcor_2.html"
+            },
+            "position": {
+                "x": 7082.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_FF",
+                "name": "PRE_FF",
+                "href": "http://mizar.org/version/current/html/pre_ff.html"
+            },
+            "position": {
+                "x": 6224.400000000001,
+                "y": 108.0
+            }
+        }
+    ]
+}
