@@ -4,7 +4,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $.when($.getJSON('./graph_attrs/graph_classHierar.json')).then((dot_graph) => {
+    $.when($.getJSON('./graph_attrs/graph_classHierar_test.json')).then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
@@ -432,6 +432,13 @@ $(function(){
             generation3="";
         }
     }
+
+    // グループ化されたノードの親ノードを取得します
+
+    
+    // 同じ親を持つノードをフィルタリングします
+    console.log(cy.nodes().length, cy.edges().length)
+    
 
     let all_cluster_color = ["cluster_indigo", "cluster_cyan", "cluster_teal", "cluster_green", "cluster_olive", "cluster_sand", "cluster_rose", "cluster_wine", "cluster_purple"];
     let color_number = 0;
