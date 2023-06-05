@@ -1,5 +1,4 @@
 import json
-import math
 
 def adjust_directory_positions(allgraph_objects, directories):
     # ディレクトリの中央位置を求める
@@ -14,26 +13,53 @@ def adjust_directory_positions(allgraph_objects, directories):
                 node_positions.append(obj['position'])
 
         while True:
-            # ディレクトリの範囲を計算
-            min_x = directory['x'] - 200
-            max_x = directory['x'] + 200
-            min_y = directory['y'] - 200
-            max_y = directory['y'] + 200
-
-            # 範囲とノード位置の判定
-            overlapping = False
+            # ディレクトリに属するノードの矩形領域を計算
+            min_x = float('inf')
+            max_x = float('-inf')
+            min_y = float('inf')
+            max_y = float('-inf')
             for pos in node_positions:
-                if min_x <= pos['x'] <= max_x and min_y <= pos['y'] <= max_y:
-                    overlapping = True
-                    break
+                if obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
+                    if pos['x'] < min_x:
+                        min_x = pos['x']
+                    if pos['x'] > max_x:
+                        max_x = pos['x']
+                    if pos['y'] < min_y:
+                        min_y = pos['y']
+                    if pos['y'] > max_y:
+                        max_y = pos['y']
+
+            # 矩形領域を調整して範囲を計算
+            min_x -= 200
+            max_x += 200
+            min_y -= 200
+            max_y += 200
+
+            # 範囲と他のディレクトリに属するノードの判定
+            overlapping = False
+            for dir in directories:
+                if dir['id'] != directory['id']:
+                    for pos in node_positions:
+                        if obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == dir['id']:
+                            if min_x <= pos['x'] <= max_x and min_y <= pos['y'] <= max_y:
+                                overlapping = True
+                                break
+                    if overlapping:
+                        break
 
             if not overlapping:
                 break
 
             # ディレクトリを中央位置から遠ざける
-            angle = math.atan2(directory['y'] - center_y, directory['x'] - center_x)
-            directory['x'] += math.cos(angle)
-            directory['y'] += math.sin(angle)
+            if directory['x'] < center_x:
+                directory['x'] -= 1
+            else:
+                directory['x'] += 1
+
+            if directory['y'] < center_y:
+                directory['y'] -= 1
+            else:
+                directory['y'] += 1
 
     # ディレクトリの範囲を調整
     for directory in directories:
@@ -45,6 +71,8 @@ def adjust_directory_positions(allgraph_objects, directories):
             if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
                 obj['position']['x'] += directory['x'] - center_x
                 obj['position']['y'] += directory['y'] - center_y
+
+
 
 allGraph_json = open('graph_attrs/graph_class.json', 'r')
 allgraph_objects = json.load(allGraph_json)
@@ -84,7 +112,8 @@ for n in range(len(directories)):
                 break
 
 # ノードの重なりを解消する
-allgraph_objects = resolve_node_overlap(allgraph_objects, directories)
+adjust_directory_positions(allgraph_objects, directories)
+
 
 with open('graph_attrs/graph_classHierar_test.json', 'w') as f:
     json.dump(allgraph_objects, f, indent=4)
