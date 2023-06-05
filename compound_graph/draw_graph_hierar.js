@@ -4,10 +4,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $.when(
-        $.getJSON('./graph_attrs/graph_classHierar.json')
-    )
-    .then((dot_graph) => {
+    $.when($.getJSON('./graph_attrs/graph_classHierar.json')).then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
@@ -19,18 +16,15 @@ $(function(){
             wheelSensitivity: 0.1,
             autounselectify: true,
             zoom: 0.025,
-
+            
         });
         
         cy.add(dot_graph["parents"]); //先にparentsを描画しなければ正しくレイアウトされないため、parentsから描画する
         cy.add(dot_graph["eleObjs"]);
         const nodeData = (dot_graph["eleObjs"]);
-    
-        let directories = [];
-        for(let x = 0; x < dot_graph["parents"].length; x++){ //ディレクトリ一覧を作成
-            directories[x] = dot_graph.parents[x].data["id"];
-        }
-
+        
+        let directories = dot_graph["parents"].map(parent => parent.data["id"]); //ディレクトリ一覧を作成
+        
         const id2relatedElements = new Map(); //全ノードのid・親子(複合)・接続エッジなどを格納
         /**id       :ノードのid
          * children :ノードのクラスタリング上の子ノード情報
@@ -43,35 +37,29 @@ $(function(){
          * Conpound graphsを使用しているとcytoscapeのノード非表示関数ele.hidden()が機能しなかったため、当コードでは削除/復元によって代用している。
          * id2relatedElementsは復元時のデータ読み込みに使用
          * 
-         */
+        */
         let nodes = cy.nodes();
-        for(let x = 0; x < nodes.length; x++){ //初期状態での全ノードの、関連するエッジの情報を記録
-            let currentNode = cy.$(nodes[x]);
+        nodes.forEach(node => { //初期状態での全ノードの、関連するエッジの情報を記録
+            let currentNode = cy.$(node);
             let id = currentNode.data('id');
             
             let childrenNodes = currentNode.children();
             let connectedEdges = currentNode.connectedEdges();
             let childConnectedEdges = currentNode.descendants().connectedEdges();
             let parentNode = currentNode.data('parent');
-
-            let ancestorNodes = []
-            currentNode.ancestors().forEach(function(ancestor){
-                ancestorNodes.push(ancestor.id())  //各ノードの祖先を記録
-            });
-            ancestorNodes.sort();
-            ancestorNodes.reverse(); 
+            let ancestorNodes = currentNode.ancestors().map(ancestor => ancestor.id());
+            ancestorNodes.sort().reverse();
             
-            let isParent = false;
-            if(childrenNodes.length > 0){
-                isParent = true;
-                currentNode.style({
-                    'shape': 'square',
-                    "width": "200", "height": "200",
-                    'color': '#000000',
-                    "text-outline-color": '#FFFFFF',
-                    'text-valign': 'top',
-                }); //selectorによる一括指定では変更できなかったため，個別に親ディレクトリのスタイル指定を行う
-            }
+            let isParent = childrenNodes.length > 0;
+            currentNode.style({
+                'shape': isParent ? 'square' : 'ellipse',
+                'width': isParent ? '200' : '80',
+                'height': isParent ? '200' : '80',
+                'color': '#000000',
+                'text-outline-color': '#FFFFFF',
+                'text-valign': isParent ? 'top' : 'center',
+            });
+            
             
             id2relatedElements.set(id, {
                 children :childrenNodes, 
@@ -81,55 +69,65 @@ $(function(){
                 isParent: isParent, 
                 removed: false
             });
-        }
-
+        })
+        
         let layout = cy.elements().layout({ //klayレイアウトを適用
             name: "klay",
             spacingFactor: 10
         })
         //layout.run()
-
+        
         let contextMenu = cy.contextMenus({ //右クリック時のコンテキストメニュー
             evtType: ['cxttap'],
             menuItems: [
-              {
-                id: 'select',
-                content: 'select',
-                tooltipText: 'select',
-                selector: 'node',
-                onClickFunction: (event) => {
-                  event.target.trigger("clickElement", event);
+                {
+                    id: 'Highlight Connected Nodes',
+                    content: 'Highlight Connected Nodes',
+                    tooltipText: 'Highlight Connected Nodes',
+                    selector: 'node',
+                    onClickFunction: (event) => {
+                        event.target.trigger("clickElement", event);
+                    },
+                    hasTrailingDivider: true,
                 },
-                hasTrailingDivider: true,
-              },
-              {
-                id: 'link',
-                content: 'link',
-                tooltipText: 'link',
-                selector: 'node',
-                hasTrailingDivider: true,
-                onClickFunction: (event) => {
-                    try {  // your browser may block popups
-                        window.open(event.target.data("href"));
-                    } catch(e){  // fall back on url change
-                        window.location.href = event.data("href");
+                {
+                    id: 'Go to Source Code',
+                    content: 'Go to Source Code',
+                    tooltipText: 'Go to Source Code',
+                    selector: 'node',
+                    hasTrailingDivider: true,
+                    onClickFunction: (event) => {
+                        try {  // your browser may block popups
+                            window.open(event.target.data("href"));
+                        } catch(e){  // fall back on url change
+                            window.location.href = event.data("href");
+                        }
+                    },
+                },
+                {
+                    id: 'open/close',
+                    content: 'open/close',
+                    tooltipText: 'open/close',
+                    selector: 'node',
+                    hasTrailingDivider: true,
+                    onClickFunction: (event) => {
+                        event.target.trigger("doubleTap", event);
                     }
                 },
-              },
-              {
-                  id: 'open/close',
-                  content: 'open/close',
-                  tooltipText: 'open/close',
-                  selector: 'node',
-                  hasTrailingDivider: true,
-                  onClickFunction: (event) => {
-                      event.target.trigger("doubleTap", event);
-                  }
-              }
+                {
+                    id: "Highlight Same Cluster Nodes",
+                    content: "Highlight Same Cluster Nodes",
+                    tooltipText: "Highlight Same Cluster Nodes",
+                    selector: 'node',
+                    onClickFunction: (event) => {
+                        event.target.trigger("coloring", event);
+                    },
+                    hasTrailingDivider: true,
+                }
             ],
-          });
+        });
 
-
+        
         // Set graph style
         cy.style([
             /* 初期状態のスタイル */
@@ -144,14 +142,14 @@ $(function(){
             {
                 selector: 'node:parent',
                 css: {
-                        'content': 'data(name)',
-                        'font-size': 0,
-                        "text-outline-color": '#FFFFFF',
-                        'color': '#000000',
-                        'text-valign': 'top',
-                        'text-halign': 'center',
-                        'background-color': '#20bd3d',
-                        'background-opacity': 0
+                    'content': 'data(name)',
+                    'font-size': 0,
+                    "text-outline-color": '#FFFFFF',
+                    'color': '#000000',
+                    'text-valign': 'top',
+                    'text-halign': 'center',
+                    'background-color': '#20bd3d',
+                    'background-opacity': 0
                 }
             },
             {
@@ -167,17 +165,17 @@ $(function(){
                 "content": "data(name)", "opacity": 1, "z-index": 10}
             },
             // 選択(左クリック)されたノードのスタイル
+            {
+                selector: "node.selected",
+                css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
+                "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
+            }
+        },
+        // 選択された(強調表示する)祖先のスタイル
         {
-            selector: "node.selected",
-            css: {"background-color": "#99ff00", "color": "#006633", "width": 300, "height": 300,
-            "text-outline-color": "#99ff00", "text-outline-opacity": 1, "text-outline-width": 10
-        }
-    },
-    // 選択された(強調表示する)祖先のスタイル
-    {
-        selector: "node.selected_ancestors0", 
-        css: {"background-color": "#ffbb00", "color": "#660033",
-        "text-outline-color": "#ffbb00", "text-outline-opacity": 1, "text-outline-width": 10}
+            selector: "node.selected_ancestors0", 
+            css: {"background-color": "#ffbb00", "color": "#660033",
+            "text-outline-color": "#ffbb00", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
             selector: "node.selected_ancestors1",
@@ -191,7 +189,7 @@ $(function(){
         },
         {
             selector: "node.selected_ancestors3",
-            css: {"background-color": "#ff4400",  "color": "#660033",
+            css: {"background-color": "#ff4400",  "color": "#660033",    
             "text-outline-color": "#ff4400", "text-outline-opacity": 1, "text-outline-width": 10}
         },
         {
@@ -261,35 +259,50 @@ $(function(){
             css: {"background-color": "#FF0000"}
         },
         {
-            selector: "node.cluster_red",
+            selector: "node.cluster_indigo",
             css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#FF4B00"}
-        },
-        {
-            selector: "node.cluster_blue",
-            css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#005AFF"}
-        },
-        {
-            selector: "node.cluster_green",
-            css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#03AF7A"}
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#332288"}
         },
         {
             selector: "node.cluster_cyan",
             css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#4DC4FF"}
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#88CCEE"}
         },
         {
-            selector: "node.cluster_orange",
+            selector: "node.cluster_teal",
             css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#F6AA00"}
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#44AA99"}
         },
         {
-            selector: "node.cluster_yellow",
+            selector: "node.cluster_green",
             css: {"width": 100, "height": 100, "font-size": 80,
-            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#FFF100"}
-        }
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#117733"}
+        },
+        {
+            selector: "node.cluster_olive",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#999933"}
+        },
+        {
+            selector: "node.cluster_sand",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#DDCC77"}
+        },
+        {
+            selector: "node.cluster_rose",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#CC6677"}
+        },
+        {
+            selector: "node.cluster_wine",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#882255"}
+        },
+        {
+            selector: "node.cluster_purple",
+            css: {"width": 100, "height": 100, "font-size": 80,
+            "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#AA4499"}
+        },
 
     ]);
     
@@ -322,28 +335,6 @@ $(function(){
         let position = parent.position();
         parent_nodes_positions.set(parent._private.data.id, {x:position.x, y:position.y});
     })
-
-    /*$("#hierarchical").click(function(){
-        console.log(nodeData)
-        for(let i = 0; i < nodeData.length; i++){
-            let moveNode = nodeData[i];
-            if((moveNode.data.id.match( /\//g ) || []).length != 1 && moveNode.group == "nodes" && (moveNode.data.id.match( /TARSKI_/g ) || []).length == 0){
-                let ancestors = id2relatedElements.get(moveNode.data.id).ancestors;
-                let rootNodeID = ancestors[ancestors.length - 1];
-                const rootNodePositionX = parent_nodes_positions.get(rootNodeID).x
-                const rootNodePositionY = parent_nodes_positions.get(rootNodeID).y
-                const currentPositionX = moveNode.position.x;
-                const currentPositionY = moveNode.position.y;
-                
-                let positionX = rootNodePositionX + (currentPositionX - rootNodePositionX)*0.18
-                let positionY = rootNodePositionY + (currentPositionY - rootNodePositionY)*0.18
-
-                cy.$("#"+moveNode.data.id).position("x", positionX);
-                cy.$("#"+moveNode.data.id).position("y", positionY);
-            }
-        }
-        
-    })*/
     
     // 強調表示する祖先、子孫の世代数の初期化
     let ancestor_generations = 1;
@@ -390,6 +381,7 @@ $(function(){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
                                 $(generation1).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>");
+                                //$(generation1).append("<li id="+child._private.data.id+"><input type=\"checkbox\">"+child._private.data.id+"</li>");
                                 cluster.push(child._private.data.id+"\r\n");
                             }
                         }
@@ -405,6 +397,7 @@ $(function(){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
                                 $(generation2).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                                //$(generation2).append("<li id="+child._private.data.id+"><input type=\"checkbox\">"+child._private.data.id+"</li>")
                                 cluster.push(child._private.data.id+"\r\n");
                             }
                         }
@@ -421,6 +414,7 @@ $(function(){
                         for(let child of id2relatedElements.get(parentsFullName).children){
                             if(!id2relatedElements.get(child._private.data.id).isParent){
                                 $(generation3).append("<li id="+child._private.data.id+">"+child._private.data.id+"</li>")
+                                //$(generation3).append("<li id="+child._private.data.id+"><input type=\"checkbox\">"+child._private.data.id+"</li>")
                                 cluster.push(child._private.data.id+"\r\n");
                             }
                         }
@@ -438,36 +432,23 @@ $(function(){
             generation3="";
         }
     }
-    //$(".btnGen1").click(function(){
-        
-    //})
 
-
-    /*$(".sideMenu").contextMenu(function(){
-        let parentId = $(this).attr("id")
-        if(id2relatedElements.get(clickText).removed){
-            let ancestorsOfSelectnode = id2relatedElements.get(clickText).ancestors
-            for(let i = ancestorsOfSelectnode.length -1; i > -1; i--){// ノードが非表示である場合，格納したディレクトリを上層から順に開くためデクリメントで処理
-                if(id2relatedElements.get(ancestorsOfSelectnode[i]).removed) restoreChildren(ancestorsOfSelectnode[i], cy.$(ancestorsOfSelectnode[i]), id2relatedElements)
-            }
-            restoreChildren(clickText, cy.$(clickText), id2relatedElements)
-        }
-
-    });*/
-
-    let all_cluster_color = ["cluster_red", "cluster_blue", "cluster_green", "cluster_cyan", "cluster_orange", "cluster_yellow"];
+    let all_cluster_color = ["cluster_indigo", "cluster_cyan", "cluster_teal", "cluster_green", "cluster_olive", "cluster_sand", "cluster_rose", "cluster_wine", "cluster_purple"];
     let color_number = 0;
     $("li").click(function(){
         if($(this).hasClass("btnGen1")){
             let cluster = cy.$(this.id).descendants();
+            console.log(cluster,this,this.id)
             cluster.forEach(child => {
                 if(!child.isParent()){
                     child.addClass(all_cluster_color[color_number]);
+                    let element = document.getElementById(child._private.data.id);
+                    element.style.color = "#332288";
                 }
             });
             document.getElementById(all_cluster_color[color_number]).innerHTML = cy.$(this.id).id()
             color_number++;
-            if(color_number > 5)color_number = 0;
+            if(color_number >= all_cluster_color.length)color_number = 0;
         }
         else{
             let nodeID = $(this).attr("id")
@@ -577,7 +558,9 @@ $(function(){
         $(window).on("mousemove", function(window_event){ 
             document.getElementById("name-plate").style.top = window_event.clientY + (10) + "px";
             document.getElementById("name-plate").style.left = window_event.clientX + (10) +"px";
-            if(!id2relatedElements.get(cy_event.target.data("id")).isParent)document.getElementById("name-plate").innerHTML = cy_event.target.data("name");
+            if(!id2relatedElements.get(cy_event.target.data("id")).isParent){
+                document.getElementById("name-plate").innerHTML = id2relatedElements.get(cy_event.target.data("id")).ancestors[0] + "<br>" + cy_event.target.data("name");
+            }
         })
     });
     
@@ -624,13 +607,17 @@ $(function(){
 
     //右クリック時の挙動
     cy.on('cxttap', 'node', function(e){
+        document.getElementById("name-plate").style.fontSize = ""
+        document.getElementById("name-plate").innerHTML = "";
         if(id2relatedElements.get(e.target.id()).isParent){
             contextMenu.showMenuItem('open/close')
-            contextMenu.hideMenuItem('link')
+            contextMenu.hideMenuItem('Go to Source Code')
+            contextMenu.hideMenuItem('Highlight Same Cluster Nodes')
         }
         else {
             contextMenu.hideMenuItem('open/close')
-            contextMenu.showMenuItem('link')
+            contextMenu.showMenuItem('Go to Source Code')
+            contextMenu.showMenuItem('Highlight Same Cluster Nodes')
         }
     })
 
