@@ -10,7 +10,7 @@ def adjust_directory_positions(allgraph_objects, directories):
         node_positions = []
         for obj in allgraph_objects['eleObjs']:
             if obj['group'] == 'nodes':
-                node_positions.append(obj['position'])
+                node_positions.append(obj)
 
         while True:
             # ディレクトリに属するノードの矩形領域を計算
@@ -19,29 +19,30 @@ def adjust_directory_positions(allgraph_objects, directories):
             min_y = float('inf')
             max_y = float('-inf')
             for pos in node_positions:
-                if obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
-                    if pos['x'] < min_x:
-                        min_x = pos['x']
-                    if pos['x'] > max_x:
-                        max_x = pos['x']
-                    if pos['y'] < min_y:
-                        min_y = pos['y']
-                    if pos['y'] > max_y:
-                        max_y = pos['y']
+                if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == directory['id']:
+                    if pos['position']['x'] < min_x:
+                        min_x = pos['position']['x']
+                    if pos['position']['x'] > max_x:
+                        max_x = pos['position']['x']
+                    if pos['position']['y'] < min_y:
+                        min_y = pos['position']['y']
+                    if pos['position']['y'] > max_y:
+                        max_y = pos['position']['y']
 
             # 矩形領域を調整して範囲を計算
             min_x -= 200
             max_x += 200
             min_y -= 200
             max_y += 200
+            print(directory['id'], min_x, max_x, min_y, max_y)
 
             # 範囲と他のディレクトリに属するノードの判定
             overlapping = False
             for dir in directories:
                 if dir['id'] != directory['id']:
                     for pos in node_positions:
-                        if obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == dir['id']:
-                            if min_x <= pos['x'] <= max_x and min_y <= pos['y'] <= max_y:
+                        if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == dir['id']:
+                            if min_x <= pos['position']['x'] <= max_x and min_y <= pos['position']['y'] <= max_y:
                                 overlapping = True
                                 break
                     if overlapping:
@@ -49,6 +50,8 @@ def adjust_directory_positions(allgraph_objects, directories):
 
             if not overlapping:
                 break
+
+            print(directory['id'], dir['id'])
 
             # ディレクトリを中央位置から遠ざける
             if directory['x'] < center_x:
@@ -71,6 +74,8 @@ def adjust_directory_positions(allgraph_objects, directories):
             if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
                 obj['position']['x'] += directory['x'] - center_x
                 obj['position']['y'] += directory['y'] - center_y
+
+
 
 
 

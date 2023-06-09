@@ -84,7 +84,7 @@ for n in range(len(directories)):
                 break
 
 # ノードの重なりを解消する
-allgraph_objects = resolve_node_overlap(allgraph_objects, directories)
+allgraph_objects = adjust_directory_positions(allgraph_objects, directories)
 
 with open('graph_attrs/graph_classHierar_test.json', 'w') as f:
     json.dump(allgraph_objects, f, indent=4)
