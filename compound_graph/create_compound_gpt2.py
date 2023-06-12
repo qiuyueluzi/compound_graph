@@ -1,4 +1,5 @@
 import json
+import math
 
 def adjust_directory_positions(allgraph_objects, directories):
     # ディレクトリの中央位置を求める
@@ -6,69 +7,70 @@ def adjust_directory_positions(allgraph_objects, directories):
     center_y = sum(dir['y'] for dir in directories) / len(directories)
 
     # ディレクトリの範囲を調整する関数
-    def adjust_directory_range(directory, center_x, center_y):
+    def adjust_directory_range(directories, center_x, center_y):
         node_positions = []
         for obj in allgraph_objects['eleObjs']:
             if obj['group'] == 'nodes':
                 node_positions.append(obj)
 
         while True:
-            # ディレクトリに属するノードの矩形領域を計算
-            min_x = float('inf')
-            max_x = float('-inf')
-            min_y = float('inf')
-            max_y = float('-inf')
-            for pos in node_positions:
-                if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == directory['id']:
-                    if pos['position']['x'] < min_x:
-                        min_x = pos['position']['x']
-                    if pos['position']['x'] > max_x:
-                        max_x = pos['position']['x']
-                    if pos['position']['y'] < min_y:
-                        min_y = pos['position']['y']
-                    if pos['position']['y'] > max_y:
-                        max_y = pos['position']['y']
+            overlapping_directories = []
+            for directory in directories:
+                # ディレクトリに属するノードの矩形領域を計算
+                min_x = float('inf')
+                max_x = float('-inf')
+                min_y = float('inf')
+                max_y = float('-inf')
+                for pos in node_positions:
+                    if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == directory['id']:
+                        if pos['position']['x'] < min_x:
+                            min_x = pos['position']['x']
+                        if pos['position']['x'] > max_x:
+                            max_x = pos['position']['x']
+                        if pos['position']['y'] < min_y:
+                            min_y = pos['position']['y']
+                        if pos['position']['y'] > max_y:
+                            max_y = pos['position']['y']
 
-            # 矩形領域を調整して範囲を計算
-            min_x -= 200
-            max_x += 200
-            min_y -= 200
-            max_y += 200
-            print(directory['id'], min_x, max_x, min_y, max_y)
+                # 矩形領域を調整して範囲を計算
+                min_x -= 200
+                max_x += 200
+                min_y -= 200
+                max_y += 200
+                print(directory['id'], min_x, max_x, min_y, max_y)
 
-            # 範囲と他のディレクトリに属するノードの判定
-            overlapping = False
-            for dir in directories:
-                if dir['id'] != directory['id']:
-                    for pos in node_positions:
-                        if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == dir['id']:
-                            if min_x <= pos['position']['x'] <= max_x and min_y <= pos['position']['y'] <= max_y:
-                                overlapping = True
-                                break
-                    if overlapping:
-                        break
+                # 範囲と他のディレクトリに属するノードの判定
+                overlapping = False
+                for dir in directories:
+                    if dir['id'] != directory['id']:
+                        for pos in node_positions:
+                            if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == dir['id']:
+                                if min_x <= pos['position']['x'] <= max_x and min_y <= pos['position']['y'] <= max_y:
+                                    overlapping = True
+                                    break
+                        if overlapping:
+                            break
 
-            if not overlapping:
+                if overlapping:
+                    overlapping_directories.append(directory)
+
+            if overlapping_directories == []:
                 break
+                
+            for directory in overlapping_directories:
+                # ディレクトリを中央位置から遠ざける
+                angle = math.atan2(directory['y'] - center_y, directory['x'] - center_x)
+                directory['x'] += int(500 * math.cos(angle))
+                directory['y'] += int(500 * math.sin(angle))
 
-            print(directory['id'], dir['id'])
-
-            # ディレクトリを中央位置から遠ざける
-            if directory['x'] < center_x:
-                directory['x'] -= 1
-            else:
-                directory['x'] += 1
-
-            if directory['y'] < center_y:
-                directory['y'] -= 1
-            else:
-                directory['y'] += 1
-
+                for node in node_positions:
+                    if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == directory['id']:
+                        node['position']['x'] += int(500 * math.cos(angle))
+                        node['position']['y'] += int(500 * math.sin(angle))
+            
     # ディレクトリの範囲を調整
-    for directory in directories:
-        adjust_directory_range(directory, center_x, center_y)
+    #adjust_directory_range(directories, center_x, center_y)
 
-    # ディレクトリに属するノードの位置を調整
     for directory in directories:
         for obj in allgraph_objects['eleObjs']:
             if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
