@@ -46,6 +46,16 @@ def adjust_directory_positions(allgraph_objects, directories):
                 obj['position']['x'] += directory['x'] - center_x
                 obj['position']['y'] += directory['y'] - center_y
 
+
+    # ディレクトリを中央位置から遠ざける
+    angle = math.atan2(directory['y'] - center_y, directory['x'] - center_x)
+    directory['x'] += int(500 * math.cos(angle))
+    directory['y'] += int(500 * math.sin(angle))
+    for node in node_positions:
+        if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == directory['id']:
+            node['position']['x'] += int(500 * math.cos(angle))
+            node['position']['y'] += int(500 * math.sin(angle))
+
 allGraph_json = open('graph_attrs/graph_class.json', 'r')
 allgraph_objects = json.load(allGraph_json)
 directories = [{"id":"set", "x":13731.638682352936, "y":14704.517647058823},
