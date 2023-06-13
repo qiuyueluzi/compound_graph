@@ -1,6 +1,8 @@
 import json
 import math
 
+cnt = 0
+
 def adjust_directory_positions(allgraph_objects, directories):
     # ディレクトリの中央位置を求める
     center_x = sum(dir['x'] for dir in directories) / len(directories)
@@ -20,6 +22,7 @@ def adjust_directory_positions(allgraph_objects, directories):
     # ディレクトリの範囲を調整する関数
 def adjust_directory_range(allgraph_objects, directories, center_x, center_y):
     node_positions = []
+    inverse = 1
 
     for obj in allgraph_objects['eleObjs']:
         if obj['group'] == 'nodes':
@@ -27,7 +30,6 @@ def adjust_directory_range(allgraph_objects, directories, center_x, center_y):
 
     while True:
         overlapping_directories = []
-        inverse = 1
         for directory in directories:
             # ディレクトリに属するノードの矩形領域を計算
             min_x = float('inf')
@@ -66,10 +68,10 @@ def adjust_directory_range(allgraph_objects, directories, center_x, center_y):
         print("hiraku")
 
         for directory in directories:
-            for obj in allgraph_objects['eleObjs']:
+            for obj in node_positions:
                 if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
-                    obj['position']['x'] += (directory['x'] - center_x)/10
-                    obj['position']['y'] += (directory['y'] - center_y)/10
+                    obj['position']['x'] += (directory['x'] - center_x)/inverse
+                    obj['position']['y'] += (directory['y'] - center_y)/inverse
 
         it = iter(overlapping_directories)
         while True:
@@ -91,15 +93,18 @@ def adjust_directory_range(allgraph_objects, directories, center_x, center_y):
 
             for node in node_positions:
                 if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == mini_directory["id"]:
-                    node['position']['x'] += int((mini_directory['center_x'] - big_directory['center_x']) / 50/inverse)
-                    node['position']['y'] += int((mini_directory['center_y'] - big_directory['center_y']) / 50/inverse)
+                    node['position']['x'] += int((mini_directory['center_x'] - big_directory['center_x']) * inverse/100)
+                    node['position']['y'] += int((mini_directory['center_y'] - big_directory['center_y']) * inverse/100)
         
-        inverse += 1
+        inverse += 5
+        print(inverse)
 
             
 
 
 def count_nodes_in_directory(directory, node_positions):
+    global cnt
+    cnt += 1
     count = 0
     min_x = float('inf')
     max_x = float('-inf')
@@ -107,6 +112,7 @@ def count_nodes_in_directory(directory, node_positions):
     max_y = float('-inf')
     for node in node_positions:
         if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == directory['id']:
+
             count += 1
             if node['position']['x'] < min_x:
                 min_x = node['position']['x']
