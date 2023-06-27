@@ -1,130 +1,171 @@
 import json
-import math
 
-cnt = 0
 
 def adjust_directory_positions(allgraph_objects, directories):
-    # ディレクトリの中央位置を求める
-    center_x = sum(dir['x'] for dir in directories) / len(directories)
-    center_y = sum(dir['y'] for dir in directories) / len(directories)
+    # ディレクトリの上端と下端の座標を求める
+    top_positions = {}  # ディレクトリの上端のy座標を保持する辞書
+    bottom_positions = {}  # ディレクトリの下端のy座標を保持する辞書
 
-    """for directory in directories:
-        for obj in allgraph_objects['eleObjs']:
-            if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
-                obj['position']['x'] += (directory['x'] - center_x)
-                obj['position']['y'] += (directory['y'] - center_y)
-        directory['x'] = directory['x'] - center_x
-        directory['y'] = directory['y'] - center_y"""
-
-    # ディレクトリの範囲を調整
-    adjust_directory_range(allgraph_objects, directories, center_x, center_y)
-
-    # ディレクトリの範囲を調整する関数
-def adjust_directory_range(allgraph_objects, directories, center_x, center_y):
-    node_positions = []
-    inverse = 1
+    for directory in directories:
+        dir_id = directory['id']
+        top_positions[dir_id] = float('inf')  # 初期値として十分に大きな値を設定
+        bottom_positions[dir_id] = float('-inf')  # 初期値として十分に小さな値を設定
 
     for obj in allgraph_objects['eleObjs']:
-        if obj['group'] == 'nodes':
-            node_positions.append(obj)
+        if obj['group'] == 'nodes' and obj['data'].get('parent'):
+            node_position_y = obj['position']['y']
+            node_directory = obj['data']['parent'].split("/", 2)[1]
+            if node_position_y < top_positions[node_directory] :
+                top_positions[node_directory] = node_position_y
 
-    while True:
-        overlapping_directories = []
-        for directory in directories:
-            # ディレクトリに属するノードの矩形領域を計算
-            min_x = float('inf')
-            max_x = float('-inf')
-            min_y = float('inf')
-            max_y = float('-inf')
-            for pos in node_positions:
-                if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == directory['id']:
-                    if pos['position']['x'] < min_x:
-                        min_x = pos['position']['x']
-                    if pos['position']['x'] > max_x:
-                        max_x = pos['position']['x']
-                    if pos['position']['y'] < min_y:
-                        min_y = pos['position']['y']
-                    if pos['position']['y'] > max_y:
-                        max_y = pos['position']['y']
+            if node_position_y > bottom_positions[node_directory] :
+                bottom_positions[node_directory] = node_position_y
 
-            # 矩形領域を調整して範囲を計算
-            min_x -= 200
-            max_x += 200
-            min_y -= 200
-            max_y += 200
+    same_level_directories = []
 
-            # 範囲と他のディレクトリに属するノードの判定
+    for directory in directories:
+        dir_id = directory['id']
+        for compare_directory in directories:
+            compare_dir_id = compare_directory['id']
+            if dir_id != compare_dir_id:
+                if top_positions[dir_id] < top_positions[compare_dir_id] and bottom_positions[dir_id] > bottom_positions[compare_dir_id]:
+                    same_level_directories.append([dir_id, compare_dir_id])
 
-            for dir in directories:
-                if dir['id'] != directory['id']:
-                    for pos in node_positions:
-                        if pos['data'].get('parent') and pos['data']['parent'].split("/", 2)[1] == dir['id']:
-                            if min_x <= pos['position']['x'] <= max_x and min_y <= pos['position']['y'] <= max_y:
-                                overlapping_directories.append(directory)
-                                overlapping_directories.append(dir)
 
-        if overlapping_directories == []:
-            break
-        print("hiraku")
+    print(same_level_directories)
 
-        for directory in directories:
-            for obj in node_positions:
-                if obj['group'] == 'nodes' and obj['data'].get('parent') and obj['data']['parent'].split("/", 2)[1] == directory['id']:
-                    obj['position']['x'] += (directory['x'] - center_x)/inverse
-                    obj['position']['y'] += (directory['y'] - center_y)/inverse
+    # pairsのコピーを作成
+    pairs_copy = same_level_directories.copy()
 
-        it = iter(overlapping_directories)
-        while True:
-            try:
-                dir1 = next(it)
-                dir2 = next(it)
-            except StopIteration:
+    # ペアの後者が同じであるペアを抽出して削除
+    for i in range(len(pairs_copy)):
+        for j in range(i + 1, len(pairs_copy)):
+            if j >= len(pairs_copy):
                 break
 
-            directorydata1 = count_nodes_in_directory(dir1, node_positions)
-            directorydata2 = count_nodes_in_directory(dir2, node_positions)
+            if pairs_copy[i][1] == pairs_copy[j][1]:
+                pair1 = pairs_copy[i]
+                pair2 = pairs_copy[j]
 
-            if directorydata1["node_count"] >= directorydata2["node_count"]:
-                mini_directory = directorydata2
-                big_directory = directorydata1
-            else :
-                mini_directory = directorydata1
-                big_directory = directorydata2
+                id_1 = pair1[0]
+                id_2 = pair1[1]
+                obj_1 = next(obj for obj in directories if obj["id"] == id_1)
+                obj_2 = next(obj for obj in directories if obj["id"] == id_2)
+                diff1 = abs(obj_1["y"] - obj_2["y"])
 
-            for node in node_positions:
-                if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == mini_directory["id"]:
-                    node['position']['x'] += int((mini_directory['center_x'] - big_directory['center_x']) * inverse/100)
-                    node['position']['y'] += int((mini_directory['center_y'] - big_directory['center_y']) * inverse/100)
-        
-        inverse += 5
-        print(inverse)
+                id_1 = pair2[0]
+                id_2 = pair2[1]
+                obj_1 = next(obj for obj in directories if obj["id"] == id_1)
+                obj_2 = next(obj for obj in directories if obj["id"] == id_2)
+                diff2 = abs(obj_1["y"] - obj_2["y"])
 
-            
+                if diff1 > diff2:
+                    pairs_copy.remove(pair1)
+                else:
+                    pairs_copy.remove(pair2)
+
+    print(pairs_copy)
+
+    # (1)のリスト
+    list1 = pairs_copy
+
+    # ソート処理を追加
+    list1.sort(key=lambda x: top_positions[x[0]])
+
+    # (2)のリスト
+    list2 = []
+
+    # リストの結合と集合型を使って変換
+    for l in list1:
+        # 結合する前に集合型に変換して重複を削除
+        s = set(l)
+        # 結合先のリストが空ならそのまま追加
+        if not list2:
+            list2.append(s)
+        else:
+            # 結合先のリストに同じ要素があるかどうか調べる
+            for i, t in enumerate(list2):
+                # 同じ要素があれば結合して更新
+                if s & t:
+                    list2[i] = s | t
+                    break
+            # 同じ要素がなければそのまま追加
+            else:
+                list2.append(s)
+
+    # 集合型からリスト型に戻す
+    list2 = [list(t) for t in list2]
+
+    # 結果を表示
+    print("result:", list2)
+
+    # ループで処理
+    for i in range(len(list2) - 1):
+        # list2[i]に属する最も下のノードの座標を格納する変数
+        lowest_node_y = float('-inf')
+
+        # list2[i+1]以降に属する最も上のノードの座標を格納する変数
+        highest_node_y = float('inf')
+        bottom_y = []
+        top_y = []
+        if(i>0):
+            print(highest_node_y)
+
+        for obj in allgraph_objects['eleObjs']:
+            if obj['group'] == 'nodes' and obj['data'].get('parent'):
+                node_id = obj['data']['id']
+                node_parent = obj['data']['parent'].split("/", 2)[1]
+                node_y = obj['position']['y']
+
+                # list2[i]に属するノードの処理
+                if node_parent in list2[i]:
+                    if node_y > lowest_node_y:
+                        lowest_node_y = node_y
+                        bottom_y = node_id
+
+                # list2[i+1]以降に属するノードの処理
+                for j in range(i + 1, len(list2)):
+                    if node_parent in list2[j]:
+                        if node_y < highest_node_y:
+                            highest_node_y = node_y
+                            top_y = node_id
+                            if(i>0):
+                                print(node_id,list2[j],node_parent)
+
+        print("Lowest Node Y:", lowest_node_y, bottom_y)
+        print("Highest Node Y:", highest_node_y, top_y)
+
+        # list2[i+1]以降のノードの位置調整
+        offset = lowest_node_y - highest_node_y + 1000
+
+        for obj in allgraph_objects['eleObjs']:
+            if obj['group'] == 'nodes' and obj['data'].get('parent'):
+                node_parent = obj['data']['parent'].split("/", 2)[1]
+
+                for j in range(i + 1, len(list2)):
+                    if node_parent in list2[j]:
+                        obj['position']['y'] += offset
+                        break
+
+        # list2[i+1]以降のディレクトリの位置調整
+        for directory in directories:
+            dir_id = directory['id']
+            if dir_id in list2[i]:
+                continue
+
+            for j in range(i + 1, len(list2)):
+                if dir_id in list2[j]:
+                    directory['y'] += offset
+                    break
+
+        print("Lowest Node Y:", lowest_node_y, bottom_y)
+        print("Highest Node Y:", highest_node_y, top_y)
 
 
-def count_nodes_in_directory(directory, node_positions):
-    global cnt
-    cnt += 1
-    count = 0
-    min_x = float('inf')
-    max_x = float('-inf')
-    min_y = float('inf')
-    max_y = float('-inf')
-    for node in node_positions:
-        if node['data'].get('parent') and node['data']['parent'].split("/", 2)[1] == directory['id']:
+    return directories
 
-            count += 1
-            if node['position']['x'] < min_x:
-                min_x = node['position']['x']
-            if node['position']['x'] > max_x:
-                max_x = node['position']['x']
-            if node['position']['y'] < min_y:
-                min_y = node['position']['y']
-            if node['position']['y'] > max_y:
-                max_y = node['position']['y']
-    
-    return {"id":directory["id"], "node_count":count, "center_x":int((min_x + max_x)/2), "center_y":int((min_y + max_y)/2)}
-            
+
+
 
 allGraph_json = open('graph_attrs/graph_class.json', 'r')
 allgraph_objects = json.load(allGraph_json)
