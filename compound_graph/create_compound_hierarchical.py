@@ -161,6 +161,67 @@ def adjust_directory_positions(allgraph_objects, directories):
         print("Lowest Node Y:", lowest_node_y, bottom_y)
         print("Highest Node Y:", highest_node_y, top_y)
 
+    # list2の各インデックスに格納されているリスト内のディレクトリをx座標順にソートする
+    print(list2)
+    for lst in list2:
+        lst.sort(key=lambda dir_id: directories[next(i for i, d in enumerate(directories) if d["id"] == dir_id)]["x"])
+    print(list2)
+    for list_x in list2:
+        for i in range(len(list_x) - 1):
+            # list2[i]に属する最も下のノードの座標を格納する変数
+            lowest_node_x = float('-inf')
+
+            # list2[i+1]以降に属する最も上のノードの座標を格納する変数
+            highest_node_x = float('inf')
+            bottom_x = []
+            top_x = []
+            if(i>0):
+                print(highest_node_x)
+
+            for obj in allgraph_objects['eleObjs']:
+                if obj['group'] == 'nodes' and obj['data'].get('parent'):
+                    node_id = obj['data']['id']
+                    node_parent = obj['data']['parent'].split("/", 2)[1]
+                    node_x = obj['position']['x']
+
+                    # list2[i]に属するノードの処理
+                    if node_parent in list_x[i]:
+                        if node_x > lowest_node_x:
+                            lowest_node_x = node_x
+                            bottom_x = node_id
+
+                    # list2[i+1]以降に属するノードの処理
+                    for j in range(i + 1, len(list_x)):
+                        if node_parent in list_x[j]:
+                            if node_x < highest_node_x:
+                                highest_node_x = node_x
+                                top_x = node_id
+                                if(i>0):
+                                    print(node_id,list_x[j],node_parent)
+
+
+            # list2[i+1]以降のノードの位置調整
+            offset = lowest_node_x - highest_node_x + 1000
+
+            for obj in allgraph_objects['eleObjs']:
+                if obj['group'] == 'nodes' and obj['data'].get('parent'):
+                    node_parent = obj['data']['parent'].split("/", 2)[1]
+
+                    for j in range(i + 1, len(list_x)):
+                        if node_parent in list_x[j]:
+                            obj['position']['x'] += offset
+                            break
+
+            # list2[i+1]以降のディレクトリの位置調整
+            for directory in directories:
+                dir_id = directory['id']
+                if dir_id in list_x[i]:
+                    continue
+
+                for j in range(i + 1, len(list_x)):
+                    if dir_id in list_x[j]:
+                        directory['x'] += offset
+                        break
 
     return directories
 
