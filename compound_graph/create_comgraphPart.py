@@ -3,6 +3,11 @@ import copy
 
 allGraph_json = open('graph_attrs/graph_class.json', 'r')
 allgraph_objects = json.load(allGraph_json)
+for node in allgraph_objects:
+    if node["group"] == "nodes" and node["data"].get("parent"):
+        fullDirectory = node["data"]["parent"]
+        
+
 directories = [{"id":"Economics", "x":7324.71, "y":24110.085}, {"id":"Combinatorics", "x":11077.830000000002, "y":29782.085}, 
                 {"id":"Logic", "x":7104.59, "y":20406.085}, {"id":"Set", "x":14799.244, "y":14800.550000000001}, 
                 {"id":"Cryptography", "x":11954.580000000002, "y":30294.085}, {"id":"Graph", "x":3987.990000000002, "y":22270.085}, 

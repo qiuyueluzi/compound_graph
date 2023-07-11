@@ -4,7 +4,7 @@ import re
 from collections import defaultdict
 
 #描画する(クラスタリングを行った)articleを記入したファイル名
-articleList = "mml-lar-top.txt"
+articleList = ""
 #mmlフォルダを格納したフォルダ名
 mmlDirectory = "2023-1-10"
 
@@ -16,7 +16,8 @@ DIRECTIVES_2003 = ['vocabulary', 'constructors', 'notations', 'clusters',
               'theorems', 'schemes', 'definitions', 'requirements']
 
 
-def make_miz_dependency():
+def make_miz_dependency(articleListName):
+    articleList = articleListName
     """
     articleが参照しているarticleを取得する．
     参照しているarticle ＝ 環境部に記載されたarticle（ただし，vocabulariesを除く）
