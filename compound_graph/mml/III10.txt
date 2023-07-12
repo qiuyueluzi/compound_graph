@@ -1,4 +1,0 @@
-binop_1
-rat_1
-vectsp_2
-o_ring_1

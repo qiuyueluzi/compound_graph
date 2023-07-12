@@ -1,5 +1,0 @@
-quin_1
-newton
-nat_3
-nat_4
-ntalgo_1

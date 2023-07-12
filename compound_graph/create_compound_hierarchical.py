@@ -231,7 +231,7 @@ def adjust_directory_positions(allgraph_objects, directories):
 
 allGraph_json = open('graph_attrs/graph_class_gpt.json', 'r')
 allgraph_objects = json.load(allGraph_json)
-directories = [{'id': 'I9', 'x': 5237.649999999998, 'y': 20628.0}, {'id': 'II1', 'x': 18145.610526315795, 'y': 7315.578947368421}, {'id': 'II2', 'x': 17695.6875, 'y': 14418.0}, {'id': 'II4', 'x': 16931.593548387104, 'y': 18962.709677419356}, {'id': 'II13', 'x': 10567.55, 'y': 16740.0}, {'id': 'II12', 'x': 10499.550000000001, 'y': 16092.000000000002}, {'id': 'III10', 'x': 18284.4, 'y': 10908.0}, {'id': 'II24', 'x': 11930.550000000001, 'y': 16956.0}, {'id': 'III6', 'x': 17435.4, 'y': 8748.0}, {'id': 'XII6', 'x': 17435.4, 'y': 9180.0}, {'id': 'I17', 'x': 425.688, 'y': 17388.0}, {'id': 'III1', 'x': 18662.4, 'y': 18252.0}, {'id': 'XIX1', 'x': 18777.4, 'y': 12348.0}, {'id': 'II6', 'x': 11122.628571428571, 'y': 18684.0}, {'id': 'XX1', 'x': 14349.63, 'y': 12549.6}, {'id': 'II9', 'x': 17234.63076923078, 'y': 14663.076923076924}, {'id': 'II10', 'x': 16052.400000000001, 'y': 14580.0}, {'id': 'I3', 'x': 9786.712499999998, 'y': 21258.0}, {'id': 'XV1', 'x': 16391.4, 'y': 16308.0}, {'id': 'X1', 'x': 27737.399999999998, 'y': 17820.0}, {'id': 'III4', 'x': 15714.6, 'y': 22658.4}, {'id': 'I1', 'x': 803.6999999999999, 'y': 18684.0}, {'id': 'I13', 'x': 16421.4, 'y': 16524.0}, {'id': 'XIX3', 'x': 13598.4, 'y': 16848.0}, {'id': 'II15', 'x': 9332.699999999999, 'y': 23632.363636363636}, {'id': 'II19', 'x': 20257.399999999998, 'y': 23220.0}, {'id': 'XIX2', 'x': 7122.299999999999, 'y': 21384.0}, {'id': 'III2', 'x': 15161.400000000001, 'y': 19548.0}, {'id': 'X25', 'x': 21303.0, 'y': 21880.8}, {'id': 'XI1', 'x': 10031.400000000001, 'y': 23004.000000000004}, {'id': 'X2', 'x': 23295.399999999998, 'y': 22140.0}, {'id': 'X6', 'x': 21036.704347826097, 'y': 24750.782608695652}, {'id': 'III5', 'x': 23909.4, 'y': 24300.0}, {'id': 'X18', 'x': 20993.4, 'y': 22572.0}, {'id': 'XI2', 'x': 10382.4, 'y': 23652.0}, {'id': 'XVII1', 'x': 21580.542857142857, 'y': 22942.285714285714}, {'id': 'X13', 'x': 24883.581818181814, 'y': 23632.363636363636}, {'id': 'II3', 'x': 9377.400000000001, 'y': 19116.0}, {'id': 'XXII16', 'x': 7391.400000000001, 'y': 23436.0}, {'id': 'XXI9', 'x': 12593.4, 'y': 23868.0}, {'id': 'X4', 'x': 27725.399999999998, 'y': 23436.0}, {'id': 'VII13', 'x': 20286.6, 'y': 24904.8}, {'id': 'X19', 'x': 13559.4, 'y': 23004.000000000004}, {'id': 'IV1', 'x': 12245.400000000001, 'y': 23220.0}, {'id': 'IV6', 'x': 15779.400000000001, 'y': 24300.0}, {'id': 'X23', 'x': 16313.4, 'y': 27756.0}, {'id': 'II8', 'x': 13508.400000000001, 'y': 24084.0}, {'id': 'IV2', 'x': 10073.400000000001, 'y': 24300.0}, {'id': 'IV3', 'x': 15815.400000000001, 'y': 25164.0}, {'id': 'X11', 'x': 18662.066666666666, 'y': 26748.0}, {'id': 'II14', 'x': 6593.400000000001, 'y': 24732.0}, {'id': 'XX6', 'x': 12683.400000000001, 'y': 24300.0}, {'id': 'VII9', 'x': 18173.4, 'y': 7452.0}, {'id': 'II16', 'x': 3935.7000000000003, 'y': 25164.0}]
+directories = [{'id': 'I', 'x': 8086.761230769234, 'y': 20777.53846153846}, {'id': 'II', 'x': 15586.408064516092, 'y': 16492.645161290322}, {'id': 'III', 'x': 18713.4, 'y': 19807.2}, {'id': 'XII', 'x': 17435.4, 'y': 9180.0}, {'id': '', 'x': 12538.372727272736, 'y': 23095.636363636364}, {'id': 'XIX', 'x': 11180.279999999999, 'y': 18367.2}, {'id': 'XX', 'x': 14198.154545454543, 'y': 13617.818181818182}, {'id': 'XV', 'x': 16391.4, 'y': 16308.0}, {'id': 'X', 'x': 21172.476923076912, 'y': 24632.30769230769}, {'id': 'XI', 'x': 10265.400000000001, 'y': 23436.0}, {'id': 'XVII', 'x': 21580.542857142857, 'y': 22942.285714285714}, {'id': 'XXII', 'x': 7391.400000000001, 'y': 23436.0}, {'id': 'XXI', 'x': 12593.4, 'y': 23868.0}, {'id': 'VII', 'x': 20094.490909090906, 'y': 23318.18181818182}, {'id': 'IV', 'x': 13231.8, 'y': 24040.8}]
 
 for n in range(len(directories)):
     part_json = open('graph_attrs/compound_dot_graph' + str(directories[n]['id']) + ".json", 'r')
@@ -239,13 +239,15 @@ for n in range(len(directories)):
 
     positionXsum = 0
     positionYsum = 0
+    count = 0
     for i in range(len(part_objects['eleObjs'])):
         if part_objects['eleObjs'][i]["group"] == "nodes":
             positionXsum += part_objects['eleObjs'][i]['position']['x']
             positionYsum += part_objects['eleObjs'][i]['position']['y']
+            count += 1
 
-    positionX = directories[n]['x'] - (positionXsum / len(part_objects['eleObjs']))
-    positionY = directories[n]['y'] - (positionYsum / len(part_objects['eleObjs']))
+    positionX = directories[n]['x']# - (positionXsum / count)
+    positionY = directories[n]['y']# - (positionYsum / count)
     for j in range(len(part_objects['eleObjs'])):
         if part_objects['eleObjs'][j]["group"] == "nodes":
             for k in range(len(allgraph_objects['eleObjs'])):
@@ -257,7 +259,7 @@ for n in range(len(directories)):
 
 
 # ノードの重なりを解消する
-adjust_directory_positions(allgraph_objects, directories)
+#adjust_directory_positions(allgraph_objects, directories)
 
 with open('graph_attrs/graph_classHierar_test.json', 'w') as f:
     json.dump(allgraph_objects, f, indent=4)

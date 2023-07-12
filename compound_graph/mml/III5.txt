@@ -1,4 +1,0 @@
-polyeq_1
-polyeq_2
-polyeq_3
-polyeq_5

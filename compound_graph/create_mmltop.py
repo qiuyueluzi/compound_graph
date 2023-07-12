@@ -1,6 +1,7 @@
 import json
 import glob
 import create_graph
+
 # ノードを分類毎に分けたtxtファイルを生成
 
 # mml_classification.jsonを読み込む
@@ -25,5 +26,5 @@ for classification in classification_data['mml_classification']:
 files = glob.glob("mml/*.txt")
 for fileName in files:
     directoryName = fileName.split(".")[0].split("/")[1]
-    print(directoryName)
+    print("create:"+directoryName)
     create_graph.create_part_graph(directoryName)

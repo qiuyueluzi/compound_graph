@@ -1,6 +1,0 @@
-ordinal1
-ordinal2
-ordinal3
-ordinal4
-ordinal5
-ordinal6
