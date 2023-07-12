@@ -1,0 +1,597 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLVECT_1",
+                "name": "RLVECT_1",
+                "href": "http://mizar.org/version/current/html/rlvect_1.html"
+            },
+            "position": {
+                "x": 2514.6000000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLSUB_1",
+                "name": "RLSUB_1",
+                "href": "http://mizar.org/version/current/html/rlsub_1.html"
+            },
+            "position": {
+                "x": 1752.6000000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORTSP_1",
+                "name": "ORTSP_1",
+                "href": "http://mizar.org/version/current/html/ortsp_1.html"
+            },
+            "position": {
+                "x": 2514.6000000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLSUB_2",
+                "name": "RLSUB_2",
+                "href": "http://mizar.org/version/current/html/rlsub_2.html"
+            },
+            "position": {
+                "x": 2478.6000000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLVECT_2",
+                "name": "RLVECT_2",
+                "href": "http://mizar.org/version/current/html/rlvect_2.html"
+            },
+            "position": {
+                "x": 3822.6000000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLVECT_3",
+                "name": "RLVECT_3",
+                "href": "http://mizar.org/version/current/html/rlvect_3.html"
+            },
+            "position": {
+                "x": 4392.6,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_4",
+                "name": "VECTSP_4",
+                "href": "http://mizar.org/version/current/html/vectsp_4.html"
+            },
+            "position": {
+                "x": 3006.6,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_5",
+                "name": "VECTSP_5",
+                "href": "http://mizar.org/version/current/html/vectsp_5.html"
+            },
+            "position": {
+                "x": 2748.6000000000004,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMSP_1",
+                "name": "NORMSP_1",
+                "href": "http://mizar.org/version/current/html/normsp_1.html"
+            },
+            "position": {
+                "x": 1650.6000000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VFUNCT_1",
+                "name": "VFUNCT_1",
+                "href": "http://mizar.org/version/current/html/vfunct_1.html"
+            },
+            "position": {
+                "x": 1650.6000000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_6",
+                "name": "VECTSP_6",
+                "href": "http://mizar.org/version/current/html/vectsp_6.html"
+            },
+            "position": {
+                "x": 3576.6000000000004,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_7",
+                "name": "VECTSP_7",
+                "href": "http://mizar.org/version/current/html/vectsp_7.html"
+            },
+            "position": {
+                "x": 3576.6000000000004,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_1",
+                "name": "BHSP_1",
+                "href": "http://mizar.org/version/current/html/bhsp_1.html"
+            },
+            "position": {
+                "x": 1296.6,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_2",
+                "name": "BHSP_2",
+                "href": "http://mizar.org/version/current/html/bhsp_2.html"
+            },
+            "position": {
+                "x": 288.576,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_3",
+                "name": "BHSP_3",
+                "href": "http://mizar.org/version/current/html/bhsp_3.html"
+            },
+            "position": {
+                "x": 288.576,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RUSUB_1",
+                "name": "RUSUB_1",
+                "href": "http://mizar.org/version/current/html/rusub_1.html"
+            },
+            "position": {
+                "x": 1710.6000000000004,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RUSUB_2",
+                "name": "RUSUB_2",
+                "href": "http://mizar.org/version/current/html/rusub_2.html"
+            },
+            "position": {
+                "x": 1944.6000000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RUSUB_3",
+                "name": "RUSUB_3",
+                "href": "http://mizar.org/version/current/html/rusub_3.html"
+            },
+            "position": {
+                "x": 4248.6,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLVECT_5",
+                "name": "RLVECT_5",
+                "href": "http://mizar.org/version/current/html/rlvect_5.html"
+            },
+            "position": {
+                "x": 4764.6,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RUSUB_4",
+                "name": "RUSUB_4",
+                "href": "http://mizar.org/version/current/html/rusub_4.html"
+            },
+            "position": {
+                "x": 4500.6,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_9",
+                "name": "VECTSP_9",
+                "href": "http://mizar.org/version/current/html/vectsp_9.html"
+            },
+            "position": {
+                "x": 3576.6000000000004,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP_8",
+                "name": "VECTSP_8",
+                "href": "http://mizar.org/version/current/html/vectsp_8.html"
+            },
+            "position": {
+                "x": 2748.6000000000004,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_4",
+                "name": "BHSP_4",
+                "href": "http://mizar.org/version/current/html/bhsp_4.html"
+            },
+            "position": {
+                "x": 288.576,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRLIN2",
+                "name": "MATRLIN2",
+                "href": "http://mizar.org/version/current/html/matrlin2.html"
+            },
+            "position": {
+                "x": 3432.6,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_5",
+                "name": "BHSP_5",
+                "href": "http://mizar.org/version/current/html/bhsp_5.html"
+            },
+            "position": {
+                "x": 972.6,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_6",
+                "name": "BHSP_6",
+                "href": "http://mizar.org/version/current/html/bhsp_6.html"
+            },
+            "position": {
+                "x": 972.6,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_7",
+                "name": "BHSP_7",
+                "href": "http://mizar.org/version/current/html/bhsp_7.html"
+            },
+            "position": {
+                "x": 972.6,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 5280.6,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 6060.6,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLSUB_1",
+                "target": "RLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORTSP_1",
+                "target": "RLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLSUB_2",
+                "target": "RLSUB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLVECT_2",
+                "target": "RLSUB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLVECT_3",
+                "target": "RLVECT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_4",
+                "target": "RLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_5",
+                "target": "VECTSP_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_5",
+                "target": "RLSUB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NORMSP_1",
+                "target": "RLSUB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VFUNCT_1",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_6",
+                "target": "RLVECT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_6",
+                "target": "VECTSP_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_6",
+                "target": "VFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_7",
+                "target": "VECTSP_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_7",
+                "target": "VECTSP_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_7",
+                "target": "RLVECT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_1",
+                "target": "VFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_2",
+                "target": "BHSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_3",
+                "target": "BHSP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_1",
+                "target": "BHSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_2",
+                "target": "RLSUB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_2",
+                "target": "RUSUB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_3",
+                "target": "RUSUB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_3",
+                "target": "RLVECT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLVECT_5",
+                "target": "RLVECT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_4",
+                "target": "RUSUB_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RUSUB_4",
+                "target": "RLVECT_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_9",
+                "target": "VECTSP_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTSP_8",
+                "target": "VECTSP_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_4",
+                "target": "BHSP_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRLIN2",
+                "target": "VECTSP_9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_5",
+                "target": "BHSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_6",
+                "target": "BHSP_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_6",
+                "target": "BHSP_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_7",
+                "target": "BHSP_6"
+            }
+        }
+    ]
+}

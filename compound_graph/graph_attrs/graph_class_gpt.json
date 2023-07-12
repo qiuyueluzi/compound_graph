@@ -6,7 +6,7 @@
                 "id": "TARSKI",
                 "name": "TARSKI",
                 "href": "http://mizar.org/version/current/html/tarski.html",
-                "parent": "/I/9/A"
+                "parent": "/I9/A"
             },
             "position": {
                 "x": 18179.4,
@@ -19,7 +19,7 @@
                 "id": "XBOOLE_0",
                 "name": "XBOOLE_0",
                 "href": "http://mizar.org/version/current/html/xboole_0.html",
-                "parent": "/II/1/A"
+                "parent": "/II1/A"
             },
             "position": {
                 "x": 18743.4,
@@ -32,7 +32,7 @@
                 "id": "BOOLE",
                 "name": "BOOLE",
                 "href": "http://mizar.org/version/current/html/boole.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 19751.4,
@@ -45,7 +45,7 @@
                 "id": "XBOOLE_1",
                 "name": "XBOOLE_1",
                 "href": "http://mizar.org/version/current/html/xboole_1.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 20513.4,
@@ -58,7 +58,7 @@
                 "id": "ENUMSET1",
                 "name": "ENUMSET1",
                 "href": "http://mizar.org/version/current/html/enumset1.html",
-                "parent": "/II/1/A"
+                "parent": "/II1/A"
             },
             "position": {
                 "x": 20357.4,
@@ -71,7 +71,7 @@
                 "id": "XTUPLE_0",
                 "name": "XTUPLE_0",
                 "href": "http://mizar.org/version/current/html/xtuple_0.html",
-                "parent": "/II/1/C"
+                "parent": "/II1/C"
             },
             "position": {
                 "x": 19739.4,
@@ -84,7 +84,7 @@
                 "id": "XFAMILY",
                 "name": "XFAMILY",
                 "href": "http://mizar.org/version/current/html/xfamily.html",
-                "parent": "/II/1/D"
+                "parent": "/II1/D"
             },
             "position": {
                 "x": 19583.4,
@@ -97,7 +97,7 @@
                 "id": "XREGULAR",
                 "name": "XREGULAR",
                 "href": "http://mizar.org/version/current/html/xregular.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 19379.4,
@@ -110,7 +110,7 @@
                 "id": "ZFMISC_1",
                 "name": "ZFMISC_1",
                 "href": "http://mizar.org/version/current/html/zfmisc_1.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 18893.4,
@@ -123,7 +123,7 @@
                 "id": "SUBSET_1",
                 "name": "SUBSET_1",
                 "href": "http://mizar.org/version/current/html/subset_1.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 18893.4,
@@ -136,7 +136,7 @@
                 "id": "SUBSET",
                 "name": "SUBSET",
                 "href": "http://mizar.org/version/current/html/subset.html",
-                "parent": "/II/1/B"
+                "parent": "/II1/B"
             },
             "position": {
                 "x": 18893.4,
@@ -149,7 +149,7 @@
                 "id": "SETFAM_1",
                 "name": "SETFAM_1",
                 "href": "http://mizar.org/version/current/html/setfam_1.html",
-                "parent": "/II/1/D"
+                "parent": "/II1/D"
             },
             "position": {
                 "x": 18503.4,
@@ -162,7 +162,7 @@
                 "id": "RELAT_1",
                 "name": "RELAT_1",
                 "href": "http://mizar.org/version/current/html/relat_1.html",
-                "parent": "/II/2/A"
+                "parent": "/II2/A"
             },
             "position": {
                 "x": 19547.4,
@@ -175,7 +175,7 @@
                 "id": "FUNCT_1",
                 "name": "FUNCT_1",
                 "href": "http://mizar.org/version/current/html/funct_1.html",
-                "parent": "/II/4/B"
+                "parent": "/II4/B"
             },
             "position": {
                 "x": 18371.4,
@@ -188,7 +188,7 @@
                 "id": "GRFUNC_1",
                 "name": "GRFUNC_1",
                 "href": "http://mizar.org/version/current/html/grfunc_1.html",
-                "parent": "/II/4/B"
+                "parent": "/II4/B"
             },
             "position": {
                 "x": 18791.4,
@@ -201,7 +201,7 @@
                 "id": "RELAT_2",
                 "name": "RELAT_2",
                 "href": "http://mizar.org/version/current/html/relat_2.html",
-                "parent": "/II/2/A"
+                "parent": "/II2/A"
             },
             "position": {
                 "x": 19595.399999999998,
@@ -214,7 +214,7 @@
                 "id": "ORDINAL1",
                 "name": "ORDINAL1",
                 "href": "http://mizar.org/version/current/html/ordinal1.html",
-                "parent": "/II/13/A"
+                "parent": "/II13/A"
             },
             "position": {
                 "x": 17969.4,
@@ -227,7 +227,7 @@
                 "id": "WELLORD1",
                 "name": "WELLORD1",
                 "href": "http://mizar.org/version/current/html/wellord1.html",
-                "parent": "/II/12/A"
+                "parent": "/II12/A"
             },
             "position": {
                 "x": 17063.4,
@@ -240,7 +240,7 @@
                 "id": "RELSET_1",
                 "name": "RELSET_1",
                 "href": "http://mizar.org/version/current/html/relset_1.html",
-                "parent": "/II/2/B"
+                "parent": "/II2/B"
             },
             "position": {
                 "x": 20075.4,
@@ -253,7 +253,7 @@
                 "id": "PARTFUN1",
                 "name": "PARTFUN1",
                 "href": "http://mizar.org/version/current/html/partfun1.html",
-                "parent": "/II/4/B"
+                "parent": "/II4/B"
             },
             "position": {
                 "x": 19607.4,
@@ -266,7 +266,7 @@
                 "id": "MCART_1",
                 "name": "MCART_1",
                 "href": "http://mizar.org/version/current/html/mcart_1.html",
-                "parent": "/II/1/A"
+                "parent": "/II1/A"
             },
             "position": {
                 "x": 18785.4,
@@ -279,7 +279,7 @@
                 "id": "WELLORD2",
                 "name": "WELLORD2",
                 "href": "http://mizar.org/version/current/html/wellord2.html",
-                "parent": "/I/9/A"
+                "parent": "/I9/A"
             },
             "position": {
                 "x": 17063.4,
@@ -292,7 +292,7 @@
                 "id": "FUNCT_2",
                 "name": "FUNCT_2",
                 "href": "http://mizar.org/version/current/html/funct_2.html",
-                "parent": "/II/1/A"
+                "parent": "/II1/A"
             },
             "position": {
                 "x": 19673.4,
@@ -305,7 +305,7 @@
                 "id": "BINOP_1",
                 "name": "BINOP_1",
                 "href": "http://mizar.org/version/current/html/binop_1.html",
-                "parent": "/III/10/A"
+                "parent": "/III10/A"
             },
             "position": {
                 "x": 20003.399999999998,
@@ -318,7 +318,7 @@
                 "id": "DOMAIN_1",
                 "name": "DOMAIN_1",
                 "href": "http://mizar.org/version/current/html/domain_1.html",
-                "parent": "/II/1/D"
+                "parent": "/II1/D"
             },
             "position": {
                 "x": 18857.4,
@@ -331,7 +331,7 @@
                 "id": "FUNCT_3",
                 "name": "FUNCT_3",
                 "href": "http://mizar.org/version/current/html/funct_3.html",
-                "parent": "/II/4/B"
+                "parent": "/II4/B"
             },
             "position": {
                 "x": 18365.4,
@@ -344,7 +344,7 @@
                 "id": "FUNCOP_1",
                 "name": "FUNCOP_1",
                 "href": "http://mizar.org/version/current/html/funcop_1.html",
-                "parent": "/II/24/H"
+                "parent": "/II24/H"
             },
             "position": {
                 "x": 18281.4,
@@ -357,7 +357,7 @@
                 "id": "REALSET1",
                 "name": "REALSET1",
                 "href": "http://mizar.org/version/current/html/realset1.html",
-                "parent": "/III/6/A"
+                "parent": "/III6/A"
             },
             "position": {
                 "x": 17435.4,
@@ -370,7 +370,7 @@
                 "id": "FUNCT_4",
                 "name": "FUNCT_4",
                 "href": "http://mizar.org/version/current/html/funct_4.html",
-                "parent": "/XII/6/A"
+                "parent": "/XII6/A"
             },
             "position": {
                 "x": 17435.4,
@@ -383,7 +383,7 @@
                 "id": "NUMERALS",
                 "name": "NUMERALS",
                 "href": "http://mizar.org/version/current/html/numerals.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 17969.4,
@@ -396,7 +396,7 @@
                 "id": "ORDINAL2",
                 "name": "ORDINAL2",
                 "href": "http://mizar.org/version/current/html/ordinal2.html",
-                "parent": "/II/13/A"
+                "parent": "/II13/A"
             },
             "position": {
                 "x": 18281.4,
@@ -409,7 +409,7 @@
                 "id": "ORDINAL3",
                 "name": "ORDINAL3",
                 "href": "http://mizar.org/version/current/html/ordinal3.html",
-                "parent": "/II/13/A"
+                "parent": "/II13/A"
             },
             "position": {
                 "x": 18251.4,
@@ -422,7 +422,7 @@
                 "id": "WELLSET1",
                 "name": "WELLSET1",
                 "href": "http://mizar.org/version/current/html/wellset1.html",
-                "parent": "/I/17/A"
+                "parent": "/I17/A"
             },
             "position": {
                 "x": 425.688,
@@ -435,7 +435,7 @@
                 "id": "MULTOP_1",
                 "name": "MULTOP_1",
                 "href": "http://mizar.org/version/current/html/multop_1.html",
-                "parent": "/III/1/"
+                "parent": "/III1/"
             },
             "position": {
                 "x": 19199.4,
@@ -448,7 +448,7 @@
                 "id": "SCHEMS_1",
                 "name": "SCHEMS_1",
                 "href": "http://mizar.org/version/current/html/schems_1.html",
-                "parent": "/III/1/"
+                "parent": "/III1/"
             },
             "position": {
                 "x": 18125.4,
@@ -461,7 +461,7 @@
                 "id": "SYSREL",
                 "name": "SYSREL",
                 "href": "http://mizar.org/version/current/html/sysrel.html",
-                "parent": "/II/2/A"
+                "parent": "/II2/A"
             },
             "position": {
                 "x": 28721.4,
@@ -474,7 +474,7 @@
                 "id": "FINSET_1",
                 "name": "FINSET_1",
                 "href": "http://mizar.org/version/current/html/finset_1.html",
-                "parent": "/XIX/1/"
+                "parent": "/XIX1/"
             },
             "position": {
                 "x": 17447.4,
@@ -487,7 +487,7 @@
                 "id": "CARD_1",
                 "name": "CARD_1",
                 "href": "http://mizar.org/version/current/html/card_1.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 16727.4,
@@ -500,7 +500,7 @@
                 "id": "CLASSES1",
                 "name": "CLASSES1",
                 "href": "http://mizar.org/version/current/html/classes1.html",
-                "parent": "/II/1/D"
+                "parent": "/II1/D"
             },
             "position": {
                 "x": 15551.4,
@@ -513,7 +513,7 @@
                 "id": "PBOOLE",
                 "name": "PBOOLE",
                 "href": "http://mizar.org/version/current/html/pboole.html",
-                "parent": "/II/1/A"
+                "parent": "/II1/A"
             },
             "position": {
                 "x": 15233.400000000001,
@@ -526,7 +526,7 @@
                 "id": "GATE_1",
                 "name": "GATE_1",
                 "href": "http://mizar.org/version/current/html/gate_1.html",
-                "parent": "/XX/1/C"
+                "parent": "/XX1/C"
             },
             "position": {
                 "x": 18743.4,
@@ -539,7 +539,7 @@
                 "id": "GATE_2",
                 "name": "GATE_2",
                 "href": "http://mizar.org/version/current/html/gate_2.html",
-                "parent": "/XX/1/C"
+                "parent": "/XX1/C"
             },
             "position": {
                 "x": 19751.4,
@@ -552,7 +552,7 @@
                 "id": "GATE_3",
                 "name": "GATE_3",
                 "href": "http://mizar.org/version/current/html/gate_3.html",
-                "parent": "/XX/1/C"
+                "parent": "/XX1/C"
             },
             "position": {
                 "x": 19079.4,
@@ -565,7 +565,7 @@
                 "id": "GATE_4",
                 "name": "GATE_4",
                 "href": "http://mizar.org/version/current/html/gate_4.html",
-                "parent": "/XX/1/C"
+                "parent": "/XX1/C"
             },
             "position": {
                 "x": 17735.4,
@@ -578,7 +578,7 @@
                 "id": "GATE_5",
                 "name": "GATE_5",
                 "href": "http://mizar.org/version/current/html/gate_5.html",
-                "parent": "/XX/1/C"
+                "parent": "/XX1/C"
             },
             "position": {
                 "x": 18407.4,
@@ -591,7 +591,7 @@
                 "id": "FINSUB_1",
                 "name": "FINSUB_1",
                 "href": "http://mizar.org/version/current/html/finsub_1.html",
-                "parent": "/XIX/1/"
+                "parent": "/XIX1/"
             },
             "position": {
                 "x": 18857.4,
@@ -604,7 +604,7 @@
                 "id": "ORDERS_1",
                 "name": "ORDERS_1",
                 "href": "http://mizar.org/version/current/html/orders_1.html",
-                "parent": "/II/1/C"
+                "parent": "/II1/C"
             },
             "position": {
                 "x": 13163.4,
@@ -617,7 +617,7 @@
                 "id": "SETWISEO",
                 "name": "SETWISEO",
                 "href": "http://mizar.org/version/current/html/setwiseo.html",
-                "parent": "/XIX/1/"
+                "parent": "/XIX1/"
             },
             "position": {
                 "x": 20027.4,
@@ -630,7 +630,7 @@
                 "id": "FRAENKEL",
                 "name": "FRAENKEL",
                 "href": "http://mizar.org/version/current/html/fraenkel.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 17549.4,
@@ -643,7 +643,7 @@
                 "id": "FUNCT_5",
                 "name": "FUNCT_5",
                 "href": "http://mizar.org/version/current/html/funct_5.html",
-                "parent": "/II/4/C"
+                "parent": "/II4/C"
             },
             "position": {
                 "x": 15143.4,
@@ -656,7 +656,7 @@
                 "id": "PARTFUN2",
                 "name": "PARTFUN2",
                 "href": "http://mizar.org/version/current/html/partfun2.html",
-                "parent": "/II/4/B"
+                "parent": "/II4/B"
             },
             "position": {
                 "x": 19247.4,
@@ -669,7 +669,7 @@
                 "id": "CARD_3",
                 "name": "CARD_3",
                 "href": "http://mizar.org/version/current/html/card_3.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 14975.400000000001,
@@ -682,7 +682,7 @@
                 "id": "FUNCT_6",
                 "name": "FUNCT_6",
                 "href": "http://mizar.org/version/current/html/funct_6.html",
-                "parent": "/II/4/C"
+                "parent": "/II4/C"
             },
             "position": {
                 "x": 14795.400000000001,
@@ -695,7 +695,7 @@
                 "id": "ARYTM_3",
                 "name": "ARYTM_3",
                 "href": "http://mizar.org/version/current/html/arytm_3.html",
-                "parent": "/II/9/D"
+                "parent": "/II9/D"
             },
             "position": {
                 "x": 18233.4,
@@ -708,7 +708,7 @@
                 "id": "ARYTM_2",
                 "name": "ARYTM_2",
                 "href": "http://mizar.org/version/current/html/arytm_2.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 18035.4,
@@ -721,7 +721,7 @@
                 "id": "ARYTM_1",
                 "name": "ARYTM_1",
                 "href": "http://mizar.org/version/current/html/arytm_1.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 18035.4,
@@ -734,7 +734,7 @@
                 "id": "NUMBERS",
                 "name": "NUMBERS",
                 "href": "http://mizar.org/version/current/html/numbers.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 17225.4,
@@ -747,7 +747,7 @@
                 "id": "ARYTM_0",
                 "name": "ARYTM_0",
                 "href": "http://mizar.org/version/current/html/arytm_0.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 17363.4,
@@ -760,7 +760,7 @@
                 "id": "XCMPLX_0",
                 "name": "XCMPLX_0",
                 "href": "http://mizar.org/version/current/html/xcmplx_0.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 17489.4,
@@ -773,7 +773,7 @@
                 "id": "ARITHM",
                 "name": "ARITHM",
                 "href": "http://mizar.org/version/current/html/arithm.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 17603.4,
@@ -786,7 +786,7 @@
                 "id": "XXREAL_0",
                 "name": "XXREAL_0",
                 "href": "http://mizar.org/version/current/html/xxreal_0.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 16835.4,
@@ -799,7 +799,7 @@
                 "id": "XREAL_0",
                 "name": "XREAL_0",
                 "href": "http://mizar.org/version/current/html/xreal_0.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 16835.4,
@@ -812,7 +812,7 @@
                 "id": "REAL",
                 "name": "REAL",
                 "href": "http://mizar.org/version/current/html/real.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 16619.4,
@@ -825,7 +825,7 @@
                 "id": "XCMPLX_1",
                 "name": "XCMPLX_1",
                 "href": "http://mizar.org/version/current/html/xcmplx_1.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 15923.400000000001,
@@ -838,7 +838,7 @@
                 "id": "XREAL_1",
                 "name": "XREAL_1",
                 "href": "http://mizar.org/version/current/html/xreal_1.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 15971.4,
@@ -851,7 +851,7 @@
                 "id": "AXIOMS",
                 "name": "AXIOMS",
                 "href": "http://mizar.org/version/current/html/axioms.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 17003.4,
@@ -864,7 +864,7 @@
                 "id": "REAL_1",
                 "name": "REAL_1",
                 "href": "http://mizar.org/version/current/html/real_1.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 16547.4,
@@ -877,7 +877,7 @@
                 "id": "SQUARE_1",
                 "name": "SQUARE_1",
                 "href": "http://mizar.org/version/current/html/square_1.html",
-                "parent": "/II/10/B"
+                "parent": "/II10/B"
             },
             "position": {
                 "x": 15557.400000000001,
@@ -890,7 +890,7 @@
                 "id": "NAT_1",
                 "name": "NAT_1",
                 "href": "http://mizar.org/version/current/html/nat_1.html",
-                "parent": "/II/9/B"
+                "parent": "/II9/B"
             },
             "position": {
                 "x": 15917.4,
@@ -903,7 +903,7 @@
                 "id": "INT_1",
                 "name": "INT_1",
                 "href": "http://mizar.org/version/current/html/int_1.html",
-                "parent": "/II/10/B"
+                "parent": "/II10/B"
             },
             "position": {
                 "x": 16547.4,
@@ -916,7 +916,7 @@
                 "id": "RAT_1",
                 "name": "RAT_1",
                 "href": "http://mizar.org/version/current/html/rat_1.html",
-                "parent": "/III/10/B"
+                "parent": "/III10/B"
             },
             "position": {
                 "x": 16565.4,
@@ -929,7 +929,7 @@
                 "id": "MEMBERED",
                 "name": "MEMBERED",
                 "href": "http://mizar.org/version/current/html/membered.html",
-                "parent": "/I/3/A"
+                "parent": "/I3/A"
             },
             "position": {
                 "x": 18467.4,
@@ -942,7 +942,7 @@
                 "id": "VALUED_0",
                 "name": "VALUED_0",
                 "href": "http://mizar.org/version/current/html/valued_0.html",
-                "parent": "/XV/1/B"
+                "parent": "/XV1/B"
             },
             "position": {
                 "x": 18533.4,
@@ -955,7 +955,7 @@
                 "id": "COMPLEX1",
                 "name": "COMPLEX1",
                 "href": "http://mizar.org/version/current/html/complex1.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 15425.400000000001,
@@ -968,7 +968,7 @@
                 "id": "ABSVALUE",
                 "name": "ABSVALUE",
                 "href": "http://mizar.org/version/current/html/absvalue.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 15017.4,
@@ -981,7 +981,7 @@
                 "id": "INT_2",
                 "name": "INT_2",
                 "href": "http://mizar.org/version/current/html/int_2.html",
-                "parent": "/II/9/C"
+                "parent": "/II9/C"
             },
             "position": {
                 "x": 14945.400000000001,
@@ -994,7 +994,7 @@
                 "id": "NAT_D",
                 "name": "NAT_D",
                 "href": "http://mizar.org/version/current/html/nat_d.html",
-                "parent": "/II/9/B"
+                "parent": "/II9/B"
             },
             "position": {
                 "x": 13829.400000000001,
@@ -1007,7 +1007,7 @@
                 "id": "BINOP_2",
                 "name": "BINOP_2",
                 "href": "http://mizar.org/version/current/html/binop_2.html",
-                "parent": "/II/4/C"
+                "parent": "/II4/C"
             },
             "position": {
                 "x": 18575.4,
@@ -1020,7 +1020,7 @@
                 "id": "XXREAL_1",
                 "name": "XXREAL_1",
                 "href": "http://mizar.org/version/current/html/xxreal_1.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 19589.4,
@@ -1033,7 +1033,7 @@
                 "id": "CARD_2",
                 "name": "CARD_2",
                 "href": "http://mizar.org/version/current/html/card_2.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 14789.400000000001,
@@ -1046,7 +1046,7 @@
                 "id": "XXREAL_2",
                 "name": "XXREAL_2",
                 "href": "http://mizar.org/version/current/html/xxreal_2.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 19817.4,
@@ -1059,7 +1059,7 @@
                 "id": "XXREAL_3",
                 "name": "XXREAL_3",
                 "href": "http://mizar.org/version/current/html/xxreal_3.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 19817.4,
@@ -1072,7 +1072,7 @@
                 "id": "MEMBER_1",
                 "name": "MEMBER_1",
                 "href": "http://mizar.org/version/current/html/member_1.html",
-                "parent": "/II/9/E"
+                "parent": "/II9/E"
             },
             "position": {
                 "x": 19721.4,
@@ -1085,7 +1085,7 @@
                 "id": "SUPINF_1",
                 "name": "SUPINF_1",
                 "href": "http://mizar.org/version/current/html/supinf_1.html",
-                "parent": "/X/1/"
+                "parent": "/X1/"
             },
             "position": {
                 "x": 27737.399999999998,
@@ -1098,7 +1098,7 @@
                 "id": "QUIN_1",
                 "name": "QUIN_1",
                 "href": "http://mizar.org/version/current/html/quin_1.html",
-                "parent": "/III/4/J"
+                "parent": "/III4/J"
             },
             "position": {
                 "x": 18047.4,
@@ -1111,7 +1111,7 @@
                 "id": "CLASSES2",
                 "name": "CLASSES2",
                 "href": "http://mizar.org/version/current/html/classes2.html",
-                "parent": "/I/1/C"
+                "parent": "/I1/C"
             },
             "position": {
                 "x": 803.6999999999999,
@@ -1124,7 +1124,7 @@
                 "id": "ORDINAL4",
                 "name": "ORDINAL4",
                 "href": "http://mizar.org/version/current/html/ordinal4.html",
-                "parent": "/II/13/A"
+                "parent": "/II13/A"
             },
             "position": {
                 "x": 2111.7,
@@ -1137,7 +1137,7 @@
                 "id": "FINSEQ_1",
                 "name": "FINSEQ_1",
                 "href": "http://mizar.org/version/current/html/finseq_1.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 16283.400000000001,
@@ -1150,7 +1150,7 @@
                 "id": "RECDEF_1",
                 "name": "RECDEF_1",
                 "href": "http://mizar.org/version/current/html/recdef_1.html",
-                "parent": "/I/13/A"
+                "parent": "/I13/A"
             },
             "position": {
                 "x": 16421.4,
@@ -1163,7 +1163,7 @@
                 "id": "EQREL_1",
                 "name": "EQREL_1",
                 "href": "http://mizar.org/version/current/html/eqrel_1.html",
-                "parent": "/II/2/A"
+                "parent": "/II2/A"
             },
             "position": {
                 "x": 13163.4,
@@ -1176,7 +1176,7 @@
                 "id": "FINSEQ_2",
                 "name": "FINSEQ_2",
                 "href": "http://mizar.org/version/current/html/finseq_2.html",
-                "parent": "/XIX/3/F"
+                "parent": "/XIX3/F"
             },
             "position": {
                 "x": 13955.4,
@@ -1189,7 +1189,7 @@
                 "id": "FINSEQOP",
                 "name": "FINSEQOP",
                 "href": "http://mizar.org/version/current/html/finseqop.html",
-                "parent": "/XIX/3/F"
+                "parent": "/XIX3/F"
             },
             "position": {
                 "x": 13163.4,
@@ -1202,7 +1202,7 @@
                 "id": "FINSEQ_3",
                 "name": "FINSEQ_3",
                 "href": "http://mizar.org/version/current/html/finseq_3.html",
-                "parent": "/XIX/3/F"
+                "parent": "/XIX3/F"
             },
             "position": {
                 "x": 13025.4,
@@ -1215,7 +1215,7 @@
                 "id": "VALUED_1",
                 "name": "VALUED_1",
                 "href": "http://mizar.org/version/current/html/valued_1.html",
-                "parent": "/XV/1/B"
+                "parent": "/XV1/B"
             },
             "position": {
                 "x": 14249.400000000001,
@@ -1228,7 +1228,7 @@
                 "id": "SEQ_1",
                 "name": "SEQ_1",
                 "href": "http://mizar.org/version/current/html/seq_1.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 14999.400000000001,
@@ -1241,7 +1241,7 @@
                 "id": "COMSEQ_1",
                 "name": "COMSEQ_1",
                 "href": "http://mizar.org/version/current/html/comseq_1.html",
-                "parent": "/XIX/3/F"
+                "parent": "/XIX3/F"
             },
             "position": {
                 "x": 14249.400000000001,
@@ -1254,7 +1254,7 @@
                 "id": "XBOOLEAN",
                 "name": "XBOOLEAN",
                 "href": "http://mizar.org/version/current/html/xboolean.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 17789.4,
@@ -1267,7 +1267,7 @@
                 "id": "COMSEQ_2",
                 "name": "COMSEQ_2",
                 "href": "http://mizar.org/version/current/html/comseq_2.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 14249.400000000001,
@@ -1280,7 +1280,7 @@
                 "id": "SEQ_2",
                 "name": "SEQ_2",
                 "href": "http://mizar.org/version/current/html/seq_2.html",
-                "parent": "/II/19/B"
+                "parent": "/II19/B"
             },
             "position": {
                 "x": 14699.400000000001,
@@ -1293,7 +1293,7 @@
                 "id": "MARGREL1",
                 "name": "MARGREL1",
                 "href": "http://mizar.org/version/current/html/margrel1.html",
-                "parent": "/II/2/B"
+                "parent": "/II2/B"
             },
             "position": {
                 "x": 15953.400000000001,
@@ -1306,7 +1306,7 @@
                 "id": "TOLER_1",
                 "name": "TOLER_1",
                 "href": "http://mizar.org/version/current/html/toler_1.html",
-                "parent": "/II/2/B"
+                "parent": "/II2/B"
             },
             "position": {
                 "x": 3131.7000000000007,
@@ -1319,7 +1319,7 @@
                 "id": "TREES_1",
                 "name": "TREES_1",
                 "href": "http://mizar.org/version/current/html/trees_1.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 10229.4,
@@ -1332,7 +1332,7 @@
                 "id": "FINSEQ_4",
                 "name": "FINSEQ_4",
                 "href": "http://mizar.org/version/current/html/finseq_4.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 12395.400000000001,
@@ -1345,7 +1345,7 @@
                 "id": "FINSOP_1",
                 "name": "FINSOP_1",
                 "href": "http://mizar.org/version/current/html/finsop_1.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 12395.400000000001,
@@ -1358,7 +1358,7 @@
                 "id": "SETWOP_2",
                 "name": "SETWOP_2",
                 "href": "http://mizar.org/version/current/html/setwop_2.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 12395.400000000001,
@@ -1371,7 +1371,7 @@
                 "id": "RFUNCT_1",
                 "name": "RFUNCT_1",
                 "href": "http://mizar.org/version/current/html/rfunct_1.html",
-                "parent": "/II/4/"
+                "parent": "/II4/"
             },
             "position": {
                 "x": 14699.400000000001,
@@ -1384,7 +1384,7 @@
                 "id": "RVSUM_1",
                 "name": "RVSUM_1",
                 "href": "http://mizar.org/version/current/html/rvsum_1.html",
-                "parent": "/III/2/"
+                "parent": "/III2/"
             },
             "position": {
                 "x": 15161.400000000001,
@@ -1397,7 +1397,7 @@
                 "id": "NEWTON",
                 "name": "NEWTON",
                 "href": "http://mizar.org/version/current/html/newton.html",
-                "parent": "/III/4/"
+                "parent": "/III4/"
             },
             "position": {
                 "x": 16793.4,
@@ -1410,7 +1410,7 @@
                 "id": "CARD_4",
                 "name": "CARD_4",
                 "href": "http://mizar.org/version/current/html/card_4.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 16037.400000000001,
@@ -1423,7 +1423,7 @@
                 "id": "CARD_5",
                 "name": "CARD_5",
                 "href": "http://mizar.org/version/current/html/card_5.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 6707.400000000001,
@@ -1436,7 +1436,7 @@
                 "id": "TREES_2",
                 "name": "TREES_2",
                 "href": "http://mizar.org/version/current/html/trees_2.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 6173.400000000001,
@@ -1449,7 +1449,7 @@
                 "id": "VALUED_2",
                 "name": "VALUED_2",
                 "href": "http://mizar.org/version/current/html/valued_2.html",
-                "parent": "/II/4/"
+                "parent": "/II4/"
             },
             "position": {
                 "x": 23171.4,
@@ -1462,7 +1462,7 @@
                 "id": "SEQM_3",
                 "name": "SEQM_3",
                 "href": "http://mizar.org/version/current/html/seqm_3.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 14405.4,
@@ -1475,7 +1475,7 @@
                 "id": "RFINSEQ",
                 "name": "RFINSEQ",
                 "href": "http://mizar.org/version/current/html/rfinseq.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 13901.4,
@@ -1488,7 +1488,7 @@
                 "id": "SEQ_4",
                 "name": "SEQ_4",
                 "href": "http://mizar.org/version/current/html/seq_4.html",
-                "parent": "/II/19/"
+                "parent": "/II19/"
             },
             "position": {
                 "x": 15899.400000000001,
@@ -1501,7 +1501,7 @@
                 "id": "RCOMP_1",
                 "name": "RCOMP_1",
                 "href": "http://mizar.org/version/current/html/rcomp_1.html",
-                "parent": "/X/25/"
+                "parent": "/X25/"
             },
             "position": {
                 "x": 20741.4,
@@ -1514,7 +1514,7 @@
                 "id": "RFUNCT_2",
                 "name": "RFUNCT_2",
                 "href": "http://mizar.org/version/current/html/rfunct_2.html",
-                "parent": "/X/25/"
+                "parent": "/X25/"
             },
             "position": {
                 "x": 20741.4,
@@ -1527,7 +1527,7 @@
                 "id": "CFUNCT_1",
                 "name": "CFUNCT_1",
                 "href": "http://mizar.org/version/current/html/cfunct_1.html",
-                "parent": "/XI/1/"
+                "parent": "/XI1/"
             },
             "position": {
                 "x": 10031.400000000001,
@@ -1540,7 +1540,7 @@
                 "id": "FCONT_1",
                 "name": "FCONT_1",
                 "href": "http://mizar.org/version/current/html/fcont_1.html",
-                "parent": "/X/2/"
+                "parent": "/X2/"
             },
             "position": {
                 "x": 23645.399999999998,
@@ -1553,7 +1553,7 @@
                 "id": "FCONT_2",
                 "name": "FCONT_2",
                 "href": "http://mizar.org/version/current/html/fcont_2.html",
-                "parent": "/X/2/"
+                "parent": "/X2/"
             },
             "position": {
                 "x": 23129.4,
@@ -1566,7 +1566,7 @@
                 "id": "FDIFF_1",
                 "name": "FDIFF_1",
                 "href": "http://mizar.org/version/current/html/fdiff_1.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 24347.4,
@@ -1579,7 +1579,7 @@
                 "id": "ROLLE",
                 "name": "ROLLE",
                 "href": "http://mizar.org/version/current/html/rolle.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 21941.4,
@@ -1592,7 +1592,7 @@
                 "id": "PREPOWER",
                 "name": "PREPOWER",
                 "href": "http://mizar.org/version/current/html/prepower.html",
-                "parent": "/X/25/"
+                "parent": "/X25/"
             },
             "position": {
                 "x": 20741.4,
@@ -1605,7 +1605,7 @@
                 "id": "FINSEQ_5",
                 "name": "FINSEQ_5",
                 "href": "http://mizar.org/version/current/html/finseq_5.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 13787.400000000001,
@@ -1618,7 +1618,7 @@
                 "id": "REWRITE1",
                 "name": "REWRITE1",
                 "href": "http://mizar.org/version/current/html/rewrite1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 8987.400000000001,
@@ -1631,7 +1631,7 @@
                 "id": "FUNCT_7",
                 "name": "FUNCT_7",
                 "href": "http://mizar.org/version/current/html/funct_7.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 8993.4,
@@ -1644,7 +1644,7 @@
                 "id": "SCHEME1",
                 "name": "SCHEME1",
                 "href": "http://mizar.org/version/current/html/scheme1.html",
-                "parent": "/II/1/"
+                "parent": "/II1/"
             },
             "position": {
                 "x": 14861.400000000001,
@@ -1657,7 +1657,7 @@
                 "id": "ABIAN",
                 "name": "ABIAN",
                 "href": "http://mizar.org/version/current/html/abian.html",
-                "parent": "/II/1/"
+                "parent": "/II1/"
             },
             "position": {
                 "x": 15389.400000000001,
@@ -1670,7 +1670,7 @@
                 "id": "POWER",
                 "name": "POWER",
                 "href": "http://mizar.org/version/current/html/power.html",
-                "parent": "/X/25/"
+                "parent": "/X25/"
             },
             "position": {
                 "x": 20741.4,
@@ -1683,7 +1683,7 @@
                 "id": "POLYEQ_1",
                 "name": "POLYEQ_1",
                 "href": "http://mizar.org/version/current/html/polyeq_1.html",
-                "parent": "/III/5/"
+                "parent": "/III5/"
             },
             "position": {
                 "x": 24833.399999999998,
@@ -1696,7 +1696,7 @@
                 "id": "SERIES_1",
                 "name": "SERIES_1",
                 "href": "http://mizar.org/version/current/html/series_1.html",
-                "parent": "/X/18/"
+                "parent": "/X18/"
             },
             "position": {
                 "x": 20993.4,
@@ -1709,7 +1709,7 @@
                 "id": "COMSEQ_3",
                 "name": "COMSEQ_3",
                 "href": "http://mizar.org/version/current/html/comseq_3.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 19955.4,
@@ -1722,7 +1722,7 @@
                 "id": "CFCONT_1",
                 "name": "CFCONT_1",
                 "href": "http://mizar.org/version/current/html/cfcont_1.html",
-                "parent": "/XI/2/"
+                "parent": "/XI2/"
             },
             "position": {
                 "x": 10697.4,
@@ -1735,7 +1735,7 @@
                 "id": "CFDIFF_1",
                 "name": "CFDIFF_1",
                 "href": "http://mizar.org/version/current/html/cfdiff_1.html",
-                "parent": "/XI/2/"
+                "parent": "/XI2/"
             },
             "position": {
                 "x": 10067.4,
@@ -1748,7 +1748,7 @@
                 "id": "RPR_1",
                 "name": "RPR_1",
                 "href": "http://mizar.org/version/current/html/rpr_1.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 17609.4,
@@ -1761,7 +1761,7 @@
                 "id": "SUPINF_2",
                 "name": "SUPINF_2",
                 "href": "http://mizar.org/version/current/html/supinf_2.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 26861.399999999998,
@@ -1774,7 +1774,7 @@
                 "id": "TREES_A",
                 "name": "TREES_A",
                 "href": "http://mizar.org/version/current/html/trees_a.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 3767.7000000000003,
@@ -1787,7 +1787,7 @@
                 "id": "PRE_FF",
                 "name": "PRE_FF",
                 "href": "http://mizar.org/version/current/html/pre_ff.html",
-                "parent": "/XX/1/"
+                "parent": "/XX1/"
             },
             "position": {
                 "x": 12767.4,
@@ -1800,7 +1800,7 @@
                 "id": "TREES_3",
                 "name": "TREES_3",
                 "href": "http://mizar.org/version/current/html/trees_3.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 5981.7,
@@ -1813,7 +1813,7 @@
                 "id": "PARTIT1",
                 "name": "PARTIT1",
                 "href": "http://mizar.org/version/current/html/partit1.html",
-                "parent": "/II/3/"
+                "parent": "/II3/"
             },
             "position": {
                 "x": 9377.400000000001,
@@ -1826,7 +1826,7 @@
                 "id": "TREES_4",
                 "name": "TREES_4",
                 "href": "http://mizar.org/version/current/html/trees_4.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 7193.400000000001,
@@ -1839,7 +1839,7 @@
                 "id": "CARD_FIL",
                 "name": "CARD_FIL",
                 "href": "http://mizar.org/version/current/html/card_fil.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 5291.700000000001,
@@ -1852,7 +1852,7 @@
                 "id": "BINARITH",
                 "name": "BINARITH",
                 "href": "http://mizar.org/version/current/html/binarith.html",
-                "parent": "/XX/1/"
+                "parent": "/XX1/"
             },
             "position": {
                 "x": 15449.400000000001,
@@ -1865,7 +1865,7 @@
                 "id": "PRE_CIRC",
                 "name": "PRE_CIRC",
                 "href": "http://mizar.org/version/current/html/pre_circ.html",
-                "parent": "/XXII/16/"
+                "parent": "/XXII16/"
             },
             "position": {
                 "x": 7391.400000000001,
@@ -1878,7 +1878,7 @@
                 "id": "FINSEQ_6",
                 "name": "FINSEQ_6",
                 "href": "http://mizar.org/version/current/html/finseq_6.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 14063.4,
@@ -1891,7 +1891,7 @@
                 "id": "MBOOLEAN",
                 "name": "MBOOLEAN",
                 "href": "http://mizar.org/version/current/html/mboolean.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 5657.700000000001,
@@ -1904,7 +1904,7 @@
                 "id": "WSIERP_1",
                 "name": "WSIERP_1",
                 "href": "http://mizar.org/version/current/html/wsierp_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 11957.400000000001,
@@ -1917,7 +1917,7 @@
                 "id": "GLIB_000",
                 "name": "GLIB_000",
                 "href": "http://mizar.org/version/current/html/glib_000.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 13691.400000000001,
@@ -1930,7 +1930,7 @@
                 "id": "PZFMISC1",
                 "name": "PZFMISC1",
                 "href": "http://mizar.org/version/current/html/pzfmisc1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 5669.700000000001,
@@ -1943,7 +1943,7 @@
                 "id": "GENEALG1",
                 "name": "GENEALG1",
                 "href": "http://mizar.org/version/current/html/genealg1.html",
-                "parent": "/XXI/9/"
+                "parent": "/XXI9/"
             },
             "position": {
                 "x": 12593.4,
@@ -1956,7 +1956,7 @@
                 "id": "BINARI_2",
                 "name": "BINARI_2",
                 "href": "http://mizar.org/version/current/html/binari_2.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 15449.400000000001,
@@ -1969,7 +1969,7 @@
                 "id": "TREES_9",
                 "name": "TREES_9",
                 "href": "http://mizar.org/version/current/html/trees_9.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 4361.700000000001,
@@ -1982,7 +1982,7 @@
                 "id": "MSSUBFAM",
                 "name": "MSSUBFAM",
                 "href": "http://mizar.org/version/current/html/mssubfam.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 5735.7,
@@ -1995,7 +1995,7 @@
                 "id": "RELSET_2",
                 "name": "RELSET_2",
                 "href": "http://mizar.org/version/current/html/relset_2.html",
-                "parent": "/II/2/"
+                "parent": "/II2/"
             },
             "position": {
                 "x": 21377.4,
@@ -2008,7 +2008,7 @@
                 "id": "RECDEF_2",
                 "name": "RECDEF_2",
                 "href": "http://mizar.org/version/current/html/recdef_2.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 17225.4,
@@ -2021,7 +2021,7 @@
                 "id": "PROB_1",
                 "name": "PROB_1",
                 "href": "http://mizar.org/version/current/html/prob_1.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 14513.4,
@@ -2034,7 +2034,7 @@
                 "id": "PROB_2",
                 "name": "PROB_2",
                 "href": "http://mizar.org/version/current/html/prob_2.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 25049.399999999998,
@@ -2047,7 +2047,7 @@
                 "id": "LIMFUNC1",
                 "name": "LIMFUNC1",
                 "href": "http://mizar.org/version/current/html/limfunc1.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19007.4,
@@ -2060,7 +2060,7 @@
                 "id": "LIMFUNC2",
                 "name": "LIMFUNC2",
                 "href": "http://mizar.org/version/current/html/limfunc2.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19007.4,
@@ -2073,7 +2073,7 @@
                 "id": "SEQFUNC",
                 "name": "SEQFUNC",
                 "href": "http://mizar.org/version/current/html/seqfunc.html",
-                "parent": "/X/25/"
+                "parent": "/X25/"
             },
             "position": {
                 "x": 23549.4,
@@ -2086,7 +2086,7 @@
                 "id": "LIMFUNC3",
                 "name": "LIMFUNC3",
                 "href": "http://mizar.org/version/current/html/limfunc3.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 18617.4,
@@ -2099,7 +2099,7 @@
                 "id": "FCONT_3",
                 "name": "FCONT_3",
                 "href": "http://mizar.org/version/current/html/fcont_3.html",
-                "parent": "/X/2/"
+                "parent": "/X2/"
             },
             "position": {
                 "x": 23111.399999999998,
@@ -2112,7 +2112,7 @@
                 "id": "LIMFUNC4",
                 "name": "LIMFUNC4",
                 "href": "http://mizar.org/version/current/html/limfunc4.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 17813.4,
@@ -2125,7 +2125,7 @@
                 "id": "L_HOSPIT",
                 "name": "L_HOSPIT",
                 "href": "http://mizar.org/version/current/html/l_hospit.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 18653.4,
@@ -2138,7 +2138,7 @@
                 "id": "FDIFF_2",
                 "name": "FDIFF_2",
                 "href": "http://mizar.org/version/current/html/fdiff_2.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 22373.4,
@@ -2151,7 +2151,7 @@
                 "id": "FDIFF_3",
                 "name": "FDIFF_3",
                 "href": "http://mizar.org/version/current/html/fdiff_3.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19643.4,
@@ -2164,7 +2164,7 @@
                 "id": "MEASURE1",
                 "name": "MEASURE1",
                 "href": "http://mizar.org/version/current/html/measure1.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 26555.4,
@@ -2177,7 +2177,7 @@
                 "id": "MEASURE2",
                 "name": "MEASURE2",
                 "href": "http://mizar.org/version/current/html/measure2.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 25991.399999999998,
@@ -2190,7 +2190,7 @@
                 "id": "MEASURE3",
                 "name": "MEASURE3",
                 "href": "http://mizar.org/version/current/html/measure3.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 26159.399999999998,
@@ -2203,7 +2203,7 @@
                 "id": "MEASURE4",
                 "name": "MEASURE4",
                 "href": "http://mizar.org/version/current/html/measure4.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 26957.399999999998,
@@ -2216,7 +2216,7 @@
                 "id": "RFUNCT_3",
                 "name": "RFUNCT_3",
                 "href": "http://mizar.org/version/current/html/rfunct_3.html",
-                "parent": "/II/4/"
+                "parent": "/II4/"
             },
             "position": {
                 "x": 10889.400000000001,
@@ -2229,7 +2229,7 @@
                 "id": "MEASURE5",
                 "name": "MEASURE5",
                 "href": "http://mizar.org/version/current/html/measure5.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 27695.399999999998,
@@ -2242,7 +2242,7 @@
                 "id": "REARRAN1",
                 "name": "REARRAN1",
                 "href": "http://mizar.org/version/current/html/rearran1.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 9377.400000000001,
@@ -2255,7 +2255,7 @@
                 "id": "MEASURE6",
                 "name": "MEASURE6",
                 "href": "http://mizar.org/version/current/html/measure6.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 23189.4,
@@ -2268,7 +2268,7 @@
                 "id": "EXTREAL1",
                 "name": "EXTREAL1",
                 "href": "http://mizar.org/version/current/html/extreal1.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 16493.4,
@@ -2281,7 +2281,7 @@
                 "id": "MEASURE7",
                 "name": "MEASURE7",
                 "href": "http://mizar.org/version/current/html/measure7.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 27185.399999999998,
@@ -2294,7 +2294,7 @@
                 "id": "RFUNCT_4",
                 "name": "RFUNCT_4",
                 "href": "http://mizar.org/version/current/html/rfunct_4.html",
-                "parent": "/X/4/"
+                "parent": "/X4/"
             },
             "position": {
                 "x": 27725.399999999998,
@@ -2307,7 +2307,7 @@
                 "id": "MESFUNC1",
                 "name": "MESFUNC1",
                 "href": "http://mizar.org/version/current/html/mesfunc1.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 21389.4,
@@ -2320,7 +2320,7 @@
                 "id": "SIN_COS",
                 "name": "SIN_COS",
                 "href": "http://mizar.org/version/current/html/sin_cos.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 20603.399999999998,
@@ -2333,7 +2333,7 @@
                 "id": "MESFUNC2",
                 "name": "MESFUNC2",
                 "href": "http://mizar.org/version/current/html/mesfunc2.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 21401.4,
@@ -2346,7 +2346,7 @@
                 "id": "SIN_COS2",
                 "name": "SIN_COS2",
                 "href": "http://mizar.org/version/current/html/sin_cos2.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 19841.4,
@@ -2359,7 +2359,7 @@
                 "id": "SIN_COS3",
                 "name": "SIN_COS3",
                 "href": "http://mizar.org/version/current/html/sin_cos3.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 17381.4,
@@ -2372,7 +2372,7 @@
                 "id": "SIN_COS4",
                 "name": "SIN_COS4",
                 "href": "http://mizar.org/version/current/html/sin_cos4.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 20657.4,
@@ -2385,7 +2385,7 @@
                 "id": "SIN_COS5",
                 "name": "SIN_COS5",
                 "href": "http://mizar.org/version/current/html/sin_cos5.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 22721.4,
@@ -2398,7 +2398,7 @@
                 "id": "ASYMPT_0",
                 "name": "ASYMPT_0",
                 "href": "http://mizar.org/version/current/html/asympt_0.html",
-                "parent": "/X/19/"
+                "parent": "/X19/"
             },
             "position": {
                 "x": 13559.4,
@@ -2411,7 +2411,7 @@
                 "id": "COMPTRIG",
                 "name": "COMPTRIG",
                 "href": "http://mizar.org/version/current/html/comptrig.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 19811.399999999998,
@@ -2424,7 +2424,7 @@
                 "id": "COMPLEX2",
                 "name": "COMPLEX2",
                 "href": "http://mizar.org/version/current/html/complex2.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 18947.4,
@@ -2437,7 +2437,7 @@
                 "id": "POLYEQ_2",
                 "name": "POLYEQ_2",
                 "href": "http://mizar.org/version/current/html/polyeq_2.html",
-                "parent": "/III/5/"
+                "parent": "/III5/"
             },
             "position": {
                 "x": 23867.4,
@@ -2450,7 +2450,7 @@
                 "id": "POLYEQ_3",
                 "name": "POLYEQ_3",
                 "href": "http://mizar.org/version/current/html/polyeq_3.html",
-                "parent": "/III/5/"
+                "parent": "/III5/"
             },
             "position": {
                 "x": 23543.4,
@@ -2463,7 +2463,7 @@
                 "id": "POLYEQ_4",
                 "name": "POLYEQ_4",
                 "href": "http://mizar.org/version/current/html/polyeq_4.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 23867.4,
@@ -2476,7 +2476,7 @@
                 "id": "POLYEQ_5",
                 "name": "POLYEQ_5",
                 "href": "http://mizar.org/version/current/html/polyeq_5.html",
-                "parent": "/III/5/"
+                "parent": "/III5/"
             },
             "position": {
                 "x": 23393.4,
@@ -2489,7 +2489,7 @@
                 "id": "SIN_COS6",
                 "name": "SIN_COS6",
                 "href": "http://mizar.org/version/current/html/sin_cos6.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 18941.4,
@@ -2502,7 +2502,7 @@
                 "id": "EULER_1",
                 "name": "EULER_1",
                 "href": "http://mizar.org/version/current/html/euler_1.html",
-                "parent": "/IV/1/"
+                "parent": "/IV1/"
             },
             "position": {
                 "x": 12755.4,
@@ -2515,7 +2515,7 @@
                 "id": "EULER_2",
                 "name": "EULER_2",
                 "href": "http://mizar.org/version/current/html/euler_2.html",
-                "parent": "/IV/1/"
+                "parent": "/IV1/"
             },
             "position": {
                 "x": 11735.400000000001,
@@ -2528,7 +2528,7 @@
                 "id": "ASYMPT_1",
                 "name": "ASYMPT_1",
                 "href": "http://mizar.org/version/current/html/asympt_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 11729.400000000001,
@@ -2541,7 +2541,7 @@
                 "id": "SERIES_3",
                 "name": "SERIES_3",
                 "href": "http://mizar.org/version/current/html/series_3.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 20879.4,
@@ -2554,7 +2554,7 @@
                 "id": "SERIES_4",
                 "name": "SERIES_4",
                 "href": "http://mizar.org/version/current/html/series_4.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 20027.4,
@@ -2567,7 +2567,7 @@
                 "id": "SERIES_5",
                 "name": "SERIES_5",
                 "href": "http://mizar.org/version/current/html/series_5.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 20831.4,
@@ -2580,7 +2580,7 @@
                 "id": "QUATERNI",
                 "name": "QUATERNI",
                 "href": "http://mizar.org/version/current/html/quaterni.html",
-                "parent": "/II/9/F"
+                "parent": "/II9/F"
             },
             "position": {
                 "x": 21659.4,
@@ -2593,7 +2593,7 @@
                 "id": "AFINSQ_1",
                 "name": "AFINSQ_1",
                 "href": "http://mizar.org/version/current/html/afinsq_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 2111.7,
@@ -2606,7 +2606,7 @@
                 "id": "NAT_2",
                 "name": "NAT_2",
                 "href": "http://mizar.org/version/current/html/nat_2.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 14765.400000000001,
@@ -2619,7 +2619,7 @@
                 "id": "PEPIN",
                 "name": "PEPIN",
                 "href": "http://mizar.org/version/current/html/pepin.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 11003.400000000001,
@@ -2632,7 +2632,7 @@
                 "id": "IRRAT_1",
                 "name": "IRRAT_1",
                 "href": "http://mizar.org/version/current/html/irrat_1.html",
-                "parent": "/IV/6/"
+                "parent": "/IV6/"
             },
             "position": {
                 "x": 15779.400000000001,
@@ -2645,7 +2645,7 @@
                 "id": "TAYLOR_1",
                 "name": "TAYLOR_1",
                 "href": "http://mizar.org/version/current/html/taylor_1.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 18095.4,
@@ -2658,7 +2658,7 @@
                 "id": "HOLDER_1",
                 "name": "HOLDER_1",
                 "href": "http://mizar.org/version/current/html/holder_1.html",
-                "parent": "/X/23/"
+                "parent": "/X23/"
             },
             "position": {
                 "x": 16313.4,
@@ -2671,7 +2671,7 @@
                 "id": "FDIFF_4",
                 "name": "FDIFF_4",
                 "href": "http://mizar.org/version/current/html/fdiff_4.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 20573.4,
@@ -2684,7 +2684,7 @@
                 "id": "FDIFF_5",
                 "name": "FDIFF_5",
                 "href": "http://mizar.org/version/current/html/fdiff_5.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19145.4,
@@ -2697,7 +2697,7 @@
                 "id": "FDIFF_6",
                 "name": "FDIFF_6",
                 "href": "http://mizar.org/version/current/html/fdiff_6.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 20573.4,
@@ -2710,7 +2710,7 @@
                 "id": "FDIFF_7",
                 "name": "FDIFF_7",
                 "href": "http://mizar.org/version/current/html/fdiff_7.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19859.4,
@@ -2723,7 +2723,7 @@
                 "id": "FDIFF_8",
                 "name": "FDIFF_8",
                 "href": "http://mizar.org/version/current/html/fdiff_8.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 20351.4,
@@ -2736,7 +2736,7 @@
                 "id": "SIN_COS7",
                 "name": "SIN_COS7",
                 "href": "http://mizar.org/version/current/html/sin_cos7.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 22199.4,
@@ -2749,7 +2749,7 @@
                 "id": "SIN_COS8",
                 "name": "SIN_COS8",
                 "href": "http://mizar.org/version/current/html/sin_cos8.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 22259.4,
@@ -2762,7 +2762,7 @@
                 "id": "BVFUNC_1",
                 "name": "BVFUNC_1",
                 "href": "http://mizar.org/version/current/html/bvfunc_1.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 8777.400000000001,
@@ -2775,7 +2775,7 @@
                 "id": "BVFUNC_2",
                 "name": "BVFUNC_2",
                 "href": "http://mizar.org/version/current/html/bvfunc_2.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 8417.400000000001,
@@ -2788,7 +2788,7 @@
                 "id": "TAYLOR_2",
                 "name": "TAYLOR_2",
                 "href": "http://mizar.org/version/current/html/taylor_2.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 17063.4,
@@ -2801,7 +2801,7 @@
                 "id": "CATALAN1",
                 "name": "CATALAN1",
                 "href": "http://mizar.org/version/current/html/catalan1.html",
-                "parent": "/II/8/"
+                "parent": "/II8/"
             },
             "position": {
                 "x": 16151.4,
@@ -2814,7 +2814,7 @@
                 "id": "PYTHTRIP",
                 "name": "PYTHTRIP",
                 "href": "http://mizar.org/version/current/html/pythtrip.html",
-                "parent": "/IV/2/"
+                "parent": "/IV2/"
             },
             "position": {
                 "x": 10073.400000000001,
@@ -2827,7 +2827,7 @@
                 "id": "SERIES_2",
                 "name": "SERIES_2",
                 "href": "http://mizar.org/version/current/html/series_2.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 11651.4,
@@ -2840,7 +2840,7 @@
                 "id": "FIB_NUM",
                 "name": "FIB_NUM",
                 "href": "http://mizar.org/version/current/html/fib_num.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 27647.4,
@@ -2853,7 +2853,7 @@
                 "id": "PARTIT_2",
                 "name": "PARTIT_2",
                 "href": "http://mizar.org/version/current/html/partit_2.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 7373.400000000001,
@@ -2866,7 +2866,7 @@
                 "id": "BVFUNC_3",
                 "name": "BVFUNC_3",
                 "href": "http://mizar.org/version/current/html/bvfunc_3.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 8417.400000000001,
@@ -2879,7 +2879,7 @@
                 "id": "BVFUNC_4",
                 "name": "BVFUNC_4",
                 "href": "http://mizar.org/version/current/html/bvfunc_4.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 9281.400000000001,
@@ -2892,7 +2892,7 @@
                 "id": "BVFUNC_5",
                 "name": "BVFUNC_5",
                 "href": "http://mizar.org/version/current/html/bvfunc_5.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 10145.400000000001,
@@ -2905,7 +2905,7 @@
                 "id": "BVFUNC_6",
                 "name": "BVFUNC_6",
                 "href": "http://mizar.org/version/current/html/bvfunc_6.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 9713.4,
@@ -2918,7 +2918,7 @@
                 "id": "BVFUNC11",
                 "name": "BVFUNC11",
                 "href": "http://mizar.org/version/current/html/bvfunc11.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 7373.400000000001,
@@ -2931,7 +2931,7 @@
                 "id": "BVFUNC14",
                 "name": "BVFUNC14",
                 "href": "http://mizar.org/version/current/html/bvfunc14.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 7373.400000000001,
@@ -2944,7 +2944,7 @@
                 "id": "BVFUNC25",
                 "name": "BVFUNC25",
                 "href": "http://mizar.org/version/current/html/bvfunc25.html",
-                "parent": "/II/15/"
+                "parent": "/II15/"
             },
             "position": {
                 "x": 9713.4,
@@ -2957,7 +2957,7 @@
                 "id": "FINSEQ_7",
                 "name": "FINSEQ_7",
                 "href": "http://mizar.org/version/current/html/finseq_7.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 13493.4,
@@ -2970,7 +2970,7 @@
                 "id": "PRGCOR_1",
                 "name": "PRGCOR_1",
                 "href": "http://mizar.org/version/current/html/prgcor_1.html",
-                "parent": "/XX/1/"
+                "parent": "/XX1/"
             },
             "position": {
                 "x": 12773.400000000001,
@@ -2983,7 +2983,7 @@
                 "id": "FDIFF_9",
                 "name": "FDIFF_9",
                 "href": "http://mizar.org/version/current/html/fdiff_9.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 22451.4,
@@ -2996,7 +2996,7 @@
                 "id": "ARROW",
                 "name": "ARROW",
                 "href": "http://mizar.org/version/current/html/arrow.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 11105.4,
@@ -3009,7 +3009,7 @@
                 "id": "REAL_3",
                 "name": "REAL_3",
                 "href": "http://mizar.org/version/current/html/real_3.html",
-                "parent": "/IV/3/"
+                "parent": "/IV3/"
             },
             "position": {
                 "x": 15815.400000000001,
@@ -3022,7 +3022,7 @@
                 "id": "FDIFF_10",
                 "name": "FDIFF_10",
                 "href": "http://mizar.org/version/current/html/fdiff_10.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 23261.399999999998,
@@ -3035,7 +3035,7 @@
                 "id": "HFDIFF_1",
                 "name": "HFDIFF_1",
                 "href": "http://mizar.org/version/current/html/hfdiff_1.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 19481.4,
@@ -3048,7 +3048,7 @@
                 "id": "PRE_POLY",
                 "name": "PRE_POLY",
                 "href": "http://mizar.org/version/current/html/pre_poly.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 7703.400000000001,
@@ -3061,7 +3061,7 @@
                 "id": "PRGCOR_2",
                 "name": "PRGCOR_2",
                 "href": "http://mizar.org/version/current/html/prgcor_2.html",
-                "parent": "/XX/1/"
+                "parent": "/XX1/"
             },
             "position": {
                 "x": 1457.7,
@@ -3074,7 +3074,7 @@
                 "id": "SIN_COS9",
                 "name": "SIN_COS9",
                 "href": "http://mizar.org/version/current/html/sin_cos9.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 19583.4,
@@ -3087,7 +3087,7 @@
                 "id": "SINCOS10",
                 "name": "SINCOS10",
                 "href": "http://mizar.org/version/current/html/sincos10.html",
-                "parent": "/VII/13/"
+                "parent": "/VII13/"
             },
             "position": {
                 "x": 22451.4,
@@ -3100,7 +3100,7 @@
                 "id": "MESFUNC3",
                 "name": "MESFUNC3",
                 "href": "http://mizar.org/version/current/html/mesfunc3.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 21401.4,
@@ -3113,7 +3113,7 @@
                 "id": "MESFUNC4",
                 "name": "MESFUNC4",
                 "href": "http://mizar.org/version/current/html/mesfunc4.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17663.4,
@@ -3126,7 +3126,7 @@
                 "id": "RVSUM_2",
                 "name": "RVSUM_2",
                 "href": "http://mizar.org/version/current/html/rvsum_2.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 15899.400000000001,
@@ -3139,7 +3139,7 @@
                 "id": "FINSEQ_8",
                 "name": "FINSEQ_8",
                 "href": "http://mizar.org/version/current/html/finseq_8.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 13445.400000000001,
@@ -3152,7 +3152,7 @@
                 "id": "PNPROC_1",
                 "name": "PNPROC_1",
                 "href": "http://mizar.org/version/current/html/pnproc_1.html",
-                "parent": "/XX/1/"
+                "parent": "/XX1/"
             },
             "position": {
                 "x": 7331.400000000001,
@@ -3165,7 +3165,7 @@
                 "id": "INTEGRA1",
                 "name": "INTEGRA1",
                 "href": "http://mizar.org/version/current/html/integra1.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 15311.400000000001,
@@ -3178,7 +3178,7 @@
                 "id": "INTEGRA2",
                 "name": "INTEGRA2",
                 "href": "http://mizar.org/version/current/html/integra2.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 14321.4,
@@ -3191,7 +3191,7 @@
                 "id": "RFINSEQ2",
                 "name": "RFINSEQ2",
                 "href": "http://mizar.org/version/current/html/rfinseq2.html",
-                "parent": "/II/4/"
+                "parent": "/II4/"
             },
             "position": {
                 "x": 13751.4,
@@ -3204,7 +3204,7 @@
                 "id": "INTEGRA3",
                 "name": "INTEGRA3",
                 "href": "http://mizar.org/version/current/html/integra3.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 14825.400000000001,
@@ -3217,7 +3217,7 @@
                 "id": "INTEGRA4",
                 "name": "INTEGRA4",
                 "href": "http://mizar.org/version/current/html/integra4.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 14825.400000000001,
@@ -3230,7 +3230,7 @@
                 "id": "INTEGRA5",
                 "name": "INTEGRA5",
                 "href": "http://mizar.org/version/current/html/integra5.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 24215.4,
@@ -3243,7 +3243,7 @@
                 "id": "INTEGR12",
                 "name": "INTEGR12",
                 "href": "http://mizar.org/version/current/html/integr12.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 21617.4,
@@ -3256,7 +3256,7 @@
                 "id": "INTEGRA8",
                 "name": "INTEGRA8",
                 "href": "http://mizar.org/version/current/html/integra8.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 23345.399999999998,
@@ -3269,7 +3269,7 @@
                 "id": "CARD_LAR",
                 "name": "CARD_LAR",
                 "href": "http://mizar.org/version/current/html/card_lar.html",
-                "parent": "/II/6/"
+                "parent": "/II6/"
             },
             "position": {
                 "x": 3329.7000000000007,
@@ -3282,7 +3282,7 @@
                 "id": "FUZZY_1",
                 "name": "FUZZY_1",
                 "href": "http://mizar.org/version/current/html/fuzzy_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 12947.4,
@@ -3295,7 +3295,7 @@
                 "id": "KURATO_0",
                 "name": "KURATO_0",
                 "href": "http://mizar.org/version/current/html/kurato_0.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 21395.399999999998,
@@ -3308,7 +3308,7 @@
                 "id": "PARTFUN3",
                 "name": "PARTFUN3",
                 "href": "http://mizar.org/version/current/html/partfun3.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 22703.399999999998,
@@ -3321,7 +3321,7 @@
                 "id": "FUZZY_2",
                 "name": "FUZZY_2",
                 "href": "http://mizar.org/version/current/html/fuzzy_2.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 13013.4,
@@ -3334,7 +3334,7 @@
                 "id": "FUZZY_4",
                 "name": "FUZZY_4",
                 "href": "http://mizar.org/version/current/html/fuzzy_4.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 13733.400000000001,
@@ -3347,7 +3347,7 @@
                 "id": "SETLIM_1",
                 "name": "SETLIM_1",
                 "href": "http://mizar.org/version/current/html/setlim_1.html",
-                "parent": "/II/19/"
+                "parent": "/II19/"
             },
             "position": {
                 "x": 21473.4,
@@ -3360,7 +3360,7 @@
                 "id": "DIFF_1",
                 "name": "DIFF_1",
                 "href": "http://mizar.org/version/current/html/diff_1.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 22421.4,
@@ -3373,7 +3373,7 @@
                 "id": "RINFSUP1",
                 "name": "RINFSUP1",
                 "href": "http://mizar.org/version/current/html/rinfsup1.html",
-                "parent": "/II/19/"
+                "parent": "/II19/"
             },
             "position": {
                 "x": 25391.399999999998,
@@ -3386,7 +3386,7 @@
                 "id": "SETLIM_2",
                 "name": "SETLIM_2",
                 "href": "http://mizar.org/version/current/html/setlim_2.html",
-                "parent": "/II/19/"
+                "parent": "/II19/"
             },
             "position": {
                 "x": 22367.4,
@@ -3399,7 +3399,7 @@
                 "id": "PROB_3",
                 "name": "PROB_3",
                 "href": "http://mizar.org/version/current/html/prob_3.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 24299.4,
@@ -3412,7 +3412,7 @@
                 "id": "DYNKIN",
                 "name": "DYNKIN",
                 "href": "http://mizar.org/version/current/html/dynkin.html",
-                "parent": "/X/13/"
+                "parent": "/X13/"
             },
             "position": {
                 "x": 27029.4,
@@ -3425,7 +3425,7 @@
                 "id": "PROB_4",
                 "name": "PROB_4",
                 "href": "http://mizar.org/version/current/html/prob_4.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 26693.399999999998,
@@ -3438,7 +3438,7 @@
                 "id": "KOLMOG01",
                 "name": "KOLMOG01",
                 "href": "http://mizar.org/version/current/html/kolmog01.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 23117.4,
@@ -3451,7 +3451,7 @@
                 "id": "MESFUNC5",
                 "name": "MESFUNC5",
                 "href": "http://mizar.org/version/current/html/mesfunc5.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17663.4,
@@ -3464,7 +3464,7 @@
                 "id": "DIFF_2",
                 "name": "DIFF_2",
                 "href": "http://mizar.org/version/current/html/diff_2.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 24983.399999999998,
@@ -3477,7 +3477,7 @@
                 "id": "INT_6",
                 "name": "INT_6",
                 "href": "http://mizar.org/version/current/html/int_6.html",
-                "parent": "/II/9/C"
+                "parent": "/II9/C"
             },
             "position": {
                 "x": 18389.4,
@@ -3490,7 +3490,7 @@
                 "id": "BOR_CANT",
                 "name": "BOR_CANT",
                 "href": "http://mizar.org/version/current/html/bor_cant.html",
-                "parent": "/XVII/1/"
+                "parent": "/XVII1/"
             },
             "position": {
                 "x": 19781.4,
@@ -3503,7 +3503,7 @@
                 "id": "MESFUNC6",
                 "name": "MESFUNC6",
                 "href": "http://mizar.org/version/current/html/mesfunc6.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17219.4,
@@ -3516,7 +3516,7 @@
                 "id": "DIFF_3",
                 "name": "DIFF_3",
                 "href": "http://mizar.org/version/current/html/diff_3.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 26159.399999999998,
@@ -3529,7 +3529,7 @@
                 "id": "MESFUNC7",
                 "name": "MESFUNC7",
                 "href": "http://mizar.org/version/current/html/mesfunc7.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 16313.4,
@@ -3542,7 +3542,7 @@
                 "id": "MESFUN6C",
                 "name": "MESFUN6C",
                 "href": "http://mizar.org/version/current/html/mesfun6c.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17231.4,
@@ -3555,7 +3555,7 @@
                 "id": "DIFF_4",
                 "name": "DIFF_4",
                 "href": "http://mizar.org/version/current/html/diff_4.html",
-                "parent": "/X/6/"
+                "parent": "/X6/"
             },
             "position": {
                 "x": 28019.399999999998,
@@ -3568,7 +3568,7 @@
                 "id": "RINFSUP2",
                 "name": "RINFSUP2",
                 "href": "http://mizar.org/version/current/html/rinfsup2.html",
-                "parent": "/II/19/"
+                "parent": "/II19/"
             },
             "position": {
                 "x": 21713.4,
@@ -3581,7 +3581,7 @@
                 "id": "MESFUNC8",
                 "name": "MESFUNC8",
                 "href": "http://mizar.org/version/current/html/mesfunc8.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 21713.4,
@@ -3594,7 +3594,7 @@
                 "id": "MESFUNC9",
                 "name": "MESFUNC9",
                 "href": "http://mizar.org/version/current/html/mesfunc9.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17231.4,
@@ -3607,7 +3607,7 @@
                 "id": "MESFUN10",
                 "name": "MESFUN10",
                 "href": "http://mizar.org/version/current/html/mesfun10.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 17231.4,
@@ -3620,7 +3620,7 @@
                 "id": "MATRIX_0",
                 "name": "MATRIX_0",
                 "href": "http://mizar.org/version/current/html/matrix_0.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 6497.400000000001,
@@ -3633,7 +3633,7 @@
                 "id": "AFINSQ_2",
                 "name": "AFINSQ_2",
                 "href": "http://mizar.org/version/current/html/afinsq_2.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 14261.400000000001,
@@ -3646,7 +3646,7 @@
                 "id": "GOBRD10",
                 "name": "GOBRD10",
                 "href": "http://mizar.org/version/current/html/gobrd10.html",
-                "parent": "/II/14/"
+                "parent": "/II14/"
             },
             "position": {
                 "x": 6593.400000000001,
@@ -3659,7 +3659,7 @@
                 "id": "INTEGR13",
                 "name": "INTEGR13",
                 "href": "http://mizar.org/version/current/html/integr13.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 20525.4,
@@ -3672,7 +3672,7 @@
                 "id": "INTEGR14",
                 "name": "INTEGR14",
                 "href": "http://mizar.org/version/current/html/integr14.html",
-                "parent": "/X/11/"
+                "parent": "/X11/"
             },
             "position": {
                 "x": 23261.399999999998,
@@ -3685,7 +3685,7 @@
                 "id": "STIRL2_1",
                 "name": "STIRL2_1",
                 "href": "http://mizar.org/version/current/html/stirl2_1.html",
-                "parent": "/II/8/"
+                "parent": "/II8/"
             },
             "position": {
                 "x": 10865.400000000001,
@@ -3698,7 +3698,7 @@
                 "id": "NAT_3",
                 "name": "NAT_3",
                 "href": "http://mizar.org/version/current/html/nat_3.html",
-                "parent": "/III/4/"
+                "parent": "/III4/"
             },
             "position": {
                 "x": 9371.400000000001,
@@ -3711,7 +3711,7 @@
                 "id": "NAT_4",
                 "name": "NAT_4",
                 "href": "http://mizar.org/version/current/html/nat_4.html",
-                "parent": "/III/4/"
+                "parent": "/III4/"
             },
             "position": {
                 "x": 17807.4,
@@ -3724,7 +3724,7 @@
                 "id": "FIB_NUM2",
                 "name": "FIB_NUM2",
                 "href": "http://mizar.org/version/current/html/fib_num2.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 27647.4,
@@ -3737,7 +3737,7 @@
                 "id": "FIB_NUM3",
                 "name": "FIB_NUM3",
                 "href": "http://mizar.org/version/current/html/fib_num3.html",
-                "parent": "/II/4/D"
+                "parent": "/II4/D"
             },
             "position": {
                 "x": 27647.4,
@@ -3750,7 +3750,7 @@
                 "id": "ORDINAL5",
                 "name": "ORDINAL5",
                 "href": "http://mizar.org/version/current/html/ordinal5.html",
-                "parent": "/II/13/"
+                "parent": "/II13/"
             },
             "position": {
                 "x": 3395.7000000000003,
@@ -3763,7 +3763,7 @@
                 "id": "ORDINAL6",
                 "name": "ORDINAL6",
                 "href": "http://mizar.org/version/current/html/ordinal6.html",
-                "parent": "/II/13/"
+                "parent": "/II13/"
             },
             "position": {
                 "x": 3395.7000000000003,
@@ -3776,7 +3776,7 @@
                 "id": "DESCIP_1",
                 "name": "DESCIP_1",
                 "href": "http://mizar.org/version/current/html/descip_1.html",
-                "parent": "/XX/6/"
+                "parent": "/XX6/"
             },
             "position": {
                 "x": 12683.400000000001,
@@ -3789,7 +3789,7 @@
                 "id": "ZF_LANG",
                 "name": "ZF_LANG",
                 "href": "http://mizar.org/version/current/html/zf_lang.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 4619.700000000001,
@@ -3802,7 +3802,7 @@
                 "id": "ZF_MODEL",
                 "name": "ZF_MODEL",
                 "href": "http://mizar.org/version/current/html/zf_model.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 3947.7000000000003,
@@ -3815,7 +3815,7 @@
                 "id": "ZF_COLLA",
                 "name": "ZF_COLLA",
                 "href": "http://mizar.org/version/current/html/zf_colla.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 2753.7000000000003,
@@ -3828,7 +3828,7 @@
                 "id": "ZFMODEL1",
                 "name": "ZFMODEL1",
                 "href": "http://mizar.org/version/current/html/zfmodel1.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 3611.7000000000003,
@@ -3841,7 +3841,7 @@
                 "id": "ZF_LANG1",
                 "name": "ZF_LANG1",
                 "href": "http://mizar.org/version/current/html/zf_lang1.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 1631.7,
@@ -3854,7 +3854,7 @@
                 "id": "ZF_REFLE",
                 "name": "ZF_REFLE",
                 "href": "http://mizar.org/version/current/html/zf_refle.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 2213.7,
@@ -3867,7 +3867,7 @@
                 "id": "ZFREFLE1",
                 "name": "ZFREFLE1",
                 "href": "http://mizar.org/version/current/html/zfrefle1.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 3071.7000000000003,
@@ -3880,7 +3880,7 @@
                 "id": "QC_LANG1",
                 "name": "QC_LANG1",
                 "href": "http://mizar.org/version/current/html/qc_lang1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 12353.400000000001,
@@ -3893,7 +3893,7 @@
                 "id": "QC_LANG2",
                 "name": "QC_LANG2",
                 "href": "http://mizar.org/version/current/html/qc_lang2.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 1115.7,
@@ -3906,7 +3906,7 @@
                 "id": "QC_LANG3",
                 "name": "QC_LANG3",
                 "href": "http://mizar.org/version/current/html/qc_lang3.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 6977.400000000001,
@@ -3919,7 +3919,7 @@
                 "id": "CQC_LANG",
                 "name": "CQC_LANG",
                 "href": "http://mizar.org/version/current/html/cqc_lang.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 9851.4,
@@ -3932,7 +3932,7 @@
                 "id": "CQC_THE1",
                 "name": "CQC_THE1",
                 "href": "http://mizar.org/version/current/html/cqc_the1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 8453.4,
@@ -3945,7 +3945,7 @@
                 "id": "VALUAT_1",
                 "name": "VALUAT_1",
                 "href": "http://mizar.org/version/current/html/valuat_1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 9791.400000000001,
@@ -3958,7 +3958,7 @@
                 "id": "ZFMODEL2",
                 "name": "ZFMODEL2",
                 "href": "http://mizar.org/version/current/html/zfmodel2.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 1331.7,
@@ -3971,7 +3971,7 @@
                 "id": "LUKASI_1",
                 "name": "LUKASI_1",
                 "href": "http://mizar.org/version/current/html/lukasi_1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 5969.700000000001,
@@ -3984,7 +3984,7 @@
                 "id": "PROCAL_1",
                 "name": "PROCAL_1",
                 "href": "http://mizar.org/version/current/html/procal_1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 4475.7,
@@ -3997,7 +3997,7 @@
                 "id": "ZF_FUND1",
                 "name": "ZF_FUND1",
                 "href": "http://mizar.org/version/current/html/zf_fund1.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 2213.7,
@@ -4010,7 +4010,7 @@
                 "id": "INTPRO_1",
                 "name": "INTPRO_1",
                 "href": "http://mizar.org/version/current/html/intpro_1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 15851.4,
@@ -4023,7 +4023,7 @@
                 "id": "CQC_THE2",
                 "name": "CQC_THE2",
                 "href": "http://mizar.org/version/current/html/cqc_the2.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 2477.7000000000003,
@@ -4036,7 +4036,7 @@
                 "id": "ZF_FUND2",
                 "name": "ZF_FUND2",
                 "href": "http://mizar.org/version/current/html/zf_fund2.html",
-                "parent": "/I/9/"
+                "parent": "/I9/"
             },
             "position": {
                 "x": 2213.7,
@@ -4049,7 +4049,7 @@
                 "id": "HILBERT1",
                 "name": "HILBERT1",
                 "href": "http://mizar.org/version/current/html/hilbert1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 16667.4,
@@ -4062,7 +4062,7 @@
                 "id": "CQC_SIM1",
                 "name": "CQC_SIM1",
                 "href": "http://mizar.org/version/current/html/cqc_sim1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 10631.400000000001,
@@ -4075,7 +4075,7 @@
                 "id": "MODAL_1",
                 "name": "MODAL_1",
                 "href": "http://mizar.org/version/current/html/modal_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 5735.7,
@@ -4088,7 +4088,7 @@
                 "id": "CQC_THE3",
                 "name": "CQC_THE3",
                 "href": "http://mizar.org/version/current/html/cqc_the3.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 3059.7,
@@ -4101,7 +4101,7 @@
                 "id": "QC_LANG4",
                 "name": "QC_LANG4",
                 "href": "http://mizar.org/version/current/html/qc_lang4.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 4205.700000000001,
@@ -4114,7 +4114,7 @@
                 "id": "SUBSTUT1",
                 "name": "SUBSTUT1",
                 "href": "http://mizar.org/version/current/html/substut1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 10631.400000000001,
@@ -4127,7 +4127,7 @@
                 "id": "SUBLEMMA",
                 "name": "SUBLEMMA",
                 "href": "http://mizar.org/version/current/html/sublemma.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 9791.400000000001,
@@ -4140,7 +4140,7 @@
                 "id": "SUBSTUT2",
                 "name": "SUBSTUT2",
                 "href": "http://mizar.org/version/current/html/substut2.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 9701.4,
@@ -4153,7 +4153,7 @@
                 "id": "CALCUL_1",
                 "name": "CALCUL_1",
                 "href": "http://mizar.org/version/current/html/calcul_1.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 8939.400000000001,
@@ -4166,7 +4166,7 @@
                 "id": "CALCUL_2",
                 "name": "CALCUL_2",
                 "href": "http://mizar.org/version/current/html/calcul_2.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 6563.4000000000015,
@@ -4179,7 +4179,7 @@
                 "id": "HENMODEL",
                 "name": "HENMODEL",
                 "href": "http://mizar.org/version/current/html/henmodel.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 6821.400000000001,
@@ -4192,7 +4192,7 @@
                 "id": "GOEDELCP",
                 "name": "GOEDELCP",
                 "href": "http://mizar.org/version/current/html/goedelcp.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 18467.4,
@@ -4205,7 +4205,7 @@
                 "id": "QC_TRANS",
                 "name": "QC_TRANS",
                 "href": "http://mizar.org/version/current/html/qc_trans.html",
-                "parent": "/I/3/"
+                "parent": "/I3/"
             },
             "position": {
                 "x": 16583.4,
@@ -4218,7 +4218,7 @@
                 "id": "NTALGO_1",
                 "name": "NTALGO_1",
                 "href": "http://mizar.org/version/current/html/ntalgo_1.html",
-                "parent": "/III/4/"
+                "parent": "/III4/"
             },
             "position": {
                 "x": 16553.4,
@@ -4231,7 +4231,7 @@
                 "id": "STRUCT_0",
                 "name": "STRUCT_0",
                 "href": "http://mizar.org/version/current/html/struct_0.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 4631.700000000001,
@@ -4244,7 +4244,7 @@
                 "id": "ALGSTR_0",
                 "name": "ALGSTR_0",
                 "href": "http://mizar.org/version/current/html/algstr_0.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 4775.7,
@@ -4257,7 +4257,7 @@
                 "id": "INCSP_1",
                 "name": "INCSP_1",
                 "href": "http://mizar.org/version/current/html/incsp_1.html",
-                "parent": "/VII/9/"
+                "parent": "/VII9/"
             },
             "position": {
                 "x": 18173.4,
@@ -4270,7 +4270,7 @@
                 "id": "PRE_TOPC",
                 "name": "PRE_TOPC",
                 "href": "http://mizar.org/version/current/html/pre_topc.html",
-                "parent": "/II/16/"
+                "parent": "/II16/"
             },
             "position": {
                 "x": 3935.7000000000003,
@@ -4283,7 +4283,7 @@
                 "id": "ORDERS_2",
                 "name": "ORDERS_2",
                 "href": "http://mizar.org/version/current/html/orders_2.html",
-                "parent": "/II/12/"
+                "parent": "/II12/"
             },
             "position": {
                 "x": 3935.7000000000003,
@@ -4296,7 +4296,7 @@
                 "id": "GRAPH_1",
                 "name": "GRAPH_1",
                 "href": "http://mizar.org/version/current/html/graph_1.html",
-                "parent": "/XIX/2/"
+                "parent": "/XIX2/"
             },
             "position": {
                 "x": 5579.7,
@@ -4309,7 +4309,7 @@
                 "id": "CAT_1",
                 "name": "CAT_1",
                 "href": "http://mizar.org/version/current/html/cat_1.html",
-                "parent": "/II/24/"
+                "parent": "/II24/"
             },
             "position": {
                 "x": 5579.7,
@@ -4322,7 +4322,7 @@
                 "id": "PETRI",
                 "name": "PETRI",
                 "href": "http://mizar.org/version/current/html/petri.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 6263.4000000000015,
@@ -4335,7 +4335,7 @@
                 "id": "NET_1",
                 "name": "NET_1",
                 "href": "http://mizar.org/version/current/html/net_1.html",
-                "parent": "/"
+                "parent": ""
             },
             "position": {
                 "x": 6263.4000000000015,
@@ -8109,977 +8109,969 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/II/4/B",
-                "name": "B",
-                "parent": "/II/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/9",
-                "name": "9",
-                "parent": "/I"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/VII/13",
-                "name": "13",
-                "parent": "/VII"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/1/",
-                "name": "",
-                "parent": "/XIX/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/2/B",
-                "name": "B",
-                "parent": "/II/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/10/A",
-                "name": "A",
-                "parent": "/III/10"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/13/A",
-                "name": "A",
-                "parent": "/II/13"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XVII/1/",
-                "name": "",
-                "parent": "/XVII/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XXI/9",
-                "name": "9",
-                "parent": "/XXI"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I",
-                "name": "I",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/4/D",
-                "name": "D",
-                "parent": "/II/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/13/A",
-                "name": "A",
-                "parent": "/I/13"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1/D",
-                "name": "D",
-                "parent": "/II/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/VII/13/",
-                "name": "",
-                "parent": "/VII/13"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/9/A",
-                "name": "A",
-                "parent": "/I/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/3/",
-                "name": "",
-                "parent": "/I/3"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/1/",
-                "name": "",
-                "parent": "/IV/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/4",
-                "name": "4",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/10/B",
-                "name": "B",
-                "parent": "/III/10"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XXII/16/",
-                "name": "",
-                "parent": "/XXII/16"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/2/",
-                "name": "",
-                "parent": "/IV/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/15",
-                "name": "15",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/2/",
-                "name": "",
-                "parent": "/XIX/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XV",
-                "name": "XV",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1/",
-                "name": "",
-                "parent": "/II/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1/B",
-                "name": "B",
-                "parent": "/II/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/12/A",
-                "name": "A",
-                "parent": "/II/12"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XXI",
-                "name": "XXI",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/1",
-                "name": "1",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/2/",
-                "name": "",
-                "parent": "/X/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/6/A",
-                "name": "A",
-                "parent": "/III/6"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX",
-                "name": "XX",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/13",
-                "name": "13",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/18",
-                "name": "18",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/16",
-                "name": "16",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XI/1",
-                "name": "1",
-                "parent": "/XI"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/19/",
-                "name": "",
-                "parent": "/II/19"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XVII/1",
-                "name": "1",
-                "parent": "/XVII"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/3",
-                "name": "3",
-                "parent": "/I"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/23/",
-                "name": "",
-                "parent": "/X/23"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/6",
-                "name": "6",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/2",
-                "name": "2",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/4/C",
-                "name": "C",
-                "parent": "/II/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/15/",
-                "name": "",
-                "parent": "/II/15"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV",
-                "name": "IV",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/2",
-                "name": "2",
-                "parent": "/IV"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/3/",
-                "name": "",
-                "parent": "/IV/3"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II",
-                "name": "II",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/6",
-                "name": "6",
-                "parent": "/III"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X",
-                "name": "X",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XV/1",
-                "name": "1",
-                "parent": "/XV"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/4/",
-                "name": "",
-                "parent": "/II/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9/C",
-                "name": "C",
-                "parent": "/II/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX/6",
-                "name": "6",
-                "parent": "/XX"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1",
-                "name": "1",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/1",
-                "name": "1",
-                "parent": "/I"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/1",
-                "name": "1",
-                "parent": "/III"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/VII/9/",
-                "name": "",
-                "parent": "/VII/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX",
-                "name": "XIX",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX/1/C",
-                "name": "C",
-                "parent": "/XX/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/3",
-                "name": "3",
-                "parent": "/XIX"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XI/2/",
-                "name": "",
-                "parent": "/XI/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/2",
-                "name": "2",
-                "parent": "/XIX"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/4/",
-                "name": "",
-                "parent": "/X/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/2/",
-                "name": "",
-                "parent": "/III/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/19",
-                "name": "19",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/14",
-                "name": "14",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/24/",
-                "name": "",
-                "parent": "/II/24"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/19/B",
-                "name": "B",
-                "parent": "/II/19"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/4/J",
-                "name": "J",
-                "parent": "/III/4"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/1",
-                "name": "1",
-                "parent": "/XIX"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/5",
-                "name": "5",
-                "parent": "/III"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/2",
-                "name": "2",
-                "parent": "/III"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XVII",
-                "name": "XVII",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III",
-                "name": "III",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9/E",
-                "name": "E",
-                "parent": "/II/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/10/B",
-                "name": "B",
-                "parent": "/II/10"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/5/",
-                "name": "",
-                "parent": "/III/5"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/1/C",
-                "name": "C",
-                "parent": "/I/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/25",
-                "name": "25",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/19/",
-                "name": "",
-                "parent": "/X/19"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/17",
-                "name": "17",
-                "parent": "/I"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/10",
-                "name": "10",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9/D",
-                "name": "D",
-                "parent": "/II/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XI",
-                "name": "XI",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX/1",
-                "name": "1",
-                "parent": "/XX"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/2/A",
-                "name": "A",
-                "parent": "/II/2"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/3/A",
-                "name": "A",
-                "parent": "/I/3"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/13/",
-                "name": "",
-                "parent": "/II/13"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/19",
-                "name": "19",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XXII/16",
-                "name": "16",
-                "parent": "/XXII"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XI/2",
-                "name": "2",
-                "parent": "/XI"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/1/",
-                "name": "",
-                "parent": "/III/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/VII",
-                "name": "VII",
-                "parent": ""
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/8/",
-                "name": "",
-                "parent": "/II/8"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/17/A",
-                "name": "A",
-                "parent": "/I/17"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XIX/3/F",
+                "id": "/II9/F",
                 "name": "F",
-                "parent": "/XIX/3"
+                "parent": "/II9"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/X/23",
-                "name": "23",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/18/",
+                "id": "/II8/",
                 "name": "",
-                "parent": "/X/18"
+                "parent": "/II8"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/X/13/",
-                "name": "",
-                "parent": "/X/13"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/11",
-                "name": "11",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/2",
-                "name": "2",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/6/",
-                "name": "",
-                "parent": "/IV/6"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XII/6/A",
-                "name": "A",
-                "parent": "/XII/6"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1/A",
-                "name": "A",
-                "parent": "/II/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XXII",
-                "name": "XXII",
+                "id": "/II19",
+                "name": "II19",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/XXI/9/",
+                "id": "/II2",
+                "name": "II2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I13",
+                "name": "I13",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/VII13",
+                "name": "VII13",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XII6",
+                "name": "XII6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XIX3",
+                "name": "XIX3",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II9",
+                "name": "II9",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XIX2",
+                "name": "XIX2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II1/D",
+                "name": "D",
+                "parent": "/II1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II16",
+                "name": "II16",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X11/",
                 "name": "",
-                "parent": "/XXI/9"
+                "parent": "/X11"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/III/4",
-                "name": "4",
-                "parent": "/III"
+                "id": "/III2/",
+                "name": "",
+                "parent": "/III2"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/XV/1/B",
+                "id": "/II13/A",
+                "name": "A",
+                "parent": "/II13"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II6/",
+                "name": "",
+                "parent": "/II6"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X4",
+                "name": "X4",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II9/E",
+                "name": "E",
+                "parent": "/II9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II24/H",
+                "name": "H",
+                "parent": "/II24"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV6",
+                "name": "IV6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III1",
+                "name": "III1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X6/",
+                "name": "",
+                "parent": "/X6"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X1",
+                "name": "X1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II15/",
+                "name": "",
+                "parent": "/II15"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X18",
+                "name": "X18",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II8",
+                "name": "II8",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III10/B",
                 "name": "B",
-                "parent": "/XV/1"
+                "parent": "/III10"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/3",
-                "name": "3",
-                "parent": "/II"
+                "id": "/III4/J",
+                "name": "J",
+                "parent": "/III4"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/2/",
+                "id": "/III10/A",
+                "name": "A",
+                "parent": "/III10"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II16/",
                 "name": "",
-                "parent": "/II/2"
+                "parent": "/II16"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/12",
-                "name": "12",
-                "parent": "/II"
+                "id": "/IV1",
+                "name": "IV1",
+                "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/8",
-                "name": "8",
-                "parent": "/II"
+                "id": "/II12/A",
+                "name": "A",
+                "parent": "/II12"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/24",
-                "name": "24",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9/B",
-                "name": "B",
-                "parent": "/II/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/4",
-                "name": "4",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX/1/",
-                "name": "",
-                "parent": "/XX/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XII/6",
-                "name": "6",
-                "parent": "/XII"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/13",
-                "name": "13",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/14/",
-                "name": "",
-                "parent": "/II/14"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/1/C",
+                "id": "/I1/C",
                 "name": "C",
-                "parent": "/II/1"
+                "parent": "/I1"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/3/",
+                "id": "/VII9",
+                "name": "VII9",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XIX3/F",
+                "name": "F",
+                "parent": "/XIX3"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I3",
+                "name": "I3",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III6",
+                "name": "III6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X25",
+                "name": "X25",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III6/A",
+                "name": "A",
+                "parent": "/III6"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II9/D",
+                "name": "D",
+                "parent": "/II9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XX1/C",
+                "name": "C",
+                "parent": "/XX1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X19",
+                "name": "X19",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III5/",
                 "name": "",
-                "parent": "/II/3"
+                "parent": "/III5"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I3/A",
+                "name": "A",
+                "parent": "/I3"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X25/",
+                "name": "",
+                "parent": "/X25"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II9/B",
+                "name": "B",
+                "parent": "/II9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV1/",
+                "name": "",
+                "parent": "/IV1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "//",
+                "name": "",
+                "parent": "/"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II24/",
+                "name": "",
+                "parent": "/II24"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X19/",
+                "name": "",
+                "parent": "/X19"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II2/",
+                "name": "",
+                "parent": "/II2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II10/B",
+                "name": "B",
+                "parent": "/II10"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X1/",
+                "name": "",
+                "parent": "/X1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II12",
+                "name": "II12",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XIX2/",
+                "name": "",
+                "parent": "/XIX2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I17/A",
+                "name": "A",
+                "parent": "/I17"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I9",
+                "name": "I9",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XI1/",
+                "name": "",
+                "parent": "/XI1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XX1/",
+                "name": "",
+                "parent": "/XX1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II1/",
+                "name": "",
+                "parent": "/II1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XXI9/",
+                "name": "",
+                "parent": "/XXI9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II1/B",
+                "name": "B",
+                "parent": "/II1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II2/A",
+                "name": "A",
+                "parent": "/II2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV3",
+                "name": "IV3",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XXII16/",
+                "name": "",
+                "parent": "/XXII16"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III5",
+                "name": "III5",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV3/",
+                "name": "",
+                "parent": "/IV3"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XXI9",
+                "name": "XXI9",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XVII1/",
+                "name": "",
+                "parent": "/XVII1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II1",
+                "name": "II1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II9/C",
+                "name": "C",
+                "parent": "/II9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X11",
+                "name": "X11",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II4/B",
+                "name": "B",
+                "parent": "/II4"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV2/",
+                "name": "",
+                "parent": "/IV2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XX6/",
+                "name": "",
+                "parent": "/XX6"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III1/",
+                "name": "",
+                "parent": "/III1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II24",
+                "name": "II24",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II4/D",
+                "name": "D",
+                "parent": "/II4"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X13",
+                "name": "X13",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I3/",
+                "name": "",
+                "parent": "/I3"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XX6",
+                "name": "XX6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XIX1",
+                "name": "XIX1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II1/C",
+                "name": "C",
+                "parent": "/II1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XII6/A",
+                "name": "A",
+                "parent": "/XII6"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II3/",
+                "name": "",
+                "parent": "/II3"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I1",
+                "name": "I1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II19/",
+                "name": "",
+                "parent": "/II19"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/VII9/",
+                "name": "",
+                "parent": "/VII9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II4/C",
+                "name": "C",
+                "parent": "/II4"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XXII16",
+                "name": "XXII16",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/IV2",
+                "name": "IV2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XX1",
+                "name": "XX1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XV1",
+                "name": "XV1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I9/A",
+                "name": "A",
+                "parent": "/I9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III4",
+                "name": "III4",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II2/B",
+                "name": "B",
+                "parent": "/II2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X2",
+                "name": "X2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XI2/",
+                "name": "",
+                "parent": "/XI2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X23/",
+                "name": "",
+                "parent": "/X23"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X2/",
+                "name": "",
+                "parent": "/X2"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II14",
+                "name": "II14",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XV1/B",
+                "name": "B",
+                "parent": "/XV1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I9/",
+                "name": "",
+                "parent": "/I9"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/VII13/",
+                "name": "",
+                "parent": "/VII13"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II6",
+                "name": "II6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II10",
+                "name": "II10",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X23",
+                "name": "X23",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II13",
+                "name": "II13",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II15",
+                "name": "II15",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II14/",
+                "name": "",
+                "parent": "/II14"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II4",
+                "name": "II4",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X6",
+                "name": "X6",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II12/",
+                "name": "",
+                "parent": "/II12"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XI1",
+                "name": "XI1",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II13/",
+                "name": "",
+                "parent": "/II13"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II3",
+                "name": "II3",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III2",
+                "name": "III2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III10",
+                "name": "III10",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/III4/",
+                "name": "",
+                "parent": "/III4"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/I13/A",
+                "name": "A",
+                "parent": "/I13"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/II4/",
+                "name": "",
+                "parent": "/II4"
             }
         },
         {
@@ -9093,177 +9085,81 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/I/13",
-                "name": "13",
-                "parent": "/I"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/24/H",
-                "name": "H",
-                "parent": "/II/24"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/6/",
+                "id": "/XIX1/",
                 "name": "",
-                "parent": "/II/6"
+                "parent": "/XIX1"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/II/16/",
-                "name": "",
-                "parent": "/II/16"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XII",
-                "name": "XII",
+                "id": "/XVII1",
+                "name": "XVII1",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/III/4/",
+                "id": "/II1/A",
+                "name": "A",
+                "parent": "/II1"
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/XI2",
+                "name": "XI2",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X13/",
                 "name": "",
-                "parent": "/III/4"
+                "parent": "/X13"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/X/11/",
+                "id": "/X4/",
                 "name": "",
-                "parent": "/X/11"
+                "parent": "/X4"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/X/6",
-                "name": "6",
-                "parent": "/X"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/1",
-                "name": "1",
-                "parent": "/IV"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/12/",
+                "id": "/IV6/",
                 "name": "",
-                "parent": "/II/12"
+                "parent": "/IV6"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/IV/3",
-                "name": "3",
-                "parent": "/IV"
+                "id": "/II19/B",
+                "name": "B",
+                "parent": "/II19"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/X/6/",
+                "id": "/I17",
+                "name": "I17",
+                "parent": ""
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "/X18/",
                 "name": "",
-                "parent": "/X/6"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XX/6/",
-                "name": "",
-                "parent": "/XX/6"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/III/10",
-                "name": "10",
-                "parent": "/III"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9/F",
-                "name": "F",
-                "parent": "/II/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/I/9/",
-                "name": "",
-                "parent": "/I/9"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/1/",
-                "name": "",
-                "parent": "/X/1"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/X/25/",
-                "name": "",
-                "parent": "/X/25"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/IV/6",
-                "name": "6",
-                "parent": "/IV"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/II/9",
-                "name": "9",
-                "parent": "/II"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/VII/9",
-                "name": "9",
-                "parent": "/VII"
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "/XI/1/",
-                "name": "",
-                "parent": "/XI/1"
+                "parent": "/X18"
             }
         }
     ]

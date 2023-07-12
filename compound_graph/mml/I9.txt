@@ -1,0 +1,12 @@
+tarski
+wellord2
+zf_lang
+zf_model
+zf_colla
+zfmodel1
+zf_lang1
+zf_refle
+zfrefle1
+zfmodel2
+zf_fund1
+zf_fund2

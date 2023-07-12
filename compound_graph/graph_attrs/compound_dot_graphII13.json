@@ -1,0 +1,135 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL1",
+                "name": "ORDINAL1",
+                "href": "http://mizar.org/version/current/html/ordinal1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL2",
+                "name": "ORDINAL2",
+                "href": "http://mizar.org/version/current/html/ordinal2.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL3",
+                "name": "ORDINAL3",
+                "href": "http://mizar.org/version/current/html/ordinal3.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL4",
+                "name": "ORDINAL4",
+                "href": "http://mizar.org/version/current/html/ordinal4.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL5",
+                "name": "ORDINAL5",
+                "href": "http://mizar.org/version/current/html/ordinal5.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL6",
+                "name": "ORDINAL6",
+                "href": "http://mizar.org/version/current/html/ordinal6.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1186.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 1966.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL2",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL3",
+                "target": "ORDINAL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL4",
+                "target": "ORDINAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL5",
+                "target": "ORDINAL4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL6",
+                "target": "ORDINAL5"
+            }
+        }
+    ]
+}

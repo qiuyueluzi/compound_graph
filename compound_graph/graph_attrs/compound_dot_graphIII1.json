@@ -1,0 +1,102 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MULTOP_1",
+                "name": "MULTOP_1",
+                "href": "http://mizar.org/version/current/html/multop_1.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCHEMS_1",
+                "name": "SCHEMS_1",
+                "href": "http://mizar.org/version/current/html/schems_1.html"
+            },
+            "position": {
+                "x": 1248.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIALG_1",
+                "name": "UNIALG_1",
+                "href": "http://mizar.org/version/current/html/unialg_1.html"
+            },
+            "position": {
+                "x": 2064.2400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIALG_2",
+                "name": "UNIALG_2",
+                "href": "http://mizar.org/version/current/html/unialg_2.html"
+            },
+            "position": {
+                "x": 2064.2400000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRALG_1",
+                "name": "PRALG_1",
+                "href": "http://mizar.org/version/current/html/pralg_1.html"
+            },
+            "position": {
+                "x": 2064.2400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2832.2400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3612.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "UNIALG_2",
+                "target": "UNIALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRALG_1",
+                "target": "UNIALG_2"
+            }
+        }
+    ]
+}

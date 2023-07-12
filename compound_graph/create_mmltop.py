@@ -10,16 +10,20 @@ with open('graph_attrs/mml_classification_gpt.json', 'r') as file:
 # 分類ごとにテキストファイルを作成
 for classification in classification_data['mml_classification']:
     ancestorDirectory = classification['directory']
-    directory = ancestorDirectory.split("/", 2)[1]
-    directory = directory.replace("/", "")
-    if directory != "" :
-        nodes = classification['mml-name']
+    if ancestorDirectory != "":
+        directory = ancestorDirectory.split("/")[1]
+        directory = directory.replace("/", "")
+        
+        if directory != "" :
+            nodes = classification['mml-name']
 
-        # 同じ分類のノード名を記録したテキストファイルを作成
-        with open(f'mml/{directory}.txt', mode='a') as txt_file:
-            txt_file.write(nodes + "\n")
+            # 同じ分類のノード名を記録したテキストファイルを作成
+            with open(f'mml/{directory}.txt', mode='a') as txt_file:
+                print(directory)
+                txt_file.write(nodes + "\n")
 
 files = glob.glob("mml/*.txt")
 for fileName in files:
     directoryName = fileName.split(".")[0].split("/")[1]
+    print(directoryName)
     create_graph.create_part_graph(directoryName)

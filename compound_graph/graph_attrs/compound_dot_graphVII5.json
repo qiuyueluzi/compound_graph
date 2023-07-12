@@ -1,0 +1,173 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COLLSP",
+                "name": "COLLSP",
+                "href": "http://mizar.org/version/current/html/collsp.html"
+            },
+            "position": {
+                "x": 825.8399999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANPROJ_1",
+                "name": "ANPROJ_1",
+                "href": "http://mizar.org/version/current/html/anproj_1.html"
+            },
+            "position": {
+                "x": 825.8399999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANPROJ_2",
+                "name": "ANPROJ_2",
+                "href": "http://mizar.org/version/current/html/anproj_2.html"
+            },
+            "position": {
+                "x": 825.8399999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROJDES1",
+                "name": "PROJDES1",
+                "href": "http://mizar.org/version/current/html/projdes1.html"
+            },
+            "position": {
+                "x": 429.86400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HESSENBE",
+                "name": "HESSENBE",
+                "href": "http://mizar.org/version/current/html/hessenbe.html"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INCPROJ",
+                "name": "INCPROJ",
+                "href": "http://mizar.org/version/current/html/incproj.html"
+            },
+            "position": {
+                "x": 1239.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROJRED1",
+                "name": "PROJRED1",
+                "href": "http://mizar.org/version/current/html/projred1.html"
+            },
+            "position": {
+                "x": 1263.84,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROJRED2",
+                "name": "PROJRED2",
+                "href": "http://mizar.org/version/current/html/projred2.html"
+            },
+            "position": {
+                "x": 1263.84,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2079.84,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 2859.84,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ANPROJ_1",
+                "target": "COLLSP"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ANPROJ_2",
+                "target": "ANPROJ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROJDES1",
+                "target": "ANPROJ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HESSENBE",
+                "target": "PROJDES1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INCPROJ",
+                "target": "ANPROJ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROJRED1",
+                "target": "INCPROJ"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROJRED2",
+                "target": "PROJRED1"
+            }
+        }
+    ]
+}

@@ -50,31 +50,23 @@ for index in range(len(parentIds)):
     parentsData['name'] = displayName
     parentsData['parent'] = parentId[0:parentNameIndex]
 
-# ノードの位置情報と親IDのマッピングを作成
-node_positions = {}
-for obj in graph_objects['eleObjs']:
-    if obj['group'] == 'nodes':
-        node_id = obj['data']['id']
-        position = obj['position']
-        node_positions[node_id] = position
-
-# ノードの一覧を取得してparentのリストを作成
-parent_set = set()
-parent_list = []
-for obj in graph_objects['eleObjs']:
-    if 'parent' in obj['data']:
-        parent_id = obj['data']['parent'].split('/')[1]
-        if parent_id and parent_id not in parent_set:
-            parent_set.add(parent_id)
-            positions = [node_positions[node_id] for node_id in node_positions if node_id in parent_id]
-            avg_position = {
-                'x': sum(pos['x'] for pos in positions) / len(positions),
-                'y': sum(pos['y'] for pos in positions) / len(positions)
-            }
-            parent_list.append({"id": parent_id, "x": avg_position['x'], "y": avg_position['y']})
-
-# 結果の表示
-print(parent_list)
+positions = {}
+counts = {}
+for obj in graph_objects["eleObjs"]:
+    if obj["group"] == "nodes" and obj["data"].get("parent"):
+        parent_top = obj["data"]["parent"].split("/")[1]
+        position = obj["position"]
+        if parent_top not in positions:
+            positions[parent_top] = {"id": parent_top, "x": position["x"], "y": position["y"]}
+            counts[parent_top] = 1
+        else:
+            positions[parent_top]["x"] += position["x"]
+            positions[parent_top]["y"] += position["y"]
+            counts[parent_top] += 1
+for parent_top in positions:
+    positions[parent_top]["x"] /= counts[parent_top]
+    positions[parent_top]["y"] /= counts[parent_top]
+print(list(positions.values()))
 
 with open('graph_attrs/graph_class_gpt.json', 'w') as f :
     json.dump(graph_objects, f, indent=4)
