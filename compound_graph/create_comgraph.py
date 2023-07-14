@@ -2,7 +2,7 @@ import json
 import copy
 
 graph_json = open('graph_attrs/compound_dot_graph.json', 'r')
-class_json = open('graph_attrs/mml_classification_gpt.json', 'r')
+class_json = open('graph_attrs/mml_classification_gptall.json', 'r')
 graph_objects = json.load(graph_json)
 class_objects = json.load(class_json)
 
@@ -22,7 +22,7 @@ nodeData = {"group": "nodes",
 parents_set = set()
 
 for index in range(len(class_objects['mml_classification'])):
-    if len(class_objects['mml_classification'][index]['directory']) > 0:
+    if class_objects['mml_classification'][index].get("directory") and len(class_objects['mml_classification'][index]['directory']) > 0:
         elementData = graph_objects['eleObjs'][index]['data']
         classData = class_objects['mml_classification'][index]
         directoryData = classData['directory']
@@ -68,6 +68,6 @@ for parent_top in positions:
     positions[parent_top]["y"] /= counts[parent_top]
 print(list(positions.values()))
 
-with open('graph_attrs/graph_class_gpt.json', 'w') as f :
+with open('graph_attrs/graph_class_gptall.json', 'w') as f :
     json.dump(graph_objects, f, indent=4)
 

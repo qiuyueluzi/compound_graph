@@ -1,0 +1,386 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_1",
+                "name": "MATRIX_1",
+                "href": "http://mizar.org/version/current/html/matrix_1.html"
+            },
+            "position": {
+                "x": 2176.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_4",
+                "name": "MATRIX_4",
+                "href": "http://mizar.org/version/current/html/matrix_4.html"
+            },
+            "position": {
+                "x": 2176.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_5",
+                "name": "MATRIX_5",
+                "href": "http://mizar.org/version/current/html/matrix_5.html"
+            },
+            "position": {
+                "x": 1912.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXR1",
+                "name": "MATRIXR1",
+                "href": "http://mizar.org/version/current/html/matrixr1.html"
+            },
+            "position": {
+                "x": 1912.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXC1",
+                "name": "MATRIXC1",
+                "href": "http://mizar.org/version/current/html/matrixc1.html"
+            },
+            "position": {
+                "x": 1072.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_6",
+                "name": "MATRIX_6",
+                "href": "http://mizar.org/version/current/html/matrix_6.html"
+            },
+            "position": {
+                "x": 2428.4400000000005,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX10",
+                "name": "MATRIX10",
+                "href": "http://mizar.org/version/current/html/matrix10.html"
+            },
+            "position": {
+                "x": 1180.44,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXR2",
+                "name": "MATRIXR2",
+                "href": "http://mizar.org/version/current/html/matrixr2.html"
+            },
+            "position": {
+                "x": 1180.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_8",
+                "name": "MATRIX_8",
+                "href": "http://mizar.org/version/current/html/matrix_8.html"
+            },
+            "position": {
+                "x": 3658.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXJ1",
+                "name": "MATRIXJ1",
+                "href": "http://mizar.org/version/current/html/matrixj1.html"
+            },
+            "position": {
+                "x": 1198.44,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRLIN2",
+                "name": "MATRLIN2",
+                "href": "http://mizar.org/version/current/html/matrlin2.html"
+            },
+            "position": {
+                "x": 2428.4400000000005,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX12",
+                "name": "MATRIX12",
+                "href": "http://mizar.org/version/current/html/matrix12.html"
+            },
+            "position": {
+                "x": 2014.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX14",
+                "name": "MATRIX14",
+                "href": "http://mizar.org/version/current/html/matrix14.html"
+            },
+            "position": {
+                "x": 2014.44,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXJ2",
+                "name": "MATRIXJ2",
+                "href": "http://mizar.org/version/current/html/matrixj2.html"
+            },
+            "position": {
+                "x": 2428.4400000000005,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX16",
+                "name": "MATRIX16",
+                "href": "http://mizar.org/version/current/html/matrix16.html"
+            },
+            "position": {
+                "x": 2842.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX17",
+                "name": "MATRIX17",
+                "href": "http://mizar.org/version/current/html/matrix17.html"
+            },
+            "position": {
+                "x": 2842.44,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMATRLIN",
+                "name": "ZMATRLIN",
+                "href": "http://mizar.org/version/current/html/zmatrlin.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3220.44,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4000.4400000000005,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX_4",
+                "target": "MATRIX_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX_5",
+                "target": "MATRIX_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXR1",
+                "target": "MATRIX_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXC1",
+                "target": "MATRIX_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX_6",
+                "target": "MATRIX_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX10",
+                "target": "MATRIXC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX10",
+                "target": "MATRIXR1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXR2",
+                "target": "MATRIX_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXR2",
+                "target": "MATRIX10"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX_8",
+                "target": "MATRIX_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXJ1",
+                "target": "MATRIXR2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRLIN2",
+                "target": "MATRIX_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRLIN2",
+                "target": "MATRIXJ1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX12",
+                "target": "MATRIX_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX12",
+                "target": "MATRIXR1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX14",
+                "target": "MATRIXR2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX14",
+                "target": "MATRIX12"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIXJ2",
+                "target": "MATRLIN2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX16",
+                "target": "MATRIX_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX16",
+                "target": "MATRIXR1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX17",
+                "target": "MATRIX16"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMATRLIN",
+                "target": "MATRIXR2"
+            }
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "METRIC_1",
+                "name": "METRIC_1",
+                "href": "http://mizar.org/version/current/html/metric_1.html"
+            },
+            "position": {
+                "x": 778.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "METRIC_3",
+                "name": "METRIC_3",
+                "href": "http://mizar.org/version/current/html/metric_3.html"
+            },
+            "position": {
+                "x": 358.77,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PCOMPS_1",
+                "name": "PCOMPS_1",
+                "href": "http://mizar.org/version/current/html/pcomps_1.html"
+            },
+            "position": {
+                "x": 1204.7399999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_2",
+                "name": "BHSP_2",
+                "href": "http://mizar.org/version/current/html/bhsp_2.html"
+            },
+            "position": {
+                "x": 2602.7400000000002,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RSSPACE3",
+                "name": "RSSPACE3",
+                "href": "http://mizar.org/version/current/html/rsspace3.html"
+            },
+            "position": {
+                "x": 3364.74,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "METRIC_6",
+                "name": "METRIC_6",
+                "href": "http://mizar.org/version/current/html/metric_6.html"
+            },
+            "position": {
+                "x": 1204.7399999999998,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPMETR3",
+                "name": "TOPMETR3",
+                "href": "http://mizar.org/version/current/html/topmetr3.html"
+            },
+            "position": {
+                "x": 622.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL7",
+                "name": "TOPREAL7",
+                "href": "http://mizar.org/version/current/html/topreal7.html"
+            },
+            "position": {
+                "x": 2044.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN1K",
+                "name": "JORDAN1K",
+                "href": "http://mizar.org/version/current/html/jordan1k.html"
+            },
+            "position": {
+                "x": 1492.7399999999998,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HAUSDORF",
+                "name": "HAUSDORF",
+                "href": "http://mizar.org/version/current/html/hausdorf.html"
+            },
+            "position": {
+                "x": 1474.74,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CSSPACE3",
+                "name": "CSSPACE3",
+                "href": "http://mizar.org/version/current/html/csspace3.html"
+            },
+            "position": {
+                "x": 4204.74,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPL_SP",
+                "name": "COMPL_SP",
+                "href": "http://mizar.org/version/current/html/compl_sp.html"
+            },
+            "position": {
+                "x": 910.74,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIMPLEX2",
+                "name": "SIMPLEX2",
+                "href": "http://mizar.org/version/current/html/simplex2.html"
+            },
+            "position": {
+                "x": 1840.7400000000002,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 5014.74,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 5794.74,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "METRIC_3",
+                "target": "METRIC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PCOMPS_1",
+                "target": "METRIC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "METRIC_6",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPMETR3",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL7",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JORDAN1K",
+                "target": "METRIC_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HAUSDORF",
+                "target": "JORDAN1K"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPL_SP",
+                "target": "HAUSDORF"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPL_SP",
+                "target": "TOPMETR3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "HAUSDORF"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "TOPREAL7"
+            }
+        }
+    ]
+}

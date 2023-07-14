@@ -1,0 +1,401 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_1",
+                "name": "RFUNCT_1",
+                "href": "http://mizar.org/version/current/html/rfunct_1.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MBOOLEAN",
+                "name": "MBOOLEAN",
+                "href": "http://mizar.org/version/current/html/mboolean.html"
+            },
+            "position": {
+                "x": 1268.3400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TDGROUP",
+                "name": "TDGROUP",
+                "href": "http://mizar.org/version/current/html/tdgroup.html"
+            },
+            "position": {
+                "x": 2144.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "OPPCAT_1",
+                "name": "OPPCAT_1",
+                "href": "http://mizar.org/version/current/html/oppcat_1.html"
+            },
+            "position": {
+                "x": 2972.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_1",
+                "name": "FILTER_1",
+                "href": "http://mizar.org/version/current/html/filter_1.html"
+            },
+            "position": {
+                "x": 3776.3399999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRALG_2",
+                "name": "PRALG_2",
+                "href": "http://mizar.org/version/current/html/pralg_2.html"
+            },
+            "position": {
+                "x": 5042.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINGCAT1",
+                "name": "RINGCAT1",
+                "href": "http://mizar.org/version/current/html/ringcat1.html"
+            },
+            "position": {
+                "x": 7214.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FF_SIEC",
+                "name": "FF_SIEC",
+                "href": "http://mizar.org/version/current/html/ff_siec.html"
+            },
+            "position": {
+                "x": 8006.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FREEALG",
+                "name": "FREEALG",
+                "href": "http://mizar.org/version/current/html/freealg.html"
+            },
+            "position": {
+                "x": 8768.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_2",
+                "name": "FILTER_2",
+                "href": "http://mizar.org/version/current/html/filter_2.html"
+            },
+            "position": {
+                "x": 9554.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCTOR1",
+                "name": "FUNCTOR1",
+                "href": "http://mizar.org/version/current/html/functor1.html"
+            },
+            "position": {
+                "x": 5888.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BIRKHOFF",
+                "name": "BIRKHOFF",
+                "href": "http://mizar.org/version/current/html/birkhoff.html"
+            },
+            "position": {
+                "x": 4592.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUOFIELD",
+                "name": "QUOFIELD",
+                "href": "http://mizar.org/version/current/html/quofield.html"
+            },
+            "position": {
+                "x": 7214.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "IDEA_1",
+                "name": "IDEA_1",
+                "href": "http://mizar.org/version/current/html/idea_1.html"
+            },
+            "position": {
+                "x": 10268.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW18",
+                "name": "YELLOW18",
+                "href": "http://mizar.org/version/current/html/yellow18.html"
+            },
+            "position": {
+                "x": 5888.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE6",
+                "name": "LATTICE6",
+                "href": "http://mizar.org/version/current/html/lattice6.html"
+            },
+            "position": {
+                "x": 10994.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL34",
+                "name": "WAYBEL34",
+                "href": "http://mizar.org/version/current/html/waybel34.html"
+            },
+            "position": {
+                "x": 6350.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "OPOSET_1",
+                "name": "OPOSET_1",
+                "href": "http://mizar.org/version/current/html/oposet_1.html"
+            },
+            "position": {
+                "x": 11816.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROEB_1",
+                "name": "GROEB_1",
+                "href": "http://mizar.org/version/current/html/groeb_1.html"
+            },
+            "position": {
+                "x": 12626.4,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROEB_3",
+                "name": "GROEB_3",
+                "href": "http://mizar.org/version/current/html/groeb_3.html"
+            },
+            "position": {
+                "x": 12626.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_5",
+                "name": "BCIALG_5",
+                "href": "http://mizar.org/version/current/html/bcialg_5.html"
+            },
+            "position": {
+                "x": 13418.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSAFREE4",
+                "name": "MSAFREE4",
+                "href": "http://mizar.org/version/current/html/msafree4.html"
+            },
+            "position": {
+                "x": 5468.339999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAYLDICK",
+                "name": "CAYLDICK",
+                "href": "http://mizar.org/version/current/html/cayldick.html"
+            },
+            "position": {
+                "x": 14234.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_8",
+                "name": "CAT_8",
+                "href": "http://mizar.org/version/current/html/cat_8.html"
+            },
+            "position": {
+                "x": 14936.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_21",
+                "name": "GROUP_21",
+                "href": "http://mizar.org/version/current/html/group_21.html"
+            },
+            "position": {
+                "x": 15656.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROBBINS5",
+                "name": "ROBBINS5",
+                "href": "http://mizar.org/version/current/html/robbins5.html"
+            },
+            "position": {
+                "x": 16508.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATWAL_1",
+                "name": "LATWAL_1",
+                "href": "http://mizar.org/version/current/html/latwal_1.html"
+            },
+            "position": {
+                "x": 17348.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 18152.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 18932.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BIRKHOFF",
+                "target": "PRALG_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QUOFIELD",
+                "target": "RINGCAT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW18",
+                "target": "FUNCTOR1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL34",
+                "target": "YELLOW18"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROEB_3",
+                "target": "GROEB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSAFREE4",
+                "target": "YELLOW18"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSAFREE4",
+                "target": "PRALG_2"
+            }
+        }
+    ]
+}

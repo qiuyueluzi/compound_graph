@@ -1,0 +1,323 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC2",
+                "name": "MESFUNC2",
+                "href": "http://mizar.org/version/current/html/mesfunc2.html"
+            },
+            "position": {
+                "x": 867.54,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HOLDER_1",
+                "name": "HOLDER_1",
+                "href": "http://mizar.org/version/current/html/holder_1.html"
+            },
+            "position": {
+                "x": 2211.54,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC5",
+                "name": "MESFUNC5",
+                "href": "http://mizar.org/version/current/html/mesfunc5.html"
+            },
+            "position": {
+                "x": 867.54,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMSP_1",
+                "name": "NORMSP_1",
+                "href": "http://mizar.org/version/current/html/normsp_1.html"
+            },
+            "position": {
+                "x": 4947.54,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_6",
+                "name": "BHSP_6",
+                "href": "http://mizar.org/version/current/html/bhsp_6.html"
+            },
+            "position": {
+                "x": 7587.599999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_7",
+                "name": "BHSP_7",
+                "href": "http://mizar.org/version/current/html/bhsp_7.html"
+            },
+            "position": {
+                "x": 7587.599999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CLVECT_1",
+                "name": "CLVECT_1",
+                "href": "http://mizar.org/version/current/html/clvect_1.html"
+            },
+            "position": {
+                "x": 2991.54,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN9C",
+                "name": "MESFUN9C",
+                "href": "http://mizar.org/version/current/html/mesfun9c.html"
+            },
+            "position": {
+                "x": 405.56399999999996,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE8",
+                "name": "MEASURE8",
+                "href": "http://mizar.org/version/current/html/measure8.html"
+            },
+            "position": {
+                "x": 1323.5400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_8",
+                "name": "PDIFF_8",
+                "href": "http://mizar.org/version/current/html/pdiff_8.html"
+            },
+            "position": {
+                "x": 3753.5400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CC0SP1",
+                "name": "CC0SP1",
+                "href": "http://mizar.org/version/current/html/cc0sp1.html"
+            },
+            "position": {
+                "x": 2991.54,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR20",
+                "name": "INTEGR20",
+                "href": "http://mizar.org/version/current/html/integr20.html"
+            },
+            "position": {
+                "x": 4527.54,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DUALSP01",
+                "name": "DUALSP01",
+                "href": "http://mizar.org/version/current/html/dualsp01.html"
+            },
+            "position": {
+                "x": 5367.54,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DUALSP02",
+                "name": "DUALSP02",
+                "href": "http://mizar.org/version/current/html/dualsp02.html"
+            },
+            "position": {
+                "x": 5367.54,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUSIN",
+                "name": "COUSIN",
+                "href": "http://mizar.org/version/current/html/cousin.html"
+            },
+            "position": {
+                "x": 6147.599999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_8",
+                "name": "NDIFF_8",
+                "href": "http://mizar.org/version/current/html/ndiff_8.html"
+            },
+            "position": {
+                "x": 6867.599999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF10",
+                "name": "NDIFF10",
+                "href": "http://mizar.org/version/current/html/ndiff10.html"
+            },
+            "position": {
+                "x": 6867.599999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 8319.6,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 9099.599999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC5",
+                "target": "MESFUNC2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_7",
+                "target": "BHSP_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CLVECT_1",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUN9C",
+                "target": "MESFUNC5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE8",
+                "target": "MESFUNC5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PDIFF_8",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CC0SP1",
+                "target": "CLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR20",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DUALSP01",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DUALSP02",
+                "target": "DUALSP01"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COUSIN",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NDIFF_8",
+                "target": "NORMSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NDIFF10",
+                "target": "NDIFF_8"
+            }
+        }
+    ]
+}

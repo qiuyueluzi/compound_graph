@@ -75,7 +75,7 @@ $(function(){
             name: "klay",
             spacingFactor: 10
         })
-        //layout.run()
+        layout.run()
         
         let contextMenu = cy.contextMenus({ //右クリック時のコンテキストメニュー
             evtType: ['cxttap'],
@@ -369,7 +369,7 @@ $(function(){
     }
     let generation1, generation2, generation3;
     
-    for (let parent_name of all_parent_names){
+    for (let parent_name of all_parent_names.sort().reverse()){
         if(parent_name){
             let parentsDisplayName = parent_name[0];
             let parentsFullName = parent_name[1];
@@ -438,7 +438,20 @@ $(function(){
 
     
     // 同じ親を持つノードをフィルタリングします
-    console.log(cy.nodes().length, cy.edges().length)
+    up = 0;
+    edgecount = 0;
+    cy.edges().forEach(edge => {
+        var sourceNode = edge.source();  // エッジの始点を取得
+        var targetNode = edge.target();  // エッジの終点を取得
+        if (sourceNode.position('y') > targetNode.position('y')){
+            up++;
+            edgecount++;
+        }
+        else{
+            edgecount++;
+        }
+    });
+    console.log(up/edgecount)
     
 
     let all_cluster_color = ["cluster_indigo", "cluster_cyan", "cluster_teal", "cluster_green", "cluster_olive", "cluster_sand", "cluster_rose", "cluster_wine", "cluster_purple"];

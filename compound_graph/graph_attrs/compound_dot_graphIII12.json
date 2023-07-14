@@ -1,0 +1,271 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_2",
+                "name": "MOD_2",
+                "href": "http://mizar.org/version/current/html/mod_2.html"
+            },
+            "position": {
+                "x": 502.164,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_3",
+                "name": "MOD_3",
+                "href": "http://mizar.org/version/current/html/mod_3.html"
+            },
+            "position": {
+                "x": 2416.1400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODCAT_1",
+                "name": "MODCAT_1",
+                "href": "http://mizar.org/version/current/html/modcat_1.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LMOD_6",
+                "name": "LMOD_6",
+                "href": "http://mizar.org/version/current/html/lmod_6.html"
+            },
+            "position": {
+                "x": 2920.1400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_4",
+                "name": "MOD_4",
+                "href": "http://mizar.org/version/current/html/mod_4.html"
+            },
+            "position": {
+                "x": 1270.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LMOD_7",
+                "name": "LMOD_7",
+                "href": "http://mizar.org/version/current/html/lmod_7.html"
+            },
+            "position": {
+                "x": 2920.1400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EXTENS_1",
+                "name": "EXTENS_1",
+                "href": "http://mizar.org/version/current/html/extens_1.html"
+            },
+            "position": {
+                "x": 2560.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSINST_1",
+                "name": "MSINST_1",
+                "href": "http://mizar.org/version/current/html/msinst_1.html"
+            },
+            "position": {
+                "x": 3394.1400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP10",
+                "name": "VECTSP10",
+                "href": "http://mizar.org/version/current/html/vectsp10.html"
+            },
+            "position": {
+                "x": 2140.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "OSAFREE",
+                "name": "OSAFREE",
+                "href": "http://mizar.org/version/current/html/osafree.html"
+            },
+            "position": {
+                "x": 4210.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_4",
+                "name": "BCIALG_4",
+                "href": "http://mizar.org/version/current/html/bcialg_4.html"
+            },
+            "position": {
+                "x": 5014.140000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL05",
+                "name": "ZMODUL05",
+                "href": "http://mizar.org/version/current/html/zmodul05.html"
+            },
+            "position": {
+                "x": 1270.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL06",
+                "name": "ZMODUL06",
+                "href": "http://mizar.org/version/current/html/zmodul06.html"
+            },
+            "position": {
+                "x": 1690.1399999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL07",
+                "name": "ZMODUL07",
+                "href": "http://mizar.org/version/current/html/zmodul07.html"
+            },
+            "position": {
+                "x": 1690.1399999999999,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AIMLOOP",
+                "name": "AIMLOOP",
+                "href": "http://mizar.org/version/current/html/aimloop.html"
+            },
+            "position": {
+                "x": 5806.140000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 6586.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 7366.200000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MODCAT_1",
+                "target": "MOD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LMOD_6",
+                "target": "MOD_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LMOD_7",
+                "target": "LMOD_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL05",
+                "target": "MOD_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL05",
+                "target": "MOD_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL05",
+                "target": "MOD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL06",
+                "target": "ZMODUL05"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL06",
+                "target": "VECTSP10"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL07",
+                "target": "ZMODUL06"
+            }
+        }
+    ]
+}

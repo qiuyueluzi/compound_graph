@@ -1,0 +1,312 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_3",
+                "name": "FINSEQ_3",
+                "href": "http://mizar.org/version/current/html/finseq_3.html"
+            },
+            "position": {
+                "x": 2717.7,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_4",
+                "name": "TREES_4",
+                "href": "http://mizar.org/version/current/html/trees_4.html"
+            },
+            "position": {
+                "x": 323.67,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MIDSP_1",
+                "name": "MIDSP_1",
+                "href": "http://mizar.org/version/current/html/midsp_1.html"
+            },
+            "position": {
+                "x": 2039.6999999999998,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROBBINS1",
+                "name": "ROBBINS1",
+                "href": "http://mizar.org/version/current/html/robbins1.html"
+            },
+            "position": {
+                "x": 3887.7000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VFUNCT_1",
+                "name": "VFUNCT_1",
+                "href": "http://mizar.org/version/current/html/vfunct_1.html"
+            },
+            "position": {
+                "x": 5117.700000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_3",
+                "name": "MATRIX_3",
+                "href": "http://mizar.org/version/current/html/matrix_3.html"
+            },
+            "position": {
+                "x": 1859.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AFVECT0",
+                "name": "AFVECT0",
+                "href": "http://mizar.org/version/current/html/afvect0.html"
+            },
+            "position": {
+                "x": 5789.700000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "E_SIEC",
+                "name": "E_SIEC",
+                "href": "http://mizar.org/version/current/html/e_siec.html"
+            },
+            "position": {
+                "x": 6503.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AUTALG_1",
+                "name": "AUTALG_1",
+                "href": "http://mizar.org/version/current/html/autalg_1.html"
+            },
+            "position": {
+                "x": 7241.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRALG_3",
+                "name": "PRALG_3",
+                "href": "http://mizar.org/version/current/html/pralg_3.html"
+            },
+            "position": {
+                "x": 1079.6999999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_9",
+                "name": "MSUALG_9",
+                "href": "http://mizar.org/version/current/html/msualg_9.html"
+            },
+            "position": {
+                "x": 701.7,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WEDDWITT",
+                "name": "WEDDWITT",
+                "href": "http://mizar.org/version/current/html/weddwitt.html"
+            },
+            "position": {
+                "x": 2717.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "IDEAL_1",
+                "name": "IDEAL_1",
+                "href": "http://mizar.org/version/current/html/ideal_1.html"
+            },
+            "position": {
+                "x": 3527.7000000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_2",
+                "name": "BCIALG_2",
+                "href": "http://mizar.org/version/current/html/bcialg_2.html"
+            },
+            "position": {
+                "x": 8057.4000000000015,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_7",
+                "name": "INT_7",
+                "href": "http://mizar.org/version/current/html/int_7.html"
+            },
+            "position": {
+                "x": 5117.700000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRNILP_1",
+                "name": "GRNILP_1",
+                "href": "http://mizar.org/version/current/html/grnilp_1.html"
+            },
+            "position": {
+                "x": 4289.700000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_18",
+                "name": "GROUP_18",
+                "href": "http://mizar.org/version/current/html/group_18.html"
+            },
+            "position": {
+                "x": 8885.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATSTONE",
+                "name": "LATSTONE",
+                "href": "http://mizar.org/version/current/html/latstone.html"
+            },
+            "position": {
+                "x": 9743.4,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZIMPL2",
+                "name": "FUZIMPL2",
+                "href": "http://mizar.org/version/current/html/fuzimpl2.html"
+            },
+            "position": {
+                "x": 10595.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 11411.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 12191.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_4",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRIX_3",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_9",
+                "target": "TREES_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_9",
+                "target": "PRALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WEDDWITT",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "IDEAL_1",
+                "target": "FINSEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_7",
+                "target": "VFUNCT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRNILP_1",
+                "target": "FINSEQ_3"
+            }
+        }
+    ]
+}

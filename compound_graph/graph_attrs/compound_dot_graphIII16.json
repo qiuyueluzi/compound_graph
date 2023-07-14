@@ -1,0 +1,78 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINOM",
+                "name": "BINOM",
+                "href": "http://mizar.org/version/current/html/binom.html"
+            },
+            "position": {
+                "x": 774.24,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINGDER1",
+                "name": "RINGDER1",
+                "href": "http://mizar.org/version/current/html/ringder1.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "IDEAL_2",
+                "name": "IDEAL_2",
+                "href": "http://mizar.org/version/current/html/ideal_2.html"
+            },
+            "position": {
+                "x": 1170.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1920.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 2700.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINGDER1",
+                "target": "BINOM"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "IDEAL_2",
+                "target": "BINOM"
+            }
+        }
+    ]
+}

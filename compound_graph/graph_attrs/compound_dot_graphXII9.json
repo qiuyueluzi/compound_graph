@@ -1,0 +1,185 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_1",
+                "name": "LOPBAN_1",
+                "href": "http://mizar.org/version/current/html/lopban_1.html"
+            },
+            "position": {
+                "x": 1902.6000000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_4",
+                "name": "BHSP_4",
+                "href": "http://mizar.org/version/current/html/bhsp_4.html"
+            },
+            "position": {
+                "x": 288.576,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HERMITAN",
+                "name": "HERMITAN",
+                "href": "http://mizar.org/version/current/html/hermitan.html"
+            },
+            "position": {
+                "x": 2772.6000000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_2",
+                "name": "LOPBAN_2",
+                "href": "http://mizar.org/version/current/html/lopban_2.html"
+            },
+            "position": {
+                "x": 1056.6,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_6",
+                "name": "LOPBAN_6",
+                "href": "http://mizar.org/version/current/html/lopban_6.html"
+            },
+            "position": {
+                "x": 1902.6000000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_7",
+                "name": "LOPBAN_7",
+                "href": "http://mizar.org/version/current/html/lopban_7.html"
+            },
+            "position": {
+                "x": 1902.6000000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_9",
+                "name": "LOPBAN_9",
+                "href": "http://mizar.org/version/current/html/lopban_9.html"
+            },
+            "position": {
+                "x": 2748.6000000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN10",
+                "name": "LOPBAN10",
+                "href": "http://mizar.org/version/current/html/lopban10.html"
+            },
+            "position": {
+                "x": 1902.6000000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN13",
+                "name": "LOPBAN13",
+                "href": "http://mizar.org/version/current/html/lopban13.html"
+            },
+            "position": {
+                "x": 666.6,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3600.6000000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4380.6,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_2",
+                "target": "LOPBAN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_6",
+                "target": "LOPBAN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_7",
+                "target": "LOPBAN_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_9",
+                "target": "LOPBAN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN10",
+                "target": "LOPBAN_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN13",
+                "target": "BHSP_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN13",
+                "target": "LOPBAN_2"
+            }
+        }
+    ]
+}

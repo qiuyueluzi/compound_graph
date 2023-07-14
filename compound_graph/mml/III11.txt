@@ -1,0 +1,7 @@
+binop_1
+multop_1
+msualg_1
+msalimit
+instalg1
+c0sp1
+realalg1

@@ -1,0 +1,8 @@
+graph_3
+jgraph_1
+sprect_3
+sprect_4
+jordan20
+jgraph_6
+euclid_3
+menelaus

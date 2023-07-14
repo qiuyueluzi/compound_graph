@@ -1,0 +1,234 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZZY_4",
+                "name": "FUZZY_4",
+                "href": "http://mizar.org/version/current/html/fuzzy_4.html"
+            },
+            "position": {
+                "x": 323.67,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FVSUM_1",
+                "name": "FVSUM_1",
+                "href": "http://mizar.org/version/current/html/fvsum_1.html"
+            },
+            "position": {
+                "x": 1031.7,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MIDSP_2",
+                "name": "MIDSP_2",
+                "href": "http://mizar.org/version/current/html/midsp_2.html"
+            },
+            "position": {
+                "x": 1739.6999999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_2",
+                "name": "ALGSTR_2",
+                "href": "http://mizar.org/version/current/html/algstr_2.html"
+            },
+            "position": {
+                "x": 2531.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUHOM_1",
+                "name": "MSUHOM_1",
+                "href": "http://mizar.org/version/current/html/msuhom_1.html"
+            },
+            "position": {
+                "x": 3413.7000000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CIRCUIT1",
+                "name": "CIRCUIT1",
+                "href": "http://mizar.org/version/current/html/circuit1.html"
+            },
+            "position": {
+                "x": 4283.700000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CIRCUIT2",
+                "name": "CIRCUIT2",
+                "href": "http://mizar.org/version/current/html/circuit2.html"
+            },
+            "position": {
+                "x": 4283.700000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE7",
+                "name": "LATTICE7",
+                "href": "http://mizar.org/version/current/html/lattice7.html"
+            },
+            "position": {
+                "x": 5087.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_1",
+                "name": "BCIALG_1",
+                "href": "http://mizar.org/version/current/html/bcialg_1.html"
+            },
+            "position": {
+                "x": 5891.700000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AOFA_I00",
+                "name": "AOFA_I00",
+                "href": "http://mizar.org/version/current/html/aofa_i00.html"
+            },
+            "position": {
+                "x": 6683.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUPP_1",
+                "name": "GROUPP_1",
+                "href": "http://mizar.org/version/current/html/groupp_1.html"
+            },
+            "position": {
+                "x": 7505.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EC_PF_2",
+                "name": "EC_PF_2",
+                "href": "http://mizar.org/version/current/html/ec_pf_2.html"
+            },
+            "position": {
+                "x": 8303.4,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL04",
+                "name": "ZMODUL04",
+                "href": "http://mizar.org/version/current/html/zmodul04.html"
+            },
+            "position": {
+                "x": 9119.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_20",
+                "name": "GROUP_20",
+                "href": "http://mizar.org/version/current/html/group_20.html"
+            },
+            "position": {
+                "x": 10001.4,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RING_4",
+                "name": "RING_4",
+                "href": "http://mizar.org/version/current/html/ring_4.html"
+            },
+            "position": {
+                "x": 1031.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MUSIC_S1",
+                "name": "MUSIC_S1",
+                "href": "http://mizar.org/version/current/html/music_s1.html"
+            },
+            "position": {
+                "x": 10847.4,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 11657.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 12437.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CIRCUIT2",
+                "target": "CIRCUIT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RING_4",
+                "target": "FVSUM_1"
+            }
+        }
+    ]
+}

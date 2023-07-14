@@ -1,0 +1,581 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELAT_1",
+                "name": "RELAT_1",
+                "href": "http://mizar.org/version/current/html/relat_1.html"
+            },
+            "position": {
+                "x": 7845.599999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL1",
+                "name": "ORDINAL1",
+                "href": "http://mizar.org/version/current/html/ordinal1.html"
+            },
+            "position": {
+                "x": 6495.599999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLORD1",
+                "name": "WELLORD1",
+                "href": "http://mizar.org/version/current/html/wellord1.html"
+            },
+            "position": {
+                "x": 4671.900000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL3",
+                "name": "ORDINAL3",
+                "href": "http://mizar.org/version/current/html/ordinal3.html"
+            },
+            "position": {
+                "x": 6225.599999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_1",
+                "name": "CARD_1",
+                "href": "http://mizar.org/version/current/html/card_1.html"
+            },
+            "position": {
+                "x": 3981.9,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FRAENKEL",
+                "name": "FRAENKEL",
+                "href": "http://mizar.org/version/current/html/fraenkel.html"
+            },
+            "position": {
+                "x": 8391.599999999999,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RECDEF_1",
+                "name": "RECDEF_1",
+                "href": "http://mizar.org/version/current/html/recdef_1.html"
+            },
+            "position": {
+                "x": 7305.6,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_5",
+                "name": "CARD_5",
+                "href": "http://mizar.org/version/current/html/card_5.html"
+            },
+            "position": {
+                "x": 873.9000000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_5",
+                "name": "FINSEQ_5",
+                "href": "http://mizar.org/version/current/html/finseq_5.html"
+            },
+            "position": {
+                "x": 1623.8999999999999,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_FIL",
+                "name": "CARD_FIL",
+                "href": "http://mizar.org/version/current/html/card_fil.html"
+            },
+            "position": {
+                "x": 4641.900000000001,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_2",
+                "name": "BVFUNC_2",
+                "href": "http://mizar.org/version/current/html/bvfunc_2.html"
+            },
+            "position": {
+                "x": 8391.599999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_5",
+                "name": "BVFUNC_5",
+                "href": "http://mizar.org/version/current/html/bvfunc_5.html"
+            },
+            "position": {
+                "x": 9255.6,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL5",
+                "name": "ORDINAL5",
+                "href": "http://mizar.org/version/current/html/ordinal5.html"
+            },
+            "position": {
+                "x": 435.876,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL6",
+                "name": "ORDINAL6",
+                "href": "http://mizar.org/version/current/html/ordinal6.html"
+            },
+            "position": {
+                "x": 435.876,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZFMODEL1",
+                "name": "ZFMODEL1",
+                "href": "http://mizar.org/version/current/html/zfmodel1.html"
+            },
+            "position": {
+                "x": 4545.900000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG3",
+                "name": "QC_LANG3",
+                "href": "http://mizar.org/version/current/html/qc_lang3.html"
+            },
+            "position": {
+                "x": 6765.599999999999,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZF_FUND1",
+                "name": "ZF_FUND1",
+                "href": "http://mizar.org/version/current/html/zf_fund1.html"
+            },
+            "position": {
+                "x": 2463.8999999999996,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTPRO_1",
+                "name": "INTPRO_1",
+                "href": "http://mizar.org/version/current/html/intpro_1.html"
+            },
+            "position": {
+                "x": 5397.9,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_THE2",
+                "name": "CQC_THE2",
+                "href": "http://mizar.org/version/current/html/cqc_the2.html"
+            },
+            "position": {
+                "x": 7521.599999999999,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRELAMB",
+                "name": "PRELAMB",
+                "href": "http://mizar.org/version/current/html/prelamb.html"
+            },
+            "position": {
+                "x": 3303.9,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_1",
+                "name": "ALTCAT_1",
+                "href": "http://mizar.org/version/current/html/altcat_1.html"
+            },
+            "position": {
+                "x": 4107.9,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "KNASTER",
+                "name": "KNASTER",
+                "href": "http://mizar.org/version/current/html/knaster.html"
+            },
+            "position": {
+                "x": 4905.900000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SHEFFER1",
+                "name": "SHEFFER1",
+                "href": "http://mizar.org/version/current/html/sheffer1.html"
+            },
+            "position": {
+                "x": 5745.9,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOEDCPUC",
+                "name": "GOEDCPUC",
+                "href": "http://mizar.org/version/current/html/goedcpuc.html"
+            },
+            "position": {
+                "x": 6639.599999999999,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_6",
+                "name": "CAT_6",
+                "href": "http://mizar.org/version/current/html/cat_6.html"
+            },
+            "position": {
+                "x": 237.87600000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SF_MASTR",
+                "name": "SF_MASTR",
+                "href": "http://mizar.org/version/current/html/sf_mastr.html"
+            },
+            "position": {
+                "x": 6711.6,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA9A",
+                "name": "SCMFSA9A",
+                "href": "http://mizar.org/version/current/html/scmfsa9a.html"
+            },
+            "position": {
+                "x": 6711.6,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUNTERS",
+                "name": "COUNTERS",
+                "href": "http://mizar.org/version/current/html/counters.html"
+            },
+            "position": {
+                "x": 1311.9,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 7539.599999999999,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 8319.6,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL1",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLORD1",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL3",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_1",
+                "target": "WELLORD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_1",
+                "target": "ORDINAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FRAENKEL",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RECDEF_1",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_5",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_5",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIL",
+                "target": "CARD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIL",
+                "target": "FRAENKEL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_2",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_5",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL5",
+                "target": "CARD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL6",
+                "target": "ORDINAL5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZFMODEL1",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG3",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZF_FUND1",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTPRO_1",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_THE2",
+                "target": "QC_LANG3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRELAMB",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALTCAT_1",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "KNASTER",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SHEFFER1",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDCPUC",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDCPUC",
+                "target": "QC_LANG3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_6",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SF_MASTR",
+                "target": "CARD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SF_MASTR",
+                "target": "FRAENKEL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA9A",
+                "target": "SF_MASTR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COUNTERS",
+                "target": "CARD_5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "IRRAT_1",
+                "name": "IRRAT_1",
+                "href": "http://mizar.org/version/current/html/irrat_1.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_6",
+                "name": "INT_6",
+                "href": "http://mizar.org/version/current/html/int_6.html"
+            },
+            "position": {
+                "x": 1092.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_4",
+                "name": "NAT_4",
+                "href": "http://mizar.org/version/current/html/nat_4.html"
+            },
+            "position": {
+                "x": 1674.2400000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIOPHAN1",
+                "name": "DIOPHAN1",
+                "href": "http://mizar.org/version/current/html/diophan1.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2358.2400000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3138.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIOPHAN1",
+                "target": "IRRAT_1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_4",
+                "name": "GATE_4",
+                "href": "http://mizar.org/version/current/html/gate_4.html"
+            },
+            "position": {
+                "x": 280.776,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HUFFMAN1",
+                "name": "HUFFMAN1",
+                "href": "http://mizar.org/version/current/html/huffman1.html"
+            },
+            "position": {
+                "x": 1078.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1930.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 2710.7999999999997,
+                "y": 108.0
+            }
+        }
+    ]
+}

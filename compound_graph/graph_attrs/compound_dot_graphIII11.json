@@ -1,0 +1,147 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINOP_1",
+                "name": "BINOP_1",
+                "href": "http://mizar.org/version/current/html/binop_1.html"
+            },
+            "position": {
+                "x": 1192.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MULTOP_1",
+                "name": "MULTOP_1",
+                "href": "http://mizar.org/version/current/html/multop_1.html"
+            },
+            "position": {
+                "x": 2062.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_1",
+                "name": "MSUALG_1",
+                "href": "http://mizar.org/version/current/html/msualg_1.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSALIMIT",
+                "name": "MSALIMIT",
+                "href": "http://mizar.org/version/current/html/msalimit.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INSTALG1",
+                "name": "INSTALG1",
+                "href": "http://mizar.org/version/current/html/instalg1.html"
+            },
+            "position": {
+                "x": 370.16400000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "C0SP1",
+                "name": "C0SP1",
+                "href": "http://mizar.org/version/current/html/c0sp1.html"
+            },
+            "position": {
+                "x": 1198.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REALALG1",
+                "name": "REALALG1",
+                "href": "http://mizar.org/version/current/html/realalg1.html"
+            },
+            "position": {
+                "x": 1204.1399999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2884.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3664.1400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSALIMIT",
+                "target": "BINOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSALIMIT",
+                "target": "MSUALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INSTALG1",
+                "target": "MSALIMIT"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "C0SP1",
+                "target": "BINOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REALALG1",
+                "target": "C0SP1"
+            }
+        }
+    ]
+}

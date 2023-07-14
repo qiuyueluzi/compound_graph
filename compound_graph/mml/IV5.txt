@@ -1,0 +1,3 @@
+binari_2
+radix_1
+binari_4

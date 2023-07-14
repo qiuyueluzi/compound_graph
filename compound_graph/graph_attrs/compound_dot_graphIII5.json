@@ -1,0 +1,664 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REALSET1",
+                "name": "REALSET1",
+                "href": "http://mizar.org/version/current/html/realset1.html"
+            },
+            "position": {
+                "x": 2936.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_1",
+                "name": "COMSEQ_1",
+                "href": "http://mizar.org/version/current/html/comseq_1.html"
+            },
+            "position": {
+                "x": 8653.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PREPOWER",
+                "name": "PREPOWER",
+                "href": "http://mizar.org/version/current/html/prepower.html"
+            },
+            "position": {
+                "x": 7201.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_1",
+                "name": "POLYEQ_1",
+                "href": "http://mizar.org/version/current/html/polyeq_1.html"
+            },
+            "position": {
+                "x": 6937.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_CIRC",
+                "name": "PRE_CIRC",
+                "href": "http://mizar.org/version/current/html/pre_circ.html"
+            },
+            "position": {
+                "x": 9505.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_2",
+                "name": "POLYEQ_2",
+                "href": "http://mizar.org/version/current/html/polyeq_2.html"
+            },
+            "position": {
+                "x": 6109.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_3",
+                "name": "POLYEQ_3",
+                "href": "http://mizar.org/version/current/html/polyeq_3.html"
+            },
+            "position": {
+                "x": 6937.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYEQ_5",
+                "name": "POLYEQ_5",
+                "href": "http://mizar.org/version/current/html/polyeq_5.html"
+            },
+            "position": {
+                "x": 6937.8,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_2",
+                "name": "RVSUM_2",
+                "href": "http://mizar.org/version/current/html/rvsum_2.html"
+            },
+            "position": {
+                "x": 7747.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_NUM3",
+                "name": "FIB_NUM3",
+                "href": "http://mizar.org/version/current/html/fib_num3.html"
+            },
+            "position": {
+                "x": 8005.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICES",
+                "name": "LATTICES",
+                "href": "http://mizar.org/version/current/html/lattices.html"
+            },
+            "position": {
+                "x": 800.0400000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARSP_1",
+                "name": "PARSP_1",
+                "href": "http://mizar.org/version/current/html/parsp_1.html"
+            },
+            "position": {
+                "x": 10279.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_0",
+                "name": "FILTER_0",
+                "href": "http://mizar.org/version/current/html/filter_0.html"
+            },
+            "position": {
+                "x": 1214.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_3",
+                "name": "ALGSTR_3",
+                "href": "http://mizar.org/version/current/html/algstr_3.html"
+            },
+            "position": {
+                "x": 11059.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_2",
+                "name": "YELLOW_2",
+                "href": "http://mizar.org/version/current/html/yellow_2.html"
+            },
+            "position": {
+                "x": 11899.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_4",
+                "name": "YELLOW_4",
+                "href": "http://mizar.org/version/current/html/yellow_4.html"
+            },
+            "position": {
+                "x": 11899.8,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALG_1",
+                "name": "ALG_1",
+                "href": "http://mizar.org/version/current/html/alg_1.html"
+            },
+            "position": {
+                "x": 12619.800000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_6",
+                "name": "WAYBEL_6",
+                "href": "http://mizar.org/version/current/html/waybel_6.html"
+            },
+            "position": {
+                "x": 11899.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_6",
+                "name": "MSUALG_6",
+                "href": "http://mizar.org/version/current/html/msualg_6.html"
+            },
+            "position": {
+                "x": 13351.800000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GCD_1",
+                "name": "GCD_1",
+                "href": "http://mizar.org/version/current/html/gcd_1.html"
+            },
+            "position": {
+                "x": 5282.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSSUBLAT",
+                "name": "MSSUBLAT",
+                "href": "http://mizar.org/version/current/html/mssublat.html"
+            },
+            "position": {
+                "x": 386.06399999999996,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYNOM6",
+                "name": "POLYNOM6",
+                "href": "http://mizar.org/version/current/html/polynom6.html"
+            },
+            "position": {
+                "x": 14233.800000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYRED",
+                "name": "POLYRED",
+                "href": "http://mizar.org/version/current/html/polyred.html"
+            },
+            "position": {
+                "x": 5282.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_5",
+                "name": "BHSP_5",
+                "href": "http://mizar.org/version/current/html/bhsp_5.html"
+            },
+            "position": {
+                "x": 15025.800000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FSCIRC_2",
+                "name": "FSCIRC_2",
+                "href": "http://mizar.org/version/current/html/fscirc_2.html"
+            },
+            "position": {
+                "x": 15769.800000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_3",
+                "name": "LOPBAN_3",
+                "href": "http://mizar.org/version/current/html/lopban_3.html"
+            },
+            "position": {
+                "x": 6097.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATSUM_1",
+                "name": "LATSUM_1",
+                "href": "http://mizar.org/version/current/html/latsum_1.html"
+            },
+            "position": {
+                "x": 16597.800000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUATERN2",
+                "name": "QUATERN2",
+                "href": "http://mizar.org/version/current/html/quatern2.html"
+            },
+            "position": {
+                "x": 17461.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_11",
+                "name": "GROUP_11",
+                "href": "http://mizar.org/version/current/html/group_11.html"
+            },
+            "position": {
+                "x": 18331.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL03",
+                "name": "ZMODUL03",
+                "href": "http://mizar.org/version/current/html/zmodul03.html"
+            },
+            "position": {
+                "x": 2054.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_14",
+                "name": "GROUP_14",
+                "href": "http://mizar.org/version/current/html/group_14.html"
+            },
+            "position": {
+                "x": 2936.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCM_COMP",
+                "name": "SCM_COMP",
+                "href": "http://mizar.org/version/current/html/scm_comp.html"
+            },
+            "position": {
+                "x": 19219.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SRINGS_2",
+                "name": "SRINGS_2",
+                "href": "http://mizar.org/version/current/html/srings_2.html"
+            },
+            "position": {
+                "x": 20089.800000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_3",
+                "name": "RVSUM_3",
+                "href": "http://mizar.org/version/current/html/rvsum_3.html"
+            },
+            "position": {
+                "x": 8539.800000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RING_2",
+                "name": "RING_2",
+                "href": "http://mizar.org/version/current/html/ring_2.html"
+            },
+            "position": {
+                "x": 4556.040000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_19",
+                "name": "GROUP_19",
+                "href": "http://mizar.org/version/current/html/group_19.html"
+            },
+            "position": {
+                "x": 3794.0400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON04",
+                "name": "NEWTON04",
+                "href": "http://mizar.org/version/current/html/newton04.html"
+            },
+            "position": {
+                "x": 7807.8,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYVIE1",
+                "name": "POLYVIE1",
+                "href": "http://mizar.org/version/current/html/polyvie1.html"
+            },
+            "position": {
+                "x": 7807.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLEX3",
+                "name": "COMPLEX3",
+                "href": "http://mizar.org/version/current/html/complex3.html"
+            },
+            "position": {
+                "x": 6949.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 20887.800000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 21667.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_1",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_2",
+                "target": "POLYEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_3",
+                "target": "POLYEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYEQ_5",
+                "target": "POLYEQ_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIB_NUM3",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FILTER_0",
+                "target": "LATTICES"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FILTER_0",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_4",
+                "target": "YELLOW_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_6",
+                "target": "YELLOW_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSSUBLAT",
+                "target": "LATTICES"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYRED",
+                "target": "GCD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_3",
+                "target": "GCD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_3",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL03",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_14",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_3",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RING_2",
+                "target": "GCD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RING_2",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_19",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NEWTON04",
+                "target": "RVSUM_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NEWTON04",
+                "target": "RVSUM_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POLYVIE1",
+                "target": "NEWTON04"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX3",
+                "target": "POLYEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX3",
+                "target": "NEWTON04"
+            }
+        }
+    ]
+}

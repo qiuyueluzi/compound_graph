@@ -1,0 +1,553 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_000",
+                "name": "GLIB_000",
+                "href": "http://mizar.org/version/current/html/glib_000.html"
+            },
+            "position": {
+                "x": 1948.4400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_1",
+                "name": "GRAPH_1",
+                "href": "http://mizar.org/version/current/html/graph_1.html"
+            },
+            "position": {
+                "x": 1168.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BOOLMARK",
+                "name": "BOOLMARK",
+                "href": "http://mizar.org/version/current/html/boolmark.html"
+            },
+            "position": {
+                "x": 3532.44,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINTREE1",
+                "name": "BINTREE1",
+                "href": "http://mizar.org/version/current/html/bintree1.html"
+            },
+            "position": {
+                "x": 4414.4400000000005,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SGRAPH1",
+                "name": "SGRAPH1",
+                "href": "http://mizar.org/version/current/html/sgraph1.html"
+            },
+            "position": {
+                "x": 2944.44,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_2",
+                "name": "GRAPH_2",
+                "href": "http://mizar.org/version/current/html/graph_2.html"
+            },
+            "position": {
+                "x": 1168.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSSCYC_1",
+                "name": "MSSCYC_1",
+                "href": "http://mizar.org/version/current/html/msscyc_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_4",
+                "name": "GRAPH_4",
+                "href": "http://mizar.org/version/current/html/graph_4.html"
+            },
+            "position": {
+                "x": 1186.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HALLMAR1",
+                "name": "HALLMAR1",
+                "href": "http://mizar.org/version/current/html/hallmar1.html"
+            },
+            "position": {
+                "x": 5278.44,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NECKLACE",
+                "name": "NECKLACE",
+                "href": "http://mizar.org/version/current/html/necklace.html"
+            },
+            "position": {
+                "x": 2338.44,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NECKLA_2",
+                "name": "NECKLA_2",
+                "href": "http://mizar.org/version/current/html/neckla_2.html"
+            },
+            "position": {
+                "x": 2350.44,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NECKLA_3",
+                "name": "NECKLA_3",
+                "href": "http://mizar.org/version/current/html/neckla_3.html"
+            },
+            "position": {
+                "x": 2116.44,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CHORD",
+                "name": "CHORD",
+                "href": "http://mizar.org/version/current/html/chord.html"
+            },
+            "position": {
+                "x": 1936.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LEXBFS",
+                "name": "LEXBFS",
+                "href": "http://mizar.org/version/current/html/lexbfs.html"
+            },
+            "position": {
+                "x": 1576.44,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MYCIELSK",
+                "name": "MYCIELSK",
+                "href": "http://mizar.org/version/current/html/mycielsk.html"
+            },
+            "position": {
+                "x": 2116.44,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMYCIEL",
+                "name": "SCMYCIEL",
+                "href": "http://mizar.org/version/current/html/scmyciel.html"
+            },
+            "position": {
+                "x": 1846.4400000000003,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_FUSC",
+                "name": "FIB_FUSC",
+                "href": "http://mizar.org/version/current/html/fib_fusc.html"
+            },
+            "position": {
+                "x": 6130.200000000001,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_3A",
+                "name": "GRAPH_3A",
+                "href": "http://mizar.org/version/current/html/graph_3a.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_006",
+                "name": "GLIB_006",
+                "href": "http://mizar.org/version/current/html/glib_006.html"
+            },
+            "position": {
+                "x": 2188.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_007",
+                "name": "GLIB_007",
+                "href": "http://mizar.org/version/current/html/glib_007.html"
+            },
+            "position": {
+                "x": 2188.44,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_008",
+                "name": "GLIB_008",
+                "href": "http://mizar.org/version/current/html/glib_008.html"
+            },
+            "position": {
+                "x": 2632.44,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_009",
+                "name": "GLIB_009",
+                "href": "http://mizar.org/version/current/html/glib_009.html"
+            },
+            "position": {
+                "x": 3172.44,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_010",
+                "name": "GLIB_010",
+                "href": "http://mizar.org/version/current/html/glib_010.html"
+            },
+            "position": {
+                "x": 3172.44,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_011",
+                "name": "GLIB_011",
+                "href": "http://mizar.org/version/current/html/glib_011.html"
+            },
+            "position": {
+                "x": 3736.44,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIBPRE0",
+                "name": "GLIBPRE0",
+                "href": "http://mizar.org/version/current/html/glibpre0.html"
+            },
+            "position": {
+                "x": 3196.44,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_013",
+                "name": "GLIB_013",
+                "href": "http://mizar.org/version/current/html/glib_013.html"
+            },
+            "position": {
+                "x": 2662.44,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_014",
+                "name": "GLIB_014",
+                "href": "http://mizar.org/version/current/html/glib_014.html"
+            },
+            "position": {
+                "x": 3442.44,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIBPRE1",
+                "name": "GLIBPRE1",
+                "href": "http://mizar.org/version/current/html/glibpre1.html"
+            },
+            "position": {
+                "x": 2662.44,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 6928.200000000001,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 7708.200000000001,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRAPH_2",
+                "target": "GRAPH_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSSCYC_1",
+                "target": "GRAPH_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRAPH_4",
+                "target": "GRAPH_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NECKLA_2",
+                "target": "NECKLACE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NECKLA_3",
+                "target": "NECKLA_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CHORD",
+                "target": "GLIB_000"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CHORD",
+                "target": "GRAPH_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LEXBFS",
+                "target": "NECKLACE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LEXBFS",
+                "target": "CHORD"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MYCIELSK",
+                "target": "NECKLA_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMYCIEL",
+                "target": "LEXBFS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMYCIEL",
+                "target": "MYCIELSK"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRAPH_3A",
+                "target": "MSSCYC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_006",
+                "target": "CHORD"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_007",
+                "target": "GLIB_006"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_008",
+                "target": "GLIB_007"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_009",
+                "target": "GLIB_008"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_010",
+                "target": "NECKLACE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_010",
+                "target": "GLIB_009"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_011",
+                "target": "GLIB_010"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIBPRE0",
+                "target": "GLIB_011"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIBPRE0",
+                "target": "SGRAPH1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_013",
+                "target": "GLIBPRE0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIB_014",
+                "target": "GLIBPRE0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIBPRE1",
+                "target": "SCMYCIEL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIBPRE1",
+                "target": "GLIB_014"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLIBPRE1",
+                "target": "GLIB_013"
+            }
+        }
+    ]
+}
