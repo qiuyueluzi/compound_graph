@@ -75,7 +75,7 @@ $(function(){
             name: "klay",
             spacingFactor: 10
         })
-        layout.run()
+        //layout.run()
         
         let contextMenu = cy.contextMenus({ //右クリック時のコンテキストメニュー
             evtType: ['cxttap'],
