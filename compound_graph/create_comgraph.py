@@ -1,8 +1,8 @@
 import json
 import copy
 
-graph_json = open('graph_attrs/compound_dot_graph.json', 'r')
-class_json = open('graph_attrs/mml_classification_gptall.json', 'r')
+graph_json = open('graph_attrs/compound_dot_graphgpt.json', 'r')
+class_json = open('graph_attrs/mml-classification_named.json', 'r')
 graph_objects = json.load(graph_json)
 class_objects = json.load(class_json)
 
@@ -68,6 +68,6 @@ for parent_top in positions:
     positions[parent_top]["y"] /= counts[parent_top]
 print(list(positions.values()))
 
-with open('graph_attrs/graph_class_gptall.json', 'w') as f :
+with open('graph_attrs/graph_class_named.json', 'w') as f :
     json.dump(graph_objects, f, indent=4)
 

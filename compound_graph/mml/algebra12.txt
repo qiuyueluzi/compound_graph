@@ -1,0 +1,12 @@
+mod_2
+algseq_1
+mod_3
+lmod_6
+mod_4
+lmod_7
+mod_2
+algseq_1
+mod_3
+lmod_6
+mod_4
+lmod_7

@@ -1,0 +1,10 @@
+rcomp_1
+rfunct_2
+prepower
+power
+seqfunc
+rcomp_1
+rfunct_2
+prepower
+power
+seqfunc

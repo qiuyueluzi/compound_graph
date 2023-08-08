@@ -1,0 +1,59 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUED_0",
+                "name": "VALUED_0",
+                "href": "http://mizar.org/version/current/html/valued_0.html"
+            },
+            "position": {
+                "x": 362.67,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUED_1",
+                "name": "VALUED_1",
+                "href": "http://mizar.org/version/current/html/valued_1.html"
+            },
+            "position": {
+                "x": 362.67,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1166.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 1946.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUED_1",
+                "target": "VALUED_0"
+            }
+        }
+    ]
+}

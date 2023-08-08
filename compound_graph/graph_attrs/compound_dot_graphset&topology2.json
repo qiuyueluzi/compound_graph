@@ -1,0 +1,187 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELAT_1",
+                "name": "RELAT_1",
+                "href": "http://mizar.org/version/current/html/relat_1.html"
+            },
+            "position": {
+                "x": 1221.84,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELAT_2",
+                "name": "RELAT_2",
+                "href": "http://mizar.org/version/current/html/relat_2.html"
+            },
+            "position": {
+                "x": 1221.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELSET_1",
+                "name": "RELSET_1",
+                "href": "http://mizar.org/version/current/html/relset_1.html"
+            },
+            "position": {
+                "x": 441.86400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SYSREL",
+                "name": "SYSREL",
+                "href": "http://mizar.org/version/current/html/sysrel.html"
+            },
+            "position": {
+                "x": 1935.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EQREL_1",
+                "name": "EQREL_1",
+                "href": "http://mizar.org/version/current/html/eqrel_1.html"
+            },
+            "position": {
+                "x": 1221.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MARGREL1",
+                "name": "MARGREL1",
+                "href": "http://mizar.org/version/current/html/margrel1.html"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOLER_1",
+                "name": "TOLER_1",
+                "href": "http://mizar.org/version/current/html/toler_1.html"
+            },
+            "position": {
+                "x": 1143.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RELSET_2",
+                "name": "RELSET_2",
+                "href": "http://mizar.org/version/current/html/relset_2.html"
+            },
+            "position": {
+                "x": 1935.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2739.8399999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3519.8399999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELAT_2",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_1",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SYSREL",
+                "target": "RELAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EQREL_1",
+                "target": "RELAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EQREL_1",
+                "target": "RELSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MARGREL1",
+                "target": "RELSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOLER_1",
+                "target": "EQREL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_2",
+                "target": "SYSREL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RELSET_2",
+                "target": "EQREL_1"
+            }
+        }
+    ]
+}
