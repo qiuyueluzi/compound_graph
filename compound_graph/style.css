@@ -1,12 +1,12 @@
 #graph{
     position: absolute;
-    left: 220px;
+    left: /*22*/0px;
     top: 100px;
     bottom: 0;
     right: 0;
 }
 
-/*#side{
+#side{
     position: fixed;
     left: 0px;
     top: 100px;
@@ -15,7 +15,7 @@
     width: 220px;
     height: 800px;
     overflow: auto;
-}*/
+}
 
 button:active{
     color: white;
