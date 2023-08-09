@@ -1,0 +1,97 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BKMODEL1",
+                "name": "BKMODEL1",
+                "href": "http://mizar.org/version/current/html/bkmodel1.html"
+            },
+            "position": {
+                "x": 401.66400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BKMODEL2",
+                "name": "BKMODEL2",
+                "href": "http://mizar.org/version/current/html/bkmodel2.html"
+            },
+            "position": {
+                "x": 401.66400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BKMODEL3",
+                "name": "BKMODEL3",
+                "href": "http://mizar.org/version/current/html/bkmodel3.html"
+            },
+            "position": {
+                "x": 401.66400000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BKMODEL4",
+                "name": "BKMODEL4",
+                "href": "http://mizar.org/version/current/html/bkmodel4.html"
+            },
+            "position": {
+                "x": 401.66400000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1247.64,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 2027.6399999999999,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BKMODEL2",
+                "target": "BKMODEL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BKMODEL3",
+                "target": "BKMODEL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BKMODEL4",
+                "target": "BKMODEL3"
+            }
+        }
+    ]
+}

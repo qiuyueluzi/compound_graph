@@ -1,0 +1,166 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RPR_1",
+                "name": "RPR_1",
+                "href": "http://mizar.org/version/current/html/rpr_1.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_1",
+                "name": "PROB_1",
+                "href": "http://mizar.org/version/current/html/prob_1.html"
+            },
+            "position": {
+                "x": 1429.2,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_2",
+                "name": "PROB_2",
+                "href": "http://mizar.org/version/current/html/prob_2.html"
+            },
+            "position": {
+                "x": 1033.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "KOLMOG01",
+                "name": "KOLMOG01",
+                "href": "http://mizar.org/version/current/html/kolmog01.html"
+            },
+            "position": {
+                "x": 1033.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BOR_CANT",
+                "name": "BOR_CANT",
+                "href": "http://mizar.org/version/current/html/bor_cant.html"
+            },
+            "position": {
+                "x": 1915.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ENTROPY1",
+                "name": "ENTROPY1",
+                "href": "http://mizar.org/version/current/html/entropy1.html"
+            },
+            "position": {
+                "x": 2785.2000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RANDOM_2",
+                "name": "RANDOM_2",
+                "href": "http://mizar.org/version/current/html/random_2.html"
+            },
+            "position": {
+                "x": 1825.1999999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIST_2",
+                "name": "DIST_2",
+                "href": "http://mizar.org/version/current/html/dist_2.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3613.2000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4393.200000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROB_2",
+                "target": "PROB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "KOLMOG01",
+                "target": "PROB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BOR_CANT",
+                "target": "PROB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_2",
+                "target": "PROB_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIST_2",
+                "target": "PROB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIST_2",
+                "target": "RPR_1"
+            }
+        }
+    ]
+}

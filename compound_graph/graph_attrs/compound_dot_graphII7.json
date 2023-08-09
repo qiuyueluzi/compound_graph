@@ -1,0 +1,66 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZFMISC_1",
+                "name": "ZFMISC_1",
+                "href": "http://mizar.org/version/current/html/zfmisc_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZIMPL1",
+                "name": "FUZIMPL1",
+                "href": "http://mizar.org/version/current/html/fuzimpl1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 1186.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZFMISC_1",
+                "target": "TARSKI_A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUZIMPL1",
+                "target": "ZFMISC_1"
+            }
+        }
+    ]
+}

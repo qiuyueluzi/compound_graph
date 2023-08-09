@@ -1,0 +1,247 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_2",
+                "name": "RFUNCT_2",
+                "href": "http://mizar.org/version/current/html/rfunct_2.html"
+            },
+            "position": {
+                "x": 802.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC4",
+                "name": "LIMFUNC4",
+                "href": "http://mizar.org/version/current/html/limfunc4.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAYLOR_1",
+                "name": "TAYLOR_1",
+                "href": "http://mizar.org/version/current/html/taylor_1.html"
+            },
+            "position": {
+                "x": 1222.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGRA2",
+                "name": "INTEGRA2",
+                "href": "http://mizar.org/version/current/html/integra2.html"
+            },
+            "position": {
+                "x": 2062.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGRA3",
+                "name": "INTEGRA3",
+                "href": "http://mizar.org/version/current/html/integra3.html"
+            },
+            "position": {
+                "x": 2062.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC6",
+                "name": "MESFUNC6",
+                "href": "http://mizar.org/version/current/html/mesfunc6.html"
+            },
+            "position": {
+                "x": 3772.140000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC8",
+                "name": "MESFUNC8",
+                "href": "http://mizar.org/version/current/html/mesfunc8.html"
+            },
+            "position": {
+                "x": 4690.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGRA7",
+                "name": "INTEGRA7",
+                "href": "http://mizar.org/version/current/html/integra7.html"
+            },
+            "position": {
+                "x": 1222.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR18",
+                "name": "INTEGR18",
+                "href": "http://mizar.org/version/current/html/integr18.html"
+            },
+            "position": {
+                "x": 2062.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DBLSEQ_2",
+                "name": "DBLSEQ_2",
+                "href": "http://mizar.org/version/current/html/dblseq_2.html"
+            },
+            "position": {
+                "x": 5572.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR23",
+                "name": "INTEGR23",
+                "href": "http://mizar.org/version/current/html/integr23.html"
+            },
+            "position": {
+                "x": 2896.1400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUSIN2",
+                "name": "COUSIN2",
+                "href": "http://mizar.org/version/current/html/cousin2.html"
+            },
+            "position": {
+                "x": 2896.1400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN13",
+                "name": "MESFUN13",
+                "href": "http://mizar.org/version/current/html/mesfun13.html"
+            },
+            "position": {
+                "x": 3772.140000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 6388.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 7168.200000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC4",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_1",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGRA3",
+                "target": "INTEGRA2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGRA7",
+                "target": "INTEGRA3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGRA7",
+                "target": "TAYLOR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR18",
+                "target": "INTEGRA3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR23",
+                "target": "INTEGRA3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COUSIN2",
+                "target": "INTEGR23"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUN13",
+                "target": "MESFUNC6"
+            }
+        }
+    ]
+}

@@ -1,0 +1,263 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_2",
+                "name": "SEQ_2",
+                "href": "http://mizar.org/version/current/html/seq_2.html"
+            },
+            "position": {
+                "x": 2216.7000000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQ_4",
+                "name": "SEQ_4",
+                "href": "http://mizar.org/version/current/html/seq_4.html"
+            },
+            "position": {
+                "x": 1856.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POWER",
+                "name": "POWER",
+                "href": "http://mizar.org/version/current/html/power.html"
+            },
+            "position": {
+                "x": 284.676,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC2",
+                "name": "LIMFUNC2",
+                "href": "http://mizar.org/version/current/html/limfunc2.html"
+            },
+            "position": {
+                "x": 2702.7000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQFUNC",
+                "name": "SEQFUNC",
+                "href": "http://mizar.org/version/current/html/seqfunc.html"
+            },
+            "position": {
+                "x": 1034.7,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS2",
+                "name": "SIN_COS2",
+                "href": "http://mizar.org/version/current/html/sin_cos2.html"
+            },
+            "position": {
+                "x": 1856.7,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS3",
+                "name": "SIN_COS3",
+                "href": "http://mizar.org/version/current/html/sin_cos3.html"
+            },
+            "position": {
+                "x": 1856.7,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAYLOR_2",
+                "name": "TAYLOR_2",
+                "href": "http://mizar.org/version/current/html/taylor_2.html"
+            },
+            "position": {
+                "x": 1034.7,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_1",
+                "name": "PDIFF_1",
+                "href": "http://mizar.org/version/current/html/pdiff_1.html"
+            },
+            "position": {
+                "x": 3494.7000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_8",
+                "name": "FUNCT_8",
+                "href": "http://mizar.org/version/current/html/funct_8.html"
+            },
+            "position": {
+                "x": 2654.7000000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_4",
+                "name": "NDIFF_4",
+                "href": "http://mizar.org/version/current/html/ndiff_4.html"
+            },
+            "position": {
+                "x": 3494.7000000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DBLSEQ_3",
+                "name": "DBLSEQ_3",
+                "href": "http://mizar.org/version/current/html/dblseq_3.html"
+            },
+            "position": {
+                "x": 2582.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 4250.7,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 5030.700000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_4",
+                "target": "SEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POWER",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC2",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQFUNC",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS2",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS3",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_2",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_2",
+                "target": "SEQFUNC"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_2",
+                "target": "POWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PDIFF_1",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_8",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NDIFF_4",
+                "target": "PDIFF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DBLSEQ_3",
+                "target": "SEQ_2"
+            }
+        }
+    ]
+}

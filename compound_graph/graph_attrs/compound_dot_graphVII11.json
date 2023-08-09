@@ -1,0 +1,52 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN11",
+                "name": "JORDAN11",
+                "href": "http://mizar.org/version/current/html/jordan11.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYFORM",
+                "name": "POLYFORM",
+                "href": "http://mizar.org/version/current/html/polyform.html"
+            },
+            "position": {
+                "x": 1240.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2080.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 2860.44,
+                "y": 108.0
+            }
+        }
+    ]
+}

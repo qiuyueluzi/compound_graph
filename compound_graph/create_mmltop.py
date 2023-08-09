@@ -5,7 +5,7 @@ import create_graph
 # ノードを分類毎に分けたtxtファイルを生成
 
 # mml_classification.jsonを読み込む
-with open('graph_attrs/mml-classification_named.json', 'r') as file:
+with open('graph_attrs/mml_classification_gptall.json', 'r') as file:
     classification_data = json.load(file)
 
 # 分類ごとにテキストファイルを作成

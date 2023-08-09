@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hierarchical-emgraph</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./draw_graph_hierar_all.js"></script>
+        <script src="https://unpkg.com/cytoscape@3.19.1/dist/cytoscape.min.js"></script>
+        <script src="https://unpkg.com/bootstrap@4.2.1/dist/js/bootstrap.js"></script>
+        
+        <!--script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script-->
+        <!--script src="cytoscape-cola.js"></script-->
+	    
+		<script src="https://unpkg.com/klayjs@0.4.1/klay.js"></script>
+		<script src="cytoscape-klay.js"></script>
+        <script src="cytoscape-context-menus.js"></script>
+	
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style.css"></link>
+    </head>
+    <body>
+        <form class="p-2">
+            <div class="form-row">
+                <div class="col-sm-2">
+                    <label for="article_name">Article</label>
+                    <div class="input-group">
+                        <input type="text" name="article_name" id="article_name" autocomplete="on"
+                            placeholder="Search" list="article_list" spellcheck="false" class="form-control">
+                        <datalist id="article_list"></datalist>
+                        <div class="input-group-append">
+                            <input class="btn btn-outline-success" type="button" id="search" value="search">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-sm-2">
+                    <label for="ancestor_generations">Upper Level</label>
+                    <input type="number" name="ancestor_generations" id="ancestor_generations" value="1" min="0" max="100" class="form-control">
+                </div>
+                <div class="col-xl-1 col-sm-2">
+                    <label for="descendant_generations">Lower Level</label>
+                    <input type="number" name="ancestor_generations" id="descendant_generations" value="1" min="0" max="100" class="form-control">
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="reset">reset</label>
+                    <button type="button" value="reset" id="reset", class="btn btn-outline-danger form-control">reset</button>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="help">help</label>
+                    <button type="button" class="btn btn-outline-info form-control" data-toggle="modal" data-target="#help_dialog" id="help_btn">
+                        help
+                    </button>
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <!--div class="has-sub"-->
+                        <label for="close">close</label>
+                        <button type="button" value="close" id="close", class="btn btn-outline-dark form-control">close</button>
+                    
+                        <!--div class="sub">
+                            <button type="button" value="all-close" id="all-close", class="btn btn-outline-dark form-control">all-close</button>
+                        </div>
+                    </div-->
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <!--div class="has-sub"-->
+                        <label for="close">open</label>
+                        <button type="button" value="open" id="open", class="btn btn-outline-dark form-control">open</button>
+                    
+                        <!--div class="sub">
+                            <button type="button" value="all-open" id="all-open", class="btn btn-outline-dark form-control">all-open</button>
+                        </div>
+                    </div-->
+                </div>
+                <div class="col-md-1 col-sm-1 col-3">
+                    <label for="hierarchical">hierarchical</label>
+                    <button type="button" value="hierarchical" id="hierarchical", class="btn btn-outline-dark form-control">hierarchical</button>
+                </div>
+            </div>
+        </form>
+        <!--div id="side" style="border-right: 1px solid #003a05;">
+            <ul id="parent_list">
+            </ul>
+        </div-->
+        
+        <div class="color_index hidden_" id="highlight_coloring_index">
+            <p><b>Highlight Coloring</b></p>
+            <table class="color_labels">
+                <tr>
+                    <td class="generation_param_row">Ancestors</td>
+                    <td class="color_row"><span style="background-color: #ff0000;">&emsp;&emsp;</span></td>
+                    <td class="number_row">5~</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #ff4400;">&emsp;&emsp;</span></td>
+                    <td class="number_row">4</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #ff7700;">&emsp;&emsp;</span></td>
+                    <td class="number_row">3</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #ff9900;">&emsp;&emsp;</span></td>
+                    <td class="number_row">2</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #ffbb00;">&emsp;&emsp;</span></td>
+                    <td class="number_row">1</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row">Selecting</td>
+                    <td class="color_row"><span style="background-color: #99ff00;">&emsp;&emsp;</span></td>
+                    <td class="number_row">0</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #00ffff;">&emsp;&emsp;</span></td>
+                    <td class="number_row">1</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #00ddff;">&emsp;&emsp;</span></td>
+                    <td class="number_row">2</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #00bbff;">&emsp;&emsp;</span></td>
+                    <td class="number_row">3</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #0077ff;">&emsp;&emsp;</span></td>
+                    <td class="number_row">4</td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row">Descendants</td>
+                    <td class="color_row"><span style="background-color: #0000ff;">&emsp;&emsp;</span></td>
+                    <td class="number_row">5~</td>
+                </tr>
+            </table>
+        </div>
+        <!--div class="cluster_color_index" id="cluster_coloring_index">
+            <p><b>Cluster Coloring</b></p>
+            <table class="cluster_color_labels">
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #332288;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_indigo"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #88CCEE;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_cyan"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #44AA99;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_teal"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #117733;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_green"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #999933;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_olive"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #DDCC77;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_sand"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #CC6677;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_rose"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #882255;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_wine"></td>
+                </tr>
+                <tr>
+                    <td class="generation_param_row"></td>
+                    <td class="color_row"><span style="background-color: #AA4499;">&emsp;&emsp;</span></td>
+                    <td class="number_row" id="cluster_purple"></td>
+                </tr>
+            </table>
+        </div--->
+        <div id="name-plate"></div>
+        <div id="graph"></div>
+    </body>
+</html>

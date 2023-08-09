@@ -1,0 +1,95 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC3",
+                "name": "LIMFUNC3",
+                "href": "http://mizar.org/version/current/html/limfunc3.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "L_HOSPIT",
+                "name": "L_HOSPIT",
+                "href": "http://mizar.org/version/current/html/l_hospit.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_3",
+                "name": "FDIFF_3",
+                "href": "http://mizar.org/version/current/html/fdiff_3.html"
+            },
+            "position": {
+                "x": 1144.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR12",
+                "name": "INTEGR12",
+                "href": "http://mizar.org/version/current/html/integr12.html"
+            },
+            "position": {
+                "x": 1918.1399999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR15",
+                "name": "INTEGR15",
+                "href": "http://mizar.org/version/current/html/integr15.html"
+            },
+            "position": {
+                "x": 2752.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3556.1400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4336.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "L_HOSPIT",
+                "target": "LIMFUNC3"
+            }
+        }
+    ]
+}

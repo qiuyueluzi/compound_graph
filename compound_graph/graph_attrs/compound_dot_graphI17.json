@@ -1,0 +1,1261 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRFUNC_1",
+                "name": "GRFUNC_1",
+                "href": "http://mizar.org/version/current/html/grfunc_1.html"
+            },
+            "position": {
+                "x": 7578.000000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTFUN1",
+                "name": "PARTFUN1",
+                "href": "http://mizar.org/version/current/html/partfun1.html"
+            },
+            "position": {
+                "x": 7578.000000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_2",
+                "name": "FUNCT_2",
+                "href": "http://mizar.org/version/current/html/funct_2.html"
+            },
+            "position": {
+                "x": 5862.240000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLSET1",
+                "name": "WELLSET1",
+                "href": "http://mizar.org/version/current/html/wellset1.html"
+            },
+            "position": {
+                "x": 15834.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCHEMS_1",
+                "name": "SCHEMS_1",
+                "href": "http://mizar.org/version/current/html/schems_1.html"
+            },
+            "position": {
+                "x": 16710.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_2",
+                "name": "GATE_2",
+                "href": "http://mizar.org/version/current/html/gate_2.html"
+            },
+            "position": {
+                "x": 17484.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SQUARE_1",
+                "name": "SQUARE_1",
+                "href": "http://mizar.org/version/current/html/square_1.html"
+            },
+            "position": {
+                "x": 15360.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEMBERED",
+                "name": "MEMBERED",
+                "href": "http://mizar.org/version/current/html/membered.html"
+            },
+            "position": {
+                "x": 14022.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_2",
+                "name": "TREES_2",
+                "href": "http://mizar.org/version/current/html/trees_2.html"
+            },
+            "position": {
+                "x": 5652.24,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABIAN",
+                "name": "ABIAN",
+                "href": "http://mizar.org/version/current/html/abian.html"
+            },
+            "position": {
+                "x": 12174.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTIT1",
+                "name": "PARTIT1",
+                "href": "http://mizar.org/version/current/html/partit1.html"
+            },
+            "position": {
+                "x": 13836.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_1",
+                "name": "BVFUNC_1",
+                "href": "http://mizar.org/version/current/html/bvfunc_1.html"
+            },
+            "position": {
+                "x": 14076.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_4",
+                "name": "BVFUNC_4",
+                "href": "http://mizar.org/version/current/html/bvfunc_4.html"
+            },
+            "position": {
+                "x": 15396.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_6",
+                "name": "BVFUNC_6",
+                "href": "http://mizar.org/version/current/html/bvfunc_6.html"
+            },
+            "position": {
+                "x": 15828.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC11",
+                "name": "BVFUNC11",
+                "href": "http://mizar.org/version/current/html/bvfunc11.html"
+            },
+            "position": {
+                "x": 14958.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC14",
+                "name": "BVFUNC14",
+                "href": "http://mizar.org/version/current/html/bvfunc14.html"
+            },
+            "position": {
+                "x": 14958.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG1",
+                "name": "QC_LANG1",
+                "href": "http://mizar.org/version/current/html/qc_lang1.html"
+            },
+            "position": {
+                "x": 6714.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG2",
+                "name": "QC_LANG2",
+                "href": "http://mizar.org/version/current/html/qc_lang2.html"
+            },
+            "position": {
+                "x": 6930.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VALUAT_1",
+                "name": "VALUAT_1",
+                "href": "http://mizar.org/version/current/html/valuat_1.html"
+            },
+            "position": {
+                "x": 9426.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROCAL_1",
+                "name": "PROCAL_1",
+                "href": "http://mizar.org/version/current/html/procal_1.html"
+            },
+            "position": {
+                "x": 7764.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZF_FUND2",
+                "name": "ZF_FUND2",
+                "href": "http://mizar.org/version/current/html/zf_fund2.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CQC_SIM1",
+                "name": "CQC_SIM1",
+                "href": "http://mizar.org/version/current/html/cqc_sim1.html"
+            },
+            "position": {
+                "x": 8604.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_LANG4",
+                "name": "QC_LANG4",
+                "href": "http://mizar.org/version/current/html/qc_lang4.html"
+            },
+            "position": {
+                "x": 6084.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CALCUL_2",
+                "name": "CALCUL_2",
+                "href": "http://mizar.org/version/current/html/calcul_2.html"
+            },
+            "position": {
+                "x": 6930.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOEDELCP",
+                "name": "GOEDELCP",
+                "href": "http://mizar.org/version/current/html/goedelcp.html"
+            },
+            "position": {
+                "x": 8604.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_TRANS",
+                "name": "QC_TRANS",
+                "href": "http://mizar.org/version/current/html/qc_trans.html"
+            },
+            "position": {
+                "x": 8604.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDERS_2",
+                "name": "ORDERS_2",
+                "href": "http://mizar.org/version/current/html/orders_2.html"
+            },
+            "position": {
+                "x": 10998.000000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_1",
+                "name": "CAT_1",
+                "href": "http://mizar.org/version/current/html/cat_1.html"
+            },
+            "position": {
+                "x": 3240.24,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HEYTING1",
+                "name": "HEYTING1",
+                "href": "http://mizar.org/version/current/html/heyting1.html"
+            },
+            "position": {
+                "x": 1236.24,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ENS_1",
+                "name": "ENS_1",
+                "href": "http://mizar.org/version/current/html/ens_1.html"
+            },
+            "position": {
+                "x": 4044.2400000000002,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_6",
+                "name": "YELLOW_6",
+                "href": "http://mizar.org/version/current/html/yellow_6.html"
+            },
+            "position": {
+                "x": 8436.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CLOSURE2",
+                "name": "CLOSURE2",
+                "href": "http://mizar.org/version/current/html/closure2.html"
+            },
+            "position": {
+                "x": 2280.2400000000002,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ISOCAT_1",
+                "name": "ISOCAT_1",
+                "href": "http://mizar.org/version/current/html/isocat_1.html"
+            },
+            "position": {
+                "x": 3342.24,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMMACAT",
+                "name": "COMMACAT",
+                "href": "http://mizar.org/version/current/html/commacat.html"
+            },
+            "position": {
+                "x": 4812.240000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CIRCCOMB",
+                "name": "CIRCCOMB",
+                "href": "http://mizar.org/version/current/html/circcomb.html"
+            },
+            "position": {
+                "x": 2838.2400000000002,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INDEX_1",
+                "name": "INDEX_1",
+                "href": "http://mizar.org/version/current/html/index_1.html"
+            },
+            "position": {
+                "x": 3654.24,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_2",
+                "name": "ALTCAT_2",
+                "href": "http://mizar.org/version/current/html/altcat_2.html"
+            },
+            "position": {
+                "x": 7758.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLFND1",
+                "name": "WELLFND1",
+                "href": "http://mizar.org/version/current/html/wellfnd1.html"
+            },
+            "position": {
+                "x": 9306.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL21",
+                "name": "WAYBEL21",
+                "href": "http://mizar.org/version/current/html/waybel21.html"
+            },
+            "position": {
+                "x": 8586.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONLAT_1",
+                "name": "CONLAT_1",
+                "href": "http://mizar.org/version/current/html/conlat_1.html"
+            },
+            "position": {
+                "x": 10170.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAXONOM2",
+                "name": "TAXONOM2",
+                "href": "http://mizar.org/version/current/html/taxonom2.html"
+            },
+            "position": {
+                "x": 13194.000000000002,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_FIN",
+                "name": "CARD_FIN",
+                "href": "http://mizar.org/version/current/html/card_fin.html"
+            },
+            "position": {
+                "x": 2076.2400000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DICKSON",
+                "name": "DICKSON",
+                "href": "http://mizar.org/version/current/html/dickson.html"
+            },
+            "position": {
+                "x": 9414.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABCMIZ_0",
+                "name": "ABCMIZ_0",
+                "href": "http://mizar.org/version/current/html/abcmiz_0.html"
+            },
+            "position": {
+                "x": 10998.000000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATHMORP",
+                "name": "MATHMORP",
+                "href": "http://mizar.org/version/current/html/mathmorp.html"
+            },
+            "position": {
+                "x": 18288.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABCMIZ_1",
+                "name": "ABCMIZ_1",
+                "href": "http://mizar.org/version/current/html/abcmiz_1.html"
+            },
+            "position": {
+                "x": 11100.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODELC_3",
+                "name": "MODELC_3",
+                "href": "http://mizar.org/version/current/html/modelc_3.html"
+            },
+            "position": {
+                "x": 4200.24,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABCMIZ_A",
+                "name": "ABCMIZ_A",
+                "href": "http://mizar.org/version/current/html/abcmiz_a.html"
+            },
+            "position": {
+                "x": 11100.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LTLAXIO1",
+                "name": "LTLAXIO1",
+                "href": "http://mizar.org/version/current/html/ltlaxio1.html"
+            },
+            "position": {
+                "x": 5040.24,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_6",
+                "name": "SCMPDS_6",
+                "href": "http://mizar.org/version/current/html/scmpds_6.html"
+            },
+            "position": {
+                "x": 7578.000000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_8",
+                "name": "SCMPDS_8",
+                "href": "http://mizar.org/version/current/html/scmpds_8.html"
+            },
+            "position": {
+                "x": 7578.000000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_9",
+                "name": "SCMPDS_9",
+                "href": "http://mizar.org/version/current/html/scmpds_9.html"
+            },
+            "position": {
+                "x": 19194.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SRINGS_1",
+                "name": "SRINGS_1",
+                "href": "http://mizar.org/version/current/html/srings_1.html"
+            },
+            "position": {
+                "x": 13194.000000000002,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILBERT4",
+                "name": "HILBERT4",
+                "href": "http://mizar.org/version/current/html/hilbert4.html"
+            },
+            "position": {
+                "x": 10410.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AOFA_L00",
+                "name": "AOFA_L00",
+                "href": "http://mizar.org/version/current/html/aofa_l00.html"
+            },
+            "position": {
+                "x": 2838.2400000000002,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRZLOG_1",
+                "name": "GRZLOG_1",
+                "href": "http://mizar.org/version/current/html/grzlog_1.html"
+            },
+            "position": {
+                "x": 5862.240000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROUGHS_3",
+                "name": "ROUGHS_3",
+                "href": "http://mizar.org/version/current/html/roughs_3.html"
+            },
+            "position": {
+                "x": 11808.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILB10_3",
+                "name": "HILB10_3",
+                "href": "http://mizar.org/version/current/html/hilb10_3.html"
+            },
+            "position": {
+                "x": 15360.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDINAL7",
+                "name": "ORDINAL7",
+                "href": "http://mizar.org/version/current/html/ordinal7.html"
+            },
+            "position": {
+                "x": 11634.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 20022.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 20802.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTFUN1",
+                "target": "GRFUNC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUNCT_2",
+                "target": "PARTFUN1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_2",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABIAN",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABIAN",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTIT1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARTIT1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_1",
+                "target": "PARTIT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_4",
+                "target": "BVFUNC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_6",
+                "target": "BVFUNC_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC11",
+                "target": "BVFUNC_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC14",
+                "target": "BVFUNC11"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG2",
+                "target": "QC_LANG1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUAT_1",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VALUAT_1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROCAL_1",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZF_FUND2",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CQC_SIM1",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG4",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_LANG4",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CALCUL_2",
+                "target": "QC_LANG2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDELCP",
+                "target": "CALCUL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDELCP",
+                "target": "VALUAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOEDELCP",
+                "target": "CQC_SIM1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_TRANS",
+                "target": "GOEDELCP"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDERS_2",
+                "target": "PARTFUN1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HEYTING1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ENS_1",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_6",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_6",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CLOSURE2",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ISOCAT_1",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMMACAT",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CIRCCOMB",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INDEX_1",
+                "target": "ISOCAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALTCAT_2",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLFND1",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WELLFND1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL21",
+                "target": "YELLOW_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONLAT_1",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONLAT_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAXONOM2",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAXONOM2",
+                "target": "ABIAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAXONOM2",
+                "target": "PARTIT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIN",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DICKSON",
+                "target": "WELLFND1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DICKSON",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DICKSON",
+                "target": "YELLOW_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_0",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_0",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_1",
+                "target": "INDEX_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_1",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_1",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_1",
+                "target": "TREES_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MODELC_3",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABCMIZ_A",
+                "target": "ABCMIZ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LTLAXIO1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_6",
+                "target": "PARTFUN1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_8",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_8",
+                "target": "SCMPDS_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SRINGS_1",
+                "target": "TAXONOM2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILBERT4",
+                "target": "ALTCAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILBERT4",
+                "target": "ABIAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AOFA_L00",
+                "target": "CIRCCOMB"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AOFA_L00",
+                "target": "INDEX_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AOFA_L00",
+                "target": "CLOSURE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRZLOG_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROUGHS_3",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROUGHS_3",
+                "target": "ALTCAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILB10_3",
+                "target": "MEMBERED"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILB10_3",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL7",
+                "target": "ORDERS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDINAL7",
+                "target": "ABIAN"
+            }
+        }
+    ]
+}

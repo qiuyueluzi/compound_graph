@@ -1,0 +1,76 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD10",
+                "name": "GOBRD10",
+                "href": "http://mizar.org/version/current/html/gobrd10.html"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW11",
+                "name": "YELLOW11",
+                "href": "http://mizar.org/version/current/html/yellow11.html"
+            },
+            "position": {
+                "x": 1187.0400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMBGRAS",
+                "name": "COMBGRAS",
+                "href": "http://mizar.org/version/current/html/combgras.html"
+            },
+            "position": {
+                "x": 2081.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATQUASI",
+                "name": "LATQUASI",
+                "href": "http://mizar.org/version/current/html/latquasi.html"
+            },
+            "position": {
+                "x": 2951.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3749.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4529.040000000001,
+                "y": 108.0
+            }
+        }
+    ]
+}

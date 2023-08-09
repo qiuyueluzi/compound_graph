@@ -1,0 +1,116 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSET_1",
+                "name": "SUBSET_1",
+                "href": "http://mizar.org/version/current/html/subset_1.html"
+            },
+            "position": {
+                "x": 1361.6999999999998,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZZY_1",
+                "name": "FUZZY_1",
+                "href": "http://mizar.org/version/current/html/fuzzy_1.html"
+            },
+            "position": {
+                "x": 323.67,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_3",
+                "name": "BHSP_3",
+                "href": "http://mizar.org/version/current/html/bhsp_3.html"
+            },
+            "position": {
+                "x": 1043.6999999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PCS_0",
+                "name": "PCS_0",
+                "href": "http://mizar.org/version/current/html/pcs_0.html"
+            },
+            "position": {
+                "x": 1679.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREALC",
+                "name": "TOPREALC",
+                "href": "http://mizar.org/version/current/html/toprealc.html"
+            },
+            "position": {
+                "x": 2405.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3227.7000000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4007.7000000000007,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUZZY_1",
+                "target": "SUBSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_3",
+                "target": "SUBSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PCS_0",
+                "target": "SUBSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREALC",
+                "target": "SUBSET_1"
+            }
+        }
+    ]
+}

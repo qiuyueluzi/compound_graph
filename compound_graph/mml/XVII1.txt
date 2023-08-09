@@ -1,0 +1,8 @@
+rpr_1
+prob_1
+prob_2
+kolmog01
+bor_cant
+entropy1
+random_2
+dist_2

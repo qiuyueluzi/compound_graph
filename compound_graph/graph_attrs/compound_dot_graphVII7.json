@@ -1,0 +1,178 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL2",
+                "name": "TOPREAL2",
+                "href": "http://mizar.org/version/current/html/topreal2.html"
+            },
+            "position": {
+                "x": 1186.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL4",
+                "name": "TOPREAL4",
+                "href": "http://mizar.org/version/current/html/topreal4.html"
+            },
+            "position": {
+                "x": 778.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN4",
+                "name": "JORDAN4",
+                "href": "http://mizar.org/version/current/html/jordan4.html"
+            },
+            "position": {
+                "x": 778.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SPRECT_2",
+                "name": "SPRECT_2",
+                "href": "http://mizar.org/version/current/html/sprect_2.html"
+            },
+            "position": {
+                "x": 358.77,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN6",
+                "name": "JORDAN6",
+                "href": "http://mizar.org/version/current/html/jordan6.html"
+            },
+            "position": {
+                "x": 1594.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JGRAPH_4",
+                "name": "JGRAPH_4",
+                "href": "http://mizar.org/version/current/html/jgraph_4.html"
+            },
+            "position": {
+                "x": 1594.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN12",
+                "name": "JORDAN12",
+                "href": "http://mizar.org/version/current/html/jordan12.html"
+            },
+            "position": {
+                "x": 1198.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID13",
+                "name": "EUCLID13",
+                "href": "http://mizar.org/version/current/html/euclid13.html"
+            },
+            "position": {
+                "x": 2038.7400000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GTARSKI4",
+                "name": "GTARSKI4",
+                "href": "http://mizar.org/version/current/html/gtarski4.html"
+            },
+            "position": {
+                "x": 2866.7400000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 3664.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 4444.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL4",
+                "target": "TOPREAL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JORDAN4",
+                "target": "TOPREAL4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SPRECT_2",
+                "target": "JORDAN4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JORDAN6",
+                "target": "TOPREAL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JGRAPH_4",
+                "target": "JORDAN6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JORDAN12",
+                "target": "JORDAN4"
+            }
+        }
+    ]
+}

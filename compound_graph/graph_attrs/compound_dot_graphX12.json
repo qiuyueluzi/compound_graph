@@ -1,0 +1,109 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGRA1",
+                "name": "INTEGRA1",
+                "href": "http://mizar.org/version/current/html/integra1.html"
+            },
+            "position": {
+                "x": 776.64,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGRA4",
+                "name": "INTEGRA4",
+                "href": "http://mizar.org/version/current/html/integra4.html"
+            },
+            "position": {
+                "x": 776.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN10",
+                "name": "MESFUN10",
+                "href": "http://mizar.org/version/current/html/mesfun10.html"
+            },
+            "position": {
+                "x": 2066.64,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR19",
+                "name": "INTEGR19",
+                "href": "http://mizar.org/version/current/html/integr19.html"
+            },
+            "position": {
+                "x": 362.67,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR22",
+                "name": "INTEGR22",
+                "href": "http://mizar.org/version/current/html/integr22.html"
+            },
+            "position": {
+                "x": 1196.6399999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2912.64,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3692.6400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGRA4",
+                "target": "INTEGRA1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR19",
+                "target": "INTEGRA4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR22",
+                "target": "INTEGRA4"
+            }
+        }
+    ]
+}

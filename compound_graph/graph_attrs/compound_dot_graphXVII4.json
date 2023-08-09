@@ -1,0 +1,102 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DYNKIN",
+                "name": "DYNKIN",
+                "href": "http://mizar.org/version/current/html/dynkin.html"
+            },
+            "position": {
+                "x": 300.276,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RANDOM_1",
+                "name": "RANDOM_1",
+                "href": "http://mizar.org/version/current/html/random_1.html"
+            },
+            "position": {
+                "x": 720.3,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIST_1",
+                "name": "DIST_1",
+                "href": "http://mizar.org/version/current/html/dist_1.html"
+            },
+            "position": {
+                "x": 1488.3000000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RANDOM_3",
+                "name": "RANDOM_3",
+                "href": "http://mizar.org/version/current/html/random_3.html"
+            },
+            "position": {
+                "x": 1104.3000000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BALLOT_1",
+                "name": "BALLOT_1",
+                "href": "http://mizar.org/version/current/html/ballot_1.html"
+            },
+            "position": {
+                "x": 1962.3000000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_0",
+                "name": "TARSKI_0",
+                "href": "http://mizar.org/version/current/html/tarski_0.html"
+            },
+            "position": {
+                "x": 2760.3,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TARSKI_A",
+                "name": "TARSKI_A",
+                "href": "http://mizar.org/version/current/html/tarski_a.html"
+            },
+            "position": {
+                "x": 3540.3,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_3",
+                "target": "RANDOM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_3",
+                "target": "DIST_1"
+            }
+        }
+    ]
+}
