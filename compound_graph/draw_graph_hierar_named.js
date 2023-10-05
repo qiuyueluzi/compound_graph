@@ -4,7 +4,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $.when($.getJSON('./graph_attrs/graph_classHierar_named.json')).then((dot_graph) => {
+    $.when($.getJSON('./graph_attrs/graph_Hierar_replace.json')).then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
