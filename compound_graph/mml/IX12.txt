@@ -1,6 +1,0 @@
-card_3
-finseq_2
-complsp1
-euclid_2
-exchsort
-roughif2

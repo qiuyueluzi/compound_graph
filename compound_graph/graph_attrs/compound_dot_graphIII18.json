@@ -15,37 +15,13 @@
         {
             "group": "nodes",
             "data": {
-                "id": "TERMORD",
-                "name": "TERMORD",
-                "href": "http://mizar.org/version/current/html/termord.html"
-            },
-            "position": {
-                "x": 393.86400000000003,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "LATTICEA",
-                "name": "LATTICEA",
-                "href": "http://mizar.org/version/current/html/latticea.html"
-            },
-            "position": {
-                "x": 1215.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
                 "id": "TARSKI_0",
                 "name": "TARSKI_0",
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 2007.84,
-                "y": 540.0
+                "x": 1233.84,
+                "y": 108.0
             }
         },
         {
@@ -56,15 +32,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 2787.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TERMORD",
-                "target": "POLYNOM1"
+                "x": 2013.84,
+                "y": 108.0
             }
         }
     ]

@@ -3,13 +3,13 @@
         {
             "group": "nodes",
             "data": {
-                "id": "PARSP_2",
-                "name": "PARSP_2",
-                "href": "http://mizar.org/version/current/html/parsp_2.html"
+                "id": "COLLSP",
+                "name": "COLLSP",
+                "href": "http://mizar.org/version/current/html/collsp.html"
             },
             "position": {
-                "x": 311.97,
-                "y": 2268.0
+                "x": 825.8399999999999,
+                "y": 108.0
             }
         },
         {
@@ -20,8 +20,8 @@
                 "href": "http://mizar.org/version/current/html/anproj_1.html"
             },
             "position": {
-                "x": 1458.0,
-                "y": 108.0
+                "x": 825.8399999999999,
+                "y": 540.0
             }
         },
         {
@@ -32,8 +32,8 @@
                 "href": "http://mizar.org/version/current/html/anproj_2.html"
             },
             "position": {
-                "x": 1458.0,
-                "y": 540.0
+                "x": 825.8399999999999,
+                "y": 972.0000000000001
             }
         },
         {
@@ -44,8 +44,8 @@
                 "href": "http://mizar.org/version/current/html/projdes1.html"
             },
             "position": {
-                "x": 618.0,
-                "y": 972.0000000000001
+                "x": 429.86400000000003,
+                "y": 1404.0
             }
         },
         {
@@ -56,8 +56,8 @@
                 "href": "http://mizar.org/version/current/html/hessenbe.html"
             },
             "position": {
-                "x": 599.97,
-                "y": 1404.0
+                "x": 393.86400000000003,
+                "y": 1836.0
             }
         },
         {
@@ -68,8 +68,20 @@
                 "href": "http://mizar.org/version/current/html/incproj.html"
             },
             "position": {
-                "x": 2262.0,
-                "y": 972.0000000000001
+                "x": 1239.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROJRED1",
+                "name": "PROJRED1",
+                "href": "http://mizar.org/version/current/html/projred1.html"
+            },
+            "position": {
+                "x": 1263.84,
+                "y": 1836.0
             }
         },
         {
@@ -80,79 +92,7 @@
                 "href": "http://mizar.org/version/current/html/projred2.html"
             },
             "position": {
-                "x": 2292.0,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "JORDAN3",
-                "name": "JORDAN3",
-                "href": "http://mizar.org/version/current/html/jordan3.html"
-            },
-            "position": {
-                "x": 1764.0,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "PENCIL_2",
-                "name": "PENCIL_2",
-                "href": "http://mizar.org/version/current/html/pencil_2.html"
-            },
-            "position": {
-                "x": 2556.0,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ANPROJ_8",
-                "name": "ANPROJ_8",
-                "href": "http://mizar.org/version/current/html/anproj_8.html"
-            },
-            "position": {
-                "x": 1458.0,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ANPROJ_9",
-                "name": "ANPROJ_9",
-                "href": "http://mizar.org/version/current/html/anproj_9.html"
-            },
-            "position": {
-                "x": 1458.0,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "PASCAL",
-                "name": "PASCAL",
-                "href": "http://mizar.org/version/current/html/pascal.html"
-            },
-            "position": {
-                "x": 1026.0,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "PAPPUS",
-                "name": "PAPPUS",
-                "href": "http://mizar.org/version/current/html/pappus.html"
-            },
-            "position": {
-                "x": 1026.0,
+                "x": 1263.84,
                 "y": 2268.0
             }
         },
@@ -164,7 +104,7 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 3348.0,
+                "x": 2079.84,
                 "y": 2268.0
             }
         },
@@ -176,8 +116,15 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 4128.0,
+                "x": 2859.84,
                 "y": 2268.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ANPROJ_1",
+                "target": "COLLSP"
             }
         },
         {
@@ -211,43 +158,15 @@
         {
             "group": "edges",
             "data": {
-                "source": "PROJRED2",
+                "source": "PROJRED1",
                 "target": "INCPROJ"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ANPROJ_8",
-                "target": "ANPROJ_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ANPROJ_9",
-                "target": "ANPROJ_8"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PASCAL",
-                "target": "ANPROJ_9"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PASCAL",
-                "target": "HESSENBE"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PAPPUS",
-                "target": "PASCAL"
+                "source": "PROJRED2",
+                "target": "PROJRED1"
             }
         }
     ]

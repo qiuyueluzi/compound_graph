@@ -1,4 +1,6 @@
-complex2
+parsp_1
+midsp_1
+parsp_2
 analoaf
 diraf
 aff_1
@@ -20,15 +22,4 @@ aff_4
 afproj
 euclmetr
 conmetr1
-jordan1
 midsp_3
-gobrd12
-jordan7
-rlaffin1
-jgraph_2
-jgraph_5
-euclid_4
-pencil_3
-glib_002
-simplex1
-matrtop2

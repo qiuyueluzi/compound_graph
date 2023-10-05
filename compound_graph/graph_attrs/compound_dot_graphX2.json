@@ -3,13 +3,37 @@
         {
             "group": "nodes",
             "data": {
+                "id": "FCONT_1",
+                "name": "FCONT_1",
+                "href": "http://mizar.org/version/current/html/fcont_1.html"
+            },
+            "position": {
+                "x": 331.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FCONT_2",
+                "name": "FCONT_2",
+                "href": "http://mizar.org/version/current/html/fcont_2.html"
+            },
+            "position": {
+                "x": 331.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
                 "id": "FCONT_3",
                 "name": "FCONT_3",
                 "href": "http://mizar.org/version/current/html/fcont_3.html"
             },
             "position": {
                 "x": 331.46999999999997,
-                "y": 108.0
+                "y": 972.0000000000001
             }
         },
         {
@@ -21,7 +45,7 @@
             },
             "position": {
                 "x": 1105.5,
-                "y": 108.0
+                "y": 972.0000000000001
             }
         },
         {
@@ -33,7 +57,21 @@
             },
             "position": {
                 "x": 1885.5,
-                "y": 108.0
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_2",
+                "target": "FCONT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FCONT_3",
+                "target": "FCONT_2"
             }
         }
     ]

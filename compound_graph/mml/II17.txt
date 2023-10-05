@@ -1,13 +1,4 @@
 metric_1
+metric_2
 metric_3
-pcomps_1
-bhsp_2
-rsspace3
 metric_6
-topmetr3
-topreal7
-jordan1k
-hausdorf
-csspace3
-compl_sp
-simplex2

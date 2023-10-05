@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "COMPUT_1",
-                "name": "COMPUT_1",
-                "href": "http://mizar.org/version/current/html/comput_1.html"
+                "id": "RECDEF_1",
+                "name": "RECDEF_1",
+                "href": "http://mizar.org/version/current/html/recdef_1.html"
             },
             "position": {
-                "x": 382.16400000000004,
+                "x": 370.46999999999997,
                 "y": 108.0
             }
         },
@@ -20,7 +20,7 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 1210.14,
+                "x": 1186.44,
                 "y": 108.0
             }
         },
@@ -32,7 +32,7 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 1990.1399999999999,
+                "x": 1966.44,
                 "y": 108.0
             }
         }

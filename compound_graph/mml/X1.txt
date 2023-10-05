@@ -1,12 +1,1 @@
-seq_2
-seq_4
-power
-limfunc2
-seqfunc
-sin_cos2
-sin_cos3
-taylor_2
-pdiff_1
-funct_8
-ndiff_4
-dblseq_3
+supinf_1

@@ -1,5 +1,11 @@
-mesfunc3
-mesfunc4
-mesfunc7
-measure9
-mesfun12
+supinf_2
+measure1
+measure2
+measure3
+measure4
+measure5
+extreal1
+measure7
+mesfunc1
+mesfunc2
+dynkin

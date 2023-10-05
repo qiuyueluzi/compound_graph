@@ -3,120 +3,120 @@
         {
             "group": "nodes",
             "data": {
-                "id": "FINSEQ_8",
-                "name": "FINSEQ_8",
-                "href": "http://mizar.org/version/current/html/finseq_8.html"
+                "id": "GATE_1",
+                "name": "GATE_1",
+                "href": "http://mizar.org/version/current/html/gate_1.html"
             },
             "position": {
-                "x": 354.87,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ARMSTRNG",
-                "name": "ARMSTRNG",
-                "href": "http://mizar.org/version/current/html/armstrng.html"
-            },
-            "position": {
-                "x": 1224.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RADIX_3",
-                "name": "RADIX_3",
-                "href": "http://mizar.org/version/current/html/radix_3.html"
-            },
-            "position": {
-                "x": 2046.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GLIB_004",
-                "name": "GLIB_004",
-                "href": "http://mizar.org/version/current/html/glib_004.html"
-            },
-            "position": {
-                "x": 2796.8399999999997,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "FTACELL1",
-                "name": "FTACELL1",
-                "href": "http://mizar.org/version/current/html/ftacell1.html"
-            },
-            "position": {
-                "x": 3600.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "SCMBSORT",
-                "name": "SCMBSORT",
-                "href": "http://mizar.org/version/current/html/scmbsort.html"
-            },
-            "position": {
-                "x": 4446.84,
+                "x": 1288.8000000000002,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SCMISORT",
-                "name": "SCMISORT",
-                "href": "http://mizar.org/version/current/html/scmisort.html"
+                "id": "GATE_2",
+                "name": "GATE_2",
+                "href": "http://mizar.org/version/current/html/gate_2.html"
             },
             "position": {
-                "x": 4446.84,
+                "x": 280.776,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SCPISORT",
-                "name": "SCPISORT",
-                "href": "http://mizar.org/version/current/html/scpisort.html"
+                "id": "GATE_3",
+                "name": "GATE_3",
+                "href": "http://mizar.org/version/current/html/gate_3.html"
             },
             "position": {
-                "x": 5310.84,
+                "x": 952.8000000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_4",
+                "name": "GATE_4",
+                "href": "http://mizar.org/version/current/html/gate_4.html"
+            },
+            "position": {
+                "x": 1624.8000000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GATE_5",
+                "name": "GATE_5",
+                "href": "http://mizar.org/version/current/html/gate_5.html"
+            },
+            "position": {
+                "x": 2296.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_FF",
+                "name": "PRE_FF",
+                "href": "http://mizar.org/version/current/html/pre_ff.html"
+            },
+            "position": {
+                "x": 2680.8,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SCPINVAR",
-                "name": "SCPINVAR",
-                "href": "http://mizar.org/version/current/html/scpinvar.html"
+                "id": "BINARITH",
+                "name": "BINARITH",
+                "href": "http://mizar.org/version/current/html/binarith.html"
             },
             "position": {
-                "x": 5310.84,
+                "x": 3430.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRGCOR_1",
+                "name": "PRGCOR_1",
+                "href": "http://mizar.org/version/current/html/prgcor_1.html"
+            },
+            "position": {
+                "x": 3058.7999999999997,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "POSET_2",
-                "name": "POSET_2",
-                "href": "http://mizar.org/version/current/html/poset_2.html"
+                "id": "PRGCOR_2",
+                "name": "PRGCOR_2",
+                "href": "http://mizar.org/version/current/html/prgcor_2.html"
             },
             "position": {
-                "x": 6102.6,
+                "x": 3916.7999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PNPROC_1",
+                "name": "PNPROC_1",
+                "href": "http://mizar.org/version/current/html/pnproc_1.html"
+            },
+            "position": {
+                "x": 4774.799999999999,
                 "y": 540.0
             }
         },
@@ -128,7 +128,7 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 6870.599999999999,
+                "x": 5590.8,
                 "y": 540.0
             }
         },
@@ -140,22 +140,50 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 7650.599999999999,
+                "x": 6370.8,
                 "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "SCMISORT",
-                "target": "SCMBSORT"
+                "source": "GATE_2",
+                "target": "GATE_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "SCPINVAR",
-                "target": "SCPISORT"
+                "source": "GATE_3",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_4",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GATE_5",
+                "target": "GATE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRGCOR_1",
+                "target": "BINARITH"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRGCOR_1",
+                "target": "PRE_FF"
             }
         }
     ]

@@ -3,121 +3,13 @@
         {
             "group": "nodes",
             "data": {
-                "id": "INT_2",
-                "name": "INT_2",
-                "href": "http://mizar.org/version/current/html/int_2.html"
+                "id": "IRRAT_1",
+                "name": "IRRAT_1",
+                "href": "http://mizar.org/version/current/html/irrat_1.html"
             },
             "position": {
-                "x": 1605.54,
+                "x": 300.276,
                 "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NAT_D",
-                "name": "NAT_D",
-                "href": "http://mizar.org/version/current/html/nat_d.html"
-            },
-            "position": {
-                "x": 1605.54,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "FIB_NUM2",
-                "name": "FIB_NUM2",
-                "href": "http://mizar.org/version/current/html/fib_num2.html"
-            },
-            "position": {
-                "x": 417.564,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RADIX_2",
-                "name": "RADIX_2",
-                "href": "http://mizar.org/version/current/html/radix_2.html"
-            },
-            "position": {
-                "x": 1215.54,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RADIX_5",
-                "name": "RADIX_5",
-                "href": "http://mizar.org/version/current/html/radix_5.html"
-            },
-            "position": {
-                "x": 1227.54,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NUMERAL2",
-                "name": "NUMERAL2",
-                "href": "http://mizar.org/version/current/html/numeral2.html"
-            },
-            "position": {
-                "x": 405.56399999999996,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "FLEXARY1",
-                "name": "FLEXARY1",
-                "href": "http://mizar.org/version/current/html/flexary1.html"
-            },
-            "position": {
-                "x": 1995.54,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NEWTON03",
-                "name": "NEWTON03",
-                "href": "http://mizar.org/version/current/html/newton03.html"
-            },
-            "position": {
-                "x": 2871.54,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MOEBIUS3",
-                "name": "MOEBIUS3",
-                "href": "http://mizar.org/version/current/html/moebius3.html"
-            },
-            "position": {
-                "x": 2445.54,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NEWTON05",
-                "name": "NEWTON05",
-                "href": "http://mizar.org/version/current/html/newton05.html"
-            },
-            "position": {
-                "x": 3345.5400000000004,
-                "y": 1404.0
             }
         },
         {
@@ -128,8 +20,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 4191.540000000001,
-                "y": 1404.0
+                "x": 1044.3000000000002,
+                "y": 108.0
             }
         },
         {
@@ -140,71 +32,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 4971.54,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NAT_D",
-                "target": "INT_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "FIB_NUM2",
-                "target": "NAT_D"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RADIX_2",
-                "target": "NAT_D"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RADIX_5",
-                "target": "RADIX_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NUMERAL2",
-                "target": "FIB_NUM2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "FLEXARY1",
-                "target": "NAT_D"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NEWTON03",
-                "target": "NAT_D"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MOEBIUS3",
-                "target": "NEWTON03"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NEWTON05",
-                "target": "NEWTON03"
+                "x": 1824.3000000000002,
+                "y": 108.0
             }
         }
     ]

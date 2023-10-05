@@ -8,8 +8,8 @@
                 "href": "http://mizar.org/version/current/html/rpr_1.html"
             },
             "position": {
-                "x": 265.176,
-                "y": 540.0
+                "x": 245.676,
+                "y": 1836.0
             }
         },
         {
@@ -20,7 +20,7 @@
                 "href": "http://mizar.org/version/current/html/prob_1.html"
             },
             "position": {
-                "x": 1429.2,
+                "x": 1379.7,
                 "y": 108.0
             }
         },
@@ -32,8 +32,32 @@
                 "href": "http://mizar.org/version/current/html/prob_2.html"
             },
             "position": {
-                "x": 1033.2,
+                "x": 1379.7,
                 "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_3",
+                "name": "PROB_3",
+                "href": "http://mizar.org/version/current/html/prob_3.html"
+            },
+            "position": {
+                "x": 1379.7,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_4",
+                "name": "PROB_4",
+                "href": "http://mizar.org/version/current/html/prob_4.html"
+            },
+            "position": {
+                "x": 995.6999999999999,
+                "y": 1404.0
             }
         },
         {
@@ -44,8 +68,8 @@
                 "href": "http://mizar.org/version/current/html/kolmog01.html"
             },
             "position": {
-                "x": 1033.2,
-                "y": 972.0000000000001
+                "x": 995.6999999999999,
+                "y": 1836.0
             }
         },
         {
@@ -56,44 +80,8 @@
                 "href": "http://mizar.org/version/current/html/bor_cant.html"
             },
             "position": {
-                "x": 1915.2,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ENTROPY1",
-                "name": "ENTROPY1",
-                "href": "http://mizar.org/version/current/html/entropy1.html"
-            },
-            "position": {
-                "x": 2785.2000000000003,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RANDOM_2",
-                "name": "RANDOM_2",
-                "href": "http://mizar.org/version/current/html/random_2.html"
-            },
-            "position": {
-                "x": 1825.1999999999998,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "DIST_2",
-                "name": "DIST_2",
-                "href": "http://mizar.org/version/current/html/dist_2.html"
-            },
-            "position": {
-                "x": 265.176,
-                "y": 972.0000000000001
+                "x": 1769.7,
+                "y": 1404.0
             }
         },
         {
@@ -104,8 +92,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 3613.2000000000003,
-                "y": 972.0000000000001
+                "x": 1835.6999999999998,
+                "y": 1836.0
             }
         },
         {
@@ -116,8 +104,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 4393.200000000001,
-                "y": 972.0000000000001
+                "x": 2615.7,
+                "y": 1836.0
             }
         },
         {
@@ -130,36 +118,29 @@
         {
             "group": "edges",
             "data": {
-                "source": "KOLMOG01",
+                "source": "PROB_3",
                 "target": "PROB_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PROB_4",
+                "target": "PROB_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "KOLMOG01",
+                "target": "PROB_4"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "BOR_CANT",
-                "target": "PROB_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RANDOM_2",
-                "target": "PROB_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "DIST_2",
-                "target": "PROB_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "DIST_2",
-                "target": "RPR_1"
+                "target": "PROB_3"
             }
         }
     ]

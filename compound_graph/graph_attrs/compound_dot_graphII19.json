@@ -3,25 +3,97 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SETLIM_2",
-                "name": "SETLIM_2",
-                "href": "http://mizar.org/version/current/html/setlim_2.html"
+                "id": "SEQ_2",
+                "name": "SEQ_2",
+                "href": "http://mizar.org/version/current/html/seq_2.html"
             },
             "position": {
-                "x": 350.96999999999997,
+                "x": 1178.94,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "DBLSEQ_1",
-                "name": "DBLSEQ_1",
-                "href": "http://mizar.org/version/current/html/dblseq_1.html"
+                "id": "SEQ_4",
+                "name": "SEQ_4",
+                "href": "http://mizar.org/version/current/html/seq_4.html"
             },
             "position": {
                 "x": 1178.94,
-                "y": 108.0
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETLIM_1",
+                "name": "SETLIM_1",
+                "href": "http://mizar.org/version/current/html/setlim_1.html"
+            },
+            "position": {
+                "x": 410.97,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINFSUP1",
+                "name": "RINFSUP1",
+                "href": "http://mizar.org/version/current/html/rinfsup1.html"
+            },
+            "position": {
+                "x": 1178.94,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SETLIM_2",
+                "name": "SETLIM_2",
+                "href": "http://mizar.org/version/current/html/setlim_2.html"
+            },
+            "position": {
+                "x": 350.96999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINFSUP2",
+                "name": "RINFSUP2",
+                "href": "http://mizar.org/version/current/html/rinfsup2.html"
+            },
+            "position": {
+                "x": 1178.94,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_0",
+                "name": "FILTER_0",
+                "href": "http://mizar.org/version/current/html/filter_0.html"
+            },
+            "position": {
+                "x": 1994.94,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_1",
+                "name": "FILTER_1",
+                "href": "http://mizar.org/version/current/html/filter_1.html"
+            },
+            "position": {
+                "x": 1994.94,
+                "y": 1404.0
             }
         },
         {
@@ -32,8 +104,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 1994.94,
-                "y": 108.0
+                "x": 2774.94,
+                "y": 1404.0
             }
         },
         {
@@ -44,8 +116,50 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 2774.94,
-                "y": 108.0
+                "x": 3554.94,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQ_4",
+                "target": "SEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINFSUP1",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINFSUP1",
+                "target": "SETLIM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SETLIM_2",
+                "target": "SETLIM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINFSUP2",
+                "target": "RINFSUP1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FILTER_1",
+                "target": "FILTER_0"
             }
         }
     ]

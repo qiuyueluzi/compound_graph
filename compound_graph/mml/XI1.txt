@@ -1,5 +1,1 @@
-cfdiff_1
-sin_cos
-clvect_2
-integr1c
-integr16
+cfunct_1

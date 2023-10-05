@@ -1,2 +1,0 @@
-borsuk_2
-topgen_6

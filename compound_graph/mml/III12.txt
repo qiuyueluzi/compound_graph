@@ -1,15 +1,6 @@
 mod_2
+algseq_1
 mod_3
-modcat_1
 lmod_6
 mod_4
 lmod_7
-extens_1
-msinst_1
-vectsp10
-osafree
-bcialg_4
-zmodul05
-zmodul06
-zmodul07
-aimloop

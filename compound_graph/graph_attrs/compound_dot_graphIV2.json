@@ -3,97 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "INT_1",
-                "name": "INT_1",
-                "href": "http://mizar.org/version/current/html/int_1.html"
-            },
-            "position": {
-                "x": 2142.84,
-                "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "WSIERP_1",
-                "name": "WSIERP_1",
-                "href": "http://mizar.org/version/current/html/wsierp_1.html"
-            },
-            "position": {
-                "x": 1200.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
                 "id": "PYTHTRIP",
                 "name": "PYTHTRIP",
                 "href": "http://mizar.org/version/current/html/pythtrip.html"
             },
             "position": {
                 "x": 354.87,
-                "y": 972.0000000000001
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NUMERAL1",
-                "name": "NUMERAL1",
-                "href": "http://mizar.org/version/current/html/numeral1.html"
+                "id": "NAT_LAT",
+                "name": "NAT_LAT",
+                "href": "http://mizar.org/version/current/html/nat_lat.html"
             },
             "position": {
-                "x": 2142.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NAT_5",
-                "name": "NAT_5",
-                "href": "http://mizar.org/version/current/html/nat_5.html"
-            },
-            "position": {
-                "x": 1056.84,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GAUSSINT",
-                "name": "GAUSSINT",
-                "href": "http://mizar.org/version/current/html/gaussint.html"
-            },
-            "position": {
-                "x": 3024.84,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BASEL_2",
-                "name": "BASEL_2",
-                "href": "http://mizar.org/version/current/html/basel_2.html"
-            },
-            "position": {
-                "x": 1728.84,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NUMBER01",
-                "name": "NUMBER01",
-                "href": "http://mizar.org/version/current/html/number01.html"
-            },
-            "position": {
-                "x": 1056.84,
-                "y": 1404.0
+                "x": 1128.84,
+                "y": 108.0
             }
         },
         {
@@ -104,8 +32,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 1902.84,
-                "y": 1404.0
+                "x": 1884.84,
+                "y": 108.0
             }
         },
         {
@@ -116,71 +44,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 2682.84,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "WSIERP_1",
-                "target": "INT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PYTHTRIP",
-                "target": "WSIERP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NUMERAL1",
-                "target": "INT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NAT_5",
-                "target": "WSIERP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GAUSSINT",
-                "target": "INT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BASEL_2",
-                "target": "WSIERP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NUMBER01",
-                "target": "NAT_5"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NUMBER01",
-                "target": "PYTHTRIP"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NUMBER01",
-                "target": "NUMERAL1"
+                "x": 2664.8399999999997,
+                "y": 108.0
             }
         }
     ]

@@ -1,1 +1,14 @@
-modelc_1
+funcop_1
+cat_1
+cat_2
+grcat_1
+oppcat_1
+cat_3
+nattra_1
+cat_5
+altcat_1
+isocat_1
+ringcat1
+modcat_1
+commacat
+isocat_2

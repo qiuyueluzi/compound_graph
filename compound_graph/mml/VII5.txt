@@ -1,13 +1,8 @@
-parsp_2
+collsp
 anproj_1
 anproj_2
 projdes1
 hessenbe
 incproj
+projred1
 projred2
-jordan3
-pencil_2
-anproj_8
-anproj_9
-pascal
-pappus

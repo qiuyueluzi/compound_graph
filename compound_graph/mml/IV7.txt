@@ -1,4 +1,0 @@
-irrat_1
-int_6
-nat_4
-diophan1

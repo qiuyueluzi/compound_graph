@@ -8,8 +8,20 @@
                 "href": "http://mizar.org/version/current/html/mod_2.html"
             },
             "position": {
-                "x": 502.164,
-                "y": 108.0
+                "x": 269.07599999999996,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSEQ_1",
+                "name": "ALGSEQ_1",
+                "href": "http://mizar.org/version/current/html/algseq_1.html"
+            },
+            "position": {
+                "x": 1013.0999999999999,
+                "y": 972.0000000000001
             }
         },
         {
@@ -20,20 +32,8 @@
                 "href": "http://mizar.org/version/current/html/mod_3.html"
             },
             "position": {
-                "x": 2416.1400000000003,
+                "x": 1793.1000000000001,
                 "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MODCAT_1",
-                "name": "MODCAT_1",
-                "href": "http://mizar.org/version/current/html/modcat_1.html"
-            },
-            "position": {
-                "x": 382.16400000000004,
-                "y": 540.0
             }
         },
         {
@@ -44,7 +44,7 @@
                 "href": "http://mizar.org/version/current/html/lmod_6.html"
             },
             "position": {
-                "x": 2920.1400000000003,
+                "x": 1793.1000000000001,
                 "y": 540.0
             }
         },
@@ -56,8 +56,8 @@
                 "href": "http://mizar.org/version/current/html/mod_4.html"
             },
             "position": {
-                "x": 1270.14,
-                "y": 108.0
+                "x": 2477.1000000000004,
+                "y": 972.0000000000001
             }
         },
         {
@@ -68,116 +68,8 @@
                 "href": "http://mizar.org/version/current/html/lmod_7.html"
             },
             "position": {
-                "x": 2920.1400000000003,
+                "x": 1793.1000000000001,
                 "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "EXTENS_1",
-                "name": "EXTENS_1",
-                "href": "http://mizar.org/version/current/html/extens_1.html"
-            },
-            "position": {
-                "x": 2560.14,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MSINST_1",
-                "name": "MSINST_1",
-                "href": "http://mizar.org/version/current/html/msinst_1.html"
-            },
-            "position": {
-                "x": 3394.1400000000003,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "VECTSP10",
-                "name": "VECTSP10",
-                "href": "http://mizar.org/version/current/html/vectsp10.html"
-            },
-            "position": {
-                "x": 2140.14,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "OSAFREE",
-                "name": "OSAFREE",
-                "href": "http://mizar.org/version/current/html/osafree.html"
-            },
-            "position": {
-                "x": 4210.14,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BCIALG_4",
-                "name": "BCIALG_4",
-                "href": "http://mizar.org/version/current/html/bcialg_4.html"
-            },
-            "position": {
-                "x": 5014.140000000001,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ZMODUL05",
-                "name": "ZMODUL05",
-                "href": "http://mizar.org/version/current/html/zmodul05.html"
-            },
-            "position": {
-                "x": 1270.14,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ZMODUL06",
-                "name": "ZMODUL06",
-                "href": "http://mizar.org/version/current/html/zmodul06.html"
-            },
-            "position": {
-                "x": 1690.1399999999999,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ZMODUL07",
-                "name": "ZMODUL07",
-                "href": "http://mizar.org/version/current/html/zmodul07.html"
-            },
-            "position": {
-                "x": 1690.1399999999999,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "AIMLOOP",
-                "name": "AIMLOOP",
-                "href": "http://mizar.org/version/current/html/aimloop.html"
-            },
-            "position": {
-                "x": 5806.140000000001,
-                "y": 1404.0
             }
         },
         {
@@ -188,8 +80,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 6586.2,
-                "y": 1404.0
+                "x": 3191.1000000000004,
+                "y": 972.0000000000001
             }
         },
         {
@@ -200,15 +92,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 7366.200000000001,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MODCAT_1",
-                "target": "MOD_2"
+                "x": 3971.1,
+                "y": 972.0000000000001
             }
         },
         {
@@ -223,48 +108,6 @@
             "data": {
                 "source": "LMOD_7",
                 "target": "LMOD_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL05",
-                "target": "MOD_4"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL05",
-                "target": "MOD_3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL05",
-                "target": "MOD_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL06",
-                "target": "VECTSP10"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL06",
-                "target": "ZMODUL05"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ZMODUL07",
-                "target": "ZMODUL06"
             }
         }
     ]

@@ -3,12 +3,36 @@
         {
             "group": "nodes",
             "data": {
-                "id": "COMPLEX2",
-                "name": "COMPLEX2",
-                "href": "http://mizar.org/version/current/html/complex2.html"
+                "id": "PARSP_1",
+                "name": "PARSP_1",
+                "href": "http://mizar.org/version/current/html/parsp_1.html"
             },
             "position": {
-                "x": 1817.04,
+                "x": 383.364,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MIDSP_1",
+                "name": "MIDSP_1",
+                "href": "http://mizar.org/version/current/html/midsp_1.html"
+            },
+            "position": {
+                "x": 3371.34,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARSP_2",
+                "name": "PARSP_2",
+                "href": "http://mizar.org/version/current/html/parsp_2.html"
+            },
+            "position": {
+                "x": 383.364,
                 "y": 3132.0
             }
         },
@@ -20,7 +44,7 @@
                 "href": "http://mizar.org/version/current/html/analoaf.html"
             },
             "position": {
-                "x": 1871.04,
+                "x": 1115.34,
                 "y": 108.0
             }
         },
@@ -32,7 +56,7 @@
                 "href": "http://mizar.org/version/current/html/diraf.html"
             },
             "position": {
-                "x": 1871.04,
+                "x": 1115.34,
                 "y": 540.0
             }
         },
@@ -44,7 +68,7 @@
                 "href": "http://mizar.org/version/current/html/aff_1.html"
             },
             "position": {
-                "x": 1871.04,
+                "x": 1115.34,
                 "y": 972.0000000000001
             }
         },
@@ -56,7 +80,7 @@
                 "href": "http://mizar.org/version/current/html/aff_2.html"
             },
             "position": {
-                "x": 1907.04,
+                "x": 1151.34,
                 "y": 1404.0
             }
         },
@@ -68,7 +92,7 @@
                 "href": "http://mizar.org/version/current/html/aff_3.html"
             },
             "position": {
-                "x": 1907.04,
+                "x": 1139.34,
                 "y": 1836.0
             }
         },
@@ -80,7 +104,7 @@
                 "href": "http://mizar.org/version/current/html/pasch.html"
             },
             "position": {
-                "x": 1229.04,
+                "x": 473.36400000000003,
                 "y": 972.0000000000001
             }
         },
@@ -92,7 +116,7 @@
                 "href": "http://mizar.org/version/current/html/transgeo.html"
             },
             "position": {
-                "x": 1163.04,
+                "x": 407.36400000000003,
                 "y": 1404.0
             }
         },
@@ -104,7 +128,7 @@
                 "href": "http://mizar.org/version/current/html/translac.html"
             },
             "position": {
-                "x": 1181.0400000000002,
+                "x": 413.3640000000001,
                 "y": 1836.0
             }
         },
@@ -116,7 +140,7 @@
                 "href": "http://mizar.org/version/current/html/analmetr.html"
             },
             "position": {
-                "x": 2651.04,
+                "x": 1895.34,
                 "y": 1404.0
             }
         },
@@ -128,7 +152,7 @@
                 "href": "http://mizar.org/version/current/html/homothet.html"
             },
             "position": {
-                "x": 1181.0400000000002,
+                "x": 413.3640000000001,
                 "y": 2268.0
             }
         },
@@ -140,7 +164,7 @@
                 "href": "http://mizar.org/version/current/html/afvect01.html"
             },
             "position": {
-                "x": 2585.04,
+                "x": 1829.34,
                 "y": 972.0000000000001
             }
         },
@@ -152,7 +176,7 @@
                 "href": "http://mizar.org/version/current/html/geomtrap.html"
             },
             "position": {
-                "x": 3725.04,
+                "x": 2957.3399999999997,
                 "y": 1836.0
             }
         },
@@ -164,7 +188,7 @@
                 "href": "http://mizar.org/version/current/html/conaffm.html"
             },
             "position": {
-                "x": 2621.04,
+                "x": 1853.34,
                 "y": 1836.0
             }
         },
@@ -176,7 +200,7 @@
                 "href": "http://mizar.org/version/current/html/conmetr.html"
             },
             "position": {
-                "x": 2183.04,
+                "x": 1373.34,
                 "y": 2268.0
             }
         },
@@ -188,7 +212,7 @@
                 "href": "http://mizar.org/version/current/html/papdesaf.html"
             },
             "position": {
-                "x": 3725.04,
+                "x": 2957.3399999999997,
                 "y": 2268.0
             }
         },
@@ -200,7 +224,7 @@
                 "href": "http://mizar.org/version/current/html/pardepap.html"
             },
             "position": {
-                "x": 3767.0400000000004,
+                "x": 2999.34,
                 "y": 2700.0
             }
         },
@@ -212,7 +236,7 @@
                 "href": "http://mizar.org/version/current/html/semi_af1.html"
             },
             "position": {
-                "x": 3767.0400000000004,
+                "x": 2999.34,
                 "y": 3132.0
             }
         },
@@ -224,7 +248,7 @@
                 "href": "http://mizar.org/version/current/html/aff_4.html"
             },
             "position": {
-                "x": 3005.04,
+                "x": 2237.34,
                 "y": 2268.0
             }
         },
@@ -236,7 +260,7 @@
                 "href": "http://mizar.org/version/current/html/afproj.html"
             },
             "position": {
-                "x": 3005.04,
+                "x": 2237.34,
                 "y": 2700.0
             }
         },
@@ -248,7 +272,7 @@
                 "href": "http://mizar.org/version/current/html/euclmetr.html"
             },
             "position": {
-                "x": 2723.04,
+                "x": 1667.34,
                 "y": 3132.0
             }
         },
@@ -260,19 +284,7 @@
                 "href": "http://mizar.org/version/current/html/conmetr1.html"
             },
             "position": {
-                "x": 1979.04,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "JORDAN1",
-                "name": "JORDAN1",
-                "href": "http://mizar.org/version/current/html/jordan1.html"
-            },
-            "position": {
-                "x": 4583.040000000001,
+                "x": 1439.34,
                 "y": 2700.0
             }
         },
@@ -284,128 +296,8 @@
                 "href": "http://mizar.org/version/current/html/midsp_3.html"
             },
             "position": {
-                "x": 5363.04,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBRD12",
-                "name": "GOBRD12",
-                "href": "http://mizar.org/version/current/html/gobrd12.html"
-            },
-            "position": {
-                "x": 4583.040000000001,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "JORDAN7",
-                "name": "JORDAN7",
-                "href": "http://mizar.org/version/current/html/jordan7.html"
-            },
-            "position": {
-                "x": 5759.04,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RLAFFIN1",
-                "name": "RLAFFIN1",
-                "href": "http://mizar.org/version/current/html/rlaffin1.html"
-            },
-            "position": {
-                "x": 7804.799999999999,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "JGRAPH_2",
-                "name": "JGRAPH_2",
-                "href": "http://mizar.org/version/current/html/jgraph_2.html"
-            },
-            "position": {
-                "x": 6556.799999999999,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "JGRAPH_5",
-                "name": "JGRAPH_5",
-                "href": "http://mizar.org/version/current/html/jgraph_5.html"
-            },
-            "position": {
-                "x": 6148.799999999999,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "EUCLID_4",
-                "name": "EUCLID_4",
-                "href": "http://mizar.org/version/current/html/euclid_4.html"
-            },
-            "position": {
-                "x": 8680.8,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "PENCIL_3",
-                "name": "PENCIL_3",
-                "href": "http://mizar.org/version/current/html/pencil_3.html"
-            },
-            "position": {
-                "x": 347.07,
+                "x": 3791.34,
                 "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GLIB_002",
-                "name": "GLIB_002",
-                "href": "http://mizar.org/version/current/html/glib_002.html"
-            },
-            "position": {
-                "x": 9478.8,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "SIMPLEX1",
-                "name": "SIMPLEX1",
-                "href": "http://mizar.org/version/current/html/simplex1.html"
-            },
-            "position": {
-                "x": 6976.8,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRTOP2",
-                "name": "MATRTOP2",
-                "href": "http://mizar.org/version/current/html/matrtop2.html"
-            },
-            "position": {
-                "x": 7834.8,
-                "y": 3132.0
             }
         },
         {
@@ -416,7 +308,7 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 10258.8,
+                "x": 3803.3399999999997,
                 "y": 3132.0
             }
         },
@@ -428,8 +320,15 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 11038.8,
+                "x": 4583.34,
                 "y": 3132.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARSP_2",
+                "target": "PARSP_1"
             }
         },
         {
@@ -526,6 +425,13 @@
         {
             "group": "edges",
             "data": {
+                "source": "GEOMTRAP",
+                "target": "MIDSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
                 "source": "CONAFFM",
                 "target": "ANALMETR"
             }
@@ -548,14 +454,14 @@
             "group": "edges",
             "data": {
                 "source": "PAPDESAF",
-                "target": "TRANSLAC"
+                "target": "GEOMTRAP"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "PAPDESAF",
-                "target": "GEOMTRAP"
+                "target": "TRANSLAC"
             }
         },
         {
@@ -583,21 +489,14 @@
             "group": "edges",
             "data": {
                 "source": "AFPROJ",
-                "target": "PAPDESAF"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "AFPROJ",
                 "target": "AFF_4"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "EUCLMETR",
-                "target": "CONMETR"
+                "source": "AFPROJ",
+                "target": "PAPDESAF"
             }
         },
         {
@@ -610,6 +509,13 @@
         {
             "group": "edges",
             "data": {
+                "source": "EUCLMETR",
+                "target": "CONMETR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
                 "source": "CONMETR1",
                 "target": "CONMETR"
             }
@@ -617,43 +523,8 @@
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD12",
-                "target": "JORDAN1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "JGRAPH_5",
-                "target": "JGRAPH_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "JGRAPH_5",
-                "target": "JORDAN7"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PENCIL_3",
-                "target": "TRANSGEO"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SIMPLEX1",
-                "target": "RLAFFIN1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRTOP2",
-                "target": "RLAFFIN1"
+                "source": "MIDSP_3",
+                "target": "MIDSP_1"
             }
         }
     ]

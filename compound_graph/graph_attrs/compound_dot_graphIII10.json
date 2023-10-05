@@ -3,25 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SETWISEO",
-                "name": "SETWISEO",
-                "href": "http://mizar.org/version/current/html/setwiseo.html"
+                "id": "BINOP_1",
+                "name": "BINOP_1",
+                "href": "http://mizar.org/version/current/html/binop_1.html"
             },
             "position": {
-                "x": 777.84,
-                "y": 540.0
+                "x": 358.77,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FUNCSDOM",
-                "name": "FUNCSDOM",
-                "href": "http://mizar.org/version/current/html/funcsdom.html"
+                "id": "RAT_1",
+                "name": "RAT_1",
+                "href": "http://mizar.org/version/current/html/rat_1.html"
             },
             "position": {
-                "x": 1623.84,
-                "y": 108.0
+                "x": 1060.74,
+                "y": 540.0
             }
         },
         {
@@ -32,20 +32,8 @@
                 "href": "http://mizar.org/version/current/html/vectsp_2.html"
             },
             "position": {
-                "x": 1623.84,
+                "x": 358.77,
                 "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ALGSEQ_1",
-                "name": "ALGSEQ_1",
-                "href": "http://mizar.org/version/current/html/algseq_1.html"
-            },
-            "position": {
-                "x": 393.86400000000003,
-                "y": 972.0000000000001
             }
         },
         {
@@ -56,128 +44,8 @@
                 "href": "http://mizar.org/version/current/html/o_ring_1.html"
             },
             "position": {
-                "x": 2079.84,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MSATERM",
-                "name": "MSATERM",
-                "href": "http://mizar.org/version/current/html/msaterm.html"
-            },
-            "position": {
-                "x": 2901.84,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "PUA2MSS1",
-                "name": "PUA2MSS1",
-                "href": "http://mizar.org/version/current/html/pua2mss1.html"
-            },
-            "position": {
-                "x": 3759.84,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "EQUATION",
-                "name": "EQUATION",
-                "href": "http://mizar.org/version/current/html/equation.html"
-            },
-            "position": {
-                "x": 4623.84,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RING_1",
-                "name": "RING_1",
-                "href": "http://mizar.org/version/current/html/ring_1.html"
-            },
-            "position": {
-                "x": 1197.84,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BCIIDEAL",
-                "name": "BCIIDEAL",
-                "href": "http://mizar.org/version/current/html/bciideal.html"
-            },
-            "position": {
-                "x": 5451.839999999999,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "LATTAD_1",
-                "name": "LATTAD_1",
-                "href": "http://mizar.org/version/current/html/lattad_1.html"
-            },
-            "position": {
-                "x": 6255.6,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "SRINGS_3",
-                "name": "SRINGS_3",
-                "href": "http://mizar.org/version/current/html/srings_3.html"
-            },
-            "position": {
-                "x": 7065.599999999999,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ALGNUM_1",
-                "name": "ALGNUM_1",
-                "href": "http://mizar.org/version/current/html/algnum_1.html"
-            },
-            "position": {
-                "x": 393.86400000000003,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "TOPZARI1",
-                "name": "TOPZARI1",
-                "href": "http://mizar.org/version/current/html/topzari1.html"
-            },
-            "position": {
-                "x": 1251.84,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RINGFRAC",
-                "name": "RINGFRAC",
-                "href": "http://mizar.org/version/current/html/ringfrac.html"
-            },
-            "position": {
-                "x": 1251.84,
-                "y": 1836.0
+                "x": 1750.7400000000002,
+                "y": 540.0
             }
         },
         {
@@ -188,8 +56,8 @@
                 "href": "http://mizar.org/version/current/html/tarski_0.html"
             },
             "position": {
-                "x": 7863.6,
-                "y": 1836.0
+                "x": 2542.7400000000002,
+                "y": 540.0
             }
         },
         {
@@ -200,57 +68,15 @@
                 "href": "http://mizar.org/version/current/html/tarski_a.html"
             },
             "position": {
-                "x": 8643.599999999999,
-                "y": 1836.0
+                "x": 3322.74,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "VECTSP_2",
-                "target": "FUNCSDOM"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RING_1",
-                "target": "VECTSP_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RING_1",
-                "target": "SETWISEO"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ALGNUM_1",
-                "target": "ALGSEQ_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ALGNUM_1",
-                "target": "RING_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TOPZARI1",
-                "target": "RING_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RINGFRAC",
-                "target": "TOPZARI1"
+                "target": "BINOP_1"
             }
         }
     ]
