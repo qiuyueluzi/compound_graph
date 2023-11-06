@@ -6,7 +6,7 @@
                 "id": "TARSKI",
                 "name": "TARSKI",
                 "href": "http://mizar.org/version/current/html/tarski.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/A"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/A"
             },
             "position": {
                 "x": 42276.4975,
@@ -214,7 +214,7 @@
                 "id": "ORDINAL1",
                 "name": "ORDINAL1",
                 "href": "http://mizar.org/version/current/html/ordinal1.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/A"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/A"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -279,7 +279,7 @@
                 "id": "WELLORD2",
                 "name": "WELLORD2",
                 "href": "http://mizar.org/version/current/html/wellord2.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/A"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/A"
             },
             "position": {
                 "x": 42378.4975,
@@ -344,7 +344,7 @@
                 "id": "FUNCOP_1",
                 "name": "FUNCOP_1",
                 "href": "http://mizar.org/version/current/html/funcop_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/H"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/H"
             },
             "position": {
                 "x": 33534.417,
@@ -370,7 +370,7 @@
                 "id": "FUNCT_4",
                 "name": "FUNCT_4",
                 "href": "http://mizar.org/version/current/html/funct_4.html",
-                "parent": "/Func_AnFunction Space/A"
+                "parent": "/Func_AnFunction_Space/A"
             },
             "position": {
                 "x": 25188.000000000004,
@@ -395,7 +395,7 @@
                 "id": "ORDINAL2",
                 "name": "ORDINAL2",
                 "href": "http://mizar.org/version/current/html/ordinal2.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/A"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/A"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -408,7 +408,7 @@
                 "id": "ORDINAL3",
                 "name": "ORDINAL3",
                 "href": "http://mizar.org/version/current/html/ordinal3.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/A"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/A"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -421,7 +421,7 @@
                 "id": "WELLSET1",
                 "name": "WELLSET1",
                 "href": "http://mizar.org/version/current/html/wellset1.html",
-                "parent": "/Math_LogicProof Theory/A"
+                "parent": "/Math_LogicProof_Theory/A"
             },
             "position": {
                 "x": 49182.435000000005,
@@ -473,7 +473,7 @@
                 "id": "FINSET_1",
                 "name": "FINSET_1",
                 "href": "http://mizar.org/version/current/html/finset_1.html",
-                "parent": "/Disc_MathDiscrete Mathematics and Combinatorics/"
+                "parent": "/Disc_MathDiscrete_Mathematics_and_Combinatorics/"
             },
             "position": {
                 "x": 31077.05355555555,
@@ -525,7 +525,7 @@
                 "id": "GATE_1",
                 "name": "GATE_1",
                 "href": "http://mizar.org/version/current/html/gate_1.html",
-                "parent": "/Info_MathMathematics in Computer Science/C"
+                "parent": "/Info_MathMathematics_in_Computer_Science/C"
             },
             "position": {
                 "x": 33085.077555555545,
@@ -538,7 +538,7 @@
                 "id": "GATE_2",
                 "name": "GATE_2",
                 "href": "http://mizar.org/version/current/html/gate_2.html",
-                "parent": "/Info_MathMathematics in Computer Science/C"
+                "parent": "/Info_MathMathematics_in_Computer_Science/C"
             },
             "position": {
                 "x": 32077.05355555555,
@@ -551,7 +551,7 @@
                 "id": "GATE_3",
                 "name": "GATE_3",
                 "href": "http://mizar.org/version/current/html/gate_3.html",
-                "parent": "/Info_MathMathematics in Computer Science/C"
+                "parent": "/Info_MathMathematics_in_Computer_Science/C"
             },
             "position": {
                 "x": 32749.07755555555,
@@ -564,7 +564,7 @@
                 "id": "GATE_4",
                 "name": "GATE_4",
                 "href": "http://mizar.org/version/current/html/gate_4.html",
-                "parent": "/Info_MathMathematics in Computer Science/C"
+                "parent": "/Info_MathMathematics_in_Computer_Science/C"
             },
             "position": {
                 "x": 33421.077555555545,
@@ -577,7 +577,7 @@
                 "id": "GATE_5",
                 "name": "GATE_5",
                 "href": "http://mizar.org/version/current/html/gate_5.html",
-                "parent": "/Info_MathMathematics in Computer Science/C"
+                "parent": "/Info_MathMathematics_in_Computer_Science/C"
             },
             "position": {
                 "x": 34093.077555555545,
@@ -590,7 +590,7 @@
                 "id": "FINSUB_1",
                 "name": "FINSUB_1",
                 "href": "http://mizar.org/version/current/html/finsub_1.html",
-                "parent": "/Disc_MathDiscrete Mathematics and Combinatorics/"
+                "parent": "/Disc_MathDiscrete_Mathematics_and_Combinatorics/"
             },
             "position": {
                 "x": 31077.05355555555,
@@ -616,7 +616,7 @@
                 "id": "SETWISEO",
                 "name": "SETWISEO",
                 "href": "http://mizar.org/version/current/html/setwiseo.html",
-                "parent": "/Disc_MathDiscrete Mathematics and Combinatorics/"
+                "parent": "/Disc_MathDiscrete_Mathematics_and_Combinatorics/"
             },
             "position": {
                 "x": 31077.05355555555,
@@ -875,7 +875,7 @@
                 "id": "SQUARE_1",
                 "name": "SQUARE_1",
                 "href": "http://mizar.org/version/current/html/square_1.html",
-                "parent": "/Sets_and_TopologyReal Numbers and the Real Line/B"
+                "parent": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line/B"
             },
             "position": {
                 "x": 28369.083555555553,
@@ -901,7 +901,7 @@
                 "id": "INT_1",
                 "name": "INT_1",
                 "href": "http://mizar.org/version/current/html/int_1.html",
-                "parent": "/Sets_and_TopologyReal Numbers and the Real Line/B"
+                "parent": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line/B"
             },
             "position": {
                 "x": 29077.05355555555,
@@ -927,7 +927,7 @@
                 "id": "MEMBERED",
                 "name": "MEMBERED",
                 "href": "http://mizar.org/version/current/html/membered.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/A"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/A"
             },
             "position": {
                 "x": 33065.453499999996,
@@ -940,7 +940,7 @@
                 "id": "VALUED_0",
                 "name": "VALUED_0",
                 "href": "http://mizar.org/version/current/html/valued_0.html",
-                "parent": "/Num_AnNumerical Analysis/B"
+                "parent": "/Num_AnNumerical_Analysis/B"
             },
             "position": {
                 "x": 24827.107555555554,
@@ -1109,7 +1109,7 @@
                 "id": "CLASSES2",
                 "name": "CLASSES2",
                 "href": "http://mizar.org/version/current/html/classes2.html",
-                "parent": "/Math_LogicFoundations of Mathematics/C"
+                "parent": "/Math_LogicFoundations_of_Mathematics/C"
             },
             "position": {
                 "x": 29832.0,
@@ -1122,7 +1122,7 @@
                 "id": "ORDINAL4",
                 "name": "ORDINAL4",
                 "href": "http://mizar.org/version/current/html/ordinal4.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/A"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/A"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -1148,7 +1148,7 @@
                 "id": "RECDEF_1",
                 "name": "RECDEF_1",
                 "href": "http://mizar.org/version/current/html/recdef_1.html",
-                "parent": "/Math_LogicRecursive Theory/A"
+                "parent": "/Math_LogicRecursive_Theory/A"
             },
             "position": {
                 "x": 30077.05355555555,
@@ -1174,7 +1174,7 @@
                 "id": "FINSEQ_2",
                 "name": "FINSEQ_2",
                 "href": "http://mizar.org/version/current/html/finseq_2.html",
-                "parent": "/Disc_MathEnumerative Combinatorics/F"
+                "parent": "/Disc_MathEnumerative_Combinatorics/F"
             },
             "position": {
                 "x": 37571.077555555545,
@@ -1187,7 +1187,7 @@
                 "id": "FINSEQOP",
                 "name": "FINSEQOP",
                 "href": "http://mizar.org/version/current/html/finseqop.html",
-                "parent": "/Disc_MathEnumerative Combinatorics/F"
+                "parent": "/Disc_MathEnumerative_Combinatorics/F"
             },
             "position": {
                 "x": 37571.077555555545,
@@ -1200,7 +1200,7 @@
                 "id": "FINSEQ_3",
                 "name": "FINSEQ_3",
                 "href": "http://mizar.org/version/current/html/finseq_3.html",
-                "parent": "/Disc_MathEnumerative Combinatorics/F"
+                "parent": "/Disc_MathEnumerative_Combinatorics/F"
             },
             "position": {
                 "x": 37571.077555555545,
@@ -1213,7 +1213,7 @@
                 "id": "VALUED_1",
                 "name": "VALUED_1",
                 "href": "http://mizar.org/version/current/html/valued_1.html",
-                "parent": "/Num_AnNumerical Analysis/B"
+                "parent": "/Num_AnNumerical_Analysis/B"
             },
             "position": {
                 "x": 24827.107555555554,
@@ -1239,7 +1239,7 @@
                 "id": "COMSEQ_1",
                 "name": "COMSEQ_1",
                 "href": "http://mizar.org/version/current/html/comseq_1.html",
-                "parent": "/Disc_MathEnumerative Combinatorics/F"
+                "parent": "/Disc_MathEnumerative_Combinatorics/F"
             },
             "position": {
                 "x": 38423.05355555554,
@@ -1252,7 +1252,7 @@
                 "id": "XBOOLEAN",
                 "name": "XBOOLEAN",
                 "href": "http://mizar.org/version/current/html/xboolean.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73346.375,
@@ -1317,7 +1317,7 @@
                 "id": "TREES_1",
                 "name": "TREES_1",
                 "href": "http://mizar.org/version/current/html/trees_1.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36110.10712,
@@ -1434,7 +1434,7 @@
                 "id": "TREES_2",
                 "name": "TREES_2",
                 "href": "http://mizar.org/version/current/html/trees_2.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36110.10712,
@@ -1498,7 +1498,7 @@
                 "id": "RCOMP_1",
                 "name": "RCOMP_1",
                 "href": "http://mizar.org/version/current/html/rcomp_1.html",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
             },
             "position": {
                 "x": 9970.790400000002,
@@ -1511,7 +1511,7 @@
                 "id": "RFUNCT_2",
                 "name": "RFUNCT_2",
                 "href": "http://mizar.org/version/current/html/rfunct_2.html",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
             },
             "position": {
                 "x": 9970.790400000002,
@@ -1524,7 +1524,7 @@
                 "id": "CFUNCT_1",
                 "name": "CFUNCT_1",
                 "href": "http://mizar.org/version/current/html/cfunct_1.html",
-                "parent": "/Complex_AnComplex Analysis/"
+                "parent": "/Complex_AnComplex_Analysis/"
             },
             "position": {
                 "x": 11374.0,
@@ -1537,7 +1537,7 @@
                 "id": "FCONT_1",
                 "name": "FCONT_1",
                 "href": "http://mizar.org/version/current/html/fcont_1.html",
-                "parent": "/AnalysisContinuous Functions/"
+                "parent": "/AnalysisContinuous_Functions/"
             },
             "position": {
                 "x": 6144.0,
@@ -1550,7 +1550,7 @@
                 "id": "FCONT_2",
                 "name": "FCONT_2",
                 "href": "http://mizar.org/version/current/html/fcont_2.html",
-                "parent": "/AnalysisContinuous Functions/"
+                "parent": "/AnalysisContinuous_Functions/"
             },
             "position": {
                 "x": 6144.0,
@@ -1563,7 +1563,7 @@
                 "id": "FDIFF_1",
                 "name": "FDIFF_1",
                 "href": "http://mizar.org/version/current/html/fdiff_1.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15710.597000000002,
@@ -1576,7 +1576,7 @@
                 "id": "ROLLE",
                 "name": "ROLLE",
                 "href": "http://mizar.org/version/current/html/rolle.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15710.597000000002,
@@ -1589,7 +1589,7 @@
                 "id": "PREPOWER",
                 "name": "PREPOWER",
                 "href": "http://mizar.org/version/current/html/prepower.html",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
             },
             "position": {
                 "x": 9538.814400000001,
@@ -1615,7 +1615,7 @@
                 "id": "REWRITE1",
                 "name": "REWRITE1",
                 "href": "http://mizar.org/version/current/html/rewrite1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 34253.453499999996,
@@ -1666,7 +1666,7 @@
                 "id": "POWER",
                 "name": "POWER",
                 "href": "http://mizar.org/version/current/html/power.html",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
             },
             "position": {
                 "x": 9538.814400000001,
@@ -1679,7 +1679,7 @@
                 "id": "POLYEQ_1",
                 "name": "POLYEQ_1",
                 "href": "http://mizar.org/version/current/html/polyeq_1.html",
-                "parent": "/AlgebraAlgebraic Equations/"
+                "parent": "/AlgebraAlgebraic_Equations/"
             },
             "position": {
                 "x": 18168.567000000003,
@@ -1717,7 +1717,7 @@
                 "id": "CFCONT_1",
                 "name": "CFCONT_1",
                 "href": "http://mizar.org/version/current/html/cfcont_1.html",
-                "parent": "/Complex_AnHolomorphic Functions/"
+                "parent": "/Complex_AnHolomorphic_Functions/"
             },
             "position": {
                 "x": 27030.507000000005,
@@ -1730,7 +1730,7 @@
                 "id": "CFDIFF_1",
                 "name": "CFDIFF_1",
                 "href": "http://mizar.org/version/current/html/cfdiff_1.html",
-                "parent": "/Complex_AnHolomorphic Functions/"
+                "parent": "/Complex_AnHolomorphic_Functions/"
             },
             "position": {
                 "x": 27030.507000000005,
@@ -1743,7 +1743,7 @@
                 "id": "RPR_1",
                 "name": "RPR_1",
                 "href": "http://mizar.org/version/current/html/rpr_1.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 16348.2425,
@@ -1756,7 +1756,7 @@
                 "id": "SUPINF_2",
                 "name": "SUPINF_2",
                 "href": "http://mizar.org/version/current/html/supinf_2.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2953.0887272727273,
@@ -1769,7 +1769,7 @@
                 "id": "TREES_A",
                 "name": "TREES_A",
                 "href": "http://mizar.org/version/current/html/trees_a.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 35732.07712,
@@ -1782,7 +1782,7 @@
                 "id": "PRE_FF",
                 "name": "PRE_FF",
                 "href": "http://mizar.org/version/current/html/pre_ff.html",
-                "parent": "/Info_MathMathematics in Computer Science/"
+                "parent": "/Info_MathMathematics_in_Computer_Science/"
             },
             "position": {
                 "x": 34477.077555555545,
@@ -1795,7 +1795,7 @@
                 "id": "TREES_3",
                 "name": "TREES_3",
                 "href": "http://mizar.org/version/current/html/trees_3.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36488.10712,
@@ -1808,7 +1808,7 @@
                 "id": "PARTIT1",
                 "name": "PARTIT1",
                 "href": "http://mizar.org/version/current/html/partit1.html",
-                "parent": "/Sets_and_TopologyEquivalence Relations/"
+                "parent": "/Sets_and_TopologyEquivalence_Relations/"
             },
             "position": {
                 "x": 28008.0,
@@ -1821,7 +1821,7 @@
                 "id": "TREES_4",
                 "name": "TREES_4",
                 "href": "http://mizar.org/version/current/html/trees_4.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36422.10712,
@@ -1847,7 +1847,7 @@
                 "id": "BINARITH",
                 "name": "BINARITH",
                 "href": "http://mizar.org/version/current/html/binarith.html",
-                "parent": "/Info_MathMathematics in Computer Science/"
+                "parent": "/Info_MathMathematics_in_Computer_Science/"
             },
             "position": {
                 "x": 35227.077555555545,
@@ -1885,7 +1885,7 @@
                 "id": "MBOOLEAN",
                 "name": "MBOOLEAN",
                 "href": "http://mizar.org/version/current/html/mboolean.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 74690.375,
@@ -1910,7 +1910,7 @@
                 "id": "GLIB_000",
                 "name": "GLIB_000",
                 "href": "http://mizar.org/version/current/html/glib_000.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36878.10712,
@@ -1935,7 +1935,7 @@
                 "id": "GENEALG1",
                 "name": "GENEALG1",
                 "href": "http://mizar.org/version/current/html/genealg1.html",
-                "parent": "/Opt_TheoryCombinatorial Optimization/"
+                "parent": "/Opt_TheoryCombinatorial_Optimization/"
             },
             "position": {
                 "x": 28876.477000000003,
@@ -1960,7 +1960,7 @@
                 "id": "TREES_9",
                 "name": "TREES_9",
                 "href": "http://mizar.org/version/current/html/trees_9.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 36110.10712,
@@ -2010,7 +2010,7 @@
                 "id": "PROB_1",
                 "name": "PROB_1",
                 "href": "http://mizar.org/version/current/html/prob_1.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17482.2665,
@@ -2023,7 +2023,7 @@
                 "id": "PROB_2",
                 "name": "PROB_2",
                 "href": "http://mizar.org/version/current/html/prob_2.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17482.2665,
@@ -2036,7 +2036,7 @@
                 "id": "LIMFUNC1",
                 "name": "LIMFUNC1",
                 "href": "http://mizar.org/version/current/html/limfunc1.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 16598.597,
@@ -2049,7 +2049,7 @@
                 "id": "LIMFUNC2",
                 "name": "LIMFUNC2",
                 "href": "http://mizar.org/version/current/html/limfunc2.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 16742.597,
@@ -2062,7 +2062,7 @@
                 "id": "SEQFUNC",
                 "name": "SEQFUNC",
                 "href": "http://mizar.org/version/current/html/seqfunc.html",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
             },
             "position": {
                 "x": 10408.790400000002,
@@ -2075,7 +2075,7 @@
                 "id": "LIMFUNC3",
                 "name": "LIMFUNC3",
                 "href": "http://mizar.org/version/current/html/limfunc3.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 16742.597,
@@ -2088,7 +2088,7 @@
                 "id": "FCONT_3",
                 "name": "FCONT_3",
                 "href": "http://mizar.org/version/current/html/fcont_3.html",
-                "parent": "/AnalysisContinuous Functions/"
+                "parent": "/AnalysisContinuous_Functions/"
             },
             "position": {
                 "x": 6144.0,
@@ -2101,7 +2101,7 @@
                 "id": "LIMFUNC4",
                 "name": "LIMFUNC4",
                 "href": "http://mizar.org/version/current/html/limfunc4.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 16754.597,
@@ -2114,7 +2114,7 @@
                 "id": "L_HOSPIT",
                 "name": "L_HOSPIT",
                 "href": "http://mizar.org/version/current/html/l_hospit.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15914.597000000002,
@@ -2127,7 +2127,7 @@
                 "id": "FDIFF_2",
                 "name": "FDIFF_2",
                 "href": "http://mizar.org/version/current/html/fdiff_2.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15950.597000000002,
@@ -2140,7 +2140,7 @@
                 "id": "FDIFF_3",
                 "name": "FDIFF_3",
                 "href": "http://mizar.org/version/current/html/fdiff_3.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15950.597000000002,
@@ -2153,7 +2153,7 @@
                 "id": "MEASURE1",
                 "name": "MEASURE1",
                 "href": "http://mizar.org/version/current/html/measure1.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2953.0887272727273,
@@ -2166,7 +2166,7 @@
                 "id": "MEASURE2",
                 "name": "MEASURE2",
                 "href": "http://mizar.org/version/current/html/measure2.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 3463.0887272727273,
@@ -2179,7 +2179,7 @@
                 "id": "MEASURE3",
                 "name": "MEASURE3",
                 "href": "http://mizar.org/version/current/html/measure3.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 3463.0887272727273,
@@ -2192,7 +2192,7 @@
                 "id": "MEASURE4",
                 "name": "MEASURE4",
                 "href": "http://mizar.org/version/current/html/measure4.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2935.0887272727273,
@@ -2218,7 +2218,7 @@
                 "id": "MEASURE5",
                 "name": "MEASURE5",
                 "href": "http://mizar.org/version/current/html/measure5.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2650.0,
@@ -2256,7 +2256,7 @@
                 "id": "EXTREAL1",
                 "name": "EXTREAL1",
                 "href": "http://mizar.org/version/current/html/extreal1.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 3931.088727272727,
@@ -2269,7 +2269,7 @@
                 "id": "MEASURE7",
                 "name": "MEASURE7",
                 "href": "http://mizar.org/version/current/html/measure7.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2653.0887272727273,
@@ -2282,7 +2282,7 @@
                 "id": "RFUNCT_4",
                 "name": "RFUNCT_4",
                 "href": "http://mizar.org/version/current/html/rfunct_4.html",
-                "parent": "/AnalysisConvex Analysis/"
+                "parent": "/AnalysisConvex_Analysis/"
             },
             "position": {
                 "x": 1650.0,
@@ -2295,7 +2295,7 @@
                 "id": "MESFUNC1",
                 "name": "MESFUNC1",
                 "href": "http://mizar.org/version/current/html/mesfunc1.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 3853.088727272727,
@@ -2321,7 +2321,7 @@
                 "id": "MESFUNC2",
                 "name": "MESFUNC2",
                 "href": "http://mizar.org/version/current/html/mesfunc2.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 3853.088727272727,
@@ -2385,7 +2385,7 @@
                 "id": "ASYMPT_0",
                 "name": "ASYMPT_0",
                 "href": "http://mizar.org/version/current/html/asympt_0.html",
-                "parent": "/AnalysisAsymptotic Series/"
+                "parent": "/AnalysisAsymptotic_Series/"
             },
             "position": {
                 "x": 4614.0,
@@ -2423,7 +2423,7 @@
                 "id": "POLYEQ_2",
                 "name": "POLYEQ_2",
                 "href": "http://mizar.org/version/current/html/polyeq_2.html",
-                "parent": "/AlgebraAlgebraic Equations/"
+                "parent": "/AlgebraAlgebraic_Equations/"
             },
             "position": {
                 "x": 17754.597,
@@ -2436,7 +2436,7 @@
                 "id": "POLYEQ_3",
                 "name": "POLYEQ_3",
                 "href": "http://mizar.org/version/current/html/polyeq_3.html",
-                "parent": "/AlgebraAlgebraic Equations/"
+                "parent": "/AlgebraAlgebraic_Equations/"
             },
             "position": {
                 "x": 18582.567000000003,
@@ -2461,7 +2461,7 @@
                 "id": "POLYEQ_5",
                 "name": "POLYEQ_5",
                 "href": "http://mizar.org/version/current/html/polyeq_5.html",
-                "parent": "/AlgebraAlgebraic Equations/"
+                "parent": "/AlgebraAlgebraic_Equations/"
             },
             "position": {
                 "x": 18582.567000000003,
@@ -2487,7 +2487,7 @@
                 "id": "EULER_1",
                 "name": "EULER_1",
                 "href": "http://mizar.org/version/current/html/euler_1.html",
-                "parent": "/Number_TheoryNumber Theory/"
+                "parent": "/Number_TheoryNumber_Theory/"
             },
             "position": {
                 "x": 15348.2425,
@@ -2500,7 +2500,7 @@
                 "id": "EULER_2",
                 "name": "EULER_2",
                 "href": "http://mizar.org/version/current/html/euler_2.html",
-                "parent": "/Number_TheoryNumber Theory/"
+                "parent": "/Number_TheoryNumber_Theory/"
             },
             "position": {
                 "x": 15348.2425,
@@ -2613,7 +2613,7 @@
                 "id": "IRRAT_1",
                 "name": "IRRAT_1",
                 "href": "http://mizar.org/version/current/html/irrat_1.html",
-                "parent": "/Number_TheoryDistribution of Prime Numbers/"
+                "parent": "/Number_TheoryDistribution_of_Prime_Numbers/"
             },
             "position": {
                 "x": 19582.567000000003,
@@ -2626,7 +2626,7 @@
                 "id": "TAYLOR_1",
                 "name": "TAYLOR_1",
                 "href": "http://mizar.org/version/current/html/taylor_1.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14948.597000000002,
@@ -2639,7 +2639,7 @@
                 "id": "HOLDER_1",
                 "name": "HOLDER_1",
                 "href": "http://mizar.org/version/current/html/holder_1.html",
-                "parent": "/AnalysisFourier Transform/"
+                "parent": "/AnalysisFourier_Transform/"
             },
             "position": {
                 "x": 13496.573,
@@ -2652,7 +2652,7 @@
                 "id": "FDIFF_4",
                 "name": "FDIFF_4",
                 "href": "http://mizar.org/version/current/html/fdiff_4.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14924.597000000002,
@@ -2665,7 +2665,7 @@
                 "id": "FDIFF_5",
                 "name": "FDIFF_5",
                 "href": "http://mizar.org/version/current/html/fdiff_5.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 13496.573,
@@ -2678,7 +2678,7 @@
                 "id": "FDIFF_6",
                 "name": "FDIFF_6",
                 "href": "http://mizar.org/version/current/html/fdiff_6.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14924.597000000002,
@@ -2691,7 +2691,7 @@
                 "id": "FDIFF_7",
                 "name": "FDIFF_7",
                 "href": "http://mizar.org/version/current/html/fdiff_7.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14210.597000000002,
@@ -2704,7 +2704,7 @@
                 "id": "FDIFF_8",
                 "name": "FDIFF_8",
                 "href": "http://mizar.org/version/current/html/fdiff_8.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14210.597000000002,
@@ -2743,7 +2743,7 @@
                 "id": "BVFUNC_1",
                 "name": "BVFUNC_1",
                 "href": "http://mizar.org/version/current/html/bvfunc_1.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73346.375,
@@ -2756,7 +2756,7 @@
                 "id": "BVFUNC_2",
                 "name": "BVFUNC_2",
                 "href": "http://mizar.org/version/current/html/bvfunc_2.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 72914.375,
@@ -2769,7 +2769,7 @@
                 "id": "TAYLOR_2",
                 "name": "TAYLOR_2",
                 "href": "http://mizar.org/version/current/html/taylor_2.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15182.597000000002,
@@ -2782,7 +2782,7 @@
                 "id": "CATALAN1",
                 "name": "CATALAN1",
                 "href": "http://mizar.org/version/current/html/catalan1.html",
-                "parent": "/Sets_and_TopologyPermutations and Combinations/"
+                "parent": "/Sets_and_TopologyPermutations_and_Combinations/"
             },
             "position": {
                 "x": 23226.537000000004,
@@ -2795,7 +2795,7 @@
                 "id": "PYTHTRIP",
                 "name": "PYTHTRIP",
                 "href": "http://mizar.org/version/current/html/pythtrip.html",
-                "parent": "/Number_TheoryElementary Number Theory/"
+                "parent": "/Number_TheoryElementary_Number_Theory/"
             },
             "position": {
                 "x": 29876.477000000003,
@@ -2846,7 +2846,7 @@
                 "id": "BVFUNC_3",
                 "name": "BVFUNC_3",
                 "href": "http://mizar.org/version/current/html/bvfunc_3.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 72206.399,
@@ -2859,7 +2859,7 @@
                 "id": "BVFUNC_4",
                 "name": "BVFUNC_4",
                 "href": "http://mizar.org/version/current/html/bvfunc_4.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73070.375,
@@ -2872,7 +2872,7 @@
                 "id": "BVFUNC_5",
                 "name": "BVFUNC_5",
                 "href": "http://mizar.org/version/current/html/bvfunc_5.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73778.375,
@@ -2885,7 +2885,7 @@
                 "id": "BVFUNC_6",
                 "name": "BVFUNC_6",
                 "href": "http://mizar.org/version/current/html/bvfunc_6.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73778.375,
@@ -2898,7 +2898,7 @@
                 "id": "BVFUNC11",
                 "name": "BVFUNC11",
                 "href": "http://mizar.org/version/current/html/bvfunc11.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 72908.375,
@@ -2911,7 +2911,7 @@
                 "id": "BVFUNC14",
                 "name": "BVFUNC14",
                 "href": "http://mizar.org/version/current/html/bvfunc14.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 72902.375,
@@ -2924,7 +2924,7 @@
                 "id": "BVFUNC25",
                 "name": "BVFUNC25",
                 "href": "http://mizar.org/version/current/html/bvfunc25.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 73784.375,
@@ -2950,7 +2950,7 @@
                 "id": "PRGCOR_1",
                 "name": "PRGCOR_1",
                 "href": "http://mizar.org/version/current/html/prgcor_1.html",
-                "parent": "/Info_MathMathematics in Computer Science/"
+                "parent": "/Info_MathMathematics_in_Computer_Science/"
             },
             "position": {
                 "x": 34855.077555555545,
@@ -2963,7 +2963,7 @@
                 "id": "FDIFF_9",
                 "name": "FDIFF_9",
                 "href": "http://mizar.org/version/current/html/fdiff_9.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14210.597000000002,
@@ -2976,7 +2976,7 @@
                 "id": "ARROW",
                 "name": "ARROW",
                 "href": "http://mizar.org/version/current/html/arrow.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32404.07712,
@@ -2989,7 +2989,7 @@
                 "id": "REAL_3",
                 "name": "REAL_3",
                 "href": "http://mizar.org/version/current/html/real_3.html",
-                "parent": "/Number_TheoryContinued Fractions/"
+                "parent": "/Number_TheoryContinued_Fractions/"
             },
             "position": {
                 "x": 25030.507000000005,
@@ -3002,7 +3002,7 @@
                 "id": "FDIFF_10",
                 "name": "FDIFF_10",
                 "href": "http://mizar.org/version/current/html/fdiff_10.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14210.597000000002,
@@ -3015,7 +3015,7 @@
                 "id": "HFDIFF_1",
                 "name": "HFDIFF_1",
                 "href": "http://mizar.org/version/current/html/hfdiff_1.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 14972.597000000002,
@@ -3040,7 +3040,7 @@
                 "id": "PRGCOR_2",
                 "name": "PRGCOR_2",
                 "href": "http://mizar.org/version/current/html/prgcor_2.html",
-                "parent": "/Info_MathMathematics in Computer Science/"
+                "parent": "/Info_MathMathematics_in_Computer_Science/"
             },
             "position": {
                 "x": 35713.077555555545,
@@ -3131,7 +3131,7 @@
                 "id": "PNPROC_1",
                 "name": "PNPROC_1",
                 "href": "http://mizar.org/version/current/html/pnproc_1.html",
-                "parent": "/Info_MathMathematics in Computer Science/"
+                "parent": "/Info_MathMathematics_in_Computer_Science/"
             },
             "position": {
                 "x": 36571.077555555545,
@@ -3334,7 +3334,7 @@
                 "id": "DIFF_1",
                 "name": "DIFF_1",
                 "href": "http://mizar.org/version/current/html/diff_1.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15698.597000000002,
@@ -3373,7 +3373,7 @@
                 "id": "PROB_3",
                 "name": "PROB_3",
                 "href": "http://mizar.org/version/current/html/prob_3.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17482.2665,
@@ -3386,7 +3386,7 @@
                 "id": "DYNKIN",
                 "name": "DYNKIN",
                 "href": "http://mizar.org/version/current/html/dynkin.html",
-                "parent": "/AnalysisMeasure Theory/"
+                "parent": "/AnalysisMeasure_Theory/"
             },
             "position": {
                 "x": 2653.0887272727273,
@@ -3399,7 +3399,7 @@
                 "id": "PROB_4",
                 "name": "PROB_4",
                 "href": "http://mizar.org/version/current/html/prob_4.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17098.2665,
@@ -3412,7 +3412,7 @@
                 "id": "KOLMOG01",
                 "name": "KOLMOG01",
                 "href": "http://mizar.org/version/current/html/kolmog01.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17098.2665,
@@ -3438,7 +3438,7 @@
                 "id": "DIFF_2",
                 "name": "DIFF_2",
                 "href": "http://mizar.org/version/current/html/diff_2.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15308.597000000002,
@@ -3464,7 +3464,7 @@
                 "id": "BOR_CANT",
                 "name": "BOR_CANT",
                 "href": "http://mizar.org/version/current/html/bor_cant.html",
-                "parent": "/Prob_TheoryProbability Theory/"
+                "parent": "/Prob_TheoryProbability_Theory/"
             },
             "position": {
                 "x": 17872.2665,
@@ -3490,7 +3490,7 @@
                 "id": "DIFF_3",
                 "name": "DIFF_3",
                 "href": "http://mizar.org/version/current/html/diff_3.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15308.597000000002,
@@ -3529,7 +3529,7 @@
                 "id": "DIFF_4",
                 "name": "DIFF_4",
                 "href": "http://mizar.org/version/current/html/diff_4.html",
-                "parent": "/AnalysisDifferential Calculus/"
+                "parent": "/AnalysisDifferential_Calculus/"
             },
             "position": {
                 "x": 15308.597000000002,
@@ -3658,7 +3658,7 @@
                 "id": "STIRL2_1",
                 "name": "STIRL2_1",
                 "href": "http://mizar.org/version/current/html/stirl2_1.html",
-                "parent": "/Sets_and_TopologyPermutations and Combinations/"
+                "parent": "/Sets_and_TopologyPermutations_and_Combinations/"
             },
             "position": {
                 "x": 24030.507000000005,
@@ -3723,7 +3723,7 @@
                 "id": "ORDINAL5",
                 "name": "ORDINAL5",
                 "href": "http://mizar.org/version/current/html/ordinal5.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -3736,7 +3736,7 @@
                 "id": "ORDINAL6",
                 "name": "ORDINAL6",
                 "href": "http://mizar.org/version/current/html/ordinal6.html",
-                "parent": "/Sets_and_TopologyOrdinal Numbers/"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers/"
             },
             "position": {
                 "x": 39423.05355555554,
@@ -3762,7 +3762,7 @@
                 "id": "ZF_LANG",
                 "name": "ZF_LANG",
                 "href": "http://mizar.org/version/current/html/zf_lang.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 41682.4975,
@@ -3775,7 +3775,7 @@
                 "id": "ZF_MODEL",
                 "name": "ZF_MODEL",
                 "href": "http://mizar.org/version/current/html/zf_model.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 41490.4975,
@@ -3788,7 +3788,7 @@
                 "id": "ZF_COLLA",
                 "name": "ZF_COLLA",
                 "href": "http://mizar.org/version/current/html/zf_colla.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 40806.5275,
@@ -3801,7 +3801,7 @@
                 "id": "ZFMODEL1",
                 "name": "ZFMODEL1",
                 "href": "http://mizar.org/version/current/html/zfmodel1.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 41664.4975,
@@ -3814,7 +3814,7 @@
                 "id": "ZF_LANG1",
                 "name": "ZF_LANG1",
                 "href": "http://mizar.org/version/current/html/zf_lang1.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 41664.4975,
@@ -3827,7 +3827,7 @@
                 "id": "ZF_REFLE",
                 "name": "ZF_REFLE",
                 "href": "http://mizar.org/version/current/html/zf_refle.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 42378.4975,
@@ -3840,7 +3840,7 @@
                 "id": "ZFREFLE1",
                 "name": "ZFREFLE1",
                 "href": "http://mizar.org/version/current/html/zfrefle1.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 42918.4975,
@@ -3853,7 +3853,7 @@
                 "id": "QC_LANG1",
                 "name": "QC_LANG1",
                 "href": "http://mizar.org/version/current/html/qc_lang1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32159.477499999997,
@@ -3866,7 +3866,7 @@
                 "id": "QC_LANG2",
                 "name": "QC_LANG2",
                 "href": "http://mizar.org/version/current/html/qc_lang2.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32159.477499999997,
@@ -3879,7 +3879,7 @@
                 "id": "QC_LANG3",
                 "name": "QC_LANG3",
                 "href": "http://mizar.org/version/current/html/qc_lang3.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33041.453499999996,
@@ -3892,7 +3892,7 @@
                 "id": "CQC_LANG",
                 "name": "CQC_LANG",
                 "href": "http://mizar.org/version/current/html/cqc_lang.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33041.453499999996,
@@ -3905,7 +3905,7 @@
                 "id": "CQC_THE1",
                 "name": "CQC_THE1",
                 "href": "http://mizar.org/version/current/html/cqc_the1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32525.453499999996,
@@ -3918,7 +3918,7 @@
                 "id": "VALUAT_1",
                 "name": "VALUAT_1",
                 "href": "http://mizar.org/version/current/html/valuat_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33041.453499999996,
@@ -3931,7 +3931,7 @@
                 "id": "ZFMODEL2",
                 "name": "ZFMODEL2",
                 "href": "http://mizar.org/version/current/html/zfmodel2.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 41514.4975,
@@ -3944,7 +3944,7 @@
                 "id": "LUKASI_1",
                 "name": "LUKASI_1",
                 "href": "http://mizar.org/version/current/html/lukasi_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32507.453499999996,
@@ -3957,7 +3957,7 @@
                 "id": "PROCAL_1",
                 "name": "PROCAL_1",
                 "href": "http://mizar.org/version/current/html/procal_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32501.453499999996,
@@ -3970,7 +3970,7 @@
                 "id": "ZF_FUND1",
                 "name": "ZF_FUND1",
                 "href": "http://mizar.org/version/current/html/zf_fund1.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 42060.4975,
@@ -3983,7 +3983,7 @@
                 "id": "INTPRO_1",
                 "name": "INTPRO_1",
                 "href": "http://mizar.org/version/current/html/intpro_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33148.07712,
@@ -3996,7 +3996,7 @@
                 "id": "CQC_THE2",
                 "name": "CQC_THE2",
                 "href": "http://mizar.org/version/current/html/cqc_the2.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32495.453499999996,
@@ -4009,7 +4009,7 @@
                 "id": "ZF_FUND2",
                 "name": "ZF_FUND2",
                 "href": "http://mizar.org/version/current/html/zf_fund2.html",
-                "parent": "/Math_LogicAxiomatic Set Theory/"
+                "parent": "/Math_LogicAxiomatic_Set_Theory/"
             },
             "position": {
                 "x": 42060.4975,
@@ -4022,7 +4022,7 @@
                 "id": "HILBERT1",
                 "name": "HILBERT1",
                 "href": "http://mizar.org/version/current/html/hilbert1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33964.07712,
@@ -4035,7 +4035,7 @@
                 "id": "CQC_SIM1",
                 "name": "CQC_SIM1",
                 "href": "http://mizar.org/version/current/html/cqc_sim1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33863.453499999996,
@@ -4072,7 +4072,7 @@
                 "id": "QC_LANG4",
                 "name": "QC_LANG4",
                 "href": "http://mizar.org/version/current/html/qc_lang4.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 32159.477499999997,
@@ -4085,7 +4085,7 @@
                 "id": "SUBSTUT1",
                 "name": "SUBSTUT1",
                 "href": "http://mizar.org/version/current/html/substut1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33791.453499999996,
@@ -4098,7 +4098,7 @@
                 "id": "SUBLEMMA",
                 "name": "SUBLEMMA",
                 "href": "http://mizar.org/version/current/html/sublemma.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33389.453499999996,
@@ -4111,7 +4111,7 @@
                 "id": "SUBSTUT2",
                 "name": "SUBSTUT2",
                 "href": "http://mizar.org/version/current/html/substut2.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33389.453499999996,
@@ -4124,7 +4124,7 @@
                 "id": "CALCUL_1",
                 "name": "CALCUL_1",
                 "href": "http://mizar.org/version/current/html/calcul_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33389.453499999996,
@@ -4137,7 +4137,7 @@
                 "id": "CALCUL_2",
                 "name": "CALCUL_2",
                 "href": "http://mizar.org/version/current/html/calcul_2.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33389.453499999996,
@@ -4150,7 +4150,7 @@
                 "id": "HENMODEL",
                 "name": "HENMODEL",
                 "href": "http://mizar.org/version/current/html/henmodel.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33395.453499999996,
@@ -4163,7 +4163,7 @@
                 "id": "GOEDELCP",
                 "name": "GOEDELCP",
                 "href": "http://mizar.org/version/current/html/goedelcp.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33395.453499999996,
@@ -4176,7 +4176,7 @@
                 "id": "QC_TRANS",
                 "name": "QC_TRANS",
                 "href": "http://mizar.org/version/current/html/qc_trans.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 33395.453499999996,
@@ -4226,7 +4226,7 @@
                 "id": "INCSP_1",
                 "name": "INCSP_1",
                 "href": "http://mizar.org/version/current/html/incsp_1.html",
-                "parent": "/GeometryFoundations of Geometry/"
+                "parent": "/GeometryFoundations_of_Geometry/"
             },
             "position": {
                 "x": 30168.0,
@@ -4239,7 +4239,7 @@
                 "id": "PRE_TOPC",
                 "name": "PRE_TOPC",
                 "href": "http://mizar.org/version/current/html/pre_topc.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66972.399,
@@ -4265,7 +4265,7 @@
                 "id": "GRAPH_1",
                 "name": "GRAPH_1",
                 "href": "http://mizar.org/version/current/html/graph_1.html",
-                "parent": "/Disc_MathGraph Theory/"
+                "parent": "/Disc_MathGraph_Theory/"
             },
             "position": {
                 "x": 37658.10712,
@@ -4278,7 +4278,7 @@
                 "id": "CAT_1",
                 "name": "CAT_1",
                 "href": "http://mizar.org/version/current/html/cat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33192.417,
@@ -4328,7 +4328,7 @@
                 "id": "TOPS_1",
                 "name": "TOPS_1",
                 "href": "http://mizar.org/version/current/html/tops_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66750.399,
@@ -4341,7 +4341,7 @@
                 "id": "CONNSP_1",
                 "name": "CONNSP_1",
                 "href": "http://mizar.org/version/current/html/connsp_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66750.399,
@@ -4354,7 +4354,7 @@
                 "id": "TOPS_2",
                 "name": "TOPS_2",
                 "href": "http://mizar.org/version/current/html/tops_2.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66750.399,
@@ -4367,7 +4367,7 @@
                 "id": "RLVECT_1",
                 "name": "RLVECT_1",
                 "href": "http://mizar.org/version/current/html/rlvect_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43932.435000000005,
@@ -4380,7 +4380,7 @@
                 "id": "RLSUB_1",
                 "name": "RLSUB_1",
                 "href": "http://mizar.org/version/current/html/rlsub_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43170.435000000005,
@@ -4445,7 +4445,7 @@
                 "id": "PARSP_1",
                 "name": "PARSP_1",
                 "href": "http://mizar.org/version/current/html/parsp_1.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82140.345,
@@ -4458,7 +4458,7 @@
                 "id": "SYMSP_1",
                 "name": "SYMSP_1",
                 "href": "http://mizar.org/version/current/html/symsp_1.html",
-                "parent": "/AlgebraClifford Algebras/"
+                "parent": "/AlgebraClifford_Algebras/"
             },
             "position": {
                 "x": 81140.345,
@@ -4471,7 +4471,7 @@
                 "id": "ORTSP_1",
                 "name": "ORTSP_1",
                 "href": "http://mizar.org/version/current/html/ortsp_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43932.435000000005,
@@ -4484,7 +4484,7 @@
                 "id": "COMPTS_1",
                 "name": "COMPTS_1",
                 "href": "http://mizar.org/version/current/html/compts_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66750.399,
@@ -4497,7 +4497,7 @@
                 "id": "RLSUB_2",
                 "name": "RLSUB_2",
                 "href": "http://mizar.org/version/current/html/rlsub_2.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43896.435000000005,
@@ -4510,7 +4510,7 @@
                 "id": "MIDSP_1",
                 "name": "MIDSP_1",
                 "href": "http://mizar.org/version/current/html/midsp_1.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 85128.321,
@@ -4575,7 +4575,7 @@
                 "id": "ROBBINS1",
                 "name": "ROBBINS1",
                 "href": "http://mizar.org/version/current/html/robbins1.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 75578.375,
@@ -4588,7 +4588,7 @@
                 "id": "QMAX_1",
                 "name": "QMAX_1",
                 "href": "http://mizar.org/version/current/html/qmax_1.html",
-                "parent": "/Math_LogicFormal Systems and Proofs/"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs/"
             },
             "position": {
                 "x": 34732.07712,
@@ -4601,7 +4601,7 @@
                 "id": "PARSP_2",
                 "name": "PARSP_2",
                 "href": "http://mizar.org/version/current/html/parsp_2.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82140.345,
@@ -4614,7 +4614,7 @@
                 "id": "RLVECT_2",
                 "name": "RLVECT_2",
                 "href": "http://mizar.org/version/current/html/rlvect_2.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 45240.435000000005,
@@ -4627,7 +4627,7 @@
                 "id": "ANALOAF",
                 "name": "ANALOAF",
                 "href": "http://mizar.org/version/current/html/analoaf.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82872.321,
@@ -4640,7 +4640,7 @@
                 "id": "METRIC_1",
                 "name": "METRIC_1",
                 "href": "http://mizar.org/version/current/html/metric_1.html",
-                "parent": "/Sets_and_TopologyMetric Spaces/"
+                "parent": "/Sets_and_TopologyMetric_Spaces/"
             },
             "position": {
                 "x": 78312.345,
@@ -4653,7 +4653,7 @@
                 "id": "DIRAF",
                 "name": "DIRAF",
                 "href": "http://mizar.org/version/current/html/diraf.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82872.321,
@@ -4666,7 +4666,7 @@
                 "id": "AFF_1",
                 "name": "AFF_1",
                 "href": "http://mizar.org/version/current/html/aff_1.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82872.321,
@@ -4679,7 +4679,7 @@
                 "id": "AFF_2",
                 "name": "AFF_2",
                 "href": "http://mizar.org/version/current/html/aff_2.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82908.321,
@@ -4692,7 +4692,7 @@
                 "id": "AFF_3",
                 "name": "AFF_3",
                 "href": "http://mizar.org/version/current/html/aff_3.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82896.321,
@@ -4705,7 +4705,7 @@
                 "id": "COLLSP",
                 "name": "COLLSP",
                 "href": "http://mizar.org/version/current/html/collsp.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 86980.29699999999,
@@ -4718,7 +4718,7 @@
                 "id": "PASCH",
                 "name": "PASCH",
                 "href": "http://mizar.org/version/current/html/pasch.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82230.345,
@@ -4757,7 +4757,7 @@
                 "id": "TRANSGEO",
                 "name": "TRANSGEO",
                 "href": "http://mizar.org/version/current/html/transgeo.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82164.345,
@@ -4770,7 +4770,7 @@
                 "id": "CAT_2",
                 "name": "CAT_2",
                 "href": "http://mizar.org/version/current/html/cat_2.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 32904.417,
@@ -4783,7 +4783,7 @@
                 "id": "TRANSLAC",
                 "name": "TRANSLAC",
                 "href": "http://mizar.org/version/current/html/translac.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82170.345,
@@ -4796,7 +4796,7 @@
                 "id": "ANPROJ_1",
                 "name": "ANPROJ_1",
                 "href": "http://mizar.org/version/current/html/anproj_1.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 86980.29699999999,
@@ -4809,7 +4809,7 @@
                 "id": "ANPROJ_2",
                 "name": "ANPROJ_2",
                 "href": "http://mizar.org/version/current/html/anproj_2.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 86980.29699999999,
@@ -4822,7 +4822,7 @@
                 "id": "RLVECT_3",
                 "name": "RLVECT_3",
                 "href": "http://mizar.org/version/current/html/rlvect_3.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 45810.435000000005,
@@ -4848,7 +4848,7 @@
                 "id": "VECTSP_4",
                 "name": "VECTSP_4",
                 "href": "http://mizar.org/version/current/html/vectsp_4.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44424.435000000005,
@@ -4861,7 +4861,7 @@
                 "id": "VECTSP_5",
                 "name": "VECTSP_5",
                 "href": "http://mizar.org/version/current/html/vectsp_5.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44166.435000000005,
@@ -4886,7 +4886,7 @@
                 "id": "NORMSP_1",
                 "name": "NORMSP_1",
                 "href": "http://mizar.org/version/current/html/normsp_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43068.435000000005,
@@ -4899,7 +4899,7 @@
                 "id": "VFUNCT_1",
                 "name": "VFUNCT_1",
                 "href": "http://mizar.org/version/current/html/vfunct_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43068.435000000005,
@@ -4912,7 +4912,7 @@
                 "id": "VECTSP_6",
                 "name": "VECTSP_6",
                 "href": "http://mizar.org/version/current/html/vectsp_6.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44994.435000000005,
@@ -4925,7 +4925,7 @@
                 "id": "VECTSP_7",
                 "name": "VECTSP_7",
                 "href": "http://mizar.org/version/current/html/vectsp_7.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44994.435000000005,
@@ -4938,7 +4938,7 @@
                 "id": "ANALMETR",
                 "name": "ANALMETR",
                 "href": "http://mizar.org/version/current/html/analmetr.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83652.321,
@@ -4964,7 +4964,7 @@
                 "id": "PROJDES1",
                 "name": "PROJDES1",
                 "href": "http://mizar.org/version/current/html/projdes1.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 86584.321,
@@ -5016,7 +5016,7 @@
                 "id": "CONNSP_2",
                 "name": "CONNSP_2",
                 "href": "http://mizar.org/version/current/html/connsp_2.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67494.399,
@@ -5081,7 +5081,7 @@
                 "id": "GRCAT_1",
                 "name": "GRCAT_1",
                 "href": "http://mizar.org/version/current/html/grcat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 31920.417000000005,
@@ -5119,7 +5119,7 @@
                 "id": "POLYNOM1",
                 "name": "POLYNOM1",
                 "href": "http://mizar.org/version/current/html/polynom1.html",
-                "parent": "/AlgebraPolynomial Rings/"
+                "parent": "/AlgebraPolynomial_Rings/"
             },
             "position": {
                 "x": 47182.435000000005,
@@ -5145,7 +5145,7 @@
                 "id": "HOMOTHET",
                 "name": "HOMOTHET",
                 "href": "http://mizar.org/version/current/html/homothet.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 82170.345,
@@ -5158,7 +5158,7 @@
                 "id": "AFVECT0",
                 "name": "AFVECT0",
                 "href": "http://mizar.org/version/current/html/afvect0.html",
-                "parent": "/TopologyFiber Bundle/"
+                "parent": "/TopologyFiber_Bundle/"
             },
             "position": {
                 "x": 80140.345,
@@ -5171,7 +5171,7 @@
                 "id": "COMPLSP1",
                 "name": "COMPLSP1",
                 "href": "http://mizar.org/version/current/html/complsp1.html",
-                "parent": "/Complex_AnHolomorphic Functions/"
+                "parent": "/Complex_AnHolomorphic_Functions/"
             },
             "position": {
                 "x": 27876.477000000003,
@@ -5210,7 +5210,7 @@
                 "id": "METRIC_2",
                 "name": "METRIC_2",
                 "href": "http://mizar.org/version/current/html/metric_2.html",
-                "parent": "/Sets_and_TopologyMetric Spaces/"
+                "parent": "/Sets_and_TopologyMetric_Spaces/"
             },
             "position": {
                 "x": 77484.375,
@@ -5223,7 +5223,7 @@
                 "id": "METRIC_3",
                 "name": "METRIC_3",
                 "href": "http://mizar.org/version/current/html/metric_3.html",
-                "parent": "/Sets_and_TopologyMetric Spaces/"
+                "parent": "/Sets_and_TopologyMetric_Spaces/"
             },
             "position": {
                 "x": 78312.345,
@@ -5236,7 +5236,7 @@
                 "id": "HESSENBE",
                 "name": "HESSENBE",
                 "href": "http://mizar.org/version/current/html/hessenbe.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 86548.321,
@@ -5249,7 +5249,7 @@
                 "id": "INCPROJ",
                 "name": "INCPROJ",
                 "href": "http://mizar.org/version/current/html/incproj.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 87394.29699999999,
@@ -5262,7 +5262,7 @@
                 "id": "AFVECT01",
                 "name": "AFVECT01",
                 "href": "http://mizar.org/version/current/html/afvect01.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83586.321,
@@ -5275,7 +5275,7 @@
                 "id": "NORMFORM",
                 "name": "NORMFORM",
                 "href": "http://mizar.org/version/current/html/normform.html",
-                "parent": "/Sets_and_TopologyBoolean Algebra/"
+                "parent": "/Sets_and_TopologyBoolean_Algebra/"
             },
             "position": {
                 "x": 76484.375,
@@ -5314,7 +5314,7 @@
                 "id": "PROJRED1",
                 "name": "PROJRED1",
                 "href": "http://mizar.org/version/current/html/projred1.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 87418.29699999999,
@@ -5363,7 +5363,7 @@
                 "id": "GEOMTRAP",
                 "name": "GEOMTRAP",
                 "href": "http://mizar.org/version/current/html/geomtrap.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 84714.321,
@@ -5376,7 +5376,7 @@
                 "id": "PROJRED2",
                 "name": "PROJRED2",
                 "href": "http://mizar.org/version/current/html/projred2.html",
-                "parent": "/GeometryProjective Geometry/"
+                "parent": "/GeometryProjective_Geometry/"
             },
             "position": {
                 "x": 87418.29699999999,
@@ -5389,7 +5389,7 @@
                 "id": "CONAFFM",
                 "name": "CONAFFM",
                 "href": "http://mizar.org/version/current/html/conaffm.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83610.321,
@@ -5402,7 +5402,7 @@
                 "id": "CONMETR",
                 "name": "CONMETR",
                 "href": "http://mizar.org/version/current/html/conmetr.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83130.321,
@@ -5415,7 +5415,7 @@
                 "id": "PAPDESAF",
                 "name": "PAPDESAF",
                 "href": "http://mizar.org/version/current/html/papdesaf.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 84714.321,
@@ -5428,7 +5428,7 @@
                 "id": "PARDEPAP",
                 "name": "PARDEPAP",
                 "href": "http://mizar.org/version/current/html/pardepap.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 84756.321,
@@ -5441,7 +5441,7 @@
                 "id": "SEMI_AF1",
                 "name": "SEMI_AF1",
                 "href": "http://mizar.org/version/current/html/semi_af1.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 84756.321,
@@ -5454,7 +5454,7 @@
                 "id": "AFF_4",
                 "name": "AFF_4",
                 "href": "http://mizar.org/version/current/html/aff_4.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83994.321,
@@ -5467,7 +5467,7 @@
                 "id": "AFPROJ",
                 "name": "AFPROJ",
                 "href": "http://mizar.org/version/current/html/afproj.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83994.321,
@@ -5505,7 +5505,7 @@
                 "id": "OPPCAT_1",
                 "name": "OPPCAT_1",
                 "href": "http://mizar.org/version/current/html/oppcat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33504.417,
@@ -5518,7 +5518,7 @@
                 "id": "EUCLMETR",
                 "name": "EUCLMETR",
                 "href": "http://mizar.org/version/current/html/euclmetr.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83424.321,
@@ -5544,7 +5544,7 @@
                 "id": "CONMETR1",
                 "name": "CONMETR1",
                 "href": "http://mizar.org/version/current/html/conmetr1.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 83196.321,
@@ -5557,7 +5557,7 @@
                 "id": "NAT_LAT",
                 "name": "NAT_LAT",
                 "href": "http://mizar.org/version/current/html/nat_lat.html",
-                "parent": "/Number_TheoryElementary Number Theory/"
+                "parent": "/Number_TheoryElementary_Number_Theory/"
             },
             "position": {
                 "x": 30650.447000000004,
@@ -5583,7 +5583,7 @@
                 "id": "CAT_3",
                 "name": "CAT_3",
                 "href": "http://mizar.org/version/current/html/cat_3.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33558.417,
@@ -5596,7 +5596,7 @@
                 "id": "NATTRA_1",
                 "name": "NATTRA_1",
                 "href": "http://mizar.org/version/current/html/nattra_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33636.417,
@@ -5609,7 +5609,7 @@
                 "id": "PCOMPS_1",
                 "name": "PCOMPS_1",
                 "href": "http://mizar.org/version/current/html/pcomps_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66618.399,
@@ -5622,7 +5622,7 @@
                 "id": "ALI2",
                 "name": "ALI2",
                 "href": "http://mizar.org/version/current/html/ali2.html",
-                "parent": "/Func_AnBanach Space/"
+                "parent": "/Func_AnBanach_Space/"
             },
             "position": {
                 "x": 26030.507000000005,
@@ -5635,7 +5635,7 @@
                 "id": "BHSP_1",
                 "name": "BHSP_1",
                 "href": "http://mizar.org/version/current/html/bhsp_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 42714.435000000005,
@@ -5648,7 +5648,7 @@
                 "id": "BHSP_2",
                 "name": "BHSP_2",
                 "href": "http://mizar.org/version/current/html/bhsp_2.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 41706.41100000001,
@@ -5661,7 +5661,7 @@
                 "id": "BHSP_3",
                 "name": "BHSP_3",
                 "href": "http://mizar.org/version/current/html/bhsp_3.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 41706.41100000001,
@@ -5687,7 +5687,7 @@
                 "id": "BORSUK_1",
                 "name": "BORSUK_1",
                 "href": "http://mizar.org/version/current/html/borsuk_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66618.399,
@@ -5738,7 +5738,7 @@
                 "id": "RUSUB_1",
                 "name": "RUSUB_1",
                 "href": "http://mizar.org/version/current/html/rusub_1.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43128.435000000005,
@@ -5751,7 +5751,7 @@
                 "id": "RUSUB_2",
                 "name": "RUSUB_2",
                 "href": "http://mizar.org/version/current/html/rusub_2.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 43362.435000000005,
@@ -5776,7 +5776,7 @@
                 "id": "RUSUB_3",
                 "name": "RUSUB_3",
                 "href": "http://mizar.org/version/current/html/rusub_3.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 45666.435000000005,
@@ -5789,7 +5789,7 @@
                 "id": "RLVECT_5",
                 "name": "RLVECT_5",
                 "href": "http://mizar.org/version/current/html/rlvect_5.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 46182.435000000005,
@@ -5802,7 +5802,7 @@
                 "id": "RUSUB_4",
                 "name": "RUSUB_4",
                 "href": "http://mizar.org/version/current/html/rusub_4.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 45918.435000000005,
@@ -5827,7 +5827,7 @@
                 "id": "CANTOR_1",
                 "name": "CANTOR_1",
                 "href": "http://mizar.org/version/current/html/cantor_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 65892.399,
@@ -5840,7 +5840,7 @@
                 "id": "TSEP_1",
                 "name": "TSEP_1",
                 "href": "http://mizar.org/version/current/html/tsep_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66666.399,
@@ -5853,7 +5853,7 @@
                 "id": "TDLAT_1",
                 "name": "TDLAT_1",
                 "href": "http://mizar.org/version/current/html/tdlat_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 65490.369000000006,
@@ -5879,7 +5879,7 @@
                 "id": "TDLAT_2",
                 "name": "TDLAT_2",
                 "href": "http://mizar.org/version/current/html/tdlat_2.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 65970.399,
@@ -5892,7 +5892,7 @@
                 "id": "TDLAT_3",
                 "name": "TDLAT_3",
                 "href": "http://mizar.org/version/current/html/tdlat_3.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 65970.399,
@@ -5905,7 +5905,7 @@
                 "id": "TOPS_3",
                 "name": "TOPS_3",
                 "href": "http://mizar.org/version/current/html/tops_3.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 65952.399,
@@ -5918,7 +5918,7 @@
                 "id": "URYSOHN1",
                 "name": "URYSOHN1",
                 "href": "http://mizar.org/version/current/html/urysohn1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67500.399,
@@ -5957,7 +5957,7 @@
                 "id": "LANG1",
                 "name": "LANG1",
                 "href": "http://mizar.org/version/current/html/lang1.html",
-                "parent": "/Info_MathFormal Language Theory and Automata/"
+                "parent": "/Info_MathFormal_Language_Theory_and_Automata/"
             },
             "position": {
                 "x": 56922.429000000004,
@@ -5995,7 +5995,7 @@
                 "id": "YELLOW_0",
                 "name": "YELLOW_0",
                 "href": "http://mizar.org/version/current/html/yellow_0.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67902.399,
@@ -6008,7 +6008,7 @@
                 "id": "CAT_5",
                 "name": "CAT_5",
                 "href": "http://mizar.org/version/current/html/cat_5.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33432.417,
@@ -6021,7 +6021,7 @@
                 "id": "ALTCAT_1",
                 "name": "ALTCAT_1",
                 "href": "http://mizar.org/version/current/html/altcat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 33882.417,
@@ -6047,7 +6047,7 @@
                 "id": "YELLOW_1",
                 "name": "YELLOW_1",
                 "href": "http://mizar.org/version/current/html/yellow_1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67608.399,
@@ -6060,7 +6060,7 @@
                 "id": "WAYBEL_0",
                 "name": "WAYBEL_0",
                 "href": "http://mizar.org/version/current/html/waybel_0.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 68454.399,
@@ -6099,7 +6099,7 @@
                 "id": "GOBOARD1",
                 "name": "GOBOARD1",
                 "href": "http://mizar.org/version/current/html/goboard1.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 68184.399,
@@ -6112,7 +6112,7 @@
                 "id": "GOBOARD2",
                 "name": "GOBOARD2",
                 "href": "http://mizar.org/version/current/html/goboard2.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 69324.399,
@@ -6125,7 +6125,7 @@
                 "id": "GOBOARD5",
                 "name": "GOBOARD5",
                 "href": "http://mizar.org/version/current/html/goboard5.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 68400.399,
@@ -6138,7 +6138,7 @@
                 "id": "GOBOARD6",
                 "name": "GOBOARD6",
                 "href": "http://mizar.org/version/current/html/goboard6.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 68394.399,
@@ -6151,7 +6151,7 @@
                 "id": "GOBOARD7",
                 "name": "GOBOARD7",
                 "href": "http://mizar.org/version/current/html/goboard7.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67866.399,
@@ -6164,7 +6164,7 @@
                 "id": "VECTSP_9",
                 "name": "VECTSP_9",
                 "href": "http://mizar.org/version/current/html/vectsp_9.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44994.435000000005,
@@ -6190,7 +6190,7 @@
                 "id": "VECTSP_8",
                 "name": "VECTSP_8",
                 "href": "http://mizar.org/version/current/html/vectsp_8.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44166.435000000005,
@@ -6203,7 +6203,7 @@
                 "id": "ISOCAT_1",
                 "name": "ISOCAT_1",
                 "href": "http://mizar.org/version/current/html/isocat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 34116.417,
@@ -6216,7 +6216,7 @@
                 "id": "RINGCAT1",
                 "name": "RINGCAT1",
                 "href": "http://mizar.org/version/current/html/ringcat1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 31650.447000000004,
@@ -6229,7 +6229,7 @@
                 "id": "MODCAT_1",
                 "name": "MODCAT_1",
                 "href": "http://mizar.org/version/current/html/modcat_1.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 32502.417000000005,
@@ -6242,7 +6242,7 @@
                 "id": "METRIC_6",
                 "name": "METRIC_6",
                 "href": "http://mizar.org/version/current/html/metric_6.html",
-                "parent": "/Sets_and_TopologyMetric Spaces/"
+                "parent": "/Sets_and_TopologyMetric_Spaces/"
             },
             "position": {
                 "x": 79140.345,
@@ -6255,7 +6255,7 @@
                 "id": "COMMACAT",
                 "name": "COMMACAT",
                 "href": "http://mizar.org/version/current/html/commacat.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 32760.417000000005,
@@ -6268,7 +6268,7 @@
                 "id": "BHSP_4",
                 "name": "BHSP_4",
                 "href": "http://mizar.org/version/current/html/bhsp_4.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 41706.41100000001,
@@ -6281,7 +6281,7 @@
                 "id": "MIDSP_3",
                 "name": "MIDSP_3",
                 "href": "http://mizar.org/version/current/html/midsp_3.html",
-                "parent": "/GeometryAffine Geometry/"
+                "parent": "/GeometryAffine_Geometry/"
             },
             "position": {
                 "x": 85548.321,
@@ -6307,7 +6307,7 @@
                 "id": "ISOCAT_2",
                 "name": "ISOCAT_2",
                 "href": "http://mizar.org/version/current/html/isocat_2.html",
-                "parent": "/Sets_and_TopologyCategories and Functors/"
+                "parent": "/Sets_and_TopologyCategories_and_Functors/"
             },
             "position": {
                 "x": 34116.417,
@@ -6346,7 +6346,7 @@
                 "id": "GOBOARD3",
                 "name": "GOBOARD3",
                 "href": "http://mizar.org/version/current/html/goboard3.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 69312.399,
@@ -6359,7 +6359,7 @@
                 "id": "GOBOARD4",
                 "name": "GOBOARD4",
                 "href": "http://mizar.org/version/current/html/goboard4.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 70206.399,
@@ -6411,7 +6411,7 @@
                 "id": "GOBOARD8",
                 "name": "GOBOARD8",
                 "href": "http://mizar.org/version/current/html/goboard8.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66972.399,
@@ -6424,7 +6424,7 @@
                 "id": "GOBOARD9",
                 "name": "GOBOARD9",
                 "href": "http://mizar.org/version/current/html/goboard9.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67536.399,
@@ -6437,7 +6437,7 @@
                 "id": "GOBRD11",
                 "name": "GOBRD11",
                 "href": "http://mizar.org/version/current/html/gobrd11.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66690.399,
@@ -6450,7 +6450,7 @@
                 "id": "GOBRD12",
                 "name": "GOBRD12",
                 "href": "http://mizar.org/version/current/html/gobrd12.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 67146.399,
@@ -6684,7 +6684,7 @@
                 "id": "MATRLIN2",
                 "name": "MATRLIN2",
                 "href": "http://mizar.org/version/current/html/matrlin2.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 44850.435000000005,
@@ -6723,7 +6723,7 @@
                 "id": "GOBRD13",
                 "name": "GOBRD13",
                 "href": "http://mizar.org/version/current/html/gobrd13.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66342.399,
@@ -6736,7 +6736,7 @@
                 "id": "GOBRD14",
                 "name": "GOBRD14",
                 "href": "http://mizar.org/version/current/html/gobrd14.html",
-                "parent": "/Sets_and_TopologyTopological Spaces/"
+                "parent": "/Sets_and_TopologyTopological_Spaces/"
             },
             "position": {
                 "x": 66150.399,
@@ -6775,7 +6775,7 @@
                 "id": "BHSP_5",
                 "name": "BHSP_5",
                 "href": "http://mizar.org/version/current/html/bhsp_5.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 42390.435000000005,
@@ -6788,7 +6788,7 @@
                 "id": "BHSP_6",
                 "name": "BHSP_6",
                 "href": "http://mizar.org/version/current/html/bhsp_6.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 42390.435000000005,
@@ -6801,7 +6801,7 @@
                 "id": "BHSP_7",
                 "name": "BHSP_7",
                 "href": "http://mizar.org/version/current/html/bhsp_7.html",
-                "parent": "/AlgebraVector Spaces/"
+                "parent": "/AlgebraVector_Spaces/"
             },
             "position": {
                 "x": 42390.435000000005,
@@ -13252,8 +13252,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisDifferential Calculus",
-                "name": "AnalysisDifferential Calculus",
+                "id": "/AnalysisDifferential_Calculus",
+                "name": "AnalysisDifferential_Calculus",
                 "parent": ""
             }
         },
@@ -13268,8 +13268,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicFoundations of Mathematics",
-                "name": "Math_LogicFoundations of Mathematics",
+                "id": "/Math_LogicFoundations_of_Mathematics",
+                "name": "Math_LogicFoundations_of_Mathematics",
                 "parent": ""
             }
         },
@@ -13300,9 +13300,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisMeasure Theory/",
+                "id": "/AnalysisMeasure_Theory/",
                 "name": "",
-                "parent": "/AnalysisMeasure Theory"
+                "parent": "/AnalysisMeasure_Theory"
             }
         },
         {
@@ -13316,9 +13316,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisAsymptotic Series/",
+                "id": "/AnalysisAsymptotic_Series/",
                 "name": "",
-                "parent": "/AnalysisAsymptotic Series"
+                "parent": "/AnalysisAsymptotic_Series"
             }
         },
         {
@@ -13332,8 +13332,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryElementary Number Theory",
-                "name": "Number_TheoryElementary Number Theory",
+                "id": "/Number_TheoryElementary_Number_Theory",
+                "name": "Number_TheoryElementary_Number_Theory",
                 "parent": ""
             }
         },
@@ -13348,9 +13348,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraAlgebraic Equations/",
+                "id": "/AlgebraAlgebraic_Equations/",
                 "name": "",
-                "parent": "/AlgebraAlgebraic Equations"
+                "parent": "/AlgebraAlgebraic_Equations"
             }
         },
         {
@@ -13364,9 +13364,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryNumber Theory/",
+                "id": "/Number_TheoryNumber_Theory/",
                 "name": "",
-                "parent": "/Number_TheoryNumber Theory"
+                "parent": "/Number_TheoryNumber_Theory"
             }
         },
         {
@@ -13388,25 +13388,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraVector Spaces",
-                "name": "AlgebraVector Spaces",
+                "id": "/AlgebraVector_Spaces",
+                "name": "AlgebraVector_Spaces",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraClifford Algebras",
-                "name": "AlgebraClifford Algebras",
+                "id": "/AlgebraClifford_Algebras",
+                "name": "AlgebraClifford_Algebras",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryContinued Fractions/",
+                "id": "/Number_TheoryContinued_Fractions/",
                 "name": "",
-                "parent": "/Number_TheoryContinued Fractions"
+                "parent": "/Number_TheoryContinued_Fractions"
             }
         },
         {
@@ -13420,33 +13420,33 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyEquivalence Relations",
-                "name": "Sets_and_TopologyEquivalence Relations",
+                "id": "/Sets_and_TopologyEquivalence_Relations",
+                "name": "Sets_and_TopologyEquivalence_Relations",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryAffine Geometry/",
+                "id": "/GeometryAffine_Geometry/",
                 "name": "",
-                "parent": "/GeometryAffine Geometry"
+                "parent": "/GeometryAffine_Geometry"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/TopologyFiber Bundle",
-                "name": "TopologyFiber Bundle",
+                "id": "/TopologyFiber_Bundle",
+                "name": "TopologyFiber_Bundle",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisHarmonic Analysis, Real Analysis/",
+                "id": "/AnalysisHarmonic_Analysis,_Real_Analysis/",
                 "name": "",
-                "parent": "/AnalysisHarmonic Analysis, Real Analysis"
+                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
             }
         },
         {
@@ -13460,8 +13460,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Complex_AnHolomorphic Functions",
-                "name": "Complex_AnHolomorphic Functions",
+                "id": "/Complex_AnHolomorphic_Functions",
+                "name": "Complex_AnHolomorphic_Functions",
                 "parent": ""
             }
         },
@@ -13476,8 +13476,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyBoolean Algebra",
-                "name": "Sets_and_TopologyBoolean Algebra",
+                "id": "/Sets_and_TopologyBoolean_Algebra",
+                "name": "Sets_and_TopologyBoolean_Algebra",
                 "parent": ""
             }
         },
@@ -13500,9 +13500,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryFoundations of Geometry/",
+                "id": "/GeometryFoundations_of_Geometry/",
                 "name": "",
-                "parent": "/GeometryFoundations of Geometry"
+                "parent": "/GeometryFoundations_of_Geometry"
             }
         },
         {
@@ -13516,9 +13516,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicAxiomatic Set Theory/",
+                "id": "/Math_LogicAxiomatic_Set_Theory/",
                 "name": "",
-                "parent": "/Math_LogicAxiomatic Set Theory"
+                "parent": "/Math_LogicAxiomatic_Set_Theory"
             }
         },
         {
@@ -13532,9 +13532,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Info_MathMathematics in Computer Science/",
+                "id": "/Info_MathMathematics_in_Computer_Science/",
                 "name": "",
-                "parent": "/Info_MathMathematics in Computer Science"
+                "parent": "/Info_MathMathematics_in_Computer_Science"
             }
         },
         {
@@ -13548,41 +13548,41 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyBoolean Algebra/",
+                "id": "/Sets_and_TopologyBoolean_Algebra/",
                 "name": "",
-                "parent": "/Sets_and_TopologyBoolean Algebra"
+                "parent": "/Sets_and_TopologyBoolean_Algebra"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyTopological Spaces/",
+                "id": "/Sets_and_TopologyTopological_Spaces/",
                 "name": "",
-                "parent": "/Sets_and_TopologyTopological Spaces"
+                "parent": "/Sets_and_TopologyTopological_Spaces"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraPolynomial Rings",
-                "name": "AlgebraPolynomial Rings",
+                "id": "/AlgebraPolynomial_Rings",
+                "name": "AlgebraPolynomial_Rings",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyMetric Spaces",
-                "name": "Sets_and_TopologyMetric Spaces",
+                "id": "/Sets_and_TopologyMetric_Spaces",
+                "name": "Sets_and_TopologyMetric_Spaces",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyOrdinal Numbers/A",
+                "id": "/Sets_and_TopologyOrdinal_Numbers/A",
                 "name": "A",
-                "parent": "/Sets_and_TopologyOrdinal Numbers"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers"
             }
         },
         {
@@ -13620,9 +13620,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathGraph Theory/",
+                "id": "/Disc_MathGraph_Theory/",
                 "name": "",
-                "parent": "/Disc_MathGraph Theory"
+                "parent": "/Disc_MathGraph_Theory"
             }
         },
         {
@@ -13636,8 +13636,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicAxiomatic Set Theory",
-                "name": "Math_LogicAxiomatic Set Theory",
+                "id": "/Math_LogicAxiomatic_Set_Theory",
+                "name": "Math_LogicAxiomatic_Set_Theory",
                 "parent": ""
             }
         },
@@ -13652,16 +13652,16 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Num_AnNumerical Analysis",
-                "name": "Num_AnNumerical Analysis",
+                "id": "/Num_AnNumerical_Analysis",
+                "name": "Num_AnNumerical_Analysis",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyReal Numbers and the Real Line",
-                "name": "Sets_and_TopologyReal Numbers and the Real Line",
+                "id": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line",
+                "name": "Sets_and_TopologyReal_Numbers_and_the_Real_Line",
                 "parent": ""
             }
         },
@@ -13676,57 +13676,57 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisContinuous Functions",
-                "name": "AnalysisContinuous Functions",
+                "id": "/AnalysisContinuous_Functions",
+                "name": "AnalysisContinuous_Functions",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisAsymptotic Series",
-                "name": "AnalysisAsymptotic Series",
+                "id": "/AnalysisAsymptotic_Series",
+                "name": "AnalysisAsymptotic_Series",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Prob_TheoryProbability Theory",
-                "name": "Prob_TheoryProbability Theory",
+                "id": "/Prob_TheoryProbability_Theory",
+                "name": "Prob_TheoryProbability_Theory",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryProjective Geometry/",
+                "id": "/GeometryProjective_Geometry/",
                 "name": "",
-                "parent": "/GeometryProjective Geometry"
+                "parent": "/GeometryProjective_Geometry"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicFormal Systems and Proofs/",
+                "id": "/Math_LogicFormal_Systems_and_Proofs/",
                 "name": "",
-                "parent": "/Math_LogicFormal Systems and Proofs"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyCategories and Functors",
-                "name": "Sets_and_TopologyCategories and Functors",
+                "id": "/Sets_and_TopologyCategories_and_Functors",
+                "name": "Sets_and_TopologyCategories_and_Functors",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisContinuous Functions/",
+                "id": "/AnalysisContinuous_Functions/",
                 "name": "",
-                "parent": "/AnalysisContinuous Functions"
+                "parent": "/AnalysisContinuous_Functions"
             }
         },
         {
@@ -13740,16 +13740,16 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryAffine Geometry",
-                "name": "GeometryAffine Geometry",
+                "id": "/GeometryAffine_Geometry",
+                "name": "GeometryAffine_Geometry",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Info_MathFormal Language Theory and Automata",
-                "name": "Info_MathFormal Language Theory and Automata",
+                "id": "/Info_MathFormal_Language_Theory_and_Automata",
+                "name": "Info_MathFormal_Language_Theory_and_Automata",
                 "parent": ""
             }
         },
@@ -13764,32 +13764,32 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraVector Spaces/",
+                "id": "/AlgebraVector_Spaces/",
                 "name": "",
-                "parent": "/AlgebraVector Spaces"
+                "parent": "/AlgebraVector_Spaces"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Info_MathMathematics in Computer Science/C",
+                "id": "/Info_MathMathematics_in_Computer_Science/C",
                 "name": "C",
-                "parent": "/Info_MathMathematics in Computer Science"
+                "parent": "/Info_MathMathematics_in_Computer_Science"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisFourier Transform/",
+                "id": "/AnalysisFourier_Transform/",
                 "name": "",
-                "parent": "/AnalysisFourier Transform"
+                "parent": "/AnalysisFourier_Transform"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisMeasure Theory",
-                "name": "AnalysisMeasure Theory",
+                "id": "/AnalysisMeasure_Theory",
+                "name": "AnalysisMeasure_Theory",
                 "parent": ""
             }
         },
@@ -13804,17 +13804,17 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicAxiomatic Set Theory/A",
+                "id": "/Math_LogicAxiomatic_Set_Theory/A",
                 "name": "A",
-                "parent": "/Math_LogicAxiomatic Set Theory"
+                "parent": "/Math_LogicAxiomatic_Set_Theory"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraPolynomial Rings/",
+                "id": "/AlgebraPolynomial_Rings/",
                 "name": "",
-                "parent": "/AlgebraPolynomial Rings"
+                "parent": "/AlgebraPolynomial_Rings"
             }
         },
         {
@@ -13828,9 +13828,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyReal Numbers and the Real Line/B",
+                "id": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line/B",
                 "name": "B",
-                "parent": "/Sets_and_TopologyReal Numbers and the Real Line"
+                "parent": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line"
             }
         },
         {
@@ -13860,17 +13860,17 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicProof Theory/A",
+                "id": "/Math_LogicProof_Theory/A",
                 "name": "A",
-                "parent": "/Math_LogicProof Theory"
+                "parent": "/Math_LogicProof_Theory"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyCategories and Functors/H",
+                "id": "/Sets_and_TopologyCategories_and_Functors/H",
                 "name": "H",
-                "parent": "/Sets_and_TopologyCategories and Functors"
+                "parent": "/Sets_and_TopologyCategories_and_Functors"
             }
         },
         {
@@ -13884,9 +13884,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Info_MathFormal Language Theory and Automata/",
+                "id": "/Info_MathFormal_Language_Theory_and_Automata/",
                 "name": "",
-                "parent": "/Info_MathFormal Language Theory and Automata"
+                "parent": "/Info_MathFormal_Language_Theory_and_Automata"
             }
         },
         {
@@ -13900,49 +13900,49 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryElementary Number Theory/",
+                "id": "/Number_TheoryElementary_Number_Theory/",
                 "name": "",
-                "parent": "/Number_TheoryElementary Number Theory"
+                "parent": "/Number_TheoryElementary_Number_Theory"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyOrdinal Numbers/",
+                "id": "/Sets_and_TopologyOrdinal_Numbers/",
                 "name": "",
-                "parent": "/Sets_and_TopologyOrdinal Numbers"
+                "parent": "/Sets_and_TopologyOrdinal_Numbers"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryProjective Geometry",
-                "name": "GeometryProjective Geometry",
+                "id": "/GeometryProjective_Geometry",
+                "name": "GeometryProjective_Geometry",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyPermutations and Combinations/",
+                "id": "/Sets_and_TopologyPermutations_and_Combinations/",
                 "name": "",
-                "parent": "/Sets_and_TopologyPermutations and Combinations"
+                "parent": "/Sets_and_TopologyPermutations_and_Combinations"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyTopological Spaces",
-                "name": "Sets_and_TopologyTopological Spaces",
+                "id": "/Sets_and_TopologyTopological_Spaces",
+                "name": "Sets_and_TopologyTopological_Spaces",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicRecursive Theory/A",
+                "id": "/Math_LogicRecursive_Theory/A",
                 "name": "A",
-                "parent": "/Math_LogicRecursive Theory"
+                "parent": "/Math_LogicRecursive_Theory"
             }
         },
         {
@@ -13972,8 +13972,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicRecursive Theory",
-                "name": "Math_LogicRecursive Theory",
+                "id": "/Math_LogicRecursive_Theory",
+                "name": "Math_LogicRecursive_Theory",
                 "parent": ""
             }
         },
@@ -13988,9 +13988,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisConvex Analysis/",
+                "id": "/AnalysisConvex_Analysis/",
                 "name": "",
-                "parent": "/AnalysisConvex Analysis"
+                "parent": "/AnalysisConvex_Analysis"
             }
         },
         {
@@ -14004,24 +14004,24 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Prob_TheoryProbability Theory/",
+                "id": "/Prob_TheoryProbability_Theory/",
                 "name": "",
-                "parent": "/Prob_TheoryProbability Theory"
+                "parent": "/Prob_TheoryProbability_Theory"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/TopologyFiber Bundle/",
+                "id": "/TopologyFiber_Bundle/",
                 "name": "",
-                "parent": "/TopologyFiber Bundle"
+                "parent": "/TopologyFiber_Bundle"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Func_AnFunction Space",
-                "name": "Func_AnFunction Space",
+                "id": "/Func_AnFunction_Space",
+                "name": "Func_AnFunction_Space",
                 "parent": ""
             }
         },
@@ -14052,32 +14052,32 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Num_AnNumerical Analysis/B",
+                "id": "/Num_AnNumerical_Analysis/B",
                 "name": "B",
-                "parent": "/Num_AnNumerical Analysis"
+                "parent": "/Num_AnNumerical_Analysis"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Complex_AnHolomorphic Functions/",
+                "id": "/Complex_AnHolomorphic_Functions/",
                 "name": "",
-                "parent": "/Complex_AnHolomorphic Functions"
+                "parent": "/Complex_AnHolomorphic_Functions"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Complex_AnComplex Analysis",
-                "name": "Complex_AnComplex Analysis",
+                "id": "/Complex_AnComplex_Analysis",
+                "name": "Complex_AnComplex_Analysis",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisConvex Analysis",
-                "name": "AnalysisConvex Analysis",
+                "id": "/AnalysisConvex_Analysis",
+                "name": "AnalysisConvex_Analysis",
                 "parent": ""
             }
         },
@@ -14100,17 +14100,17 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicFormal Systems and Proofs/A",
+                "id": "/Math_LogicFormal_Systems_and_Proofs/A",
                 "name": "A",
-                "parent": "/Math_LogicFormal Systems and Proofs"
+                "parent": "/Math_LogicFormal_Systems_and_Proofs"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyMetric Spaces/",
+                "id": "/Sets_and_TopologyMetric_Spaces/",
                 "name": "",
-                "parent": "/Sets_and_TopologyMetric Spaces"
+                "parent": "/Sets_and_TopologyMetric_Spaces"
             }
         },
         {
@@ -14124,24 +14124,24 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraAlgebraic Equations",
-                "name": "AlgebraAlgebraic Equations",
+                "id": "/AlgebraAlgebraic_Equations",
+                "name": "AlgebraAlgebraic_Equations",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicProof Theory",
-                "name": "Math_LogicProof Theory",
+                "id": "/Math_LogicProof_Theory",
+                "name": "Math_LogicProof_Theory",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathDiscrete Mathematics and Combinatorics",
-                "name": "Disc_MathDiscrete Mathematics and Combinatorics",
+                "id": "/Disc_MathDiscrete_Mathematics_and_Combinatorics",
+                "name": "Disc_MathDiscrete_Mathematics_and_Combinatorics",
                 "parent": ""
             }
         },
@@ -14156,9 +14156,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Func_AnBanach Space/",
+                "id": "/Func_AnBanach_Space/",
                 "name": "",
-                "parent": "/Func_AnBanach Space"
+                "parent": "/Func_AnBanach_Space"
             }
         },
         {
@@ -14196,25 +14196,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyCategories and Functors/",
+                "id": "/Sets_and_TopologyCategories_and_Functors/",
                 "name": "",
-                "parent": "/Sets_and_TopologyCategories and Functors"
+                "parent": "/Sets_and_TopologyCategories_and_Functors"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyPermutations and Combinations",
-                "name": "Sets_and_TopologyPermutations and Combinations",
+                "id": "/Sets_and_TopologyPermutations_and_Combinations",
+                "name": "Sets_and_TopologyPermutations_and_Combinations",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyEquivalence Relations/",
+                "id": "/Sets_and_TopologyEquivalence_Relations/",
                 "name": "",
-                "parent": "/Sets_and_TopologyEquivalence Relations"
+                "parent": "/Sets_and_TopologyEquivalence_Relations"
             }
         },
         {
@@ -14228,9 +14228,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicFoundations of Mathematics/C",
+                "id": "/Math_LogicFoundations_of_Mathematics/C",
                 "name": "C",
-                "parent": "/Math_LogicFoundations of Mathematics"
+                "parent": "/Math_LogicFoundations_of_Mathematics"
             }
         },
         {
@@ -14260,56 +14260,56 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathDiscrete Mathematics and Combinatorics/",
+                "id": "/Disc_MathDiscrete_Mathematics_and_Combinatorics/",
                 "name": "",
-                "parent": "/Disc_MathDiscrete Mathematics and Combinatorics"
+                "parent": "/Disc_MathDiscrete_Mathematics_and_Combinatorics"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryContinued Fractions",
-                "name": "Number_TheoryContinued Fractions",
+                "id": "/Number_TheoryContinued_Fractions",
+                "name": "Number_TheoryContinued_Fractions",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AlgebraClifford Algebras/",
+                "id": "/AlgebraClifford_Algebras/",
                 "name": "",
-                "parent": "/AlgebraClifford Algebras"
+                "parent": "/AlgebraClifford_Algebras"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryDistribution of Prime Numbers/",
+                "id": "/Number_TheoryDistribution_of_Prime_Numbers/",
                 "name": "",
-                "parent": "/Number_TheoryDistribution of Prime Numbers"
+                "parent": "/Number_TheoryDistribution_of_Prime_Numbers"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/GeometryFoundations of Geometry",
-                "name": "GeometryFoundations of Geometry",
+                "id": "/GeometryFoundations_of_Geometry",
+                "name": "GeometryFoundations_of_Geometry",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryDistribution of Prime Numbers",
-                "name": "Number_TheoryDistribution of Prime Numbers",
+                "id": "/Number_TheoryDistribution_of_Prime_Numbers",
+                "name": "Number_TheoryDistribution_of_Prime_Numbers",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Func_AnBanach Space",
-                "name": "Func_AnBanach Space",
+                "id": "/Func_AnBanach_Space",
+                "name": "Func_AnBanach_Space",
                 "parent": ""
             }
         },
@@ -14324,48 +14324,48 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Info_MathMathematics in Computer Science",
-                "name": "Info_MathMathematics in Computer Science",
+                "id": "/Info_MathMathematics_in_Computer_Science",
+                "name": "Info_MathMathematics_in_Computer_Science",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathEnumerative Combinatorics/F",
+                "id": "/Disc_MathEnumerative_Combinatorics/F",
                 "name": "F",
-                "parent": "/Disc_MathEnumerative Combinatorics"
+                "parent": "/Disc_MathEnumerative_Combinatorics"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Opt_TheoryCombinatorial Optimization/",
+                "id": "/Opt_TheoryCombinatorial_Optimization/",
                 "name": "",
-                "parent": "/Opt_TheoryCombinatorial Optimization"
+                "parent": "/Opt_TheoryCombinatorial_Optimization"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathGraph Theory",
-                "name": "Disc_MathGraph Theory",
+                "id": "/Disc_MathGraph_Theory",
+                "name": "Disc_MathGraph_Theory",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisHarmonic Analysis, Real Analysis",
-                "name": "AnalysisHarmonic Analysis, Real Analysis",
+                "id": "/AnalysisHarmonic_Analysis,_Real_Analysis",
+                "name": "AnalysisHarmonic_Analysis,_Real_Analysis",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Number_TheoryNumber Theory",
-                "name": "Number_TheoryNumber Theory",
+                "id": "/Number_TheoryNumber_Theory",
+                "name": "Number_TheoryNumber_Theory",
                 "parent": ""
             }
         },
@@ -14404,32 +14404,32 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisFourier Transform",
-                "name": "AnalysisFourier Transform",
+                "id": "/AnalysisFourier_Transform",
+                "name": "AnalysisFourier_Transform",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Disc_MathEnumerative Combinatorics",
-                "name": "Disc_MathEnumerative Combinatorics",
+                "id": "/Disc_MathEnumerative_Combinatorics",
+                "name": "Disc_MathEnumerative_Combinatorics",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Complex_AnComplex Analysis/",
+                "id": "/Complex_AnComplex_Analysis/",
                 "name": "",
-                "parent": "/Complex_AnComplex Analysis"
+                "parent": "/Complex_AnComplex_Analysis"
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/Math_LogicFormal Systems and Proofs",
-                "name": "Math_LogicFormal Systems and Proofs",
+                "id": "/Math_LogicFormal_Systems_and_Proofs",
+                "name": "Math_LogicFormal_Systems_and_Proofs",
                 "parent": ""
             }
         },
@@ -14460,9 +14460,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Func_AnFunction Space/A",
+                "id": "/Func_AnFunction_Space/A",
                 "name": "A",
-                "parent": "/Func_AnFunction Space"
+                "parent": "/Func_AnFunction_Space"
             }
         },
         {
@@ -14476,8 +14476,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Sets_and_TopologyOrdinal Numbers",
-                "name": "Sets_and_TopologyOrdinal Numbers",
+                "id": "/Sets_and_TopologyOrdinal_Numbers",
+                "name": "Sets_and_TopologyOrdinal_Numbers",
                 "parent": ""
             }
         },
@@ -14492,17 +14492,17 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/Opt_TheoryCombinatorial Optimization",
-                "name": "Opt_TheoryCombinatorial Optimization",
+                "id": "/Opt_TheoryCombinatorial_Optimization",
+                "name": "Opt_TheoryCombinatorial_Optimization",
                 "parent": ""
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisDifferential Calculus/",
+                "id": "/AnalysisDifferential_Calculus/",
                 "name": "",
-                "parent": "/AnalysisDifferential Calculus"
+                "parent": "/AnalysisDifferential_Calculus"
             }
         }
     ]
