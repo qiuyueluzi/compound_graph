@@ -257,52 +257,40 @@ $(function(){
                 selector: "node.select",
                 css: {"background-color": "#FF0000"}
             },
+            // カラーパレットの色に対応するセレクタ
             {
-                selector: "node.cluster_indigo",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#332288"}
+                selector: "node.cluster_0000FF", // 青色
+                css: {"background-color": "#0000FF"}
             },
             {
-                selector: "node.cluster_cyan",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#88CCEE"}
+                selector: "node.cluster_00FF00", // 緑色
+                css: {"background-color": "#00FF00"}
             },
             {
-                selector: "node.cluster_teal",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#44AA99"}
+                selector: "node.cluster_4B0082", // 紫色
+                css: {"background-color": "#4B0082"}
             },
             {
-                selector: "node.cluster_green",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#117733"}
+                selector: "node.cluster_8B00FF", // 藍色
+                css: {"background-color": "#8B00FF"}
             },
             {
-                selector: "node.cluster_olive",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#999933"}
+                selector: "node.cluster_FF0000", // 赤色
+                css: {"background-color": "#FF0000"}
             },
             {
-                selector: "node.cluster_sand",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#DDCC77"}
+                selector: "node.cluster_FF7F00", // 橙色
+                css: {"background-color": "#FF7F00"}
             },
             {
-                selector: "node.cluster_rose",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#CC6677"}
+                selector: "node.cluster_FFFF00", // 黄色
+                css: {"background-color": "#FFFF00"}
             },
             {
-                selector: "node.cluster_wine",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#882255"}
+                selector: "node.cluster_FF0095", // 白色
+                css: {"background-color": "#FF0095"}
             },
-            {
-                
-                selector: "node.cluster_purple",
-                css: {"width": 100, "height": 100, "font-size": 80,
-                "content": "data(name)", "opacity": 1, "z-index": 10, "background-color": "#AA4499"}
-            },
+            
             
         ]);
         
@@ -367,7 +355,6 @@ $(function(){
     for (let article_name of all_article_names){
         $("#article_list").append($("<option/>").val(article_name).html(article_name));
     }
-    let generation1, generation2, generation3;
     
 
     let level1 = {1: "Math_Logic", 2: "Sets_and_Topology", 3: "Algebra", 4: "Number_Theory", 5: "Groups_and_Rep",
@@ -375,19 +362,19 @@ $(function(){
     11: "Complex_An", 12: "Func_An", 13: "Diff_Eqns", 14: "Spec_Func", 15: "Num_An",
     16: "Appl_An", 17: "Prob_Theory", 18: "Stats", 19: "Disc_Math", 
     20: "Info_Math", 21: "Opt_Theory", 22: "Mech_Phys", 23: "Hist_Math"}
-    let level2 = {1:{"1": "Foundations_of_Mathematics","2": "Semantics_of_Formal_Systems","3": "Formal_Systems_and_Proofs","4": "Computable_Functions","5": "Model_Theory","6": "Stability_Theory","7": "Nonstandard_Analysis","8": "Theory_of_Ordinal_Numbers","9": "Axiomatic_Set_Theory","10": "Forcing","11": "Large_Cardinals","12": "Descriptive_Set_Theory","13": "Recursive_Theory","14": "Decision_Problems","15": "Theory_of_Degrees","16": "Constructive_Ordinals","17": "Proof_Theory","18": "Gödel's_Incompleteness_Theorems","19": "Nonstandard_Models_of_Arithmetic","20": "Type_Theory_and_Lambda_Calculus","21": "Herbrand's_Theorem_and_Deduction_Principles","22": "Nonstandard_Logic","23": "Reverse_Mathematics"},
+    let level2 = {1:{"1": "Foundations_of_Mathematics","2": "Semantics_of_Formal_Systems","3": "Formal_Systems_and_Proofs","4": "Computable_Functions","5": "Model_Theory","6": "Stability_Theory","7": "Nonstandard_Analysis","8": "Theory_of_Ordinal_Numbers","9": "Axiomatic_Set_Theory","10": "Forcing","11": "Large_Cardinals","12": "Descriptive_Set_Theory","13": "Recursive_Theory","14": "Decision_Problems","15": "Theory_of_Degrees","16": "Constructive_Ordinals","17": "Proof_Theory","18": "Godels_Incompleteness_Theorems","19": "Nonstandard_Models_of_Arithmetic","20": "Type_Theory_and_Lambda_Calculus","21": "Herbrands_Theorem_and_Deduction_Principles","22": "Nonstandard_Logic","23": "Reverse_Mathematics"},
     2:{"1": "Sets","2": "Relations","3": "Equivalence_Relations","4": "Functions","5": "Axiom_of_Choice","6": "Cardinality","7": "Structures","8": "Permutations_and_Combinations","9": "Numbers","10": "Real_Numbers_and_the_Real_Line","11": "Complex_Numbers_and_the_Complex_Plane","12": "Order","13": "Ordinal_Numbers","14": "Lattices","15": "Boolean_Algebra","16": "Topological_Spaces","17": "Metric_Spaces","18": "Plane_Regions","19": "Convergence","20": "Connectedness","21": "Dimension","22": "Uniform_Spaces","23": "Uniform_Convergence","24": "Categories_and_Functors","25": "Inductive_and_Projective_Limits","26": "Sheaves"},
     3:{"1": "Algebra","2": "Matrices","3": "Determinants","4": "Polynomials","5": "Algebraic_Equations","6": "Fields","7": "Galois_Theory","8": "Vector_Spaces","9": "Tensor_and_Exterior_Products","10": "Rings","11": "Multivariate_Rings","12": "Modules","13": "Representations_of_Multivariate_Rings","14": "Homological_Algebra","15": "Hopf_Algebras","16": "Commutative_Rings","17": "Noetherian_Rings","18": "Polynomial_Rings","19": "Invariants","20": "Power_Series_Rings","21": "Prime_Ideals_and_Factorization_Rings","22": "Homological_Algebra_of_Commutative_Rings","23": "Excellent_Rings","24": "Hensel_Rings_and_Approximation_Theorems","25": "Adherent_Closure_of_Ideals","26": "Quadratic_Forms","27": "Clifford_Algebras","28": "Differential_Rings","29": "Witt_Vectors","30": "Valuations","31": "Adèles_and_Ideals","32": "Cayley_Algebras","33": "Jordan_Algebras"},
-    4:{"1": "Number_Theory","2": "Elementary_Number_Theory","3": "Continued_Fractions","4": "Number-Theoretic_Functions","5": "Additive_Number_Theory","6": "Distribution_of_Prime_Numbers","7": "Geometry_of_Numbers_and_Approximations_in_Number_Theory","8": "Transcendental_Numbers","9": "Diophantine_Equations","10": "Quadratic_Number_Fields","11": "Algebraic_Number_Theory","12": "Local_Fields","13": "Class_Field_Theory","14": "Iwasawa_Theory","15": "Algebraic_K-Theory","16": "Arithmetic_Geometry","17": "Fermat's_Last_Theorem","18": "Algebraic_Groups_over_Number_Fields","19": "Modular_Forms","20": "Shimura_Varieties","21": "Dirichlet_Series","22": "Zeta_Functions","23": "Pseudo-Homogeneous_Vector_Spaces"},
+    4:{"1": "Number_Theory","2": "Elementary_Number_Theory","3": "Continued_Fractions","4": "Number-Theoretic_Functions","5": "Additive_Number_Theory","6": "Distribution_of_Prime_Numbers","7": "Geometry_of_Numbers_and_Approximations_in_Number_Theory","8": "Transcendental_Numbers","9": "Diophantine_Equations","10": "Quadratic_Number_Fields","11": "Algebraic_Number_Theory","12": "Local_Fields","13": "Class_Field_Theory","14": "Iwasawa_Theory","15": "Algebraic_K-Theory","16": "Arithmetic_Geometry","17": "Fermats_Last_Theorem","18": "Algebraic_Groups_over_Number_Fields","19": "Modular_Forms","20": "Shimura_Varieties","21": "Dirichlet_Series","22": "Zeta_Functions","23": "Pseudo-Homogeneous_Vector_Spaces"},
     5:{"1": "Group","2": "Abelian_Group","3": "Finite_Group","4": "Finite_Simple_Group","5": "Crystallographic_Group","6": "Classical_Group","7": "Topological_Group","8": "Compact_Group","9": "Lie_Group","10": "Lie_Algebra","11": "Algebraic_Group","12": "Symmetric_Space","13": "Group_Actions_on_Homogeneous_Spaces","14": "Discrete_Group","15": "Representation_Theory","16": "Modular_Representation","17": "Unitary_Representation","18": "Infinite-Dimensional_Representation","19": "Group_Actions_and_Invariants","20": "D-module","21": "Quantum_Group","22": "Infinite-Dimensional_Lie_Algebra"},
-    6:{"1": "Algebraic_Geometry","2": "Algebraic_Curves","3": "Algebraic_Surfaces,_Complex_Analytic_Surfaces","4": "Algebraic_Varieties_A:_Sheaves_and_Cohomology","5": "Algebraic_Varieties_B:_Sheaves_and_Cohomology","6": "Algebraic_Varieties_C:_Rational_Maps_and_Resolution_of_Singularities","7": "Algebraic_Varieties_D:_Fibrations_and_Abelian_Varieties","8": "Algebraic_Varieties_E:_Riemann-Roch_and_Chow_Rings","9": "Algebraic_Varieties_F:_Algebraic_Spaces_and_Formal_Schemes","10": "Algebraic_Varieties_G:_Polarized_Varieties","11": "Algebraic_Varieties_H:Topology_and_Comparison_Theorems","12": "Algebraic_Vector_Bundles","13": "Hodge_Theory","14": "Abelian_Varieties","15": "Rational_and_Fan0_Varieties","16": "Birational_Geometry","17": "Toric_Varieties","18": "Intersection_Theory","19": "Singularity_Theory","20": "Moduli_Problems"},
-    7:{"1": "Geometry","2": "Euclidean_Geometry","3": "Euclidean_Space","4": "Non-Euclidean_Geometry","5": "Projective_Geometry","6": "Affine_Geometry","7": "Conformal_Geometry","8": "Erlangen_Program","9": "Foundations_of_Geometry","10": "Construction_Problems","11": "Regular_Polyhedra","12": "Pi(π)","13": "Trigonometry","14": "Quadratic_Curves_and_Surfaces","15": "Convex_Sets","16": "Coordinates","17": "Vector_Analysis","18": "Curves","19": "Surfaces","20": "Four-Color_Problem","21": "Combinatorial_Geometry"},
+    6:{"1": "Algebraic_Geometry","2": "Algebraic_Curves","3": "Algebraic_Surfaces,_Complex_Analytic_Surfaces","4": "Algebraic_Varieties_A_Sheaves_and_Cohomology","5": "Algebraic_Varieties_B_Sheaves_and_Cohomology","6": "Algebraic_Varieties_C_Rational_Maps_and_Resolution_of_Singularities","7": "Algebraic_Varieties_D_Fibrations_and_Abelian_Varieties","8": "Algebraic_Varieties_E_Riemann-Roch_and_Chow_Rings","9": "Algebraic_Varieties_F_Algebraic_Spaces_and_Formal_Schemes","10": "Algebraic_Varieties_G_Polarized_Varieties","11": "Algebraic_Varieties_H_Topology_and_Comparison_Theorems","12": "Algebraic_Vector_Bundles","13": "Hodge_Theory","14": "Abelian_Varieties","15": "Rational_and_Fan0_Varieties","16": "Birational_Geometry","17": "Toric_Varieties","18": "Intersection_Theory","19": "Singularity_Theory","20": "Moduli_Problems"},
+    7:{"1": "Geometry","2": "Euclidean_Geometry","3": "Euclidean_Space","4": "Non-Euclidean_Geometry","5": "Projective_Geometry","6": "Affine_Geometry","7": "Conformal_Geometry","8": "Erlangen_Program","9": "Foundations_of_Geometry","10": "Construction_Problems","11": "Regular_Polyhedra","12": "Pi","13": "Trigonometry","14": "Quadratic_Curves_and_Surfaces","15": "Convex_Sets","16": "Coordinates","17": "Vector_Analysis","18": "Curves","19": "Surfaces","20": "Four-Color_Problem","21": "Combinatorial_Geometry"},
     8:{"1": "Differential_Geometry","2": "Manifold","3": "Riemannian_Manifold","4": "Connection","5": "Tensor_and_Spinor","6": "Global_Riemannian_Geometry","7": "Differential_Geometry_of_Homogeneous_Spaces","8": "G-Structures_and_Equivalence_Problems","9": "Complex_Manifold","10": "Harmonic_Analysis","11": "Differential_Geometry_of_Curves_and_Surfaces","12": "Differential_Geometry_of_Submanifolds","13": "Minimal_Submanifolds","14": "Geometric_Measure_Theory","15": "Harmonic_Maps","16": "Morse_Theory","17": "Affine_Differential_Geometry","18": "Finsler_Space","19": "Integral_Geometry","20": "Spectral_Geometry","21": "Rigidity_and_Geometric_Group_Theory","22": "Symplectic_and_Contact_Geometry","23": "Moduli_Spaces_and_Partial_Differential_Equations","24": "Special_Geometry"},
     9:{"1": "Topology","2": "Fundamental_Group","3": "Covering_Spaces","4": "Degree_of_a_Mapping","5": "Complex","6": "Homology_Theory","7": "Fixed_Point_Theorem","8": "Homotopy_Theory","9": "Fiber_Bundle","10": "Cobordism_Theory","11": "Characteristic_Classes","12": "K-Theory","13": "Knot_Theory","14": "Transformation_Group","15": "Singular_Points_of_Differentiable_Maps","16": "Sheaf_Theory","17": "Dynamical_Systems","18": "Low-Dimensional_Dynamical_Systems","19": "Hyperbolic_Dynamical_Systems","20": "Hamiltonian_Systems","21": "Bifurcation_of_Dynamical_Systems","22": "Manifold_Topology","23": "Index_Theory","24": "3-Dimensional_Manifolds","25": "4-Dimensional_Manifolds","26": "Geometric_Topology"},
-    10:{"1": "Analysis","2": "Continuous_Functions","3": "Inequalities","4": "Convex_Analysis","5": "Functions_of_Bounded_Variation","6": "Differential_Calculus","7": "Operational_Calculus","8": "Implicit_Function","9": "Elementary_Functions","10": "C∞_Functions,_Infinitesimal_Calculus","11": "Integration","12": "Line_and_Surface_Integrals","13": "Measure_Theory","14": "Integral_Calculus","15": "Invariant_Measures","16": "Length_and_Area","17": "Fractals","18": "Series","19": "Asymptotic_Series","20": "Polynomial_Approximation","21": "Orthogonal_Function_Systems","22": "Fourier_Series","23": "Fourier_Transform","24": "Wavelets","25": "Harmonic_Analysis,_Real_Analysis","26": "Quasiperiodic_Functions","27": "Laplace_Transform","28": "Integral_Transforms","29": "Potential_Theory","30": "Harmonic_Functions,Superharmonic_Functions","31": "Dirichlet_Problem","32": "Capacity","33": "Calculus_of_Variations","34": "Plateau's_Problem","35": "Isoperimetric_Problems"},
+    10:{"1": "Analysis","2": "Continuous_Functions","3": "Inequalities","4": "Convex_Analysis","5": "Functions_of_Bounded_Variation","6": "Differential_Calculus","7": "Operational_Calculus","8": "Implicit_Function","9": "Elementary_Functions","10": "C∞_Functions,_Infinitesimal_Calculus","11": "Integration","12": "Line_and_Surface_Integrals","13": "Measure_Theory","14": "Integral_Calculus","15": "Invariant_Measures","16": "Length_and_Area","17": "Fractals","18": "Series","19": "Asymptotic_Series","20": "Polynomial_Approximation","21": "Orthogonal_Function_Systems","22": "Fourier_Series","23": "Fourier_Transform","24": "Wavelets","25": "Harmonic_Analysis,_Real_Analysis","26": "Quasiperiodic_Functions","27": "Laplace_Transform","28": "Integral_Transforms","29": "Potential_Theory","30": "Harmonic_Functions,Superharmonic_Functions","31": "Dirichlet_Problem","32": "Capacity","33": "Calculus_of_Variations","34": "Plateaus_Problem","35": "Isoperimetric_Problems"},
     11:{"1": "Complex_Analysis","2": "Holomorphic_Functions","3": "Power_Series","4": "Family_of_Holomorphic_Functions","5": "Maximum_Modulus_Principle","6": "Boundary_Behavior_of_Analytic_Functions","7": "Univalent_Functions","8": "Value_Distribution_Theory","9": "Complex_Approximation_Theory","10": "Riemann_Surfaces","11": "Analytic_Functions_on_Riemann_Surfaces","12": "Complex_Dynamical_Systems","13": "Conformal_Mapping","14": "Quasiconformal_Mapping","15": "Teichmüller_Space","16": "Kleinian_Group","17": "Multivariable_Analytic_Functions","18": "Analytic_Space","19": "¯∂_Equation","20": "Holomorphic_Mapping","21": "Plurisubharmonic_Functions","22": "CR_Manifold","23": "Kernel_Functions","24": "Siegel_Domain","25": "Periodic_Integration"},
-    12:{"1": "Functional_Analysis","2": "Hilbert_Space","3": "Banach_Space","4": "Ordered_Linear_Space","5": "Linear_Topological_Space","6": "Function_Space","7": "Distributions(Generalized_Functions)","8": "Vector-Valued_Integration","9": "Linear_Operators","10": "Compact_Operators,_Nuclear_Operators","11": "Interpolation_Spaces","12": "Spectral_Analysis_of_Operators","13": "Operator_Inequalities","14": "Perturbation_of_Linear_Operators","15": "Operator_Semigroups,_Evolution_Equations","16": "Banach_Algebras","17": "C*-Algebras","18": "Function_Algebras","19": "von_Neumann_Algebras","20": "Nonlinear_Functional_Analysis"},
-    13:{"1": "Differential_Equations","2": "Initial_Value_Problems_for_Ordinary_Differential_Equations","3": "Boundary_Value_Problems_for_Ordinary_Differential_Equations","4": "Linear_Ordinary_Differential_Equations","5": "Local_Theory_of_Linear_Ordinary_Differential_Equations","6": "Global_Theory_of_Linear_Ordinary_Differential_Equations","7": "Local_Theory_of_Nonlinear_Ordinary_Differential_Equations","8": "Global_Theory_of_Nonlinear_Ordinary_Differential_Equations","9": "Painlevé_Equations","10": "Nonlinear_Oscillations","11": "Nonlinear_Problems","12": "Stability","13": "Invariant_Integrals","14": "Difference_Equations","15": "Functional_Differential_Equations","16": "Total_Differential_Equations","17": "Solution_of_Partial_Differential_Equations","18": "Quasilinear_Equations,_Solvability","19": "Initial_Value_Problems_for_Partial_Differential_Equations","20": "Partial_Differential_Equations_in_Complex_Domains","21": "First-Order_Partial_Differential_Equations","22": "Monge-Ampère_Equations","23": "Elliptic_Partial_Differential_Equations","24": "Hyperbolic_Partial_Differential_Equations","25": "Parabolic_Partial_Differential_Equations","26": "Mixed_Type_Partial_Differential_Equations","27": "Inequalities_in_Differential_Equations","28": "Green's_Functions,_Green's_Operators","29": "Integral_Equations","30": "Integro-Differential_Equations","31": "Special_Function_Equations","32": "Microlocal_Analysis_and_Pseudodifferential_Operators"},
+    12:{"1": "Functional_Analysis","2": "Hilbert_Space","3": "Banach_Space","4": "Ordered_Linear_Space","5": "Linear_Topological_Space","6": "Function_Space","7": "Distributions","8": "Vector-Valued_Integration","9": "Linear_Operators","10": "Compact_Operators,_Nuclear_Operators","11": "Interpolation_Spaces","12": "Spectral_Analysis_of_Operators","13": "Operator_Inequalities","14": "Perturbation_of_Linear_Operators","15": "Operator_Semigroups,_Evolution_Equations","16": "Banach_Algebras","17": "C-Algebras","18": "Function_Algebras","19": "von_Neumann_Algebras","20": "Nonlinear_Functional_Analysis"},
+    13:{"1": "Differential_Equations","2": "Initial_Value_Problems_for_Ordinary_Differential_Equations","3": "Boundary_Value_Problems_for_Ordinary_Differential_Equations","4": "Linear_Ordinary_Differential_Equations","5": "Local_Theory_of_Linear_Ordinary_Differential_Equations","6": "Global_Theory_of_Linear_Ordinary_Differential_Equations","7": "Local_Theory_of_Nonlinear_Ordinary_Differential_Equations","8": "Global_Theory_of_Nonlinear_Ordinary_Differential_Equations","9": "Painlevé_Equations","10": "Nonlinear_Oscillations","11": "Nonlinear_Problems","12": "Stability","13": "Invariant_Integrals","14": "Difference_Equations","15": "Functional_Differential_Equations","16": "Total_Differential_Equations","17": "Solution_of_Partial_Differential_Equations","18": "Quasilinear_Equations,_Solvability","19": "Initial_Value_Problems_for_Partial_Differential_Equations","20": "Partial_Differential_Equations_in_Complex_Domains","21": "First-Order_Partial_Differential_Equations","22": "Monge-Ampère_Equations","23": "Elliptic_Partial_Differential_Equations","24": "Hyperbolic_Partial_Differential_Equations","25": "Parabolic_Partial_Differential_Equations","26": "Mixed_Type_Partial_Differential_Equations","27": "Inequalities_in_Differential_Equations","28": "Greens_Functions,_Greens_Operators","29": "Integral_Equations","30": "Integro-Differential_Equations","31": "Special_Function_Equations","32": "Microlocal_Analysis_and_Pseudodifferential_Operators"},
     14:{"1": "Special_Functions","2": "Generating_Functions","3": "Elliptic_Functions","4": "Gamma_Function","5": "Hypergeometric_Functions","6": "Spherical_Harmonics","7": "Confluent_Hypergeometric_Functions","8": "Bessel_Functions","9": "Ellipsoidal_Harmonic_Functions","10": "Mathieu_Functions","11": "q-Series","12": "Polylogarithm_Functions","13": "Special_Orthogonal_Polynomials"},
     15:{"1": "Numerical_Analysis","2": "Numerical_Solutions_of_Linear_Systems","3": "Numerical_Solutions_of_Nonlinear_Equations","4": "Numerical_Eigenvalue_Computation","5": "Numerical_Integration_Methods","6": "Numerical_Solutions_of_Ordinary_Differential_Equations","7": "Numerical_Solutions_of_Partial_Differential_Equations","8": "Finite_Difference_Methods","9": "Finite_Element_Methods","10": "Function_Approximation_Methods","11": "Certified_Numerical_Computations"},
     16:{"1": "Mathematical_Modeling","2": "Reaction-Diffusion_Equations","3": "Free_Boundary_Problems","4": "Variational_Analysis","5": "Fluid_Equations","6": "Conservation_Laws","7": "Nonlinear_Wave_and_Dispersion_Equations","8": "Scattering_Theory","9": "Inverse_Problems","10": "Viscous_Solutions"},
@@ -397,7 +384,7 @@ $(function(){
     20:{"1": "Mathematics_in_Computer_Science","2": "Formal_Language_Theory_and_Automata","3": "Computational_Complexity_Theory","4": "Information_Theory","5": "Coding_Theory","6": "Cryptography","7": "Computer_Algebra","8": "Computational_Geometry","9": "Randomness_and_Monte_Carlo_Methods"},
     21:{"1": "Mathematical_Programming","2": "Linear_Programming","3": "Nonlinear_Programming","4": "Semidefinite_Programming","5": "Global_Optimization","6": "Network_Flow","7": "Discrete_Convex_Analysis","8": "Integer_Programming","9": "Combinatorial_Optimization","10": "Dynamic_Programming","11": "Stochastic_Programming","12": "Game_Theory","13": "Complementarity_Problem","14": "Control_Theory","15": "Operations_Research","16": "Portfolio_Theory","17": "Markov_Decision_Process"},
     22:{"1": "Units_and_Dimensions","2": "Dimensional_Analysis","3": "Variational_Principles_in_Physics","4": "Classical_Mechanics","5": "Celestial_Mechanics","6": "Astrophysics","7": "Three-Body_Problem","8": "Fluid_Mechanics","9": "Plasma_Physics","10": "Turbulence","11": "Complex_Systems","12": "Phase_Transitions","13": "Oscillations_and_Waves","14": "Geometrical_Optics","15": "Electromagnetism","16": "Circuits","17": "Thermodynamics","18": "Statistical_Mechanics","19": "Theory_of_Relativity","20": "Unified_Field_Theories","21": "Quantum_Mechanics","22": "Lorentz_Group","23": "Lie_Algebras","24": "Second_Quantization","25": "Field_Theory","26": "S-Matrix","27": "Feynman_Integrals","28": "Particle_Physics","29": "Renormalization_Group","30": "Integrable_Models","31": "Solitons","32": "Conformal_Field_Theory","33": "Approximation_Methods_in_Physics"},
-    23:{"1": "Egyptian_and_Babylonian_Mathematics","2": "Greek_and_Roman_Mathematics","3": "Mathematics_in_Medieval_Europe","4": "Arabic_Mathematics","5": "Indian_Mathematics","6": "Chinese_Mathematics","7": "Japanese_Mathematics_(Wagaku)","8": "Mathematics_in_the_Renaissance","9": "Mathematics_in_the_17th_Century","10": "Mathematics_in_the_18th_Century","11": "Mathematics_in_the_19th_Century"}}
+    23:{"1": "Egyptian_and_Babylonian_Mathematics","2": "Greek_and_Roman_Mathematics","3": "Mathematics_in_Medieval_Europe","4": "Arabic_Mathematics","5": "Indian_Mathematics","6": "Chinese_Mathematics","7": "Japanese_Mathematics","8": "Mathematics_in_the_Renaissance","9": "Mathematics_in_the_17th_Century","10": "Mathematics_in_the_18th_Century","11": "Mathematics_in_the_19th_Century"}}
 
     createAccordionMenu(level1, level2, id2relatedElements);
 
@@ -439,7 +426,7 @@ $(function(){
             if(color_number >= all_cluster_color.length)color_number = 0;
         }
         else{
-            let nodeID = $(this).attr("id")
+            let nodeID = $(this).text()
             searchNode(nodeID, nodes, id2relatedElements)
         }
     });
@@ -674,6 +661,79 @@ $(function(){
         if(allopen == true) $("#open").prop("disabled", true);// 全てのディレクトリが表示されていればボタンを非アクティブ化
     }
 
+    // coloringクラスのボタンをクリックしたときの処理
+    $(".coloring").click(function(e) {
+        // カラーパレットの位置をマウスの座標に合わせる
+        $(".palette").css({
+            "left": e.pageX + "px",
+            "top": e.pageY + "px"
+        });
+        // カラーパレットを表示する
+        $(".palette").show();
+        // クリックしたボタンのidを取得する
+        var buttonId = $(this).attr("id");
+        // ボタンのidをカラーパレットにデータとして保存する
+        $(".palette").data("buttonId", buttonId);
+    });
+    
+
+// カラーパレットの色をクリックしたときの処理
+$(".color").click(function() {
+    // クリックした色のカラーコードを取得する
+    var colorCode = $(this).css("background-color");
+    // カラーパレットからボタンのidを取得する
+    var buttonId = $(".palette").data("buttonId");
+    // カラーパレットを非表示にする
+    $(".palette").hide();
+    // ボタンのidにスラッシュが2つ含まれている場合
+    if (buttonId.match(/\//g).length == 2) {
+        buttonId = buttonId.replace(/\//g, "\\/");
+        // idが一致するノードを検索する
+        var node = cy.$("#"+buttonId);
+        // ノードのstyleをクリックした色にする
+        node.style("background-color", colorCode);
+        // ノードにクラスを追加する
+        node.addClass("cluster_" + colorCode.slice(1));
+    }
+    // ボタンのidにスラッシュが1つ含まれている場合
+    else if (buttonId.match(/\//g).length == 1) {
+        // idがボタンのidから始まる名前のノードを検索する
+        var nodes = cy.$("[id^='" + buttonId + "']");
+        // ノードのstyleをクリックした色にする
+        nodes.style("background-color", colorCode);
+        // ノードにクラスを追加する
+        nodes.addClass("cluster_" + colorCode.slice(1));
+    }
+    // 2度同じ色が選ばれた時や、同じ色が他のノードで使われた時にクラスをリセットする
+    cy.$(".cluster_" + colorCode.slice(1)).each(function(i, ele) {
+        // クラスに含まれるノードの数が1より多い場合
+        if (cy.$(".cluster_" + colorCode.slice(1)).length > 1) {
+            // ノードのstyleをデフォルトに戻す
+            ele.style("background-color", "");
+            // ノードからクラスを削除する
+            ele.removeClass("cluster_" + colorCode.slice(1));
+        }
+        // クラスに含まれるノードのidがボタンのidと異なる場合
+        else if (ele.id() != buttonId) {
+            // ノードのstyleをデフォルトに戻す
+            ele.style("background-color", "");
+            // ノードからクラスを削除する
+            ele.removeClass("cluster_" + colorCode.slice(1));
+        }
+    });
+});
+
+
+    // カラーパレット以外の場所がクリックされた時の処理
+    $(document).on('click', function(e) {
+        // クリックされた要素がカラーパレットやボタンでない場合
+        if (!$(e.target).is('.palette, .color, .coloring')) {
+            // カラーパレットを非表示にする
+            $('.palette').hide();
+        }
+    });
+    
+
     // resetボタンでグラフを初期状態に戻す
     $(document).ready(function(){
         $("#reset").click(function(){
@@ -894,6 +954,15 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       let level1Summary = document.createElement("summary");
       level1Summary.textContent = level1[key];
       level1Item.appendChild(level1Summary);
+      // ボタン要素を生成
+      let button = document.createElement("button");
+      // ボタンのテキストを設定
+      button.textContent = "ボタン";
+      // ボタンのidを設定
+      button.className = "coloring";
+      button.id = "/"+level1[key];
+      // レベル2の要素の最初の子要素としてボタンを挿入
+      level1Item.insertBefore(button, level1Item.firstChild);
       // レベル2の要素を順に処理する
       for (let subkey in level2[key]) {
         // レベル2の要素の見出しを生成する
@@ -901,9 +970,6 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
         let level2Summary = document.createElement("summary");
         level2Summary.textContent = level2[key][subkey];
         level2Item.appendChild(level2Summary);
-        // レベル2の要素の詳細を生成する
-        //let level2Detail = document.createElement("p");
-        //level2Item.appendChild(level2Detail);
         // レベル2の要素にスタイルを適用する
         level2Item.style.marginLeft = "20px";
         // レベル2の要素にクラス属性を設定する
@@ -931,9 +997,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       if (node.isParent()) continue;
       // 親ノードのIDから文字列の末尾に大文字のアルファベットがあった場合、その文字を削除する
       let parentId = node.parent().id();
-      console.log(id2relatedElements.get(node.id()).parent, node.id())
       if (id2relatedElements.get(node.id()).parent == undefined) continue;
-      //console.log(parentId, node.id())
       if (parentId.match(/[A-Z]$/)) {
         parentId = parentId.slice(0, -1).replace(/\//g, "");
       }
@@ -952,4 +1016,32 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       let level3List = level2Item.querySelector("ul");
       level3List.appendChild(level3Item);
     }
-  }
+    // レベル2の要素のsummaryのフォントカラーを設定する処理
+    for (let key in level2) {
+        for (let subkey in level2[key]) {
+            // クラス名を生成
+            let className = level1[key] + level2[key][subkey];
+            // 一致するクラス属性を持つレベル2の要素を探す
+            let level2Item = document.querySelector("." + className);
+            if (level2Item == null) continue;
+            // レベル2の要素に属するリストを取得
+            let level3List = level2Item.querySelector("ul");
+            // リストに子要素がない場合はsummaryのフォントカラーをグレーにする
+            if (level3List.children.length === 0) {
+                let level2Summary = level2Item.querySelector("summary");
+                level2Summary.style.color = "grey";
+            }
+            else {
+                // ボタン要素を生成
+                let button = document.createElement("button");
+                // ボタンのテキストを設定
+                button.textContent = "ボタン";
+                // ボタンのidを設定
+                button.className = "coloring";
+                button.id = "/"+className+"/";
+                // レベル2の要素の最初の子要素としてボタンを挿入
+                level2Item.insertBefore(button, level2Item.firstChild);
+            }
+        }
+    }
+}

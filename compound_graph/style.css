@@ -59,6 +59,22 @@ button:active{
     width: 80px;
 }
 
+.palette {
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    width: 110px; /* 横幅を指定 */
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    float: left; /* 左寄せにする */
+}
+
 #name-plate{
     position: absolute;
     z-index: 30;
@@ -92,3 +108,10 @@ ul {
 .btnGen1{
     color: #a10000;
 }
+
+/* グレーにした要素のsummaryに対するスタイル */
+.gray details {
+    /* ポインターイベントを無効化する */
+    pointer-events: none;
+  }
+  
