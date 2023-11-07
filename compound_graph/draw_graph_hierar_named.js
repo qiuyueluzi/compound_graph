@@ -143,13 +143,13 @@ $(function(){
                 selector: 'node:parent',
                 css: {
                     'content': 'data(name)',
-                    'font-size': 0,
+                    'font-size': 500,
                     "text-outline-color": '#FFFFFF',
                     'color': '#000000',
                     'text-valign': 'top',
                     'text-halign': 'center',
                     'background-color': '#20bd3d',
-                    'background-opacity': 0
+                    'background-opacity': 0.25
                 }
             },
             {
@@ -259,36 +259,36 @@ $(function(){
             },
             // カラーパレットの色に対応するセレクタ
             {
-                selector: "node.cluster_0000FF", // 青色
+                selector: "node.cluster_0000ff", // 青色
                 css: {"background-color": "#0000FF"}
             },
             {
-                selector: "node.cluster_00FF00", // 緑色
+                selector: "node.cluster_00ff00", // 緑色
                 css: {"background-color": "#00FF00"}
             },
             {
-                selector: "node.cluster_4B0082", // 紫色
+                selector: "node.cluster_4b0082", // 紫色
                 css: {"background-color": "#4B0082"}
             },
             {
-                selector: "node.cluster_8B00FF", // 藍色
+                selector: "node.cluster_8b00ff", // 藍色
                 css: {"background-color": "#8B00FF"}
             },
             {
-                selector: "node.cluster_FF0000", // 赤色
+                selector: "node.cluster_ff0000", // 赤色
                 css: {"background-color": "#FF0000"}
             },
             {
-                selector: "node.cluster_FF7F00", // 橙色
+                selector: "node.cluster_ff7f00", // 橙色
                 css: {"background-color": "#FF7F00"}
             },
             {
-                selector: "node.cluster_FFFF00", // 黄色
+                selector: "node.cluster_ffff00", // 黄色
                 css: {"background-color": "#FFFF00"}
             },
             {
-                selector: "node.cluster_FF0095", // 白色
-                css: {"background-color": "#FF0095"}
+                selector: "node.cluster_ff0095", // 白色
+                css: {"background-color": "#ff0095"}
             },
             
             
@@ -306,7 +306,7 @@ $(function(){
             common.splice(i, 1);
         }
     }
-    cy.style().selector(common).style({
+    /*cy.style().selector(common).style({
         'content': 'data(name)',
         'font-size': 500,
         "text-outline-color": '#FFFFFF',
@@ -316,7 +316,7 @@ $(function(){
         'background-color': '#20bd3d',
         'background-opacity': 0.25
     })  
-    .update()
+    .update()*/
     let cluster = [];
     $("#open").prop("disabled", true);
     let parent_nodes_positions = new Map();
@@ -677,50 +677,46 @@ $(function(){
     });
     
 
+
 // カラーパレットの色をクリックしたときの処理
 $(".color").click(function() {
     // クリックした色のカラーコードを取得する
-    var colorCode = $(this).css("background-color");
+    var rgb = $(this).css("background-color").toString(); 
+    rgb = rgb.replace("rgb(", ""); rgb = rgb.replace(")", ""); 
+    rgb = rgb.split(","); 
+    var colorCode = "#";
+    for(var i = 0; i < 3; i++){
+      var hex = parseInt(rgb[i]).toString(16); //10進数を16進数に変換
+      if(hex.length == 1){ //1桁の場合は0を足す
+        hex = "0" + hex;
+      }
+      colorCode += hex; //カラーコードに追加
+    }
     // カラーパレットからボタンのidを取得する
     var buttonId = $(".palette").data("buttonId");
     // カラーパレットを非表示にする
     $(".palette").hide();
+    if (cy.$(".cluster_" + colorCode.slice(1)).length > 0) {
+        // その全ての既存のノードのクラスを除去する
+        cy.$(".cluster_" + colorCode.slice(1)).removeClass("cluster_" + colorCode.slice(1));
+    }
     // ボタンのidにスラッシュが2つ含まれている場合
     if (buttonId.match(/\//g).length == 2) {
         buttonId = buttonId.replace(/\//g, "\\/");
         // idが一致するノードを検索する
         var node = cy.$("#"+buttonId);
-        // ノードのstyleをクリックした色にする
-        node.style("background-color", colorCode);
         // ノードにクラスを追加する
-        node.addClass("cluster_" + colorCode.slice(1));
+        cy.$(node).addClass("cluster_" + colorCode.slice(1));
     }
     // ボタンのidにスラッシュが1つ含まれている場合
     else if (buttonId.match(/\//g).length == 1) {
         // idがボタンのidから始まる名前のノードを検索する
         var nodes = cy.$("[id^='" + buttonId + "']");
-        // ノードのstyleをクリックした色にする
-        nodes.style("background-color", colorCode);
         // ノードにクラスを追加する
         nodes.addClass("cluster_" + colorCode.slice(1));
     }
-    // 2度同じ色が選ばれた時や、同じ色が他のノードで使われた時にクラスをリセットする
-    cy.$(".cluster_" + colorCode.slice(1)).each(function(i, ele) {
-        // クラスに含まれるノードの数が1より多い場合
-        if (cy.$(".cluster_" + colorCode.slice(1)).length > 1) {
-            // ノードのstyleをデフォルトに戻す
-            ele.style("background-color", "");
-            // ノードからクラスを削除する
-            ele.removeClass("cluster_" + colorCode.slice(1));
-        }
-        // クラスに含まれるノードのidがボタンのidと異なる場合
-        else if (ele.id() != buttonId) {
-            // ノードのstyleをデフォルトに戻す
-            ele.style("background-color", "");
-            // ノードからクラスを削除する
-            ele.removeClass("cluster_" + colorCode.slice(1));
-        }
-    });
+    
+
 });
 
 
