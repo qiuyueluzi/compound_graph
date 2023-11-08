@@ -1,7 +1,7 @@
 import json
 import copy
 
-graph_json = open('graph_attrs/compound_dot_graph.json', 'r')
+graph_json = open('graph_attrs/compound_dot_graph_all.json', 'r')
 class_json = open('graph_attrs/mml_classification_gpt.json', 'r')
 graph_objects = json.load(graph_json)
 class_objects = json.load(class_json)

@@ -1,0 +1,3895 @@
+{
+    "mml_classification": [
+        {
+            "mml-name": "tarski",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "__EMPTY_4": "A.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096\u00e3\u0081\u00ae\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u00b3\u00bb",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "xboole_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "A.\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "boole",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "xboole_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "enumset1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "A.\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "xtuple_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "C.\u00e5\u0086\u0099\u00e5\u0083\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "xfamily",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "D.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u0097\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "xregular",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "zfmisc_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "subset_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "subset",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "B.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u00bc\u0094\u00e7\u00ae\u0097",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "setfam_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "D.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u0097\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "relat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "funct_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "grfunc_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "relat_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "ordinal1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "wellord1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 12,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "179.\u00e9 \u0086\u00e5\u00ba\u008f",
+            "__EMPTY_4": "A .\u00e9 \u0086\u00e5\u00ba\u008f\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "directory": "/Sets_and_TopologyOrder"
+        },
+        {
+            "mml-name": "relset_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "B.\u00e5\u00af\u00be\u00e5\u00bf\u009c",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "partfun1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "mcart_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "A.\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "wellord2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "__EMPTY_4": "A.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096\u00e3\u0081\u00ae\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u00b3\u00bb",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "funct_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "A.\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "binop_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 10,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "69.\u00e7\u0092\u00b0",
+            "__EMPTY_4": "A. \u00e7\u0092\u00b0\u00e3\u0081\u00ae\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/AlgebraRings"
+        },
+        {
+            "mml-name": "domain_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "D.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u0097\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "funct_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "funcop_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_2": "H",
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "__EMPTY_4": "H.\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "realset1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "255.\u00e4\u00bd\u0093",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/AlgebraFields"
+        },
+        {
+            "mml-name": "funct_4",
+            "__EMPTY": "XII",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "74.\u00e9\u0096\u00a2\u00e6\u0095\u00b0\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "__EMPTY_4": "A.\u00e4\u00b8\u0080\u00e8\u0088\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Func_AnFunction_Space"
+        },
+        {
+            "mml-name": "numerals",
+            "__EMPTY_3": "\u00e5\u0088\u0086\u00e9\u00a1\u009e\u00e4\u00b8\u008d\u00e5\u008f\u00af\u00e8\u0083\u00bd",
+            "directory": ""
+        },
+        {
+            "mml-name": "ordinal2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "ordinal3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "wellset1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 17,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "192.\u00e8\u00a8\u00bc\u00e6\u0098\u008e\u00e8\u00ab\u0096",
+            "__EMPTY_4": "A.\u00e7\u00b7\u008f\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicProof_Theory"
+        },
+        {
+            "mml-name": "multop_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "259.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/AlgebraAlgebra"
+        },
+        {
+            "mml-name": "schems_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "259.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/AlgebraAlgebra"
+        },
+        {
+            "mml-name": "sysrel",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "finset_1",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "492.\u00e9\u009b\u00a2\u00e6\u0095\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6\u00ef\u00bc\u008c\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathDiscrete_Mathematics_and_Combinatorics"
+        },
+        {
+            "mml-name": "card_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "classes1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "D.\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e6\u0097\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "pboole",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "A.\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e4\u00ba\u008b\u00e9 \u0085",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "gate_1",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "__EMPTY_4": "C.\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0094\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e6\u00a6\u0082\u00e8\u00ab\u0096",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "gate_2",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "__EMPTY_4": "C.\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0094\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e6\u00a6\u0082\u00e8\u00ab\u0096",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "gate_3",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "__EMPTY_4": "C.\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0094\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e6\u00a6\u0082\u00e8\u00ab\u0096",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "gate_4",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "__EMPTY_4": "C.\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0094\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e6\u00a6\u0082\u00e8\u00ab\u0096",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "gate_5",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "__EMPTY_4": "C.\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0094\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e6\u00a6\u0082\u00e8\u00ab\u0096",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "finsub_1",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "492.\u00e9\u009b\u00a2\u00e6\u0095\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6\u00ef\u00bc\u008c\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathDiscrete_Mathematics_and_Combinatorics"
+        },
+        {
+            "mml-name": "orders_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "__EMPTY_4": "C.\u00e5\u0086\u0099\u00e5\u0083\u008f",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "setwiseo",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "492.\u00e9\u009b\u00a2\u00e6\u0095\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6\u00ef\u00bc\u008c\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathDiscrete_Mathematics_and_Combinatorics"
+        },
+        {
+            "mml-name": "fraenkel",
+            "directory": ""
+        },
+        {
+            "mml-name": "funct_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "C.\u00e5\u00a4\u0089\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "partfun2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "card_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "funct_6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "C.\u00e5\u00a4\u0089\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "arytm_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u009c\u0089\u00e7\u0090\u0086\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "arytm_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "arytm_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "numbers",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "arytm_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xcmplx_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "arithm",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xxreal_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xreal_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "real",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xcmplx_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xreal_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "axioms",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "real_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "square_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 10,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "167.\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e3\u0081\u00a8\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e7\u009b\u00b4\u00e7\u00b7\u009a",
+            "__EMPTY_4": "B.\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e3\u0081\u00ae\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e6\u0080\u00a7\u00e8\u00b3\u00aa",
+            "directory": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line"
+        },
+        {
+            "mml-name": "nat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e8\u0087\u00aa\u00e7\u0084\u00b6\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "int_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 10,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "167.\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e3\u0081\u00a8\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e7\u009b\u00b4\u00e7\u00b7\u009a",
+            "__EMPTY_4": "B.\u00e5\u00ae\u009f\u00e6\u0095\u00b0\u00e3\u0081\u00ae\u00e5\u009f\u00ba\u00e6\u009c\u00ac\u00e6\u0080\u00a7\u00e8\u00b3\u00aa",
+            "directory": "/Sets_and_TopologyReal_Numbers_and_the_Real_Line"
+        },
+        {
+            "mml-name": "rat_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 10,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "69.\u00e7\u0092\u00b0",
+            "__EMPTY_4": "B.\u00e7\u0092\u00b0\u00e3\u0081\u00ae\u00e4\u00be\u008b",
+            "directory": "/AlgebraRings"
+        },
+        {
+            "mml-name": "membered",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "__EMPTY_4": "A.\u00e6\u0095\u00b0\u00e5\u00ad\u00a6\u00e3\u0081\u00ae\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e3\u0081\u00a8\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e5\u008c\u0096",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "valued_0",
+            "__EMPTY": "XV",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "200.\u00e6\u0095\u00b0\u00e5\u0080\u00a4\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "__EMPTY_4": "B. \u00e6\u0095\u00b0\u00e5\u0080\u00a4\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00e3\u0081\u00ae\u00e4\u00b8\u00bb\u00e3\u0081\u00aa\u00e5\u0088\u0086\u00e9\u0087\u008e",
+            "directory": "/Num_AnNumerical_Analysis"
+        },
+        {
+            "mml-name": "complex1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "absvalue",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "int_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "C.\u00e6\u0095\u00b4\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "nat_d",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "B.\u00e8\u0087\u00aa\u00e7\u0084\u00b6\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "binop_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "C.\u00e5\u00a4\u0089\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "xxreal_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "card_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "xxreal_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "xxreal_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "member_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "E",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "E.\u00e5\u00ae\u009f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "supinf_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "43.\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00e5\u00ad\u00a6",
+            "directory": "/AnalysisAnalysis"
+        },
+        {
+            "mml-name": "quin_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "J",
+            "__EMPTY_3": "286.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f",
+            "__EMPTY_4": "J. \u00e5\u0088\u00a4\u00e5\u0088\u00a5\u00e5\u00bc\u008f",
+            "directory": "/AlgebraPolynomials"
+        },
+        {
+            "mml-name": "classes2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "199.\u00e6\u0095\u00b0\u00e5\u00ad\u00a6\u00e5\u009f\u00ba\u00e7\u00a4\u008e\u00e8\u00ab\u0096",
+            "__EMPTY_4": "C. \u00e3\u0082\u00b2\u00e3\u0083\u00bc\u00e3\u0083\u0087\u00e3\u0083\u00ab\u00e3\u0081\u00ae\u00e4\u00b8\u008d\u00e5\u00ae\u008c\u00e5\u0085\u00a8\u00e6\u0080\u00a7\u00e5\u00ae\u009a\u00e7\u0090\u0086",
+            "directory": "/Math_LogicFoundations_of_Mathematics"
+        },
+        {
+            "mml-name": "ordinal4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "finseq_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "recdef_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 13,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "144.\u00e5\u0086\u008d\u00e5\u00b8\u00b0\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "__EMPTY_4": "A. \u00e5\u00ba\u008f",
+            "directory": "/Math_LogicRecursive_Theory"
+        },
+        {
+            "mml-name": "eqrel_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "A",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "A.\u00e5\u00ae\u009a\u00e7\u00be\u00a9",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "finseq_2",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "63.\u00e6\u0095\u00b0\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u0092\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "__EMPTY_4": "F. \u00e5\u008d\u0098\u00e5\u00b3\u00b0\u00e6\u0095\u00b0\u00e5\u0088\u0097",
+            "directory": "/Disc_MathEnumerative_Combinatorics"
+        },
+        {
+            "mml-name": "finseqop",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "63.\u00e6\u0095\u00b0\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u0092\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "__EMPTY_4": "F. \u00e5\u008d\u0098\u00e5\u00b3\u00b0\u00e6\u0095\u00b0\u00e5\u0088\u0097",
+            "directory": "/Disc_MathEnumerative_Combinatorics"
+        },
+        {
+            "mml-name": "finseq_3",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "63.\u00e6\u0095\u00b0\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u0092\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "__EMPTY_4": "F. \u00e5\u008d\u0098\u00e5\u00b3\u00b0\u00e6\u0095\u00b0\u00e5\u0088\u0097",
+            "directory": "/Disc_MathEnumerative_Combinatorics"
+        },
+        {
+            "mml-name": "valued_1",
+            "__EMPTY": "XV",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "200.\u00e6\u0095\u00b0\u00e5\u0080\u00a4\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "__EMPTY_4": "B. \u00e6\u0095\u00b0\u00e5\u0080\u00a4\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00e3\u0081\u00ae\u00e4\u00b8\u00bb\u00e3\u0081\u00aa\u00e5\u0088\u0086\u00e9\u0087\u008e",
+            "directory": "/Num_AnNumerical_Analysis"
+        },
+        {
+            "mml-name": "seq_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "comseq_1",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "63.\u00e6\u0095\u00b0\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u0092\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "__EMPTY_4": "F. \u00e5\u008d\u0098\u00e5\u00b3\u00b0\u00e6\u0095\u00b0\u00e5\u0088\u0097",
+            "directory": "/Disc_MathEnumerative_Combinatorics"
+        },
+        {
+            "mml-name": "xboolean",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "comseq_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "seq_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "__EMPTY_4": "B. \u00e6\u0095\u00b0\u00e5\u0088\u0097\u00e3\u0081\u00ae\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "margrel1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "B.\u00e5\u00af\u00be\u00e5\u00bf\u009c",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "toler_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "B",
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "__EMPTY_4": "B.\u00e5\u00af\u00be\u00e5\u00bf\u009c",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "trees_1",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "finseq_4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "finsop_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "setwop_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "rfunct_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "rvsum_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "newton",
+            "__EMPTY": "III",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "286.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f",
+            "directory": "/AlgebraPolynomials"
+        },
+        {
+            "mml-name": "card_4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "card_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "trees_2",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "valued_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "seqm_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "rfinseq",
+            "__EMPTY_3": "\u00e5\u0088\u0086\u00e9\u00a1\u009e\u00e4\u00b8\u008d\u00e5\u008f\u00af\u00e8\u0083\u00bd",
+            "directory": ""
+        },
+        {
+            "mml-name": "seq_4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "rcomp_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 25,
+            "__EMPTY_3": "304.\u00e8\u00aa\u00bf\u00e5\u0092\u008c\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00ef\u00bc\u008c\u00e5\u00ae\u009f\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+        },
+        {
+            "mml-name": "rfunct_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 25,
+            "__EMPTY_3": "304.\u00e8\u00aa\u00bf\u00e5\u0092\u008c\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00ef\u00bc\u008c\u00e5\u00ae\u009f\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+        },
+        {
+            "mml-name": "cfunct_1",
+            "__EMPTY": "XI",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "392.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00e5\u00ad\u00a6",
+            "directory": "/Complex_AnComplex_Analysis"
+        },
+        {
+            "mml-name": "fcont_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "508.\u00e9\u0080\u00a3\u00e7\u00b6\u009a\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/AnalysisContinuous_Functions"
+        },
+        {
+            "mml-name": "fcont_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "508.\u00e9\u0080\u00a3\u00e7\u00b6\u009a\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/AnalysisContinuous_Functions"
+        },
+        {
+            "mml-name": "fdiff_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "rolle",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "prepower",
+            "__EMPTY": "X",
+            "__EMPTY_1": 25,
+            "__EMPTY_3": "304.\u00e8\u00aa\u00bf\u00e5\u0092\u008c\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00ef\u00bc\u008c\u00e5\u00ae\u009f\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+        },
+        {
+            "mml-name": "finseq_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "rewrite1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "funct_7",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "scheme1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "abian",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "power",
+            "__EMPTY": "X",
+            "__EMPTY_1": 25,
+            "__EMPTY_3": "304.\u00e8\u00aa\u00bf\u00e5\u0092\u008c\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00ef\u00bc\u008c\u00e5\u00ae\u009f\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+        },
+        {
+            "mml-name": "polyeq_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "277.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e6\u0096\u00b9\u00e7\u00a8\u008b\u00e5\u00bc\u008f",
+            "directory": "/AlgebraAlgebraic_Equations"
+        },
+        {
+            "mml-name": "series_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 18,
+            "__EMPTY_3": "91.\u00e7\u00b4\u009a\u00e6\u0095\u00b0",
+            "directory": "/AnalysisSeries"
+        },
+        {
+            "mml-name": "comseq_3",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "cfcont_1",
+            "__EMPTY": "XI",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "213.\u00e6\u00ad\u00a3\u00e5\u0089\u0087\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Complex_AnHolomorphic_Functions"
+        },
+        {
+            "mml-name": "cfdiff_1",
+            "__EMPTY": "XI",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "213.\u00e6\u00ad\u00a3\u00e5\u0089\u0087\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Complex_AnHolomorphic_Functions"
+        },
+        {
+            "mml-name": "rpr_1",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "supinf_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "trees_a",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "pre_ff",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "trees_3",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "partit1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "336.\u00e5\u0090\u008c\u00e5\u0080\u00a4\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "directory": "/Sets_and_TopologyEquivalence_Relations"
+        },
+        {
+            "mml-name": "trees_4",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "card_fil",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "binarith",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "pre_circ",
+            "__EMPTY": "XXII",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "46.\u00e5\u009b\u009e\u00e8\u00b7\u00af",
+            "directory": "/Mech_PhysCircuits"
+        },
+        {
+            "mml-name": "finseq_6",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "mboolean",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "wsierp_1",
+            "directory": ""
+        },
+        {
+            "mml-name": "glib_000",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "pzfmisc1",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "genealg1",
+            "__EMPTY": "XXI",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "108.\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b\u00e6\u009c\u0080\u00e9\u0081\u00a9\u00e5\u008c\u0096",
+            "directory": "/Opt_TheoryCombinatorial_Optimization"
+        },
+        {
+            "mml-name": "binari_2",
+            "directory": ""
+        },
+        {
+            "mml-name": "trees_9",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "mssubfam",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "relset_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "70.\u00e9\u0096\u00a2\u00e4\u00bf\u0082",
+            "directory": "/Sets_and_TopologyRelations"
+        },
+        {
+            "mml-name": "recdef_2",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "prob_1",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "prob_2",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "limfunc1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "limfunc2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "seqfunc",
+            "__EMPTY": "X",
+            "__EMPTY_1": 25,
+            "__EMPTY_3": "304.\u00e8\u00aa\u00bf\u00e5\u0092\u008c\u00e8\u00a7\u00a3\u00e6\u009e\u0090\u00ef\u00bc\u008c\u00e5\u00ae\u009f\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+        },
+        {
+            "mml-name": "limfunc3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fcont_3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "508.\u00e9\u0080\u00a3\u00e7\u00b6\u009a\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/AnalysisContinuous_Functions"
+        },
+        {
+            "mml-name": "limfunc4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "l_hospit",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "measure1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "measure2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "measure3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "measure4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "rfunct_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "measure5",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "rearran1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "measure6",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "extreal1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "measure7",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "rfunct_4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "343.\u00e5\u0087\u00b8\u00e8\u00a7\u00a3\u00e6\u009e\u0090",
+            "directory": "/AnalysisConvex_Analysis"
+        },
+        {
+            "mml-name": "mesfunc1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "sin_cos",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "mesfunc2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "sin_cos2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "sin_cos3",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "sin_cos4",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "sin_cos5",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "asympt_0",
+            "__EMPTY": "X",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "229.\u00e6\u00bc\u00b8\u00e8\u00bf\u0091\u00e7\u00b4\u009a\u00e6\u0095\u00b0",
+            "directory": "/AnalysisAsymptotic_Series"
+        },
+        {
+            "mml-name": "comptrig",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "complex2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "polyeq_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "277.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e6\u0096\u00b9\u00e7\u00a8\u008b\u00e5\u00bc\u008f",
+            "directory": "/AlgebraAlgebraic_Equations"
+        },
+        {
+            "mml-name": "polyeq_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "277.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e6\u0096\u00b9\u00e7\u00a8\u008b\u00e5\u00bc\u008f",
+            "directory": "/AlgebraAlgebraic_Equations"
+        },
+        {
+            "mml-name": "polyeq_4",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "polyeq_5",
+            "__EMPTY": "III",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "277.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e6\u0096\u00b9\u00e7\u00a8\u008b\u00e5\u00bc\u008f",
+            "directory": "/AlgebraAlgebraic_Equations"
+        },
+        {
+            "mml-name": "sin_cos6",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "euler_1",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "212.\u00e6\u0095\u00b4\u00e6\u0095\u00b0\u00e8\u00ab\u0096",
+            "directory": "/Number_TheoryNumber_Theory"
+        },
+        {
+            "mml-name": "euler_2",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "212.\u00e6\u0095\u00b4\u00e6\u0095\u00b0\u00e8\u00ab\u0096",
+            "directory": "/Number_TheoryNumber_Theory"
+        },
+        {
+            "mml-name": "asympt_1",
+            "directory": ""
+        },
+        {
+            "mml-name": "series_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "series_4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "series_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "quaterni",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "afinsq_1",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "nat_2",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "pepin",
+            "directory": ""
+        },
+        {
+            "mml-name": "irrat_1",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "252.\u00e7\u00b4 \u00e6\u0095\u00b0\u00e3\u0081\u00ae\u00e5\u0088\u0086\u00e5\u00b8\u0083",
+            "directory": "/Number_TheoryDistribution_of_Prime_Numbers"
+        },
+        {
+            "mml-name": "taylor_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "holder_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 23,
+            "__EMPTY_3": "415.\u00e3\u0083\u0095\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e5\u00a4\u0089\u00e6\u008f\u009b",
+            "directory": "/AnalysisFourier_Transform"
+        },
+        {
+            "mml-name": "fdiff_4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_5",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_6",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_7",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "fdiff_8",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "sin_cos7",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "sin_cos8",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "bvfunc_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "taylor_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "catalan1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "184.\u00e9 \u0086\u00e5\u0088\u0097\u00ef\u00bc\u008c\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b",
+            "directory": "/Sets_and_TopologyPermutations_and_Combinations"
+        },
+        {
+            "mml-name": "pythtrip",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "194.\u00e5\u0088\u009d\u00e7\u00ad\u0089\u00e6\u0095\u00b4\u00e6\u0095\u00b0\u00e8\u00ab\u0096",
+            "directory": "/Number_TheoryElementary_Number_Theory"
+        },
+        {
+            "mml-name": "series_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "fib_num",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "partit_2",
+            "__EMPTY_3": "\u00e5\u0088\u0086\u00e9\u00a1\u009e\u00e4\u00b8\u008d\u00e5\u008f\u00af\u00e8\u0083\u00bd",
+            "directory": ""
+        },
+        {
+            "mml-name": "bvfunc_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc_4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc_6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc11",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc14",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "bvfunc25",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "finseq_7",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "prgcor_1",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "fdiff_9",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "arrow",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "real_3",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "509.\u00e9\u0080\u00a3\u00e5\u0088\u0086\u00e6\u0095\u00b0",
+            "directory": "/Number_TheoryContinued_Fractions"
+        },
+        {
+            "mml-name": "fdiff_10",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "hfdiff_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "pre_poly",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "prgcor_2",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "sin_cos9",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "sincos10",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "151.3 \u00e8\u00a7\u0092\u00e6\u00b3\u0095",
+            "directory": "/GeometryTrigonometry"
+        },
+        {
+            "mml-name": "mesfunc3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "mesfunc4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "rvsum_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "finseq_8",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "pnproc_1",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "189.\u00e6\u0083\u0085\u00e5 \u00b1\u00e7\u00a7\u0091\u00e5\u00ad\u00a6\u00e3\u0081\u00ab\u00e3\u0081\u008a\u00e3\u0081\u0091\u00e3\u0082\u008b\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/Info_MathMathematics_in_Computer_Science"
+        },
+        {
+            "mml-name": "integra1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integra2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "rfinseq2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "integra3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integra4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integra5",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integr12",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integra8",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "card_lar",
+            "__EMPTY": "II",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "355.\u00e6\u00bf\u0083\u00e5\u00ba\u00a6",
+            "directory": "/Sets_and_TopologyCardinality"
+        },
+        {
+            "mml-name": "fuzzy_1",
+            "directory": ""
+        },
+        {
+            "mml-name": "kurato_0",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "partfun3",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "fuzzy_2",
+            "directory": ""
+        },
+        {
+            "mml-name": "fuzzy_4",
+            "directory": ""
+        },
+        {
+            "mml-name": "setlim_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "diff_1",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "rinfsup1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "setlim_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "prob_3",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "dynkin",
+            "__EMPTY": "X",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "250.\u00e6\u00b8\u00ac\u00e5\u00ba\u00a6\u00e8\u00ab\u0096",
+            "directory": "/AnalysisMeasure_Theory"
+        },
+        {
+            "mml-name": "prob_4",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "kolmog01",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "mesfunc5",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "diff_2",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "int_6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "C",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "C.\u00e6\u0095\u00b4\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "bor_cant",
+            "__EMPTY": "XVII",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "60.\u00e7\u00a2\u00ba\u00e7\u008e\u0087\u00e8\u00ab\u0096",
+            "directory": "/Prob_TheoryProbability_Theory"
+        },
+        {
+            "mml-name": "mesfunc6",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "diff_3",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "mesfunc7",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "mesfun6c",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "diff_4",
+            "__EMPTY": "X",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "376.\u00e5\u00be\u00ae\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisDifferential_Calculus"
+        },
+        {
+            "mml-name": "rinfsup2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "mesfunc8",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "mesfunc9",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "mesfun10",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "matrix_0",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "afinsq_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "gobrd10",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "integr13",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "integr14",
+            "__EMPTY": "X",
+            "__EMPTY_1": 11,
+            "__EMPTY_3": "224.\u00e7\u00a9\u008d\u00e5\u0088\u0086\u00e6\u00b3\u0095",
+            "directory": "/AnalysisIntegration"
+        },
+        {
+            "mml-name": "stirl2_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "184.\u00e9 \u0086\u00e5\u0088\u0097\u00ef\u00bc\u008c\u00e7\u00b5\u0084\u00e5\u0090\u0088\u00e3\u0081\u009b",
+            "directory": "/Sets_and_TopologyPermutations_and_Combinations"
+        },
+        {
+            "mml-name": "nat_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "286.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f",
+            "directory": "/AlgebraPolynomials"
+        },
+        {
+            "mml-name": "nat_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "286.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f",
+            "directory": "/AlgebraPolynomials"
+        },
+        {
+            "mml-name": "fib_num2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "fib_num3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "D",
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "__EMPTY_4": "D.\u00e6\u0097\u008f\u00ef\u00bc\u008c\u00e5\u0088\u0097",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "ordinal5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "ordinal6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 13,
+            "__EMPTY_3": "181.\u00e9 \u0086\u00e5\u00ba\u008f\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyOrdinal_Numbers"
+        },
+        {
+            "mml-name": "descip_1",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "11.\u00e6\u009a\u0097\u00e5\u008f\u00b7\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Info_MathCryptography"
+        },
+        {
+            "mml-name": "zf_lang",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zf_model",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zf_colla",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zfmodel1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zf_lang1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zf_refle",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "zfrefle1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "qc_lang1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "qc_lang2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "qc_lang3",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "cqc_lang",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "cqc_the1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "valuat_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "zfmodel2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "lukasi_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "procal_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "zf_fund1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "intpro_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "cqc_the2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "zf_fund2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "136.\u00e5\u0085\u00ac\u00e7\u0090\u0086\u00e7\u009a\u0084\u00e9\u009b\u0086\u00e5\u0090\u0088\u00e8\u00ab\u0096",
+            "directory": "/Math_LogicAxiomatic_Set_Theory"
+        },
+        {
+            "mml-name": "hilbert1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "cqc_sim1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "modal_1",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "cqc_the3",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "qc_lang4",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "substut1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "sublemma",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "substut2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "calcul_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "calcul_2",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "henmodel",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "goedelcp",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "qc_trans",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "ntalgo_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "286.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f",
+            "directory": "/AlgebraPolynomials"
+        },
+        {
+            "mml-name": "struct_0",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "algstr_0",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "incsp_1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "80.\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6\u00e5\u009f\u00ba\u00e7\u00a4\u008e\u00e8\u00ab\u0096",
+            "directory": "/GeometryFoundations_of_Geometry"
+        },
+        {
+            "mml-name": "pre_topc",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "orders_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "179.\u00e9 \u0086\u00e5\u00ba\u008f",
+            "directory": "/Sets_and_TopologyOrder"
+        },
+        {
+            "mml-name": "graph_1",
+            "__EMPTY": "XIX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "111.\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0083\u0095\u00e7\u0090\u0086\u00e8\u00ab\u0096",
+            "directory": "/Disc_MathGraph_Theory"
+        },
+        {
+            "mml-name": "cat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "petri",
+            "directory": ""
+        },
+        {
+            "mml-name": "net_1",
+            "directory": ""
+        },
+        {
+            "mml-name": "lattices",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "tops_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "connsp_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tops_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "rlvect_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "rlsub_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "group_1",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "vectsp_1",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "algstr_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 7,
+            "__EMPTY_3": "135.\u00e6\u00a7\u008b\u00e9\u0080 ",
+            "directory": "/Sets_and_TopologyStructures"
+        },
+        {
+            "mml-name": "complfld",
+            "__EMPTY": "II",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "F",
+            "__EMPTY_3": "198.\u00e6\u0095\u00b0",
+            "__EMPTY_4": "F.\u00e8\u00a4\u0087\u00e7\u00b4 \u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyNumbers"
+        },
+        {
+            "mml-name": "parsp_1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "symsp_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 27,
+            "__EMPTY_3": "113.\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0083\u0089\u00e7\u0092\u00b0",
+            "directory": "/AlgebraClifford_Algebras"
+        },
+        {
+            "mml-name": "ortsp_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "compts_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "rlsub_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "midsp_1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "funcsdom",
+            "__EMPTY": "II",
+            "__EMPTY_1": 4,
+            "__EMPTY_3": "71.\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyFunctions"
+        },
+        {
+            "mml-name": "vectsp_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 10,
+            "__EMPTY_3": "69.\u00e7\u0092\u00b0",
+            "directory": "/AlgebraRings"
+        },
+        {
+            "mml-name": "filter_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_2": "I",
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "__EMPTY_4": "I.\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00bc\u00e3\u0081\u00ae\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "lattice2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "robbins1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "qmax_1",
+            "__EMPTY": "I",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "123.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e4\u00bd\u0093\u00e7\u00b3\u00bb\u00e3\u0081\u00a8\u00e8\u00a8\u00bc\u00e6\u0098\u008e",
+            "directory": "/Math_LogicFormal_Systems_and_Proofs"
+        },
+        {
+            "mml-name": "parsp_2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "rlvect_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "analoaf",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "metric_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 17,
+            "__EMPTY_3": "105.\u00e8\u00b7\u009d\u00e9\u009b\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyMetric_Spaces"
+        },
+        {
+            "mml-name": "diraf",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "aff_1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "aff_2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "aff_3",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "collsp",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "pasch",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "real_lat",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "tdgroup",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "transgeo",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "cat_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "translac",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "anproj_1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "anproj_2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "rlvect_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "group_2",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "vectsp_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "vectsp_5",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "normsp_0",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "normsp_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "vfunct_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "vectsp_6",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "vectsp_7",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "analmetr",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "group_3",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "projdes1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "group_4",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "gr_cy_1",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "realset2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "255.\u00e4\u00bd\u0093",
+            "directory": "/AlgebraFields"
+        },
+        {
+            "mml-name": "connsp_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "matrix_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "fvsum_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "255.\u00e4\u00bd\u0093",
+            "directory": "/AlgebraFields"
+        },
+        {
+            "mml-name": "matrix_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "midsp_2",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "grcat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "mod_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "matrlin",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "polynom1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 18,
+            "__EMPTY_3": "287.\u00e5\u00a4\u009a\u00e9 \u0085\u00e5\u00bc\u008f\u00e7\u0092\u00b0",
+            "directory": "/AlgebraPolynomial_Rings"
+        },
+        {
+            "mml-name": "algseq_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "homothet",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "afvect0",
+            "__EMPTY": "IX",
+            "__EMPTY_1": 9,
+            "__EMPTY_3": "384.\u00e3\u0083\u0095\u00e3\u0082\u00a1\u00e3\u0082\u00a4\u00e3\u0083\u0090\u00e3\u0083\u00bc\u00e6\u009d\u009f",
+            "directory": "/TopologyFiber_Bundle"
+        },
+        {
+            "mml-name": "complsp1",
+            "__EMPTY": "XI",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "213.\u00e6\u00ad\u00a3\u00e5\u0089\u0087\u00e9\u0096\u00a2\u00e6\u0095\u00b0",
+            "directory": "/Complex_AnHolomorphic_Functions"
+        },
+        {
+            "mml-name": "realset3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "255.\u00e4\u00bd\u0093",
+            "directory": "/AlgebraFields"
+        },
+        {
+            "mml-name": "algstr_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 7,
+            "__EMPTY_3": "135.\u00e6\u00a7\u008b\u00e9\u0080 ",
+            "directory": "/Sets_and_TopologyStructures"
+        },
+        {
+            "mml-name": "metric_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 17,
+            "__EMPTY_3": "105.\u00e8\u00b7\u009d\u00e9\u009b\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyMetric_Spaces"
+        },
+        {
+            "mml-name": "metric_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 17,
+            "__EMPTY_3": "105.\u00e8\u00b7\u009d\u00e9\u009b\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyMetric_Spaces"
+        },
+        {
+            "mml-name": "hessenbe",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "incproj",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "afvect01",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "normform",
+            "__EMPTY": "II",
+            "__EMPTY_1": 15,
+            "__EMPTY_3": "416.\u00e3\u0083\u0096\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e4\u00bb\u00a3\u00e6\u0095\u00b0",
+            "directory": "/Sets_and_TopologyBoolean_Algebra"
+        },
+        {
+            "mml-name": "o_ring_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 10,
+            "__EMPTY_3": "69.\u00e7\u0092\u00b0",
+            "directory": "/AlgebraRings"
+        },
+        {
+            "mml-name": "algstr_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 7,
+            "__EMPTY_3": "135.\u00e6\u00a7\u008b\u00e9\u0080 ",
+            "directory": "/Sets_and_TopologyStructures"
+        },
+        {
+            "mml-name": "projred1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "rmod_2",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "rmod_3",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "rmod_4",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "geomtrap",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "projred2",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 5,
+            "__EMPTY_3": "170.\u00e5\u00b0\u0084\u00e5\u00bd\u00b1\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryProjective_Geometry"
+        },
+        {
+            "mml-name": "conaffm",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "conmetr",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "papdesaf",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "pardepap",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "semi_af1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "aff_4",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "afproj",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "heyting1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "prelamb",
+            "directory": ""
+        },
+        {
+            "mml-name": "oppcat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "euclmetr",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "filter_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 19,
+            "__EMPTY_2": "I",
+            "__EMPTY_3": "177.\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "__EMPTY_4": "I.\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00bc\u00e3\u0081\u00ae\u00e5\u008f\u008e\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyConvergence"
+        },
+        {
+            "mml-name": "conmetr1",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "nat_lat",
+            "__EMPTY": "IV",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "194.\u00e5\u0088\u009d\u00e7\u00ad\u0089\u00e6\u0095\u00b4\u00e6\u0095\u00b0\u00e8\u00ab\u0096",
+            "directory": "/Number_TheoryElementary_Number_Theory"
+        },
+        {
+            "mml-name": "group_5",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "cat_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "nattra_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "pcomps_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "ali2",
+            "__EMPTY": "XII",
+            "__EMPTY_1": 3,
+            "__EMPTY_3": "359.\u00e3\u0083\u0090\u00e3\u0083\u008a\u00e3\u0083\u0083\u00e3\u0083\u008f\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Func_AnBanach_Space"
+        },
+        {
+            "mml-name": "bhsp_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "bhsp_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "bhsp_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "ens_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "175.\u00e9\u009b\u0086\u00e5\u0090\u0088",
+            "directory": "/Sets_and_TopologySets"
+        },
+        {
+            "mml-name": "borsuk_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tbsp_1",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "group_6",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "monoid_0",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "rusub_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "rusub_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "rlvect_4",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "rusub_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "rlvect_5",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "rusub_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "t_0topsp",
+            "__EMPTY_3": "abstract\u00e3\u0081\u00aa\u00e3\u0081\u0097",
+            "directory": ""
+        },
+        {
+            "mml-name": "cantor_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tsep_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tdlat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "lattice3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "tdlat_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tdlat_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "tops_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "urysohn1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "unialg_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "259.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/AlgebraAlgebra"
+        },
+        {
+            "mml-name": "unialg_2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "259.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/AlgebraAlgebra"
+        },
+        {
+            "mml-name": "lang1",
+            "__EMPTY": "XX",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "122.\u00e5\u00bd\u00a2\u00e5\u00bc\u008f\u00e8\u00a8\u0080\u00e8\u00aa\u009e\u00e7\u0090\u0086\u00e8\u00ab\u0096\u00e3\u0081\u00a8\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00e3\u0083\u009e\u00e3\u0083\u0088\u00e3\u0083\u00b3",
+            "directory": "/Info_MathFormal_Language_Theory_and_Automata"
+        },
+        {
+            "mml-name": "dtconstr",
+            "__EMPTY_3": "\u00e5\u0088\u0086\u00e9\u00a1\u009e\u00e4\u00b8\u008d\u00e5\u008f\u00af\u00e8\u0083\u00bd",
+            "directory": ""
+        },
+        {
+            "mml-name": "pralg_1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "259.\u00e4\u00bb\u00a3\u00e6\u0095\u00b0\u00e5\u00ad\u00a6",
+            "directory": "/AlgebraAlgebra"
+        },
+        {
+            "mml-name": "yellow_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "cat_5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "altcat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "orders_3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "179.\u00e9 \u0086\u00e5\u00ba\u008f",
+            "directory": "/Sets_and_TopologyOrder"
+        },
+        {
+            "mml-name": "yellow_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "waybel_0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "lattice4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "lattice5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "goboard1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard5",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard7",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "vectsp_9",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "mod_3",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "vectsp_8",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "isocat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "ringcat1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "modcat_1",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "metric_6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 17,
+            "__EMPTY_3": "105.\u00e8\u00b7\u009d\u00e9\u009b\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyMetric_Spaces"
+        },
+        {
+            "mml-name": "commacat",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "bhsp_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "midsp_3",
+            "__EMPTY": "VII",
+            "__EMPTY_1": 6,
+            "__EMPTY_3": "4.\u00e3\u0082\u00a2\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00b3\u00e5\u00b9\u00be\u00e4\u00bd\u0095\u00e5\u00ad\u00a6",
+            "directory": "/GeometryAffine_Geometry"
+        },
+        {
+            "mml-name": "gr_cy_2",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "isocat_2",
+            "__EMPTY": "II",
+            "__EMPTY_1": 24,
+            "__EMPTY_3": "131.\u00e5\u009c\u008f\u00e3\u0081\u00a8\u00e9\u0096\u00a2\u00e6\u0089\u008b",
+            "directory": "/Sets_and_TopologyCategories_and_Functors"
+        },
+        {
+            "mml-name": "lmod_6",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "mod_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "goboard3",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard4",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "monoid_1",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "lmod_7",
+            "__EMPTY": "III",
+            "__EMPTY_1": 12,
+            "__EMPTY_3": "62.\u00e5\u008a \u00e7\u00be\u00a4",
+            "directory": "/AlgebraModules"
+        },
+        {
+            "mml-name": "autgroup",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "goboard8",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "goboard9",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "gobrd11",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "gobrd12",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "matrix_4",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix_5",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrixr1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrixc1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matroid0",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "matrix_7",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "group_9",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_10",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "matrix_6",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix_9",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix11",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix10",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrixr2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix13",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix15",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix_8",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrixj1",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrlin2",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "matrix12",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "matrix14",
+            "__EMPTY": "III",
+            "__EMPTY_1": 2,
+            "__EMPTY_3": "96.\u00e8\u00a1\u008c\u00e5\u0088\u0097",
+            "directory": "/AlgebraMatrices"
+        },
+        {
+            "mml-name": "gobrd13",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "gobrd14",
+            "__EMPTY": "II",
+            "__EMPTY_1": 16,
+            "__EMPTY_3": "15.\u00e4\u00bd\u008d\u00e7\u009b\u00b8\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/Sets_and_TopologyTopological_Spaces"
+        },
+        {
+            "mml-name": "lattice6",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "lattice7",
+            "__EMPTY": "II",
+            "__EMPTY_1": 14,
+            "__EMPTY_3": "248.\u00e6\u009d\u009f",
+            "directory": "/Sets_and_TopologyLattices"
+        },
+        {
+            "mml-name": "bhsp_5",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "bhsp_6",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "bhsp_7",
+            "__EMPTY": "III",
+            "__EMPTY_1": 8,
+            "__EMPTY_3": "231.\u00e7\u00b7\u009a\u00e5\u00bd\u00a2\u00e7\u00a9\u00ba\u00e9\u0096\u0093",
+            "directory": "/AlgebraVector_Spaces"
+        },
+        {
+            "mml-name": "gr_cy_3",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_11",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "groupp_1",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_12",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_14",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_17",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_18",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_19",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_20",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_1a",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        },
+        {
+            "mml-name": "group_21",
+            "__EMPTY": "V",
+            "__EMPTY_1": 1,
+            "__EMPTY_3": "116.\u00e7\u00be\u00a4",
+            "directory": "/Groups_and_RepGroup"
+        }
+    ]
+}
