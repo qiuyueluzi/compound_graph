@@ -360,8 +360,8 @@ def create_graph(node2targets, output_json_file):
 
 def create_part_graph(directoryName):
     article2ref_articles = retrieve_dependency.make_miz_dependency(articleListName= directoryName+".txt")
-    create_graph(article2ref_articles, f"compound_dot_graph{directoryName}.json")
+    create_graph(article2ref_articles, f"cluster/compound_dot_graph{directoryName}.json")
 
 if __name__ == '__main__':
-    article2ref_articles = retrieve_dependency.make_miz_dependency(articleListName= "mml-lar-top.txt")
-    create_graph(article2ref_articles, "compound_dot_graph.json")
+    article2ref_articles = retrieve_dependency.make_miz_dependency(articleListName= "list539.txt")
+    create_graph(article2ref_articles, "compound_dot_graph538.json")

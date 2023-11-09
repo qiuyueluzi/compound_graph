@@ -1,0 +1,642 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_TOPC",
+                "name": "PRE_TOPC",
+                "href": "http://mizar.org/version/current/html/pre_topc.html"
+            },
+            "position": {
+                "x": 1794.0000000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPS_1",
+                "name": "TOPS_1",
+                "href": "http://mizar.org/version/current/html/tops_1.html"
+            },
+            "position": {
+                "x": 1572.0,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONNSP_1",
+                "name": "CONNSP_1",
+                "href": "http://mizar.org/version/current/html/connsp_1.html"
+            },
+            "position": {
+                "x": 1572.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPS_2",
+                "name": "TOPS_2",
+                "href": "http://mizar.org/version/current/html/tops_2.html"
+            },
+            "position": {
+                "x": 1572.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPTS_1",
+                "name": "COMPTS_1",
+                "href": "http://mizar.org/version/current/html/compts_1.html"
+            },
+            "position": {
+                "x": 1572.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONNSP_2",
+                "name": "CONNSP_2",
+                "href": "http://mizar.org/version/current/html/connsp_2.html"
+            },
+            "position": {
+                "x": 2316.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PCOMPS_1",
+                "name": "PCOMPS_1",
+                "href": "http://mizar.org/version/current/html/pcomps_1.html"
+            },
+            "position": {
+                "x": 1440.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BORSUK_1",
+                "name": "BORSUK_1",
+                "href": "http://mizar.org/version/current/html/borsuk_1.html"
+            },
+            "position": {
+                "x": 1440.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CANTOR_1",
+                "name": "CANTOR_1",
+                "href": "http://mizar.org/version/current/html/cantor_1.html"
+            },
+            "position": {
+                "x": 714.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TSEP_1",
+                "name": "TSEP_1",
+                "href": "http://mizar.org/version/current/html/tsep_1.html"
+            },
+            "position": {
+                "x": 1488.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TDLAT_1",
+                "name": "TDLAT_1",
+                "href": "http://mizar.org/version/current/html/tdlat_1.html"
+            },
+            "position": {
+                "x": 311.97,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TDLAT_2",
+                "name": "TDLAT_2",
+                "href": "http://mizar.org/version/current/html/tdlat_2.html"
+            },
+            "position": {
+                "x": 792.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TDLAT_3",
+                "name": "TDLAT_3",
+                "href": "http://mizar.org/version/current/html/tdlat_3.html"
+            },
+            "position": {
+                "x": 792.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPS_3",
+                "name": "TOPS_3",
+                "href": "http://mizar.org/version/current/html/tops_3.html"
+            },
+            "position": {
+                "x": 774.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "URYSOHN1",
+                "name": "URYSOHN1",
+                "href": "http://mizar.org/version/current/html/urysohn1.html"
+            },
+            "position": {
+                "x": 2322.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_0",
+                "name": "YELLOW_0",
+                "href": "http://mizar.org/version/current/html/yellow_0.html"
+            },
+            "position": {
+                "x": 2724.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_1",
+                "name": "YELLOW_1",
+                "href": "http://mizar.org/version/current/html/yellow_1.html"
+            },
+            "position": {
+                "x": 2430.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_0",
+                "name": "WAYBEL_0",
+                "href": "http://mizar.org/version/current/html/waybel_0.html"
+            },
+            "position": {
+                "x": 3276.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD1",
+                "name": "GOBOARD1",
+                "href": "http://mizar.org/version/current/html/goboard1.html"
+            },
+            "position": {
+                "x": 3006.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD2",
+                "name": "GOBOARD2",
+                "href": "http://mizar.org/version/current/html/goboard2.html"
+            },
+            "position": {
+                "x": 4146.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD5",
+                "name": "GOBOARD5",
+                "href": "http://mizar.org/version/current/html/goboard5.html"
+            },
+            "position": {
+                "x": 3222.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD6",
+                "name": "GOBOARD6",
+                "href": "http://mizar.org/version/current/html/goboard6.html"
+            },
+            "position": {
+                "x": 3216.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD7",
+                "name": "GOBOARD7",
+                "href": "http://mizar.org/version/current/html/goboard7.html"
+            },
+            "position": {
+                "x": 2688.0000000000005,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD3",
+                "name": "GOBOARD3",
+                "href": "http://mizar.org/version/current/html/goboard3.html"
+            },
+            "position": {
+                "x": 4134.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD4",
+                "name": "GOBOARD4",
+                "href": "http://mizar.org/version/current/html/goboard4.html"
+            },
+            "position": {
+                "x": 5028.000000000001,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD8",
+                "name": "GOBOARD8",
+                "href": "http://mizar.org/version/current/html/goboard8.html"
+            },
+            "position": {
+                "x": 1794.0000000000002,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD9",
+                "name": "GOBOARD9",
+                "href": "http://mizar.org/version/current/html/goboard9.html"
+            },
+            "position": {
+                "x": 2358.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD11",
+                "name": "GOBRD11",
+                "href": "http://mizar.org/version/current/html/gobrd11.html"
+            },
+            "position": {
+                "x": 1512.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD12",
+                "name": "GOBRD12",
+                "href": "http://mizar.org/version/current/html/gobrd12.html"
+            },
+            "position": {
+                "x": 1968.0000000000002,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD13",
+                "name": "GOBRD13",
+                "href": "http://mizar.org/version/current/html/gobrd13.html"
+            },
+            "position": {
+                "x": 1164.0,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD14",
+                "name": "GOBRD14",
+                "href": "http://mizar.org/version/current/html/gobrd14.html"
+            },
+            "position": {
+                "x": 972.0000000000001,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPS_1",
+                "target": "PRE_TOPC"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONNSP_1",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPS_2",
+                "target": "CONNSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPTS_1",
+                "target": "TOPS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONNSP_2",
+                "target": "COMPTS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PCOMPS_1",
+                "target": "COMPTS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BORSUK_1",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BORSUK_1",
+                "target": "CONNSP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CANTOR_1",
+                "target": "TOPS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TSEP_1",
+                "target": "BORSUK_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TDLAT_1",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TDLAT_2",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TDLAT_2",
+                "target": "TDLAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TDLAT_3",
+                "target": "TDLAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TDLAT_3",
+                "target": "TSEP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPS_3",
+                "target": "TDLAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "URYSOHN1",
+                "target": "CONNSP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_1",
+                "target": "YELLOW_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_1",
+                "target": "TOPS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_0",
+                "target": "YELLOW_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD1",
+                "target": "PRE_TOPC"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD2",
+                "target": "GOBOARD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD5",
+                "target": "GOBOARD2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD6",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD6",
+                "target": "CONNSP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD6",
+                "target": "GOBOARD5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD7",
+                "target": "GOBOARD6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD3",
+                "target": "GOBOARD2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD4",
+                "target": "GOBOARD2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD8",
+                "target": "GOBOARD7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD9",
+                "target": "GOBOARD8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD9",
+                "target": "TSEP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD11",
+                "target": "GOBOARD8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD12",
+                "target": "GOBRD11"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD12",
+                "target": "GOBOARD9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD13",
+                "target": "GOBRD11"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD14",
+                "target": "TDLAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBRD14",
+                "target": "GOBRD12"
+            }
+        }
+    ]
+}

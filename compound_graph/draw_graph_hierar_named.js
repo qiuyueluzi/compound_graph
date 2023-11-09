@@ -4,7 +4,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $.when($.getJSON('./graph_attrs/graph_Hierar_replace.json')).then((dot_graph) => {
+    $.when($.getJSON('./graph_attrs/graph_classHierar_538.json')).then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
@@ -700,22 +700,12 @@ $(".color").click(function() {
         // その全ての既存のノードのクラスを除去する
         cy.$(".cluster_" + colorCode.slice(1)).removeClass("cluster_" + colorCode.slice(1));
     }
-    // ボタンのidにスラッシュが2つ含まれている場合
-    if (buttonId.match(/\//g).length == 2) {
-        buttonId = buttonId.replace(/\//g, "\\/");
-        // idが一致するノードを検索する
-        var node = cy.$("#"+buttonId);
-        // ノードにクラスを追加する
-        cy.$(node).addClass("cluster_" + colorCode.slice(1));
-    }
-    // ボタンのidにスラッシュが1つ含まれている場合
-    else if (buttonId.match(/\//g).length == 1) {
-        // idがボタンのidから始まる名前のノードを検索する
-        var nodes = cy.$("[id^='" + buttonId + "']");
-        // ノードにクラスを追加する
-        nodes.addClass("cluster_" + colorCode.slice(1));
-    }
+    // idがボタンのidから始まる名前のノードを検索する
+    var nodes = cy.$("[id^='" + buttonId + "']");
+    // ノードにクラスを追加する
+    nodes.addClass("cluster_" + colorCode.slice(1));
     
+
 
 });
 
@@ -1034,7 +1024,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 button.textContent = "ボタン";
                 // ボタンのidを設定
                 button.className = "coloring";
-                button.id = "/"+className+"/";
+                button.id = "/"+className;
                 // レベル2の要素の最初の子要素としてボタンを挿入
                 level2Item.insertBefore(button, level2Item.firstChild);
             }

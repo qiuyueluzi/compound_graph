@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUPINF_1",
+                "name": "SUPINF_1",
+                "href": "http://mizar.org/version/current/html/supinf_1.html"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 108.0
+            }
+        }
+    ]
+}

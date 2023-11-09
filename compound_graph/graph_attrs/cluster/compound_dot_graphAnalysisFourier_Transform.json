@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HOLDER_1",
+                "name": "HOLDER_1",
+                "href": "http://mizar.org/version/current/html/holder_1.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 108.0
+            }
+        }
+    ]
+}

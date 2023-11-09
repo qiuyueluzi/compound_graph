@@ -37,8 +37,8 @@ def make_miz_dependency(articleListName):
         new_article = re.sub(r'\n', '', article)
         new_article += '.miz'
         new_mml_lar.append(new_article)
-    new_mml_lar.append("tarski_0.miz")
-    new_mml_lar.append("tarski_a.miz")
+    #new_mml_lar.append("tarski_0.miz")
+    #new_mml_lar.append("tarski_a.miz")
 
     try:
         article2dependency_articles = dict()

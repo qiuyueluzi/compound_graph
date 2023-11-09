@@ -1,0 +1,47 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_1",
+                "name": "ALGSTR_1",
+                "href": "http://mizar.org/version/current/html/algstr_1.html"
+            },
+            "position": {
+                "x": 358.77,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_2",
+                "name": "ALGSTR_2",
+                "href": "http://mizar.org/version/current/html/algstr_2.html"
+            },
+            "position": {
+                "x": 358.77,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_3",
+                "name": "ALGSTR_3",
+                "href": "http://mizar.org/version/current/html/algstr_3.html"
+            },
+            "position": {
+                "x": 1186.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALGSTR_2",
+                "target": "ALGSTR_1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFCONT_1",
+                "name": "CFCONT_1",
+                "href": "http://mizar.org/version/current/html/cfcont_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFDIFF_1",
+                "name": "CFDIFF_1",
+                "href": "http://mizar.org/version/current/html/cfdiff_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLSP1",
+                "name": "COMPLSP1",
+                "href": "http://mizar.org/version/current/html/complsp1.html"
+            },
+            "position": {
+                "x": 1216.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFDIFF_1",
+                "target": "CFCONT_1"
+            }
+        }
+    ]
+}

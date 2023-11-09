@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_0",
+                "name": "ASYMPT_0",
+                "href": "http://mizar.org/version/current/html/asympt_0.html"
+            },
+            "position": {
+                "x": 366.57,
+                "y": 108.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GENEALG1",
+                "name": "GENEALG1",
+                "href": "http://mizar.org/version/current/html/genealg1.html"
+            },
+            "position": {
+                "x": 389.964,
+                "y": 108.0
+            }
+        }
+    ]
+}

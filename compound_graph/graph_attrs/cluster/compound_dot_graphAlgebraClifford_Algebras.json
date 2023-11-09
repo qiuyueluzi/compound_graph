@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SYMSP_1",
+                "name": "SYMSP_1",
+                "href": "http://mizar.org/version/current/html/symsp_1.html"
+            },
+            "position": {
+                "x": 331.46999999999997,
+                "y": 108.0
+            }
+        }
+    ]
+}

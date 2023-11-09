@@ -1,0 +1,90 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_2",
+                "name": "MOD_2",
+                "href": "http://mizar.org/version/current/html/mod_2.html"
+            },
+            "position": {
+                "x": 269.07599999999996,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSEQ_1",
+                "name": "ALGSEQ_1",
+                "href": "http://mizar.org/version/current/html/algseq_1.html"
+            },
+            "position": {
+                "x": 1013.0999999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_3",
+                "name": "MOD_3",
+                "href": "http://mizar.org/version/current/html/mod_3.html"
+            },
+            "position": {
+                "x": 1793.1000000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LMOD_6",
+                "name": "LMOD_6",
+                "href": "http://mizar.org/version/current/html/lmod_6.html"
+            },
+            "position": {
+                "x": 1793.1000000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_4",
+                "name": "MOD_4",
+                "href": "http://mizar.org/version/current/html/mod_4.html"
+            },
+            "position": {
+                "x": 2477.1000000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LMOD_7",
+                "name": "LMOD_7",
+                "href": "http://mizar.org/version/current/html/lmod_7.html"
+            },
+            "position": {
+                "x": 1793.1000000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LMOD_6",
+                "target": "MOD_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LMOD_7",
+                "target": "LMOD_6"
+            }
+        }
+    ]
+}

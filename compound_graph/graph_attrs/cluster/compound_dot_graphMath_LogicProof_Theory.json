@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLSET1",
+                "name": "WELLSET1",
+                "href": "http://mizar.org/version/current/html/wellset1.html"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 108.0
+            }
+        }
+    ]
+}

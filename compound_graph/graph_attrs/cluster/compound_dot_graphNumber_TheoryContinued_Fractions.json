@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL_3",
+                "name": "REAL_3",
+                "href": "http://mizar.org/version/current/html/real_3.html"
+            },
+            "position": {
+                "x": 280.776,
+                "y": 108.0
+            }
+        }
+    ]
+}

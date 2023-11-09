@@ -1,0 +1,130 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_1",
+                "name": "CARD_1",
+                "href": "http://mizar.org/version/current/html/card_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_3",
+                "name": "CARD_3",
+                "href": "http://mizar.org/version/current/html/card_3.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_2",
+                "name": "CARD_2",
+                "href": "http://mizar.org/version/current/html/card_2.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_4",
+                "name": "CARD_4",
+                "href": "http://mizar.org/version/current/html/card_4.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_5",
+                "name": "CARD_5",
+                "href": "http://mizar.org/version/current/html/card_5.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_FIL",
+                "name": "CARD_FIL",
+                "href": "http://mizar.org/version/current/html/card_fil.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_LAR",
+                "name": "CARD_LAR",
+                "href": "http://mizar.org/version/current/html/card_lar.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_3",
+                "target": "CARD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_2",
+                "target": "CARD_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_4",
+                "target": "CARD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_5",
+                "target": "CARD_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_FIL",
+                "target": "CARD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARD_LAR",
+                "target": "CARD_FIL"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INCSP_1",
+                "name": "INCSP_1",
+                "href": "http://mizar.org/version/current/html/incsp_1.html"
+            },
+            "position": {
+                "x": 311.97,
+                "y": 108.0
+            }
+        }
+    ]
+}

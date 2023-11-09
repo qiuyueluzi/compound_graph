@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_1",
+                "name": "SERIES_1",
+                "href": "http://mizar.org/version/current/html/series_1.html"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        }
+    ]
+}

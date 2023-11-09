@@ -1,0 +1,28 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PYTHTRIP",
+                "name": "PYTHTRIP",
+                "href": "http://mizar.org/version/current/html/pythtrip.html"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_LAT",
+                "name": "NAT_LAT",
+                "href": "http://mizar.org/version/current/html/nat_lat.html"
+            },
+            "position": {
+                "x": 1128.84,
+                "y": 108.0
+            }
+        }
+    ]
+}

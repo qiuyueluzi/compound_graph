@@ -1,0 +1,28 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SQUARE_1",
+                "name": "SQUARE_1",
+                "href": "http://mizar.org/version/current/html/square_1.html"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_1",
+                "name": "INT_1",
+                "href": "http://mizar.org/version/current/html/int_1.html"
+            },
+            "position": {
+                "x": 1078.44,
+                "y": 108.0
+            }
+        }
+    ]
+}

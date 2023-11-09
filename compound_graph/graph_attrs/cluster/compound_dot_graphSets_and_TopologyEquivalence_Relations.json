@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PARTIT1",
+                "name": "PARTIT1",
+                "href": "http://mizar.org/version/current/html/partit1.html"
+            },
+            "position": {
+                "x": 300.276,
+                "y": 108.0
+            }
+        }
+    ]
+}

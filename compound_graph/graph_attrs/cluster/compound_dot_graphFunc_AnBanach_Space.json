@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALI2",
+                "name": "ALI2",
+                "href": "http://mizar.org/version/current/html/ali2.html"
+            },
+            "position": {
+                "x": 194.982,
+                "y": 108.0
+            }
+        }
+    ]
+}

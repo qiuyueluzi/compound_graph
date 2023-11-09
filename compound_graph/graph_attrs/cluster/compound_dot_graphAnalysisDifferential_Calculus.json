@@ -1,0 +1,462 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_1",
+                "name": "FDIFF_1",
+                "href": "http://mizar.org/version/current/html/fdiff_1.html"
+            },
+            "position": {
+                "x": 2518.2,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROLLE",
+                "name": "ROLLE",
+                "href": "http://mizar.org/version/current/html/rolle.html"
+            },
+            "position": {
+                "x": 2518.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC1",
+                "name": "LIMFUNC1",
+                "href": "http://mizar.org/version/current/html/limfunc1.html"
+            },
+            "position": {
+                "x": 3406.2000000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC2",
+                "name": "LIMFUNC2",
+                "href": "http://mizar.org/version/current/html/limfunc2.html"
+            },
+            "position": {
+                "x": 3550.2000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC3",
+                "name": "LIMFUNC3",
+                "href": "http://mizar.org/version/current/html/limfunc3.html"
+            },
+            "position": {
+                "x": 3550.2000000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIMFUNC4",
+                "name": "LIMFUNC4",
+                "href": "http://mizar.org/version/current/html/limfunc4.html"
+            },
+            "position": {
+                "x": 3562.2000000000003,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "L_HOSPIT",
+                "name": "L_HOSPIT",
+                "href": "http://mizar.org/version/current/html/l_hospit.html"
+            },
+            "position": {
+                "x": 2722.2,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_2",
+                "name": "FDIFF_2",
+                "href": "http://mizar.org/version/current/html/fdiff_2.html"
+            },
+            "position": {
+                "x": 2758.2000000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_3",
+                "name": "FDIFF_3",
+                "href": "http://mizar.org/version/current/html/fdiff_3.html"
+            },
+            "position": {
+                "x": 2758.2000000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAYLOR_1",
+                "name": "TAYLOR_1",
+                "href": "http://mizar.org/version/current/html/taylor_1.html"
+            },
+            "position": {
+                "x": 1756.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_4",
+                "name": "FDIFF_4",
+                "href": "http://mizar.org/version/current/html/fdiff_4.html"
+            },
+            "position": {
+                "x": 1732.2,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_5",
+                "name": "FDIFF_5",
+                "href": "http://mizar.org/version/current/html/fdiff_5.html"
+            },
+            "position": {
+                "x": 304.176,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_6",
+                "name": "FDIFF_6",
+                "href": "http://mizar.org/version/current/html/fdiff_6.html"
+            },
+            "position": {
+                "x": 1732.2,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_7",
+                "name": "FDIFF_7",
+                "href": "http://mizar.org/version/current/html/fdiff_7.html"
+            },
+            "position": {
+                "x": 1018.1999999999999,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_8",
+                "name": "FDIFF_8",
+                "href": "http://mizar.org/version/current/html/fdiff_8.html"
+            },
+            "position": {
+                "x": 1018.1999999999999,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAYLOR_2",
+                "name": "TAYLOR_2",
+                "href": "http://mizar.org/version/current/html/taylor_2.html"
+            },
+            "position": {
+                "x": 1990.2,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_9",
+                "name": "FDIFF_9",
+                "href": "http://mizar.org/version/current/html/fdiff_9.html"
+            },
+            "position": {
+                "x": 1018.1999999999999,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_10",
+                "name": "FDIFF_10",
+                "href": "http://mizar.org/version/current/html/fdiff_10.html"
+            },
+            "position": {
+                "x": 1018.1999999999999,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HFDIFF_1",
+                "name": "HFDIFF_1",
+                "href": "http://mizar.org/version/current/html/hfdiff_1.html"
+            },
+            "position": {
+                "x": 1780.2,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_1",
+                "name": "DIFF_1",
+                "href": "http://mizar.org/version/current/html/diff_1.html"
+            },
+            "position": {
+                "x": 2506.2,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_2",
+                "name": "DIFF_2",
+                "href": "http://mizar.org/version/current/html/diff_2.html"
+            },
+            "position": {
+                "x": 2116.2000000000003,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_3",
+                "name": "DIFF_3",
+                "href": "http://mizar.org/version/current/html/diff_3.html"
+            },
+            "position": {
+                "x": 2116.2000000000003,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_4",
+                "name": "DIFF_4",
+                "href": "http://mizar.org/version/current/html/diff_4.html"
+            },
+            "position": {
+                "x": 2116.2000000000003,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROLLE",
+                "target": "FDIFF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC2",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC3",
+                "target": "LIMFUNC2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LIMFUNC4",
+                "target": "LIMFUNC3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "L_HOSPIT",
+                "target": "LIMFUNC3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "L_HOSPIT",
+                "target": "ROLLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_2",
+                "target": "LIMFUNC1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_2",
+                "target": "ROLLE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_3",
+                "target": "LIMFUNC2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_3",
+                "target": "FDIFF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_1",
+                "target": "FDIFF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_4",
+                "target": "TAYLOR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_5",
+                "target": "TAYLOR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_6",
+                "target": "FDIFF_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_7",
+                "target": "FDIFF_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_8",
+                "target": "FDIFF_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_8",
+                "target": "FDIFF_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TAYLOR_2",
+                "target": "TAYLOR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_9",
+                "target": "FDIFF_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FDIFF_10",
+                "target": "FDIFF_9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HFDIFF_1",
+                "target": "FDIFF_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HFDIFF_1",
+                "target": "TAYLOR_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_2",
+                "target": "DIFF_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_2",
+                "target": "FDIFF_9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_3",
+                "target": "DIFF_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_4",
+                "target": "DIFF_3"
+            }
+        }
+    ]
+}

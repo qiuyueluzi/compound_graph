@@ -1,0 +1,54 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WELLORD1",
+                "name": "WELLORD1",
+                "href": "http://mizar.org/version/current/html/wellord1.html"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDERS_2",
+                "name": "ORDERS_2",
+                "href": "http://mizar.org/version/current/html/orders_2.html"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDERS_3",
+                "name": "ORDERS_3",
+                "href": "http://mizar.org/version/current/html/orders_3.html"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDERS_2",
+                "target": "WELLORD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDERS_3",
+                "target": "ORDERS_2"
+            }
+        }
+    ]
+}

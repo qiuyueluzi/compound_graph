@@ -1,0 +1,201 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS",
+                "name": "SIN_COS",
+                "href": "http://mizar.org/version/current/html/sin_cos.html"
+            },
+            "position": {
+                "x": 2208.84,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS2",
+                "name": "SIN_COS2",
+                "href": "http://mizar.org/version/current/html/sin_cos2.html"
+            },
+            "position": {
+                "x": 1602.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS3",
+                "name": "SIN_COS3",
+                "href": "http://mizar.org/version/current/html/sin_cos3.html"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS4",
+                "name": "SIN_COS4",
+                "href": "http://mizar.org/version/current/html/sin_cos4.html"
+            },
+            "position": {
+                "x": 2820.8399999999997,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLEX2",
+                "name": "COMPLEX2",
+                "href": "http://mizar.org/version/current/html/complex2.html"
+            },
+            "position": {
+                "x": 2028.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS6",
+                "name": "SIN_COS6",
+                "href": "http://mizar.org/version/current/html/sin_cos6.html"
+            },
+            "position": {
+                "x": 2004.8400000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS7",
+                "name": "SIN_COS7",
+                "href": "http://mizar.org/version/current/html/sin_cos7.html"
+            },
+            "position": {
+                "x": 1170.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS8",
+                "name": "SIN_COS8",
+                "href": "http://mizar.org/version/current/html/sin_cos8.html"
+            },
+            "position": {
+                "x": 1170.84,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS9",
+                "name": "SIN_COS9",
+                "href": "http://mizar.org/version/current/html/sin_cos9.html"
+            },
+            "position": {
+                "x": 1998.84,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SINCOS10",
+                "name": "SINCOS10",
+                "href": "http://mizar.org/version/current/html/sincos10.html"
+            },
+            "position": {
+                "x": 2826.84,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS2",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS3",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS4",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPLEX2",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS6",
+                "target": "COMPLEX2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS7",
+                "target": "SIN_COS2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS8",
+                "target": "SIN_COS7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS9",
+                "target": "SIN_COS6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIN_COS9",
+                "target": "SIN_COS4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SINCOS10",
+                "target": "SIN_COS6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SINCOS10",
+                "target": "SIN_COS4"
+            }
+        }
+    ]
+}

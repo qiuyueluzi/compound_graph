@@ -1,0 +1,192 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBRD10",
+                "name": "GOBRD10",
+                "href": "http://mizar.org/version/current/html/gobrd10.html"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICES",
+                "name": "LATTICES",
+                "href": "http://mizar.org/version/current/html/lattices.html"
+            },
+            "position": {
+                "x": 2357.04,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE2",
+                "name": "LATTICE2",
+                "href": "http://mizar.org/version/current/html/lattice2.html"
+            },
+            "position": {
+                "x": 1955.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL_LAT",
+                "name": "REAL_LAT",
+                "href": "http://mizar.org/version/current/html/real_lat.html"
+            },
+            "position": {
+                "x": 2759.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HEYTING1",
+                "name": "HEYTING1",
+                "href": "http://mizar.org/version/current/html/heyting1.html"
+            },
+            "position": {
+                "x": 1127.04,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE3",
+                "name": "LATTICE3",
+                "href": "http://mizar.org/version/current/html/lattice3.html"
+            },
+            "position": {
+                "x": 1955.04,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE4",
+                "name": "LATTICE4",
+                "href": "http://mizar.org/version/current/html/lattice4.html"
+            },
+            "position": {
+                "x": 2759.04,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE5",
+                "name": "LATTICE5",
+                "href": "http://mizar.org/version/current/html/lattice5.html"
+            },
+            "position": {
+                "x": 1151.04,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATROID0",
+                "name": "MATROID0",
+                "href": "http://mizar.org/version/current/html/matroid0.html"
+            },
+            "position": {
+                "x": 3587.0400000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE6",
+                "name": "LATTICE6",
+                "href": "http://mizar.org/version/current/html/lattice6.html"
+            },
+            "position": {
+                "x": 1955.04,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE7",
+                "name": "LATTICE7",
+                "href": "http://mizar.org/version/current/html/lattice7.html"
+            },
+            "position": {
+                "x": 2759.04,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE2",
+                "target": "LATTICES"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REAL_LAT",
+                "target": "LATTICES"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HEYTING1",
+                "target": "LATTICE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE3",
+                "target": "LATTICE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE4",
+                "target": "LATTICE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE5",
+                "target": "LATTICE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE6",
+                "target": "LATTICE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE7",
+                "target": "LATTICE3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_2",
+                "name": "FINSEQ_2",
+                "href": "http://mizar.org/version/current/html/finseq_2.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQOP",
+                "name": "FINSEQOP",
+                "href": "http://mizar.org/version/current/html/finseqop.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_3",
+                "name": "FINSEQ_3",
+                "href": "http://mizar.org/version/current/html/finseq_3.html"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMSEQ_1",
+                "name": "COMSEQ_1",
+                "href": "http://mizar.org/version/current/html/comseq_1.html"
+            },
+            "position": {
+                "x": 1226.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQOP",
+                "target": "FINSEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_3",
+                "target": "FINSEQOP"
+            }
+        }
+    ]
+}

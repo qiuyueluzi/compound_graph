@@ -1,0 +1,230 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XBOOLEAN",
+                "name": "XBOOLEAN",
+                "href": "http://mizar.org/version/current/html/xboolean.html"
+            },
+            "position": {
+                "x": 1518.2399999999998,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MBOOLEAN",
+                "name": "MBOOLEAN",
+                "href": "http://mizar.org/version/current/html/mboolean.html"
+            },
+            "position": {
+                "x": 2862.2400000000002,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_1",
+                "name": "BVFUNC_1",
+                "href": "http://mizar.org/version/current/html/bvfunc_1.html"
+            },
+            "position": {
+                "x": 1518.2399999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_2",
+                "name": "BVFUNC_2",
+                "href": "http://mizar.org/version/current/html/bvfunc_2.html"
+            },
+            "position": {
+                "x": 1086.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_3",
+                "name": "BVFUNC_3",
+                "href": "http://mizar.org/version/current/html/bvfunc_3.html"
+            },
+            "position": {
+                "x": 378.264,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_4",
+                "name": "BVFUNC_4",
+                "href": "http://mizar.org/version/current/html/bvfunc_4.html"
+            },
+            "position": {
+                "x": 1242.2399999999998,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_5",
+                "name": "BVFUNC_5",
+                "href": "http://mizar.org/version/current/html/bvfunc_5.html"
+            },
+            "position": {
+                "x": 1950.2400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC_6",
+                "name": "BVFUNC_6",
+                "href": "http://mizar.org/version/current/html/bvfunc_6.html"
+            },
+            "position": {
+                "x": 1950.2400000000002,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC11",
+                "name": "BVFUNC11",
+                "href": "http://mizar.org/version/current/html/bvfunc11.html"
+            },
+            "position": {
+                "x": 1080.24,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC14",
+                "name": "BVFUNC14",
+                "href": "http://mizar.org/version/current/html/bvfunc14.html"
+            },
+            "position": {
+                "x": 1074.24,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BVFUNC25",
+                "name": "BVFUNC25",
+                "href": "http://mizar.org/version/current/html/bvfunc25.html"
+            },
+            "position": {
+                "x": 1956.24,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROBBINS1",
+                "name": "ROBBINS1",
+                "href": "http://mizar.org/version/current/html/robbins1.html"
+            },
+            "position": {
+                "x": 3750.24,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMFORM",
+                "name": "NORMFORM",
+                "href": "http://mizar.org/version/current/html/normform.html"
+            },
+            "position": {
+                "x": 4656.24,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_1",
+                "target": "XBOOLEAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_2",
+                "target": "BVFUNC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_3",
+                "target": "BVFUNC_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_4",
+                "target": "BVFUNC_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_5",
+                "target": "BVFUNC_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_6",
+                "target": "BVFUNC_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC_6",
+                "target": "BVFUNC_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC11",
+                "target": "BVFUNC_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC14",
+                "target": "BVFUNC11"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BVFUNC25",
+                "target": "BVFUNC_6"
+            }
+        }
+    ]
+}

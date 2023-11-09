@@ -1,0 +1,270 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCOP_1",
+                "name": "FUNCOP_1",
+                "href": "http://mizar.org/version/current/html/funcop_1.html"
+            },
+            "position": {
+                "x": 2246.6400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_1",
+                "name": "CAT_1",
+                "href": "http://mizar.org/version/current/html/cat_1.html"
+            },
+            "position": {
+                "x": 1904.6399999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_2",
+                "name": "CAT_2",
+                "href": "http://mizar.org/version/current/html/cat_2.html"
+            },
+            "position": {
+                "x": 1616.6399999999999,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRCAT_1",
+                "name": "GRCAT_1",
+                "href": "http://mizar.org/version/current/html/grcat_1.html"
+            },
+            "position": {
+                "x": 632.64,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "OPPCAT_1",
+                "name": "OPPCAT_1",
+                "href": "http://mizar.org/version/current/html/oppcat_1.html"
+            },
+            "position": {
+                "x": 2216.64,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_3",
+                "name": "CAT_3",
+                "href": "http://mizar.org/version/current/html/cat_3.html"
+            },
+            "position": {
+                "x": 2270.6400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NATTRA_1",
+                "name": "NATTRA_1",
+                "href": "http://mizar.org/version/current/html/nattra_1.html"
+            },
+            "position": {
+                "x": 2348.64,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_5",
+                "name": "CAT_5",
+                "href": "http://mizar.org/version/current/html/cat_5.html"
+            },
+            "position": {
+                "x": 2144.6400000000003,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_1",
+                "name": "ALTCAT_1",
+                "href": "http://mizar.org/version/current/html/altcat_1.html"
+            },
+            "position": {
+                "x": 2594.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ISOCAT_1",
+                "name": "ISOCAT_1",
+                "href": "http://mizar.org/version/current/html/isocat_1.html"
+            },
+            "position": {
+                "x": 2828.6400000000003,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINGCAT1",
+                "name": "RINGCAT1",
+                "href": "http://mizar.org/version/current/html/ringcat1.html"
+            },
+            "position": {
+                "x": 362.67,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODCAT_1",
+                "name": "MODCAT_1",
+                "href": "http://mizar.org/version/current/html/modcat_1.html"
+            },
+            "position": {
+                "x": 1214.6399999999999,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMMACAT",
+                "name": "COMMACAT",
+                "href": "http://mizar.org/version/current/html/commacat.html"
+            },
+            "position": {
+                "x": 1472.64,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ISOCAT_2",
+                "name": "ISOCAT_2",
+                "href": "http://mizar.org/version/current/html/isocat_2.html"
+            },
+            "position": {
+                "x": 2828.6400000000003,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_1",
+                "target": "FUNCOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_2",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRCAT_1",
+                "target": "CAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "OPPCAT_1",
+                "target": "CAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_3",
+                "target": "OPPCAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NATTRA_1",
+                "target": "CAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NATTRA_1",
+                "target": "CAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CAT_5",
+                "target": "NATTRA_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALTCAT_1",
+                "target": "FUNCOP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ISOCAT_1",
+                "target": "NATTRA_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINGCAT1",
+                "target": "GRCAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MODCAT_1",
+                "target": "GRCAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMMACAT",
+                "target": "CAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ISOCAT_2",
+                "target": "ISOCAT_1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RCOMP_1",
+                "name": "RCOMP_1",
+                "href": "http://mizar.org/version/current/html/rcomp_1.html"
+            },
+            "position": {
+                "x": 837.5400000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RFUNCT_2",
+                "name": "RFUNCT_2",
+                "href": "http://mizar.org/version/current/html/rfunct_2.html"
+            },
+            "position": {
+                "x": 837.5400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PREPOWER",
+                "name": "PREPOWER",
+                "href": "http://mizar.org/version/current/html/prepower.html"
+            },
+            "position": {
+                "x": 405.56399999999996,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POWER",
+                "name": "POWER",
+                "href": "http://mizar.org/version/current/html/power.html"
+            },
+            "position": {
+                "x": 405.56399999999996,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQFUNC",
+                "name": "SEQFUNC",
+                "href": "http://mizar.org/version/current/html/seqfunc.html"
+            },
+            "position": {
+                "x": 1275.54,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RFUNCT_2",
+                "target": "RCOMP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PREPOWER",
+                "target": "RFUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "POWER",
+                "target": "PREPOWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SEQFUNC",
+                "target": "RFUNCT_2"
+            }
+        }
+    ]
+}

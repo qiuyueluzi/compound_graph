@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LANG1",
+                "name": "LANG1",
+                "href": "http://mizar.org/version/current/html/lang1.html"
+            },
+            "position": {
+                "x": 265.176,
+                "y": 108.0
+            }
+        }
+    ]
+}
