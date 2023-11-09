@@ -1,4 +1,0 @@
-pythtrip
-nat_lat
-pythtrip
-nat_lat

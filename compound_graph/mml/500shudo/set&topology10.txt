@@ -1,4 +1,0 @@
-square_1
-int_1
-square_1
-int_1

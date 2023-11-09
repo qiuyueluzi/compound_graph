@@ -1,9 +1,0 @@
-topreal2
-topreal4
-jordan4
-sprect_2
-jordan6
-jgraph_4
-jordan12
-euclid13
-gtarski4

@@ -1,8 +1,0 @@
-int_1
-wsierp_1
-pythtrip
-numeral1
-nat_5
-gaussint
-basel_2
-number01

@@ -1,6 +1,0 @@
-algstr_1
-algstr_2
-algstr_3
-algstr_1
-algstr_2
-algstr_3

@@ -1,3 +1,0 @@
-newton02
-pells_eq
-hilb10_4

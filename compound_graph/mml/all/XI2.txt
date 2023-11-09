@@ -1,4 +1,0 @@
-cfunct_1
-cfcont_1
-mesfun6c
-cfdiff_2

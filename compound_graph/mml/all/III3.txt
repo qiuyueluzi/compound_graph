@@ -1,9 +1,0 @@
-msualg_3
-matrix_7
-group_10
-matrix_9
-matrix11
-laplace
-matrix13
-quatern3
-aofa_a00

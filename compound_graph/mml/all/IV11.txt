@@ -1,4 +1,0 @@
-pepin
-int_3
-int_5
-nat_6

@@ -1,8 +1,0 @@
-finseq_2
-finseqop
-finseq_3
-comseq_1
-finseq_2
-finseqop
-finseq_3
-comseq_1

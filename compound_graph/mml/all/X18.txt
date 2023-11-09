@@ -1,2 +1,0 @@
-series_1
-rinfsup1

@@ -1,3 +1,0 @@
-binom
-ringder1
-ideal_2
