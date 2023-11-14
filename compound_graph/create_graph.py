@@ -109,7 +109,7 @@ def create_nodes(node2targets):
 
     # リンクの作成
     for n in nodes:
-        n.href = "http://mizar.org/version/current/html/" + n.name.lower() + '.html'
+        n.href = "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/" + n.name.lower()
 
     # targetsの作成
     # k: ノードの名前(str)、v: ノードkのターゲットノードのset[str]

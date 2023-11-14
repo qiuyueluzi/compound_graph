@@ -723,7 +723,16 @@ $(".color").click(function() {
     // resetボタンでグラフを初期状態に戻す
     $(document).ready(function(){
         $("#reset").click(function(){
-            location.reload();
+            reset_elements_style(cy);
+            // 以下のコードを追記
+            cy.nodes().forEach(function(node){ // 全ノードを走査
+                var classes = node.classes(); // ノードのクラスを取得
+                classes.forEach(function(cls){ // クラスを一つずつチェック
+                    if (cls.startsWith("cluster_")){ // クラスが「cluster_」から始まる場合
+                        node.removeClass(cls); // そのクラスを取り除く
+                    }
+                });
+            });
         });
     });
     })
