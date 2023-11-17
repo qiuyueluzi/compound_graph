@@ -328,6 +328,10 @@ $(function(){
     // 強調表示する祖先、子孫の世代数の初期化
     let ancestor_generations = 1;
     let descendant_generations = 1;
+
+    cy.on("zoom", function(e){
+        fontsize(common);
+    })
     
     /* 検索機能の追加 */
     // 全ノード名の取得
@@ -676,38 +680,36 @@ $(function(){
         $(".palette").data("buttonId", buttonId);
     });
     
-
-
-// カラーパレットの色をクリックしたときの処理
-$(".color").click(function() {
-    // クリックした色のカラーコードを取得する
-    var rgb = $(this).css("background-color").toString(); 
-    rgb = rgb.replace("rgb(", ""); rgb = rgb.replace(")", ""); 
-    rgb = rgb.split(","); 
-    var colorCode = "#";
-    for(var i = 0; i < 3; i++){
-      var hex = parseInt(rgb[i]).toString(16); //10進数を16進数に変換
-      if(hex.length == 1){ //1桁の場合は0を足す
-        hex = "0" + hex;
-      }
-      colorCode += hex; //カラーコードに追加
-    }
-    // カラーパレットからボタンのidを取得する
-    var buttonId = $(".palette").data("buttonId");
-    // カラーパレットを非表示にする
-    $(".palette").hide();
-    if (cy.$(".cluster_" + colorCode.slice(1)).length > 0) {
-        // その全ての既存のノードのクラスを除去する
-        cy.$(".cluster_" + colorCode.slice(1)).removeClass("cluster_" + colorCode.slice(1));
-    }
-    // idがボタンのidから始まる名前のノードを検索する
-    var nodes = cy.$("[id^='" + buttonId + "']");
-    // ノードにクラスを追加する
-    nodes.addClass("cluster_" + colorCode.slice(1));
     
+    // カラーパレットの色をクリックしたときの処理
+    $(".color").click(function() {
+        // クリックした色のカラーコードを取得する
+        var rgb = $(this).css("background-color").toString(); 
+        rgb = rgb.replace("rgb(", ""); rgb = rgb.replace(")", ""); 
+        rgb = rgb.split(","); 
+        var colorCode = "#";
+        for(var i = 0; i < 3; i++){
+            var hex = parseInt(rgb[i]).toString(16); //10進数を16進数に変換
+            if(hex.length == 1){ //1桁の場合は0を足す
+                hex = "0" + hex;
+            }
+            colorCode += hex; //カラーコードに追加
+        }
+        // カラーパレットからボタンのidを取得する
+        var buttonId = $(".palette").data("buttonId");
+        // カラーパレットを非表示にする
+        $(".palette").hide();
+        if (cy.$(".cluster_" + colorCode.slice(1)).length > 0) {
+            // その全ての既存のノードのクラスを除去する
+            cy.$(".cluster_" + colorCode.slice(1)).removeClass("cluster_" + colorCode.slice(1));
+        }
+        // idがボタンのidから始まる名前のノードを検索する
+        var nodes = cy.$("[id^='" + buttonId + "']");
+        // ノードにクラスを追加する
+        nodes.addClass("cluster_" + colorCode.slice(1));
+        
+    });
 
-
-});
 
 
     // カラーパレット以外の場所がクリックされた時の処理
@@ -1038,5 +1040,27 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 level2Item.insertBefore(button, level2Item.firstChild);
             }
         }
+    }
+}
+
+function fontsize(nodes){
+    let size;
+    if(cy.zoom() <= 0.025){
+        size = 500;
+    }
+    else if(cy.zoom() > 0.025 && cy.zoom() <= 0.05){
+        size = 350;
+    }
+    else if(cy.zoom() > 0.05 && cy.zoom() <=0.07){
+        size = 250;
+    }
+    else if(cy.zoom() > 0.07){
+        size = 150;
+    }
+    if(cy.$(nodes[0]).style("font-size") != size + "px"){
+        cy.style().selector(nodes).style({
+            'font-size': size
+        })
+        .update()
     }
 }
