@@ -13,8 +13,9 @@
     bottom: 0;
     right: 0;
     width: 220px;
-    height: 800px;
+    height: auto;
     overflow: auto;
+    resize: horizontal;
 }
 
 button:active{

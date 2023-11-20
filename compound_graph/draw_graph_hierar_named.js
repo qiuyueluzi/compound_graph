@@ -1064,3 +1064,20 @@ function fontsize(nodes){
         .update()
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    //要素のリサイズイベント取得
+    const observer = new MutationObserver(() => {
+      const resizeable = document.getElementById('side')
+      let graph = document.getElementById('graph');
+      //要素のサイズ確認
+      const width = resizeable.getBoundingClientRect().width
+      const height = resizeable.getBoundingClientRect().height
+      console.log('size(w,h): ', width, height)
+      graph.style.left = width + "px";
+    })
+    observer.observe(side, {
+      attriblutes: true,
+      attributeFilter: ["style"]
+    })
+  }, false)
