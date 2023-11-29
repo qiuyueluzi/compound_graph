@@ -53,7 +53,7 @@ def split_roman_and_num(s):
         return 'Error: nothing number'    
     return (roman_part, num_part)
 
-graph_json = open('graph_attrs/mml_classification_gptall.json', 'r')
+graph_json = open('graph_attrs/mml_classification_1403.json', 'r')
 graph_objects = json.load(graph_json)
 
 for obj in graph_objects["mml_classification"]:
@@ -68,7 +68,7 @@ for obj in graph_objects["mml_classification"]:
         obj["directory"] = "/"+roman_to_str[roman]+number_to_str[roman][num]
 
 
-with open('graph_attrs/mml_classification_gpt_all_replace.json', 'w') as f :
+with open('graph_attrs/mml_classification_1403_replace.json', 'w') as f :
     json.dump(graph_objects, f, indent=4)
 
 print(graph_objects)

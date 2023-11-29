@@ -1,0 +1,33 @@
+エクセルファイルにarticleの全ての階層を格納した"directory"という列を作る(文字列の頭と階層の区切り毎に半角スラッシュを入れて)
+何とかしてjsonファイル形式にする
+※何とか→アプリ版excelやリブレオフィスを使ってcsvを作り，toJson.htmlでjsonに変換，新しいjsonファイルにその内容をペースト(file1と呼称)
+
+{"mml_classification":[{"mml-name":"article1", "directory":"/dir1"},{...}]}
+こういう感じの形式のjsonにする(mml-name,directory以外のキーが残っていてもよい)
+
+num2name_mml.pyの入力ファイル名をfile1に，出力ファイル名を適宜決めて実行
+→岩波版のアラビア，ローマ数字が英名に変換される(file2)
+
+
+create_mmltop.pyの入力ファイルをfile2にして実行(既にmml/下にtxtファイルがあれば，適当にフォルダ内にまとめる)
+→分類毎のテキストファイル達が出来上がる
+
+分類したarticle名の一覧を.txtで作る(txt1)
+こういう感じに
+```
+tarski
+xboole_0
+boole
+```
+create_graph.pyの末尾のmainの変数内の文字列をtxt1のものにする(拡張子も込みで)，出力ファイル名も適宜決める
+
+create_graph.pyを実行(compound_dot_graph,CDG)
+create_comgraph.pyのgraph_jsonをCDGに，class_jsonをfile2に　出力ファイル名もよしなに
+create_comgraph.pyを実行(graph_classが出来上がる)するとターミナルに何かごちゃごちゃ出力されるので，それをcreate_compound_hierarchical.pyの220行目あたりのdirectoryに書き換える
+
+create_compound_hierarchical.pyの入力をgraph_class，出力を適宜決めて実行(graphHie)
+
+draw_graphのjsファイルのwhenで読むファイルをgraphHieにしてhtml実行
+
+結果
+グラフになる！
