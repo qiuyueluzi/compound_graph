@@ -3,82 +3,211 @@
         {
             "group": "nodes",
             "data": {
-                "id": "QUIN_1",
-                "name": "QUIN_1",
-                "href": "http://mizar.org/version/current/html/quin_1.html"
+                "id": "SUPINF_1",
+                "name": "SUPINF_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/supinf_1"
             },
             "position": {
-                "x": 284.676,
+                "x": 354.87,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NEWTON",
-                "name": "NEWTON",
-                "href": "http://mizar.org/version/current/html/newton.html"
+                "id": "RVSUM_1",
+                "name": "RVSUM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rvsum_1"
             },
             "position": {
-                "x": 1274.6999999999998,
+                "x": 2934.84,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NAT_3",
-                "name": "NAT_3",
-                "href": "http://mizar.org/version/current/html/nat_3.html"
+                "id": "POLYNOM3",
+                "name": "POLYNOM3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polynom3"
             },
             "position": {
-                "x": 920.6999999999999,
+                "x": 1212.84,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NAT_4",
-                "name": "NAT_4",
-                "href": "http://mizar.org/version/current/html/nat_4.html"
+                "id": "POLYNOM5",
+                "name": "POLYNOM5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polynom5"
             },
             "position": {
-                "x": 920.6999999999999,
+                "x": 1212.84,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NTALGO_1",
-                "name": "NTALGO_1",
-                "href": "http://mizar.org/version/current/html/ntalgo_1.html"
+                "id": "GROUP_8",
+                "name": "GROUP_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_8"
             },
             "position": {
-                "x": 1634.7,
+                "x": 2052.8399999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMYCIEL",
+                "name": "SCMYCIEL",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmyciel"
+            },
+            "position": {
+                "x": 2082.84,
                 "y": 540.0
             }
         },
         {
-            "group": "edges",
+            "group": "nodes",
             "data": {
-                "source": "NAT_3",
-                "target": "NEWTON"
+                "id": "MMLQUER2",
+                "name": "MMLQUER2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mmlquer2"
+            },
+            "position": {
+                "x": 2916.8399999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINANCE2",
+                "name": "FINANCE2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finance2"
+            },
+            "position": {
+                "x": 3810.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EULRPART",
+                "name": "EULRPART",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/eulrpart"
+            },
+            "position": {
+                "x": 2934.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_2",
+                "name": "ASYMPT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/asympt_2"
+            },
+            "position": {
+                "x": 3780.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARDFIL4",
+                "name": "CARDFIL4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cardfil4"
+            },
+            "position": {
+                "x": 4650.84,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR23",
+                "name": "INTEGR23",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr23"
+            },
+            "position": {
+                "x": 4620.84,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_8",
+                "name": "NDIFF_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_8"
+            },
+            "position": {
+                "x": 5430.839999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILB10_2",
+                "name": "HILB10_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilb10_2"
+            },
+            "position": {
+                "x": 6192.599999999999,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "NAT_4",
-                "target": "NAT_3"
+                "source": "POLYNOM3",
+                "target": "RVSUM_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "NTALGO_1",
-                "target": "NEWTON"
+                "source": "POLYNOM5",
+                "target": "POLYNOM3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMYCIEL",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EULRPART",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ASYMPT_2",
+                "target": "RVSUM_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR23",
+                "target": "RVSUM_1"
             }
         }
     ]

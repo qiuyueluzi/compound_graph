@@ -3,12 +3,60 @@
         {
             "group": "nodes",
             "data": {
-                "id": "POLYNOM1",
-                "name": "POLYNOM1",
-                "href": "http://mizar.org/version/current/html/polynom1.html"
+                "id": "MATRLIN",
+                "name": "MATRLIN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrlin"
             },
             "position": {
-                "x": 393.86400000000003,
+                "x": 335.37000000000006,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIFORM3",
+                "name": "UNIFORM3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/uniform3"
+            },
+            "position": {
+                "x": 1175.4,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANPROJ_9",
+                "name": "ANPROJ_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/anproj_9"
+            },
+            "position": {
+                "x": 2033.3999999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DUALSP05",
+                "name": "DUALSP05",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dualsp05"
+            },
+            "position": {
+                "x": 2867.4,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZIMPL1",
+                "name": "FUZIMPL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuzimpl1"
+            },
+            "position": {
+                "x": 3713.4,
                 "y": 108.0
             }
         }

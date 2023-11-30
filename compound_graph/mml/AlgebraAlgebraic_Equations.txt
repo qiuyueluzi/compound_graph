@@ -1,0 +1,11 @@
+power
+complex2
+polyeq_2
+polyeq_4
+zmodlat2
+ring_5
+gtarski3
+moebius3
+nomin_4
+nomin_6
+hilb10_4

@@ -3,37 +3,49 @@
         {
             "group": "nodes",
             "data": {
-                "id": "MEMBERED",
-                "name": "MEMBERED",
-                "href": "http://mizar.org/version/current/html/membered.html"
+                "id": "RAT_1",
+                "name": "RAT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rat_1"
             },
             "position": {
-                "x": 1280.3400000000001,
-                "y": 540.0
+                "x": 932.3399999999999,
+                "y": 4428.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "REWRITE1",
-                "name": "REWRITE1",
-                "href": "http://mizar.org/version/current/html/rewrite1.html"
+                "id": "FINSEQ_5",
+                "name": "FINSEQ_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finseq_5"
             },
             "position": {
-                "x": 2468.34,
-                "y": 5292.0
+                "x": 3656.3399999999997,
+                "y": 3132.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ARROW",
-                "name": "ARROW",
-                "href": "http://mizar.org/version/current/html/arrow.html"
+                "id": "FDIFF_9",
+                "name": "FDIFF_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fdiff_9"
             },
             "position": {
-                "x": 3236.34,
-                "y": 5292.0
+                "x": 2474.34,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZFREFLE1",
+                "name": "ZFREFLE1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zfrefle1"
+            },
+            "position": {
+                "x": 3254.3399999999997,
+                "y": 4428.0
             }
         },
         {
@@ -41,10 +53,10 @@
             "data": {
                 "id": "QC_LANG1",
                 "name": "QC_LANG1",
-                "href": "http://mizar.org/version/current/html/qc_lang1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/qc_lang1"
             },
             "position": {
-                "x": 374.36400000000003,
+                "x": 800.3399999999999,
                 "y": 108.0
             }
         },
@@ -53,10 +65,10 @@
             "data": {
                 "id": "QC_LANG2",
                 "name": "QC_LANG2",
-                "href": "http://mizar.org/version/current/html/qc_lang2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/qc_lang2"
             },
             "position": {
-                "x": 374.36400000000003,
+                "x": 800.3399999999999,
                 "y": 540.0
             }
         },
@@ -65,10 +77,10 @@
             "data": {
                 "id": "QC_LANG3",
                 "name": "QC_LANG3",
-                "href": "http://mizar.org/version/current/html/qc_lang3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/qc_lang3"
             },
             "position": {
-                "x": 1256.3400000000001,
+                "x": 1232.3400000000001,
                 "y": 972.0000000000001
             }
         },
@@ -77,10 +89,10 @@
             "data": {
                 "id": "CQC_LANG",
                 "name": "CQC_LANG",
-                "href": "http://mizar.org/version/current/html/cqc_lang.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cqc_lang"
             },
             "position": {
-                "x": 1256.3400000000001,
+                "x": 1232.3400000000001,
                 "y": 1404.0
             }
         },
@@ -89,23 +101,23 @@
             "data": {
                 "id": "CQC_THE1",
                 "name": "CQC_THE1",
-                "href": "http://mizar.org/version/current/html/cqc_the1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cqc_the1"
             },
             "position": {
-                "x": 740.34,
-                "y": 3132.0
+                "x": 818.3399999999999,
+                "y": 2700.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "VALUAT_1",
-                "name": "VALUAT_1",
-                "href": "http://mizar.org/version/current/html/valuat_1.html"
+                "id": "ZFMODEL2",
+                "name": "ZFMODEL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zfmodel2"
             },
             "position": {
-                "x": 1256.3400000000001,
-                "y": 1836.0
+                "x": 4124.34,
+                "y": 4428.0
             }
         },
         {
@@ -113,23 +125,23 @@
             "data": {
                 "id": "LUKASI_1",
                 "name": "LUKASI_1",
-                "href": "http://mizar.org/version/current/html/lukasi_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lukasi_1"
             },
             "position": {
-                "x": 722.34,
-                "y": 3564.0000000000005
+                "x": 818.3399999999999,
+                "y": 3132.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PROCAL_1",
-                "name": "PROCAL_1",
-                "href": "http://mizar.org/version/current/html/procal_1.html"
+                "id": "ZF_FUND1",
+                "name": "ZF_FUND1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zf_fund1"
             },
             "position": {
-                "x": 716.34,
-                "y": 3996.0
+                "x": 5006.34,
+                "y": 4428.0
             }
         },
         {
@@ -137,22 +149,10 @@
             "data": {
                 "id": "INTPRO_1",
                 "name": "INTPRO_1",
-                "href": "http://mizar.org/version/current/html/intpro_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/intpro_1"
             },
             "position": {
-                "x": 3980.3399999999997,
-                "y": 5292.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "CQC_THE2",
-                "name": "CQC_THE2",
-                "href": "http://mizar.org/version/current/html/cqc_the2.html"
-            },
-            "position": {
-                "x": 710.3399999999999,
+                "x": 5846.34,
                 "y": 4428.0
             }
         },
@@ -161,23 +161,23 @@
             "data": {
                 "id": "HILBERT1",
                 "name": "HILBERT1",
-                "href": "http://mizar.org/version/current/html/hilbert1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilbert1"
             },
             "position": {
-                "x": 4796.34,
-                "y": 5292.0
+                "x": 5732.34,
+                "y": 3132.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CQC_SIM1",
-                "name": "CQC_SIM1",
-                "href": "http://mizar.org/version/current/html/cqc_sim1.html"
+                "id": "CQC_THE3",
+                "name": "CQC_THE3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cqc_the3"
             },
             "position": {
-                "x": 2078.3399999999997,
-                "y": 1836.0
+                "x": 818.3399999999999,
+                "y": 3564.0000000000005
             }
         },
         {
@@ -185,7 +185,7 @@
             "data": {
                 "id": "QC_LANG4",
                 "name": "QC_LANG4",
-                "href": "http://mizar.org/version/current/html/qc_lang4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/qc_lang4"
             },
             "position": {
                 "x": 374.36400000000003,
@@ -197,11 +197,11 @@
             "data": {
                 "id": "SUBSTUT1",
                 "name": "SUBSTUT1",
-                "href": "http://mizar.org/version/current/html/substut1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/substut1"
             },
             "position": {
-                "x": 2006.3400000000001,
-                "y": 2268.0
+                "x": 1526.34,
+                "y": 1836.0
             }
         },
         {
@@ -209,11 +209,11 @@
             "data": {
                 "id": "SUBLEMMA",
                 "name": "SUBLEMMA",
-                "href": "http://mizar.org/version/current/html/sublemma.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sublemma"
             },
             "position": {
-                "x": 1604.34,
-                "y": 2700.0
+                "x": 1610.34,
+                "y": 2268.0
             }
         },
         {
@@ -221,11 +221,11 @@
             "data": {
                 "id": "SUBSTUT2",
                 "name": "SUBSTUT2",
-                "href": "http://mizar.org/version/current/html/substut2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/substut2"
             },
             "position": {
-                "x": 1604.34,
-                "y": 3132.0
+                "x": 1682.3400000000001,
+                "y": 2700.0
             }
         },
         {
@@ -233,11 +233,11 @@
             "data": {
                 "id": "CALCUL_1",
                 "name": "CALCUL_1",
-                "href": "http://mizar.org/version/current/html/calcul_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/calcul_1"
             },
             "position": {
-                "x": 1604.34,
-                "y": 3564.0000000000005
+                "x": 1670.34,
+                "y": 3132.0
             }
         },
         {
@@ -245,11 +245,11 @@
             "data": {
                 "id": "CALCUL_2",
                 "name": "CALCUL_2",
-                "href": "http://mizar.org/version/current/html/calcul_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/calcul_2"
             },
             "position": {
-                "x": 1604.34,
-                "y": 3996.0
+                "x": 1670.34,
+                "y": 3564.0000000000005
             }
         },
         {
@@ -257,11 +257,11 @@
             "data": {
                 "id": "HENMODEL",
                 "name": "HENMODEL",
-                "href": "http://mizar.org/version/current/html/henmodel.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/henmodel"
             },
             "position": {
-                "x": 1610.34,
-                "y": 4428.0
+                "x": 1670.34,
+                "y": 3996.0
             }
         },
         {
@@ -269,35 +269,395 @@
             "data": {
                 "id": "GOEDELCP",
                 "name": "GOEDELCP",
-                "href": "http://mizar.org/version/current/html/goedelcp.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goedelcp"
             },
             "position": {
-                "x": 1610.34,
-                "y": 4860.0
+                "x": 1670.34,
+                "y": 4428.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "QC_TRANS",
-                "name": "QC_TRANS",
-                "href": "http://mizar.org/version/current/html/qc_trans.html"
+                "id": "ROBBINS1",
+                "name": "ROBBINS1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/robbins1"
             },
             "position": {
-                "x": 1610.34,
-                "y": 5292.0
+                "x": 6674.400000000001,
+                "y": 4428.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "QMAX_1",
-                "name": "QMAX_1",
-                "href": "http://mizar.org/version/current/html/qmax_1.html"
+                "id": "ALTCAT_3",
+                "name": "ALTCAT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/altcat_3"
             },
             "position": {
-                "x": 5564.339999999999,
-                "y": 5292.0
+                "x": 7496.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSSUBLAT",
+                "name": "MSSUBLAT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mssublat"
+            },
+            "position": {
+                "x": 8336.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPUT_1",
+                "name": "COMPUT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/comput_1"
+            },
+            "position": {
+                "x": 9212.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_10",
+                "name": "GROUP_10",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_10"
+            },
+            "position": {
+                "x": 10076.4,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ENTROPY1",
+                "name": "ENTROPY1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/entropy1"
+            },
+            "position": {
+                "x": 10940.400000000001,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUATERN2",
+                "name": "QUATERN2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/quatern2"
+            },
+            "position": {
+                "x": 11816.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RAMSEY_1",
+                "name": "RAMSEY_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ramsey_1"
+            },
+            "position": {
+                "x": 10076.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE8",
+                "name": "MEASURE8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure8"
+            },
+            "position": {
+                "x": 12710.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPDIM_2",
+                "name": "TOPDIM_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topdim_2"
+            },
+            "position": {
+                "x": 13580.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRNILP_1",
+                "name": "GRNILP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/grnilp_1"
+            },
+            "position": {
+                "x": 14402.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRTOP2",
+                "name": "MATRTOP2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrtop2"
+            },
+            "position": {
+                "x": 10940.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CC0SP1",
+                "name": "CC0SP1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cc0sp1"
+            },
+            "position": {
+                "x": 15152.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_9",
+                "name": "PDIFF_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_9"
+            },
+            "position": {
+                "x": 2444.34,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RATFUNC1",
+                "name": "RATFUNC1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ratfunc1"
+            },
+            "position": {
+                "x": 3236.34,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL02",
+                "name": "ZMODUL02",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul02"
+            },
+            "position": {
+                "x": 15950.400000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LTLAXIO2",
+                "name": "LTLAXIO2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ltlaxio2"
+            },
+            "position": {
+                "x": 5732.34,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LTLAXIO3",
+                "name": "LTLAXIO3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ltlaxio3"
+            },
+            "position": {
+                "x": 5732.34,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BORSUK_7",
+                "name": "BORSUK_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/borsuk_7"
+            },
+            "position": {
+                "x": 16832.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LPSPACC1",
+                "name": "LPSPACC1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lpspacc1"
+            },
+            "position": {
+                "x": 17678.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RANDOM_3",
+                "name": "RANDOM_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/random_3"
+            },
+            "position": {
+                "x": 18542.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PETRI_DF",
+                "name": "PETRI_DF",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/petri_df"
+            },
+            "position": {
+                "x": 4076.3399999999997,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROUGHS_4",
+                "name": "ROUGHS_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/roughs_4"
+            },
+            "position": {
+                "x": 19430.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMSP_3",
+                "name": "NORMSP_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normsp_3"
+            },
+            "position": {
+                "x": 20312.399999999998,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_1A",
+                "name": "GROUP_1A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_1a"
+            },
+            "position": {
+                "x": 21188.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLNOT_1",
+                "name": "POLNOT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polnot_1"
+            },
+            "position": {
+                "x": 22046.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_3",
+                "name": "ASYMPT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/asympt_3"
+            },
+            "position": {
+                "x": 22892.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_21",
+                "name": "GROUP_21",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_21"
+            },
+            "position": {
+                "x": 23738.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LEIBNIZ1",
+                "name": "LEIBNIZ1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/leibniz1"
+            },
+            "position": {
+                "x": 24542.4,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDERS_5",
+                "name": "ORDERS_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/orders_5"
+            },
+            "position": {
+                "x": 4904.34,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BASEL_1",
+                "name": "BASEL_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/basel_1"
+            },
+            "position": {
+                "x": 24542.4,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EC_PF_3",
+                "name": "EC_PF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ec_pf_3"
+            },
+            "position": {
+                "x": 25280.4,
+                "y": 4428.0
             }
         },
         {
@@ -317,13 +677,6 @@
         {
             "group": "edges",
             "data": {
-                "source": "QC_LANG3",
-                "target": "MEMBERED"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
                 "source": "CQC_LANG",
                 "target": "QC_LANG3"
             }
@@ -338,13 +691,6 @@
         {
             "group": "edges",
             "data": {
-                "source": "VALUAT_1",
-                "target": "CQC_LANG"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
                 "source": "LUKASI_1",
                 "target": "CQC_THE1"
             }
@@ -352,22 +698,8 @@
         {
             "group": "edges",
             "data": {
-                "source": "PROCAL_1",
+                "source": "CQC_THE3",
                 "target": "LUKASI_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "CQC_THE2",
-                "target": "PROCAL_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "CQC_SIM1",
-                "target": "CQC_LANG"
             }
         },
         {
@@ -381,7 +713,7 @@
             "group": "edges",
             "data": {
                 "source": "SUBSTUT1",
-                "target": "CQC_SIM1"
+                "target": "CQC_LANG"
             }
         },
         {
@@ -389,13 +721,6 @@
             "data": {
                 "source": "SUBLEMMA",
                 "target": "SUBSTUT1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SUBLEMMA",
-                "target": "VALUAT_1"
             }
         },
         {
@@ -409,14 +734,21 @@
             "group": "edges",
             "data": {
                 "source": "CALCUL_1",
-                "target": "CQC_THE1"
+                "target": "SUBSTUT2"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "CALCUL_1",
-                "target": "SUBSTUT2"
+                "target": "CQC_THE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CALCUL_2",
+                "target": "FINSEQ_5"
             }
         },
         {
@@ -443,8 +775,71 @@
         {
             "group": "edges",
             "data": {
-                "source": "QC_TRANS",
-                "target": "GOEDELCP"
+                "source": "RAMSEY_1",
+                "target": "GROUP_10"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRTOP2",
+                "target": "ENTROPY1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PDIFF_9",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RATFUNC1",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LTLAXIO2",
+                "target": "HILBERT1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LTLAXIO2",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LTLAXIO3",
+                "target": "LTLAXIO2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PETRI_DF",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ORDERS_5",
+                "target": "FINSEQ_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BASEL_1",
+                "target": "LEIBNIZ1"
             }
         }
     ]

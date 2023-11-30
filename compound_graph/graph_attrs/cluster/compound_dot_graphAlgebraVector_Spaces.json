@@ -3,73 +3,85 @@
         {
             "group": "nodes",
             "data": {
-                "id": "RLVECT_1",
-                "name": "RLVECT_1",
-                "href": "http://mizar.org/version/current/html/rlvect_1.html"
+                "id": "TOPS_2",
+                "name": "TOPS_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tops_2"
             },
             "position": {
-                "x": 2514.6000000000004,
+                "x": 1502.34,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RLSUB_1",
-                "name": "RLSUB_1",
-                "href": "http://mizar.org/version/current/html/rlsub_1.html"
+                "id": "RLVECT_1",
+                "name": "RLVECT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlvect_1"
             },
             "position": {
-                "x": 1752.6000000000001,
+                "x": 5258.34,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORTSP_1",
-                "name": "ORTSP_1",
-                "href": "http://mizar.org/version/current/html/ortsp_1.html"
+                "id": "SYMSP_1",
+                "name": "SYMSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/symsp_1"
             },
             "position": {
-                "x": 2514.6000000000004,
-                "y": 540.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "RLSUB_2",
-                "name": "RLSUB_2",
-                "href": "http://mizar.org/version/current/html/rlsub_2.html"
-            },
-            "position": {
-                "x": 2478.6000000000004,
+                "x": 7838.4000000000015,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RLVECT_2",
-                "name": "RLVECT_2",
-                "href": "http://mizar.org/version/current/html/rlvect_2.html"
+                "id": "COMPTS_1",
+                "name": "COMPTS_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/compts_1"
             },
             "position": {
-                "x": 3822.6000000000004,
-                "y": 1404.0
+                "x": 1502.34,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RLVECT_3",
-                "name": "RLVECT_3",
-                "href": "http://mizar.org/version/current/html/rlvect_3.html"
+                "id": "PARSP_2",
+                "name": "PARSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/parsp_2"
             },
             "position": {
-                "x": 4392.6,
-                "y": 1836.0
+                "x": 3410.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANPROJ_2",
+                "name": "ANPROJ_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/anproj_2"
+            },
+            "position": {
+                "x": 4184.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_2",
+                "name": "GROUP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_2"
+            },
+            "position": {
+                "x": 392.36400000000003,
+                "y": 540.0
             }
         },
         {
@@ -77,23 +89,23 @@
             "data": {
                 "id": "VECTSP_4",
                 "name": "VECTSP_4",
-                "href": "http://mizar.org/version/current/html/vectsp_4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp_4"
             },
             "position": {
-                "x": 3006.6,
+                "x": 7208.400000000001,
                 "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "VECTSP_5",
-                "name": "VECTSP_5",
-                "href": "http://mizar.org/version/current/html/vectsp_5.html"
+                "id": "NORMSP_0",
+                "name": "NORMSP_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normsp_0"
             },
             "position": {
-                "x": 2748.6000000000004,
-                "y": 1836.0
+                "x": 2378.3399999999997,
+                "y": 540.0
             }
         },
         {
@@ -101,10 +113,10 @@
             "data": {
                 "id": "NORMSP_1",
                 "name": "NORMSP_1",
-                "href": "http://mizar.org/version/current/html/normsp_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normsp_1"
             },
             "position": {
-                "x": 1650.6000000000001,
+                "x": 2372.34,
                 "y": 972.0000000000001
             }
         },
@@ -113,10 +125,10 @@
             "data": {
                 "id": "VFUNCT_1",
                 "name": "VFUNCT_1",
-                "href": "http://mizar.org/version/current/html/vfunct_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vfunct_1"
             },
             "position": {
-                "x": 1650.6000000000001,
+                "x": 3200.34,
                 "y": 1404.0
             }
         },
@@ -125,59 +137,23 @@
             "data": {
                 "id": "VECTSP_6",
                 "name": "VECTSP_6",
-                "href": "http://mizar.org/version/current/html/vectsp_6.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp_6"
             },
             "position": {
-                "x": 3576.6000000000004,
+                "x": 3212.34,
                 "y": 1836.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "VECTSP_7",
-                "name": "VECTSP_7",
-                "href": "http://mizar.org/version/current/html/vectsp_7.html"
+                "id": "MONOID_0",
+                "name": "MONOID_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/monoid_0"
             },
             "position": {
-                "x": 3576.6000000000004,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BHSP_1",
-                "name": "BHSP_1",
-                "href": "http://mizar.org/version/current/html/bhsp_1.html"
-            },
-            "position": {
-                "x": 1296.6,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BHSP_2",
-                "name": "BHSP_2",
-                "href": "http://mizar.org/version/current/html/bhsp_2.html"
-            },
-            "position": {
-                "x": 288.576,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BHSP_3",
-                "name": "BHSP_3",
-                "href": "http://mizar.org/version/current/html/bhsp_3.html"
-            },
-            "position": {
-                "x": 288.576,
-                "y": 2700.0
+                "x": 650.34,
+                "y": 972.0000000000001
             }
         },
         {
@@ -185,23 +161,23 @@
             "data": {
                 "id": "RUSUB_1",
                 "name": "RUSUB_1",
-                "href": "http://mizar.org/version/current/html/rusub_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rusub_1"
             },
             "position": {
-                "x": 1710.6000000000004,
-                "y": 2268.0
+                "x": 6026.400000000001,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RUSUB_2",
-                "name": "RUSUB_2",
-                "href": "http://mizar.org/version/current/html/rusub_2.html"
+                "id": "RLVECT_4",
+                "name": "RLVECT_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlvect_4"
             },
             "position": {
-                "x": 1944.6000000000001,
-                "y": 2700.0
+                "x": 6824.400000000001,
+                "y": 972.0000000000001
             }
         },
         {
@@ -209,11 +185,11 @@
             "data": {
                 "id": "RUSUB_3",
                 "name": "RUSUB_3",
-                "href": "http://mizar.org/version/current/html/rusub_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rusub_3"
             },
             "position": {
-                "x": 4248.6,
-                "y": 3132.0
+                "x": 6152.400000000001,
+                "y": 1404.0
             }
         },
         {
@@ -221,23 +197,71 @@
             "data": {
                 "id": "RLVECT_5",
                 "name": "RLVECT_5",
-                "href": "http://mizar.org/version/current/html/rlvect_5.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlvect_5"
             },
             "position": {
-                "x": 4764.6,
-                "y": 2268.0
+                "x": 5000.34,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RUSUB_4",
-                "name": "RUSUB_4",
-                "href": "http://mizar.org/version/current/html/rusub_4.html"
+                "id": "TOPGRP_1",
+                "name": "TOPGRP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topgrp_1"
             },
             "position": {
-                "x": 4500.6,
-                "y": 3564.0000000000005
+                "x": 1508.34,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLTOPSP1",
+                "name": "RLTOPSP1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rltopsp1"
+            },
+            "position": {
+                "x": 1514.34,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PSCOMP_1",
+                "name": "PSCOMP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pscomp_1"
+            },
+            "position": {
+                "x": 2360.34,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RSSPACE2",
+                "name": "RSSPACE2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rsspace2"
+            },
+            "position": {
+                "x": 2354.34,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_1",
+                "name": "LOPBAN_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban_1"
+            },
+            "position": {
+                "x": 656.34,
+                "y": 1404.0
             }
         },
         {
@@ -245,118 +269,183 @@
             "data": {
                 "id": "VECTSP_9",
                 "name": "VECTSP_9",
-                "href": "http://mizar.org/version/current/html/vectsp_9.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp_9"
             },
             "position": {
-                "x": 3576.6000000000004,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "VECTSP_8",
-                "name": "VECTSP_8",
-                "href": "http://mizar.org/version/current/html/vectsp_8.html"
-            },
-            "position": {
-                "x": 2748.6000000000004,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BHSP_4",
-                "name": "BHSP_4",
-                "href": "http://mizar.org/version/current/html/bhsp_4.html"
-            },
-            "position": {
-                "x": 288.576,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRLIN2",
-                "name": "MATRLIN2",
-                "href": "http://mizar.org/version/current/html/matrlin2.html"
-            },
-            "position": {
-                "x": 3432.6,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "BHSP_5",
-                "name": "BHSP_5",
-                "href": "http://mizar.org/version/current/html/bhsp_5.html"
-            },
-            "position": {
-                "x": 972.6,
+                "x": 3596.34,
                 "y": 2268.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "BHSP_6",
-                "name": "BHSP_6",
-                "href": "http://mizar.org/version/current/html/bhsp_6.html"
+                "id": "LMOD_6",
+                "name": "LMOD_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lmod_6"
             },
             "position": {
-                "x": 972.6,
-                "y": 3132.0
+                "x": 2828.3399999999997,
+                "y": 2268.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "BHSP_7",
-                "name": "BHSP_7",
-                "href": "http://mizar.org/version/current/html/bhsp_7.html"
+                "id": "INTEGRA6",
+                "name": "INTEGRA6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integra6"
             },
             "position": {
-                "x": 972.6,
-                "y": 3564.0000000000005
+                "x": 4454.34,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_3",
+                "name": "BCIALG_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_3"
+            },
+            "position": {
+                "x": 5276.34,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NUMERAL1",
+                "name": "NUMERAL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/numeral1"
+            },
+            "position": {
+                "x": 6134.400000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_6",
+                "name": "LOPBAN_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban_6"
+            },
+            "position": {
+                "x": 1502.34,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRVECT_3",
+                "name": "PRVECT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prvect_3"
+            },
+            "position": {
+                "x": 650.34,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AOFA_A01",
+                "name": "AOFA_A01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/aofa_a01"
+            },
+            "position": {
+                "x": 6998.400000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_17",
+                "name": "GROUP_17",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_17"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON01",
+                "name": "NEWTON01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/newton01"
+            },
+            "position": {
+                "x": 7862.400000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SRINGS_3",
+                "name": "SRINGS_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/srings_3"
+            },
+            "position": {
+                "x": 8732.400000000001,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODLAT3",
+                "name": "ZMODLAT3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodlat3"
+            },
+            "position": {
+                "x": 3596.34,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZZY_5",
+                "name": "FUZZY_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuzzy_5"
+            },
+            "position": {
+                "x": 9518.4,
+                "y": 2700.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RLSUB_1",
+                "source": "SYMSP_1",
                 "target": "RLVECT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ORTSP_1",
+                "source": "COMPTS_1",
+                "target": "TOPS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PARSP_2",
                 "target": "RLVECT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RLSUB_2",
-                "target": "RLSUB_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RLVECT_2",
-                "target": "RLSUB_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RLVECT_3",
-                "target": "RLVECT_2"
+                "source": "ANPROJ_2",
+                "target": "RLVECT_1"
             }
         },
         {
@@ -369,22 +458,15 @@
         {
             "group": "edges",
             "data": {
-                "source": "VECTSP_5",
-                "target": "VECTSP_4"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "VECTSP_5",
-                "target": "RLSUB_2"
+                "source": "NORMSP_1",
+                "target": "NORMSP_0"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "NORMSP_1",
-                "target": "RLSUB_1"
+                "target": "RLVECT_1"
             }
         },
         {
@@ -398,13 +480,6 @@
             "group": "edges",
             "data": {
                 "source": "VECTSP_6",
-                "target": "VFUNCT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "VECTSP_6",
                 "target": "VECTSP_4"
             }
         },
@@ -412,69 +487,27 @@
             "group": "edges",
             "data": {
                 "source": "VECTSP_6",
-                "target": "RLVECT_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "VECTSP_7",
-                "target": "RLVECT_3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "VECTSP_7",
-                "target": "VECTSP_5"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "VECTSP_7",
-                "target": "VECTSP_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_1",
                 "target": "VFUNCT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "BHSP_2",
-                "target": "BHSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_3",
-                "target": "BHSP_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
                 "source": "RUSUB_1",
-                "target": "BHSP_1"
+                "target": "RLVECT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RUSUB_2",
-                "target": "RLSUB_2"
+                "source": "RLVECT_4",
+                "target": "RLVECT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RUSUB_2",
+                "source": "RUSUB_3",
                 "target": "RUSUB_1"
             }
         },
@@ -482,91 +515,133 @@
             "group": "edges",
             "data": {
                 "source": "RUSUB_3",
-                "target": "RLVECT_3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "RUSUB_3",
-                "target": "RUSUB_2"
+                "target": "RLVECT_4"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "RLVECT_5",
-                "target": "RLVECT_3"
+                "target": "RLVECT_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RUSUB_4",
-                "target": "RUSUB_3"
+                "source": "TOPGRP_1",
+                "target": "GROUP_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RUSUB_4",
-                "target": "RLVECT_5"
+                "source": "TOPGRP_1",
+                "target": "COMPTS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLTOPSP1",
+                "target": "TOPGRP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RLTOPSP1",
+                "target": "RLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PSCOMP_1",
+                "target": "RLTOPSP1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RSSPACE2",
+                "target": "RLVECT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_1",
+                "target": "MONOID_0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_1",
+                "target": "NORMSP_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "VECTSP_9",
-                "target": "VECTSP_7"
+                "target": "VECTSP_6"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "VECTSP_8",
-                "target": "VECTSP_7"
+                "source": "LMOD_6",
+                "target": "VECTSP_6"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "BHSP_4",
-                "target": "BHSP_3"
+                "source": "LOPBAN_6",
+                "target": "RLTOPSP1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MATRLIN2",
+                "source": "LOPBAN_6",
+                "target": "RSSPACE2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_6",
+                "target": "LOPBAN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PRVECT_3",
+                "target": "LOPBAN_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_17",
+                "target": "GROUP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_17",
+                "target": "PRVECT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODLAT3",
                 "target": "VECTSP_9"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_5",
-                "target": "BHSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_6",
-                "target": "BHSP_5"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_6",
-                "target": "BHSP_3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BHSP_7",
-                "target": "BHSP_6"
             }
         }
     ]

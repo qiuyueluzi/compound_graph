@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "HOLDER_1",
-                "name": "HOLDER_1",
-                "href": "http://mizar.org/version/current/html/holder_1.html"
+                "id": "TAYLOR_1",
+                "name": "TAYLOR_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/taylor_1"
             },
             "position": {
-                "x": 378.264,
+                "x": 350.96999999999997,
                 "y": 108.0
             }
         }

@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "PARTIT1",
-                "name": "PARTIT1",
-                "href": "http://mizar.org/version/current/html/partit1.html"
+                "id": "TREES_3",
+                "name": "TREES_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/trees_3"
             },
             "position": {
-                "x": 300.276,
+                "x": 323.67,
                 "y": 108.0
             }
         }

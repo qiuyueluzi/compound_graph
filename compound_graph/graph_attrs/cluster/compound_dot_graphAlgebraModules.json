@@ -3,87 +3,238 @@
         {
             "group": "nodes",
             "data": {
-                "id": "MOD_2",
-                "name": "MOD_2",
-                "href": "http://mizar.org/version/current/html/mod_2.html"
+                "id": "GRCAT_1",
+                "name": "GRCAT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/grcat_1"
             },
             "position": {
-                "x": 269.07599999999996,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ALGSEQ_1",
-                "name": "ALGSEQ_1",
-                "href": "http://mizar.org/version/current/html/algseq_1.html"
-            },
-            "position": {
-                "x": 1013.0999999999999,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MOD_3",
-                "name": "MOD_3",
-                "href": "http://mizar.org/version/current/html/mod_3.html"
-            },
-            "position": {
-                "x": 1793.1000000000001,
-                "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "LMOD_6",
-                "name": "LMOD_6",
-                "href": "http://mizar.org/version/current/html/lmod_6.html"
-            },
-            "position": {
-                "x": 1793.1000000000001,
+                "x": 323.67,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MOD_4",
-                "name": "MOD_4",
-                "href": "http://mizar.org/version/current/html/mod_4.html"
+                "id": "POLYNOM1",
+                "name": "POLYNOM1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polynom1"
             },
             "position": {
-                "x": 2477.1000000000004,
-                "y": 972.0000000000001
+                "x": 1127.7,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "LMOD_7",
-                "name": "LMOD_7",
-                "href": "http://mizar.org/version/current/html/lmod_7.html"
+                "id": "RANKNULL",
+                "name": "RANKNULL",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ranknull"
             },
             "position": {
-                "x": 1793.1000000000001,
-                "y": 972.0000000000001
+                "x": 2021.7,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ISOCAT_2",
+                "name": "ISOCAT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/isocat_2"
+            },
+            "position": {
+                "x": 2867.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIRORT",
+                "name": "DIRORT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dirort"
+            },
+            "position": {
+                "x": 3605.7000000000007,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MONOID_1",
+                "name": "MONOID_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/monoid_1"
+            },
+            "position": {
+                "x": 4385.700000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CIRCUIT1",
+                "name": "CIRCUIT1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/circuit1"
+            },
+            "position": {
+                "x": 5225.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_5",
+                "name": "NDIFF_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_5"
+            },
+            "position": {
+                "x": 6053.400000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOEDCPUC",
+                "name": "GOEDCPUC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goedcpuc"
+            },
+            "position": {
+                "x": 6935.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_7",
+                "name": "LOPBAN_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban_7"
+            },
+            "position": {
+                "x": 7817.4000000000015,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDEQ_02",
+                "name": "ORDEQ_02",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordeq_02"
+            },
+            "position": {
+                "x": 6053.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_3A",
+                "name": "GRAPH_3A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/graph_3a"
+            },
+            "position": {
+                "x": 8663.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VSDIFF_1",
+                "name": "VSDIFF_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vsdiff_1"
+            },
+            "position": {
+                "x": 9485.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINTOPO7",
+                "name": "FINTOPO7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fintopo7"
+            },
+            "position": {
+                "x": 10301.4,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID13",
+                "name": "EUCLID13",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclid13"
+            },
+            "position": {
+                "x": 11141.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL08",
+                "name": "ZMODUL08",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul08"
+            },
+            "position": {
+                "x": 2021.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REALALG1",
+                "name": "REALALG1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/realalg1"
+            },
+            "position": {
+                "x": 1127.7,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BASEL_2",
+                "name": "BASEL_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/basel_2"
+            },
+            "position": {
+                "x": 11933.400000000001,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "LMOD_6",
-                "target": "MOD_3"
+                "source": "ORDEQ_02",
+                "target": "NDIFF_5"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "LMOD_7",
-                "target": "LMOD_6"
+                "source": "ZMODUL08",
+                "target": "RANKNULL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "REALALG1",
+                "target": "POLYNOM1"
             }
         }
     ]

@@ -2007,7 +2007,7 @@
         },
         {
             "mml-order": 100,
-            "mml-name": "2001-02-28T15:00:00.000Z",
+            "mml-name": "margrel1",
             "title": "Many-Argument Relations",
             "summary": "Definitions of relations based on finite sequences. The arity of relation, the set of logical values {\\it Boolean} consisting of {\\it false} and {\\it true} and the operations of negation and conjunction on them are defined. ",
             "msc2020": 300000000000000000000,
@@ -9643,7 +9643,7 @@
         },
         {
             "mml-order": 590,
-            "mml-name": "2001-11-30T15:00:00.000Z",
+            "mml-name": "decomp_1",
             "title": "On the Decomposition of the Continuity",
             "summary": "This article is devoted to functions of general topological spaces. A function from $X$ to $Y$ is $A$-continuous if the counterimage of every open set $V$ of $Y$ belongs to $A$, where $A$ is a collection of subsets of $X$. We give the following characteristics of the continuity, called decomposition of continuity: A function $f$ is continuous if and only if it is both $A$-continuous and $B$-continuous.",
             "__EMPTY": "II",

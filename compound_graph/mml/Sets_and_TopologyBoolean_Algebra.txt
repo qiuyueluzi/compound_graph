@@ -1,0 +1,17 @@
+comseq_1
+finseq_6
+sin_cos8
+bvfunc_1
+partit_2
+bvfunc_3
+bvfunc_4
+bvfunc_5
+bvfunc_6
+bvfunc11
+bvfunc14
+lattice2
+afvect01
+knaster
+bcialg_5
+srings_4
+roughs_5

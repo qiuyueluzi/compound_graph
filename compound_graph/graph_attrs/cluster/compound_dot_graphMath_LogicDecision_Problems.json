@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AOFA_I00",
+                "name": "AOFA_I00",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/aofa_i00"
+            },
+            "position": {
+                "x": 335.37000000000006,
+                "y": 108.0
+            }
+        }
+    ]
+}

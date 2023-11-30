@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_3",
+                "name": "NDIFF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_3"
+            },
+            "position": {
+                "x": 311.97,
+                "y": 108.0
+            }
+        }
+    ]
+}

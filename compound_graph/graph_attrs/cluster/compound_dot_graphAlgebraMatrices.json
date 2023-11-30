@@ -3,37 +3,37 @@
         {
             "group": "nodes",
             "data": {
-                "id": "RVSUM_1",
-                "name": "RVSUM_1",
-                "href": "http://mizar.org/version/current/html/rvsum_1.html"
+                "id": "CONNSP_2",
+                "name": "CONNSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/connsp_2"
             },
             "position": {
-                "x": 2050.7400000000002,
-                "y": 972.0000000000001
+                "x": 382.16400000000004,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIX_1",
-                "name": "MATRIX_1",
-                "href": "http://mizar.org/version/current/html/matrix_1.html"
+                "id": "FVSUM_1",
+                "name": "FVSUM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fvsum_1"
             },
             "position": {
-                "x": 814.7399999999999,
+                "x": 2878.14,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIX_3",
-                "name": "MATRIX_3",
-                "href": "http://mizar.org/version/current/html/matrix_3.html"
+                "id": "CARD_FIN",
+                "name": "CARD_FIN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/card_fin"
             },
             "position": {
-                "x": 814.7399999999999,
-                "y": 540.0
+                "x": 2122.14,
+                "y": 1404.0
             }
         },
         {
@@ -41,11 +41,11 @@
             "data": {
                 "id": "MATRIX_4",
                 "name": "MATRIX_4",
-                "href": "http://mizar.org/version/current/html/matrix_4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_4"
             },
             "position": {
-                "x": 1222.74,
-                "y": 972.0000000000001
+                "x": 1666.1399999999999,
+                "y": 540.0
             }
         },
         {
@@ -53,47 +53,47 @@
             "data": {
                 "id": "MATRIX_5",
                 "name": "MATRIX_5",
-                "href": "http://mizar.org/version/current/html/matrix_5.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_5"
             },
             "position": {
-                "x": 2050.7400000000002,
+                "x": 1264.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLSP2",
+                "name": "COMPLSP2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/complsp2"
+            },
+            "position": {
+                "x": 1264.14,
                 "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIXR1",
-                "name": "MATRIXR1",
-                "href": "http://mizar.org/version/current/html/matrixr1.html"
+                "id": "UPROOTS",
+                "name": "UPROOTS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/uproots"
             },
             "position": {
-                "x": 2050.7400000000002,
-                "y": 1836.0
+                "x": 2476.14,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIXC1",
-                "name": "MATRIXC1",
-                "href": "http://mizar.org/version/current/html/matrixc1.html"
+                "id": "RLAFFIN2",
+                "name": "RLAFFIN2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlaffin2"
             },
             "position": {
-                "x": 2890.7400000000002,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX_7",
-                "name": "MATRIX_7",
-                "href": "http://mizar.org/version/current/html/matrix_7.html"
-            },
-            "position": {
-                "x": 412.77000000000004,
-                "y": 972.0000000000001
+                "x": 2950.14,
+                "y": 1404.0
             }
         },
         {
@@ -101,11 +101,11 @@
             "data": {
                 "id": "MATRIX_6",
                 "name": "MATRIX_6",
-                "href": "http://mizar.org/version/current/html/matrix_6.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_6"
             },
             "position": {
-                "x": 1222.74,
-                "y": 1404.0
+                "x": 2074.14,
+                "y": 972.0000000000001
             }
         },
         {
@@ -113,133 +113,66 @@
             "data": {
                 "id": "MATRIX_9",
                 "name": "MATRIX_9",
-                "href": "http://mizar.org/version/current/html/matrix_9.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_9"
             },
             "position": {
-                "x": 412.77000000000004,
+                "x": 3286.1400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP11",
+                "name": "VECTSP11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp11"
+            },
+            "position": {
+                "x": 4114.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODELC_3",
+                "name": "MODELC_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/modelc_3"
+            },
+            "position": {
+                "x": 3802.1400000000003,
                 "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIX11",
-                "name": "MATRIX11",
-                "href": "http://mizar.org/version/current/html/matrix11.html"
+                "id": "NDIFF_4",
+                "name": "NDIFF_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_4"
             },
             "position": {
-                "x": 406.77000000000004,
-                "y": 1836.0
+                "x": 4606.14,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MATRIX10",
-                "name": "MATRIX10",
-                "href": "http://mizar.org/version/current/html/matrix10.html"
+                "id": "GROUP_19",
+                "name": "GROUP_19",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_19"
             },
             "position": {
-                "x": 2050.7400000000002,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIXR2",
-                "name": "MATRIXR2",
-                "href": "http://mizar.org/version/current/html/matrixr2.html"
-            },
-            "position": {
-                "x": 616.74,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX13",
-                "name": "MATRIX13",
-                "href": "http://mizar.org/version/current/html/matrix13.html"
-            },
-            "position": {
-                "x": 358.77,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX15",
-                "name": "MATRIX15",
-                "href": "http://mizar.org/version/current/html/matrix15.html"
-            },
-            "position": {
-                "x": 358.77,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX_8",
-                "name": "MATRIX_8",
-                "href": "http://mizar.org/version/current/html/matrix_8.html"
-            },
-            "position": {
-                "x": 1222.74,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIXJ1",
-                "name": "MATRIXJ1",
-                "href": "http://mizar.org/version/current/html/matrixj1.html"
-            },
-            "position": {
-                "x": 358.77,
-                "y": 3996.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX12",
-                "name": "MATRIX12",
-                "href": "http://mizar.org/version/current/html/matrix12.html"
-            },
-            "position": {
-                "x": 1186.74,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MATRIX14",
-                "name": "MATRIX14",
-                "href": "http://mizar.org/version/current/html/matrix14.html"
-            },
-            "position": {
-                "x": 1186.74,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX_3",
-                "target": "MATRIX_1"
+                "x": 5398.14,
+                "y": 1404.0
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "MATRIX_4",
-                "target": "MATRIX_3"
+                "target": "FVSUM_1"
             }
         },
         {
@@ -252,29 +185,15 @@
         {
             "group": "edges",
             "data": {
-                "source": "MATRIX_5",
-                "target": "RVSUM_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIXR1",
+                "source": "COMPLSP2",
                 "target": "MATRIX_5"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MATRIXC1",
-                "target": "MATRIX_5"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX_7",
-                "target": "MATRIX_3"
+                "source": "UPROOTS",
+                "target": "FVSUM_1"
             }
         },
         {
@@ -288,105 +207,14 @@
             "group": "edges",
             "data": {
                 "source": "MATRIX_9",
-                "target": "MATRIX_7"
+                "target": "FVSUM_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MATRIX11",
-                "target": "MATRIX_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX11",
-                "target": "MATRIX_9"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX10",
-                "target": "MATRIXR1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX10",
-                "target": "MATRIXC1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIXR2",
-                "target": "MATRIX11"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIXR2",
-                "target": "MATRIX10"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX13",
-                "target": "MATRIXR2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX15",
-                "target": "MATRIX13"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX_8",
-                "target": "MATRIX_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIXJ1",
-                "target": "MATRIX15"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX12",
-                "target": "MATRIX11"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX12",
-                "target": "MATRIXR1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX14",
-                "target": "MATRIX12"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MATRIX14",
-                "target": "MATRIXR2"
+                "source": "VECTSP11",
+                "target": "FVSUM_1"
             }
         }
     ]

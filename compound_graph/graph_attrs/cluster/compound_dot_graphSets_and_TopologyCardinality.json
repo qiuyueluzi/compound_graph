@@ -3,37 +3,49 @@
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_1",
-                "name": "CARD_1",
-                "href": "http://mizar.org/version/current/html/card_1.html"
+                "id": "FINSET_1",
+                "name": "FINSET_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finset_1"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 1854.6000000000001,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_3",
-                "name": "CARD_3",
-                "href": "http://mizar.org/version/current/html/card_3.html"
+                "id": "PARTFUN2",
+                "name": "PARTFUN2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/partfun2"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 2442.6000000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XXREAL_1",
+                "name": "XXREAL_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xxreal_1"
+            },
+            "position": {
+                "x": 4008.6,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_2",
-                "name": "CARD_2",
-                "href": "http://mizar.org/version/current/html/card_2.html"
+                "id": "NEWTON",
+                "name": "NEWTON",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/newton"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 972.0000000000001
+                "x": 624.5999999999999,
+                "y": 540.0
             }
         },
         {
@@ -41,89 +53,144 @@
             "data": {
                 "id": "CARD_4",
                 "name": "CARD_4",
-                "href": "http://mizar.org/version/current/html/card_4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/card_4"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 1404.0
+                "x": 288.576,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_5",
-                "name": "CARD_5",
-                "href": "http://mizar.org/version/current/html/card_5.html"
+                "id": "TREES_4",
+                "name": "TREES_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/trees_4"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 1836.0
+                "x": 4806.6,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_FIL",
-                "name": "CARD_FIL",
-                "href": "http://mizar.org/version/current/html/card_fil.html"
+                "id": "INTEGRA8",
+                "name": "INTEGRA8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integra8"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 2268.0
+                "x": 4008.6,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CARD_LAR",
-                "name": "CARD_LAR",
-                "href": "http://mizar.org/version/current/html/card_lar.html"
+                "id": "BINOM",
+                "name": "BINOM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/binom"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 2700.0
+                "x": 960.6,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIMPLEX1",
+                "name": "SIMPLEX1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/simplex1"
+            },
+            "position": {
+                "x": 1434.6,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRZLOG_1",
+                "name": "GRZLOG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/grzlog_1"
+            },
+            "position": {
+                "x": 2280.6,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DBLSEQ_3",
+                "name": "DBLSEQ_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dblseq_3"
+            },
+            "position": {
+                "x": 5610.6,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPMETR4",
+                "name": "TOPMETR4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topmetr4"
+            },
+            "position": {
+                "x": 3150.6000000000004,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CARD_3",
-                "target": "CARD_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "CARD_2",
-                "target": "CARD_3"
+                "source": "NEWTON",
+                "target": "FINSET_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "CARD_4",
-                "target": "CARD_2"
+                "target": "NEWTON"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CARD_5",
-                "target": "CARD_4"
+                "source": "INTEGRA8",
+                "target": "XXREAL_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CARD_FIL",
-                "target": "CARD_5"
+                "source": "BINOM",
+                "target": "NEWTON"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CARD_LAR",
-                "target": "CARD_FIL"
+                "source": "SIMPLEX1",
+                "target": "FINSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GRZLOG_1",
+                "target": "FINSET_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPMETR4",
+                "target": "FINSET_1"
             }
         }
     ]

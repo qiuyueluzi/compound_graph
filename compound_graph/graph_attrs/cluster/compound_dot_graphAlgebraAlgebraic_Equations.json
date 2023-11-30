@@ -3,13 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "POLYEQ_1",
-                "name": "POLYEQ_1",
-                "href": "http://mizar.org/version/current/html/polyeq_1.html"
+                "id": "POWER",
+                "name": "POWER",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/power"
             },
             "position": {
-                "x": 772.74,
+                "x": 784.7399999999999,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPLEX2",
+                "name": "COMPLEX2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/complex2"
+            },
+            "position": {
+                "x": 1216.7399999999998,
+                "y": 972.0000000000001
             }
         },
         {
@@ -17,7 +29,7 @@
             "data": {
                 "id": "POLYEQ_2",
                 "name": "POLYEQ_2",
-                "href": "http://mizar.org/version/current/html/polyeq_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polyeq_2"
             },
             "position": {
                 "x": 358.77,
@@ -27,24 +39,96 @@
         {
             "group": "nodes",
             "data": {
-                "id": "POLYEQ_3",
-                "name": "POLYEQ_3",
-                "href": "http://mizar.org/version/current/html/polyeq_3.html"
+                "id": "POLYEQ_4",
+                "name": "POLYEQ_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polyeq_4"
             },
             "position": {
-                "x": 1186.74,
+                "x": 358.77,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODLAT2",
+                "name": "ZMODLAT2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodlat2"
+            },
+            "position": {
+                "x": 2104.7400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RING_5",
+                "name": "RING_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ring_5"
+            },
+            "position": {
+                "x": 2872.7400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GTARSKI3",
+                "name": "GTARSKI3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gtarski3"
+            },
+            "position": {
+                "x": 3610.7400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOEBIUS3",
+                "name": "MOEBIUS3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/moebius3"
+            },
+            "position": {
+                "x": 1210.74,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "POLYEQ_5",
-                "name": "POLYEQ_5",
-                "href": "http://mizar.org/version/current/html/polyeq_5.html"
+                "id": "NOMIN_4",
+                "name": "NOMIN_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_4"
             },
             "position": {
-                "x": 1186.74,
+                "x": 4414.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NOMIN_6",
+                "name": "NOMIN_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_6"
+            },
+            "position": {
+                "x": 4414.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILB10_4",
+                "name": "HILB10_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilb10_4"
+            },
+            "position": {
+                "x": 5200.74,
                 "y": 972.0000000000001
             }
         },
@@ -52,21 +136,28 @@
             "group": "edges",
             "data": {
                 "source": "POLYEQ_2",
-                "target": "POLYEQ_1"
+                "target": "POWER"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "POLYEQ_3",
-                "target": "POLYEQ_1"
+                "source": "POLYEQ_4",
+                "target": "POLYEQ_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "POLYEQ_5",
-                "target": "POLYEQ_3"
+                "source": "MOEBIUS3",
+                "target": "POWER"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NOMIN_6",
+                "target": "NOMIN_4"
             }
         }
     ]

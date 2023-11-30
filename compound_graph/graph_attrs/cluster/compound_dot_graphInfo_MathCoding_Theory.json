@@ -1,0 +1,64 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARD_FIL",
+                "name": "CARD_FIL",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/card_fil"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GENEALG1",
+                "name": "GENEALG1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/genealg1"
+            },
+            "position": {
+                "x": 1193.0400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_4",
+                "name": "BCIALG_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_4"
+            },
+            "position": {
+                "x": 2039.0399999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_6",
+                "name": "BCIALG_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_6"
+            },
+            "position": {
+                "x": 2843.0399999999995,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPS_5",
+                "name": "TOPS_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tops_5"
+            },
+            "position": {
+                "x": 3581.0400000000004,
+                "y": 108.0
+            }
+        }
+    ]
+}

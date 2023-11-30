@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_3",
+                "name": "INT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_3"
+            },
+            "position": {
+                "x": 230.08200000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR20",
+                "name": "INTEGR20",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr20"
+            },
+            "position": {
+                "x": 932.0999999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN12",
+                "name": "MESFUN12",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfun12"
+            },
+            "position": {
+                "x": 1802.1000000000001,
+                "y": 108.0
+            }
+        }
+    ]
+}

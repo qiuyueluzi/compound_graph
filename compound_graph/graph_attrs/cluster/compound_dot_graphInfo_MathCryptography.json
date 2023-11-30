@@ -3,12 +3,48 @@
         {
             "group": "nodes",
             "data": {
-                "id": "DESCIP_1",
-                "name": "DESCIP_1",
-                "href": "http://mizar.org/version/current/html/descip_1.html"
+                "id": "ORDINAL6",
+                "name": "ORDINAL6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordinal6"
             },
             "position": {
-                "x": 347.07,
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JGRAPH_1",
+                "name": "JGRAPH_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/jgraph_1"
+            },
+            "position": {
+                "x": 1204.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DBLSEQ_1",
+                "name": "DBLSEQ_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dblseq_1"
+            },
+            "position": {
+                "x": 2038.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTAD_1",
+                "name": "LATTAD_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lattad_1"
+            },
+            "position": {
+                "x": 2866.44,
                 "y": 108.0
             }
         }

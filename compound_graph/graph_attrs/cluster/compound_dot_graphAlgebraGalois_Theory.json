@@ -1,0 +1,100 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NTALGO_2",
+                "name": "NTALGO_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ntalgo_2"
+            },
+            "position": {
+                "x": 366.57,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_9",
+                "name": "NDIFF_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_9"
+            },
+            "position": {
+                "x": 1152.54,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILB10_5",
+                "name": "HILB10_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilb10_5"
+            },
+            "position": {
+                "x": 1914.5399999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIELD_3",
+                "name": "FIELD_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_3"
+            },
+            "position": {
+                "x": 2664.54,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZIMPL3",
+                "name": "FUZIMPL3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuzimpl3"
+            },
+            "position": {
+                "x": 3444.5400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUNTERS",
+                "name": "COUNTERS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/counters"
+            },
+            "position": {
+                "x": 4320.540000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIBPRE1",
+                "name": "GLIBPRE1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/glibpre1"
+            },
+            "position": {
+                "x": 5184.54,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL_NS2",
+                "name": "REAL_NS2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/real_ns2"
+            },
+            "position": {
+                "x": 6018.6,
+                "y": 108.0
+            }
+        }
+    ]
+}

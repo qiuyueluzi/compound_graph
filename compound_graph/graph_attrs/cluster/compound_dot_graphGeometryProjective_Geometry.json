@@ -3,13 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "COLLSP",
-                "name": "COLLSP",
-                "href": "http://mizar.org/version/current/html/collsp.html"
+                "id": "AFF_3",
+                "name": "AFF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/aff_3"
             },
             "position": {
-                "x": 825.8399999999999,
-                "y": 108.0
+                "x": 241.77599999999998,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TRANSLAC",
+                "name": "TRANSLAC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/translac"
+            },
+            "position": {
+                "x": 967.8000000000002,
+                "y": 540.0
             }
         },
         {
@@ -17,35 +29,35 @@
             "data": {
                 "id": "ANPROJ_1",
                 "name": "ANPROJ_1",
-                "href": "http://mizar.org/version/current/html/anproj_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/anproj_1"
             },
             "position": {
-                "x": 825.8399999999999,
+                "x": 1807.8000000000002,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ANPROJ_2",
-                "name": "ANPROJ_2",
-                "href": "http://mizar.org/version/current/html/anproj_2.html"
+                "id": "GROUP_3",
+                "name": "GROUP_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_3"
             },
             "position": {
-                "x": 825.8399999999999,
-                "y": 972.0000000000001
+                "x": 2611.8,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PROJDES1",
-                "name": "PROJDES1",
-                "href": "http://mizar.org/version/current/html/projdes1.html"
+                "id": "METRIC_3",
+                "name": "METRIC_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/metric_3"
             },
             "position": {
-                "x": 429.86400000000003,
-                "y": 1404.0
+                "x": 3415.7999999999997,
+                "y": 540.0
             }
         },
         {
@@ -53,96 +65,102 @@
             "data": {
                 "id": "HESSENBE",
                 "name": "HESSENBE",
-                "href": "http://mizar.org/version/current/html/hessenbe.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hessenbe"
             },
             "position": {
-                "x": 393.86400000000003,
-                "y": 1836.0
+                "x": 4273.799999999999,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "INCPROJ",
-                "name": "INCPROJ",
-                "href": "http://mizar.org/version/current/html/incproj.html"
+                "id": "ALGSTR_3",
+                "name": "ALGSTR_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/algstr_3"
             },
             "position": {
-                "x": 1239.84,
-                "y": 1404.0
+                "x": 5131.799999999999,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PROJRED1",
-                "name": "PROJRED1",
-                "href": "http://mizar.org/version/current/html/projred1.html"
+                "id": "GEOMTRAP",
+                "name": "GEOMTRAP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/geomtrap"
             },
             "position": {
-                "x": 1263.84,
-                "y": 1836.0
+                "x": 6001.8,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PROJRED2",
-                "name": "PROJRED2",
-                "href": "http://mizar.org/version/current/html/projred2.html"
+                "id": "RING_4",
+                "name": "RING_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ring_4"
             },
             "position": {
-                "x": 1263.84,
-                "y": 2268.0
+                "x": 6847.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIOUVIL2",
+                "name": "LIOUVIL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/liouvil2"
+            },
+            "position": {
+                "x": 6847.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINANCE4",
+                "name": "FINANCE4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finance4"
+            },
+            "position": {
+                "x": 7663.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN10",
+                "name": "LOPBAN10",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban10"
+            },
+            "position": {
+                "x": 8521.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NUMBER02",
+                "name": "NUMBER02",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/number02"
+            },
+            "position": {
+                "x": 9415.8,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ANPROJ_1",
-                "target": "COLLSP"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ANPROJ_2",
-                "target": "ANPROJ_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PROJDES1",
-                "target": "ANPROJ_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "HESSENBE",
-                "target": "PROJDES1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "INCPROJ",
-                "target": "ANPROJ_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PROJRED1",
-                "target": "INCPROJ"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "PROJRED2",
-                "target": "PROJRED1"
+                "source": "LIOUVIL2",
+                "target": "RING_4"
             }
         }
     ]

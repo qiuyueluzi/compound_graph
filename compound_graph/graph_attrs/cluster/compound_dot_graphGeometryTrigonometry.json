@@ -3,13 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SIN_COS",
-                "name": "SIN_COS",
-                "href": "http://mizar.org/version/current/html/sin_cos.html"
+                "id": "MESFUNC1",
+                "name": "MESFUNC1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc1"
             },
             "position": {
-                "x": 2208.84,
+                "x": 405.56399999999996,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC2",
+                "name": "MESFUNC2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc2"
+            },
+            "position": {
+                "x": 405.56399999999996,
+                "y": 540.0
             }
         },
         {
@@ -17,11 +29,11 @@
             "data": {
                 "id": "SIN_COS2",
                 "name": "SIN_COS2",
-                "href": "http://mizar.org/version/current/html/sin_cos2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos2"
             },
             "position": {
-                "x": 1602.84,
-                "y": 540.0
+                "x": 1683.54,
+                "y": 108.0
             }
         },
         {
@@ -29,47 +41,35 @@
             "data": {
                 "id": "SIN_COS3",
                 "name": "SIN_COS3",
-                "href": "http://mizar.org/version/current/html/sin_cos3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos3"
             },
             "position": {
-                "x": 354.87,
-                "y": 972.0000000000001
+                "x": 1275.54,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SIN_COS4",
-                "name": "SIN_COS4",
-                "href": "http://mizar.org/version/current/html/sin_cos4.html"
+                "id": "POLYEQ_5",
+                "name": "POLYEQ_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polyeq_5"
             },
             "position": {
-                "x": 2820.8399999999997,
-                "y": 1404.0
+                "x": 2913.54,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "COMPLEX2",
-                "name": "COMPLEX2",
-                "href": "http://mizar.org/version/current/html/complex2.html"
+                "id": "FDIFF_8",
+                "name": "FDIFF_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fdiff_8"
             },
             "position": {
-                "x": 2028.84,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "SIN_COS6",
-                "name": "SIN_COS6",
-                "href": "http://mizar.org/version/current/html/sin_cos6.html"
-            },
-            "position": {
-                "x": 2004.8400000000001,
-                "y": 1404.0
+                "x": 3681.5400000000004,
+                "y": 540.0
             }
         },
         {
@@ -77,23 +77,23 @@
             "data": {
                 "id": "SIN_COS7",
                 "name": "SIN_COS7",
-                "href": "http://mizar.org/version/current/html/sin_cos7.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos7"
             },
             "position": {
-                "x": 1170.84,
-                "y": 972.0000000000001
+                "x": 2091.54,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SIN_COS8",
-                "name": "SIN_COS8",
-                "href": "http://mizar.org/version/current/html/sin_cos8.html"
+                "id": "PRGCOR_2",
+                "name": "PRGCOR_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prgcor_2"
             },
             "position": {
-                "x": 1170.84,
-                "y": 1404.0
+                "x": 4467.540000000001,
+                "y": 540.0
             }
         },
         {
@@ -101,30 +101,42 @@
             "data": {
                 "id": "SIN_COS9",
                 "name": "SIN_COS9",
-                "href": "http://mizar.org/version/current/html/sin_cos9.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos9"
             },
             "position": {
-                "x": 1998.84,
-                "y": 1836.0
+                "x": 5307.54,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SINCOS10",
-                "name": "SINCOS10",
-                "href": "http://mizar.org/version/current/html/sincos10.html"
+                "id": "DUALSP02",
+                "name": "DUALSP02",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dualsp02"
             },
             "position": {
-                "x": 2826.84,
-                "y": 1836.0
+                "x": 6141.6,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_20",
+                "name": "GROUP_20",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_20"
+            },
+            "position": {
+                "x": 6993.599999999999,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "SIN_COS2",
-                "target": "SIN_COS"
+                "source": "MESFUNC2",
+                "target": "MESFUNC1"
             }
         },
         {
@@ -137,64 +149,8 @@
         {
             "group": "edges",
             "data": {
-                "source": "SIN_COS4",
-                "target": "SIN_COS"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "COMPLEX2",
-                "target": "SIN_COS2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SIN_COS6",
-                "target": "COMPLEX2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
                 "source": "SIN_COS7",
                 "target": "SIN_COS2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SIN_COS8",
-                "target": "SIN_COS7"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SIN_COS9",
-                "target": "SIN_COS6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SIN_COS9",
-                "target": "SIN_COS4"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SINCOS10",
-                "target": "SIN_COS6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SINCOS10",
-                "target": "SIN_COS4"
             }
         }
     ]

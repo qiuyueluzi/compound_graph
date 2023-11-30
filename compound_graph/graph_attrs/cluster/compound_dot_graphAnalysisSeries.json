@@ -3,13 +3,94 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SERIES_1",
-                "name": "SERIES_1",
-                "href": "http://mizar.org/version/current/html/series_1.html"
+                "id": "POLYEQ_1",
+                "name": "POLYEQ_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polyeq_1"
             },
             "position": {
-                "x": 347.07,
+                "x": 358.77,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASYMPT_1",
+                "name": "ASYMPT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/asympt_1"
+            },
+            "position": {
+                "x": 1192.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_3",
+                "name": "SERIES_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/series_3"
+            },
+            "position": {
+                "x": 772.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SERIES_4",
+                "name": "SERIES_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/series_4"
+            },
+            "position": {
+                "x": 772.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PYTHTRIP",
+                "name": "PYTHTRIP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pythtrip"
+            },
+            "position": {
+                "x": 1582.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON04",
+                "name": "NEWTON04",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/newton04"
+            },
+            "position": {
+                "x": 2452.7400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_3",
+                "target": "POLYEQ_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_3",
+                "target": "ASYMPT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_4",
+                "target": "SERIES_3"
             }
         }
     ]

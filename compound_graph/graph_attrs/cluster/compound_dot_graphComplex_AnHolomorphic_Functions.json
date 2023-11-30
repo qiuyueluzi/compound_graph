@@ -3,44 +3,44 @@
         {
             "group": "nodes",
             "data": {
-                "id": "CFCONT_1",
-                "name": "CFCONT_1",
-                "href": "http://mizar.org/version/current/html/cfcont_1.html"
+                "id": "COMSEQ_3",
+                "name": "COMSEQ_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/comseq_3"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 389.964,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CFDIFF_1",
-                "name": "CFDIFF_1",
-                "href": "http://mizar.org/version/current/html/cfdiff_1.html"
+                "id": "CFCONT_1",
+                "name": "CFCONT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cfcont_1"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 389.964,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "COMPLSP1",
-                "name": "COMPLSP1",
-                "href": "http://mizar.org/version/current/html/complsp1.html"
+                "id": "GR_CY_3",
+                "name": "GR_CY_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gr_cy_3"
             },
             "position": {
-                "x": 1216.44,
+                "x": 1181.94,
                 "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CFDIFF_1",
-                "target": "CFCONT_1"
+                "source": "CFCONT_1",
+                "target": "COMSEQ_3"
             }
         }
     ]

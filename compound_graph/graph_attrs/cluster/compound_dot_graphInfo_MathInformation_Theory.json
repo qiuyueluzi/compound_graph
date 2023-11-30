@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_2",
+                "name": "NAT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nat_2"
+            },
+            "position": {
+                "x": 241.77599999999998,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRVECT_2",
+                "name": "PRVECT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prvect_2"
+            },
+            "position": {
+                "x": 949.8000000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPALG_7",
+                "name": "TOPALG_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topalg_7"
+            },
+            "position": {
+                "x": 1771.8000000000002,
+                "y": 108.0
+            }
+        }
+    ]
+}

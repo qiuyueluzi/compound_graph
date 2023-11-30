@@ -3,13 +3,371 @@
         {
             "group": "nodes",
             "data": {
-                "id": "ALI2",
-                "name": "ALI2",
-                "href": "http://mizar.org/version/current/html/ali2.html"
+                "id": "PCOMPS_1",
+                "name": "PCOMPS_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pcomps_1"
             },
             "position": {
-                "x": 194.982,
+                "x": 382.16400000000004,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RSSPACE3",
+                "name": "RSSPACE3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rsspace3"
+            },
+            "position": {
+                "x": 1270.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYFORM",
+                "name": "POLYFORM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polyform"
+            },
+            "position": {
+                "x": 2962.1400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIIDEAL",
+                "name": "BCIIDEAL",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bciideal"
+            },
+            "position": {
+                "x": 3808.1400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_11",
+                "name": "FDIFF_11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fdiff_11"
+            },
+            "position": {
+                "x": 4600.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID_8",
+                "name": "EUCLID_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclid_8"
+            },
+            "position": {
+                "x": 5404.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LTLAXIO1",
+                "name": "LTLAXIO1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ltlaxio1"
+            },
+            "position": {
+                "x": 6208.200000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FVALUAT1",
+                "name": "FVALUAT1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fvaluat1"
+            },
+            "position": {
+                "x": 7018.200000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_8",
+                "name": "INT_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_8"
+            },
+            "position": {
+                "x": 7714.200000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL03",
+                "name": "ZMODUL03",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul03"
+            },
+            "position": {
+                "x": 8452.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAYLDICK",
+                "name": "CAYLDICK",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cayldick"
+            },
+            "position": {
+                "x": 9316.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_7",
+                "name": "NDIFF_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_7"
+            },
+            "position": {
+                "x": 2080.14,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DBLSEQ_2",
+                "name": "DBLSEQ_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dblseq_2"
+            },
+            "position": {
+                "x": 9682.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RING_2",
+                "name": "RING_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ring_2"
+            },
+            "position": {
+                "x": 12226.2,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NEWTON02",
+                "name": "NEWTON02",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/newton02"
+            },
+            "position": {
+                "x": 10564.199999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DUALSP03",
+                "name": "DUALSP03",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dualsp03"
+            },
+            "position": {
+                "x": 1222.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTSP12",
+                "name": "VECTSP12",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp12"
+            },
+            "position": {
+                "x": 11446.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BINARI_6",
+                "name": "BINARI_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/binari_6"
+            },
+            "position": {
+                "x": 12586.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RVSUM_4",
+                "name": "RVSUM_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rvsum_4"
+            },
+            "position": {
+                "x": 10126.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFFEQ1",
+                "name": "PDIFFEQ1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiffeq1"
+            },
+            "position": {
+                "x": 13390.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANPROJ10",
+                "name": "ANPROJ10",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/anproj10"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIELD_1",
+                "name": "FIELD_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_1"
+            },
+            "position": {
+                "x": 12226.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN12",
+                "name": "LOPBAN12",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban12"
+            },
+            "position": {
+                "x": 2080.14,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIELD_6",
+                "name": "FIELD_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_6"
+            },
+            "position": {
+                "x": 12226.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIELD_7",
+                "name": "FIELD_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_7"
+            },
+            "position": {
+                "x": 11836.2,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DUALSP03",
+                "target": "RSSPACE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_4",
+                "target": "NEWTON02"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RVSUM_4",
+                "target": "DBLSEQ_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ANPROJ10",
+                "target": "PCOMPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIELD_1",
+                "target": "RING_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN12",
+                "target": "RSSPACE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN12",
+                "target": "NDIFF_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIELD_6",
+                "target": "FIELD_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIELD_7",
+                "target": "VECTSP12"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIELD_7",
+                "target": "FIELD_6"
             }
         }
     ]

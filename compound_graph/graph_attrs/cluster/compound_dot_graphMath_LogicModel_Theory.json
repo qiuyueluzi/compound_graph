@@ -1,0 +1,121 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX11",
+                "name": "MATRIX11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix11"
+            },
+            "position": {
+                "x": 358.77,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABCMIZ_1",
+                "name": "ABCMIZ_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/abcmiz_1"
+            },
+            "position": {
+                "x": 1186.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_2",
+                "name": "PDIFF_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_2"
+            },
+            "position": {
+                "x": 1954.7400000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BROUWER2",
+                "name": "BROUWER2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/brouwer2"
+            },
+            "position": {
+                "x": 2776.7400000000002,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FOMODEL0",
+                "name": "FOMODEL0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fomodel0"
+            },
+            "position": {
+                "x": 3694.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FOMODEL1",
+                "name": "FOMODEL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fomodel1"
+            },
+            "position": {
+                "x": 3694.74,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FOMODEL2",
+                "name": "FOMODEL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fomodel2"
+            },
+            "position": {
+                "x": 3694.74,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FOMODEL3",
+                "name": "FOMODEL3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fomodel3"
+            },
+            "position": {
+                "x": 3694.74,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FOMODEL1",
+                "target": "FOMODEL0"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FOMODEL2",
+                "target": "FOMODEL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FOMODEL3",
+                "target": "FOMODEL2"
+            }
+        }
+    ]
+}

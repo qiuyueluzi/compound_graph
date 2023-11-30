@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SGRAPH1",
+                "name": "SGRAPH1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sgraph1"
+            },
+            "position": {
+                "x": 347.07,
+                "y": 108.0
+            }
+        }
+    ]
+}

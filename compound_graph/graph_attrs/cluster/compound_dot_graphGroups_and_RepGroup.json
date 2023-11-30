@@ -3,61 +3,73 @@
         {
             "group": "nodes",
             "data": {
-                "id": "GROUP_1",
-                "name": "GROUP_1",
-                "href": "http://mizar.org/version/current/html/group_1.html"
+                "id": "RLSUB_1",
+                "name": "RLSUB_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlsub_1"
             },
             "position": {
-                "x": 3028.7400000000002,
-                "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "VECTSP_1",
-                "name": "VECTSP_1",
-                "href": "http://mizar.org/version/current/html/vectsp_1.html"
-            },
-            "position": {
-                "x": 1966.7400000000002,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "TDGROUP",
-                "name": "TDGROUP",
-                "href": "http://mizar.org/version/current/html/tdgroup.html"
-            },
-            "position": {
-                "x": 358.77,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_2",
-                "name": "GROUP_2",
-                "href": "http://mizar.org/version/current/html/group_2.html"
-            },
-            "position": {
-                "x": 3526.74,
+                "x": 389.964,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GROUP_3",
-                "name": "GROUP_3",
-                "href": "http://mizar.org/version/current/html/group_3.html"
+                "id": "GROUP_1",
+                "name": "GROUP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_1"
             },
             "position": {
-                "x": 3526.74,
+                "x": 1985.9400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REAL_LAT",
+                "name": "REAL_LAT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/real_lat"
+            },
+            "position": {
+                "x": 2795.94,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLVECT_3",
+                "name": "RLVECT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlvect_3"
+            },
+            "position": {
+                "x": 389.964,
                 "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ANALMETR",
+                "name": "ANALMETR",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/analmetr"
+            },
+            "position": {
+                "x": 3647.94,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROJDES1",
+                "name": "PROJDES1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/projdes1"
+            },
+            "position": {
+                "x": 4517.9400000000005,
+                "y": 1404.0
             }
         },
         {
@@ -65,47 +77,47 @@
             "data": {
                 "id": "GROUP_4",
                 "name": "GROUP_4",
-                "href": "http://mizar.org/version/current/html/group_4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_4"
             },
             "position": {
-                "x": 3802.74,
+                "x": 1187.94,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_3",
+                "name": "MATRIX_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_3"
+            },
+            "position": {
+                "x": 1985.9400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_LAT",
+                "name": "NAT_LAT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nat_lat"
+            },
+            "position": {
+                "x": 5303.9400000000005,
                 "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GR_CY_1",
-                "name": "GR_CY_1",
-                "href": "http://mizar.org/version/current/html/gr_cy_1.html"
+                "id": "TBSP_1",
+                "name": "TBSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tbsp_1"
             },
             "position": {
-                "x": 3388.74,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MIDSP_2",
-                "name": "MIDSP_2",
-                "href": "http://mizar.org/version/current/html/midsp_2.html"
-            },
-            "position": {
-                "x": 1150.74,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_5",
-                "name": "GROUP_5",
-                "href": "http://mizar.org/version/current/html/group_5.html"
-            },
-            "position": {
-                "x": 4084.7400000000002,
-                "y": 1836.0
+                "x": 5999.9400000000005,
+                "y": 1404.0
             }
         },
         {
@@ -113,460 +125,292 @@
             "data": {
                 "id": "GROUP_6",
                 "name": "GROUP_6",
-                "href": "http://mizar.org/version/current/html/group_6.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_6"
             },
             "position": {
-                "x": 4150.74,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MONOID_0",
-                "name": "MONOID_0",
-                "href": "http://mizar.org/version/current/html/monoid_0.html"
-            },
-            "position": {
-                "x": 1966.7400000000002,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GR_CY_2",
-                "name": "GR_CY_2",
-                "href": "http://mizar.org/version/current/html/gr_cy_2.html"
-            },
-            "position": {
-                "x": 3586.74,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "MONOID_1",
-                "name": "MONOID_1",
-                "href": "http://mizar.org/version/current/html/monoid_1.html"
-            },
-            "position": {
-                "x": 2038.7400000000002,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "AUTGROUP",
-                "name": "AUTGROUP",
-                "href": "http://mizar.org/version/current/html/autgroup.html"
-            },
-            "position": {
-                "x": 3586.74,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_9",
-                "name": "GROUP_9",
-                "href": "http://mizar.org/version/current/html/group_9.html"
-            },
-            "position": {
-                "x": 4678.74,
-                "y": 2700.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_10",
-                "name": "GROUP_10",
-                "href": "http://mizar.org/version/current/html/group_10.html"
-            },
-            "position": {
-                "x": 4690.74,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GR_CY_3",
-                "name": "GR_CY_3",
-                "href": "http://mizar.org/version/current/html/gr_cy_3.html"
-            },
-            "position": {
-                "x": 2770.7400000000002,
-                "y": 3132.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_11",
-                "name": "GROUP_11",
-                "href": "http://mizar.org/version/current/html/group_11.html"
-            },
-            "position": {
-                "x": 5098.74,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUPP_1",
-                "name": "GROUPP_1",
-                "href": "http://mizar.org/version/current/html/groupp_1.html"
-            },
-            "position": {
-                "x": 4960.74,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_12",
-                "name": "GROUP_12",
-                "href": "http://mizar.org/version/current/html/group_12.html"
-            },
-            "position": {
-                "x": 3244.74,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_14",
-                "name": "GROUP_14",
-                "href": "http://mizar.org/version/current/html/group_14.html"
-            },
-            "position": {
-                "x": 1174.74,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_17",
-                "name": "GROUP_17",
-                "href": "http://mizar.org/version/current/html/group_17.html"
-            },
-            "position": {
-                "x": 4102.74,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_18",
-                "name": "GROUP_18",
-                "href": "http://mizar.org/version/current/html/group_18.html"
-            },
-            "position": {
-                "x": 4744.74,
-                "y": 3996.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_19",
-                "name": "GROUP_19",
-                "href": "http://mizar.org/version/current/html/group_19.html"
-            },
-            "position": {
-                "x": 3670.74,
-                "y": 3996.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_20",
-                "name": "GROUP_20",
-                "href": "http://mizar.org/version/current/html/group_20.html"
-            },
-            "position": {
-                "x": 3670.74,
-                "y": 4428.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GROUP_1A",
-                "name": "GROUP_1A",
-                "href": "http://mizar.org/version/current/html/group_1a.html"
-            },
-            "position": {
-                "x": 4354.74,
+                "x": 1187.94,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GROUP_21",
-                "name": "GROUP_21",
-                "href": "http://mizar.org/version/current/html/group_21.html"
+                "id": "MIDSP_3",
+                "name": "MIDSP_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/midsp_3"
             },
             "position": {
-                "x": 3670.74,
-                "y": 4860.0
+                "x": 6708.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COH_SP",
+                "name": "COH_SP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/coh_sp"
+            },
+            "position": {
+                "x": 7440.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX_7",
+                "name": "MATRIX_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix_7"
+            },
+            "position": {
+                "x": 1985.9400000000003,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WEDDWITT",
+                "name": "WEDDWITT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/weddwitt"
+            },
+            "position": {
+                "x": 2843.94,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "METRIZTS",
+                "name": "METRIZTS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/metrizts"
+            },
+            "position": {
+                "x": 8208.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPDIM_1",
+                "name": "TOPDIM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topdim_1"
+            },
+            "position": {
+                "x": 8208.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POSET_1",
+                "name": "POSET_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/poset_1"
+            },
+            "position": {
+                "x": 9000.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_7",
+                "name": "PDIFF_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_7"
+            },
+            "position": {
+                "x": 9738.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR18",
+                "name": "INTEGR18",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr18"
+            },
+            "position": {
+                "x": 10512.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FOMODEL4",
+                "name": "FOMODEL4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fomodel4"
+            },
+            "position": {
+                "x": 11382.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AOFA_A00",
+                "name": "AOFA_A00",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/aofa_a00"
+            },
+            "position": {
+                "x": 1985.9400000000003,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROUGHS_2",
+                "name": "ROUGHS_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/roughs_2"
+            },
+            "position": {
+                "x": 12276.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_6",
+                "name": "CAT_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_6"
+            },
+            "position": {
+                "x": 13008.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_7",
+                "name": "CAT_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_7"
+            },
+            "position": {
+                "x": 13008.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMSP_4",
+                "name": "NORMSP_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normsp_4"
+            },
+            "position": {
+                "x": 389.964,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NELSON_1",
+                "name": "NELSON_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nelson_1"
+            },
+            "position": {
+                "x": 13734.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASUR10",
+                "name": "MEASUR10",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measur10"
+            },
+            "position": {
+                "x": 14616.0,
+                "y": 1404.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "VECTSP_1",
-                "target": "GROUP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TDGROUP",
-                "target": "VECTSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_2",
-                "target": "GROUP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_3",
-                "target": "GROUP_2"
+                "source": "RLVECT_3",
+                "target": "RLSUB_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "GROUP_4",
-                "target": "GROUP_3"
+                "target": "GROUP_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GR_CY_1",
-                "target": "GROUP_4"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MIDSP_2",
-                "target": "VECTSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_5",
-                "target": "GROUP_4"
+                "source": "MATRIX_3",
+                "target": "GROUP_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "GROUP_6",
-                "target": "GROUP_5"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MONOID_0",
-                "target": "GR_CY_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MONOID_0",
-                "target": "VECTSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GR_CY_2",
-                "target": "GROUP_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GR_CY_2",
-                "target": "GR_CY_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MONOID_1",
-                "target": "MONOID_0"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "AUTGROUP",
-                "target": "GR_CY_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_9",
-                "target": "GROUP_6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_10",
-                "target": "GR_CY_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_10",
-                "target": "GROUP_9"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GR_CY_3",
-                "target": "GR_CY_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GR_CY_3",
-                "target": "VECTSP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_11",
                 "target": "GROUP_4"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUPP_1",
-                "target": "GROUP_10"
+                "source": "MATRIX_7",
+                "target": "MATRIX_3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUPP_1",
-                "target": "GROUP_11"
+                "source": "MATRIX_7",
+                "target": "GROUP_4"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUP_12",
-                "target": "GROUP_6"
+                "source": "WEDDWITT",
+                "target": "GROUP_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUP_12",
-                "target": "MONOID_0"
+                "source": "TOPDIM_1",
+                "target": "METRIZTS"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUP_14",
-                "target": "MONOID_0"
+                "source": "AOFA_A00",
+                "target": "MATRIX_7"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUP_17",
-                "target": "MONOID_0"
+                "source": "CAT_7",
+                "target": "CAT_6"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GROUP_17",
-                "target": "GROUP_10"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_18",
-                "target": "GROUP_17"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_18",
-                "target": "GROUPP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_19",
-                "target": "GROUP_12"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_19",
-                "target": "GROUP_17"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_20",
-                "target": "GROUP_19"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_1A",
-                "target": "GROUP_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GROUP_21",
-                "target": "GROUP_20"
+                "source": "NORMSP_4",
+                "target": "RLVECT_3"
             }
         }
     ]

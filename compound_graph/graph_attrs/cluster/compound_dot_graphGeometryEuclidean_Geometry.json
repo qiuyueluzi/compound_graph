@@ -1,0 +1,100 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL1",
+                "name": "TOPREAL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topreal1"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_3",
+                "name": "MOD_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mod_3"
+            },
+            "position": {
+                "x": 1120.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TWOSCOMP",
+                "name": "TWOSCOMP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/twoscomp"
+            },
+            "position": {
+                "x": 1912.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL13",
+                "name": "WAYBEL13",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel13"
+            },
+            "position": {
+                "x": 2818.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLAFFIN1",
+                "name": "RLAFFIN1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlaffin1"
+            },
+            "position": {
+                "x": 3664.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JGRAPH_2",
+                "name": "JGRAPH_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/jgraph_2"
+            },
+            "position": {
+                "x": 4486.4400000000005,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HELLY",
+                "name": "HELLY",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/helly"
+            },
+            "position": {
+                "x": 5200.4400000000005,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINANCE3",
+                "name": "FINANCE3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finance3"
+            },
+            "position": {
+                "x": 5932.44,
+                "y": 108.0
+            }
+        }
+    ]
+}

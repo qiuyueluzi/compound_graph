@@ -3,13 +3,125 @@
         {
             "group": "nodes",
             "data": {
-                "id": "FUNCT_4",
-                "name": "FUNCT_4",
-                "href": "http://mizar.org/version/current/html/funct_4.html"
+                "id": "REALSET1",
+                "name": "REALSET1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/realset1"
             },
             "position": {
-                "x": 335.37000000000006,
+                "x": 1246.14,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_5",
+                "name": "MSUALG_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msualg_5"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LMOD_7",
+                "name": "LMOD_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lmod_7"
+            },
+            "position": {
+                "x": 2938.1400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIX16",
+                "name": "MATRIX16",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrix16"
+            },
+            "position": {
+                "x": 3706.1400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_4",
+                "name": "PDIFF_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_4"
+            },
+            "position": {
+                "x": 4474.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PDIFF_5",
+                "name": "PDIFF_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_5"
+            },
+            "position": {
+                "x": 4474.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_14",
+                "name": "GROUP_14",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_14"
+            },
+            "position": {
+                "x": 1246.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL04",
+                "name": "ZMODUL04",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul04"
+            },
+            "position": {
+                "x": 2128.14,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_5",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PDIFF_5",
+                "target": "PDIFF_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_14",
+                "target": "REALSET1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL04",
+                "target": "REALSET1"
             }
         }
     ]

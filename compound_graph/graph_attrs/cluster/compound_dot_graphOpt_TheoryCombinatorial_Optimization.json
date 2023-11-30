@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "GENEALG1",
-                "name": "GENEALG1",
-                "href": "http://mizar.org/version/current/html/genealg1.html"
+                "id": "PZFMISC1",
+                "name": "PZFMISC1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pzfmisc1"
             },
             "position": {
-                "x": 389.964,
+                "x": 370.46999999999997,
                 "y": 108.0
             }
         }

@@ -3,12 +3,36 @@
         {
             "group": "nodes",
             "data": {
-                "id": "ARYTM_3",
-                "name": "ARYTM_3",
-                "href": "http://mizar.org/version/current/html/arytm_3.html"
+                "id": "FUNCT_4",
+                "name": "FUNCT_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_4"
             },
             "position": {
-                "x": 1289.6399999999999,
+                "x": 1868.3400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_6",
+                "name": "FUNCT_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_6"
+            },
+            "position": {
+                "x": 1538.34,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ARYTM_3",
+                "name": "ARYTM_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/arytm_3"
+            },
+            "position": {
+                "x": 2792.34,
                 "y": 108.0
             }
         },
@@ -17,10 +41,10 @@
             "data": {
                 "id": "ARYTM_2",
                 "name": "ARYTM_2",
-                "href": "http://mizar.org/version/current/html/arytm_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/arytm_2"
             },
             "position": {
-                "x": 1289.6399999999999,
+                "x": 2792.34,
                 "y": 540.0
             }
         },
@@ -29,10 +53,10 @@
             "data": {
                 "id": "ARYTM_1",
                 "name": "ARYTM_1",
-                "href": "http://mizar.org/version/current/html/arytm_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/arytm_1"
             },
             "position": {
-                "x": 887.64,
+                "x": 2978.3399999999997,
                 "y": 972.0000000000001
             }
         },
@@ -41,10 +65,10 @@
             "data": {
                 "id": "NUMBERS",
                 "name": "NUMBERS",
-                "href": "http://mizar.org/version/current/html/numbers.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/numbers"
             },
             "position": {
-                "x": 1697.64,
+                "x": 2168.34,
                 "y": 972.0000000000001
             }
         },
@@ -53,10 +77,10 @@
             "data": {
                 "id": "ARYTM_0",
                 "name": "ARYTM_0",
-                "href": "http://mizar.org/version/current/html/arytm_0.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/arytm_0"
             },
             "position": {
-                "x": 1289.6399999999999,
+                "x": 2978.3399999999997,
                 "y": 1404.0
             }
         },
@@ -65,10 +89,10 @@
             "data": {
                 "id": "XCMPLX_0",
                 "name": "XCMPLX_0",
-                "href": "http://mizar.org/version/current/html/xcmplx_0.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xcmplx_0"
             },
             "position": {
-                "x": 869.64,
+                "x": 3632.3399999999997,
                 "y": 1836.0
             }
         },
@@ -77,10 +101,10 @@
             "data": {
                 "id": "ARITHM",
                 "name": "ARITHM",
-                "href": "http://mizar.org/version/current/html/arithm.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/arithm"
             },
             "position": {
-                "x": 1055.64,
+                "x": 3746.34,
                 "y": 2268.0
             }
         },
@@ -89,11 +113,11 @@
             "data": {
                 "id": "XXREAL_0",
                 "name": "XXREAL_0",
-                "href": "http://mizar.org/version/current/html/xxreal_0.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xxreal_0"
             },
             "position": {
-                "x": 1709.64,
-                "y": 1836.0
+                "x": 2978.3399999999997,
+                "y": 2268.0
             }
         },
         {
@@ -101,10 +125,10 @@
             "data": {
                 "id": "XREAL_0",
                 "name": "XREAL_0",
-                "href": "http://mizar.org/version/current/html/xreal_0.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xreal_0"
             },
             "position": {
-                "x": 1289.6399999999999,
+                "x": 2984.3399999999997,
                 "y": 2700.0
             }
         },
@@ -113,10 +137,10 @@
             "data": {
                 "id": "REAL",
                 "name": "REAL",
-                "href": "http://mizar.org/version/current/html/real.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/real"
             },
             "position": {
-                "x": 1985.64,
+                "x": 2288.3399999999997,
                 "y": 3132.0
             }
         },
@@ -125,10 +149,10 @@
             "data": {
                 "id": "XCMPLX_1",
                 "name": "XCMPLX_1",
-                "href": "http://mizar.org/version/current/html/xcmplx_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xcmplx_1"
             },
             "position": {
-                "x": 1289.6399999999999,
+                "x": 2984.3399999999997,
                 "y": 3132.0
             }
         },
@@ -137,10 +161,10 @@
             "data": {
                 "id": "XREAL_1",
                 "name": "XREAL_1",
-                "href": "http://mizar.org/version/current/html/xreal_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xreal_1"
             },
             "position": {
-                "x": 1337.64,
+                "x": 2984.3399999999997,
                 "y": 3564.0000000000005
             }
         },
@@ -149,34 +173,22 @@
             "data": {
                 "id": "AXIOMS",
                 "name": "AXIOMS",
-                "href": "http://mizar.org/version/current/html/axioms.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/axioms"
             },
             "position": {
-                "x": 611.6400000000001,
-                "y": 3564.0000000000005
+                "x": 3764.34,
+                "y": 3132.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "REAL_1",
-                "name": "REAL_1",
-                "href": "http://mizar.org/version/current/html/real_1.html"
+                "id": "VALUED_0",
+                "name": "VALUED_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/valued_0"
             },
             "position": {
-                "x": 2045.64,
-                "y": 3564.0000000000005
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "NAT_1",
-                "name": "NAT_1",
-                "href": "http://mizar.org/version/current/html/nat_1.html"
-            },
-            "position": {
-                "x": 1337.64,
+                "x": 3818.34,
                 "y": 3996.0
             }
         },
@@ -185,22 +197,10 @@
             "data": {
                 "id": "COMPLEX1",
                 "name": "COMPLEX1",
-                "href": "http://mizar.org/version/current/html/complex1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/complex1"
             },
             "position": {
-                "x": 2081.6400000000003,
-                "y": 3996.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "ABSVALUE",
-                "name": "ABSVALUE",
-                "href": "http://mizar.org/version/current/html/absvalue.html"
-            },
-            "position": {
-                "x": 2135.64,
+                "x": 2186.34,
                 "y": 4428.0
             }
         },
@@ -209,35 +209,35 @@
             "data": {
                 "id": "INT_2",
                 "name": "INT_2",
-                "href": "http://mizar.org/version/current/html/int_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_2"
             },
             "position": {
-                "x": 2489.64,
+                "x": 1088.34,
                 "y": 4860.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NAT_D",
-                "name": "NAT_D",
-                "href": "http://mizar.org/version/current/html/nat_d.html"
+                "id": "BINOP_2",
+                "name": "BINOP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/binop_2"
             },
             "position": {
-                "x": 2489.64,
-                "y": 5292.0
+                "x": 3824.34,
+                "y": 4428.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "XXREAL_1",
-                "name": "XXREAL_1",
-                "href": "http://mizar.org/version/current/html/xxreal_1.html"
+                "id": "CARD_2",
+                "name": "CARD_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/card_2"
             },
             "position": {
-                "x": 401.66400000000004,
-                "y": 3996.0
+                "x": 1394.3400000000001,
+                "y": 4428.0
             }
         },
         {
@@ -245,11 +245,11 @@
             "data": {
                 "id": "XXREAL_2",
                 "name": "XXREAL_2",
-                "href": "http://mizar.org/version/current/html/xxreal_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xxreal_2"
             },
             "position": {
-                "x": 401.66400000000004,
-                "y": 4428.0
+                "x": 2984.3399999999997,
+                "y": 3996.0
             }
         },
         {
@@ -257,71 +257,126 @@
             "data": {
                 "id": "XXREAL_3",
                 "name": "XXREAL_3",
-                "href": "http://mizar.org/version/current/html/xxreal_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xxreal_3"
             },
             "position": {
-                "x": 401.66400000000004,
+                "x": 3044.34,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "XBOOLEAN",
+                "name": "XBOOLEAN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/xboolean"
+            },
+            "position": {
+                "x": 4892.34,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPTRIG",
+                "name": "COMPTRIG",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/comptrig"
+            },
+            "position": {
+                "x": 2612.34,
                 "y": 4860.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MEMBER_1",
-                "name": "MEMBER_1",
-                "href": "http://mizar.org/version/current/html/member_1.html"
+                "id": "SERIES_5",
+                "name": "SERIES_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/series_5"
             },
             "position": {
-                "x": 401.66400000000004,
+                "x": 3452.3399999999997,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_1",
+                "name": "ALGSTR_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/algstr_1"
+            },
+            "position": {
+                "x": 5096.34,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONVEX4",
+                "name": "CONVEX4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/convex4"
+            },
+            "position": {
+                "x": 1772.34,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROBBINS4",
+                "name": "ROBBINS4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/robbins4"
+            },
+            "position": {
+                "x": 2186.34,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR11",
+                "name": "INTEGR11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr11"
+            },
+            "position": {
+                "x": 4268.34,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPGEN_6",
+                "name": "TOPGEN_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topgen_6"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NOMIN_7",
+                "name": "NOMIN_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_7"
+            },
+            "position": {
+                "x": 3356.3399999999997,
                 "y": 5292.0
             }
         },
         {
-            "group": "nodes",
+            "group": "edges",
             "data": {
-                "id": "COMSEQ_2",
-                "name": "COMSEQ_2",
-                "href": "http://mizar.org/version/current/html/comseq_2.html"
-            },
-            "position": {
-                "x": 3005.6400000000003,
-                "y": 4428.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "QUATERNI",
-                "name": "QUATERNI",
-                "href": "http://mizar.org/version/current/html/quaterni.html"
-            },
-            "position": {
-                "x": 1781.6399999999999,
-                "y": 4860.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "INT_6",
-                "name": "INT_6",
-                "href": "http://mizar.org/version/current/html/int_6.html"
-            },
-            "position": {
-                "x": 2489.64,
-                "y": 5724.000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "COMPLFLD",
-                "name": "COMPLFLD",
-                "href": "http://mizar.org/version/current/html/complfld.html"
-            },
-            "position": {
-                "x": 1259.64,
-                "y": 4428.0
+                "source": "FUNCT_6",
+                "target": "FUNCT_4"
             }
         },
         {
@@ -342,6 +397,13 @@
             "group": "edges",
             "data": {
                 "source": "NUMBERS",
+                "target": "FUNCT_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NUMBERS",
                 "target": "ARYTM_2"
             }
         },
@@ -349,14 +411,14 @@
             "group": "edges",
             "data": {
                 "source": "ARYTM_0",
-                "target": "NUMBERS"
+                "target": "ARYTM_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "ARYTM_0",
-                "target": "ARYTM_1"
+                "target": "NUMBERS"
             }
         },
         {
@@ -412,14 +474,14 @@
             "group": "edges",
             "data": {
                 "source": "XREAL_1",
-                "target": "XCMPLX_1"
+                "target": "REAL"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "XREAL_1",
-                "target": "REAL"
+                "target": "XCMPLX_1"
             }
         },
         {
@@ -432,29 +494,8 @@
         {
             "group": "edges",
             "data": {
-                "source": "REAL_1",
-                "target": "REAL"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NAT_1",
+                "source": "VALUED_0",
                 "target": "XREAL_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NAT_1",
-                "target": "AXIOMS"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "COMPLEX1",
-                "target": "REAL_1"
             }
         },
         {
@@ -462,69 +503,41 @@
             "data": {
                 "source": "COMPLEX1",
                 "target": "XREAL_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ABSVALUE",
-                "target": "NAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ABSVALUE",
-                "target": "COMPLEX1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "INT_2",
-                "target": "ABSVALUE"
+                "target": "COMPLEX1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "NAT_D",
-                "target": "INT_2"
+                "source": "BINOP_2",
+                "target": "VALUED_0"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "XXREAL_1",
+                "source": "CARD_2",
                 "target": "XREAL_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "XXREAL_1",
-                "target": "AXIOMS"
+                "source": "CARD_2",
+                "target": "FUNCT_6"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "XXREAL_2",
-                "target": "REAL_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "XXREAL_2",
-                "target": "NAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "XXREAL_2",
-                "target": "XXREAL_1"
+                "target": "XREAL_1"
             }
         },
         {
@@ -537,50 +550,113 @@
         {
             "group": "edges",
             "data": {
-                "source": "MEMBER_1",
-                "target": "XXREAL_3"
+                "source": "XBOOLEAN",
+                "target": "ARITHM"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "COMSEQ_2",
-                "target": "NAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "COMSEQ_2",
+                "source": "COMPTRIG",
                 "target": "COMPLEX1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "QUATERNI",
-                "target": "ABSVALUE"
+                "source": "COMPTRIG",
+                "target": "BINOP_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "INT_6",
-                "target": "NAT_D"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "COMPLFLD",
-                "target": "NAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "COMPLFLD",
+                "source": "SERIES_5",
                 "target": "COMPLEX1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SERIES_5",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALGSTR_1",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONVEX4",
+                "target": "COMPLEX1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONVEX4",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONVEX4",
+                "target": "CARD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROBBINS4",
+                "target": "REAL"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR11",
+                "target": "COMPLEX1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR11",
+                "target": "BINOP_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPGEN_6",
+                "target": "COMPLEX1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPGEN_6",
+                "target": "CARD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NOMIN_7",
+                "target": "XBOOLEAN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NOMIN_7",
+                "target": "INT_2"
             }
         }
     ]

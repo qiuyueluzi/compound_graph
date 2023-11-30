@@ -3,12 +3,84 @@
         {
             "group": "nodes",
             "data": {
-                "id": "LANG1",
-                "name": "LANG1",
-                "href": "http://mizar.org/version/current/html/lang1.html"
+                "id": "UNIALG_2",
+                "name": "UNIALG_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/unialg_2"
             },
             "position": {
-                "x": 265.176,
+                "x": 358.77,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FILTER_2",
+                "name": "FILTER_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/filter_2"
+            },
+            "position": {
+                "x": 1162.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_1",
+                "name": "BCIALG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_1"
+            },
+            "position": {
+                "x": 1954.7400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FLANG_1",
+                "name": "FLANG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/flang_1"
+            },
+            "position": {
+                "x": 2734.7400000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_5",
+                "name": "INT_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_5"
+            },
+            "position": {
+                "x": 3400.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_8",
+                "name": "FUNCT_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_8"
+            },
+            "position": {
+                "x": 4072.74,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_8",
+                "name": "LOPBAN_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban_8"
+            },
+            "position": {
+                "x": 4888.74,
                 "y": 108.0
             }
         }

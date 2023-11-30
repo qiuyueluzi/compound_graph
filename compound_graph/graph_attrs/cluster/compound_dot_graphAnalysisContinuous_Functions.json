@@ -3,51 +3,97 @@
         {
             "group": "nodes",
             "data": {
-                "id": "FCONT_1",
-                "name": "FCONT_1",
-                "href": "http://mizar.org/version/current/html/fcont_1.html"
+                "id": "CFUNCT_1",
+                "name": "CFUNCT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cfunct_1"
             },
             "position": {
-                "x": 331.46999999999997,
+                "x": 374.36400000000003,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FCONT_2",
-                "name": "FCONT_2",
-                "href": "http://mizar.org/version/current/html/fcont_2.html"
+                "id": "FCONT_1",
+                "name": "FCONT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fcont_1"
             },
             "position": {
-                "x": 331.46999999999997,
-                "y": 540.0
+                "x": 1190.34,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FCONT_3",
-                "name": "FCONT_3",
-                "href": "http://mizar.org/version/current/html/fcont_3.html"
+                "id": "LIMFUNC3",
+                "name": "LIMFUNC3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/limfunc3"
             },
             "position": {
-                "x": 331.46999999999997,
-                "y": 972.0000000000001
+                "x": 2012.34,
+                "y": 108.0
             }
         },
         {
-            "group": "edges",
+            "group": "nodes",
             "data": {
-                "source": "FCONT_2",
-                "target": "FCONT_1"
+                "id": "JORDAN2B",
+                "name": "JORDAN2B",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/jordan2b"
+            },
+            "position": {
+                "x": 2876.3399999999997,
+                "y": 108.0
             }
         },
         {
-            "group": "edges",
+            "group": "nodes",
             "data": {
-                "source": "FCONT_3",
-                "target": "FCONT_2"
+                "id": "TOPS_4",
+                "name": "TOPS_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tops_4"
+            },
+            "position": {
+                "x": 3638.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MYCIELSK",
+                "name": "MYCIELSK",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mycielsk"
+            },
+            "position": {
+                "x": 4400.34,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAYLEY",
+                "name": "CAYLEY",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cayley"
+            },
+            "position": {
+                "x": 5168.339999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATWAL_1",
+                "name": "LATWAL_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/latwal_1"
+            },
+            "position": {
+                "x": 5924.34,
+                "y": 108.0
             }
         }
     ]

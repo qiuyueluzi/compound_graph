@@ -1,0 +1,28 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIFORM1",
+                "name": "UNIFORM1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/uniform1"
+            },
+            "position": {
+                "x": 393.86400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SPRECT_1",
+                "name": "SPRECT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sprect_1"
+            },
+            "position": {
+                "x": 1251.84,
+                "y": 108.0
+            }
+        }
+    ]
+}

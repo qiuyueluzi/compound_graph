@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATROID0",
+                "name": "MATROID0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matroid0"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 108.0
+            }
+        }
+    ]
+}

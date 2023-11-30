@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SUPINF_1",
-                "name": "SUPINF_1",
-                "href": "http://mizar.org/version/current/html/supinf_1.html"
+                "id": "MEMBER_1",
+                "name": "MEMBER_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/member_1"
             },
             "position": {
-                "x": 354.87,
+                "x": 401.66400000000004,
                 "y": 108.0
             }
         }

@@ -3,63 +3,44 @@
         {
             "group": "nodes",
             "data": {
-                "id": "FINSEQ_2",
-                "name": "FINSEQ_2",
-                "href": "http://mizar.org/version/current/html/finseq_2.html"
+                "id": "SEQ_1",
+                "name": "SEQ_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/seq_1"
             },
             "position": {
-                "x": 374.36400000000003,
+                "x": 350.96999999999997,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FINSEQOP",
-                "name": "FINSEQOP",
-                "href": "http://mizar.org/version/current/html/finseqop.html"
+                "id": "TAYLOR_2",
+                "name": "TAYLOR_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/taylor_2"
             },
             "position": {
-                "x": 374.36400000000003,
+                "x": 350.96999999999997,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FINSEQ_3",
-                "name": "FINSEQ_3",
-                "href": "http://mizar.org/version/current/html/finseq_3.html"
+                "id": "INTEGR14",
+                "name": "INTEGR14",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr14"
             },
             "position": {
-                "x": 374.36400000000003,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "COMSEQ_1",
-                "name": "COMSEQ_1",
-                "href": "http://mizar.org/version/current/html/comseq_1.html"
-            },
-            "position": {
-                "x": 1226.34,
-                "y": 972.0000000000001
+                "x": 1172.94,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "FINSEQOP",
-                "target": "FINSEQ_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "FINSEQ_3",
-                "target": "FINSEQOP"
+                "source": "TAYLOR_2",
+                "target": "SEQ_1"
             }
         }
     ]

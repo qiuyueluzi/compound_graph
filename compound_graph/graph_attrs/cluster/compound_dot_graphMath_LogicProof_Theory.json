@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "WELLSET1",
-                "name": "WELLSET1",
-                "href": "http://mizar.org/version/current/html/wellset1.html"
+                "id": "ORDINAL3",
+                "name": "ORDINAL3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordinal3"
             },
             "position": {
-                "x": 382.16400000000004,
+                "x": 370.46999999999997,
                 "y": 108.0
             }
         }

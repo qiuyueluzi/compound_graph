@@ -3,12 +3,24 @@
         {
             "group": "nodes",
             "data": {
-                "id": "PRE_TOPC",
-                "name": "PRE_TOPC",
-                "href": "http://mizar.org/version/current/html/pre_topc.html"
+                "id": "INCSP_1",
+                "name": "INCSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/incsp_1"
             },
             "position": {
-                "x": 1794.0000000000002,
+                "x": 8952.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICES",
+                "name": "LATTICES",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lattices"
+            },
+            "position": {
+                "x": 8940.0,
                 "y": 108.0
             }
         },
@@ -17,11 +29,11 @@
             "data": {
                 "id": "TOPS_1",
                 "name": "TOPS_1",
-                "href": "http://mizar.org/version/current/html/tops_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tops_1"
             },
             "position": {
-                "x": 1572.0,
-                "y": 540.0
+                "x": 6210.0,
+                "y": 108.0
             }
         },
         {
@@ -29,71 +41,71 @@
             "data": {
                 "id": "CONNSP_1",
                 "name": "CONNSP_1",
-                "href": "http://mizar.org/version/current/html/connsp_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/connsp_1"
             },
             "position": {
-                "x": 1572.0,
-                "y": 972.0000000000001
+                "x": 6546.0,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "TOPS_2",
-                "name": "TOPS_2",
-                "href": "http://mizar.org/version/current/html/tops_2.html"
+                "id": "ORTSP_1",
+                "name": "ORTSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ortsp_1"
             },
             "position": {
-                "x": 1572.0,
-                "y": 1404.0
+                "x": 10560.0,
+                "y": 5292.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "COMPTS_1",
-                "name": "COMPTS_1",
-                "href": "http://mizar.org/version/current/html/compts_1.html"
+                "id": "REALSET2",
+                "name": "REALSET2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/realset2"
             },
             "position": {
-                "x": 1572.0,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "CONNSP_2",
-                "name": "CONNSP_2",
-                "href": "http://mizar.org/version/current/html/connsp_2.html"
-            },
-            "position": {
-                "x": 2316.0,
+                "x": 2826.0,
                 "y": 2268.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PCOMPS_1",
-                "name": "PCOMPS_1",
-                "href": "http://mizar.org/version/current/html/pcomps_1.html"
+                "id": "NATTRA_1",
+                "name": "NATTRA_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nattra_1"
             },
             "position": {
-                "x": 1440.0,
-                "y": 2268.0
+                "x": 10278.0,
+                "y": 4860.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "BORSUK_1",
-                "name": "BORSUK_1",
-                "href": "http://mizar.org/version/current/html/borsuk_1.html"
+                "id": "ENS_1",
+                "name": "ENS_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ens_1"
             },
             "position": {
-                "x": 1440.0,
-                "y": 2700.0
+                "x": 10188.0,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "T_0TOPSP",
+                "name": "T_0TOPSP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/t_0topsp"
+            },
+            "position": {
+                "x": 648.0,
+                "y": 2268.0
             }
         },
         {
@@ -101,11 +113,11 @@
             "data": {
                 "id": "CANTOR_1",
                 "name": "CANTOR_1",
-                "href": "http://mizar.org/version/current/html/cantor_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cantor_1"
             },
             "position": {
-                "x": 714.0,
-                "y": 1836.0
+                "x": 3168.0,
+                "y": 3564.0000000000005
             }
         },
         {
@@ -113,23 +125,23 @@
             "data": {
                 "id": "TSEP_1",
                 "name": "TSEP_1",
-                "href": "http://mizar.org/version/current/html/tsep_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tsep_1"
             },
             "position": {
-                "x": 1488.0,
-                "y": 3132.0
+                "x": 6606.0,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "TDLAT_1",
-                "name": "TDLAT_1",
-                "href": "http://mizar.org/version/current/html/tdlat_1.html"
+                "id": "LATTICE3",
+                "name": "LATTICE3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lattice3"
             },
             "position": {
-                "x": 311.97,
-                "y": 2700.0
+                "x": 8538.0,
+                "y": 540.0
             }
         },
         {
@@ -137,11 +149,11 @@
             "data": {
                 "id": "TDLAT_2",
                 "name": "TDLAT_2",
-                "href": "http://mizar.org/version/current/html/tdlat_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tdlat_2"
             },
             "position": {
-                "x": 792.0,
-                "y": 3132.0
+                "x": 7530.0,
+                "y": 972.0000000000001
             }
         },
         {
@@ -149,11 +161,11 @@
             "data": {
                 "id": "TDLAT_3",
                 "name": "TDLAT_3",
-                "href": "http://mizar.org/version/current/html/tdlat_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tdlat_3"
             },
             "position": {
-                "x": 792.0,
-                "y": 3564.0000000000005
+                "x": 6870.000000000001,
+                "y": 1404.0
             }
         },
         {
@@ -161,35 +173,35 @@
             "data": {
                 "id": "TOPS_3",
                 "name": "TOPS_3",
-                "href": "http://mizar.org/version/current/html/tops_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tops_3"
             },
             "position": {
-                "x": 774.0,
-                "y": 3996.0
+                "x": 5820.000000000001,
+                "y": 1836.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "URYSOHN1",
-                "name": "URYSOHN1",
-                "href": "http://mizar.org/version/current/html/urysohn1.html"
+                "id": "PRALG_1",
+                "name": "PRALG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pralg_1"
             },
             "position": {
-                "x": 2322.0,
-                "y": 2700.0
+                "x": 10992.0,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "YELLOW_0",
-                "name": "YELLOW_0",
-                "href": "http://mizar.org/version/current/html/yellow_0.html"
+                "id": "ORDERS_3",
+                "name": "ORDERS_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/orders_3"
             },
             "position": {
-                "x": 2724.0,
-                "y": 1404.0
+                "x": 10188.0,
+                "y": 540.0
             }
         },
         {
@@ -197,23 +209,359 @@
             "data": {
                 "id": "YELLOW_1",
                 "name": "YELLOW_1",
-                "href": "http://mizar.org/version/current/html/yellow_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_1"
             },
             "position": {
-                "x": 2430.0,
+                "x": 9972.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QUANTAL1",
+                "name": "QUANTAL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/quantal1"
+            },
+            "position": {
+                "x": 8556.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_2",
+                "name": "YELLOW_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_2"
+            },
+            "position": {
+                "x": 8550.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_1",
+                "name": "WAYBEL_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_1"
+            },
+            "position": {
+                "x": 9396.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_3",
+                "name": "YELLOW_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_3"
+            },
+            "position": {
+                "x": 8550.0,
                 "y": 1836.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "WAYBEL_0",
-                "name": "WAYBEL_0",
-                "href": "http://mizar.org/version/current/html/waybel_0.html"
+                "id": "YELLOW_4",
+                "name": "YELLOW_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_4"
             },
             "position": {
-                "x": 3276.0,
+                "x": 8550.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TMAP_1",
+                "name": "TMAP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tmap_1"
+            },
+            "position": {
+                "x": 4608.0,
                 "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TEX_1",
+                "name": "TEX_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tex_1"
+            },
+            "position": {
+                "x": 4608.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_2",
+                "name": "WAYBEL_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_2"
+            },
+            "position": {
+                "x": 8550.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_3",
+                "name": "WAYBEL_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_3"
+            },
+            "position": {
+                "x": 8550.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TEX_2",
+                "name": "TEX_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tex_2"
+            },
+            "position": {
+                "x": 2814.0000000000005,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TEX_4",
+                "name": "TEX_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tex_4"
+            },
+            "position": {
+                "x": 1422.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TSP_1",
+                "name": "TSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tsp_1"
+            },
+            "position": {
+                "x": 1422.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW_8",
+                "name": "YELLOW_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_8"
+            },
+            "position": {
+                "x": 3168.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPMETR",
+                "name": "TOPMETR",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topmetr"
+            },
+            "position": {
+                "x": 4386.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HEINE",
+                "name": "HEINE",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/heine"
+            },
+            "position": {
+                "x": 3870.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREAL_1",
+                "name": "TREAL_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/treal_1"
+            },
+            "position": {
+                "x": 2034.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BORSUK_2",
+                "name": "BORSUK_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/borsuk_2"
+            },
+            "position": {
+                "x": 774.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_3",
+                "name": "MSUALG_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msualg_3"
+            },
+            "position": {
+                "x": 11718.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_5",
+                "name": "WAYBEL_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_5"
+            },
+            "position": {
+                "x": 9840.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALG_1",
+                "name": "ALG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/alg_1"
+            },
+            "position": {
+                "x": 13734.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_4",
+                "name": "WAYBEL_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_4"
+            },
+            "position": {
+                "x": 8946.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL_9",
+                "name": "WAYBEL_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel_9"
+            },
+            "position": {
+                "x": 8010.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL14",
+                "name": "WAYBEL14",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel14"
+            },
+            "position": {
+                "x": 9090.0,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATTICE5",
+                "name": "LATTICE5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lattice5"
+            },
+            "position": {
+                "x": 9936.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID",
+                "name": "EUCLID",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclid"
+            },
+            "position": {
+                "x": 5250.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPMETR2",
+                "name": "TOPMETR2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topmetr2"
+            },
+            "position": {
+                "x": 3870.0,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL3",
+                "name": "TOPREAL3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topreal3"
+            },
+            "position": {
+                "x": 3534.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL2",
+                "name": "TOPREAL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topreal2"
+            },
+            "position": {
+                "x": 4380.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREAL4",
+                "name": "TOPREAL4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topreal4"
+            },
+            "position": {
+                "x": 4872.000000000001,
+                "y": 3132.0
             }
         },
         {
@@ -221,47 +569,11 @@
             "data": {
                 "id": "GOBOARD1",
                 "name": "GOBOARD1",
-                "href": "http://mizar.org/version/current/html/goboard1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard1"
             },
             "position": {
-                "x": 3006.0,
-                "y": 972.0000000000001
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBOARD2",
-                "name": "GOBOARD2",
-                "href": "http://mizar.org/version/current/html/goboard2.html"
-            },
-            "position": {
-                "x": 4146.0,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBOARD5",
-                "name": "GOBOARD5",
-                "href": "http://mizar.org/version/current/html/goboard5.html"
-            },
-            "position": {
-                "x": 3222.0,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBOARD6",
-                "name": "GOBOARD6",
-                "href": "http://mizar.org/version/current/html/goboard6.html"
-            },
-            "position": {
-                "x": 3216.0,
-                "y": 2700.0
+                "x": 4002.0,
+                "y": 3132.0
             }
         },
         {
@@ -269,11 +581,47 @@
             "data": {
                 "id": "GOBOARD7",
                 "name": "GOBOARD7",
-                "href": "http://mizar.org/version/current/html/goboard7.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard7"
             },
             "position": {
-                "x": 2688.0000000000005,
-                "y": 3132.0
+                "x": 4038.0000000000005,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_7",
+                "name": "MSUALG_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msualg_7"
+            },
+            "position": {
+                "x": 9408.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOD_4",
+                "name": "MOD_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mod_4"
+            },
+            "position": {
+                "x": 11364.0,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PCOMPS_2",
+                "name": "PCOMPS_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pcomps_2"
+            },
+            "position": {
+                "x": 996.0000000000001,
+                "y": 1836.0
             }
         },
         {
@@ -281,47 +629,143 @@
             "data": {
                 "id": "GOBOARD3",
                 "name": "GOBOARD3",
-                "href": "http://mizar.org/version/current/html/goboard3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard3"
             },
             "position": {
-                "x": 4134.0,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBOARD4",
-                "name": "GOBOARD4",
-                "href": "http://mizar.org/version/current/html/goboard4.html"
-            },
-            "position": {
-                "x": 5028.000000000001,
-                "y": 2268.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBOARD8",
-                "name": "GOBOARD8",
-                "href": "http://mizar.org/version/current/html/goboard8.html"
-            },
-            "position": {
-                "x": 1794.0000000000002,
+                "x": 4932.0,
                 "y": 3564.0000000000005
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GOBOARD9",
-                "name": "GOBOARD9",
-                "href": "http://mizar.org/version/current/html/goboard9.html"
+                "id": "CAT_4",
+                "name": "CAT_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_4"
             },
             "position": {
-                "x": 2358.0,
-                "y": 3996.0
+                "x": 12078.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TSEP_2",
+                "name": "TSEP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tsep_2"
+            },
+            "position": {
+                "x": 6714.0,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIN_TOPO",
+                "name": "FIN_TOPO",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fin_topo"
+            },
+            "position": {
+                "x": 12780.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FREEALG",
+                "name": "FREEALG",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/freealg"
+            },
+            "position": {
+                "x": 13734.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AUTGROUP",
+                "name": "AUTGROUP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/autgroup"
+            },
+            "position": {
+                "x": 13644.000000000002,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSATERM",
+                "name": "MSATERM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msaterm"
+            },
+            "position": {
+                "x": 11958.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INDEX_1",
+                "name": "INDEX_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/index_1"
+            },
+            "position": {
+                "x": 14466.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ENDALG",
+                "name": "ENDALG",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/endalg"
+            },
+            "position": {
+                "x": 12972.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TRIANG_1",
+                "name": "TRIANG_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/triang_1"
+            },
+            "position": {
+                "x": 15240.000000000002,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_2",
+                "name": "ALTCAT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/altcat_2"
+            },
+            "position": {
+                "x": 10884.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSINST_1",
+                "name": "MSINST_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msinst_1"
+            },
+            "position": {
+                "x": 11124.0,
+                "y": 1404.0
             }
         },
         {
@@ -329,54 +773,347 @@
             "data": {
                 "id": "GOBRD11",
                 "name": "GOBRD11",
-                "href": "http://mizar.org/version/current/html/gobrd11.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gobrd11"
             },
             "position": {
-                "x": 1512.0,
+                "x": 5562.0,
                 "y": 3996.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GOBRD12",
-                "name": "GOBRD12",
-                "href": "http://mizar.org/version/current/html/gobrd12.html"
+                "id": "GRAPH_3",
+                "name": "GRAPH_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/graph_3"
             },
             "position": {
-                "x": 1968.0000000000002,
-                "y": 4428.0
+                "x": 16032.0,
+                "y": 5292.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GOBRD13",
-                "name": "GOBRD13",
-                "href": "http://mizar.org/version/current/html/gobrd13.html"
+                "id": "QUOFIELD",
+                "name": "QUOFIELD",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/quofield"
             },
             "position": {
-                "x": 1164.0,
-                "y": 4428.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "GOBRD14",
-                "name": "GOBRD14",
-                "href": "http://mizar.org/version/current/html/gobrd14.html"
-            },
-            "position": {
-                "x": 972.0000000000001,
+                "x": 11364.0,
                 "y": 4860.0
             }
         },
         {
-            "group": "edges",
+            "group": "nodes",
             "data": {
-                "source": "TOPS_1",
-                "target": "PRE_TOPC"
+                "id": "WAYBEL19",
+                "name": "WAYBEL19",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel19"
+            },
+            "position": {
+                "x": 9090.0,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL20",
+                "name": "WAYBEL20",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel20"
+            },
+            "position": {
+                "x": 9864.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL21",
+                "name": "WAYBEL21",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel21"
+            },
+            "position": {
+                "x": 9750.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "VECTMETR",
+                "name": "VECTMETR",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectmetr"
+            },
+            "position": {
+                "x": 5250.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONVEX2",
+                "name": "CONVEX2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/convex2"
+            },
+            "position": {
+                "x": 16824.0,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONVEX3",
+                "name": "CONVEX3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/convex3"
+            },
+            "position": {
+                "x": 16824.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW18",
+                "name": "YELLOW18",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow18"
+            },
+            "position": {
+                "x": 10278.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "REWRITE2",
+                "name": "REWRITE2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rewrite2"
+            },
+            "position": {
+                "x": 17652.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FLANG_3",
+                "name": "FLANG_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/flang_3"
+            },
+            "position": {
+                "x": 18462.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN9C",
+                "name": "MESFUN9C",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfun9c"
+            },
+            "position": {
+                "x": 19260.0,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FSM_3",
+                "name": "FSM_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fsm_3"
+            },
+            "position": {
+                "x": 19986.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_11",
+                "name": "GROUP_11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_11"
+            },
+            "position": {
+                "x": 2088.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LPSPACE2",
+                "name": "LPSPACE2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lpspace2"
+            },
+            "position": {
+                "x": 19260.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EXCHSORT",
+                "name": "EXCHSORT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/exchsort"
+            },
+            "position": {
+                "x": 20742.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRTOP1",
+                "name": "MATRTOP1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrtop1"
+            },
+            "position": {
+                "x": 3078.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIMPLEX2",
+                "name": "SIMPLEX2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/simplex2"
+            },
+            "position": {
+                "x": 2136.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CC0SP2",
+                "name": "CC0SP2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cc0sp2"
+            },
+            "position": {
+                "x": 7548.0,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_5",
+                "name": "ALTCAT_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/altcat_5"
+            },
+            "position": {
+                "x": 21582.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TIETZE_2",
+                "name": "TIETZE_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tietze_2"
+            },
+            "position": {
+                "x": 2124.0,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MFOLD_2",
+                "name": "MFOLD_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mfold_2"
+            },
+            "position": {
+                "x": 1422.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPALG_6",
+                "name": "TOPALG_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/topalg_6"
+            },
+            "position": {
+                "x": 828.0000000000001,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NBVECTSP",
+                "name": "NBVECTSP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nbvectsp"
+            },
+            "position": {
+                "x": 8538.0,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GAUSSINT",
+                "name": "GAUSSINT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gaussint"
+            },
+            "position": {
+                "x": 11364.0,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARDFIL3",
+                "name": "CARDFIL3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cardfil3"
+            },
+            "position": {
+                "x": 2706.0,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_9",
+                "name": "FINSEQ_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finseq_9"
+            },
+            "position": {
+                "x": 6108.0,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LATQUASI",
+                "name": "LATQUASI",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/latquasi"
+            },
+            "position": {
+                "x": 9348.0,
+                "y": 540.0
             }
         },
         {
@@ -389,78 +1126,36 @@
         {
             "group": "edges",
             "data": {
-                "source": "TOPS_2",
+                "source": "TSEP_1",
                 "target": "CONNSP_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "COMPTS_1",
-                "target": "TOPS_2"
+                "source": "LATTICE3",
+                "target": "LATTICES"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CONNSP_2",
-                "target": "COMPTS_1"
+                "source": "TDLAT_2",
+                "target": "LATTICE3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "PCOMPS_1",
-                "target": "COMPTS_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BORSUK_1",
-                "target": "PCOMPS_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BORSUK_1",
-                "target": "CONNSP_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "CANTOR_1",
-                "target": "TOPS_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TSEP_1",
-                "target": "BORSUK_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TDLAT_1",
+                "source": "TDLAT_2",
                 "target": "TOPS_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "TDLAT_2",
-                "target": "PCOMPS_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "TDLAT_2",
-                "target": "TDLAT_1"
+                "source": "TDLAT_3",
+                "target": "TSEP_1"
             }
         },
         {
@@ -473,13 +1168,6 @@
         {
             "group": "edges",
             "data": {
-                "source": "TDLAT_3",
-                "target": "TSEP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
                 "source": "TOPS_3",
                 "target": "TDLAT_3"
             }
@@ -487,155 +1175,701 @@
         {
             "group": "edges",
             "data": {
-                "source": "URYSOHN1",
-                "target": "CONNSP_2"
+                "source": "ORDERS_3",
+                "target": "ENS_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "YELLOW_1",
-                "target": "YELLOW_0"
+                "target": "ORDERS_3"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "YELLOW_1",
-                "target": "TOPS_2"
+                "target": "LATTICE3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "WAYBEL_0",
-                "target": "YELLOW_0"
+                "source": "YELLOW_1",
+                "target": "PRALG_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD1",
-                "target": "PRE_TOPC"
+                "source": "QUANTAL1",
+                "target": "LATTICE3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD2",
-                "target": "GOBOARD1"
+                "source": "YELLOW_2",
+                "target": "YELLOW_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD5",
-                "target": "GOBOARD2"
+                "source": "YELLOW_2",
+                "target": "QUANTAL1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD6",
-                "target": "PCOMPS_1"
+                "source": "WAYBEL_1",
+                "target": "YELLOW_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD6",
-                "target": "CONNSP_2"
+                "source": "YELLOW_3",
+                "target": "YELLOW_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD6",
-                "target": "GOBOARD5"
+                "source": "YELLOW_4",
+                "target": "YELLOW_3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBOARD7",
-                "target": "GOBOARD6"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GOBOARD3",
-                "target": "GOBOARD2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GOBOARD4",
-                "target": "GOBOARD2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GOBOARD8",
-                "target": "GOBOARD7"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GOBOARD9",
-                "target": "GOBOARD8"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GOBOARD9",
+                "source": "TMAP_1",
                 "target": "TSEP_1"
             }
         },
         {
             "group": "edges",
             "data": {
+                "source": "TEX_1",
+                "target": "TMAP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TEX_1",
+                "target": "TOPS_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_2",
+                "target": "WAYBEL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_2",
+                "target": "YELLOW_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_3",
+                "target": "WAYBEL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_3",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TEX_2",
+                "target": "TEX_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TEX_2",
+                "target": "REALSET2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TEX_4",
+                "target": "TEX_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TSP_1",
+                "target": "TEX_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TSP_1",
+                "target": "T_0TOPSP"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_8",
+                "target": "WAYBEL_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_8",
+                "target": "TSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_8",
+                "target": "CANTOR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPMETR",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HEINE",
+                "target": "TOPMETR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREAL_1",
+                "target": "TMAP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREAL_1",
+                "target": "HEINE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BORSUK_2",
+                "target": "TREAL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BORSUK_2",
+                "target": "T_0TOPSP"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_3",
+                "target": "PRALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_5",
+                "target": "WAYBEL_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_5",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_4",
+                "target": "WAYBEL_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_4",
+                "target": "ALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_9",
+                "target": "WAYBEL_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL_9",
+                "target": "TDLAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL14",
+                "target": "WAYBEL_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL14",
+                "target": "YELLOW_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL14",
+                "target": "WAYBEL_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL14",
+                "target": "WAYBEL_9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE5",
+                "target": "WAYBEL_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATTICE5",
+                "target": "YELLOW_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EUCLID",
+                "target": "TOPMETR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPMETR2",
+                "target": "HEINE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL3",
+                "target": "EUCLID"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL2",
+                "target": "EUCLID"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL2",
+                "target": "TOPMETR2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL4",
+                "target": "TOPREAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL4",
+                "target": "TOPREAL2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPREAL4",
+                "target": "CONNSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD1",
+                "target": "TOPREAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD7",
+                "target": "GOBOARD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_7",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUALG_7",
+                "target": "LATTICE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PCOMPS_2",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GOBOARD3",
+                "target": "GOBOARD1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TSEP_2",
+                "target": "TDLAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FREEALG",
+                "target": "ALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSATERM",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ENDALG",
+                "target": "ALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ENDALG",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALTCAT_2",
+                "target": "PRALG_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSINST_1",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSINST_1",
+                "target": "ALTCAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
                 "source": "GOBRD11",
-                "target": "GOBOARD8"
+                "target": "GOBOARD7"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD12",
-                "target": "GOBRD11"
+                "source": "GOBRD11",
+                "target": "CONNSP_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD12",
-                "target": "GOBOARD9"
+                "source": "QUOFIELD",
+                "target": "MOD_4"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD13",
-                "target": "GOBRD11"
+                "source": "WAYBEL19",
+                "target": "WAYBEL14"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD14",
-                "target": "TDLAT_1"
+                "source": "WAYBEL20",
+                "target": "WAYBEL_5"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "GOBRD14",
-                "target": "GOBRD12"
+                "source": "WAYBEL20",
+                "target": "LATTICE5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL21",
+                "target": "NATTRA_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL21",
+                "target": "WAYBEL19"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL21",
+                "target": "WAYBEL20"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "VECTMETR",
+                "target": "EUCLID"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CONVEX3",
+                "target": "CONVEX2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW18",
+                "target": "MSUALG_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW18",
+                "target": "ALTCAT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GROUP_11",
+                "target": "REALSET2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LPSPACE2",
+                "target": "MESFUN9C"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MATRTOP1",
+                "target": "TOPREAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "TOPREAL3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "BORSUK_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "TOPS_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SIMPLEX2",
+                "target": "PCOMPS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CC0SP2",
+                "target": "WAYBEL_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CC0SP2",
+                "target": "TOPS_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TIETZE_2",
+                "target": "SIMPLEX2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MFOLD_2",
+                "target": "TSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MFOLD_2",
+                "target": "MATRTOP1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPALG_6",
+                "target": "MFOLD_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TOPALG_6",
+                "target": "BORSUK_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NBVECTSP",
+                "target": "EUCLID"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NBVECTSP",
+                "target": "WAYBEL_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GAUSSINT",
+                "target": "QUOFIELD"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARDFIL3",
+                "target": "YELLOW_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CARDFIL3",
+                "target": "TOPMETR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FINSEQ_9",
+                "target": "EUCLID"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LATQUASI",
+                "target": "LATTICES"
             }
         }
     ]

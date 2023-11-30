@@ -3,12 +3,24 @@
         {
             "group": "nodes",
             "data": {
-                "id": "INCSP_1",
-                "name": "INCSP_1",
-                "href": "http://mizar.org/version/current/html/incsp_1.html"
+                "id": "ALGSTR_0",
+                "name": "ALGSTR_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/algstr_0"
             },
             "position": {
-                "x": 311.97,
+                "x": 358.77,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TSP_2",
+                "name": "TSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/tsp_2"
+            },
+            "position": {
+                "x": 1060.74,
                 "y": 108.0
             }
         }

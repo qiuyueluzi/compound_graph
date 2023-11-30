@@ -3,13 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "METRIC_1",
-                "name": "METRIC_1",
-                "href": "http://mizar.org/version/current/html/metric_1.html"
+                "id": "ANALOAF",
+                "name": "ANALOAF",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/analoaf"
             },
             "position": {
-                "x": 1186.74,
+                "x": 354.87,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGSTR_2",
+                "name": "ALGSTR_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/algstr_2"
+            },
+            "position": {
+                "x": 1176.84,
+                "y": 540.0
             }
         },
         {
@@ -17,56 +29,42 @@
             "data": {
                 "id": "METRIC_2",
                 "name": "METRIC_2",
-                "href": "http://mizar.org/version/current/html/metric_2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/metric_2"
             },
             "position": {
-                "x": 358.77,
+                "x": 2004.8400000000001,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "METRIC_3",
-                "name": "METRIC_3",
-                "href": "http://mizar.org/version/current/html/metric_3.html"
+                "id": "MODCAT_1",
+                "name": "MODCAT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/modcat_1"
             },
             "position": {
-                "x": 1186.74,
+                "x": 2850.84,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "METRIC_6",
-                "name": "METRIC_6",
-                "href": "http://mizar.org/version/current/html/metric_6.html"
+                "id": "GTARSKI2",
+                "name": "GTARSKI2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gtarski2"
             },
             "position": {
-                "x": 2014.7400000000002,
+                "x": 354.87,
                 "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "METRIC_2",
-                "target": "METRIC_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "METRIC_3",
-                "target": "METRIC_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "METRIC_6",
-                "target": "METRIC_1"
+                "source": "GTARSKI2",
+                "target": "ANALOAF"
             }
         }
     ]

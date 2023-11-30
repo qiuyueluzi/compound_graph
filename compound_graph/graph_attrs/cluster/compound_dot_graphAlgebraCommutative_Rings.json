@@ -1,0 +1,76 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YELLOW20",
+                "name": "YELLOW20",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow20"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PL_AXIOM",
+                "name": "PL_AXIOM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pl_axiom"
+            },
+            "position": {
+                "x": 1228.1399999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZIMPL2",
+                "name": "FUZIMPL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuzimpl2"
+            },
+            "position": {
+                "x": 2068.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WALLACE1",
+                "name": "WALLACE1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/wallace1"
+            },
+            "position": {
+                "x": 2926.14,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NOMIN_9",
+                "name": "NOMIN_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_9"
+            },
+            "position": {
+                "x": 3754.1400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ASCOLI",
+                "name": "ASCOLI",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ascoli"
+            },
+            "position": {
+                "x": 4480.14,
+                "y": 108.0
+            }
+        }
+    ]
+}

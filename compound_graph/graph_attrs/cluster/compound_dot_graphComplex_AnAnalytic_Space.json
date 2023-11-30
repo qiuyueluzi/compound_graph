@@ -1,0 +1,28 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AFVECT0",
+                "name": "AFVECT0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/afvect0"
+            },
+            "position": {
+                "x": 331.46999999999997,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MATRIXR1",
+                "name": "MATRIXR1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/matrixr1"
+            },
+            "position": {
+                "x": 1135.5,
+                "y": 108.0
+            }
+        }
+    ]
+}

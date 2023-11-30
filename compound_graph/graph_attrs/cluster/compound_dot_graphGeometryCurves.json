@@ -1,0 +1,83 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN5A",
+                "name": "JORDAN5A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/jordan5a"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "JORDAN5B",
+                "name": "JORDAN5B",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/jordan5b"
+            },
+            "position": {
+                "x": 374.36400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SPRECT_2",
+                "name": "SPRECT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sprect_2"
+            },
+            "position": {
+                "x": 1214.34,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FRECHET",
+                "name": "FRECHET",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/frechet"
+            },
+            "position": {
+                "x": 2030.3400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TAXONOM2",
+                "name": "TAXONOM2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/taxonom2"
+            },
+            "position": {
+                "x": 2882.3399999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HALLMAR1",
+                "name": "HALLMAR1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hallmar1"
+            },
+            "position": {
+                "x": 3776.3399999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "JORDAN5B",
+                "target": "JORDAN5A"
+            }
+        }
+    ]
+}

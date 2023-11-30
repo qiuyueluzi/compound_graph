@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS6",
+                "name": "SIN_COS6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos6"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EULER_1",
+                "name": "EULER_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euler_1"
+            },
+            "position": {
+                "x": 1146.84,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BSPACE",
+                "name": "BSPACE",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bspace"
+            },
+            "position": {
+                "x": 1884.84,
+                "y": 108.0
+            }
+        }
+    ]
+}

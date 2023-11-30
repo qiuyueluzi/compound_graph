@@ -1,0 +1,150 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RSSPACE",
+                "name": "RSSPACE",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rsspace"
+            },
+            "position": {
+                "x": 331.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD2",
+                "name": "GOBOARD2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard2"
+            },
+            "position": {
+                "x": 1165.5,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SPPOL_2",
+                "name": "SPPOL_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sppol_2"
+            },
+            "position": {
+                "x": 1987.5,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL15",
+                "name": "WAYBEL15",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel15"
+            },
+            "position": {
+                "x": 2791.5,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_7",
+                "name": "GROUP_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_7"
+            },
+            "position": {
+                "x": 3619.5,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCT_9",
+                "name": "FUNCT_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_9"
+            },
+            "position": {
+                "x": 4399.5,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_NUM4",
+                "name": "FIB_NUM4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fib_num4"
+            },
+            "position": {
+                "x": 5215.500000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BROUWER3",
+                "name": "BROUWER3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/brouwer3"
+            },
+            "position": {
+                "x": 6043.200000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MFOLD_0",
+                "name": "MFOLD_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mfold_0"
+            },
+            "position": {
+                "x": 6043.200000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MFOLD_1",
+                "name": "MFOLD_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mfold_1"
+            },
+            "position": {
+                "x": 6043.200000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BAGORD_2",
+                "name": "BAGORD_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bagord_2"
+            },
+            "position": {
+                "x": 6871.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MFOLD_0",
+                "target": "BROUWER3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MFOLD_1",
+                "target": "MFOLD_0"
+            }
+        }
+    ]
+}

@@ -3,25 +3,514 @@
         {
             "group": "nodes",
             "data": {
-                "id": "PYTHTRIP",
-                "name": "PYTHTRIP",
-                "href": "http://mizar.org/version/current/html/pythtrip.html"
+                "id": "SQUARE_1",
+                "name": "SQUARE_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/square_1"
             },
             "position": {
-                "x": 354.87,
+                "x": 2272.44,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NAT_LAT",
-                "name": "NAT_LAT",
-                "href": "http://mizar.org/version/current/html/nat_lat.html"
+                "id": "NAT_1",
+                "name": "NAT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nat_1"
             },
             "position": {
-                "x": 1128.84,
+                "x": 6046.2,
                 "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABSVALUE",
+                "name": "ABSVALUE",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/absvalue"
+            },
+            "position": {
+                "x": 826.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TREES_A",
+                "name": "TREES_A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/trees_a"
+            },
+            "position": {
+                "x": 4846.4400000000005,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PEPIN",
+                "name": "PEPIN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pepin"
+            },
+            "position": {
+                "x": 1558.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CATALAN1",
+                "name": "CATALAN1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/catalan1"
+            },
+            "position": {
+                "x": 5644.4400000000005,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_2",
+                "name": "DIFF_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/diff_2"
+            },
+            "position": {
+                "x": 2998.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "STIRL2_1",
+                "name": "STIRL2_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/stirl2_1"
+            },
+            "position": {
+                "x": 6448.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NAT_3",
+                "name": "NAT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nat_3"
+            },
+            "position": {
+                "x": 1480.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "QC_TRANS",
+                "name": "QC_TRANS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/qc_trans"
+            },
+            "position": {
+                "x": 7264.200000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CONMETR1",
+                "name": "CONMETR1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/conmetr1"
+            },
+            "position": {
+                "x": 2680.4400000000005,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "YONEDA_1",
+                "name": "YONEDA_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yoneda_1"
+            },
+            "position": {
+                "x": 3568.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILBERT2",
+                "name": "HILBERT2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilbert2"
+            },
+            "position": {
+                "x": 9376.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOEBIUS1",
+                "name": "MOEBIUS1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/moebius1"
+            },
+            "position": {
+                "x": 1780.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN_5",
+                "name": "LOPBAN_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban_5"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID_6",
+                "name": "EUCLID_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclid_6"
+            },
+            "position": {
+                "x": 2272.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUN7C",
+                "name": "MESFUN7C",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfun7c"
+            },
+            "position": {
+                "x": 3778.4400000000005,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIST_2",
+                "name": "DIST_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dist_2"
+            },
+            "position": {
+                "x": 8014.200000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCM_1",
+                "name": "SCM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scm_1"
+            },
+            "position": {
+                "x": 8650.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HILBERT4",
+                "name": "HILBERT4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/hilbert4"
+            },
+            "position": {
+                "x": 9376.2,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LAGRA4SQ",
+                "name": "LAGRA4SQ",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lagra4sq"
+            },
+            "position": {
+                "x": 910.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EUCLID11",
+                "name": "EUCLID11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclid11"
+            },
+            "position": {
+                "x": 3730.4400000000005,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FLEXARY1",
+                "name": "FLEXARY1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/flexary1"
+            },
+            "position": {
+                "x": 2194.44,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALGNUM_1",
+                "name": "ALGNUM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/algnum_1"
+            },
+            "position": {
+                "x": 10234.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GTARSKI4",
+                "name": "GTARSKI4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gtarski4"
+            },
+            "position": {
+                "x": 4408.4400000000005,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROUGHIF2",
+                "name": "ROUGHIF2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/roughif2"
+            },
+            "position": {
+                "x": 11116.2,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "C0SP3",
+                "name": "C0SP3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/c0sp3"
+            },
+            "position": {
+                "x": 5122.44,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABSVALUE",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ABSVALUE",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "TREES_A",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PEPIN",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PEPIN",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CATALAN1",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_2",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_2",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "STIRL2_1",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NAT_3",
+                "target": "PEPIN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "QC_TRANS",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILBERT2",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MOEBIUS1",
+                "target": "NAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LOPBAN_5",
+                "target": "ABSVALUE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EUCLID_6",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUN7C",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUN7C",
+                "target": "SQUARE_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIST_2",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCM_1",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "HILBERT4",
+                "target": "HILBERT2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LAGRA4SQ",
+                "target": "ABSVALUE"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LAGRA4SQ",
+                "target": "NAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EUCLID11",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EUCLID11",
+                "target": "EUCLID_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FLEXARY1",
+                "target": "PEPIN"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ALGNUM_1",
+                "target": "NAT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROUGHIF2",
+                "target": "NAT_1"
             }
         }
     ]

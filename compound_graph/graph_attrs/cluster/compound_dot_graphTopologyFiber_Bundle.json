@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "AFVECT0",
-                "name": "AFVECT0",
-                "href": "http://mizar.org/version/current/html/afvect0.html"
+                "id": "HOMOTHET",
+                "name": "HOMOTHET",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/homothet"
             },
             "position": {
-                "x": 331.46999999999997,
+                "x": 413.3640000000001,
                 "y": 108.0
             }
         }

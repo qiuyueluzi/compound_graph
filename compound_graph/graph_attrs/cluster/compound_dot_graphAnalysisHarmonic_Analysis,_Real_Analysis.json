@@ -3,89 +3,89 @@
         {
             "group": "nodes",
             "data": {
-                "id": "RCOMP_1",
-                "name": "RCOMP_1",
-                "href": "http://mizar.org/version/current/html/rcomp_1.html"
+                "id": "SEQ_4",
+                "name": "SEQ_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/seq_4"
             },
             "position": {
-                "x": 837.5400000000001,
+                "x": 981.3000000000001,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RFUNCT_2",
-                "name": "RFUNCT_2",
-                "href": "http://mizar.org/version/current/html/rfunct_2.html"
+                "id": "RCOMP_1",
+                "name": "RCOMP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rcomp_1"
             },
             "position": {
-                "x": 837.5400000000001,
+                "x": 633.3,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "PREPOWER",
-                "name": "PREPOWER",
-                "href": "http://mizar.org/version/current/html/prepower.html"
+                "id": "ROLLE",
+                "name": "ROLLE",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rolle"
             },
             "position": {
-                "x": 405.56399999999996,
+                "x": 261.276,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "POWER",
-                "name": "POWER",
-                "href": "http://mizar.org/version/current/html/power.html"
+                "id": "ABIAN",
+                "name": "ABIAN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/abian"
             },
             "position": {
-                "x": 405.56399999999996,
-                "y": 1404.0
+                "x": 1335.3000000000002,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SEQFUNC",
-                "name": "SEQFUNC",
-                "href": "http://mizar.org/version/current/html/seqfunc.html"
+                "id": "LIMFUNC2",
+                "name": "LIMFUNC2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/limfunc2"
             },
             "position": {
-                "x": 1275.54,
+                "x": 1011.3000000000002,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RFUNCT_2",
+                "source": "RCOMP_1",
+                "target": "SEQ_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ROLLE",
                 "target": "RCOMP_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "PREPOWER",
-                "target": "RFUNCT_2"
+                "source": "ABIAN",
+                "target": "SEQ_4"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "POWER",
-                "target": "PREPOWER"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "SEQFUNC",
-                "target": "RFUNCT_2"
+                "source": "LIMFUNC2",
+                "target": "RCOMP_1"
             }
         }
     ]

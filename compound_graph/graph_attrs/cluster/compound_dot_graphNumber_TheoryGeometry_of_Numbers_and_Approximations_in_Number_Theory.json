@@ -1,0 +1,28 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "POLYDIFF",
+                "name": "POLYDIFF",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/polydiff"
+            },
+            "position": {
+                "x": 354.87,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LIOUVIL1",
+                "name": "LIOUVIL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/liouvil1"
+            },
+            "position": {
+                "x": 1158.84,
+                "y": 108.0
+            }
+        }
+    ]
+}

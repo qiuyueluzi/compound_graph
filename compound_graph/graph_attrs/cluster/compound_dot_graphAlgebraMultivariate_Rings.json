@@ -1,0 +1,16 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIROOTS",
+                "name": "UNIROOTS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/uniroots"
+            },
+            "position": {
+                "x": 382.16400000000004,
+                "y": 108.0
+            }
+        }
+    ]
+}

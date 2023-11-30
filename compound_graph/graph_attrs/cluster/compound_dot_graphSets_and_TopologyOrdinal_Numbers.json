@@ -3,12 +3,24 @@
         {
             "group": "nodes",
             "data": {
-                "id": "ORDINAL1",
-                "name": "ORDINAL1",
-                "href": "http://mizar.org/version/current/html/ordinal1.html"
+                "id": "RELAT_2",
+                "name": "RELAT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/relat_2"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 311.97,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NUMERALS",
+                "name": "NUMERALS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/numerals"
+            },
+            "position": {
+                "x": 1944.0000000000002,
                 "y": 108.0
             }
         },
@@ -17,35 +29,35 @@
             "data": {
                 "id": "ORDINAL2",
                 "name": "ORDINAL2",
-                "href": "http://mizar.org/version/current/html/ordinal2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordinal2"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 1518.0000000000002,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORDINAL3",
-                "name": "ORDINAL3",
-                "href": "http://mizar.org/version/current/html/ordinal3.html"
+                "id": "CLASSES2",
+                "name": "CLASSES2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/classes2"
             },
             "position": {
-                "x": 370.46999999999997,
+                "x": 1098.0,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORDINAL4",
-                "name": "ORDINAL4",
-                "href": "http://mizar.org/version/current/html/ordinal4.html"
+                "id": "FIB_NUM3",
+                "name": "FIB_NUM3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fib_num3"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 1404.0
+                "x": 2370.0,
+                "y": 540.0
             }
         },
         {
@@ -53,58 +65,51 @@
             "data": {
                 "id": "ORDINAL5",
                 "name": "ORDINAL5",
-                "href": "http://mizar.org/version/current/html/ordinal5.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordinal5"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 1836.0
+                "x": 1944.0000000000002,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORDINAL6",
-                "name": "ORDINAL6",
-                "href": "http://mizar.org/version/current/html/ordinal6.html"
+                "id": "FIELD_2",
+                "name": "FIELD_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_2"
             },
             "position": {
-                "x": 370.46999999999997,
-                "y": 2268.0
+                "x": 2724.0,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "ORDINAL2",
-                "target": "ORDINAL1"
+                "target": "NUMERALS"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ORDINAL3",
+                "source": "CLASSES2",
                 "target": "ORDINAL2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ORDINAL4",
-                "target": "ORDINAL3"
+                "source": "FIB_NUM3",
+                "target": "NUMERALS"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "ORDINAL5",
-                "target": "ORDINAL4"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ORDINAL6",
-                "target": "ORDINAL5"
+                "target": "ORDINAL2"
             }
         }
     ]

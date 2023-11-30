@@ -3,12 +3,12 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SYMSP_1",
-                "name": "SYMSP_1",
-                "href": "http://mizar.org/version/current/html/symsp_1.html"
+                "id": "PARSP_1",
+                "name": "PARSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/parsp_1"
             },
             "position": {
-                "x": 331.46999999999997,
+                "x": 311.97,
                 "y": 108.0
             }
         }

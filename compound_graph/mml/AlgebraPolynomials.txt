@@ -1,0 +1,14 @@
+supinf_1
+rvsum_1
+polynom3
+polynom5
+group_8
+scmyciel
+mmlquer2
+finance2
+eulrpart
+asympt_2
+cardfil4
+integr23
+ndiff_8
+hilb10_2

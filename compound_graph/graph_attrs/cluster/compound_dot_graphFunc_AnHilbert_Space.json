@@ -1,0 +1,59 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALI2",
+                "name": "ALI2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ali2"
+            },
+            "position": {
+                "x": 194.982,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_1",
+                "name": "BHSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bhsp_1"
+            },
+            "position": {
+                "x": 789.0,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BHSP_2",
+                "name": "BHSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bhsp_2"
+            },
+            "position": {
+                "x": 789.0,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMMACAT",
+                "name": "COMMACAT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/commacat"
+            },
+            "position": {
+                "x": 1593.0000000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BHSP_2",
+                "target": "BHSP_1"
+            }
+        }
+    ]
+}

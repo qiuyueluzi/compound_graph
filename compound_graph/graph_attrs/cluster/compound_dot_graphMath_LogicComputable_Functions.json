@@ -1,0 +1,872 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINSEQ_7",
+                "name": "FINSEQ_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finseq_7"
+            },
+            "position": {
+                "x": 3373.7999999999997,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRE_POLY",
+                "name": "PRE_POLY",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pre_poly"
+            },
+            "position": {
+                "x": 3655.8,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUALG_4",
+                "name": "MSUALG_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msualg_4"
+            },
+            "position": {
+                "x": 5119.799999999999,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSAFREE1",
+                "name": "MSAFREE1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msafree1"
+            },
+            "position": {
+                "x": 6001.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CIRCCMB3",
+                "name": "CIRCCMB3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/circcmb3"
+            },
+            "position": {
+                "x": 6883.799999999999,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CGAMES_1",
+                "name": "CGAMES_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cgames_1"
+            },
+            "position": {
+                "x": 7753.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FRIENDS1",
+                "name": "FRIENDS1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/friends1"
+            },
+            "position": {
+                "x": 8611.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCM_INST",
+                "name": "SCM_INST",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scm_inst"
+            },
+            "position": {
+                "x": 4573.799999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EXTPRO_1",
+                "name": "EXTPRO_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/extpro_1"
+            },
+            "position": {
+                "x": 2737.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_I",
+                "name": "SCMPDS_I",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_i"
+            },
+            "position": {
+                "x": 5455.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPOS_2",
+                "name": "COMPOS_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/compos_2"
+            },
+            "position": {
+                "x": 5707.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AMISTD_5",
+                "name": "AMISTD_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/amistd_5"
+            },
+            "position": {
+                "x": 3145.7999999999997,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIB_FUSC",
+                "name": "FIB_FUSC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fib_fusc"
+            },
+            "position": {
+                "x": 2035.8000000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCM_COMP",
+                "name": "SCM_COMP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scm_comp"
+            },
+            "position": {
+                "x": 4573.799999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AMI_4",
+                "name": "AMI_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ami_4"
+            },
+            "position": {
+                "x": 2737.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AMI_6",
+                "name": "AMI_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ami_6"
+            },
+            "position": {
+                "x": 241.77599999999998,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA_2",
+                "name": "SCMFSA_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa_2"
+            },
+            "position": {
+                "x": 3685.7999999999997,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA6A",
+                "name": "SCMFSA6A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa6a"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SF_MASTR",
+                "name": "SF_MASTR",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sf_mastr"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA6B",
+                "name": "SCMFSA6B",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa6b"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA8B",
+                "name": "SCMFSA8B",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa8b"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA8C",
+                "name": "SCMFSA8C",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa8c"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA_9",
+                "name": "SCMFSA_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa_9"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SFMASTR1",
+                "name": "SFMASTR1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sfmastr1"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMFSA9A",
+                "name": "SCMFSA9A",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmfsa9a"
+            },
+            "position": {
+                "x": 4027.8,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SFMASTR3",
+                "name": "SFMASTR3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sfmastr3"
+            },
+            "position": {
+                "x": 3361.7999999999997,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCM_HALT",
+                "name": "SCM_HALT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scm_halt"
+            },
+            "position": {
+                "x": 4231.8,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMBSORT",
+                "name": "SCMBSORT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmbsort"
+            },
+            "position": {
+                "x": 4231.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMRING4",
+                "name": "SCMRING4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmring4"
+            },
+            "position": {
+                "x": 3145.7999999999997,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_2",
+                "name": "SCMPDS_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_2"
+            },
+            "position": {
+                "x": 2029.8,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_4",
+                "name": "SCMPDS_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_4"
+            },
+            "position": {
+                "x": 2029.8,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_5",
+                "name": "SCMPDS_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_5"
+            },
+            "position": {
+                "x": 2029.8,
+                "y": 2268.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_6",
+                "name": "SCMPDS_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_6"
+            },
+            "position": {
+                "x": 2029.8,
+                "y": 2700.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMP_GCD",
+                "name": "SCMP_GCD",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmp_gcd"
+            },
+            "position": {
+                "x": 2029.8,
+                "y": 3132.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_7",
+                "name": "SCMPDS_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_7"
+            },
+            "position": {
+                "x": 2035.8000000000002,
+                "y": 3564.0000000000005
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_8",
+                "name": "SCMPDS_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_8"
+            },
+            "position": {
+                "x": 2041.8,
+                "y": 3996.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCPISORT",
+                "name": "SCPISORT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scpisort"
+            },
+            "position": {
+                "x": 2053.8,
+                "y": 4428.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCPQSORT",
+                "name": "SCPQSORT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scpqsort"
+            },
+            "position": {
+                "x": 2383.8,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "AMI_WSTD",
+                "name": "AMI_WSTD",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ami_wstd"
+            },
+            "position": {
+                "x": 967.8000000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BALLOT_1",
+                "name": "BALLOT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ballot_1"
+            },
+            "position": {
+                "x": 9445.800000000001,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MEASURE9",
+                "name": "MEASURE9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure9"
+            },
+            "position": {
+                "x": 3655.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FINANCE6",
+                "name": "FINANCE6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finance6"
+            },
+            "position": {
+                "x": 10279.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLIB_008",
+                "name": "GLIB_008",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/glib_008"
+            },
+            "position": {
+                "x": 11125.8,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NOMIN_5",
+                "name": "NOMIN_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_5"
+            },
+            "position": {
+                "x": 11941.8,
+                "y": 4860.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINGFRAC",
+                "name": "RINGFRAC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ringfrac"
+            },
+            "position": {
+                "x": 12763.800000000001,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GLUNIR00",
+                "name": "GLUNIR00",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/glunir00"
+            },
+            "position": {
+                "x": 11125.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SEQFUNC2",
+                "name": "SEQFUNC2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/seqfunc2"
+            },
+            "position": {
+                "x": 13639.800000000001,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NOMIN_8",
+                "name": "NOMIN_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/nomin_8"
+            },
+            "position": {
+                "x": 11941.8,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FIELD_8",
+                "name": "FIELD_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/field_8"
+            },
+            "position": {
+                "x": 14443.800000000003,
+                "y": 5292.0
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "EXTPRO_1",
+                "target": "PRE_POLY"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_I",
+                "target": "SCM_INST"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPOS_2",
+                "target": "PRE_POLY"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AMISTD_5",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FIB_FUSC",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCM_COMP",
+                "target": "SCM_INST"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCM_COMP",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AMI_4",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AMI_6",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA_2",
+                "target": "SCM_INST"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA_2",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA6A",
+                "target": "SCMFSA_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA6A",
+                "target": "COMPOS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SF_MASTR",
+                "target": "SCMFSA6A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA6B",
+                "target": "SF_MASTR"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA6B",
+                "target": "AMISTD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA8B",
+                "target": "SCMFSA6B"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA8C",
+                "target": "SCMFSA8B"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA_9",
+                "target": "SCMFSA8C"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SFMASTR1",
+                "target": "SCMFSA_9"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMFSA9A",
+                "target": "SFMASTR1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SFMASTR3",
+                "target": "SCMFSA9A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCM_HALT",
+                "target": "SCMFSA9A"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMBSORT",
+                "target": "SCM_HALT"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMRING4",
+                "target": "AMISTD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_2",
+                "target": "SCMPDS_I"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_2",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_4",
+                "target": "SCMPDS_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_5",
+                "target": "SCMPDS_4"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_6",
+                "target": "SCMPDS_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMP_GCD",
+                "target": "SCMPDS_6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_7",
+                "target": "SCMP_GCD"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCMPDS_8",
+                "target": "SCMPDS_7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCPISORT",
+                "target": "SCMPDS_8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCPQSORT",
+                "target": "SCPISORT"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SCPQSORT",
+                "target": "AMISTD_5"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "AMI_WSTD",
+                "target": "EXTPRO_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MEASURE9",
+                "target": "PRE_POLY"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "GLUNIR00",
+                "target": "GLIB_008"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NOMIN_8",
+                "target": "NOMIN_5"
+            }
+        }
+    ]
+}

@@ -3,51 +3,82 @@
         {
             "group": "nodes",
             "data": {
-                "id": "WELLORD1",
-                "name": "WELLORD1",
-                "href": "http://mizar.org/version/current/html/wellord1.html"
+                "id": "ORDINAL1",
+                "name": "ORDINAL1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordinal1"
             },
             "position": {
-                "x": 393.86400000000003,
+                "x": 370.46999999999997,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORDERS_2",
-                "name": "ORDERS_2",
-                "href": "http://mizar.org/version/current/html/orders_2.html"
+                "id": "FINSUB_1",
+                "name": "FINSUB_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finsub_1"
             },
             "position": {
-                "x": 393.86400000000003,
+                "x": 1918.44,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ORDERS_3",
-                "name": "ORDERS_3",
-                "href": "http://mizar.org/version/current/html/orders_3.html"
+                "id": "PRE_TOPC",
+                "name": "PRE_TOPC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pre_topc"
             },
             "position": {
-                "x": 393.86400000000003,
-                "y": 972.0000000000001
+                "x": 1216.44,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ALTCAT_1",
+                "name": "ALTCAT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/altcat_1"
+            },
+            "position": {
+                "x": 370.46999999999997,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PASCAL",
+                "name": "PASCAL",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pascal"
+            },
+            "position": {
+                "x": 1162.44,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ORDERS_2",
-                "target": "WELLORD1"
+                "source": "ALTCAT_1",
+                "target": "ORDINAL1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ORDERS_3",
-                "target": "ORDERS_2"
+                "source": "PASCAL",
+                "target": "ORDINAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PASCAL",
+                "target": "PRE_TOPC"
             }
         }
     ]

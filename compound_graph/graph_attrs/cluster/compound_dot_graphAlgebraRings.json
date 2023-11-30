@@ -3,56 +3,452 @@
         {
             "group": "nodes",
             "data": {
-                "id": "BINOP_1",
-                "name": "BINOP_1",
-                "href": "http://mizar.org/version/current/html/binop_1.html"
+                "id": "FUNCT_2",
+                "name": "FUNCT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_2"
             },
             "position": {
-                "x": 358.77,
+                "x": 7225.799999999999,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RAT_1",
-                "name": "RAT_1",
-                "href": "http://mizar.org/version/current/html/rat_1.html"
+                "id": "INT_1",
+                "name": "INT_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_1"
             },
             "position": {
-                "x": 1060.74,
+                "x": 13267.800000000001,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCSDOM",
+                "name": "FUNCSDOM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funcsdom"
+            },
+            "position": {
+                "x": 5366.04,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "VECTSP_2",
-                "name": "VECTSP_2",
-                "href": "http://mizar.org/version/current/html/vectsp_2.html"
+                "id": "NORMFORM",
+                "name": "NORMFORM",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normform"
             },
             "position": {
-                "x": 358.77,
+                "x": 6319.799999999999,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "O_RING_1",
-                "name": "O_RING_1",
-                "href": "http://mizar.org/version/current/html/o_ring_1.html"
+                "id": "YELLOW_7",
+                "name": "YELLOW_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_7"
             },
             "position": {
-                "x": 1750.7400000000002,
+                "x": 7225.799999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FSM_1",
+                "name": "FSM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fsm_1"
+            },
+            "position": {
+                "x": 12331.800000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DECOMP_1",
+                "name": "DECOMP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/decomp_1"
+            },
+            "position": {
+                "x": 13315.800000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSUHOM_1",
+                "name": "MSUHOM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msuhom_1"
+            },
+            "position": {
+                "x": 8119.799999999999,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COHSP_1",
+                "name": "COHSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cohsp_1"
+            },
+            "position": {
+                "x": 10729.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SUBSTLAT",
+                "name": "SUBSTLAT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/substlat"
+            },
+            "position": {
+                "x": 14185.800000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "WAYBEL18",
+                "name": "WAYBEL18",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/waybel18"
+            },
+            "position": {
+                "x": 9019.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "IDEA_1",
+                "name": "IDEA_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/idea_1"
+            },
+            "position": {
+                "x": 12967.800000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NORMSP_2",
+                "name": "NORMSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/normsp_2"
+            },
+            "position": {
+                "x": 9895.8,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPACT1",
+                "name": "COMPACT1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/compact1"
+            },
+            "position": {
+                "x": 386.06399999999996,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PCS_0",
+                "name": "PCS_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pcs_0"
+            },
+            "position": {
+                "x": 1124.0400000000002,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COMPL_SP",
+                "name": "COMPL_SP",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/compl_sp"
+            },
+            "position": {
+                "x": 1856.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_7",
+                "name": "INT_7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_7"
+            },
+            "position": {
+                "x": 13573.800000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MODELC_2",
+                "name": "MODELC_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/modelc_2"
+            },
+            "position": {
+                "x": 2732.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LPSPACE1",
+                "name": "LPSPACE1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lpspace1"
+            },
+            "position": {
+                "x": 3590.0400000000004,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SRINGS_1",
+                "name": "SRINGS_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/srings_1"
+            },
+            "position": {
+                "x": 12463.800000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL06",
+                "name": "ZMODUL06",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul06"
+            },
+            "position": {
+                "x": 11569.800000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMATRLIN",
+                "name": "ZMATRLIN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmatrlin"
+            },
+            "position": {
+                "x": 9367.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PETERSON",
+                "name": "PETERSON",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/peterson"
+            },
+            "position": {
+                "x": 4448.04,
                 "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "VECTSP_2",
-                "target": "BINOP_1"
+                "source": "FUNCSDOM",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NORMFORM",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "YELLOW_7",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FSM_1",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FSM_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MSUHOM_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COHSP_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "WAYBEL18",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "IDEA_1",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "IDEA_1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NORMSP_2",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPACT1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PCS_0",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COMPL_SP",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_7",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INT_7",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MODELC_2",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "LPSPACE1",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SRINGS_1",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "SRINGS_1",
+                "target": "COHSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL06",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODUL06",
+                "target": "FUNCT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMATRLIN",
+                "target": "INT_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMATRLIN",
+                "target": "FUNCSDOM"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "PETERSON",
+                "target": "FUNCT_2"
             }
         }
     ]

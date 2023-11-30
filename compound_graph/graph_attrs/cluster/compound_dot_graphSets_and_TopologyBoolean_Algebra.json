@@ -3,25 +3,37 @@
         {
             "group": "nodes",
             "data": {
-                "id": "XBOOLEAN",
-                "name": "XBOOLEAN",
-                "href": "http://mizar.org/version/current/html/xboolean.html"
+                "id": "COMSEQ_1",
+                "name": "COMSEQ_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/comseq_1"
             },
             "position": {
-                "x": 1518.2399999999998,
-                "y": 108.0
+                "x": 389.964,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MBOOLEAN",
-                "name": "MBOOLEAN",
-                "href": "http://mizar.org/version/current/html/mboolean.html"
+                "id": "FINSEQ_6",
+                "name": "FINSEQ_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/finseq_6"
             },
             "position": {
-                "x": 2862.2400000000002,
-                "y": 2268.0
+                "x": 1241.94,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SIN_COS8",
+                "name": "SIN_COS8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos8"
+            },
+            "position": {
+                "x": 2057.94,
+                "y": 1404.0
             }
         },
         {
@@ -29,23 +41,23 @@
             "data": {
                 "id": "BVFUNC_1",
                 "name": "BVFUNC_1",
-                "href": "http://mizar.org/version/current/html/bvfunc_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc_1"
             },
             "position": {
-                "x": 1518.2399999999998,
-                "y": 540.0
+                "x": 3107.94,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "BVFUNC_2",
-                "name": "BVFUNC_2",
-                "href": "http://mizar.org/version/current/html/bvfunc_2.html"
+                "id": "PARTIT_2",
+                "name": "PARTIT_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/partit_2"
             },
             "position": {
-                "x": 1086.24,
-                "y": 972.0000000000001
+                "x": 3107.94,
+                "y": 540.0
             }
         },
         {
@@ -53,11 +65,11 @@
             "data": {
                 "id": "BVFUNC_3",
                 "name": "BVFUNC_3",
-                "href": "http://mizar.org/version/current/html/bvfunc_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc_3"
             },
             "position": {
-                "x": 378.264,
-                "y": 1404.0
+                "x": 3923.94,
+                "y": 540.0
             }
         },
         {
@@ -65,11 +77,11 @@
             "data": {
                 "id": "BVFUNC_4",
                 "name": "BVFUNC_4",
-                "href": "http://mizar.org/version/current/html/bvfunc_4.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc_4"
             },
             "position": {
-                "x": 1242.2399999999998,
-                "y": 1404.0
+                "x": 2291.94,
+                "y": 540.0
             }
         },
         {
@@ -77,11 +89,11 @@
             "data": {
                 "id": "BVFUNC_5",
                 "name": "BVFUNC_5",
-                "href": "http://mizar.org/version/current/html/bvfunc_5.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc_5"
             },
             "position": {
-                "x": 1950.2400000000002,
-                "y": 972.0000000000001
+                "x": 1427.94,
+                "y": 540.0
             }
         },
         {
@@ -89,11 +101,11 @@
             "data": {
                 "id": "BVFUNC_6",
                 "name": "BVFUNC_6",
-                "href": "http://mizar.org/version/current/html/bvfunc_6.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc_6"
             },
             "position": {
-                "x": 1950.2400000000002,
-                "y": 1836.0
+                "x": 1829.94,
+                "y": 972.0000000000001
             }
         },
         {
@@ -101,11 +113,11 @@
             "data": {
                 "id": "BVFUNC11",
                 "name": "BVFUNC11",
-                "href": "http://mizar.org/version/current/html/bvfunc11.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc11"
             },
             "position": {
-                "x": 1080.24,
-                "y": 1836.0
+                "x": 2903.94,
+                "y": 972.0000000000001
             }
         },
         {
@@ -113,60 +125,89 @@
             "data": {
                 "id": "BVFUNC14",
                 "name": "BVFUNC14",
-                "href": "http://mizar.org/version/current/html/bvfunc14.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bvfunc14"
             },
             "position": {
-                "x": 1074.24,
-                "y": 2268.0
+                "x": 2903.94,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "BVFUNC25",
-                "name": "BVFUNC25",
-                "href": "http://mizar.org/version/current/html/bvfunc25.html"
+                "id": "LATTICE2",
+                "name": "LATTICE2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lattice2"
             },
             "position": {
-                "x": 1956.24,
-                "y": 2268.0
+                "x": 3743.94,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ROBBINS1",
-                "name": "ROBBINS1",
-                "href": "http://mizar.org/version/current/html/robbins1.html"
+                "id": "AFVECT01",
+                "name": "AFVECT01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/afvect01"
             },
             "position": {
-                "x": 3750.24,
-                "y": 2268.0
+                "x": 4565.9400000000005,
+                "y": 1404.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NORMFORM",
-                "name": "NORMFORM",
-                "href": "http://mizar.org/version/current/html/normform.html"
+                "id": "KNASTER",
+                "name": "KNASTER",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/knaster"
             },
             "position": {
-                "x": 4656.24,
-                "y": 2268.0
+                "x": 5387.9400000000005,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_5",
+                "name": "BCIALG_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_5"
+            },
+            "position": {
+                "x": 6192.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SRINGS_4",
+                "name": "SRINGS_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/srings_4"
+            },
+            "position": {
+                "x": 7002.0,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ROUGHS_5",
+                "name": "ROUGHS_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/roughs_5"
+            },
+            "position": {
+                "x": 4793.9400000000005,
+                "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "BVFUNC_1",
-                "target": "XBOOLEAN"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "BVFUNC_2",
+                "source": "PARTIT_2",
                 "target": "BVFUNC_1"
             }
         },
@@ -174,14 +215,14 @@
             "group": "edges",
             "data": {
                 "source": "BVFUNC_3",
-                "target": "BVFUNC_2"
+                "target": "BVFUNC_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "BVFUNC_4",
-                "target": "BVFUNC_2"
+                "target": "BVFUNC_1"
             }
         },
         {
@@ -215,6 +256,13 @@
         {
             "group": "edges",
             "data": {
+                "source": "BVFUNC11",
+                "target": "PARTIT_2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
                 "source": "BVFUNC14",
                 "target": "BVFUNC11"
             }
@@ -222,8 +270,8 @@
         {
             "group": "edges",
             "data": {
-                "source": "BVFUNC25",
-                "target": "BVFUNC_6"
+                "source": "ROUGHS_5",
+                "target": "BVFUNC_1"
             }
         }
     ]

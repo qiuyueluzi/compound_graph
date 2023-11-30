@@ -3,61 +3,73 @@
         {
             "group": "nodes",
             "data": {
-                "id": "FUNCOP_1",
-                "name": "FUNCOP_1",
-                "href": "http://mizar.org/version/current/html/funcop_1.html"
+                "id": "FUNCT_3",
+                "name": "FUNCT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/funct_3"
             },
             "position": {
-                "x": 2246.6400000000003,
-                "y": 108.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "CAT_1",
-                "name": "CAT_1",
-                "href": "http://mizar.org/version/current/html/cat_1.html"
-            },
-            "position": {
-                "x": 1904.6399999999999,
+                "x": 1431.24,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "CAT_2",
-                "name": "CAT_2",
-                "href": "http://mizar.org/version/current/html/cat_2.html"
+                "id": "GRAPH_1",
+                "name": "GRAPH_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/graph_1"
             },
             "position": {
-                "x": 1616.6399999999999,
-                "y": 1404.0
+                "x": 3039.2400000000002,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "GRCAT_1",
-                "name": "GRCAT_1",
-                "href": "http://mizar.org/version/current/html/grcat_1.html"
+                "id": "TRANSGEO",
+                "name": "TRANSGEO",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/transgeo"
             },
             "position": {
-                "x": 632.64,
-                "y": 1836.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "OPPCAT_1",
-                "name": "OPPCAT_1",
-                "href": "http://mizar.org/version/current/html/oppcat_1.html"
-            },
-            "position": {
-                "x": 2216.64,
+                "x": 4461.24,
                 "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MIDSP_2",
+                "name": "MIDSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/midsp_2"
+            },
+            "position": {
+                "x": 5289.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRELAMB",
+                "name": "PRELAMB",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prelamb"
+            },
+            "position": {
+                "x": 1143.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GROUP_5",
+                "name": "GROUP_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/group_5"
+            },
+            "position": {
+                "x": 6033.0,
+                "y": 540.0
             }
         },
         {
@@ -65,23 +77,23 @@
             "data": {
                 "id": "CAT_3",
                 "name": "CAT_3",
-                "href": "http://mizar.org/version/current/html/cat_3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_3"
             },
             "position": {
-                "x": 2270.6400000000003,
-                "y": 1404.0
+                "x": 687.2400000000001,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "NATTRA_1",
-                "name": "NATTRA_1",
-                "href": "http://mizar.org/version/current/html/nattra_1.html"
+                "id": "YELLOW_0",
+                "name": "YELLOW_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/yellow_0"
             },
             "position": {
-                "x": 2348.64,
-                "y": 1836.0
+                "x": 6825.0,
+                "y": 972.0000000000001
             }
         },
         {
@@ -89,23 +101,23 @@
             "data": {
                 "id": "CAT_5",
                 "name": "CAT_5",
-                "href": "http://mizar.org/version/current/html/cat_5.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_5"
             },
             "position": {
-                "x": 2144.6400000000003,
-                "y": 2268.0
+                "x": 2685.2400000000002,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ALTCAT_1",
-                "name": "ALTCAT_1",
-                "href": "http://mizar.org/version/current/html/altcat_1.html"
+                "id": "TOPRNS_1",
+                "name": "TOPRNS_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/toprns_1"
             },
             "position": {
-                "x": 2594.64,
-                "y": 540.0
+                "x": 7671.0,
+                "y": 972.0000000000001
             }
         },
         {
@@ -113,11 +125,11 @@
             "data": {
                 "id": "ISOCAT_1",
                 "name": "ISOCAT_1",
-                "href": "http://mizar.org/version/current/html/isocat_1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/isocat_1"
             },
             "position": {
-                "x": 2828.6400000000003,
-                "y": 2268.0
+                "x": 339.27,
+                "y": 972.0000000000001
             }
         },
         {
@@ -125,145 +137,239 @@
             "data": {
                 "id": "RINGCAT1",
                 "name": "RINGCAT1",
-                "href": "http://mizar.org/version/current/html/ringcat1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ringcat1"
             },
             "position": {
-                "x": 362.67,
-                "y": 2268.0
+                "x": 3393.24,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MODCAT_1",
-                "name": "MODCAT_1",
-                "href": "http://mizar.org/version/current/html/modcat_1.html"
+                "id": "E_SIEC",
+                "name": "E_SIEC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/e_siec"
             },
             "position": {
-                "x": 1214.6399999999999,
-                "y": 2268.0
+                "x": 8421.0,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "COMMACAT",
-                "name": "COMMACAT",
-                "href": "http://mizar.org/version/current/html/commacat.html"
+                "id": "GR_CY_2",
+                "name": "GR_CY_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/gr_cy_2"
             },
             "position": {
-                "x": 1472.64,
-                "y": 1836.0
+                "x": 6033.0,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ISOCAT_2",
-                "name": "ISOCAT_2",
-                "href": "http://mizar.org/version/current/html/isocat_2.html"
+                "id": "GOBOARD4",
+                "name": "GOBOARD4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard4"
             },
             "position": {
-                "x": 2828.6400000000003,
-                "y": 2700.0
+                "x": 9195.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "UNIALG_3",
+                "name": "UNIALG_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/unialg_3"
+            },
+            "position": {
+                "x": 10053.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GOBOARD9",
+                "name": "GOBOARD9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/goboard9"
+            },
+            "position": {
+                "x": 10911.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MSSCYC_2",
+                "name": "MSSCYC_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/msscyc_2"
+            },
+            "position": {
+                "x": 4233.24,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUNCTOR0",
+                "name": "FUNCTOR0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/functor0"
+            },
+            "position": {
+                "x": 2001.2400000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ORDEQ_01",
+                "name": "ORDEQ_01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ordeq_01"
+            },
+            "position": {
+                "x": 11775.0,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INTEGR21",
+                "name": "INTEGR21",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/integr21"
+            },
+            "position": {
+                "x": 11775.0,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SCMPDS_9",
+                "name": "SCMPDS_9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/scmpds_9"
+            },
+            "position": {
+                "x": 12627.000000000002,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZNUM_1",
+                "name": "FUZNUM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuznum_1"
+            },
+            "position": {
+                "x": 2901.24,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RING_3",
+                "name": "RING_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ring_3"
+            },
+            "position": {
+                "x": 3681.24,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "CAT_1",
-                "target": "FUNCOP_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "CAT_2",
-                "target": "CAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "GRCAT_1",
-                "target": "CAT_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "OPPCAT_1",
-                "target": "CAT_1"
+                "source": "PRELAMB",
+                "target": "FUNCT_3"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "CAT_3",
-                "target": "OPPCAT_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NATTRA_1",
-                "target": "CAT_2"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "NATTRA_1",
-                "target": "CAT_3"
+                "target": "GRAPH_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "CAT_5",
-                "target": "NATTRA_1"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "ALTCAT_1",
-                "target": "FUNCOP_1"
+                "target": "GRAPH_1"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "ISOCAT_1",
-                "target": "NATTRA_1"
+                "target": "CAT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ISOCAT_1",
+                "target": "FUNCT_3"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "RINGCAT1",
-                "target": "GRCAT_1"
+                "target": "GRAPH_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MODCAT_1",
-                "target": "GRCAT_1"
+                "source": "GR_CY_2",
+                "target": "GROUP_5"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "COMMACAT",
-                "target": "CAT_2"
+                "source": "MSSCYC_2",
+                "target": "GRAPH_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ISOCAT_2",
-                "target": "ISOCAT_1"
+                "source": "FUNCTOR0",
+                "target": "FUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "INTEGR21",
+                "target": "ORDEQ_01"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "FUZNUM_1",
+                "target": "FUNCT_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RING_3",
+                "target": "RINGCAT1"
             }
         }
     ]

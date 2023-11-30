@@ -3,13 +3,25 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SUPINF_2",
-                "name": "SUPINF_2",
-                "href": "http://mizar.org/version/current/html/supinf_2.html"
+                "id": "RPR_1",
+                "name": "RPR_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rpr_1"
             },
             "position": {
-                "x": 989.64,
-                "y": 108.0
+                "x": 4163.64,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FDIFF_3",
+                "name": "FDIFF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fdiff_3"
+            },
+            "position": {
+                "x": 7115.4000000000015,
+                "y": 1836.0
             }
         },
         {
@@ -17,11 +29,11 @@
             "data": {
                 "id": "MEASURE1",
                 "name": "MEASURE1",
-                "href": "http://mizar.org/version/current/html/measure1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure1"
             },
             "position": {
-                "x": 989.64,
-                "y": 540.0
+                "x": 857.64,
+                "y": 108.0
             }
         },
         {
@@ -29,11 +41,11 @@
             "data": {
                 "id": "MEASURE2",
                 "name": "MEASURE2",
-                "href": "http://mizar.org/version/current/html/measure2.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure2"
             },
             "position": {
-                "x": 1499.64,
-                "y": 972.0000000000001
+                "x": 401.66400000000004,
+                "y": 540.0
             }
         },
         {
@@ -41,35 +53,35 @@
             "data": {
                 "id": "MEASURE3",
                 "name": "MEASURE3",
-                "href": "http://mizar.org/version/current/html/measure3.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure3"
             },
             "position": {
-                "x": 1499.64,
-                "y": 1404.0
+                "x": 5213.64,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MEASURE4",
-                "name": "MEASURE4",
-                "href": "http://mizar.org/version/current/html/measure4.html"
+                "id": "RFUNCT_3",
+                "name": "RFUNCT_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rfunct_3"
             },
             "position": {
-                "x": 971.64,
-                "y": 1836.0
+                "x": 6203.400000000001,
+                "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MEASURE5",
-                "name": "MEASURE5",
-                "href": "http://mizar.org/version/current/html/measure5.html"
+                "id": "MEASURE6",
+                "name": "MEASURE6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure6"
             },
             "position": {
-                "x": 401.66400000000004,
-                "y": 1404.0
+                "x": 7475.400000000001,
+                "y": 108.0
             }
         },
         {
@@ -77,66 +89,311 @@
             "data": {
                 "id": "EXTREAL1",
                 "name": "EXTREAL1",
-                "href": "http://mizar.org/version/current/html/extreal1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/extreal1"
             },
             "position": {
-                "x": 1967.6399999999999,
+                "x": 6857.400000000001,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MEASURE7",
-                "name": "MEASURE7",
-                "href": "http://mizar.org/version/current/html/measure7.html"
+                "id": "RFUNCT_4",
+                "name": "RFUNCT_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rfunct_4"
             },
             "position": {
-                "x": 689.64,
-                "y": 2268.0
+                "x": 6005.400000000001,
+                "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MESFUNC1",
-                "name": "MESFUNC1",
-                "href": "http://mizar.org/version/current/html/mesfunc1.html"
+                "id": "SIN_COS",
+                "name": "SIN_COS",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos"
             },
             "position": {
-                "x": 1889.6399999999999,
+                "x": 4265.64,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "SINCOS10",
+                "name": "SINCOS10",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sincos10"
+            },
+            "position": {
+                "x": 3899.6400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC3",
+                "name": "MESFUNC3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc3"
+            },
+            "position": {
+                "x": 4925.64,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PROB_3",
+                "name": "PROB_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prob_3"
+            },
+            "position": {
+                "x": 2189.64,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "KOLMOG01",
+                "name": "KOLMOG01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/kolmog01"
+            },
+            "position": {
+                "x": 1307.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BOR_CANT",
+                "name": "BOR_CANT",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bor_cant"
+            },
+            "position": {
+                "x": 3053.6400000000003,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_3",
+                "name": "DIFF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/diff_3"
+            },
+            "position": {
+                "x": 4637.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC7",
+                "name": "MESFUNC7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc7"
+            },
+            "position": {
+                "x": 5843.640000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RINFSUP2",
+                "name": "RINFSUP2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rinfsup2"
+            },
+            "position": {
+                "x": 7127.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC8",
+                "name": "MESFUNC8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc8"
+            },
+            "position": {
+                "x": 6761.4000000000015,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MESFUNC9",
+                "name": "MESFUNC9",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/mesfunc9"
+            },
+            "position": {
+                "x": 6299.400000000001,
                 "y": 1836.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "MESFUNC2",
-                "name": "MESFUNC2",
-                "href": "http://mizar.org/version/current/html/mesfunc2.html"
+                "id": "PDIFF_3",
+                "name": "PDIFF_3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/pdiff_3"
             },
             "position": {
-                "x": 1889.6399999999999,
-                "y": 2268.0
+                "x": 7829.400000000001,
+                "y": 1836.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "DYNKIN",
-                "name": "DYNKIN",
-                "href": "http://mizar.org/version/current/html/dynkin.html"
+                "id": "RANDOM_1",
+                "name": "RANDOM_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/random_1"
             },
             "position": {
-                "x": 689.64,
+                "x": 4925.64,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CFDIFF_2",
+                "name": "CFDIFF_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cfdiff_2"
+            },
+            "position": {
+                "x": 6071.4,
                 "y": 972.0000000000001
             }
         },
         {
-            "group": "edges",
+            "group": "nodes",
             "data": {
-                "source": "MEASURE1",
-                "target": "SUPINF_2"
+                "id": "DUALSP01",
+                "name": "DUALSP01",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dualsp01"
+            },
+            "position": {
+                "x": 8609.400000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIOPHAN1",
+                "name": "DIOPHAN1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/diophan1"
+            },
+            "position": {
+                "x": 2189.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODUL07",
+                "name": "ZMODUL07",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodul07"
+            },
+            "position": {
+                "x": 9473.400000000001,
+                "y": 1404.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ZMODLAT1",
+                "name": "ZMODLAT1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/zmodlat1"
+            },
+            "position": {
+                "x": 9473.400000000001,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUSIN",
+                "name": "COUSIN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cousin"
+            },
+            "position": {
+                "x": 7925.400000000001,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NIVEN",
+                "name": "NIVEN",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/niven"
+            },
+            "position": {
+                "x": 5267.64,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "COUSIN2",
+                "name": "COUSIN2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cousin2"
+            },
+            "position": {
+                "x": 7943.400000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BKMODEL2",
+                "name": "BKMODEL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bkmodel2"
+            },
+            "position": {
+                "x": 10367.4,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "LOPBAN11",
+                "name": "LOPBAN11",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/lopban11"
+            },
+            "position": {
+                "x": 11255.4,
+                "y": 1836.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "PRSUBSET",
+                "name": "PRSUBSET",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/prsubset"
+            },
+            "position": {
+                "x": 12125.4,
+                "y": 1836.0
             }
         },
         {
@@ -156,71 +413,190 @@
         {
             "group": "edges",
             "data": {
-                "source": "MEASURE4",
-                "target": "MEASURE3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MEASURE5",
-                "target": "SUPINF_2"
+                "source": "EXTREAL1",
+                "target": "RFUNCT_3"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "EXTREAL1",
-                "target": "SUPINF_2"
+                "target": "MEASURE6"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MEASURE7",
-                "target": "MEASURE4"
+                "source": "RFUNCT_4",
+                "target": "RFUNCT_3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MEASURE7",
-                "target": "MEASURE5"
+                "source": "SINCOS10",
+                "target": "SIN_COS"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MESFUNC1",
-                "target": "MEASURE3"
-            }
-        },
-        {
-            "group": "edges",
-            "data": {
-                "source": "MESFUNC1",
+                "source": "MESFUNC3",
                 "target": "EXTREAL1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MESFUNC1",
-                "target": "MEASURE5"
+                "source": "MESFUNC3",
+                "target": "MEASURE3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "MESFUNC2",
-                "target": "MESFUNC1"
+                "source": "KOLMOG01",
+                "target": "PROB_3"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "DYNKIN",
+                "source": "KOLMOG01",
                 "target": "MEASURE1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BOR_CANT",
+                "target": "PROB_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "BOR_CANT",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIFF_3",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC7",
+                "target": "EXTREAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC7",
+                "target": "MEASURE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RINFSUP2",
+                "target": "EXTREAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC8",
+                "target": "RINFSUP2"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC8",
+                "target": "MEASURE3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC9",
+                "target": "MESFUNC8"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "MESFUNC9",
+                "target": "MESFUNC7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_1",
+                "target": "RPR_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_1",
+                "target": "MESFUNC7"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "RANDOM_1",
+                "target": "MESFUNC3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "CFDIFF_2",
+                "target": "EXTREAL1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "DIOPHAN1",
+                "target": "PROB_3"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "ZMODLAT1",
+                "target": "ZMODUL07"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COUSIN",
+                "target": "MEASURE6"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "NIVEN",
+                "target": "SIN_COS"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "COUSIN2",
+                "target": "COUSIN"
             }
         }
     ]

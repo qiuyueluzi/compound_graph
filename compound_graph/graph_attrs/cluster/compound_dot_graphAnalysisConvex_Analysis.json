@@ -3,12 +3,60 @@
         {
             "group": "nodes",
             "data": {
-                "id": "RFUNCT_4",
-                "name": "RFUNCT_4",
-                "href": "http://mizar.org/version/current/html/rfunct_4.html"
+                "id": "MEASURE7",
+                "name": "MEASURE7",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/measure7"
             },
             "position": {
-                "x": 374.36400000000003,
+                "x": 401.66400000000004,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RUSUB_5",
+                "name": "RUSUB_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rusub_5"
+            },
+            "position": {
+                "x": 1247.64,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "HEYTING2",
+                "name": "HEYTING2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/heyting2"
+            },
+            "position": {
+                "x": 2063.64,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "GRAPH_5",
+                "name": "GRAPH_5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/graph_5"
+            },
+            "position": {
+                "x": 2879.6400000000003,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "C0SP1",
+                "name": "C0SP1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/c0sp1"
+            },
+            "position": {
+                "x": 3575.6400000000003,
                 "y": 108.0
             }
         }

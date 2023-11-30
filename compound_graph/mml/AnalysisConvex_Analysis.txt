@@ -1,0 +1,5 @@
+measure7
+rusub_5
+heyting2
+graph_5
+c0sp1

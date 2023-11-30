@@ -1,0 +1,40 @@
+{
+    "eleObjs": [
+        {
+            "group": "nodes",
+            "data": {
+                "id": "INT_4",
+                "name": "INT_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/int_4"
+            },
+            "position": {
+                "x": 230.08200000000002,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "TOPREALC",
+                "name": "TOPREALC",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/toprealc"
+            },
+            "position": {
+                "x": 944.0999999999999,
+                "y": 108.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "RLAFFIN3",
+                "name": "RLAFFIN3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rlaffin3"
+            },
+            "position": {
+                "x": 1790.1000000000001,
+                "y": 108.0
+            }
+        }
+    ]
+}

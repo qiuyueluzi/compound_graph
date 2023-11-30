@@ -3,44 +3,82 @@
         {
             "group": "nodes",
             "data": {
-                "id": "ALGSTR_1",
-                "name": "ALGSTR_1",
-                "href": "http://mizar.org/version/current/html/algstr_1.html"
+                "id": "VECTSP_1",
+                "name": "VECTSP_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp_1"
             },
             "position": {
-                "x": 358.77,
+                "x": 1198.44,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ALGSTR_2",
-                "name": "ALGSTR_2",
-                "href": "http://mizar.org/version/current/html/algstr_2.html"
+                "id": "REALSET3",
+                "name": "REALSET3",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/realset3"
             },
             "position": {
-                "x": 358.77,
+                "x": 370.46999999999997,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "ALGSTR_3",
-                "name": "ALGSTR_3",
-                "href": "http://mizar.org/version/current/html/algstr_3.html"
+                "id": "O_RING_1",
+                "name": "O_RING_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/o_ring_1"
             },
             "position": {
-                "x": 1186.74,
+                "x": 1198.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "BCIALG_2",
+                "name": "BCIALG_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/bcialg_2"
+            },
+            "position": {
+                "x": 2614.44,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "C0SP2",
+                "name": "C0SP2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/c0sp2"
+            },
+            "position": {
+                "x": 1906.44,
                 "y": 540.0
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "ALGSTR_2",
-                "target": "ALGSTR_1"
+                "source": "REALSET3",
+                "target": "VECTSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "O_RING_1",
+                "target": "VECTSP_1"
+            }
+        },
+        {
+            "group": "edges",
+            "data": {
+                "source": "C0SP2",
+                "target": "VECTSP_1"
             }
         }
     ]

@@ -3,36 +3,72 @@
         {
             "group": "nodes",
             "data": {
-                "id": "SEQ_2",
-                "name": "SEQ_2",
-                "href": "http://mizar.org/version/current/html/seq_2.html"
+                "id": "COMSEQ_2",
+                "name": "COMSEQ_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/comseq_2"
             },
             "position": {
-                "x": 1178.94,
+                "x": 806.0400000000001,
                 "y": 108.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SEQ_4",
-                "name": "SEQ_4",
-                "href": "http://mizar.org/version/current/html/seq_4.html"
+                "id": "RFINSEQ",
+                "name": "RFINSEQ",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rfinseq"
             },
             "position": {
-                "x": 1178.94,
+                "x": 2048.04,
                 "y": 540.0
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SETLIM_1",
-                "name": "SETLIM_1",
-                "href": "http://mizar.org/version/current/html/setlim_1.html"
+                "id": "SIN_COS5",
+                "name": "SIN_COS5",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/sin_cos5"
             },
             "position": {
-                "x": 410.97,
+                "x": 2846.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "EULER_2",
+                "name": "EULER_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euler_2"
+            },
+            "position": {
+                "x": 2048.04,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "FUZZY_4",
+                "name": "FUZZY_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/fuzzy_4"
+            },
+            "position": {
+                "x": 3902.04,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_1",
+                "name": "DIFF_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/diff_1"
+            },
+            "position": {
+                "x": 3572.04,
                 "y": 540.0
             }
         },
@@ -41,101 +77,173 @@
             "data": {
                 "id": "RINFSUP1",
                 "name": "RINFSUP1",
-                "href": "http://mizar.org/version/current/html/rinfsup1.html"
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/rinfsup1"
             },
             "position": {
-                "x": 1178.94,
+                "x": 386.06399999999996,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DIFF_4",
+                "name": "DIFF_4",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/diff_4"
+            },
+            "position": {
+                "x": 3206.0400000000004,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "SETLIM_2",
-                "name": "SETLIM_2",
-                "href": "http://mizar.org/version/current/html/setlim_2.html"
+                "id": "VECTSP_2",
+                "name": "VECTSP_2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/vectsp_2"
             },
             "position": {
-                "x": 350.96999999999997,
+                "x": 4694.04,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "RINFSUP2",
-                "name": "RINFSUP2",
-                "href": "http://mizar.org/version/current/html/rinfsup2.html"
+                "id": "EUCLMETR",
+                "name": "EUCLMETR",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/euclmetr"
             },
             "position": {
-                "x": 1178.94,
-                "y": 1404.0
-            }
-        },
-        {
-            "group": "nodes",
-            "data": {
-                "id": "FILTER_0",
-                "name": "FILTER_0",
-                "href": "http://mizar.org/version/current/html/filter_0.html"
-            },
-            "position": {
-                "x": 1994.94,
+                "x": 5564.04,
                 "y": 972.0000000000001
             }
         },
         {
             "group": "nodes",
             "data": {
-                "id": "FILTER_1",
-                "name": "FILTER_1",
-                "href": "http://mizar.org/version/current/html/filter_1.html"
+                "id": "GRSOLV_1",
+                "name": "GRSOLV_1",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/grsolv_1"
             },
             "position": {
-                "x": 1994.94,
-                "y": 1404.0
+                "x": 6433.799999999999,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "NDIFF_6",
+                "name": "NDIFF_6",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/ndiff_6"
+            },
+            "position": {
+                "x": 7213.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "MOEBIUS2",
+                "name": "MOEBIUS2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/moebius2"
+            },
+            "position": {
+                "x": 386.06399999999996,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "ABSRED_0",
+                "name": "ABSRED_0",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/absred_0"
+            },
+            "position": {
+                "x": 8005.8,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CARDFIL2",
+                "name": "CARDFIL2",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cardfil2"
+            },
+            "position": {
+                "x": 8845.800000000001,
+                "y": 972.0000000000001
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "DUALSP04",
+                "name": "DUALSP04",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/dualsp04"
+            },
+            "position": {
+                "x": 1232.04,
+                "y": 540.0
+            }
+        },
+        {
+            "group": "nodes",
+            "data": {
+                "id": "CAT_8",
+                "name": "CAT_8",
+                "href": "https://em1.cs.shinshu-u.ac.jp/emwiki/release/article/cat_8"
+            },
+            "position": {
+                "x": 9547.8,
+                "y": 972.0000000000001
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "SEQ_4",
-                "target": "SEQ_2"
+                "source": "EULER_2",
+                "target": "RFINSEQ"
             }
         },
         {
             "group": "edges",
             "data": {
                 "source": "RINFSUP1",
-                "target": "SETLIM_1"
+                "target": "COMSEQ_2"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RINFSUP1",
-                "target": "SEQ_4"
+                "source": "DIFF_4",
+                "target": "SIN_COS5"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "SETLIM_2",
-                "target": "SETLIM_1"
+                "source": "DIFF_4",
+                "target": "DIFF_1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "RINFSUP2",
+                "source": "MOEBIUS2",
                 "target": "RINFSUP1"
             }
         },
         {
             "group": "edges",
             "data": {
-                "source": "FILTER_1",
-                "target": "FILTER_0"
+                "source": "DUALSP04",
+                "target": "COMSEQ_2"
             }
         }
     ]
