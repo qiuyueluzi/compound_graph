@@ -665,6 +665,12 @@ $(function(){
         if(allopen == true) $("#open").prop("disabled", true);// 全てのディレクトリが表示されていればボタンを非アクティブ化
     }
 
+    $(".context").on("contextmenu", function(e) {
+        e.preventDefault();
+        $("#contextmenu").show();
+        $("#contextmenu").css({left: e.pageX, top: e.pageY});
+    })
+
     // coloringクラスのボタンをクリックしたときの処理
     $(".coloring").click(function(e) {
         // カラーパレットの位置をマウスの座標に合わせる
@@ -718,6 +724,9 @@ $(function(){
         if (!$(e.target).is('.palette, .color, .coloring')) {
             // カラーパレットを非表示にする
             $('.palette').hide();
+        }
+        if (!$(e.target).is("#contextmenu")) {
+            $("#contextmenu").hide();
         }
     });
     
@@ -951,7 +960,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       let level1Summary = document.createElement("summary");
       level1Summary.textContent = level1[key];
       level1Item.appendChild(level1Summary);
-      // ボタン要素を生成
+      /*/ ボタン要素を生成
       let button = document.createElement("button");
       // ボタンのテキストを設定
       button.textContent = "ボタン";
@@ -959,7 +968,8 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       button.className = "coloring";
       button.id = "/"+level1[key];
       // レベル2の要素の最初の子要素としてボタンを挿入
-      level1Item.insertBefore(button, level1Item.firstChild);
+      level1Item.insertBefore(button, level1Item.firstChild);*/
+      level1Item.className = "context";
       // レベル2の要素を順に処理する
       for (let subkey in level2[key]) {
         // レベル2の要素の見出しを生成する
@@ -1029,7 +1039,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 level2Summary.style.color = "grey";
             }
             else {
-                // ボタン要素を生成
+                /* ボタン要素を生成
                 let button = document.createElement("button");
                 // ボタンのテキストを設定
                 button.textContent = "ボタン";
@@ -1037,7 +1047,8 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 button.className = "coloring";
                 button.id = "/"+className;
                 // レベル2の要素の最初の子要素としてボタンを挿入
-                level2Item.insertBefore(button, level2Item.firstChild);
+                level2Item.insertBefore(button, level2Item.firstChild);*/
+                level2Item.className ="context";
             }
         }
     }
