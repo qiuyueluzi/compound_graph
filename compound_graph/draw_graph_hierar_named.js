@@ -4,7 +4,7 @@ createGraph.pyで出力されたファイルとcytoscape.jsを使って
 グラフの描画を行う
 */
 $(function(){
-    $.when($.getJSON('./graph_attrs/graph_classHierar_1403.json')).then((dot_graph) => {
+    $.when($.getJSON('./graph_attrs/graph_classHierar_538.json')).then((dot_graph) => {
         $(".has-sub").children(".sub").stop().slideToggle();
         // cytoscapeグラフの作成(初期化)
         let cy = window.cy = cytoscape({
@@ -667,8 +667,11 @@ $(function(){
 
     $(".context").on("contextmenu", function(e) {
         e.preventDefault();
+        $("#contextmenu").children().removeAttr("name")
         $("#contextmenu").show();
         $("#contextmenu").css({left: e.pageX, top: e.pageY});
+        let buttonId = $(this).attr("id");
+        $("#contextmenu").children().attr("name", buttonId);
     })
 
     // coloringクラスのボタンをクリックしたときの処理
@@ -681,11 +684,13 @@ $(function(){
         // カラーパレットを表示する
         $(".palette").show();
         // クリックしたボタンのidを取得する
-        var buttonId = $(this).attr("id");
+        var buttonId = $(this).attr("name");
         // ボタンのidをカラーパレットにデータとして保存する
         $(".palette").data("buttonId", buttonId);
     });
-    
+    $("#pan").click(function(){
+        alert("c")
+    })
     
     // カラーパレットの色をクリックしたときの処理
     $(".color").click(function() {
@@ -711,6 +716,7 @@ $(function(){
         }
         // idがボタンのidから始まる名前のノードを検索する
         var nodes = cy.$("[id^='" + buttonId + "']");
+        console.log("[id^='" + buttonId + "']")
         // ノードにクラスを追加する
         nodes.addClass("cluster_" + colorCode.slice(1));
         
@@ -960,6 +966,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       let level1Summary = document.createElement("summary");
       level1Summary.textContent = level1[key];
       level1Item.appendChild(level1Summary);
+      level1Item.id = level1[key]
       /*/ ボタン要素を生成
       let button = document.createElement("button");
       // ボタンのテキストを設定
@@ -980,7 +987,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
         // レベル2の要素にスタイルを適用する
         level2Item.style.marginLeft = "20px";
         // レベル2の要素にクラス属性を設定する
-        level2Item.className = level1[key] + level2[key][subkey];
+        level2Item.id = level1[key] + level2[key][subkey];
         // レベル2の要素に属する要素を格納するためのリストを生成する
         let level3List = document.createElement("ul");
         // レベル2の要素にリストを追加する
@@ -1011,7 +1018,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       else parentId = parentId.replace(/\//g, "");
 
       // 一致するクラス属性を持つレベル2の要素を探す
-      let level2Item = document.querySelector("." + parentId);
+      let level2Item = document.querySelector("#" + parentId);
       // 一致するクラス属性がない場合はスキップする
       if (!level2Item) continue;
       // ノードのIDを取得する
@@ -1029,7 +1036,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
             // クラス名を生成
             let className = level1[key] + level2[key][subkey];
             // 一致するクラス属性を持つレベル2の要素を探す
-            let level2Item = document.querySelector("." + className);
+            let level2Item = document.querySelector("#" + className);
             if (level2Item == null) continue;
             // レベル2の要素に属するリストを取得
             let level3List = level2Item.querySelector("ul");
@@ -1048,7 +1055,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 button.id = "/"+className;
                 // レベル2の要素の最初の子要素としてボタンを挿入
                 level2Item.insertBefore(button, level2Item.firstChild);*/
-                level2Item.className ="context";
+                level2Item.className = "context";
             }
         }
     }
