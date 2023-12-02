@@ -471,7 +471,6 @@ $(function(){
                     $("#select_article").text("SELECT: " + select_node_name);
                     $(".color_index").removeClass("hidden_");
                     cy.center(select_node)
-                    console.log(select_node)
                 }
                 else{
                     alert("ERROR: Don't have '" + select_node_name + "' node. Please select existed nodes.");
@@ -688,8 +687,10 @@ $(function(){
         // ボタンのidをカラーパレットにデータとして保存する
         $(".palette").data("buttonId", buttonId);
     });
-    $("#pan").click(function(){
-        alert("c")
+    $(".pan").click(function(){
+        let node = cy.$("[id^='/" + $(this).attr("name") + "']");
+        cy.zoom(0.1);
+        cy.center(node);
     })
     
     // カラーパレットの色をクリックしたときの処理
@@ -715,8 +716,7 @@ $(function(){
             cy.$(".cluster_" + colorCode.slice(1)).removeClass("cluster_" + colorCode.slice(1));
         }
         // idがボタンのidから始まる名前のノードを検索する
-        var nodes = cy.$("[id^='" + buttonId + "']");
-        console.log("[id^='" + buttonId + "']")
+        var nodes = cy.$("[id^='/" + buttonId + "']");
         // ノードにクラスを追加する
         nodes.addClass("cluster_" + colorCode.slice(1));
         
@@ -965,8 +965,9 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       let level1Item = document.createElement("details");
       let level1Summary = document.createElement("summary");
       level1Summary.textContent = level1[key];
+      level1Summary.className = "context";
+      level1Summary.id = level1[key];
       level1Item.appendChild(level1Summary);
-      level1Item.id = level1[key]
       /*/ ボタン要素を生成
       let button = document.createElement("button");
       // ボタンのテキストを設定
@@ -976,18 +977,18 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       button.id = "/"+level1[key];
       // レベル2の要素の最初の子要素としてボタンを挿入
       level1Item.insertBefore(button, level1Item.firstChild);*/
-      level1Item.className = "context";
       // レベル2の要素を順に処理する
       for (let subkey in level2[key]) {
         // レベル2の要素の見出しを生成する
         let level2Item = document.createElement("details");
         let level2Summary = document.createElement("summary");
         level2Summary.textContent = level2[key][subkey];
+        level2Summary.id = level1[key] + level2[key][subkey];
         level2Item.appendChild(level2Summary);
         // レベル2の要素にスタイルを適用する
         level2Item.style.marginLeft = "20px";
         // レベル2の要素にクラス属性を設定する
-        level2Item.id = level1[key] + level2[key][subkey];
+        level2Item.className = level1[key] + level2[key][subkey];
         // レベル2の要素に属する要素を格納するためのリストを生成する
         let level3List = document.createElement("ul");
         // レベル2の要素にリストを追加する
@@ -1018,7 +1019,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
       else parentId = parentId.replace(/\//g, "");
 
       // 一致するクラス属性を持つレベル2の要素を探す
-      let level2Item = document.querySelector("#" + parentId);
+      let level2Item = document.querySelector("." + parentId);
       // 一致するクラス属性がない場合はスキップする
       if (!level2Item) continue;
       // ノードのIDを取得する
@@ -1036,7 +1037,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
             // クラス名を生成
             let className = level1[key] + level2[key][subkey];
             // 一致するクラス属性を持つレベル2の要素を探す
-            let level2Item = document.querySelector("#" + className);
+            let level2Item = document.querySelector("." + className);
             if (level2Item == null) continue;
             // レベル2の要素に属するリストを取得
             let level3List = level2Item.querySelector("ul");
@@ -1055,7 +1056,7 @@ function createAccordionMenu(level1, level2, id2relatedElements) {
                 button.id = "/"+className;
                 // レベル2の要素の最初の子要素としてボタンを挿入
                 level2Item.insertBefore(button, level2Item.firstChild);*/
-                level2Item.className = "context";
+                $("#"+level2Item.className).addClass("context");
             }
         }
     }
