@@ -1487,7 +1487,7 @@
                 "id": "SEQ_4",
                 "name": "SEQ_4",
                 "href": "http://mizar.org/version/current/html/seq_4.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis"
             },
             "position": {
                 "x": 60480.0,
@@ -1500,7 +1500,7 @@
                 "id": "RCOMP_1",
                 "name": "RCOMP_1",
                 "href": "http://mizar.org/version/current/html/rcomp_1.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis"
             },
             "position": {
                 "x": 61320.0,
@@ -1578,7 +1578,7 @@
                 "id": "ROLLE",
                 "name": "ROLLE",
                 "href": "http://mizar.org/version/current/html/rolle.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis"
             },
             "position": {
                 "x": 105372.0,
@@ -1655,7 +1655,7 @@
                 "id": "ABIAN",
                 "name": "ABIAN",
                 "href": "http://mizar.org/version/current/html/abian.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis"
             },
             "position": {
                 "x": 61932.0,
@@ -2052,7 +2052,7 @@
                 "id": "LIMFUNC2",
                 "name": "LIMFUNC2",
                 "href": "http://mizar.org/version/current/html/limfunc2.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis"
             },
             "position": {
                 "x": 111696.0,
@@ -38422,8 +38422,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisHarmonic_Analysis,_Real_Analysis",
-                "name": "AnalysisHarmonic_Analysis,_Real_Analysis",
+                "id": "/AnalysisHarmonic_Analysis_Real_Analysis",
+                "name": "AnalysisHarmonic_Analysis_Real_Analysis",
                 "parent": ""
             }
         },

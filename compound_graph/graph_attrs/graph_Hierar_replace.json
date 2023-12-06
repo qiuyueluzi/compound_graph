@@ -1498,7 +1498,7 @@
                 "id": "RCOMP_1",
                 "name": "RCOMP_1",
                 "href": "http://mizar.org/version/current/html/rcomp_1.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             },
             "position": {
                 "x": 9970.790400000002,
@@ -1511,7 +1511,7 @@
                 "id": "RFUNCT_2",
                 "name": "RFUNCT_2",
                 "href": "http://mizar.org/version/current/html/rfunct_2.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             },
             "position": {
                 "x": 9970.790400000002,
@@ -1589,7 +1589,7 @@
                 "id": "PREPOWER",
                 "name": "PREPOWER",
                 "href": "http://mizar.org/version/current/html/prepower.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             },
             "position": {
                 "x": 9538.814400000001,
@@ -1666,7 +1666,7 @@
                 "id": "POWER",
                 "name": "POWER",
                 "href": "http://mizar.org/version/current/html/power.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             },
             "position": {
                 "x": 9538.814400000001,
@@ -2062,7 +2062,7 @@
                 "id": "SEQFUNC",
                 "name": "SEQFUNC",
                 "href": "http://mizar.org/version/current/html/seqfunc.html",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             },
             "position": {
                 "x": 10408.790400000002,
@@ -13444,9 +13444,9 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisHarmonic_Analysis,_Real_Analysis/",
+                "id": "/AnalysisHarmonic_Analysis_Real_Analysis/",
                 "name": "",
-                "parent": "/AnalysisHarmonic_Analysis,_Real_Analysis/"
+                "parent": "/AnalysisHarmonic_Analysis_Real_Analysis/"
             }
         },
         {
@@ -14356,8 +14356,8 @@
         {
             "group": "nodes",
             "data": {
-                "id": "/AnalysisHarmonic_Analysis,_Real_Analysis/",
-                "name": "AnalysisHarmonic_Analysis,_Real_Analysis",
+                "id": "/AnalysisHarmonic_Analysis_Real_Analysis/",
+                "name": "AnalysisHarmonic_Analysis_Real_Analysis",
                 "parent": ""
             }
         },
