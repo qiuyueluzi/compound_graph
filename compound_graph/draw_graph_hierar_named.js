@@ -695,6 +695,7 @@ $(function(){
     
     // カラーパレットの色をクリックしたときの処理
     $(".color").click(function() {
+        let cluster = ["cluster_0000ff","cluster_00ff00","cluster_4b0082","cluster_8b00ff", "cluster_ff0000","cluster_ff7f00", "cluster_ffff00", "cluster_ff0095"]
         // クリックした色のカラーコードを取得する
         var rgb = $(this).css("background-color").toString(); 
         rgb = rgb.replace("rgb(", ""); rgb = rgb.replace(")", ""); 
@@ -717,8 +718,23 @@ $(function(){
         }
         // idがボタンのidから始まる名前のノードを検索する
         var nodes = cy.$("[id^='/" + buttonId + "']");
+        nodes.removeClass(cluster);
         // ノードにクラスを追加する
         nodes.addClass("cluster_" + colorCode.slice(1));
+        $("#cluster_coloring_index").removeClass("hidden_")
+        // id属性値がcluster_から始まる要素を全て取得
+        let elements = $("[id^='cluster_']");
+        
+        // 取得した要素のtextを走査
+        elements.each(function() {
+            // textがbuttonIdと前方一致するか判定
+            if ($(this).text().startsWith(buttonId)) {
+                // 前方一致したらtextを空にする
+                $(this).text("");
+            }
+        });
+        $("#cluster_" + colorCode.slice(1)).text(buttonId);
+        
         
     });
 
@@ -750,6 +766,7 @@ $(function(){
                     }
                 });
             });
+            $("#cluster_coloring_index").addClass("hidden_");
         });
     });
     })
