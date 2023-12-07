@@ -721,7 +721,7 @@ $(function(){
         nodes.removeClass(cluster);
         // ノードにクラスを追加する
         nodes.addClass("cluster_" + colorCode.slice(1));
-        $("#cluster_coloring_index").removeClass("hidden_")
+        //$("#cluster_coloring_index").show();
         // id属性値がcluster_から始まる要素を全て取得
         let elements = $("[id^='cluster_']");
         
@@ -766,7 +766,14 @@ $(function(){
                     }
                 });
             });
-            $("#cluster_coloring_index").addClass("hidden_");
+            // id属性値がcluster_から始まる要素を全て取得
+            var elements = $("[id^='cluster_']");
+            
+            // 取得した要素のtextを空にする
+            elements.text("");
+
+            //$("#cluster_coloring_index").hide();
+            
         });
     });
     })

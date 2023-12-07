@@ -30,6 +30,10 @@
         cursor: pointer;
     }
 }
+
+#cluster_coloring_index {
+    display: none;
+}
     
 button:active{
     color: white;
