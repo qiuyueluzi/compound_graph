@@ -113,16 +113,6 @@ $(function(){
                     onClickFunction: (event) => {
                         event.target.trigger("doubleTap", event);
                     }
-                },
-                {
-                    id: "Highlight Same Cluster Nodes",
-                    content: "Highlight Same Cluster Nodes",
-                    tooltipText: "Highlight Same Cluster Nodes",
-                    selector: 'node',
-                    onClickFunction: (event) => {
-                        event.target.trigger("coloring", event);
-                    },
-                    hasTrailingDivider: true,
                 }
             ],
         });
@@ -590,12 +580,10 @@ $(function(){
         if(id2relatedElements.get(e.target.id()).isParent){
             contextMenu.showMenuItem('open/close')
             contextMenu.hideMenuItem('Go to Source Code')
-            contextMenu.hideMenuItem('Highlight Same Cluster Nodes')
         }
         else {
             contextMenu.hideMenuItem('open/close')
             contextMenu.showMenuItem('Go to Source Code')
-            contextMenu.showMenuItem('Highlight Same Cluster Nodes')
         }
     })
 
