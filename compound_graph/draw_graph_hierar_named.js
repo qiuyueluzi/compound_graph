@@ -322,6 +322,7 @@ $(function(){
     cy.on("zoom", function(e){
         fontsize(common);
     })
+    cy.nodes().lock();
     
     /* 検索機能の追加 */
     // 全ノード名の取得
@@ -739,6 +740,13 @@ $(function(){
             $("#contextmenu").hide();
         }
     });
+
+    $("#lock").click(function(){
+        if(cy.nodes()[0].locked()){
+            cy.nodes().unlock();
+        }
+        else cy.nodes().lock();
+    })
     
 
     // resetボタンでグラフを初期状態に戻す
@@ -785,7 +793,7 @@ function reset_elements_style(cy) {
         all_class_names.push("selected_descendants" + i);
     }
     cy.elements().removeClass(all_class_names);
-    cy.nodes().unlock();
+    //cy.nodes().unlock();
 }
 
 

@@ -18,6 +18,14 @@
     resize: horizontal;
 }
 
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+summary:hover{
+    font-weight: bold;
+}
+
 #contextmenu {
     display: none;
     position: fixed;
