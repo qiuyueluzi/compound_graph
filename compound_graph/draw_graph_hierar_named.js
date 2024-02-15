@@ -387,7 +387,7 @@ $(function(){
 
     
     // 同じ親を持つノードをフィルタリングします
-    up = 0;
+    /*up = 0;
     edgecount = 0;
     cy.edges().forEach(edge => {
         var sourceNode = edge.source();  // エッジの始点を取得
@@ -401,6 +401,45 @@ $(function(){
         }
     });
     console.log(up/edgecount)
+    // グラフのエッジの配列を取得
+    var edges = cy.edges();
+    
+    
+    // エッジの交差数を初期化
+    var crossingCount = 0;
+    
+    // エッジのペアに対してループ
+    for (var i = 0; i < edges.length; i++) {
+        for (var j = i + 1; j < edges.length; j++) {
+            // エッジの端点の座標を取得
+            var edge1 = edges[i];
+            var edge2 = edges[j];
+            var x1 = edge1.source().position("x");
+            var y1 = edge1.source().position("y");
+            var x2 = edge1.target().position("x");
+            var y2 = edge1.target().position("y");
+            var x3 = edge2.source().position("x");
+            var y3 = edge2.source().position("y");
+            var x4 = edge2.target().position("x");
+            var y4 = edge2.target().position("y");
+            
+            // 線分の交差判定のアルゴリズムを適用
+            var ta = (x3 - x4) * (y1 - y3) + (y3 - y4) * (x3 - x1);
+            var tb = (x3 - x4) * (y2 - y3) + (y3 - y4) * (x3 - x2);
+            var tc = (x1 - x2) * (y3 - y1) + (y1 - y2) * (x1 - x3);
+            var td = (x1 - x2) * (y4 - y1) + (y1 - y2) * (x1 - x4);
+            
+            // taとtbが異符号かつtcとtdが異符号なら交差している
+            if (ta * tb < 0 && tc * td < 0) {
+                crossingCount++;
+            }
+        }
+    }
+    
+    // エッジの交差数を出力
+    console.log("The number of edge crossings is " + crossingCount);*/
+    
+    
     
 
     let all_cluster_color = ["cluster_indigo", "cluster_cyan", "cluster_teal", "cluster_green", "cluster_olive", "cluster_sand", "cluster_rose", "cluster_wine", "cluster_purple"];
@@ -748,6 +787,22 @@ $(function(){
         else cy.nodes().lock();
     })
     
+    $("#edges").click(function(){
+        if($("#edges").val() == "show"){
+            cy.edges().forEach(edge => {
+                let sourceParent = edge.source().parent();
+                let targetParent = edge.target().parent();
+                if (sourceParent.empty() || targetParent.empty() || sourceParent.id() != targetParent.id()){
+                    edge.style({'visibility': 'hidden'});
+                }
+            });
+            $("#edges").val("hide");
+        }
+        else {
+            cy.edges().style({'visibility': 'visible'});
+            $("#edges").val("show");
+        }
+    })
 
     // resetボタンでグラフを初期状態に戻す
     $(document).ready(function(){

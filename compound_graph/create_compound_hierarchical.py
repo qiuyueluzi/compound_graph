@@ -1,17 +1,22 @@
 import json
 
 def adjust_directory_positions(allgraph_objects, directories):
-    # ディレクトリの上端と下端の座標を求める
+    # 重複したディレクトリを探すためディレクトリの上下端を取得
     top_positions = {}  # ディレクトリの上端のy座標を保持する辞書
     bottom_positions = {}  # ディレクトリの下端のy座標を保持する辞書
+    left_positions = {}  # ディレクトリの左端のx座標を保持する辞書
+    right_positions = {}  # ディレクトリの右端のx座標を保持する辞書
 
     for directory in directories:
         dir_id = directory['id']
         top_positions[dir_id] = float('inf')  # 初期値として十分に大きな値を設定
         bottom_positions[dir_id] = float('-inf')  # 初期値として十分に小さな値を設定
+        left_positions[dir_id] = float('inf')  # 初期値として十分に大きな値を設定
+        right_positions[dir_id] = float('-inf')  # 初期値として十分に小さな値を設定
 
     for obj in allgraph_objects['eleObjs']:
         if obj['group'] == 'nodes' and obj['data'].get('parent'):
+            node_position_x = obj['position']['x']
             node_position_y = obj['position']['y']
             node_directory = obj['data']['parent'].split("/")[1]
             if node_directory != "":
@@ -21,29 +26,46 @@ def adjust_directory_positions(allgraph_objects, directories):
                 if node_position_y > bottom_positions[node_directory] :
                     bottom_positions[node_directory] = node_position_y
 
-    same_level_directories = []
+                if node_position_x < left_positions[node_directory] :
+                    left_positions[node_directory] = node_position_x
+    
+                if node_position_x > right_positions[node_directory] :
+                    right_positions[node_directory] = node_position_x
 
-    for directory in directories:
-        dir_id = directory['id']
-        for compare_directory in directories:
-            compare_dir_id = compare_directory['id']
-            if dir_id != compare_dir_id:
-                if top_positions[dir_id] < top_positions[compare_dir_id] and bottom_positions[dir_id] > bottom_positions[compare_dir_id]:
-                    same_level_directories.append([dir_id, compare_dir_id])
+    # 重なっているディレクトリのペアを格納する配列を作る
+    overlapping_pairs = []  # 重なっているディレクトリのペアを格納する配列
 
+    for dir1 in directories:
+        for dir2 in directories:
+            if dir1 != dir2:  # 同じディレクトリでないことを確認
+                dir1_id = dir1['id']
+                dir2_id = dir2['id']
+                # ディレクトリの上下端と左右端の座標を取得
+                dir1_top = top_positions[dir1_id]
+                dir1_bottom = bottom_positions[dir1_id]
+                dir1_left = left_positions[dir1_id]
+                dir1_right = right_positions[dir1_id]
+                dir2_top = top_positions[dir2_id]
+                dir2_bottom = bottom_positions[dir2_id]
+                dir2_left = left_positions[dir2_id]
+                dir2_right = right_positions[dir2_id]
+                if (max(dir1_left, dir2_left) < min(dir1_right, dir2_right)) and (max(dir1_top, dir2_top) < min(dir1_bottom, dir2_bottom)):
+                    overlapping_pairs.append([dir1_id, dir2_id])
+                #if (dir1_top < dir2_top and dir1_bottom > dir2_bottom):
+                #    overlapping_pairs.append([dir1_id, dir2_id])
 
     # pairsのコピーを作成
-    pairs_copy = same_level_directories.copy()
+    pairs_list = overlapping_pairs.copy()
 
     # ペアの後者が同じであるペアを抽出して削除
-    for i in range(len(pairs_copy)):
-        for j in range(i + 1, len(pairs_copy)):
-            if j >= len(pairs_copy):
+    for i in range(len(pairs_list)):
+        for j in range(i + 1, len(pairs_list)):
+            if j >= len(pairs_list):
                 break
 
-            if pairs_copy[i][1] == pairs_copy[j][1]:
-                pair1 = pairs_copy[i]
-                pair2 = pairs_copy[j]
+            if pairs_list[i][1] == pairs_list[j][1]:
+                pair1 = pairs_list[i]
+                pair2 = pairs_list[j]
 
                 id_1 = pair1[0]
                 id_2 = pair1[1]
@@ -58,22 +80,18 @@ def adjust_directory_positions(allgraph_objects, directories):
                 diff2 = abs(obj_1["y"] - obj_2["y"])
 
                 if diff1 > diff2:
-                    pairs_copy.remove(pair1)
+                    pairs_list.remove(pair1)
                 else:
-                    pairs_copy.remove(pair2)
-
-
-    # (1)のリスト
-    list1 = pairs_copy
+                    pairs_list.remove(pair2)
 
     # ソート処理を追加
-    list1.sort(key=lambda x: top_positions[x[0]])
+    pairs_list.sort(key=lambda x: top_positions[x[0]])
 
     # (2)のリスト
     list2 = []
 
     # リストの結合と集合型を使って変換
-    for l in list1:
+    for l in pairs_list:
         # 結合する前に集合型に変換して重複を削除
         s = set(l)
         # 結合先のリストが空ならそのまま追加
@@ -156,6 +174,7 @@ def adjust_directory_positions(allgraph_objects, directories):
     for lst in list2:
         lst.sort(key=lambda dir_id: directories[next(i for i, d in enumerate(directories) if d["id"] == dir_id)]["x"])
     for level, list_x in enumerate(list2):
+        #重なったディレクトリの端同士の距離を求め，距離+1000移動させる
         for i in range(len(list_x) - 1):
             max_x = float('-inf')
             min_x = float('inf')
@@ -207,10 +226,34 @@ def adjust_directory_positions(allgraph_objects, directories):
                 parent_dir = obj['data']['parent'].split('/')[1]
                 if parent_dir in list_x:
                     obj['position']['x'] += shift
-
+    moved_directories = [item for sublist in list2 for item in sublist]
+    unique_ids = list(set(directory['id'] for directory in directories) - set(moved_directories))
+    print(unique_ids)
 
     return directories
 
+def syutoku(allgraph_objects, ):
+
+
+    for obj in allgraph_objects['eleObjs']:
+        if obj['group'] == 'nodes' and obj['data'].get('parent'):
+            node_position_y = obj['position']['y']
+            node_directory = obj['data']['parent'].split("/")[1]
+            if node_directory != "":
+                if node_position_y < top_positions[node_directory] :
+                    top_positions[node_directory] = node_position_y
+    
+                if node_position_y > bottom_positions[node_directory] :
+                    bottom_positions[node_directory] = node_position_y
+    for obj in allgraph_objects['eleObjs']:
+        if obj['group'] == 'nodes' and obj['data'].get("parent"):
+            parent_dir = obj['data']['parent'].split('/')[1]
+            if parent_dir == dir_id:
+                dir_x = obj['position']['x']
+                if dir_x > level_max_x:
+                    level_max_x = dir_x
+                if dir_x < level_min_x:
+                    level_min_x = dir_x
 
 
 
@@ -247,6 +290,5 @@ for n in range(len(directories)):
 
 # ノードの重なりを解消する
 adjust_directory_positions(allgraph_objects, directories)
-print(directories)
-with open('graph_attrs/graph_classHierar_1403.json', 'w') as f:
+with open('graph_attrs/graph_classHierar_1403_T.json', 'w') as f:
     json.dump(allgraph_objects, f, indent=4)
