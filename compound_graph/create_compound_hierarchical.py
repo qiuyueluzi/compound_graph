@@ -24,28 +24,8 @@ def adjust_directory_positions(allgraph_objects, directories):
 
     for directory in directories:
         dir_id = directory['id']
-        top_positions[dir_id] = float('inf')  # 初期値として十分に大きな値を設定
-        bottom_positions[dir_id] = float('-inf')  # 初期値として十分に小さな値を設定
-        left_positions[dir_id] = float('inf')  # 初期値として十分に大きな値を設定
-        right_positions[dir_id] = float('-inf')  # 初期値として十分に小さな値を設定
+        left_positions[dir_id], right_positions[dir_id], top_positions[dir_id], bottom_positions[dir_id] = get_area(allgraph_objects, dir_id)
 
-    for obj in allgraph_objects['eleObjs']:
-        if obj['group'] == 'nodes' and obj['data'].get('parent'):
-            node_position_x = obj['position']['x']
-            node_position_y = obj['position']['y']
-            node_directory = obj['data']['parent'].split("/")[1]
-            if node_directory != "":
-                if node_position_y < top_positions[node_directory] :
-                    top_positions[node_directory] = node_position_y
-    
-                if node_position_y > bottom_positions[node_directory] :
-                    bottom_positions[node_directory] = node_position_y
-
-                if node_position_x < left_positions[node_directory] :
-                    left_positions[node_directory] = node_position_x
-    
-                if node_position_x > right_positions[node_directory] :
-                    right_positions[node_directory] = node_position_x
 
     # 重なっているディレクトリのペアを格納する配列を作る
     overlapping_pairs = []  # 重なっているディレクトリのペアを格納する配列
@@ -65,18 +45,17 @@ def adjust_directory_positions(allgraph_objects, directories):
                 dir2_left = left_positions[dir2_id]
                 dir2_right = right_positions[dir2_id]
                 #if (max(dir1_left, dir2_left) < min(dir1_right, dir2_right)) and (max(dir1_top, dir2_top) < min(dir1_bottom, dir2_bottom)):
-                #    overlapping_pairs.append([dir1_id, dir2_id])
-                if (dir1_top < dir2_top and dir1_bottom > dir2_bottom):
+                if (dir1_top < dir2_top and dir1_bottom > dir2_bottom or dir2_top < dir1_top and dir2_bottom > dir1_bottom):
                     overlapping_pairs.append([dir1_id, dir2_id])
 
     # 以上を作りなおしたい　ifだけ残る
     gap_x = 1000
-    gap_y = 800
+    gap_y = 400
     all_directories_set = set(directory['id'] for directory in directories)
     all_directories = list(all_directories_set)
-    for i in range(len(all_directories)):
-        for j in range(i+1, len(all_directories)):
-            print()
+    #for i in range(len(all_directories)):
+    #    for j in range(i+1, len(all_directories)):
+    #        print()
 
     # pairsのコピーを作成
     pairs_list = overlapping_pairs.copy()
@@ -167,7 +146,7 @@ def adjust_directory_positions(allgraph_objects, directories):
 
 
         # list2[i+1]以降のノードの位置調整
-        offset = lowest_node_y - highest_node_y + 800
+        offset = lowest_node_y - highest_node_y + gap_y
 
         for obj in allgraph_objects['eleObjs']:
             if obj['group'] == 'nodes' and obj['data'].get('parent'):
@@ -215,7 +194,7 @@ def adjust_directory_positions(allgraph_objects, directories):
                         if x < min_x:
                             min_x = x
 
-            distance = max_x + 1000 - min_x
+            distance = max_x + gap_x - min_x
 
             for obj in allgraph_objects['eleObjs']:
                 if obj['group'] == 'nodes' and obj['data'].get("parent"):
@@ -250,6 +229,7 @@ def adjust_directory_positions(allgraph_objects, directories):
                 parent_dir = obj['data']['parent'].split('/')[1]
                 if parent_dir in list_x:
                     obj['position']['x'] += shift
+
     moved_directories = [item for sublist in list2 for item in sublist]
     all_directories_set = set(directory['id'] for directory in directories)
     all_directories = list(all_directories_set)
